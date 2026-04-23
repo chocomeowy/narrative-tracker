@@ -72,12 +72,10 @@ def run_agent():
 
     # Upgraded to Gemma 4 (released April 2, 2026)
     models_to_try = [
-        "gemma-4-31b-it",
-        "gemma-3-27b-it",
-        "gemma-3-12b-it",
         "gemini-2.0-flash-exp",
         "gemini-1.5-flash-latest",
-        "gemini-1.5-pro-latest"
+        "gemma-4-31b-it",
+        "gemma-3-27b-it"
     ]
     
     res_json = {}
@@ -97,9 +95,14 @@ def run_agent():
             response = requests.post(url, headers=headers, json=payload, timeout=60)
             res_json = response.json()
             if "candidates" in res_json:
-                successful_model = model_id
-                print(f"Success using {model_id}")
-                break
+                text = res_json['candidates'][0]['content']['parts'][0]['text']
+                if '{' in text:
+                    successful_model = model_id
+                    print(f"Success using {model_id} (Found JSON)")
+                    break
+                else:
+                    print(f"Model {model_id} returned no JSON. Trying next...")
+                    continue
         except requests.exceptions.Timeout:
             print(f"Model {model_id} timed out. Trying next model...")
             continue

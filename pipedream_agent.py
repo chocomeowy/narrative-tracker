@@ -115,17 +115,22 @@ def handler(pd: "pipedream"):
         try:
             response = requests.post(url, headers=headers, json=payload, timeout=60)
             res_json = response.json()
+            
+            # If successful, check if it actually contains JSON
+            if "candidates" in res_json:
+                text = res_json['candidates'][0]['content']['parts'][0]['text']
+                if '{' in text:
+                    print(f"Success using {model_id} (Found JSON)")
+                    break
+                else:
+                    print(f"Model {model_id} returned no JSON. Trying next...")
+                    continue
         except requests.exceptions.Timeout:
             print(f"Model {model_id} timed out. Trying next model...")
             continue
         except Exception as e:
             print(f"Error calling {model_id}: {e}")
             continue
-        
-        # If successful, break
-        if "candidates" in res_json:
-            print(f"Success using {model_id}")
-            break
             
         # If rate limited (429) or model not found (404), log and try next model
         error_code = res_json.get('error', {}).get('code')
