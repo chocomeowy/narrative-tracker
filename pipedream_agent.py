@@ -69,13 +69,16 @@ def handler(pd: "pipedream"):
     past_state_summary = summarize_context(current_map)
     
     # 3. Gather New Intelligence
-    queries = steering.get("focus_areas", ["emerging technology"])
+    focus_areas = steering.get("focus_areas", ["emerging technology"])
     raw_intelligence = []
-    for q in queries[:3]: # Limit to 3 queries to save time/tokens
+    for q in focus_areas[:3]:
         raw_intelligence.extend(get_search_results(q))
     
-    # 4. Call Gemini 1.5 Flash (Pipedream built-in or direct API)
-    # This is a conceptual call to the Gemini API
+    # 4. Call Gemini 1.5 Flash
+    import google.generativeai as genai
+    genai.configure(api_key=GEMINI_API_KEY)
+    model = genai.GenerativeModel('gemini-1.5-flash')
+    
     prompt = f"""
     Role: Narrative Intelligence Officer
     Directives: {json.dumps(steering)}
@@ -83,13 +86,27 @@ def handler(pd: "pipedream"):
     New Raw Data: {json.dumps(raw_intelligence)}
     
     Task: Update the trend_map.json based on this new data.
-    Return ONLY the full JSON object.
+    - If a trend exists, update its stage/velocity.
+    - If a new trend is found, add it.
+    - Maintain historical accuracy.
+    - Return ONLY a valid JSON object matching the schema.
     """
     
-    # response = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}", ...)
-    # updated_map = response.json()...
+    response = model.generate_content(prompt)
     
-    # 5. Commit Back to GitHub
-    # update_github_file("trend_map.json", updated_map, sha, "Narrative Intelligence Update")
+    # Clean response (Gemini sometimes adds markdown blocks)
+    raw_response = response.text.strip()
+    if raw_response.startswith("```json"):
+        raw_response = raw_response.split("```json")[1].split("```")[0].strip()
     
-    return {"status": "Complete", "trends_count": len(current_map.get("trends", []))}
+    try:
+        updated_map = json.loads(raw_response)
+        # Ensure timestamp is current
+        from datetime import datetime
+        updated_map["last_updated"] = datetime.utcnow().isoformat() + "Z"
+        
+        # 5. Commit Back to GitHub
+        update_github_file("trend_map.json", updated_map, sha, "Narrative Intelligence Update")
+        return {"status": "Success", "trends": len(updated_map.get("trends", []))}
+    except Exception as e:
+        return {"status": "Error", "message": str(e), "raw": raw_response}
