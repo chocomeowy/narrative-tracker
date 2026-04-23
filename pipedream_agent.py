@@ -74,10 +74,7 @@ def handler(pd: "pipedream"):
     for q in focus_areas[:3]:
         raw_intelligence.extend(get_search_results(q))
     
-    # 4. Call Gemini 1.5 Flash (Direct REST API)
-    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
-    headers = {'Content-Type': 'application/json'}
-    
+    # 4. Call Gemini (Direct REST API)
     prompt_text = f"""
     Role: Narrative Intelligence Officer
     Directives: {json.dumps(steering)}
@@ -90,18 +87,29 @@ def handler(pd: "pipedream"):
     - Maintain historical accuracy.
     - Return ONLY a valid JSON object matching the schema.
     """
+
+    # Try Flash first, then fallback to Pro if not found
+    models_to_try = ["gemini-1.5-flash-latest", "gemini-1.5-flash", "gemini-pro"]
+    res_json = {}
     
-    payload = {
-        "contents": [{
-            "parts": [{"text": prompt_text}]
-        }]
-    }
-    
-    response = requests.post(url, headers=headers, json=payload)
-    res_json = response.json()
-    
+    for model_id in models_to_try:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_id}:generateContent?key={GEMINI_API_KEY}"
+        headers = {'Content-Type': 'application/json'}
+        payload = {
+            "contents": [{
+                "parts": [{"text": prompt_text}]
+            }]
+        }
+        
+        response = requests.post(url, headers=headers, json=payload)
+        res_json = response.json()
+        
+        if "candidates" in res_json:
+            break
+        print(f"Model {model_id} failed: {res_json.get('error', {}).get('message', 'Unknown error')}")
+
     if "candidates" not in res_json:
-        return {"status": "Error", "message": "Gemini API Error", "details": res_json}
+        return {"status": "Error", "message": "Gemini API Error (All models failed)", "details": res_json}
         
     raw_response = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
     if raw_response.startswith("```json"):
