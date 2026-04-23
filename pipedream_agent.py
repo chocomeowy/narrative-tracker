@@ -104,14 +104,14 @@ def handler(pd: "pipedream"):
     Past State Snapshot: {json_lib.dumps(past_state_summary)}
     New Raw Data: {json_lib.dumps(raw_intelligence)}
     
-    Task: Update the trend_map.json based on this new data.
-    - IMPORTANT: For any NEW trends you find, you MUST provide a 'summary' (1-2 sentences) and 'evidence' (sources).
-    - For existing trends in the snapshot, update their 'stage' and 'velocity' if the data suggests a change.
-    - Do not remove trends from the list unless they are truly 'Fatigue' or dead.
-    - Return ONLY a valid JSON object matching the schema.
-    - DO NOT include any preamble, thinking process, or explanation. 
-    - Just the JSON.
-    - YOUR FIRST CHARACTER MUST BE '{{' AND YOUR LAST CHARACTER MUST BE '}}'.
+    Task: Perform a deep analysis and update the narrative intelligence.
+    
+    1. Executive Briefing: Write a 2-3 paragraph summary of the latest trend shifts based on the New Raw Data.
+    
+    2. Data Update: At the end of your response, provide the updated trend_map JSON in a strict block:
+       ```json
+       { "trends": [...] }
+       ```
     """
 
     # Upgraded to Gemma 4 26B (MoE)
@@ -180,9 +180,24 @@ def handler(pd: "pipedream"):
     if "candidates" not in res_json:
         return {"status": "Error", "message": "Gemini API Error (All models exhausted or failed)", "details": res_json}
         
-    raw_response = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
-    
-    # Find the first '{' to start decoding
+    # 5. Save Narrative Briefing to GitHub
+    briefing_path = "trend_briefing.md"
+    briefing_sha = None
+    # Try to get existing SHA if it exists
+    try:
+        url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{briefing_path}"
+        headers = {"Authorization": f"token {GITHUB_TOKEN}"}
+        r = requests.get(url, headers=headers)
+        if r.status_code == 200:
+            briefing_sha = r.json()['sha']
+    except:
+        pass
+        
+    briefing_content = f"# Narrative Intelligence Briefing - {datetime.utcnow().strftime('%Y-%m-%d %H:%M')}\n\n" + raw_response
+    update_github_file(briefing_path, briefing_content, briefing_sha, "Update Narrative Briefing")
+    print("Updated trend_briefing.md on GitHub")
+
+    # 6. Extract JSON for Map
     start_index = raw_response.find('{')
     if start_index != -1:
         try:

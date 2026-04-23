@@ -82,18 +82,18 @@ def run_agent():
     Current Trends: {json_lib.dumps(current_map)}
     New Intel: {json_lib.dumps(raw_intel)}
     
-    Task: Update the Crypto Intelligence Map.
-    - Focus heavily on the BTC/ETH relationship and the impact of the Clarity Act.
-    - Discover new sub-narratives (e.g. Stacks/Clarity development, ETH restaking).
-    - DO NOT return an empty 'trends' list unless there is absolutely zero new data.
-    - Return ONLY a valid JSON object matching this structure:
-      {{
-        "trends": [
-          {{ "name": "Trend Name", "stage": "...", "velocity": "...", "summary": "...", "evidence": "..." }}
-        ]
-      }}
-    - DO NOT include any preamble, thinking process, or explanation.
-    - YOUR FIRST CHARACTER MUST BE '{{' AND YOUR LAST CHARACTER MUST BE '}}'.
+    Task: Perform a deep analysis and update the intelligence map.
+    
+    1. Executive Briefing: Write a concise, 2-3 paragraph summary of the latest crypto narrative shifts, focusing on the BTC/ETH dynamic and the Clarity Act's impact.
+    
+    2. Data Update: At the end of your response, provide the updated trends in a strict JSON block:
+       ```json
+       {{
+         "trends": [
+           {{ "name": "Trend Name", "stage": "...", "velocity": "...", "summary": "...", "evidence": "..." }}
+         ]
+       }}
+       ```
     """
 
     # Upgraded to Gemma 4 (released April 2, 2026)
@@ -147,7 +147,13 @@ def run_agent():
 
     raw_response = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
     
-    # Find the first '{' to start decoding
+    # 4. Save Markdown Briefing
+    with open("crypto_briefing.md", "w") as f:
+        f.write(f"# Crypto Intelligence Briefing - {datetime.utcnow().strftime('%Y-%m-%d %H:%M')}\n\n")
+        f.write(raw_response)
+    print("Saved crypto_briefing.md")
+
+    # 5. Extract JSON for Map
     start_index = raw_response.find('{')
     if start_index != -1:
         try:
