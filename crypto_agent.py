@@ -66,14 +66,11 @@ def run_agent():
     - Return ONLY a valid JSON object matching the schema.
     """
 
-    # Primary models: Gemma 2, Fallback: Gemini Flash
+    # Focusing strictly on Gemma models as requested
     models_to_try = [
-        "gemini-1.5-flash-latest",
-        "gemini-1.5-flash",
-        "gemini-1.5-flash-8b",
-        "gemini-1.5-pro",
         "gemma-2-27b-it",
-        "gemma-2-9b-it"
+        "gemma-2-9b-it",
+        "gemma-7b-it"
     ]
     
     res_json = {}
