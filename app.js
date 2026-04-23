@@ -10,6 +10,8 @@ function setupTabs() {
     const tabBtns = document.querySelectorAll('.tab-btn');
     tabBtns.forEach(btn => {
         btn.addEventListener('click', async () => {
+            if (btn.classList.contains('active')) return;
+            
             // UI Update
             tabBtns.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
@@ -26,25 +28,35 @@ function setupTabs() {
 
 async function loadData() {
     try {
+        console.log(`Fetching data from: ${currentDataSource}`);
         const trendResponse = await fetch(currentDataSource);
+        
+        if (!trendResponse.ok) {
+            throw new Error(`Failed to load ${currentDataSource}: ${trendResponse.status}`);
+        }
+        
         const trendData = await trendResponse.json();
         
-        // Use default steering for global, and crypto_steering for crypto
         const steeringFile = currentDataSource === 'trend_map.json' ? 'steering.json' : 'crypto_steering.json';
         const steeringResponse = await fetch(steeringFile);
-        const steeringData = await steeringResponse.json();
+        let steeringData = {};
+        if (steeringResponse.ok) {
+            steeringData = await steeringResponse.json();
+        }
 
         const trends = trendData.trends || trendData.active_trends || [];
 
         if (trends.length === 0) {
-            console.log("No trends found, showing mock data.");
+            console.log("Empty data, showing placeholder.");
             showPlaceholder(steeringData);
         } else {
             renderDashboard(trendData, steeringData, trends);
         }
     } catch (error) {
-        console.error("Error loading data:", error);
-        // If crypto file doesn't exist yet, show placeholder
+        console.error("Data loading error:", error);
+        // Show placeholder with a notification
+        const lastUpdatedEl = document.getElementById('last-updated');
+        if (lastUpdatedEl) lastUpdatedEl.innerText = "Agent is warming up... showing projected trends.";
         showPlaceholder();
     }
 }
@@ -54,7 +66,9 @@ function renderDashboard(data, steering, trends) {
     const countTotalEl = document.getElementById('count-total');
     const currentFocusEl = document.getElementById('current-focus');
 
-    if (lastUpdatedEl) lastUpdatedEl.innerText = `Last Updated: ${new Date(data.last_updated).toLocaleString()}`;
+    if (lastUpdatedEl && data.last_updated) {
+        lastUpdatedEl.innerText = `Last Updated: ${new Date(data.last_updated).toLocaleString()}`;
+    }
     if (countTotalEl) countTotalEl.innerText = trends.length;
     if (currentFocusEl) currentFocusEl.innerText = currentFocusLabel;
 
@@ -91,10 +105,14 @@ function createTrendCard(trend) {
     const velocity = trend.velocity || "Stable";
     const confidence = trend.confidence || 0.8;
     
-    const isHighVelocity = velocity.includes('+') || velocity.toLowerCase().includes('accelerating');
+    const isHighVelocity = velocity.toString().includes('+') || velocity.toString().toLowerCase().includes('accelerating');
     if (isHighVelocity) card.classList.add('high-velocity');
 
-    const velocityClass = (velocity.startsWith('+') || velocity.toLowerCase().includes('accelerating')) ? 'velocity-up' : (velocity.startsWith('-') ? 'velocity-down' : '');
+    const velocityClass = (velocity.toString().startsWith('+') || velocity.toString().toLowerCase().includes('accelerating')) ? 'velocity-up' : (velocity.toString().startsWith('-') ? 'velocity-down' : '');
+
+    // Robust evidence extraction
+    const evidence = trend.evidence || trend.keywords || [];
+    const evidenceList = Array.isArray(evidence) ? evidence : [evidence];
 
     card.innerHTML = `
         <div class="trend-header">
@@ -103,7 +121,7 @@ function createTrendCard(trend) {
         </div>
         <p class="trend-summary">${summary}</p>
         <div class="evidence-list">
-            ${(trend.evidence || trend.keywords || []).map(e => `<div class="evidence-item">${e}</div>`).join('')}
+            ${evidenceList.map(e => `<div class="evidence-item">${e}</div>`).join('')}
         </div>
         <div class="trend-footer">
             <div>Confidence: ${Math.round(confidence * 100)}%</div>
