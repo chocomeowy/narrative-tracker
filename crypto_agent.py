@@ -11,7 +11,7 @@ def get_search_results(query):
     try:
         from ddgs import DDGS
         with DDGS() as ddgs:
-            results = [r.get('body', '') for r in ddgs.text(query, max_results=5)]
+            results = [r.get('body', '') for r in ddgs.text(query, max_results=15)]
             return results
     except Exception as e:
         print(f"Search error for {query}: {e}")
@@ -54,16 +54,17 @@ def run_agent():
     
     # 4. Call Gemma via Gemini API
     prompt_text = f"""
-    Role: Specialist Crypto Intelligence Officer
+    Role: Specialist Crypto Intelligence Officer (BTC, ETH, Clarity)
     Directives: {json.dumps(steering)}
     Past State Snapshot: {json.dumps(past_state_summary)}
     New Raw Data: {json.dumps(raw_intelligence)}
     
     Task: Update the crypto_trend_map.json based on this new data.
-    - Focus strictly on BTC, ETH, and the Clarity/Stacks ecosystem.
-    - Identify shifts in narrative velocity.
-    - Provide 'summary' and 'evidence' for all trends.
-    - Return ONLY a valid JSON object matching the schema.
+    - Focus strictly on BTC, ETH, and the Clarity Act / Clarity language.
+    - If you find ANY signals of news, sentiment shifts, or technical updates, ADD them as trends.
+    - DO NOT return an empty 'trends' list unless there is absolutely zero new data.
+    - For each trend, provide a 'name', 'stage' (Incubation, Breakthrough, Peak Hype, Fatigue), 'velocity', 'summary', and 'evidence'.
+    - Return ONLY a valid JSON object.
     """
 
     # Upgraded to Gemma 3 (released March 2025)

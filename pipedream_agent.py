@@ -41,7 +41,7 @@ def get_search_results(query):
     try:
         from duckduckgo_search import DDGS
         with DDGS() as ddgs:
-            results = [r['body'] for r in ddgs.text(query, max_results=5)]
+            results = [r['body'] for r in ddgs.text(query, max_results=15)]
             return results
     except Exception as e:
         print(f"Search error for {query}: {e}")
