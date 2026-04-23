@@ -72,10 +72,10 @@ def run_agent():
 
     # Upgraded to Gemma 4 (released April 2, 2026)
     models_to_try = [
-        "gemini-2.0-flash-exp",
-        "gemini-1.5-flash-latest",
         "gemma-4-31b-it",
-        "gemma-3-27b-it"
+        "gemma-3-27b-it",
+        "gemini-2.0-flash-exp",
+        "gemini-1.5-flash-latest"
     ]
     
     res_json = {}
