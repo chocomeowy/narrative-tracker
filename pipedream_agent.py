@@ -111,7 +111,7 @@ def handler(pd: "pipedream"):
         }
         
         try:
-            response = requests.post(url, headers=headers, json=json_lib.dumps(payload), timeout=60)
+            response = requests.post(url, headers=headers, json=payload, timeout=60)
             res_json = response.json()
         except requests.exceptions.Timeout:
             print(f"Model {model_id} timed out. Trying next model...")

@@ -87,7 +87,7 @@ def run_agent():
         }
         
         try:
-            response = requests.post(url, headers=headers, json=json_lib.dumps(payload), timeout=60)
+            response = requests.post(url, headers=headers, json=payload, timeout=60)
             res_json = response.json()
             if "candidates" in res_json:
                 successful_model = model_id
