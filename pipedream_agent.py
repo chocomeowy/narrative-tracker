@@ -137,6 +137,7 @@ def handler(pd: "pipedream"):
     if "candidates" not in res_json:
         return {"status": "Error", "message": "Gemini API Error (All models exhausted or failed)", "details": res_json}
         
+    raw_response = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
     import re
     # Find the JSON block even if there is preamble/thinking
     json_match = re.search(r'\{.*\}', raw_response, re.DOTALL)
