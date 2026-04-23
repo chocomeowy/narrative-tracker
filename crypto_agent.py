@@ -67,12 +67,11 @@ def run_agent():
     - Return ONLY a valid JSON object.
     """
 
-    # Upgraded to Gemma 3 (released March 2025)
+    # Upgraded to Gemma 4 (released April 2, 2026)
     models_to_try = [
+        "gemma-4-31b-it",
         "gemma-3-27b-it",
-        "gemma-3-12b-it",
-        "gemma-3-4b-it",
-        "gemma-2-27b-it"
+        "gemma-3-12b-it"
     ]
     
     res_json = {}

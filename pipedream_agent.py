@@ -89,14 +89,11 @@ def handler(pd: "pipedream"):
     - Return ONLY a valid JSON object matching the schema.
     """
 
-    # Try the latest available models from your region
-    # Prioritizing Gemini 3 Flash, then 2.5, then 2.0, with Gemma as a high-limit fallback
+    # Upgraded to Gemma 4 (April 2026)
     models_to_try = [
+        "gemma-4-31b-it",
         "gemini-3-flash-preview", 
-        "gemini-2.5-flash", 
-        "gemini-2.0-flash", 
-        "gemma-3-27b-it",
-        "gemini-flash-latest"
+        "gemini-1.5-flash-latest"
     ]
     res_json = {}
     
