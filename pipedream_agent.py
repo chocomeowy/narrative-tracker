@@ -171,6 +171,6 @@ def handler(pd: "pipedream"):
         
         # 6. Commit Back to GitHub
         update_github_file("trend_map.json", updated_map, sha, "Narrative Intelligence Update")
-        return {"status": "Success", "trends": len(final_trends)}
+        return {"status": "Success", "trends": len(updated_map["trends"])}
     except Exception as e:
         return {"status": "Error", "message": str(e), "raw": raw_response}
