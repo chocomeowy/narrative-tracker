@@ -2,6 +2,7 @@ import requests
 import json as json_lib
 import os
 import re
+import sys
 from datetime import datetime
 
 # Configuration (GitHub Secrets)
@@ -46,6 +47,7 @@ def get_search_results(query):
 
 def run_agent():
     print("Starting Crypto Narrative Intelligence Agent...")
+    sys.stdout.flush()
     
     # 1. Load Current State
     current_map = fetch_current_state()
@@ -61,6 +63,7 @@ def run_agent():
     raw_intel = []
     for q in queries:
         print(f"Searching for: {q}")
+        sys.stdout.flush()
         raw_intel.extend(get_search_results(q))
 
     # 3. Reasoning with Gemini

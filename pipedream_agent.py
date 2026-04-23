@@ -3,6 +3,7 @@ import json as json_lib
 import os
 import base64
 import re
+import sys
 from datetime import datetime
 
 # Configuration (Use Pipedream Env Variables)
@@ -135,9 +136,11 @@ def handler(pd: "pipedream"):
                 text = res_json['candidates'][0]['content']['parts'][0]['text']
                 if '{' in text:
                     print(f"Success using {model_id} (Found JSON)")
+                    sys.stdout.flush()
                     break
                 else:
                     print(f"Model {model_id} returned NO JSON structure. Text: {text[:100]}...")
+                    sys.stdout.flush()
                     continue
             else:
                 print(f"Model {model_id} API Error: {res_json.get('error', {}).get('message', 'No candidates')}")

@@ -28,7 +28,7 @@ jobs:
       - name: Run Crypto Agent
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python crypto_agent.py
+        run: python3 crypto_agent.py
 
       - name: Commit and Push Changes
         run: |
