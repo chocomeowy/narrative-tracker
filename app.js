@@ -6,11 +6,14 @@ async function init() {
         const steeringResponse = await fetch('steering.json');
         const steeringData = await steeringResponse.json();
 
-        if (!trendData.trends || trendData.trends.length === 0) {
+        // Support both 'trends' and 'active_trends'
+        const trends = trendData.trends || trendData.active_trends || [];
+
+        if (trends.length === 0) {
             console.log("No trends found, showing mock data.");
             showPlaceholder(steeringData);
         } else {
-            renderDashboard(trendData, steeringData);
+            renderDashboard(trendData, steeringData, trends);
         }
     } catch (error) {
         console.error("Error loading data, showing mock data:", error);
@@ -18,31 +21,38 @@ async function init() {
     }
 }
 
-function renderDashboard(data, steering) {
+function renderDashboard(data, steering, trends) {
     // Update Header
     const lastUpdatedEl = document.getElementById('last-updated');
     const countTotalEl = document.getElementById('count-total');
     const currentFocusEl = document.getElementById('current-focus');
 
     if (lastUpdatedEl) lastUpdatedEl.innerText = `Last Updated: ${new Date(data.last_updated).toLocaleString()}`;
-    if (countTotalEl) countTotalEl.innerText = data.trends.length;
+    if (countTotalEl) countTotalEl.innerText = trends.length;
     if (currentFocusEl) currentFocusEl.innerText = steering && steering.focus_areas ? steering.focus_areas[0] : "Global Tech";
 
     // Clear sections
-    const stages = ['incubation', 'breakthrough', 'peak-hype', 'fatigue'];
+    const stages = ['incubation', 'breakthrough', 'peak-hype', 'fatigue', 'emerging', 'developing'];
     stages.forEach(stage => {
         const el = document.getElementById(`${stage}-trends`);
         if (el) el.innerHTML = '';
     });
 
-    data.trends.forEach(trend => {
+    trends.forEach(trend => {
         const card = createTrendCard(trend);
-        const stageKey = trend.stage.toLowerCase().replace(' ', '-');
+        let stageKey = (trend.stage || 'incubation').toLowerCase().replace(' ', '-');
+        
+        // Map AI stages to CSS stages if needed
+        if (stageKey === 'emerging') stageKey = 'incubation';
+        if (stageKey === 'developing') stageKey = 'breakthrough';
+
         const section = document.getElementById(`${stageKey}-trends`);
         if (section) {
             section.appendChild(card);
         } else {
-            console.warn(`No section found for stage: ${stageKey}`);
+            // Fallback to incubation if stage is unknown
+            const incubationSection = document.getElementById('incubation-trends');
+            if (incubationSection) incubationSection.appendChild(card);
         }
     });
 }
@@ -51,28 +61,32 @@ function createTrendCard(trend) {
     const card = document.createElement('div');
     card.className = 'trend-card';
     
-    // Safety checks for missing velocity
+    // Support name/title and summary/description
+    const name = trend.name || trend.title || "Unknown Trend";
+    const summary = trend.summary || trend.description || "No summary available.";
     const velocity = trend.velocity || "Stable";
-    const isHighVelocity = velocity.includes('+') && parseInt(velocity.replace('+', '')) > 20;
+    const confidence = trend.confidence || 0.8; // Default if missing
+    
+    const isHighVelocity = velocity.includes('+') || velocity.toLowerCase().includes('accelerating');
     if (isHighVelocity) card.classList.add('high-velocity');
 
-    const velocityClass = velocity.startsWith('+') ? 'velocity-up' : (velocity.startsWith('-') ? 'velocity-down' : '');
+    const velocityClass = (velocity.startsWith('+') || velocity.toLowerCase().includes('accelerating')) ? 'velocity-up' : (velocity.startsWith('-') ? 'velocity-down' : '');
 
     card.innerHTML = `
         <div class="trend-header">
-            <div class="trend-name">${trend.name}</div>
+            <div class="trend-name">${name}</div>
             <div class="trend-velocity ${velocityClass}">${velocity}</div>
         </div>
-        <p class="trend-summary">${trend.summary || 'No summary available.'}</p>
+        <p class="trend-summary">${summary}</p>
         <div class="evidence-list">
-            ${(trend.evidence || []).map(e => `<div class="evidence-item">${e}</div>`).join('')}
+            ${(trend.evidence || trend.keywords || []).map(e => `<div class="evidence-item">${e}</div>`).join('')}
         </div>
         <div class="trend-footer">
-            <div>Confidence: ${Math.round((trend.confidence || 0) * 100)}%</div>
+            <div>Confidence: ${Math.round(confidence * 100)}%</div>
             <div class="confidence-bar">
-                <div class="confidence-fill" style="width: ${(trend.confidence || 0) * 100}%"></div>
+                <div class="confidence-fill" style="width: ${confidence * 100}%"></div>
             </div>
-            <div>Seen: ${trend.first_seen || 'N/A'}</div>
+            <div>Observed: ${trend.first_seen || trend.last_observed || 'Recent'}</div>
         </div>
     `;
     return card;

@@ -89,7 +89,7 @@ def handler(pd: "pipedream"):
     """
 
     # Try the latest available models from your region
-    models_to_try = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-flash-latest"]
+    models_to_try = ["gemini-2.5-flash", "gemini-3-flash-preview", "gemini-2.0-flash", "gemini-flash-latest"]
     res_json = {}
     
     for model_id in models_to_try:
@@ -104,12 +104,28 @@ def handler(pd: "pipedream"):
         response = requests.post(url, headers=headers, json=payload)
         res_json = response.json()
         
+        # If successful, break
         if "candidates" in res_json:
+            print(f"Success using {model_id}")
             break
-        print(f"Model {model_id} failed: {res_json.get('error', {}).get('message', 'Unknown error')}")
+            
+        # If rate limited (429) or model not found (404), log and try next model
+        error_code = res_json.get('error', {}).get('code')
+        error_msg = res_json.get('error', {}).get('message', 'Unknown error')
+        
+        if error_code == 429:
+            print(f"Rate limit hit for {model_id}. Switching to next model...")
+            continue
+        elif error_code == 404:
+            print(f"Model {model_id} not found. Skipping...")
+            continue
+        else:
+            print(f"Model {model_id} failed with error {error_code}: {error_msg}")
+            # For other errors, we still try the next model just in case
+            continue
 
     if "candidates" not in res_json:
-        return {"status": "Error", "message": "Gemini API Error (All models failed)", "details": res_json}
+        return {"status": "Error", "message": "Gemini API Error (All models exhausted or failed)", "details": res_json}
         
     raw_response = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
     if raw_response.startswith("```json"):
