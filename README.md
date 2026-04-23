@@ -20,10 +20,9 @@ This project uses a **Cron + AI** pipeline to maintain an "Evolving Memory" of g
 2. Generate a new token with `repo` scope.
 3. Save this token for Pipedream.
 
-### 2. Search API (SerpApi or Brave Search)
-- **SerpApi**: Sign up at [serpapi.com](https://serpapi.com/) and get your API key.
-- **Brave Search**: Alternatively, use Brave Search API.
-- Note: The current `pipedream_agent.py` uses placeholders for these.
+### 2. Search API (Free Alternative: DuckDuckGo)
+- **DuckDuckGo (Recommended)**: The script is now set up to use `duckduckgo-search`. It's completely free and doesn't require an API key, which is perfect for hourly runs.
+- **SerpApi/Brave**: You can still use these, but you'll need to update the `get_search_results` function.
 
 ### 3. Gemini API
 1. Get an API key from [Google AI Studio](https://aistudio.google.com/).

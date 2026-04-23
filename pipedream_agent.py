@@ -33,11 +33,18 @@ def update_github_file(path, content_obj, sha, message):
     requests.put(url, headers=headers, json=data)
 
 def get_search_results(query):
-    # Example for SerpApi
-    # params = {"q": query, "api_key": SEARCH_API_KEY}
-    # r = requests.get("https://serpapi.com/search", params=params)
-    # return r.json().get("organic_results", [])
-    return [f"Sample search result for {query}"]
+    """
+    Uses DuckDuckGo Search (Free, no API key required).
+    Install 'duckduckgo-search' in Pipedream if needed.
+    """
+    try:
+        from duckduckgo_search import DDGS
+        with DDGS() as ddgs:
+            results = [r['body'] for r in ddgs.text(query, max_results=5)]
+            return results
+    except Exception as e:
+        print(f"Search error for {query}: {e}")
+        return [f"Error fetching data for {query}"]
 
 def summarize_context(trend_map):
     """Reduces the trend_map to a snapshot to save Gemini tokens."""
