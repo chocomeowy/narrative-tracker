@@ -21,7 +21,7 @@ def fetch_current_state():
 
 def get_search_results(query):
     try:
-        from duckduckgo_search import DDGS
+        from ddgs import DDGS
         with DDGS() as ddgs:
             results = [r['body'] for r in ddgs.text(query, max_results=10)]
             return results
@@ -73,7 +73,10 @@ def run_agent():
     models_to_try = [
         "gemma-4-31b-it",
         "gemma-3-27b-it",
-        "gemma-3-12b-it"
+        "gemma-3-12b-it",
+        "gemini-2.0-flash-exp",
+        "gemini-1.5-flash-latest",
+        "gemini-1.5-pro-latest"
     ]
     
     res_json = {}

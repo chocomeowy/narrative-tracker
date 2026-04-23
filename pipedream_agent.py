@@ -38,7 +38,7 @@ def get_search_results(query):
     Install 'duckduckgo-search' in Pipedream if needed.
     """
     try:
-        from duckduckgo_search import DDGS
+        from ddgs import DDGS
         with DDGS() as ddgs:
             results = [r['body'] for r in ddgs.text(query, max_results=5)]
             return results
