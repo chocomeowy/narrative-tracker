@@ -12,17 +12,25 @@ GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 SEARCH_API_KEY = os.environ.get("SEARCH_API_KEY")
 
 def repair_json(s):
-    # Find the first '{' and last '}'
-    start = s.find('{')
-    end = s.rfind('}')
-    if start == -1 or end == -1:
-        return s
-    s = s[start:end+1]
-    # Replace single quotes with double quotes (basic)
-    # Note: This is risky if values contain single quotes, but common for AI mistakes
+    # Find markdown blocks if present
+    md_match = re.search(r'```json\s*(.*?)\s*```', s, re.DOTALL)
+    if md_match:
+        s = md_match.group(1)
+    else:
+        # Otherwise find first '{' and last '}'
+        start = s.find('{')
+        end = s.rfind('}')
+        if start != -1 and end != -1:
+            s = s[start:end+1]
+            
+    # Fix single quotes around keys/values
     s = re.sub(r"'(.*?)'", r'"\1"', s)
     # Fix unquoted keys
     s = re.sub(r'([{,])\s*([a-zA-Z0-9_]+)\s*:', r'\1"\2":', s)
+    # Fix Python-style True/False/None
+    s = s.replace(': True', ': true').replace(': False', ': false').replace(': None', ': null')
+    # Fix trailing commas in arrays/objects
+    s = re.sub(r',\s*([\]}])', r'\1', s)
     return s
 
 def fetch_current_state():
