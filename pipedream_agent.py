@@ -40,7 +40,7 @@ def get_search_results(query):
     try:
         from duckduckgo_search import DDGS
         with DDGS() as ddgs:
-            results = [r['body'] for r in ddgs.text(query, max_results=8)]
+            results = [r['body'] for r in ddgs.text(query, max_results=5)]
             return results
     except Exception as e:
         print(f"Search error for {query}: {e}")
@@ -71,7 +71,7 @@ def handler(pd: "pipedream"):
     # 3. Gather New Intelligence
     focus_areas = steering.get("focus_areas", ["emerging technology"])
     raw_intelligence = []
-    for q in focus_areas[:3]:
+    for q in focus_areas[:2]:
         raw_intelligence.extend(get_search_results(q))
     
     # 4. Call Gemini (Direct REST API)
@@ -110,7 +110,7 @@ def handler(pd: "pipedream"):
             }]
         }
         
-        response = requests.post(url, headers=headers, json=payload)
+        response = requests.post(url, headers=headers, json=payload, timeout=25)
         res_json = response.json()
         
         # If successful, break
