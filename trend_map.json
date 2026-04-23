@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-23T08:41:41.141214Z",
+  "last_updated": "2026-04-23T08:53:23.509128Z",
   "trends": [
     {
       "id": "agentic-mesh-protocols",
@@ -57,8 +57,11 @@
       "name": "Open Source LLM Infrastructure & Deployment",
       "stage": "Growth",
       "velocity": "High",
-      "summary": "The maturation of the 'vLLM and Triton' stack, enabling enterprises to deploy open-source models with performance parity to proprietary APIs.",
-      "evidence": "Consistent week-over-week growth in 'vLLM' GitHub forks and the proliferation of specialized Docker images for multi-GPU serving."
+      "summary": "The ecosystem is shifting toward weights-available models like LLaMA and Mistral, prioritizing deployment flexibility and reducing reliance on closed-source providers.",
+      "evidence": [
+        "weights-available models have been gaining popularity, especially at first with BLOOM and LLaMA",
+        "Mistral AI's open-weight models"
+      ]
     },
     {
       "name": "Dzip Compression Technology",
@@ -71,18 +74,29 @@
       "name": "Agentic Reliability & Performance Benchmarking",
       "stage": "Growth",
       "velocity": "High",
-      "summary": "The move away from static LLM benchmarks toward dynamic environment testing where agents are scored on task completion, error recovery, and tool-call precision.",
-      "evidence": "Adoption of GAIA and AgentBench metrics in new model release cards and the launch of automated testing suites in agent frameworks like LangGraph."
+      "summary": "Development of specialized benchmarks to test autonomous agents on real-world reliability, guardrail adherence, and multi-step task execution rather than just conversational ability.",
+      "evidence": [
+        "tested 10 autonomous AI agents on scheduling, model flexibility, and real-world reliability",
+        "Compare the best autonomous AI agents: see how Lindy, Glean, Harvey... handle real work with guardrails"
+      ]
     },
     {
       "name": "Autonomous AI Agents - Enterprise Adoption",
       "stage": "Growth",
       "velocity": "High",
-      "summary": "Autonomous AI agents are rapidly moving beyond chatbots and gaining traction for enterprise applications due to their ability to reason and complete complex tasks. Multiple sources indicate increased testing and evaluation of agent platforms.",
+      "summary": "Enterprises are moving from rules-based automation to goal-oriented autonomous systems capable of planning and using external tools independently.",
       "evidence": [
-        "Apr 12, 2026 \u00b7 We tested 10 autonomous AI agents on scheduling, model flexibility, and real-world reliability. Here are the six worth your time.",
-        "Feb 18, 2026 \u00b7 Today, attention has shifted to the next evolution of generative AI: AI agents or agentic AI, a new breed of AI systems that are semi- or fully autonomous and thus able to perceive, reason, \u2026",
-        "Apr 13, 2026 \u00b7 In this article, I will help you understand what autonomous AI agents are and which ones are actually worth using in 2026."
+        "Companies use it to streamline operations, improve decision-making, and experience new levels of automation",
+        "establish goals, plan and perform multi-step actions, use external tools, and adapt to new situations"
+      ]
+    },
+    {
+      "name": "Multi-Metric LLM Performance Ranking",
+      "stage": "Growth",
+      "velocity": "High",
+      "summary": "The emergence of high-granularity comparison frameworks for over 100 LLMs based on tokens per second, latency, context window, and price-to-performance ratios.",
+      "evidence": [
+        "Comparison and ranking the performance of over 100 AI models (LLMs) across key metrics including intelligence, price, performance and speed"
       ]
     }
   ],
