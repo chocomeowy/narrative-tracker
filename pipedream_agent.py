@@ -89,7 +89,14 @@ def handler(pd: "pipedream"):
     """
 
     # Try the latest available models from your region
-    models_to_try = ["gemini-2.5-flash", "gemini-3-flash-preview", "gemini-2.0-flash", "gemini-flash-latest"]
+    # Prioritizing Gemini 3 Flash, then 2.5, then 2.0, with Gemma as a high-limit fallback
+    models_to_try = [
+        "gemini-3-flash-preview", 
+        "gemini-2.5-flash", 
+        "gemini-2.0-flash", 
+        "gemma-3-27b-it",
+        "gemini-flash-latest"
+    ]
     res_json = {}
     
     for model_id in models_to_try:
