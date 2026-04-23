@@ -74,8 +74,8 @@ def handler(pd: "pipedream"):
     for q in focus_areas[:3]:
         raw_intelligence.extend(get_search_results(q))
     
-    # 4. Call Gemini 1.5 Flash (Direct REST API to avoid dependency issues)
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
+    # 4. Call Gemini 1.5 Flash (Direct REST API)
+    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
     headers = {'Content-Type': 'application/json'}
     
     prompt_text = f"""
