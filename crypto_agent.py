@@ -105,19 +105,22 @@ def run_agent():
 
     raw_response = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
     import re
-    # Find the JSON block even if there is preamble/thinking
-    json_match = re.search(r'\{.*\}', raw_response, re.DOTALL)
-    if json_match:
-        raw_response = json_match.group(0)
-    elif raw_response.startswith("```json"):
-        raw_response = raw_response.split("```json")[1].split("```")[0].strip()
-    elif "```" in raw_response:
-        raw_response = raw_response.split("```")[1].split("```")[0].strip()
-    
-    try:
-        # 5. Intelligent Merge
-        ai_output = json.loads(raw_response)
-        ai_trends = ai_output.get("trends", ai_output.get("active_trends", []))
+    # Find the first '{' to start decoding
+    start_index = raw_response.find('{')
+    if start_index != -1:
+        try:
+            import json
+            decoder = json.JSONDecoder()
+            ai_output, _ = decoder.raw_decode(raw_response[start_index:])
+            ai_trends = ai_output.get("trends", ai_output.get("active_trends", []))
+        except Exception as e:
+            print(f"JSON raw_decode failed: {e}")
+            # Fallback to existing logic if raw_decode fails
+            ai_output = json.loads(raw_response) 
+            ai_trends = ai_output.get("trends", ai_output.get("active_trends", []))
+    else:
+        print("No JSON object found in AI response")
+        return
         
         final_trends_map = {t.get("name", ""): t for t in current_map.get("trends", [])}
         
