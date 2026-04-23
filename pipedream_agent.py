@@ -88,8 +88,8 @@ def handler(pd: "pipedream"):
     - Return ONLY a valid JSON object matching the schema.
     """
 
-    # Try Flash first, then fallback to Pro if not found
-    models_to_try = ["gemini-1.5-flash-latest", "gemini-1.5-flash", "gemini-pro"]
+    # Try the latest available models from your region
+    models_to_try = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-flash-latest"]
     res_json = {}
     
     for model_id in models_to_try:
