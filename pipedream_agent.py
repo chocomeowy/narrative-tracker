@@ -139,13 +139,35 @@ def handler(pd: "pipedream"):
         raw_response = raw_response.split("```json")[1].split("```")[0].strip()
     
     try:
-        updated_map = json.loads(raw_response)
-        # Ensure timestamp is current
-        from datetime import datetime
-        updated_map["last_updated"] = datetime.utcnow().isoformat() + "Z"
+        # 5. Intelligent Merge
+        # We take Gemini's decisions but merge them into our detailed original map
+        ai_output = json.loads(raw_response)
+        ai_trends = ai_output.get("trends", ai_output.get("active_trends", []))
         
-        # 5. Commit Back to GitHub
+        # Create a lookup for existing detailed trends
+        original_trends = {t.get("name", t.get("title", "")): t for t in current_map.get("trends", current_map.get("active_trends", []))}
+        
+        final_trends = []
+        for ait in ai_trends:
+            name = ait.get("name", ait.get("title", ""))
+            if name in original_trends:
+                # Update existing trend: Keep original description/history if AI didn't provide new ones
+                merged = original_trends[name].copy()
+                merged.update({k: v for k, v in ait.items() if v}) # AI's new values take priority
+                final_trends.append(merged)
+            else:
+                # New trend found by AI
+                final_trends.append(ait)
+        
+        # Build the final document
+        updated_map = {
+            "last_updated": datetime.utcnow().isoformat() + "Z",
+            "trends": final_trends,
+            "intelligence_metadata": ai_output.get("intelligence_metadata", {})
+        }
+        
+        # 6. Commit Back to GitHub
         update_github_file("trend_map.json", updated_map, sha, "Narrative Intelligence Update")
-        return {"status": "Success", "trends": len(updated_map.get("trends", []))}
+        return {"status": "Success", "trends": len(final_trends)}
     except Exception as e:
         return {"status": "Error", "message": str(e), "raw": raw_response}
