@@ -151,9 +151,5 @@ def run_agent():
         json.dump(updated_map, f, indent=2)
     print("Successfully updated crypto_trend_map.json")
 
-    except Exception as e:
-        print(f"Error parsing AI response: {e}")
-        print(f"Raw response: {raw_response}")
-
 if __name__ == "__main__":
     run_agent()
