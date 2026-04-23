@@ -1,6 +1,8 @@
 import requests
 import json
 import os
+import base64
+import re
 from datetime import datetime
 
 # Configuration (Use Pipedream Env Variables)
@@ -16,14 +18,12 @@ def fetch_github_file(path):
     if r.status_code == 200:
         content = r.json()
         decoded = requests.utils.quote(content['content'], safe='') # Placeholder logic for base64
-        import base64
         return json.loads(base64.b64decode(content['content']).decode('utf-8')), content['sha']
     return None, None
 
 def update_github_file(path, content_obj, sha, message):
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}"
     headers = {"Authorization": f"token {GITHUB_TOKEN}"}
-    import base64
     content_str = json.dumps(content_obj, indent=2)
     encoded = base64.b64encode(content_str.encode('utf-8')).decode('utf-8')
     data = {
@@ -138,7 +138,6 @@ def handler(pd: "pipedream"):
         return {"status": "Error", "message": "Gemini API Error (All models exhausted or failed)", "details": res_json}
         
     raw_response = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
-    import re
     # Find the first '{' to start decoding
     start_index = raw_response.find('{')
     if start_index != -1:

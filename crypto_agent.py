@@ -1,6 +1,7 @@
 import requests
 import json
 import os
+import re
 from datetime import datetime
 
 # Configuration (GitHub Secrets)
@@ -104,7 +105,6 @@ def run_agent():
         return
 
     raw_response = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
-    import re
     # Find the first '{' to start decoding
     start_index = raw_response.find('{')
     if start_index != -1:
