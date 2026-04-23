@@ -65,6 +65,7 @@ def run_agent():
     - DO NOT return an empty 'trends' list unless there is absolutely zero new data.
     - For each trend, provide a 'name', 'stage' (Incubation, Breakthrough, Peak Hype, Fatigue), 'velocity', 'summary', and 'evidence'.
     - Return ONLY a valid JSON object.
+    - DO NOT include any preamble, thinking process, or explanation.
     """
 
     # Upgraded to Gemma 4 (released April 2, 2026)
@@ -103,7 +104,12 @@ def run_agent():
         return
 
     raw_response = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
-    if "```json" in raw_response:
+    import re
+    # Find the JSON block even if there is preamble/thinking
+    json_match = re.search(r'\{.*\}', raw_response, re.DOTALL)
+    if json_match:
+        raw_response = json_match.group(0)
+    elif raw_response.startswith("```json"):
         raw_response = raw_response.split("```json")[1].split("```")[0].strip()
     elif "```" in raw_response:
         raw_response = raw_response.split("```")[1].split("```")[0].strip()

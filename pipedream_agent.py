@@ -87,6 +87,8 @@ def handler(pd: "pipedream"):
     - For existing trends in the snapshot, update their 'stage' and 'velocity' if the data suggests a change.
     - Do not remove trends from the list unless they are truly 'Fatigue' or dead.
     - Return ONLY a valid JSON object matching the schema.
+    - DO NOT include any preamble, thinking process, or explanation. 
+    - Just the JSON.
     """
 
     # Upgraded to Gemma 4 26B (April 2026)
@@ -135,8 +137,12 @@ def handler(pd: "pipedream"):
     if "candidates" not in res_json:
         return {"status": "Error", "message": "Gemini API Error (All models exhausted or failed)", "details": res_json}
         
-    raw_response = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
-    if raw_response.startswith("```json"):
+    import re
+    # Find the JSON block even if there is preamble/thinking
+    json_match = re.search(r'\{.*\}', raw_response, re.DOTALL)
+    if json_match:
+        raw_response = json_match.group(0)
+    elif raw_response.startswith("```json"):
         raw_response = raw_response.split("```json")[1].split("```")[0].strip()
     
     try:
