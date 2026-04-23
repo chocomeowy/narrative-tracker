@@ -87,7 +87,10 @@ def run_agent():
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_id}:generateContent?key={GEMINI_API_KEY}"
         headers = {'Content-Type': 'application/json'}
         payload = {
-            "contents": [{"parts": [{"text": prompt}]}]
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {
+                "response_mime_type": "application/json"
+            }
         }
         
         try:
@@ -125,8 +128,8 @@ def run_agent():
             ai_trends = ai_output.get("trends", ai_output.get("active_trends", []))
         except Exception as e:
             print(f"JSON raw_decode failed: {e}")
-            # Fallback to existing logic if raw_decode fails
-            ai_output = json_lib.loads(raw_response) 
+            # Fallback to existing logic if raw_decode fails (ensure we only pass the JSON part)
+            ai_output = json_lib.loads(raw_response[start_index:]) 
             ai_trends = ai_output.get("trends", ai_output.get("active_trends", []))
     else:
         print("No JSON object found in AI response")
