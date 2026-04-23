@@ -129,11 +129,13 @@ def handler(pd: "pipedream"):
         payload = {
             "contents": [{
                 "parts": [{"text": prompt_text}]
-            }],
-            "generationConfig": {
+            }]
+        }
+        # Only enable JSON mode for Gemini models
+        if "gemini" in model_id:
+            payload["generationConfig"] = {
                 "response_mime_type": "application/json"
             }
-        }
         
         try:
             response = requests.post(url, headers=headers, json=payload, timeout=60)

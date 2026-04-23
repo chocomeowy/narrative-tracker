@@ -100,8 +100,8 @@ def run_agent():
     models_to_try = [
         "gemma-4-31b-it",
         "gemma-3-27b-it",
-        "gemini-2.0-flash-exp",
-        "gemini-1.5-flash-latest"
+        "gemini-1.5-flash",
+        "gemini-1.5-pro"
     ]
     
     res_json = {}
@@ -111,11 +111,13 @@ def run_agent():
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_id}:generateContent?key={GEMINI_API_KEY}"
         headers = {'Content-Type': 'application/json'}
         payload = {
-            "contents": [{"parts": [{"text": prompt}]}],
-            "generationConfig": {
+            "contents": [{"parts": [{"text": prompt}]}]
+        }
+        # Only enable JSON mode for Gemini models
+        if "gemini" in model_id:
+            payload["generationConfig"] = {
                 "response_mime_type": "application/json"
             }
-        }
         
         try:
             response = requests.post(url, headers=headers, json=payload, timeout=60)
