@@ -9,9 +9,9 @@ GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 def get_search_results(query):
     """Uses DuckDuckGo Search (Free)."""
     try:
-        from duckduckgo_search import DDGS
+        from ddgs import DDGS
         with DDGS() as ddgs:
-            results = [r['body'] for r in ddgs.text(query, max_results=5)]
+            results = [r.get('body', '') for r in ddgs.text(query, max_results=5)]
             return results
     except Exception as e:
         print(f"Search error for {query}: {e}")
@@ -66,11 +66,14 @@ def run_agent():
     - Return ONLY a valid JSON object matching the schema.
     """
 
-    # Primary model: Gemma 2 27B, Fallback: Gemma 2 9B
+    # Primary models: Gemma 2, Fallback: Gemini Flash
     models_to_try = [
+        "gemini-1.5-flash-latest",
+        "gemini-1.5-flash",
+        "gemini-1.5-flash-8b",
+        "gemini-1.5-pro",
         "gemma-2-27b-it",
-        "gemma-2-9b-it",
-        "gemini-1.5-flash"
+        "gemma-2-9b-it"
     ]
     
     res_json = {}
