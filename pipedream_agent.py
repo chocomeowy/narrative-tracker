@@ -1,6 +1,7 @@
 import requests
 import json
 import os
+from datetime import datetime
 
 # Configuration (Use Pipedream Env Variables)
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
@@ -82,9 +83,9 @@ def handler(pd: "pipedream"):
     New Raw Data: {json.dumps(raw_intelligence)}
     
     Task: Update the trend_map.json based on this new data.
-    - If a trend exists, update its stage/velocity.
-    - If a new trend is found, add it.
-    - Maintain historical accuracy.
+    - IMPORTANT: For any NEW trends you find, you MUST provide a 'summary' (1-2 sentences) and 'evidence' (sources).
+    - For existing trends in the snapshot, update their 'stage' and 'velocity' if the data suggests a change.
+    - Do not remove trends from the list unless they are truly 'Fatigue' or dead.
     - Return ONLY a valid JSON object matching the schema.
     """
 
@@ -139,30 +140,32 @@ def handler(pd: "pipedream"):
         raw_response = raw_response.split("```json")[1].split("```")[0].strip()
     
     try:
-        # 5. Intelligent Merge
-        # We take Gemini's decisions but merge them into our detailed original map
+        # 5. Intelligent Merge (Additive & Protective)
         ai_output = json.loads(raw_response)
         ai_trends = ai_output.get("trends", ai_output.get("active_trends", []))
         
-        # Create a lookup for existing detailed trends
-        original_trends = {t.get("name", t.get("title", "")): t for t in current_map.get("trends", current_map.get("active_trends", []))}
+        # Start with a copy of our current state
+        final_trends_map = {t.get("name", t.get("title", "")): t for t in current_map.get("trends", current_map.get("active_trends", []))}
         
-        final_trends = []
         for ait in ai_trends:
             name = ait.get("name", ait.get("title", ""))
-            if name in original_trends:
-                # Update existing trend: Keep original description/history if AI didn't provide new ones
-                merged = original_trends[name].copy()
-                merged.update({k: v for k, v in ait.items() if v}) # AI's new values take priority
-                final_trends.append(merged)
+            if not name: continue
+            
+            if name in final_trends_map:
+                # Update existing: Merge AI's new insights with our old detailed data
+                merged = final_trends_map[name].copy()
+                # Only update if AI provided non-empty values
+                for k, v in ait.items():
+                    if v: merged[k] = v
+                final_trends_map[name] = merged
             else:
-                # New trend found by AI
-                final_trends.append(ait)
+                # New trend: Add it as is (AI is now mandated to provide descriptions)
+                final_trends_map[name] = ait
         
         # Build the final document
         updated_map = {
             "last_updated": datetime.utcnow().isoformat() + "Z",
-            "trends": final_trends,
+            "trends": list(final_trends_map.values()),
             "intelligence_metadata": ai_output.get("intelligence_metadata", {})
         }
         
