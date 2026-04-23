@@ -109,7 +109,6 @@ def run_agent():
     start_index = raw_response.find('{')
     if start_index != -1:
         try:
-            import json
             decoder = json.JSONDecoder()
             ai_output, _ = decoder.raw_decode(raw_response[start_index:])
             ai_trends = ai_output.get("trends", ai_output.get("active_trends", []))
