@@ -38,7 +38,7 @@ def get_search_results(query):
     try:
         from ddgs import DDGS
         with DDGS() as ddgs:
-            results = [r['body'] for r in ddgs.text(query, max_results=10)]
+            results = [r['body'] for r in ddgs.text(query, max_results=5)]
             return results
     except Exception as e:
         print(f"Search error: {e}")
@@ -116,19 +116,16 @@ def run_agent():
                     print(f"Success using {model_id} (Found JSON)")
                     break
                 else:
-                    print(f"Model {model_id} returned no JSON. Trying next...")
+                    print(f"Model {model_id} returned NO JSON structure. Text: {text[:100]}...")
                     continue
+            else:
+                print(f"Model {model_id} API Error: {res_json.get('error', {}).get('message', 'No candidates')}")
+                continue
         except requests.exceptions.Timeout:
-            print(f"Model {model_id} timed out. Trying next model...")
+            print(f"Model {model_id} timed out after 60s.")
             continue
         except Exception as e:
             print(f"Error calling {model_id}: {e}")
-            continue
-        
-        # If rate limited (429), log and try next model
-        error_code = res_json.get('error', {}).get('code')
-        if error_code == 429:
-            print(f"Rate limit hit for {model_id}. Switching...")
             continue
 
     if not successful_model:

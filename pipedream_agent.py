@@ -137,10 +137,13 @@ def handler(pd: "pipedream"):
                     print(f"Success using {model_id} (Found JSON)")
                     break
                 else:
-                    print(f"Model {model_id} returned no JSON. Trying next...")
+                    print(f"Model {model_id} returned NO JSON structure. Text: {text[:100]}...")
                     continue
+            else:
+                print(f"Model {model_id} API Error: {res_json.get('error', {}).get('message', 'No candidates')}")
+                continue
         except requests.exceptions.Timeout:
-            print(f"Model {model_id} timed out. Trying next model...")
+            print(f"Model {model_id} timed out after 60s.")
             continue
         except Exception as e:
             print(f"Error calling {model_id}: {e}")
