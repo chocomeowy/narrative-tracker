@@ -1,5 +1,5 @@
 import requests
-import json
+import json as json_lib
 import os
 import re
 from datetime import datetime
@@ -16,7 +16,7 @@ def fetch_current_state():
     if r.status_code == 200:
         import base64
         content = r.json()
-        return json.loads(base64.b64decode(content['content']).decode('utf-8'))
+        return json_lib.loads(base64.b64decode(content['content']).decode('utf-8'))
     return {"trends": []}
 
 def get_search_results(query):
@@ -53,8 +53,8 @@ def run_agent():
     Role: Senior Crypto Intelligence Analyst
     
     Context:
-    Current Trends: {json.dumps(current_map)}
-    New Intel: {json.dumps(raw_intel)}
+    Current Trends: {json_lib.dumps(current_map)}
+    New Intel: {json_lib.dumps(raw_intel)}
     
     Task: Update the Crypto Intelligence Map.
     - Focus heavily on the BTC/ETH relationship and the impact of the Clarity Act.
@@ -102,13 +102,13 @@ def run_agent():
     start_index = raw_response.find('{')
     if start_index != -1:
         try:
-            decoder = json.JSONDecoder()
+            decoder = json_lib.JSONDecoder()
             ai_output, _ = decoder.raw_decode(raw_response[start_index:])
             ai_trends = ai_output.get("trends", ai_output.get("active_trends", []))
         except Exception as e:
             print(f"JSON raw_decode failed: {e}")
             # Fallback to existing logic if raw_decode fails
-            ai_output = json.loads(raw_response) 
+            ai_output = json_lib.loads(raw_response) 
             ai_trends = ai_output.get("trends", ai_output.get("active_trends", []))
     else:
         print("No JSON object found in AI response")
@@ -140,7 +140,7 @@ def run_agent():
     
     # 6. Save back to local file
     with open("crypto_trend_map.json", "w") as f:
-        json.dump(updated_map, f, indent=2)
+        json_lib.dump(updated_map, f, indent=2)
     print("Successfully updated crypto_trend_map.json")
 
 if __name__ == "__main__":

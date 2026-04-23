@@ -1,5 +1,5 @@
 import requests
-import json
+import json as json_lib
 import os
 import base64
 import re
@@ -17,13 +17,13 @@ def fetch_github_file(path):
     r = requests.get(url, headers=headers)
     if r.status_code == 200:
         content = r.json()
-        return json.loads(base64.b64decode(content['content']).decode('utf-8')), content['sha']
+        return json_lib.loads(base64.b64decode(content['content']).decode('utf-8')), content['sha']
     return None, None
 
 def update_github_file(path, content_obj, sha, message):
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}"
     headers = {"Authorization": f"token {GITHUB_TOKEN}"}
-    content_str = json.dumps(content_obj, indent=2)
+    content_str = json_lib.dumps(content_obj, indent=2)
     encoded = base64.b64encode(content_str.encode('utf-8')).decode('utf-8')
     data = {
         "message": message,
@@ -77,9 +77,9 @@ def handler(pd: "pipedream"):
     # 4. Call Gemini (Direct REST API)
     prompt_text = f"""
     Role: Narrative Intelligence Officer
-    Directives: {json.dumps(steering)}
-    Past State Snapshot: {json.dumps(past_state_summary)}
-    New Raw Data: {json.dumps(raw_intelligence)}
+    Directives: {json_lib.dumps(steering)}
+    Past State Snapshot: {json_lib.dumps(past_state_summary)}
+    New Raw Data: {json_lib.dumps(raw_intelligence)}
     
     Task: Update the trend_map.json based on this new data.
     - IMPORTANT: For any NEW trends you find, you MUST provide a 'summary' (1-2 sentences) and 'evidence' (sources).
@@ -90,7 +90,7 @@ def handler(pd: "pipedream"):
     - Just the JSON.
     """
 
-    # Upgraded to Gemma 4 26B (April 2026)
+    # Upgraded to Gemma 4 26B (MoE)
     models_to_try = [
         "gemma-4-26b-a4b-it",
         "gemini-3-flash-preview", 
@@ -142,13 +142,13 @@ def handler(pd: "pipedream"):
     start_index = raw_response.find('{')
     if start_index != -1:
         try:
-            decoder = json.JSONDecoder()
+            decoder = json_lib.JSONDecoder()
             ai_output, _ = decoder.raw_decode(raw_response[start_index:])
             ai_trends = ai_output.get("trends", ai_output.get("active_trends", []))
         except Exception as e:
             print(f"JSON raw_decode failed: {e}")
             # Fallback to existing logic if raw_decode fails
-            ai_output = json.loads(raw_response) 
+            ai_output = json_lib.loads(raw_response) 
             ai_trends = ai_output.get("trends", ai_output.get("active_trends", []))
     else:
         raise ValueError("No JSON object found in AI response")
