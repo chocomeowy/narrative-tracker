@@ -122,34 +122,34 @@ def run_agent():
         print("No JSON object found in AI response")
         return
         
-        final_trends_map = {t.get("name", ""): t for t in current_map.get("trends", [])}
+    final_trends_map = {t.get("name", ""): t for t in current_map.get("trends", [])}
+    
+    for ait in ai_trends:
+        name = ait.get("name", "")
+        if not name: continue
         
-        for ait in ai_trends:
-            name = ait.get("name", "")
-            if not name: continue
-            
-            if name in final_trends_map:
-                merged = final_trends_map[name].copy()
-                for k, v in ait.items():
-                    if v: merged[k] = v
-                final_trends_map[name] = merged
-            else:
-                final_trends_map[name] = ait
-        
-        updated_map = {
-            "last_updated": datetime.utcnow().isoformat() + "Z",
-            "trends": list(final_trends_map.values()),
-            "intelligence_metadata": {
-                "agent": successful_model,
-                "focus": "BTC / ETH / Clarity",
-                "timestamp": datetime.utcnow().isoformat() + "Z"
-            }
+        if name in final_trends_map:
+            merged = final_trends_map[name].copy()
+            for k, v in ait.items():
+                if v: merged[k] = v
+            final_trends_map[name] = merged
+        else:
+            final_trends_map[name] = ait
+    
+    updated_map = {
+        "last_updated": datetime.utcnow().isoformat() + "Z",
+        "trends": list(final_trends_map.values()),
+        "intelligence_metadata": {
+            "agent": successful_model,
+            "focus": "BTC / ETH / Clarity",
+            "timestamp": datetime.utcnow().isoformat() + "Z"
         }
-        
-        # 6. Save back to local file
-        with open("crypto_trend_map.json", "w") as f:
-            json.dump(updated_map, f, indent=2)
-        print("Successfully updated crypto_trend_map.json")
+    }
+    
+    # 6. Save back to local file
+    with open("crypto_trend_map.json", "w") as f:
+        json.dump(updated_map, f, indent=2)
+    print("Successfully updated crypto_trend_map.json")
 
     except Exception as e:
         print(f"Error parsing AI response: {e}")

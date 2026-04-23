@@ -155,33 +155,33 @@ def handler(pd: "pipedream"):
     else:
         raise ValueError("No JSON object found in AI response")
         
-        # Start with a copy of our current state
-        final_trends_map = {t.get("name", t.get("title", "")): t for t in current_map.get("trends", current_map.get("active_trends", []))}
+    # Start with a copy of our current state
+    final_trends_map = {t.get("name", t.get("title", "")): t for t in current_map.get("trends", current_map.get("active_trends", []))}
+    
+    for ait in ai_trends:
+        name = ait.get("name", ait.get("title", ""))
+        if not name: continue
         
-        for ait in ai_trends:
-            name = ait.get("name", ait.get("title", ""))
-            if not name: continue
-            
-            if name in final_trends_map:
-                # Update existing: Merge AI's new insights with our old detailed data
-                merged = final_trends_map[name].copy()
-                # Only update if AI provided non-empty values
-                for k, v in ait.items():
-                    if v: merged[k] = v
-                final_trends_map[name] = merged
-            else:
-                # New trend: Add it as is (AI is now mandated to provide descriptions)
-                final_trends_map[name] = ait
-        
-        # Build the final document
-        updated_map = {
-            "last_updated": datetime.utcnow().isoformat() + "Z",
-            "trends": list(final_trends_map.values()),
-            "intelligence_metadata": ai_output.get("intelligence_metadata", {})
-        }
-        
-        # 6. Commit Back to GitHub
-        update_github_file("trend_map.json", updated_map, sha, "Narrative Intelligence Update")
-        return {"status": "Success", "trends": len(updated_map["trends"])}
+        if name in final_trends_map:
+            # Update existing: Merge AI's new insights with our old detailed data
+            merged = final_trends_map[name].copy()
+            # Only update if AI provided non-empty values
+            for k, v in ait.items():
+                if v: merged[k] = v
+            final_trends_map[name] = merged
+        else:
+            # New trend: Add it as is (AI is now mandated to provide descriptions)
+            final_trends_map[name] = ait
+    
+    # Build the final document
+    updated_map = {
+        "last_updated": datetime.utcnow().isoformat() + "Z",
+        "trends": list(final_trends_map.values()),
+        "intelligence_metadata": ai_output.get("intelligence_metadata", {})
+    }
+    
+    # 6. Commit Back to GitHub
+    update_github_file("trend_map.json", updated_map, sha, "Narrative Intelligence Update")
+    return {"status": "Success", "trends": len(updated_map["trends"])}
     except Exception as e:
         return {"status": "Error", "message": str(e), "raw": raw_response}
