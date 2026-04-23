@@ -88,14 +88,24 @@ def run_agent():
         }
         
         try:
-            response = requests.post(url, headers=headers, json=payload)
+            response = requests.post(url, headers=headers, json=json_lib.dumps(payload), timeout=60)
             res_json = response.json()
             if "candidates" in res_json:
                 successful_model = model_id
                 print(f"Success using {model_id}")
                 break
+        except requests.exceptions.Timeout:
+            print(f"Model {model_id} timed out. Trying next model...")
+            continue
         except Exception as e:
             print(f"Error calling {model_id}: {e}")
+            continue
+        
+        # If rate limited (429), log and try next model
+        error_code = res_json.get('error', {}).get('code')
+        if error_code == 429:
+            print(f"Rate limit hit for {model_id}. Switching...")
+            continue
 
     if not successful_model:
         print("All models failed.")

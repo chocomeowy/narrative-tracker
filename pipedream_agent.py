@@ -110,8 +110,15 @@ def handler(pd: "pipedream"):
             }]
         }
         
-        response = requests.post(url, headers=headers, json=payload, timeout=25)
-        res_json = response.json()
+        try:
+            response = requests.post(url, headers=headers, json=json_lib.dumps(payload), timeout=60)
+            res_json = response.json()
+        except requests.exceptions.Timeout:
+            print(f"Model {model_id} timed out. Trying next model...")
+            continue
+        except Exception as e:
+            print(f"Error calling {model_id}: {e}")
+            continue
         
         # If successful, break
         if "candidates" in res_json:
