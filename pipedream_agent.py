@@ -93,11 +93,9 @@ def handler(pd: "pipedream"):
 
     # Upgraded to Gemma 4 26B (MoE)
     models_to_try = [
-        "gemma-4-26b-a4b-it",
-        "gemini-3-flash-preview", 
-        "gemini-2.5-flash", 
-        "gemini-2.0-flash", 
-        "gemma-3-27b-it",
+        "gemini-2.0-flash-exp",
+        "gemini-1.5-flash-latest",
+        "gemini-1.5-pro-latest",
         "gemini-flash-latest"
     ]
     res_json = {}
