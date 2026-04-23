@@ -17,7 +17,6 @@ def fetch_github_file(path):
     r = requests.get(url, headers=headers)
     if r.status_code == 200:
         content = r.json()
-        decoded = requests.utils.quote(content['content'], safe='') # Placeholder logic for base64
         return json.loads(base64.b64decode(content['content']).decode('utf-8')), content['sha']
     return None, None
 
@@ -138,6 +137,7 @@ def handler(pd: "pipedream"):
         return {"status": "Error", "message": "Gemini API Error (All models exhausted or failed)", "details": res_json}
         
     raw_response = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
+    
     # Find the first '{' to start decoding
     start_index = raw_response.find('{')
     if start_index != -1:

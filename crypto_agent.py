@@ -5,64 +5,60 @@ import re
 from datetime import datetime
 
 # Configuration (GitHub Secrets)
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
+GITHUB_REPO = os.environ.get("GITHUB_REPO")
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 
+def fetch_current_state():
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/crypto_trend_map.json"
+    headers = {"Authorization": f"token {GITHUB_TOKEN}"}
+    r = requests.get(url, headers=headers)
+    if r.status_code == 200:
+        import base64
+        content = r.json()
+        return json.loads(base64.b64decode(content['content']).decode('utf-8'))
+    return {"trends": []}
+
 def get_search_results(query):
-    """Uses DuckDuckGo Search (Free)."""
     try:
-        from ddgs import DDGS
+        from duckduckgo_search import DDGS
         with DDGS() as ddgs:
-            results = [r.get('body', '') for r in ddgs.text(query, max_results=15)]
+            results = [r['body'] for r in ddgs.text(query, max_results=10)]
             return results
     except Exception as e:
-        print(f"Search error for {query}: {e}")
-        return [f"Error fetching data for {query}"]
-
-def summarize_context(trend_map):
-    """Reduces the trend_map to a snapshot to save tokens."""
-    summary = {
-        "last_updated": trend_map.get("last_updated"),
-        "active_trends": []
-    }
-    for t in trend_map.get("trends", []):
-        summary["active_trends"].append({
-            "name": t["name"],
-            "stage": t["stage"],
-            "velocity": t["velocity"]
-        })
-    return summary
+        print(f"Search error: {e}")
+        return []
 
 def run_agent():
-    # 1. Load Current State (Local Files)
-    try:
-        with open("crypto_trend_map.json", "r") as f:
-            current_map = json.load(f)
-        with open("crypto_steering.json", "r") as f:
-            steering = json.load(f)
-    except Exception as e:
-        print(f"Error loading local files: {e}")
-        return
-
-    # 2. Context Optimization
-    past_state_summary = summarize_context(current_map)
+    print("Starting Crypto Narrative Intelligence Agent...")
     
-    # 3. Gather New Intelligence
-    focus_areas = steering.get("focus_areas", ["BTC", "ETH", "Clarity"])
-    raw_intelligence = []
-    for q in focus_areas:
+    # 1. Load Current State
+    current_map = fetch_current_state()
+    
+    # 2. Gather Intelligence
+    queries = [
+        "Bitcoin (BTC) institutional adoption and ETFs",
+        "Ethereum (ETH) L2 scaling and restaking narratives",
+        "Clarity Act Senate crypto regulation 2026",
+        "Cross-chain liquidity between BTC and ETH"
+    ]
+    
+    raw_intel = []
+    for q in queries:
         print(f"Searching for: {q}")
-        raw_intelligence.extend(get_search_results(q))
+        raw_intel.extend(get_search_results(q))
+
+    # 3. Reasoning with Gemini
+    prompt = f"""
+    Role: Senior Crypto Intelligence Analyst
     
-    # 4. Call Gemma via Gemini API
-    prompt_text = f"""
-    Role: Specialist Crypto Intelligence Officer (BTC, ETH, Clarity)
-    Directives: {json.dumps(steering)}
-    Past State Snapshot: {json.dumps(past_state_summary)}
-    New Raw Data: {json.dumps(raw_intelligence)}
+    Context:
+    Current Trends: {json.dumps(current_map)}
+    New Intel: {json.dumps(raw_intel)}
     
-    Task: Update the crypto_trend_map.json based on this new data.
-    - Focus strictly on BTC, ETH, and the Clarity Act / Clarity language.
-    - If you find ANY signals of news, sentiment shifts, or technical updates, ADD them as trends.
+    Task: Update the Crypto Intelligence Map.
+    - Focus heavily on the BTC/ETH relationship and the impact of the Clarity Act.
+    - Discover new sub-narratives (e.g. Stacks/Clarity development, ETH restaking).
     - DO NOT return an empty 'trends' list unless there is absolutely zero new data.
     - For each trend, provide a 'name', 'stage' (Incubation, Breakthrough, Peak Hype, Fatigue), 'velocity', 'summary', and 'evidence'.
     - Return ONLY a valid JSON object.
@@ -83,9 +79,7 @@ def run_agent():
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_id}:generateContent?key={GEMINI_API_KEY}"
         headers = {'Content-Type': 'application/json'}
         payload = {
-            "contents": [{
-                "parts": [{"text": prompt_text}]
-            }]
+            "contents": [{"parts": [{"text": prompt}]}]
         }
         
         try:
@@ -95,8 +89,6 @@ def run_agent():
                 successful_model = model_id
                 print(f"Success using {model_id}")
                 break
-            else:
-                print(f"Model {model_id} failed: {res_json.get('error', {}).get('message', 'Unknown error')}")
         except Exception as e:
             print(f"Error calling {model_id}: {e}")
 
@@ -105,6 +97,7 @@ def run_agent():
         return
 
     raw_response = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
+    
     # Find the first '{' to start decoding
     start_index = raw_response.find('{')
     if start_index != -1:
