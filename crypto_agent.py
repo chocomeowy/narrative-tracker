@@ -60,13 +60,12 @@ def run_agent():
     - Focus heavily on the BTC/ETH relationship and the impact of the Clarity Act.
     - Discover new sub-narratives (e.g. Stacks/Clarity development, ETH restaking).
     - DO NOT return an empty 'trends' list unless there is absolutely zero new data.
-    - For each trend, provide a 'name', 'stage' (Incubation, Breakthrough, Peak Hype, Fatigue), 'velocity', 'summary', and 'evidence'.
     - Return ONLY a valid JSON object matching this structure:
-      {
+      {{
         "trends": [
-          { "name": "Trend Name", "stage": "...", "velocity": "...", "summary": "...", "evidence": "..." }
+          {{ "name": "Trend Name", "stage": "...", "velocity": "...", "summary": "...", "evidence": "..." }}
         ]
-      }
+      }}
     - DO NOT include any preamble, thinking process, or explanation.
     """
 
