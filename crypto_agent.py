@@ -67,6 +67,7 @@ def run_agent():
         ]
       }}
     - DO NOT include any preamble, thinking process, or explanation.
+    - YOUR FIRST CHARACTER MUST BE '{{' AND YOUR LAST CHARACTER MUST BE '}}'.
     """
 
     # Upgraded to Gemma 4 (released April 2, 2026)

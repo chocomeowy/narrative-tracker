@@ -88,6 +88,7 @@ def handler(pd: "pipedream"):
     - Return ONLY a valid JSON object matching the schema.
     - DO NOT include any preamble, thinking process, or explanation. 
     - Just the JSON.
+    - YOUR FIRST CHARACTER MUST BE '{{' AND YOUR LAST CHARACTER MUST BE '}}'.
     """
 
     # Upgraded to Gemma 4 26B (MoE)
