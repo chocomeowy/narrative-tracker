@@ -110,7 +110,7 @@ def handler(pd: "pipedream"):
     
     2. Data Update: At the end of your response, provide the updated trend_map JSON in a strict block:
        ```json
-       { "trends": [...] }
+       {{ "trends": [...] }}
        ```
     """
 
@@ -180,6 +180,8 @@ def handler(pd: "pipedream"):
     if "candidates" not in res_json:
         return {"status": "Error", "message": "Gemini API Error (All models exhausted or failed)", "details": res_json}
         
+    raw_response = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
+    
     # 5. Save Narrative Briefing to GitHub
     briefing_path = "trend_briefing.md"
     briefing_sha = None
