@@ -11,6 +11,20 @@ GITHUB_REPO = os.environ.get("GITHUB_REPO") # e.g. "username/trend-velocity-trac
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 SEARCH_API_KEY = os.environ.get("SEARCH_API_KEY") # SerpApi or Brave
 
+def repair_json(s):
+    # Find the first '{' and last '}'
+    start = s.find('{')
+    end = s.rfind('}')
+    if start == -1 or end == -1:
+        return s
+    s = s[start:end+1]
+    # Replace single quotes with double quotes (basic)
+    # Note: This is risky if values contain single quotes, but common for AI mistakes
+    s = re.sub(r"'(.*?)'", r'"\1"', s)
+    # Fix unquoted keys
+    s = re.sub(r'([{,])\s*([a-zA-Z0-9_]+)\s*:', r'\1"\2":', s)
+    return s
+
 def fetch_github_file(path):
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}"
     headers = {"Authorization": f"token {GITHUB_TOKEN}"}
@@ -160,10 +174,16 @@ def handler(pd: "pipedream"):
             ai_output, _ = decoder.raw_decode(raw_response[start_index:])
             ai_trends = ai_output.get("trends", ai_output.get("active_trends", []))
         except Exception as e:
-            print(f"JSON raw_decode failed: {e}")
-            # Fallback to existing logic if raw_decode fails (ensure we only pass the JSON part)
-            ai_output = json_lib.loads(raw_response[start_index:]) 
-            ai_trends = ai_output.get("trends", ai_output.get("active_trends", []))
+            print(f"JSON raw_decode failed: {e}. Attempting repair...")
+            try:
+                repaired = repair_json(raw_response)
+                ai_output = json_lib.loads(repaired)
+                ai_trends = ai_output.get("trends", ai_output.get("active_trends", []))
+            except Exception as repair_e:
+                print(f"Repair failed: {repair_e}")
+                # Fallback to existing logic if raw_decode fails (ensure we only pass the JSON part)
+                ai_output = json_lib.loads(raw_response[start_index:]) 
+                ai_trends = ai_output.get("trends", ai_output.get("active_trends", []))
     else:
         raise ValueError("No JSON object found in AI response")
         
