@@ -61,7 +61,12 @@ def run_agent():
     - Discover new sub-narratives (e.g. Stacks/Clarity development, ETH restaking).
     - DO NOT return an empty 'trends' list unless there is absolutely zero new data.
     - For each trend, provide a 'name', 'stage' (Incubation, Breakthrough, Peak Hype, Fatigue), 'velocity', 'summary', and 'evidence'.
-    - Return ONLY a valid JSON object.
+    - Return ONLY a valid JSON object matching this structure:
+      {
+        "trends": [
+          { "name": "Trend Name", "stage": "...", "velocity": "...", "summary": "...", "evidence": "..." }
+        ]
+      }
     - DO NOT include any preamble, thinking process, or explanation.
     """
 
@@ -112,6 +117,7 @@ def run_agent():
             ai_trends = ai_output.get("trends", ai_output.get("active_trends", []))
     else:
         print("No JSON object found in AI response")
+        print(f"DEBUG: Raw response received: {raw_response[:500]}...") # Print first 500 chars
         return
         
     final_trends_map = {t.get("name", ""): t for t in current_map.get("trends", [])}
