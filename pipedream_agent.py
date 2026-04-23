@@ -74,12 +74,11 @@ def handler(pd: "pipedream"):
     for q in focus_areas[:3]:
         raw_intelligence.extend(get_search_results(q))
     
-    # 4. Call Gemini 1.5 Flash
-    import google.generativeai as genai
-    genai.configure(api_key=GEMINI_API_KEY)
-    model = genai.GenerativeModel('gemini-1.5-flash')
+    # 4. Call Gemini 1.5 Flash (Direct REST API to avoid dependency issues)
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
+    headers = {'Content-Type': 'application/json'}
     
-    prompt = f"""
+    prompt_text = f"""
     Role: Narrative Intelligence Officer
     Directives: {json.dumps(steering)}
     Past State Snapshot: {json.dumps(past_state_summary)}
@@ -92,10 +91,19 @@ def handler(pd: "pipedream"):
     - Return ONLY a valid JSON object matching the schema.
     """
     
-    response = model.generate_content(prompt)
+    payload = {
+        "contents": [{
+            "parts": [{"text": prompt_text}]
+        }]
+    }
     
-    # Clean response (Gemini sometimes adds markdown blocks)
-    raw_response = response.text.strip()
+    response = requests.post(url, headers=headers, json=payload)
+    res_json = response.json()
+    
+    if "candidates" not in res_json:
+        return {"status": "Error", "message": "Gemini API Error", "details": res_json}
+        
+    raw_response = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
     if raw_response.startswith("```json"):
         raw_response = raw_response.split("```json")[1].split("```")[0].strip()
     
