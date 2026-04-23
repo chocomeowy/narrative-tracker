@@ -41,7 +41,7 @@ def get_search_results(query):
     try:
         from duckduckgo_search import DDGS
         with DDGS() as ddgs:
-            results = [r['body'] for r in ddgs.text(query, max_results=5)]
+            results = [r['body'] for r in ddgs.text(query, max_results=8)]
             return results
     except Exception as e:
         print(f"Search error for {query}: {e}")
@@ -89,9 +89,9 @@ def handler(pd: "pipedream"):
     - Return ONLY a valid JSON object matching the schema.
     """
 
-    # Try the latest available models from your region
-    # Prioritizing Gemini 3 Flash, then 2.5, then 2.0, with Gemma as a high-limit fallback
+    # Upgraded to Gemma 4 26B (April 2026)
     models_to_try = [
+        "gemma-4-26b-a4b-it",
         "gemini-3-flash-preview", 
         "gemini-2.5-flash", 
         "gemini-2.0-flash", 
