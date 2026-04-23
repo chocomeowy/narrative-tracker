@@ -43,9 +43,42 @@ This project uses a **Cron + AI** pipeline to maintain an "Evolving Memory" of g
 
 ## 🎨 Steering the Agent
 You can "tune" the agent's intelligence by editing `steering.json` directly in GitHub:
-- `focus_areas`: Keywords for the agent to search for.
-- `ignored_topics`: Topics to filter out.
 - `custom_directives`: Natural language orders (e.g., "Look for GitHub repository growth").
+
+---
+
+## ⚡ New: Crypto Intelligence Agent (BTC, ETH, Clarity)
+
+This is a specialized agent focused on **Bitcoin**, **Ethereum**, and the **Clarity/Stacks** ecosystem. Unlike the global agent, this one runs on **GitHub Actions** and is triggered by **cron-job.org**.
+
+### 1. Model: Gemma 2 (via Gemini API)
+This agent is optimized for **Gemma-2-27b-it**. It provides deep technical analysis of the Bitcoin and Ethereum ecosystems.
+
+### 2. GitHub Secrets Setup
+1. Go to your repo **Settings > Secrets and variables > Actions** (NOT Codespaces or Dependabot).
+2. Click **New repository secret**.
+3. Add:
+   - `GEMINI_API_KEY`: Your Google AI Studio API key.
+
+### 3. Automation with cron-job.org
+To trigger the agent automatically:
+1. **Create a GitHub PAT**:
+   - Go to **Settings > Developer settings > Personal access tokens (classic)**.
+   - Generate a token with `repo` scope.
+2. **Setup cron-job.org**:
+   - **URL**: `https://api.github.com/repos/YOUR_USERNAME/narrative-tracker/dispatches`
+   - **Method**: `POST`
+   - **Headers**:
+     - `Accept`: `application/vnd.github+json`
+     - `Authorization`: `Bearer YOUR_PAT_TOKEN`
+     - `X-GitHub-Api-Version`: `2022-11-28`
+   - **Body (JSON)**:
+     ```json
+     { "event_type": "crypto_update" }
+     ```
+
+### 4. Steering the Crypto Agent
+Edit `crypto_steering.json` to change the agent's focus within the BTC/ETH/Clarity ecosystem.
 
 ## 📊 Dashboard
 Enable **GitHub Pages** in your repo settings (Settings > Pages > Branch: main / root) to host your live dashboard.

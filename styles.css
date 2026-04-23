@@ -56,8 +56,39 @@ h1 {
 
 main {
   max-width: 1200px;
-  margin: 2rem auto;
+  margin: 1rem auto 2rem auto;
   padding: 0 1.5rem;
+}
+
+.tabs-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.tab-btn {
+  background: var(--card-bg);
+  border: 1px solid var(--glass-border);
+  color: var(--text-dim);
+  padding: 0.8rem 1.5rem;
+  border-radius: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.tab-btn:hover {
+  border-color: var(--accent-primary);
+  color: var(--text-main);
+}
+
+.tab-btn.active {
+  background: linear-gradient(to right, var(--accent-primary), var(--accent-secondary));
+  color: #000;
+  border: none;
+  font-weight: 700;
 }
 
 .stats-grid {
