@@ -47,9 +47,10 @@ async function loadData() {
         const trends = trendData.trends || trendData.active_trends || [];
 
         if (trends.length === 0) {
-            console.log("Empty data, showing placeholder.");
+            console.warn(`No trends found in ${currentDataSource}, showing placeholder.`);
             showPlaceholder(steeringData);
         } else {
+            console.log(`Successfully loaded ${trends.length} trends from ${currentDataSource}`);
             renderDashboard(trendData, steeringData, trends);
         }
     } catch (error) {
@@ -57,11 +58,19 @@ async function loadData() {
         // Show placeholder with a notification
         const lastUpdatedEl = document.getElementById('last-updated');
         if (lastUpdatedEl) lastUpdatedEl.innerText = "Agent is warming up... showing projected trends.";
+        
+        // Ensure UI label updates even on error
+        const currentFocusEl = document.getElementById('current-focus');
+        if (currentFocusEl) currentFocusEl.innerText = currentFocusLabel;
+        
         showPlaceholder();
     }
 }
 
-function renderDashboard(data, steering, trends) {
+function renderDashboard(data, steering, trends = []) {
+    // Ensure trends is an array
+    const activeTrends = Array.isArray(trends) ? trends : [];
+    
     const lastUpdatedEl = document.getElementById('last-updated');
     const countTotalEl = document.getElementById('count-total');
     const currentFocusEl = document.getElementById('current-focus');
@@ -69,7 +78,7 @@ function renderDashboard(data, steering, trends) {
     if (lastUpdatedEl && data.last_updated) {
         lastUpdatedEl.innerText = `Last Updated: ${new Date(data.last_updated).toLocaleString()}`;
     }
-    if (countTotalEl) countTotalEl.innerText = trends.length;
+    if (countTotalEl) countTotalEl.innerText = activeTrends.length;
     if (currentFocusEl) currentFocusEl.innerText = currentFocusLabel;
 
     // Clear sections
@@ -79,7 +88,7 @@ function renderDashboard(data, steering, trends) {
         if (el) el.innerHTML = '';
     });
 
-    trends.forEach(trend => {
+    activeTrends.forEach(trend => {
         const card = createTrendCard(trend);
         let stageKey = (trend.stage || 'incubation').toLowerCase().replace(' ', '-');
         
@@ -166,7 +175,7 @@ function showPlaceholder(steeringData) {
     renderDashboard({
         last_updated: new Date().toISOString(),
         trends: mockTrends
-    }, steeringData || { focus_areas: [currentFocusLabel] });
+    }, steeringData || { focus_areas: [currentFocusLabel] }, mockTrends);
 }
 
 init();
