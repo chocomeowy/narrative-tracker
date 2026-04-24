@@ -84,13 +84,20 @@ def run_agent():
     
     Task: Perform a deep analysis and update the intelligence map.
     
-    1. Executive Briefing: Write a concise, 2-3 paragraph summary of the latest crypto narrative shifts, focusing on the BTC/ETH dynamic and the Clarity Act's impact.
+    Guidelines for Recursive Improvement:
+    1. Evolution: Use 'New Intel' to update existing trends. If a trend's stage has shifted (e.g., Incubation -> Breakthrough), update it.
+    2. Pruning: You are part of a long-term loop. If a trend in 'Current Trends' is no longer supported by 'New Intel' or seems to have been a false positive, you should remove it or significantly lower its confidence.
+    3. Arrangement: Keep the map focused. Merge similar narratives to prevent duplication.
     
-    2. Data Update: At the end of your response, provide the updated trends in a strict JSON block:
+    1. Executive Briefing: Analyze the latest crypto narrative shifts, focusing on the BTC/ETH dynamic and the Clarity Act's impact.
+    
+    2. Data Update: At the end of your response, provide the updated trends in a strict JSON block.
+       YOU MUST include the 'executive_briefing' as a string field inside the top-level JSON object.
        ```json
        {{
+         "executive_briefing": "...",
          "trends": [
-           {{ "name": "Trend Name", "stage": "...", "velocity": "...", "summary": "...", "evidence": "..." }}
+           {{ "name": "Trend Name", "stage": "...", "velocity": "High | Medium | Low | +X%", "summary": "...", "evidence": "...", "confidence": 0.0-1.0 }}
          ]
        }}
        ```
@@ -153,27 +160,28 @@ def run_agent():
         f.write(raw_response)
     print("Saved crypto_briefing.md")
 
-    # 5. Extract JSON for Map
+    # 5. Extract JSON for Map & Briefing
     start_index = raw_response.find('{')
     if start_index != -1:
         try:
             decoder = json_lib.JSONDecoder()
             ai_output, _ = decoder.raw_decode(raw_response[start_index:])
             ai_trends = ai_output.get("trends", ai_output.get("active_trends", []))
+            briefing_text = ai_output.get("executive_briefing", raw_response[:start_index].strip())
         except Exception as e:
             print(f"JSON raw_decode failed: {e}. Attempting repair...")
             try:
                 repaired = repair_json(raw_response)
                 ai_output = json_lib.loads(repaired)
                 ai_trends = ai_output.get("trends", ai_output.get("active_trends", []))
+                briefing_text = ai_output.get("executive_briefing", "Repair successful but briefing missing.")
             except Exception as repair_e:
                 print(f"Repair failed: {repair_e}")
-                # Fallback to existing logic if raw_decode fails (ensure we only pass the JSON part)
                 ai_output = json_lib.loads(raw_response[start_index:]) 
                 ai_trends = ai_output.get("trends", ai_output.get("active_trends", []))
+                briefing_text = "Briefing extraction failed."
     else:
         print("No JSON object found in AI response")
-        print(f"DEBUG: Raw response received: {raw_response[:500]}...") # Print first 500 chars
         return
         
     final_trends_map = {t.get("name", ""): t for t in current_map.get("trends", [])}

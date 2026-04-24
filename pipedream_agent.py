@@ -106,11 +106,20 @@ def handler(pd: "pipedream"):
     
     Task: Perform a deep analysis and update the narrative intelligence.
     
-    1. Executive Briefing: Write a 2-3 paragraph summary of the latest trend shifts based on the New Raw Data.
+    Iterative Directives:
+    1. Refinement: This is a recursive process. Improve upon the 'Past State' using 'New Raw Data'.
+    2. Pruning: If a trend in the 'Past State' is no longer showing activity or was a 'false positive', remove it or lower its confidence score.
+    3. Merging: If new data suggests two trends are actually the same narrative, merge them into a single, stronger entry.
     
-    2. Data Update: At the end of your response, provide the updated trend_map JSON in a strict block:
+    1. Executive Briefing: Analyze the latest trend shifts based on the New Raw Data.
+    
+    2. Data Update: At the end of your response, provide the updated trend_map JSON in a strict block. 
+       YOU MUST include the 'executive_briefing' (2-3 paragraphs) as a string field inside the top-level JSON object.
        ```json
-       {{ "trends": [...] }}
+       {{ 
+         "executive_briefing": "...",
+         "trends": [...] 
+       }}
        ```
     """
 
@@ -199,52 +208,76 @@ def handler(pd: "pipedream"):
     update_github_file(briefing_path, briefing_content, briefing_sha, "Update Narrative Briefing")
     print("Updated trend_briefing.md on GitHub")
 
-    # 6. Extract JSON for Map
+    # 5. Extract JSON for Map & Briefing
     start_index = raw_response.find('{')
     if start_index != -1:
         try:
             decoder = json_lib.JSONDecoder()
             ai_output, _ = decoder.raw_decode(raw_response[start_index:])
             ai_trends = ai_output.get("trends", ai_output.get("active_trends", []))
+            # Extract briefing if it exists in JSON, otherwise use the whole response
+            briefing_text = ai_output.get("executive_briefing", raw_response[:start_index].strip())
         except Exception as e:
             print(f"JSON raw_decode failed: {e}. Attempting repair...")
             try:
                 repaired = repair_json(raw_response)
                 ai_output = json_lib.loads(repaired)
                 ai_trends = ai_output.get("trends", ai_output.get("active_trends", []))
+                briefing_text = ai_output.get("executive_briefing", "Repair successful but briefing missing.")
             except Exception as repair_e:
                 print(f"Repair failed: {repair_e}")
-                # Fallback to existing logic if raw_decode fails (ensure we only pass the JSON part)
+                # Fallback
                 ai_output = json_lib.loads(raw_response[start_index:]) 
                 ai_trends = ai_output.get("trends", ai_output.get("active_trends", []))
+                briefing_text = "Briefing extraction failed."
     else:
         raise ValueError("No JSON object found in AI response")
         
+    # 6. Save Narrative Briefing to GitHub (Clean Markdown)
+    briefing_path = "trend_briefing.md"
+    briefing_sha = None
+    try:
+        url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{briefing_path}"
+        headers = {"Authorization": f"token {GITHUB_TOKEN}"}
+        r = requests.get(url, headers=headers)
+        if r.status_code == 200:
+            briefing_sha = r.json()['sha']
+    except:
+        pass
+        
+    briefing_content = f"# Narrative Intelligence Briefing - {datetime.utcnow().strftime('%Y-%m-%d %H:%M')}\n\n" + briefing_text
+    update_github_file(briefing_path, briefing_content, briefing_sha, "Update Narrative Briefing")
+    print("Updated trend_briefing.md on GitHub")
+
+    # 7. Merge Trends with Strict Name Matching
     # Start with a copy of our current state
-    final_trends_map = {t.get("name", t.get("title", "")): t for t in current_map.get("trends", current_map.get("active_trends", []))}
+    final_trends_map = {t.get("name", t.get("title", "")): t for t in current_map.get("trends", [])}
     
     for ait in ai_trends:
         name = ait.get("name", ait.get("title", ""))
         if not name: continue
         
         if name in final_trends_map:
-            # Update existing: Merge AI's new insights with our old detailed data
+            # Update existing: Merge AI's new insights
             merged = final_trends_map[name].copy()
-            # Only update if AI provided non-empty values
             for k, v in ait.items():
                 if v: merged[k] = v
             final_trends_map[name] = merged
         else:
-            # New trend: Add it as is (AI is now mandated to provide descriptions)
+            # Only add if it's not a fuzzy duplicate (simplified for script)
             final_trends_map[name] = ait
     
     # Build the final document
     updated_map = {
         "last_updated": datetime.utcnow().isoformat() + "Z",
         "trends": list(final_trends_map.values()),
-        "intelligence_metadata": ai_output.get("intelligence_metadata", {})
+        "intelligence_metadata": {
+            "agent": model_id,
+            "timestamp": datetime.utcnow().isoformat() + "Z",
+            "active_narratives": len(final_trends_map)
+        }
     }
     
-    # 6. Commit Back to GitHub
+    # 8. Commit Back to GitHub
     update_github_file("trend_map.json", updated_map, sha, "Narrative Intelligence Update")
     return {"status": "Success", "trends": len(updated_map["trends"])}

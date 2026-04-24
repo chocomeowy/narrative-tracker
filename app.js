@@ -105,10 +105,17 @@ function createTrendCard(trend) {
     const velocity = trend.velocity || "Stable";
     const confidence = trend.confidence || 0.8;
     
-    const isHighVelocity = velocity.toString().includes('+') || velocity.toString().toLowerCase().includes('accelerating');
+    const velLower = velocity.toString().toLowerCase();
+    const isHighVelocity = velLower.includes('+') || 
+                           velLower.includes('high') || 
+                           velLower.includes('accelerating') || 
+                           velLower.includes('surging');
+    
     if (isHighVelocity) card.classList.add('high-velocity');
 
-    const velocityClass = (velocity.toString().startsWith('+') || velocity.toString().toLowerCase().includes('accelerating')) ? 'velocity-up' : (velocity.toString().startsWith('-') ? 'velocity-down' : '');
+    const velocityClass = (isHighVelocity) ? 'velocity-up' : 
+                          (velLower.includes('-') || velLower.includes('low') || velLower.includes('dropping')) ? 'velocity-down' : '';
+    
 
     // Robust evidence extraction
     const evidence = trend.evidence || trend.keywords || [];
