@@ -1,16 +1,16 @@
-# Crypto Intelligence Briefing - 2026-04-25 10:02
+# Crypto Intelligence Briefing - 2026-04-25 16:02
 
-## Intelligence Map Update - April 25, 2026
+## Intelligence Map Update - April 26, 2026
 
-**1. Executive Briefing:**
+**Executive Briefing:**
 
-The crypto market continues its evolution towards institutional acceptance and operational maturity. Bitcoin's narrative is firmly established as a legitimate asset class, driven by sustained ETF inflows and diminishing influence of whale activity. This institutionalization is reshaping market dynamics, prioritizing stability and long-term growth over speculative volatility. Ethereum remains a foundational layer, with Layer 2 solutions addressing scalability concerns while maintaining its core security. The interplay between Bitcoin and Ethereum is intensifying, fueled by the demand for interoperability and cross-chain liquidity solutions like THORChain and Symbiosis API. The Clarity Act represents a pivotal, though uncertain, regulatory development. Its passage could unlock significant growth by providing a clear legal framework for digital assets in the US, and potentially enabling smart contract functionality on Bitcoin, directly challenging Ethereum’s dominance in the smart contract space. The focus is shifting from technological innovation *alone* to the practical application and integration of these technologies within established financial systems. The market is signaling a preference for sustainable growth, regulatory clarity, and robust security over rapid, speculative gains.
+The crypto landscape continues its maturation, marked by deepening institutional integration and a growing focus on regulatory clarity. Bitcoin's narrative as a legitimate asset class is firmly cemented, driven by sustained ETF inflows and a diminishing influence of speculative whale activity. This institutionalization is fostering stability and long-term growth. Simultaneously, Ethereum remains a foundational layer, with Layer 2 solutions addressing scalability, though its dominance is increasingly challenged. The interplay between Bitcoin and Ethereum is intensifying, fueled by the demand for interoperability and cross-chain liquidity solutions. The Clarity Act represents a pivotal, though still uncertain, development. Its potential passage is not merely about legitimizing crypto in the US, but about fundamentally reshaping the competitive landscape by potentially enabling smart contract functionality on Bitcoin, directly challenging Ethereum’s core value proposition. The market is signaling a preference for sustainable growth, regulatory clarity, and robust security over rapid, speculative gains. The recent focus on the Clarity Act's progress in the Senate, coupled with continued institutional investment, suggests a shift towards a more structured and regulated future for digital assets. The emergence of robust cross-chain solutions further indicates a move beyond isolated blockchain ecosystems towards a more interconnected and efficient financial infrastructure.
 
-**2. Data Update:**
+**Updated Trends:**
 
 ```json
 {
-  "executive_briefing": "The crypto market continues its evolution towards institutional acceptance and operational maturity. Bitcoin's narrative is firmly established as a legitimate asset class, driven by sustained ETF inflows and diminishing influence of whale activity. This institutionalization is reshaping market dynamics, prioritizing stability and long-term growth over speculative volatility. Ethereum remains a foundational layer, with Layer 2 solutions addressing scalability concerns while maintaining its core security. The interplay between Bitcoin and Ethereum is intensifying, fueled by the demand for interoperability and cross-chain liquidity solutions like THORChain and Symbiosis API. The Clarity Act represents a pivotal, though uncertain, regulatory development. Its passage could unlock significant growth by providing a clear legal framework for digital assets in the US, and potentially enabling smart contract functionality on Bitcoin, directly challenging Ethereum’s dominance in the smart contract space. The focus is shifting from technological innovation *alone* to the practical application and integration of these technologies within established financial systems. The market is signaling a preference for sustainable growth, regulatory clarity, and robust security over rapid, speculative gains.",
+  "executive_briefing": "The crypto landscape continues its maturation, marked by deepening institutional integration and a growing focus on regulatory clarity. Bitcoin's narrative as a legitimate asset class is firmly cemented, driven by sustained ETF inflows and a diminishing influence of speculative whale activity. This institutionalization is fostering stability and long-term growth. Simultaneously, Ethereum remains a foundational layer, with Layer 2 solutions addressing scalability, though its dominance is increasingly challenged. The interplay between Bitcoin and Ethereum is intensifying, fueled by the demand for interoperability and cross-chain liquidity solutions. The Clarity Act represents a pivotal, though still uncertain, development. Its potential passage is not merely about legitimizing crypto in the US, but about fundamentally reshaping the competitive landscape by potentially enabling smart contract functionality on Bitcoin, directly challenging Ethereum’s core value proposition. The market is signaling a preference for sustainable growth, regulatory clarity, and robust security over rapid, speculative gains.",
   "trends": [
     {
       "name": "Institutional Bitcoin Adoption & ETF Impact",
@@ -21,13 +21,18 @@ The crypto market continues its evolution towards institutional acceptance and o
       "evidence": "Bank-backed bitcoin ETFs accelerating adoption; $58 billion cumulative net flows into US spot Bitcoin ETFs; 2,000+ US advisory firms allocating to crypto ETFs; institutions viewing BTC as a legitimate asset; ETF mirroring of market price; continuous buying/selling maintaining liquidity.",
       "source_links": [
         "https://www.okx.com/learn/bitcoin-record-high-etfs-adoption-regulatory",
-        "https://www.ainvest.com/news/bitcoin-structural-bullishness-market-resilience-institutional-adoption-etfs-rewriting-btc-volatility-narrative-2507/",
+        "https://www.ainvest.com/news/bitcoin-structural-bullishness-market-resilience-institutional-adoption-etfs-rewriting-btc-volatility-narrative-2507",
         "https://www.prosper-fi.com/news/btc-institutional-adoption-101",
         "https://www.coinglass.com/etf/bitcoin",
         "https://www.bitrue.com/blog/bitcoin-2026-outlook-btc-price-forecast",
-        "https://walbi.com/blog/institutional-adoption-etfs-and-crypto-in-traditional-finance"
+        "https://walbi.com/blog/institutional-adoption-etfs-and-crypto-in-traditional-finance",
+        "https://www.chainup.com/blog/institutional-bitcoin-adoption-what-it-means/",
+        "https://kensoninvestments.com/bitcoin-etfs-and-institutional-allocation-a-2025-update/",
+        "https://powerdrill.ai/blog/institutional-cryptocurrency-adoption",
+        "https://coinapproved.com/institutional-crypto-adoption-and-bitcoin-etf-approvals-how-regulation-is-changing-the-game",
+        "https://datos-insights.com/blog/bitcoin-etf-institutional-adoption/"
       ],
-      "confidence": 0.95
+      "confidence": 0.98
     },
     {
       "name": "Ethereum L2 Scalability & Security",
@@ -44,8 +49,8 @@ The crypto market continues its evolution towards institutional acceptance and o
       "stage": "Incubation",
       "velocity": "Medium",
       "category": "Regulation",
-      "summary": "The Clarity Act aims to establish a federal regulatory framework for crypto, classifying tokens and potentially enabling smart contracts on Bitcoin. Passage is uncertain but crucial.",
-      "evidence": "Clarity Act classifies tokens; House passed H.R. 4763; Senate Banking Committee targeting markup; industry lobbying; potential for enabling smart contracts on Bitcoin.",
+      "summary": "The Clarity Act aims to establish a federal regulatory framework for crypto, classifying tokens and potentially enabling smart contracts on Bitcoin. Passage is uncertain but crucial, with Senate markup being a key next step.",
+      "evidence": "Clarity Act classifies tokens; House passed H.R. 3633; Senate Banking Committee targeting markup; industry lobbying; potential for enabling smart contracts on Bitcoin.",
       "source_links": [
         "https://www.congress.gov/bill/119th-congress/house-bill/3633/text",
         "https://www.banking.senate.gov/newsroom/majority/myth-vs-fact-the-clarity-act",
@@ -53,23 +58,26 @@ The crypto market continues its evolution towards institutional acceptance and o
         "https://www.fintechweekly.com/news/clarity-act-senate-returns-april-2026-markup-window",
         "https://www.avemarialaw.edu/clarity-act/"
       ],
-      "confidence": 0.75
+      "confidence": 0.8
     },
     {
       "name": "Cross-Chain Liquidity & Interoperability (BTC/ETH)",
       "stage": "Breakthrough",
       "velocity": "Medium",
       "category": "DeFi",
-      "summary": "Growing demand for interoperability and native asset swaps is driving the development of cross-chain liquidity solutions like THORChain and Symbiosis API, facilitating seamless BTC/ETH swaps.",
+      "summary": "Growing demand for interoperability and native asset swaps is driving the development of cross-chain liquidity solutions like THORChain, Symbiosis API, and Debridge, facilitating seamless BTC/ETH swaps.",
       "evidence": "THORChain focusing on native asset swaps; Symbiosis API enabling cross-chain swaps; seamless access to liquidity sources; bridging ETH to Solana; Bitcoin and Ethereum bridge enabling liquidity.",
       "source_links": [
         "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps",
         "https://symbiosis.finance/",
         "https://swapspace.co/cross-chain/btc-eth-bridge",
         "https://changenow.io/blog/cross-chain-crypto-bridges-faq",
-        "https://advertorial.cryptonews.com/press-releases/what-would-true-cross-chain-liquidity-between-btc-eth-and-sol-look-like-liquidchain-liquid-weighs-in/"
+        "https://advertorial.cryptonews.com/press-releases/what-would-true-cross-chain-liquidity-between-btc-eth-and-sol-look-like-liquidchain-liquid-weighs-in/",
+        "https://app.debridge.com/",
+        "https://li.fi/",
+        "https://app.rango.exchange/"
       ],
-      "confidence": 0.8
+      "confidence": 0.85
     },
     {
       "name": "Ethereum Fundamentals & PoS Transition",
@@ -86,6 +94,8 @@ The crypto market continues its evolution towards institutional acceptance and o
         "https://coinmarketcap.com/currencies/ethereum/",
         "https://en.wikipedia.org/wiki/Ethereum",
         "https://www.blockchain.com/prices/ETH",
+        "https://www.coindesk.com/price/ethereum",
+        "https://finance.yahoo.com/quote/ETH-USD/?fr=sycsrp_catchall",
         "https://www.coindesk.com/price/ethereum"
       ],
       "confidence": 0.9
