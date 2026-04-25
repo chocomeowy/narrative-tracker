@@ -1,30 +1,33 @@
-# Tax Intelligence Briefing - 2026-04-25 05:32
+# Tax Intelligence Briefing - 2026-04-25 10:02
 
-## Analysis and Intelligence Map Update
+## Executive Briefing
 
-**Executive Briefing:**
+The global tax landscape remains highly dynamic, with significant shifts occurring in both corporate taxation and international trade. The OECD’s Pillar Two initiative continues to be a dominant force, though its implementation is increasingly complex, particularly with the US opting for a side-by-side approach. Recent developments indicate a potential unraveling of international tax agreements, as evidenced by the US withdrawal from Pillar One and Two commitments, creating substantial uncertainty for multinational enterprises (MNEs). Simultaneously, a resurgence of protectionist trade policies, spearheaded by the US, is escalating, with potential inflationary consequences and ongoing legal challenges to the legality of imposed tariffs. Singapore continues to be a competitive tax jurisdiction, and is actively pushing forward with its e-invoicing mandate (InvoiceNow), setting a precedent for digital tax transformation. Finally, corporate tax rate adjustments are occurring globally, with Portugal and Austria making changes to their respective tax structures. The overall environment is characterized by volatility and a need for businesses to proactively adapt to evolving regulations.
 
-The global tax landscape is undergoing rapid and significant change. The OECD’s Pillar Two initiative, aiming for a 15% global minimum corporate tax rate, continues to be a dominant force, though its implementation has become more complex with the US opting for a side-by-side arrangement. This arrangement allows US-headquartered companies to remain subject only to US global minimum taxes, exempting them from full Pillar Two compliance. Simultaneously, a resurgence of protectionist trade policies, particularly through US tariffs, is escalating, creating uncertainty for global trade and potentially fueling inflation. The US Supreme Court is poised to rule on the legality of these tariffs, adding another layer of complexity. Several countries are adjusting their corporate tax rates, with Portugal planning decreases and Austria reducing its top income tax rate. Singapore and Dubai remain competitive tax jurisdictions, attracting foreign investment. Finally, the implementation of e-invoicing, particularly in Singapore with its InvoiceNow mandate, is gaining momentum and becoming a core component of digital tax transformation.
-
-**Updated Intelligence Map (JSON Format):**
+## Updated Intelligence Map
 
 ```json
 {
-  "executive_briefing": "The global tax landscape is undergoing rapid and significant change. The OECD’s Pillar Two initiative, aiming for a 15% global minimum corporate tax rate, continues to be a dominant force, though its implementation has become more complex with the US opting for a side-by-side arrangement. This arrangement allows US-headquartered companies to remain subject only to US global minimum taxes, exempting them from full Pillar Two compliance. Simultaneously, a resurgence of protectionist trade policies, particularly through US tariffs, is escalating, creating uncertainty for global trade and potentially fueling inflation. The US Supreme Court is poised to rule on the legality of these tariffs, adding another layer of complexity. Several countries are adjusting their corporate tax rates, with Portugal planning decreases and Austria reducing its top income tax rate. Singapore and Dubai remain competitive tax jurisdictions, attracting foreign investment. Finally, the implementation of e-invoicing, particularly in Singapore with its InvoiceNow mandate, is gaining momentum and becoming a core component of digital tax transformation.",
+  "executive_briefing": "The global tax landscape remains highly dynamic, with significant shifts occurring in both corporate taxation and international trade. The OECD’s Pillar Two initiative continues to be a dominant force, though its implementation is increasingly complex, particularly with the US opting for a side-by-side approach. Recent developments indicate a potential unraveling of international tax agreements, as evidenced by the US withdrawal from Pillar One and Two commitments, creating substantial uncertainty for multinational enterprises (MNEs). Simultaneously, a resurgence of protectionist trade policies, spearheaded by the US, is escalating, with potential inflationary consequences and ongoing legal challenges to the legality of imposed tariffs. Singapore continues to be a competitive tax jurisdiction, and is actively pushing forward with its e-invoicing mandate (InvoiceNow), setting a precedent for digital tax transformation. Finally, corporate tax rate adjustments are occurring globally, with Portugal and Austria making changes to their respective tax structures. The overall environment is characterized by volatility and a need for businesses to proactively adapt to evolving regulations.",
   "trends": [
     {
       "name": "Global Minimum Corporate Tax (Pillar Two)",
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Corporate Tax",
-      "summary": "The OECD's Pillar Two initiative establishes a global minimum corporate tax rate of 15% for large MNEs, impacting tax planning and potentially increasing tax revenue. US implementation involves a side-by-side arrangement.",
-      "evidence": "OECD consensus on the deal. Approximately 140 countries have adopted Pillar Two. Focus on intangible income and base erosion rules. US side-by-side arrangement confirmed.",
+      "summary": "The OECD's Pillar Two initiative establishes a global minimum corporate tax rate of 15% for large MNEs, impacting tax planning and potentially increasing tax revenue. US implementation involves a side-by-side arrangement, but recent developments suggest potential US withdrawal from the agreement.",
+      "evidence": "OECD consensus on the deal. Approximately 140 countries have adopted Pillar Two. Focus on intangible income and base erosion rules. US side-by-side arrangement confirmed. US withdrawal from Pillar One and Two agreements.",
       "source_links": [
         "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
         "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
         "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax/",
         "https://www.deloitte.com/us/en/services/audit-assurance/articles/pillar-two-tax.html",
-        "https://practiceguides.chambers.com/practice-guides/corporate-tax-2026"
+        "https://practiceguides.chambers.com/practice-guides/corporate-tax-2026",
+        "https://ciferi.com/glossary/pillar-two",
+        "https://www.aoshearman.com/en/insights/what-does-2025-hold-for-the-global-minimum-tax-pillar-two",
+        "https://www.bakertilly.de/en/post/pillar-2-the-global-minimum-tax-is-still-the-talk-of-the-town",
+        "https://www.bdo.com/insights/tax/what-pillar-two-means-for-income-tax-accounting",
+        "https://www.moore-australia.com.au/services/international-business-advisory-moore-australia/international-tax-services/pillar-two-global-minimum-tax/"
       ],
       "confidence": 0.95
     },
@@ -33,11 +36,10 @@ The global tax landscape is undergoing rapid and significant change. The OECD’
       "stage": "Incubation",
       "velocity": "Medium",
       "category": "Corporate Tax",
-      "summary": "The US is positioned to collect additional tax revenue from its companies if they pay less than 15% in other jurisdictions, potentially impacting the competitiveness of US-based MNEs.",
+      "summary": "The US is positioned to collect additional tax revenue from its companies if they pay less than 15% in other jurisdictions, potentially impacting the competitiveness of US-based MNEs. The side-by-side arrangement exempts US companies from full Pillar Two compliance.",
       "evidence": "The plan would effectively allow the US to tax the difference between the 15% minimum rate and lower rates paid in countries like Ireland. US side-by-side arrangement exempts US companies from full Pillar Two compliance.",
       "source_links": [
-        "https://bipartisanpolicy.org/issue-brief/international-tax-policy-where-the-u-s-stands-and-whats-ahead-in-2026/",
-        "https://practiceguides.chambers.com/practice-guides/corporate-tax-2026"
+        "https://bipartisanpolicy.org/issue-brief/international-tax-policy-where-the-u-s-stands-and-whats-ahead-in-2026/"
       ],
       "confidence": 0.85
     },
@@ -46,13 +48,14 @@ The global tax landscape is undergoing rapid and significant change. The OECD’
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Tariffs",
-      "summary": "The US is implementing and considering reciprocal tariffs on goods from China, the UK, and other countries, potentially disrupting global trade and increasing inflation.",
+      "summary": "The US is implementing and considering reciprocal tariffs on goods from China, the UK, and other countries, potentially disrupting global trade and increasing inflation. The legality of these tariffs is being challenged.",
       "evidence": "Trump administration imposed tariffs under IEEPA, now facing legal challenges. Potential for $450 billion in revenue shifts. 90-day pause on escalations with China. Average effective tariff rate expected to settle around 15-18%.",
       "source_links": [
         "https://www.reuters.com/business/tariffs/",
         "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/",
         "https://www.tradecomplianceresourcehub.com/2026/04/19/trump-2-0-tariff-tracker/",
-        "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs"
+        "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
+        "https://apnews.com/hub/tariffs"
       ],
       "confidence": 0.9
     },
@@ -61,7 +64,7 @@ The global tax landscape is undergoing rapid and significant change. The OECD’
       "stage": "Incubation",
       "velocity": "Medium",
       "category": "Tariffs",
-      "summary": "The legality of tariffs imposed under the International Emergency Economic Powers Act (IEEPA) is being challenged in court, creating uncertainty for businesses and trade policy.",
+      "summary": "The legality of tariffs imposed under the International Emergency Economic Powers Act (IEEPA) is being challenged in court, creating uncertainty for businesses and trade policy. The Supreme Court is expected to rule in the coming months.",
       "evidence": "Court for International Trade (CIT) ruled IEEPA tariffs unlawful. Supreme Court expected to rule in coming months.",
       "source_links": [
         "https://www.reuters.com/business/tariffs/",
@@ -98,7 +101,13 @@ The global tax landscape is undergoing rapid and significant change. The OECD’
         "https://invoicedataextraction.com/blog/singapore-invoicenow-e-invoicing-peppol",
         "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
         "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
-        "https://www.cleartax.com/sg/en/e-invoicing-singapore"
+        "https://www.cleartax.com/sg/en/e-invoicing-singapore",
+        "https://sovos.com/vat/tax-rules/singapore-e-invoicing/",
+        "https://medium.com/@patrikgothi22/key-factors-driving-the-evolution-of-e-invoicing-544a6e62cc59",
+        "https://theedgemalaysia.com/node/721028",
+        "https://edicomgroup.com/blog/singapore-encourages-the-use-of-e-invoicing-with-peppol",
+        "https://www.ey.com/en_sg/technical/you-and-the-taxman/embracing-the-era-of-electronic-invoicing",
+        "https://www.comarch.com/trade-and-services/data-management/e-invoicing/e-invoicing-in-singapore/"
       ],
       "confidence": 0.85
     },
