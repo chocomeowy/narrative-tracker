@@ -39,6 +39,19 @@
             </div>
         </section>
 
+        <!-- New Intelligence Matrix (Heatmap) -->
+        <section id="matrix-container" class="matrix-card">
+            <div class="stat-label" style="margin-bottom: 1.5rem;">Intelligence Heatmap: Category vs Stage</div>
+            <div id="intelligence-matrix" class="matrix-grid">
+                <!-- Heatmap grid will be injected here -->
+            </div>
+            <div class="matrix-legend">
+                <div class="legend-item"><span class="legend-box" style="background: rgba(0, 242, 255, 0.1);"></span> Low Density</div>
+                <div class="legend-item"><span class="legend-box" style="background: rgba(0, 242, 255, 0.4);"></span> Medium Density</div>
+                <div class="legend-item"><span class="legend-box" style="background: rgba(0, 242, 255, 0.8);"></span> High Density</div>
+            </div>
+        </section>
+
         <section class="glossary-card">
             <div class="stat-label" style="margin-bottom: 1rem;">Velocity Metric Guide</div>
             <div class="glossary-grid">
@@ -97,6 +110,17 @@
                 <div id="fatigue-trends" class="trends-grid"></div>
             </div>
         </div>
+
+        <!-- New Archive Section -->
+        <section id="archive-container" class="archive-section" style="margin-top: 4rem; border-top: 1px solid var(--glass-border); padding-top: 3rem;">
+            <div class="archive-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+                <div class="stat-label">Historical Intelligence Archive</div>
+                <button id="toggle-archive" class="tab-btn" style="padding: 0.4rem 1rem; font-size: 0.7rem;">View Archived Narrative Intelligence</button>
+            </div>
+            <div id="archive-grid" class="trends-grid" style="display: none; opacity: 0.7;">
+                <!-- Archived trends will be injected here -->
+            </div>
+        </section>
     </main>
 
     <script src="app.js"></script>

@@ -359,7 +359,115 @@ main {
   margin-top: 1rem;
 }
 
+/* Intelligence Matrix (Heatmap) */
+.matrix-card {
+  background: var(--card-bg);
+  border: 1px solid var(--glass-border);
+  padding: 2rem;
+  border-radius: 1.5rem;
+  backdrop-filter: blur(20px);
+  margin-bottom: 3rem;
+  overflow-x: auto;
+}
+
+.matrix-grid {
+  display: grid;
+  grid-template-columns: 150px repeat(4, 1fr);
+  gap: 0.5rem;
+  min-width: 600px;
+}
+
+.matrix-header-cell {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.matrix-category-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  padding-right: 1rem;
+}
+
+.matrix-cell {
+  aspect-ratio: 2/1;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-main);
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.matrix-cell:hover {
+  transform: scale(1.05);
+  border-color: var(--accent-primary);
+  z-index: 10;
+}
+
+.matrix-legend {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  justify-content: center;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--text-dim);
+}
+
+.legend-box {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+}
+
+/* Archive Enhancements */
+.archive-section {
+  transition: all 0.5s ease;
+}
+
+.archive-trend-card {
+  opacity: 0.6;
+  filter: grayscale(0.5);
+  transition: all 0.3s ease;
+}
+
+.archive-trend-card:hover {
+  opacity: 1;
+  filter: grayscale(0);
+}
+
+.archived-badge {
+  background: rgba(107, 114, 128, 0.2);
+  color: #9ca3af;
+  font-size: 0.6rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
 @media (max-width: 768px) {
   h1 { font-size: 2rem; }
   .trends-grid { grid-template-columns: 1fr; }
+  .matrix-grid {
+    grid-template-columns: 100px repeat(4, 1fr);
+    font-size: 0.7rem;
+  }
 }

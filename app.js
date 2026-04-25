@@ -1,4 +1,5 @@
 let currentDataSource = 'tax_trend_map.json';
+let currentArchiveSource = 'tax_archive.json';
 let currentFocusLabel = 'Corporate Tax / Tariffs';
 
 async function init() {
@@ -18,6 +19,8 @@ function setupTabs() {
             
             // State Update
             currentDataSource = btn.getAttribute('data-source');
+            currentArchiveSource = currentDataSource.replace('_trend_map.json', '_archive.json');
+            if (currentDataSource === 'trend_map.json') currentArchiveSource = 'archive.json'; // Fallback
             currentFocusLabel = btn.getAttribute('data-focus');
             
             // Reload Data
@@ -48,12 +51,24 @@ async function loadData() {
 
         const trends = trendData.trends || trendData.active_trends || [];
 
+        // Fetch Archive
+        console.log(`Fetching archive from: ${currentArchiveSource}`);
+        let archiveData = { archived_trends: [] };
+        try {
+            const archiveResponse = await fetch(currentArchiveSource);
+            if (archiveResponse.ok) {
+                archiveData = await archiveResponse.json();
+            }
+        } catch (e) {
+            console.warn("Archive not found or error loading it.");
+        }
+
         if (trends.length === 0) {
             console.warn(`No trends found in ${currentDataSource}, showing placeholder.`);
             showPlaceholder(steeringData);
         } else {
             console.log(`Successfully loaded ${trends.length} trends from ${currentDataSource}`);
-            renderDashboard(trendData, steeringData, trends);
+            renderDashboard(trendData, steeringData, trends, archiveData);
         }
     } catch (error) {
         console.error("Data loading error:", error);
@@ -69,9 +84,10 @@ async function loadData() {
     }
 }
 
-function renderDashboard(data, steering, trends = []) {
+function renderDashboard(data, steering, trends = [], archiveData = { archived_trends: [] }) {
     // Ensure trends is an array
     const activeTrends = Array.isArray(trends) ? trends : [];
+    const archivedTrends = Array.isArray(archiveData.archived_trends) ? archiveData.archived_trends : [];
     
     const lastUpdatedEl = document.getElementById('last-updated');
     const countTotalEl = document.getElementById('count-total');
@@ -94,6 +110,12 @@ function renderDashboard(data, steering, trends = []) {
             briefingContainer.style.display = 'none';
         }
     }
+
+    // Render Heatmap
+    renderHeatmap(activeTrends);
+
+    // Clear and Render Archive
+    renderArchive(archivedTrends);
 
     // Clear sections
     const stages = ['incubation', 'breakthrough', 'peak-hype', 'fatigue'];
@@ -118,6 +140,92 @@ function renderDashboard(data, steering, trends = []) {
             const incubationSection = document.getElementById('incubation-trends');
             if (incubationSection) incubationSection.appendChild(card);
         }
+    });
+}
+
+function renderHeatmap(trends) {
+    const matrixEl = document.getElementById('intelligence-matrix');
+    if (!matrixEl) return;
+
+    matrixEl.innerHTML = '';
+
+    const stages = ["Incubation", "Breakthrough", "Peak Hype", "Fatigue"];
+    const categories = [...new Set(trends.map(t => t.category || "General"))].sort();
+
+    // Headers
+    matrixEl.appendChild(createMatrixCell("", "matrix-header-cell"));
+    stages.forEach(stage => {
+        matrixEl.appendChild(createMatrixCell(stage, "matrix-header-cell"));
+    });
+
+    // Rows
+    categories.forEach(cat => {
+        // Category Label
+        matrixEl.appendChild(createMatrixCell(cat, "matrix-category-label"));
+
+        // Cells for each stage
+        stages.forEach(stage => {
+            const count = trends.filter(t => (t.category || "General") === cat && (t.stage || "Incubation").toLowerCase() === stage.toLowerCase()).length;
+            
+            const cell = createMatrixCell(count > 0 ? count : "", "matrix-cell");
+            
+            // Apply intensity
+            if (count > 0) {
+                const opacity = Math.min(0.2 + (count * 0.2), 0.9);
+                cell.style.background = `rgba(0, 242, 255, ${opacity})`;
+                if (opacity > 0.6) cell.style.boxShadow = `0 0 15px rgba(0, 242, 255, 0.3)`;
+            }
+            
+            matrixEl.appendChild(cell);
+        });
+    });
+}
+
+function createMatrixCell(text, className) {
+    const div = document.createElement('div');
+    div.className = className;
+    div.innerText = text;
+    return div;
+}
+
+function renderArchive(archivedTrends) {
+    const archiveGrid = document.getElementById('archive-grid');
+    const toggleBtn = document.getElementById('toggle-archive');
+    if (!archiveGrid || !toggleBtn) return;
+
+    archiveGrid.innerHTML = '';
+    
+    if (archivedTrends.length === 0) {
+        archiveGrid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; color: var(--text-dim); padding: 2rem;">No archived intelligence found for this focus.</div>';
+    } else {
+        archivedTrends.forEach(trend => {
+            const card = createTrendCard(trend);
+            card.classList.add('archive-trend-card');
+            
+            // Add archived date
+            const dateStr = trend.archived_at ? new Date(trend.archived_at).toLocaleDateString() : 'Unknown Date';
+            const badge = document.createElement('div');
+            badge.className = 'archived-badge';
+            badge.innerText = `Archived: ${dateStr}`;
+            card.prepend(badge);
+            
+            archiveGrid.appendChild(card);
+        });
+    }
+
+    // Reset toggle state on load
+    archiveGrid.style.display = 'none';
+    toggleBtn.innerText = 'View Archived Narrative Intelligence';
+
+    // Add toggle listener (remove old ones if any)
+    const newToggleBtn = toggleBtn.cloneNode(true);
+    toggleBtn.parentNode.replaceChild(newToggleBtn, toggleBtn);
+    
+    newToggleBtn.addEventListener('click', () => {
+        const isHidden = archiveGrid.style.display === 'none';
+        archiveGrid.style.display = isHidden ? 'grid' : 'none';
+        newToggleBtn.innerText = isHidden ? 'Hide Intelligence Archive' : 'View Archived Narrative Intelligence';
+        if (isHidden) archiveGrid.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
 }
 
