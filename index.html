@@ -39,37 +39,6 @@
             </div>
         </section>
 
-        <!-- New Intelligence Matrix (Heatmap) -->
-        <section id="matrix-container" class="matrix-card">
-            <div class="stat-label" style="margin-bottom: 1.5rem;">Intelligence Heatmap: Category vs Stage</div>
-            <div id="intelligence-matrix" class="matrix-grid">
-                <!-- Heatmap grid will be injected here -->
-            </div>
-            <div class="matrix-legend">
-                <div class="legend-item"><span class="legend-box" style="background: rgba(0, 242, 255, 0.1);"></span> Low Density</div>
-                <div class="legend-item"><span class="legend-box" style="background: rgba(0, 242, 255, 0.4);"></span> Medium Density</div>
-                <div class="legend-item"><span class="legend-box" style="background: rgba(0, 242, 255, 0.8);"></span> High Density</div>
-            </div>
-        </section>
-
-        <section class="glossary-card">
-            <div class="stat-label" style="margin-bottom: 1rem;">Velocity Metric Guide</div>
-            <div class="glossary-grid">
-                <div class="glossary-item">
-                    <span class="velocity-badge high">High / Surging</span>
-                    <p>Massive spike in momentum. Card will <strong>pulse</strong> and text turns green.</p>
-                </div>
-                <div class="glossary-item">
-                    <span class="velocity-badge medium">Medium / Stable</span>
-                    <p>Steady growth without recent breakout events. Normal display.</p>
-                </div>
-                <div class="glossary-item">
-                    <span class="velocity-badge low">Low / Dropping</span>
-                    <p>Losing momentum or facing decreased interest. Text turns red.</p>
-                </div>
-            </div>
-            <p class="glossary-footer">Velocity is the AI's assessment of how fast a narrative is accelerating across search data.</p>
-        </section>
         
         <section id="briefing-container" class="briefing-card" style="display: none;">
             <div class="stat-label" style="margin-bottom: 1rem;">Intelligence Briefing</div>
@@ -110,6 +79,37 @@
                 <div id="fatigue-trends" class="trends-grid"></div>
             </div>
         </div>
+
+        <section id="matrix-container" class="matrix-card" style="margin-top: 4rem;">
+            <div class="stat-label" style="margin-bottom: 1.5rem;">Intelligence Heatmap: Category vs Stage</div>
+            <div id="intelligence-matrix" class="matrix-grid">
+                <!-- Heatmap grid will be injected here -->
+            </div>
+            <div class="matrix-legend">
+                <div class="legend-item"><span class="legend-box" style="background: rgba(0, 242, 255, 0.1);"></span> Low Density</div>
+                <div class="legend-item"><span class="legend-box" style="background: rgba(0, 242, 255, 0.4);"></span> Medium Density</div>
+                <div class="legend-item"><span class="legend-box" style="background: rgba(0, 242, 255, 0.8);"></span> High Density</div>
+            </div>
+        </section>
+
+        <section class="glossary-card">
+            <div class="stat-label" style="margin-bottom: 1rem;">Velocity Metric Guide</div>
+            <div class="glossary-grid">
+                <div class="glossary-item">
+                    <span class="velocity-badge high">High / Surging</span>
+                    <p>Massive spike in momentum. Card will <strong>pulse</strong> and text turns green.</p>
+                </div>
+                <div class="glossary-item">
+                    <span class="velocity-badge medium">Medium / Stable</span>
+                    <p>Steady growth without recent breakout events. Normal display.</p>
+                </div>
+                <div class="glossary-item">
+                    <span class="velocity-badge low">Low / Dropping</span>
+                    <p>Losing momentum or facing decreased interest. Text turns red.</p>
+                </div>
+            </div>
+            <p class="glossary-footer">Velocity is the AI's assessment of how fast a narrative is accelerating across search data.</p>
+        </section>
 
         <!-- New Archive Section -->
         <section id="archive-container" class="archive-section" style="margin-top: 4rem; border-top: 1px solid var(--glass-border); padding-top: 3rem;">
