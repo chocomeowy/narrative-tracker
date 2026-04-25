@@ -43,6 +43,16 @@ def fetch_current_state():
         return json_lib.loads(base64.b64decode(content['content']).decode('utf-8'))
     return {"trends": []}
 
+def fetch_steering():
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/crypto_steering.json"
+    headers = {"Authorization": f"token {GITHUB_TOKEN}"}
+    r = requests.get(url, headers=headers)
+    if r.status_code == 200:
+        import base64
+        content = r.json()
+        return json_lib.loads(base64.b64decode(content['content']).decode('utf-8'))
+    return {}
+
 def get_search_results(query):
     try:
         from ddgs import DDGS
@@ -57,16 +67,17 @@ def run_agent():
     print("Starting Crypto Narrative Intelligence Agent...")
     sys.stdout.flush()
     
-    # 1. Load Current State
+    # 1. Load Current State & Steering
     current_map = fetch_current_state()
+    steering = fetch_steering()
     
     # 2. Gather Intelligence
-    queries = [
+    queries = steering.get("focus_areas", [
         "Bitcoin (BTC) institutional adoption and ETFs",
         "Ethereum (ETH) L2 scaling and restaking narratives",
         "Clarity Act Senate crypto regulation 2026",
         "Cross-chain liquidity between BTC and ETH"
-    ]
+    ])
     
     raw_intel = []
     for q in queries:
@@ -81,6 +92,7 @@ def run_agent():
     Context:
     Current Trends: {json_lib.dumps(current_map)}
     New Intel: {json_lib.dumps(raw_intel)}
+    Steering Directives: {json_lib.dumps(steering)}
     
     Task: Perform a deep analysis and update the intelligence map.
     
