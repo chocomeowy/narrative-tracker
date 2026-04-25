@@ -76,7 +76,7 @@ def run_agent():
         "Corporate tax rate changes global 2026",
         "International trade tariffs updates",
         "Global minimum corporate tax Pillar Two",
-        "US IRS corporate tax policy shifts"
+        "Singapore corporate tax policy shifts"
     ])
     
     raw_intel = []
