@@ -1,5 +1,14 @@
+# Tax Intelligence Briefing - 2026-04-25 03:15
+
+## Executive Briefing:
+
+The global tax landscape is undergoing rapid and significant shifts, primarily driven by the interplay between the OECD’s Pillar Two framework, the United States’ evolving stance on international tax agreements, and escalating trade tensions manifested in tariff policies. The US withdrawal from full OECD Pillar One and Two agreements, followed by a side-by-side arrangement, represents a major disruption. This arrangement effectively shields US multinationals from the full impact of Pillar Two, creating a two-tiered system and potentially sparking retaliatory measures. Simultaneously, a resurgence of protectionist trade policies, particularly through reciprocal tariffs, is adding complexity and uncertainty. The Supreme Court’s upcoming ruling on the legality of Trump-era tariffs introduces further volatility, with potential for significant revenue implications and inflationary pressures. These developments necessitate a reassessment of corporate tax strategies, particularly for multinational enterprises, and a heightened focus on monitoring trade policy changes. Portugal's corporate tax reduction adds another layer to the international tax competition. The IRS is also becoming more efficient in auditing large corporations, which could lead to increased tax revenue.
+
+## Data Update:
+
+```json
 {
-  "last_updated": "2026-04-25T03:15:03.646349Z",
+  "executive_briefing": "The global tax landscape is undergoing rapid and significant shifts, primarily driven by the interplay between the OECD’s Pillar Two framework, the United States’ evolving stance on international tax agreements, and escalating trade tensions manifested in tariff policies. The US withdrawal from full OECD Pillar One and Two agreements, followed by a side-by-side arrangement, represents a major disruption. This arrangement effectively shields US multinationals from the full impact of Pillar Two, creating a two-tiered system and potentially sparking retaliatory measures. Simultaneously, a resurgence of protectionist trade policies, particularly through reciprocal tariffs, is adding complexity and uncertainty. The Supreme Court’s upcoming ruling on the legality of Trump-era tariffs introduces further volatility, with potential for significant revenue implications and inflationary pressures. These developments necessitate a reassessment of corporate tax strategies, particularly for multinational enterprises, and a heightened focus on monitoring trade policy changes. Portugal's corporate tax reduction adds another layer to the international tax competition. The IRS is also becoming more efficient in auditing large corporations, which could lead to increased tax revenue.",
   "trends": [
     {
       "name": "OECD Pillar Two Implementation & US Exception",
@@ -46,10 +55,6 @@
       "evidence": "March 18, 2026: Global tax landscape is volatile and dramatic.",
       "confidence": 0.85
     }
-  ],
-  "intelligence_metadata": {
-    "agent": "gemma-3-27b-it",
-    "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-04-25T03:15:03.646355Z"
-  }
+  ]
 }
+```
