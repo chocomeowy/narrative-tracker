@@ -172,29 +172,67 @@ function createTrendCard(trend) {
 }
 
 function showPlaceholder(steeringData) {
-    const mockTrends = [
-        {
-            name: "Bitcoin L2s (Stacks/Clarity)",
-            stage: "Breakthrough",
-            velocity: "+45%",
-            confidence: 0.92,
-            first_seen: "2024-04-15",
-            summary: "Exponential growth in Bitcoin smart contract activity as Clarity developers build on Stacks.",
-            evidence: ["Clarity GitHub activity", "Stacks Nakamoto release"],
-        },
-        {
-            name: "ETH Data Availability",
-            stage: "Peak Hype",
-            velocity: "+10%",
-            confidence: 0.88,
-            first_seen: "2024-04-01",
-            summary: "Focus on EIP-4844 and Blobs to reduce L2 costs.",
-            evidence: ["Base/Optimism volume", "EIP-4844 adoption rates"],
-        }
-    ];
+    let mockTrends = [];
+    
+    if (currentDataSource === 'tax_trend_map.json') {
+        mockTrends = [
+            {
+                name: "Global Minimum Tax (Pillar Two)",
+                stage: "Breakthrough",
+                velocity: "+20%",
+                confidence: 0.95,
+                category: "International",
+                summary: "Rapid adoption of the 15% global minimum tax framework across OECD nations.",
+                evidence: ["OECD Pillar Two reports", "National legislative updates"],
+            },
+            {
+                name: "Reciprocal Tariff Frameworks",
+                stage: "Incubation",
+                velocity: "+15%",
+                confidence: 0.85,
+                category: "Tariffs",
+                summary: "New discussions around automated reciprocal tariff triggers in bilateral trade.",
+                evidence: ["Trade policy whitepapers", "Senate committee hearings"],
+            }
+        ];
+    } else if (currentDataSource === 'crypto_trend_map.json') {
+        mockTrends = [
+            {
+                name: "Bitcoin L2s (Stacks/Clarity)",
+                stage: "Breakthrough",
+                velocity: "+45%",
+                confidence: 0.92,
+                category: "Layer 2",
+                summary: "Exponential growth in Bitcoin smart contract activity as Clarity developers build on Stacks.",
+                evidence: ["Clarity GitHub activity", "Stacks Nakamoto release"],
+            },
+            {
+                name: "ETH Data Availability",
+                stage: "Peak Hype",
+                velocity: "+10%",
+                confidence: 0.88,
+                category: "Infrastructure",
+                summary: "Focus on EIP-4844 and Blobs to reduce L2 costs.",
+                evidence: ["Base/Optimism volume", "EIP-4844 adoption rates"],
+            }
+        ];
+    } else {
+        mockTrends = [
+            {
+                name: "Agentic Mesh Protocols",
+                stage: "Incubation",
+                velocity: "High",
+                confidence: 0.9,
+                category: "AI",
+                summary: "Emergence of p2p protocols for autonomous agent collaboration.",
+                evidence: ["GitHub star growth", "New research papers"],
+            }
+        ];
+    }
     
     renderDashboard({
         last_updated: new Date().toISOString(),
+        executive_briefing: "Agent is initializing data for " + currentFocusLabel + ". Showing projected trends based on current steering focus.",
         trends: mockTrends
     }, steeringData || { focus_areas: [currentFocusLabel] }, mockTrends);
 }
