@@ -1,11 +1,76 @@
 {
-  "last_updated": "2026-04-25T00:12:57.863201Z",
+  "last_updated": "2026-04-25T03:00:07.808690Z",
   "trends": [
+    {
+      "name": "Formal Logic & Reasoning-Centric Architectures",
+      "stage": "Breakthrough",
+      "velocity": "Extreme",
+      "description": "Development of agentic systems that integrate formal logic and self-attention mechanisms to handle complex, non-reactive tasks autonomously.",
+      "category": "AI Research",
+      "confidence": 0.95,
+      "summary": "The integration of formal logic and advanced reasoning into LLM architectures to move beyond probabilistic token prediction.",
+      "evidence": "Emergence of reasoning-centric model evolution and explosive growth in agentic reasoning frameworks."
+    },
+    {
+      "name": "Enterprise Policy-Governed Agentic Orchestration",
+      "stage": "Peak Hype",
+      "velocity": "Extreme",
+      "category": "Enterprise AI",
+      "confidence": 0.92,
+      "summary": "Deploying autonomous agents within strict corporate policy and safety guardrails, enabling content generation and task execution at scale.",
+      "evidence": "Adobe's integration of autonomous agents for content activation within governed environments; rise of enterprise agentic-microservice interoperability."
+    },
+    {
+      "name": "Comprehensive LLM Performance & Utility Benchmarking",
+      "stage": "Peak Hype",
+      "velocity": "Explosive",
+      "category": "Benchmarking",
+      "confidence": 0.98,
+      "summary": "A shift toward multi-metric evaluation including TTFT, TPS, cost-per-token, and cross-lingual reasoning depth.",
+      "evidence": "New data tracking comparison rankings of 100+ AI models across intelligence, price, and speed metrics."
+    },
+    {
+      "name": "Epistemic Utility & Pragmatic Model Realism",
+      "stage": "Incubation",
+      "velocity": "Medium-High",
+      "category": "AI Theory",
+      "confidence": 0.85,
+      "summary": "An emerging philosophical framework acknowledging that models are inherently flawed but must be optimized for practical utility.",
+      "evidence": "Reference to George Box's 'all models are wrong' aphorism in recent AI discourse and model utility frameworks."
+    },
+    {
+      "name": "Nuclear-Powered AI Compute Infrastructure",
+      "stage": "Incubation",
+      "velocity": "Medium",
+      "description": "Long-term trend focusing on specialized energy sources to power high-density compute clusters for frontier model training.",
+      "category": "AI Hardware",
+      "confidence": 0.8,
+      "summary": "Long-term investment in nuclear energy to satisfy the massive power requirements of frontier LLM training and inference.",
+      "evidence": "Continued interest in nuclear-powered AI compute infrastructure as a stable energy source for data centers."
+    },
+    {
+      "name": "Open-Source LLM Infrastructure & Proliferation",
+      "stage": "Breakthrough",
+      "velocity": "Extreme",
+      "category": "Open Source",
+      "confidence": 0.94,
+      "summary": "The rapid expansion of high-quality open-weight models and the infrastructure needed to deploy them locally.",
+      "evidence": "Extreme growth in open-source LLM adoption and model customization with enterprise data in hours."
+    },
+    {
+      "name": "Zero-Infrastructure Autonomous Agent Orchestration",
+      "stage": "Breakthrough",
+      "velocity": "High",
+      "category": "Architecture",
+      "confidence": 0.88,
+      "summary": "Cloud-native and serverless approaches to deploying autonomous agents without traditional infrastructure management.",
+      "evidence": "Trend growth in zero-infrastructure autonomous agent orchestration and agentic-microservice interoperability."
+    },
     {
       "id": "agentic-mesh-protocols",
       "name": "Decentralized Agentic Mesh",
-      "category": "Autonomous AI Agents",
-      "stage": "Growth",
+      "category": "Architecture",
+      "stage": "Breakthrough",
       "velocity": "High",
       "technical_indicators": {
         "github_metrics": "Significant star growth in 'Agent-to-Agent' (A2A) communication libraries; emergence of Rust-based agent runtimes.",
@@ -13,413 +78,35 @@
         "key_tech": "WASM-based agent sandboxing, p2p discovery protocols."
       },
       "narrative_summary": "The transition from single-purpose LLM wrappers to persistent, autonomous meshes that negotiate resources and tasks without human intervention.",
-      "summary": "Development of systems where autonomous agents collaborate in decentralized environments to solve complex tasks individually or collectively.",
-      "evidence": "AgentAI represents a transformative approach within distributed AI where agents work collaboratively in decentralized structures.",
+      "summary": "Architectural patterns where multiple autonomous agents collaborate across decentralized networks.",
+      "evidence": "Development of collaborative agentic meshes and decentralized infrastructure for agent communication.",
       "sentiment": "Positive",
       "technical_depth": "High",
-      "description": "Networks of specialized agents interacting to solve complex problems without centralized orchestration."
+      "description": "Networks of specialized agents interacting to solve complex problems without centralized orchestration.",
+      "confidence": 0.86
     },
     {
-      "id": "bit-linear-quantization-os",
-      "name": "Efficient LLM Architectures",
-      "category": "Open Source LLMs",
-      "stage": "Growth",
-      "velocity": "High",
-      "technical_indicators": {
-        "github_metrics": "Rapid adoption of BitNet-derivative repositories; 300% increase in forks for ternary-weight optimized kernels.",
-        "developer_interest": "High focus on running 100B+ parameter models on consumer-grade mobile hardware and edge devices.",
-        "key_tech": "1.58-bit quantization, custom Triton kernels for bit-manipulation."
-      },
-      "narrative_summary": "Open-source momentum is pivoting away from 'dense' FP16/BF16 models toward native bit-linear architectures, democratizing the deployment of large-scale reasoning models.",
-      "summary": "Research and implementation of ternary and binary weight models (e.g., BitNet b1.58) that significantly reduce memory overhead while maintaining high perplexity scores.",
-      "evidence": "Rapid release of quantized model variants on Hugging Face and high-velocity commits to local inference engines like llama.cpp to support 1.58-bit kernels.",
-      "sentiment": "Positive",
-      "technical_depth": "Very High",
-      "description": "Focus on optimizing model utility and inference performance metrics for deployment."
-    },
-    {
-      "id": "smr-data-center-coupling",
-      "name": "Nuclear-Powered AI Compute",
-      "category": "Nuclear Energy Tech",
-      "stage": "Early-Adoption",
-      "velocity": "Medium",
-      "technical_indicators": {
-        "github_metrics": "Increased activity in open-source thermal management and digital twin frameworks for Gen-IV reactors.",
-        "developer_interest": "Systems engineers focusing on 'Behind-the-Meter' (BTM) nuclear power for AI hyperscalers.",
-        "key_tech": "Molten salt coolant monitoring, AI-driven predictive maintenance for micro-reactors."
-      },
-      "narrative_summary": "The physical convergence of nuclear energy and AI infrastructure, where Small Modular Reactors (SMRs) are being directly integrated into modular data center designs to solve the US power grid bottleneck.",
-      "summary": "Technical integration of Small Modular Reactors (SMRs) with high-density GPU clusters to provide off-grid, carbon-neutral base load power for AI training.",
-      "evidence": "US Department of Energy (DOE) updates regarding pilot programs for nuclear-powered data centers and private sector PPA (Power Purchase Agreement) filings.",
-      "sentiment": "Neutral",
-      "technical_depth": "High",
-      "description": "Exploration of dedicated nuclear energy sources to power the massive energy demands of next-generation AI data centers.",
-      "notes": "Static since last update; remains a long-term strategic narrative for scaling frontier models."
-    },
-    {
-      "name": "GPT-5 & Frontier Models",
-      "stage": "Growth",
-      "velocity": "High",
-      "summary": "The strategic re-orientation of developer ecosystems as they build 'model-agnostic' frameworks to prepare for the leap in reasoning capabilities expected from the next frontier model.",
-      "evidence": "Shift in developer discourse on forums toward 'System 2' reasoning architectures and multi-step verification loops in agent workflows.",
-      "description": "Anticipatory analysis and comparative benchmarking against hypothetical frontier model capabilities to prepare infrastructure for the next leap in reasoning.",
-      "notes": "Underlying narrative remains strong despite the lack of specific new raw data in this cycle."
-    },
-    {
-      "name": "Open-Source LLM Infrastructure",
-      "stage": "Growth",
+      "name": "Advanced Cross-Lingual Reasoning & Coding",
+      "stage": "Breakthrough",
       "velocity": "Extreme",
-      "summary": "The ecosystem is shifting toward weights-available models like LLaMA and Mistral, prioritizing deployment flexibility and reducing reliance on closed-source providers.",
-      "evidence": [
-        "weights-available models have been gaining popularity, especially at first with BLOOM and LLaMA",
-        "Mistral AI's open-weight models"
-      ],
-      "sentiment": "Positive",
-      "technical_depth": "High",
-      "description": "The rapid expansion of community-driven tools and repositories for deploying and fine-tuning open-source models.",
-      "notes": "Continued dominance in developer interest regarding the building blocks of intelligent agents."
+      "category": "AI Research",
+      "confidence": 0.91,
+      "summary": "The enhancement of models to reason and generate code across multiple natural and programming languages simultaneously.",
+      "evidence": "Growth in cross-lingual logic and coding reasoning metrics in recent benchmark updates."
     },
     {
-      "name": "Dzip Compression",
-      "stage": "Early-Adoption",
-      "velocity": "Medium",
-      "summary": "A specialized compression standard designed for massive token datasets, optimizing data ingestion pipelines for large-scale pre-training.",
-      "evidence": "Technical whitepapers citing 20-30% efficiency gains in data movement for distributed training clusters.",
-      "description": "A specialized compression standard designed for massive token datasets, optimizing data ingestion pipelines for large-scale pre-training."
-    },
-    {
-      "name": "Agentic Reliability Benchmarking",
-      "stage": "Explosive",
+      "name": "AI Autonomy Taxonomy & Standardization",
+      "stage": "Incubation",
       "velocity": "High",
-      "summary": "Increasing focus on evaluating agent performance using specialized benchmarks across reasoning, coding, and multilingual tasks.",
-      "evidence": "Compare the latest LLM benchmarks for GPT, Claude, Gemini... Updated rankings across reasoning, coding, math, and multilingual tasks.",
-      "sentiment": "Positive",
-      "technical_depth": "High",
-      "description": "Testing frameworks designed specifically for autonomous agents, measuring model flexibility, scheduling accuracy, and real-world task success rates."
-    },
-    {
-      "name": "Enterprise Agentic Orchestration",
-      "stage": "Maturity",
-      "velocity": "High",
-      "summary": "The transition of autonomous agents from experimental scripts to core enterprise building blocks for data transformation.",
-      "evidence": "Explore the cutting-edge building blocks of intelligent AI agents and transform enterprise data into actionable knowledge.",
-      "description": "The reengineering of business operations through autonomous decision-making and reduced human oversight."
-    },
-    {
-      "name": "Multi-Metric LLM Benchmarking",
-      "stage": "Maturity",
-      "velocity": "Extreme",
-      "summary": "Shifting evaluation from simple accuracy to high-dimensional leaderboards including price, latency (TTFT), and throughput (TPS).",
-      "evidence": "Comparison and ranking the performance of over 100 AI models... including intelligence, price, performance and speed (output speed - tokens per second & latency - TTFT).",
-      "description": "Comprehensive ranking of models based on the Intelligence-Price-Latency triad, including TTFT, tokens per second, and context window efficiency."
-    },
-    {
-      "name": "AI Autonomy Taxonomy",
-      "stage": "Early-Adoption",
-      "velocity": "High",
-      "summary": "The emergence of formalized frameworks to distinguish between reactive bots, directed AI assistants, and goal-oriented autonomous agents based on decision-making complexity and independence.",
-      "evidence": [
-        "Raw data identifies clear distinctions between agents (high autonomy/complex tasks), assistants (medium autonomy/user-directed), and bots (low autonomy/pre-programmed)."
-      ],
-      "sentiment": "Neutral",
-      "technical_depth": "High",
-      "description": "Defining different levels of AI autonomy, similar to self-driving vehicle levels, to categorize agentic capabilities."
-    },
-    {
-      "name": "Inference Performance Metrics",
-      "stage": "Growth",
-      "velocity": "High",
-      "summary": "Technical focus on specific inference metrics like Time to First Token (TTFT) and cost-per-token efficiency for production deployments.",
-      "evidence": "Rankings for top AI models by price, speed, and performance... output speed - tokens per second & latency - TTFT.",
-      "sentiment": "Neutral",
-      "technical_depth": "Very High",
-      "description": "The move toward fine-tuned metrics like TTFT and latency as the primary decision-making factors for developer toolchains."
-    },
-    {
-      "name": "Agentic-Microservice Interoperability",
-      "stage": "Early-Adoption",
-      "velocity": "Medium-High",
-      "summary": "The architectural comparison and potential replacement of traditional microservices/APIs with modular autonomous agents.",
-      "evidence": "How Do AI Agents Compare to Microservices and APIs? ... autonomous agents can perform complex tasks independently.",
-      "sentiment": "Positive",
-      "technical_depth": "High",
-      "description": "The building blocks for intelligent agents to interface with existing enterprise data and software stacks."
-    },
-    {
-      "name": "Cross-Lingual Reasoning",
-      "stage": "Growth",
-      "velocity": "High",
-      "summary": "The expansion of LLM capabilities to handle formal logic, math, and coding across a wide range of non-English languages simultaneously.",
-      "evidence": "PaLM 2 emphasizing various aspects, including commonsense reasoning, formal logic, mathematical equations, and advanced coding, spanning over 20 languages.",
-      "sentiment": "Positive",
-      "technical_depth": "High",
-      "description": "LLM capabilities expanding to provide deep logical reasoning across 20+ languages simultaneously."
-    },
-    {
-      "name": "Agentic Reasoning",
-      "stage": "Explosive",
-      "velocity": "Extreme",
-      "sentiment": "Positive",
-      "technical_depth": "High",
-      "description": "The technical shift from models that simply follow prompts to systems that exhibit complex logical reasoning and independent decision-making."
-    },
-    {
-      "name": "Model Utility vs. Epistemic Understanding",
-      "stage": "Growth",
-      "velocity": "Medium",
-      "description": "A philosophical and technical shift toward deploying 'useful' models that acknowledge inherent errors but provide high functional value in specialized domains."
-    },
-    {
-      "name": "Policy-Governed Agentic Content",
-      "stage": "Growth",
-      "velocity": "High",
-      "description": "The use of automated guardrails and jurisdictional regulations to manage the output and actions of autonomous agents."
-    },
-    {
-      "name": "High-Fidelity Comparative Benchmarking",
-      "stage": "Maturity",
-      "velocity": "Extreme",
-      "description": "Shift from generic benchmarks to multidimensional matrices evaluating price, TTFT, latency, and reasoning across 100+ models."
-    },
-    {
-      "name": "Agentic Reasoning & Formal Logic",
-      "stage": "Explosive",
-      "velocity": "Extreme",
-      "description": "Advancements in models (like PaLM 2) focusing on mathematical equations, coding, and logical consistency across languages."
-    },
-    {
-      "name": "Model Utility vs. Epistemic Reality",
-      "stage": "Growth",
-      "velocity": "Medium-High",
-      "description": "The philosophical and technical move to prioritize functional utility over the pursuit of perfect world-modeling."
-    },
-    {
-      "name": "Pragmatic Agent Reliability & Guardrails",
-      "stage": "Growth",
-      "velocity": "High",
-      "notes": "Shift from experimental agentic behavior to governed, policy-driven content and actionable knowledge."
-    },
-    {
-      "name": "Multi-Metric LLM Performance Benchmarking",
-      "stage": "Maturity",
-      "velocity": "Extreme"
-    },
-    {
-      "name": "Formal Logic & Reasoning-Centric LLMs",
-      "stage": "Explosive",
-      "velocity": "Extreme"
-    },
-    {
-      "name": "Inference Performance Optimization (TTFT/TPS)",
-      "stage": "Maturity",
-      "velocity": "High",
-      "description": "A technical shift toward optimizing token delivery speeds and reducing latency as primary differentiators for model utility in real-time applications."
-    },
-    {
-      "name": "Cross-Lingual Logic & Coding Reasoning",
-      "stage": "Growth",
-      "velocity": "High",
-      "notes": "Focus on models like PaLM 2 that demonstrate reasoning and coding proficiency across 20+ languages.",
-      "description": "The evolution of models that maintain logical consistency and coding proficiency across multiple programming and natural languages."
-    },
-    {
-      "name": "Zero-Infrastructure Autonomous Agents",
-      "stage": "Growth",
-      "velocity": "High",
-      "description": "Architectures enabling autonomous agents to operate with minimal infrastructure overhead, prioritizing decentralized mesh interoperability.",
-      "notes": "Trend remains high as demand for independent, task-performing AI systems with low overhead increases."
-    },
-    {
-      "name": "Multi-Metric Performance Benchmarking (TTFT/TPS/Cost)",
-      "stage": "Maturity",
-      "velocity": "Extreme",
-      "description": "Standardized leaderboards measuring model intelligence against price, latency, and throughput for enterprise applications."
-    },
-    {
-      "name": "Reasoning-Centric Model Evolution",
-      "stage": "Explosive",
-      "velocity": "High",
-      "description": "Integration of formal logic, commonsense reasoning, and mathematical equations as standard features in frontier LLMs."
-    },
-    {
-      "name": "Epistemic Utility Frameworks",
-      "stage": "Growth",
-      "velocity": "Medium",
-      "description": "A paradigm shift focusing on the pragmatic utility of LLMs ('some models are useful') despite their inherent statistical limitations."
-    },
-    {
-      "name": "Cross-Lingual Logic & Coding Maturity",
-      "stage": "Growth",
-      "velocity": "High",
-      "description": "Expansion of reasoning and coding capabilities across 20+ languages, reducing the English-centric bias of early LLMs."
-    },
-    {
-      "name": "Comprehensive LLM Performance Benchmarking (TTFT/TPS/Cost)",
-      "stage": "Maturity",
-      "velocity": "Extreme",
-      "notes": "Merged multiple benchmarking trends into a singular focus on the trifecta of speed, cost, and task-specific intelligence."
-    },
-    {
-      "name": "Formal Logic & Reasoning-Centric Agent Architecture",
-      "stage": "Explosive",
-      "velocity": "Extreme",
-      "notes": "Consolidated reasoning, logic, and reasoning-centric evolution trends. Focus is on PaLM 2-style formal logic and math integration."
-    },
-    {
-      "name": "Decentralized & Collaborative Agentic Mesh",
-      "stage": "Growth",
-      "velocity": "High",
-      "notes": "Incorporates AgentAI concepts where autonomous agents work individually or collaboratively in decentralized environments.",
-      "description": "Systems where multiple autonomous agents collaborate in a decentralized manner to solve complex, distributed tasks."
-    },
-    {
-      "name": "Epistemic Utility & Model Realism",
-      "stage": "Growth",
-      "velocity": "Medium-High",
-      "notes": "Merges utility frameworks and epistemic understanding, focusing on the 'all models are wrong but some are useful' paradigm."
-    },
-    {
-      "name": "Enterprise Agentic-Microservice Interoperability",
-      "stage": "Maturity",
-      "velocity": "Extreme",
-      "notes": "The integration of AI agents as functional alternatives or enhancements to traditional microservices and APIs.",
-      "description": "The integration of autonomous agents into existing microservice architectures to automate business operations and decision-making."
-    },
-    {
-      "name": "Integrated Multi-Metric LLM Benchmarking (TTFT/TPS/Cost)",
-      "stage": "Maturity",
-      "velocity": "Extreme",
-      "description": "Comprehensive evaluation of models based on inference speed, latency, cost, and context window efficiency rather than just raw parameter count."
-    },
-    {
-      "name": "Formal Logic & Reasoning-Centric Agentic Architecture",
-      "stage": "Explosive",
-      "velocity": "Extreme",
-      "description": "The synthesis of LLMs with formal logic and mathematical reasoning to enable reliable, multi-step autonomous planning."
-    },
-    {
-      "name": "Agentic Reliability & Guardrail Benchmarking",
-      "stage": "Growth",
-      "velocity": "High",
-      "description": "The development of frameworks to test autonomous agents on task reliability, safety guardrails, and real-world tool-use accuracy."
-    },
-    {
-      "name": "Epistemic Utility & Model Realism Frameworks",
-      "stage": "Growth",
-      "velocity": "High",
-      "description": "A shift in model evaluation toward functional usefulness and grounded reality, acknowledging the inherent limitations of statistical models."
-    },
-    {
-      "name": "Cross-Lingual Logic & Reasoning Maturity",
-      "stage": "Growth",
-      "velocity": "High",
-      "description": "Enhancing LLM capabilities in coding and formal logic across 20+ languages, prioritizing structural consistency over simple translation."
-    },
-    {
-      "name": "Efficient LLM Architectures & Specialized Models",
-      "stage": "Growth",
-      "velocity": "Extreme"
-    },
-    {
-      "name": "Open-Source LLM Infrastructure & Adoption",
-      "stage": "Growth",
-      "velocity": "Extreme"
-    },
-    {
-      "name": "Advanced Agentic Reasoning & Formal Logic Architectures",
-      "stage": "Explosive",
-      "velocity": "Extreme"
-    },
-    {
-      "name": "Enterprise Agentic Orchestration & Interoperability",
-      "stage": "Maturity",
-      "velocity": "Extreme"
-    },
-    {
-      "name": "Advanced LLM Performance & Utility Benchmarking",
-      "stage": "Maturity",
-      "velocity": "Extreme"
-    },
-    {
-      "name": "AI Autonomy Taxonomy & Definition",
-      "stage": "Early-Adoption",
-      "velocity": "High"
-    },
-    {
-      "name": "Agentic Reliability, Safety & Policy Governance",
-      "stage": "Growth",
-      "velocity": "Extreme"
-    },
-    {
-      "name": "Advanced Cross-Lingual Reasoning & Coding Capabilities",
-      "stage": "Growth",
-      "velocity": "Extreme"
-    },
-    {
-      "name": "Advanced Agentic & LLM Reasoning with Formal Logic Integration",
-      "stage": "Explosive",
-      "velocity": "Extreme"
-    },
-    {
-      "name": "Advanced Multi-Metric LLM Performance & Utility Benchmarking (TTFT/TPS/Cost/Reasoning/Multilingual)",
-      "stage": "Maturity",
-      "velocity": "Explosive"
-    },
-    {
-      "name": "Advanced Multi-Metric LLM Performance & Utility Benchmarking",
-      "stage": "Maturity",
-      "velocity": "Explosive"
-    },
-    {
-      "name": "Zero-Infrastructure Autonomous Agent Orchestration",
-      "stage": "Growth",
-      "velocity": "Extreme"
-    },
-    {
-      "name": "Epistemic Utility & Pragmatic Model Realism",
-      "stage": "Growth",
-      "velocity": "High"
-    },
-    {
-      "name": "Policy-Governed Autonomous Agent Orchestration",
-      "stage": "Growth",
-      "velocity": "Extreme",
-      "description": "Transition of autonomous agents from reactive assistants to proactive, policy-driven systems capable of content generation and activation within enterprise guardrails."
-    },
-    {
-      "name": "Standardized Multi-Metric LLM Benchmarking",
-      "stage": "Maturity",
-      "velocity": "Explosive",
-      "description": "Comprehensive evaluation of 100+ models using performance-centric metrics like TTFT, TPS, and cost-per-inference, surpassing traditional qualitative evaluations."
-    },
-    {
-      "name": "Open-Weight Model Proliferation",
-      "stage": "Growth",
-      "velocity": "Extreme",
-      "description": "Increasing dominance of weights-available models like Mistral and LLaMA in developer workflows, challenging closed-source models through accessibility and deployment flexibility."
-    },
-    {
-      "name": "Epistemic Utility vs. Model Realism",
-      "stage": "Growth",
-      "velocity": "High",
-      "description": "The industry-wide acknowledgment that LLMs lack true understanding (epistemic reality) but maintain high utility for complex task execution, aligning with the 'all models are wrong, but some are useful' paradigm."
-    },
-    {
-      "name": "Formal Logic & Reasoning-Centric Architectures",
-      "stage": "Explosive",
-      "velocity": "Extreme",
-      "description": "Development of agentic systems that integrate formal logic and self-attention mechanisms to handle complex, non-reactive tasks autonomously."
-    },
-    {
-      "name": "Nuclear-Powered AI Compute Infrastructure",
-      "stage": "Early-Adoption",
-      "velocity": "Medium",
-      "description": "Long-term trend focusing on specialized energy sources to power high-density compute clusters for frontier model training."
+      "category": "Regulatory",
+      "confidence": 0.82,
+      "summary": "Industry efforts to define levels of autonomy (e.g., Brustoloni 1991) to standardize agent capabilities and expectations.",
+      "evidence": "Recent efforts to clarify the definition of 'autonomous agent' in technical and business documentation."
     }
   ],
   "intelligence_metadata": {
     "agent": "gemini-3-flash-preview",
-    "timestamp": "2026-04-25T00:12:57.863214Z",
-    "active_narratives": 58
+    "timestamp": "2026-04-25T03:00:07.808703Z",
+    "active_narratives": 10
   }
 }
