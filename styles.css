@@ -314,6 +314,51 @@ main {
   white-space: pre-wrap;
 }
 
+/* Glossary Legend */
+.glossary-card {
+  background: var(--card-bg);
+  border: 1px solid var(--glass-border);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(10px);
+  margin-bottom: 2rem;
+}
+
+.glossary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.glossary-item p {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  line-height: 1.4;
+  margin-top: 0.5rem;
+}
+
+.velocity-badge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.velocity-badge.high { background: rgba(16, 185, 129, 0.2); color: #10b981; }
+.velocity-badge.medium { background: rgba(255, 255, 255, 0.1); color: var(--text-main); }
+.velocity-badge.low { background: rgba(239, 68, 68, 0.2); color: #ef4444; }
+
+.glossary-footer {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  font-style: italic;
+  border-top: 1px solid var(--glass-border);
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
 @media (max-width: 768px) {
   h1 { font-size: 2rem; }
   .trends-grid { grid-template-columns: 1fr; }
