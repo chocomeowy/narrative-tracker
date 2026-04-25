@@ -1,6 +1,10 @@
 let currentDataSource = 'tax_trend_map.json';
 let currentArchiveSource = 'tax_archive.json';
 let currentFocusLabel = 'Corporate Tax / Tariffs';
+let currentFilter = { category: null, stage: null };
+let cachedData = null;
+let cachedArchive = null;
+let cachedSteering = null;
 
 async function init() {
     setupTabs();
@@ -23,63 +27,49 @@ function setupTabs() {
             if (currentDataSource === 'trend_map.json') currentArchiveSource = 'archive.json'; // Fallback
             currentFocusLabel = btn.getAttribute('data-focus');
             
+            // Clear cache and filters on tab switch
+            cachedData = null;
+            cachedArchive = null;
+            cachedSteering = null;
+            currentFilter = { category: null, stage: null };
+            
             // Reload Data
             await loadData();
         });
     });
 }
 
-async function loadData() {
+async function loadData(forceRefresh = false) {
     try {
-        console.log(`Fetching data from: ${currentDataSource}`);
-        const trendResponse = await fetch(currentDataSource);
-        
-        if (!trendResponse.ok) {
-            throw new Error(`Failed to load ${currentDataSource}: ${trendResponse.status}`);
-        }
-        
-        const trendData = await trendResponse.json();
-        
-        let steeringFile = 'steering.json';
-        if (currentDataSource === 'crypto_trend_map.json') steeringFile = 'crypto_steering.json';
-        if (currentDataSource === 'tax_trend_map.json') steeringFile = 'tax_steering.json';
-        const steeringResponse = await fetch(steeringFile);
-        let steeringData = {};
-        if (steeringResponse.ok) {
-            steeringData = await steeringResponse.json();
-        }
+        if (!cachedData || forceRefresh) {
+            console.log(`Fetching data from: ${currentDataSource}`);
+            const trendResponse = await fetch(currentDataSource);
+            if (!trendResponse.ok) throw new Error(`Failed to load ${currentDataSource}`);
+            cachedData = await trendResponse.json();
 
-        const trends = trendData.trends || trendData.active_trends || [];
+            let steeringFile = 'steering.json';
+            if (currentDataSource === 'crypto_trend_map.json') steeringFile = 'crypto_steering.json';
+            if (currentDataSource === 'tax_trend_map.json') steeringFile = 'tax_steering.json';
+            const steeringResponse = await fetch(steeringFile);
+            if (steeringResponse.ok) cachedSteering = await steeringResponse.json();
 
-        // Fetch Archive
-        console.log(`Fetching archive from: ${currentArchiveSource}`);
-        let archiveData = { archived_trends: [] };
-        try {
-            const archiveResponse = await fetch(currentArchiveSource);
-            if (archiveResponse.ok) {
-                archiveData = await archiveResponse.json();
+            try {
+                const archiveResponse = await fetch(currentArchiveSource);
+                if (archiveResponse.ok) cachedArchive = await archiveResponse.json();
+            } catch (e) {
+                console.warn("Archive not found.");
             }
-        } catch (e) {
-            console.warn("Archive not found or error loading it.");
         }
+
+        const trends = cachedData.trends || cachedData.active_trends || [];
 
         if (trends.length === 0) {
-            console.warn(`No trends found in ${currentDataSource}, showing placeholder.`);
-            showPlaceholder(steeringData);
+            showPlaceholder(cachedSteering);
         } else {
-            console.log(`Successfully loaded ${trends.length} trends from ${currentDataSource}`);
-            renderDashboard(trendData, steeringData, trends, archiveData);
+            renderDashboard(cachedData, cachedSteering, trends, cachedArchive || { archived_trends: [] });
         }
     } catch (error) {
         console.error("Data loading error:", error);
-        // Show placeholder with a notification
-        const lastUpdatedEl = document.getElementById('last-updated');
-        if (lastUpdatedEl) lastUpdatedEl.innerText = "Agent is warming up... showing projected trends.";
-        
-        // Ensure UI label updates even on error
-        const currentFocusEl = document.getElementById('current-focus');
-        if (currentFocusEl) currentFocusEl.innerText = currentFocusLabel;
-        
         showPlaceholder();
     }
 }
@@ -117,6 +107,19 @@ function renderDashboard(data, steering, trends = [], archiveData = { archived_t
     // Clear and Render Archive
     renderArchive(archivedTrends);
 
+    // Filter logic
+    let filteredTrends = activeTrends;
+    if (currentFilter.category || currentFilter.stage) {
+        filteredTrends = activeTrends.filter(t => {
+            const catMatch = !currentFilter.category || (t.category || "General") === currentFilter.category;
+            const stageMatch = !currentFilter.stage || (t.stage || "Incubation").toLowerCase() === currentFilter.stage.toLowerCase();
+            return catMatch && stageMatch;
+        });
+        showFilterIndicator();
+    } else {
+        hideFilterIndicator();
+    }
+
     // Clear sections
     const stages = ['incubation', 'breakthrough', 'peak-hype', 'fatigue'];
     stages.forEach(stage => {
@@ -124,7 +127,7 @@ function renderDashboard(data, steering, trends = [], archiveData = { archived_t
         if (el) el.innerHTML = '';
     });
 
-    activeTrends.forEach(trend => {
+    filteredTrends.forEach(trend => {
         const card = createTrendCard(trend);
         let stageKey = (trend.stage || 'incubation').toLowerCase().replace(/\s+/g, '-');
         
@@ -155,19 +158,26 @@ function renderHeatmap(trends) {
     // Headers
     matrixEl.appendChild(createMatrixCell("", "matrix-header-cell"));
     stages.forEach(stage => {
-        matrixEl.appendChild(createMatrixCell(stage, "matrix-header-cell"));
+        const cell = createMatrixCell(stage, "matrix-header-cell clickable");
+        if (currentFilter.stage === stage) cell.classList.add('active');
+        cell.addEventListener('click', () => toggleFilter(null, stage));
+        matrixEl.appendChild(cell);
     });
 
     // Rows
     categories.forEach(cat => {
         // Category Label
-        matrixEl.appendChild(createMatrixCell(cat, "matrix-category-label"));
+        const labelCell = createMatrixCell(cat, "matrix-category-label clickable");
+        if (currentFilter.category === cat) labelCell.classList.add('active');
+        labelCell.addEventListener('click', () => toggleFilter(cat, null));
+        matrixEl.appendChild(labelCell);
 
         // Cells for each stage
         stages.forEach(stage => {
             const count = trends.filter(t => (t.category || "General") === cat && (t.stage || "Incubation").toLowerCase() === stage.toLowerCase()).length;
             
-            const cell = createMatrixCell(count > 0 ? count : "", "matrix-cell");
+            const cell = createMatrixCell(count > 0 ? count : "", "matrix-cell clickable");
+            if (currentFilter.category === cat && currentFilter.stage === stage) cell.classList.add('active');
             
             // Apply intensity
             if (count > 0) {
@@ -176,9 +186,52 @@ function renderHeatmap(trends) {
                 if (opacity > 0.6) cell.style.boxShadow = `0 0 15px rgba(0, 242, 255, 0.3)`;
             }
             
+            cell.addEventListener('click', () => toggleFilter(cat, stage));
             matrixEl.appendChild(cell);
         });
     });
+}
+
+function toggleFilter(category, stage) {
+    if (currentFilter.category === category && currentFilter.stage === stage) {
+        // Unset if same
+        currentFilter = { category: null, stage: null };
+    } else {
+        currentFilter = { category, stage };
+    }
+    loadData(); // Re-render with filter
+}
+
+function showFilterIndicator() {
+    let indicator = document.getElementById('filter-indicator');
+    if (!indicator) {
+        indicator = document.createElement('div');
+        indicator.id = 'filter-indicator';
+        indicator.className = 'filter-pill';
+        const lifecycleMap = document.getElementById('lifecycle-map');
+        lifecycleMap.parentNode.insertBefore(indicator, lifecycleMap);
+    }
+    
+    let filterText = "Filtering by ";
+    if (currentFilter.category && currentFilter.stage) filterText += `<strong>${currentFilter.category}</strong> in <strong>${currentFilter.stage}</strong>`;
+    else if (currentFilter.category) filterText += `Category: <strong>${currentFilter.category}</strong>`;
+    else if (currentFilter.stage) filterText += `Stage: <strong>${currentFilter.stage}</strong>`;
+    
+    indicator.innerHTML = `
+        <span>${filterText}</span>
+        <button onclick="clearFilters()" class="clear-filter-btn">Clear Filter</button>
+    `;
+    indicator.style.display = 'flex';
+}
+
+function hideFilterIndicator() {
+    const indicator = document.getElementById('filter-indicator');
+    if (indicator) indicator.style.display = 'none';
+}
+
+function clearFilters() {
+    currentFilter = { category: null, stage: null };
+    loadData();
 }
 
 function createMatrixCell(text, className) {

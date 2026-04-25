@@ -129,12 +129,13 @@ def run_agent():
        ```
     """
 
-    # Upgraded to Gemma 4 (released April 2, 2026)
+    # Prioritize Gemma models followed by Gemini fallback
     models_to_try = [
         "gemma-4-31b-it",
         "gemma-3-27b-it",
-        "gemini-1.5-flash",
-        "gemini-1.5-pro"
+        "gemini-3-flash",
+        "gemini-2.5-flash",
+        "gemini-2.0-flash"
     ]
     
     res_json = {}
@@ -146,26 +147,33 @@ def run_agent():
         payload = {
             "contents": [{"parts": [{"text": prompt}]}]
         }
-        # Only enable JSON mode for Gemini models
+        # Enable JSON mode for Gemini models
         if "gemini" in model_id:
             payload["generationConfig"] = {
                 "response_mime_type": "application/json"
             }
         
         try:
+            print(f"Attempting {model_id}...")
+            sys.stdout.flush()
             response = requests.post(url, headers=headers, json=payload, timeout=60)
             res_json = response.json()
+            
+            if response.status_code != 200:
+                print(f"Model {model_id} Error ({response.status_code}): {res_json.get('error', {}).get('message', 'Unknown error')}")
+                continue
+
             if "candidates" in res_json:
                 text = res_json['candidates'][0]['content']['parts'][0]['text']
                 if '{' in text:
                     successful_model = model_id
-                    print(f"Success using {model_id} (Found JSON)")
+                    print(f"Success using {model_id}")
                     break
                 else:
-                    print(f"Model {model_id} returned NO JSON structure. Text: {text[:100]}...")
+                    print(f"Model {model_id} returned NO JSON structure.")
                     continue
             else:
-                print(f"Model {model_id} API Error: {res_json.get('error', {}).get('message', 'No candidates')}")
+                print(f"Model {model_id} returned no candidates. Response: {res_json}")
                 continue
         except requests.exceptions.Timeout:
             print(f"Model {model_id} timed out after 60s.")
