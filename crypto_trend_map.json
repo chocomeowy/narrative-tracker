@@ -1,50 +1,55 @@
 {
-  "last_updated": "2026-04-24T22:00:58.907559Z",
+  "last_updated": "2026-04-25T03:01:33.263110Z",
   "trends": [
     {
-      "name": "Institutional Bitcoin Adoption & ETF Impact",
+      "name": "Institutional Bitcoin Adoption",
       "stage": "Breakthrough",
-      "velocity": "High +15%",
-      "summary": "Institutional investment, particularly through spot Bitcoin ETFs, is now the primary driver of BTC price. Whale activity has diminished in influence. Continuous ETF buying/selling contributes to market liquidity.",
-      "evidence": "Spot ETF inflows, institutional adoption reports, diminishing impact of whale movements, CoinGlass ETF tracker data.",
+      "velocity": "High",
+      "category": "BTC",
+      "summary": "Institutional investors are increasingly allocating capital to Bitcoin, driven by ETFs, improving regulatory clarity, and its perceived value as a diversification asset.",
+      "evidence": "Bank-backed bitcoin ETFs are accelerating institutional adoption. Cumulative net flows across U.S. spot bitcoin ETFs near $58 billion. More than 2,000 US advisory firms now allocate to crypto ETFs.",
       "confidence": 0.95
     },
     {
-      "name": "Ethereum L2 Scaling & Data Availability",
-      "stage": "Growth",
+      "name": "Bitcoin ETF Market Maturation",
+      "stage": "Peak Hype",
       "velocity": "Medium",
-      "summary": "Ethereum's L2 scaling solutions are maturing, with a focus on cost reduction (EIP-4844/danksharding) and security (restaking via EigenLayer). Data Availability is a key cost driver, leading to a multi-tier landscape.",
-      "evidence": "EigenLayer restaking, Ethereum danksharding roadmap, L2 transaction fee reductions, data availability cost analysis (90% of L2 costs).",
+      "category": "BTC",
+      "summary": "The Bitcoin ETF market is maturing, with focus shifting from initial inflows to operational efficiency and long-term sustainability.",
+      "evidence": "Institutional adoption becomes real when the operational stack becomes boring: Approved access paths exist (ETFs, CME) and are widely usable.",
       "confidence": 0.85
     },
     {
-      "name": "Cross-Chain Interoperability",
-      "stage": "Incubation",
-      "velocity": "Medium +10%",
-      "summary": "Demand for seamless cross-chain asset transfer and liquidity aggregation is driving innovation in interoperability solutions. NEAR Intents, Rango Exchange, and cross-chain bridges are emerging.",
-      "evidence": "NEAR Intents, Rango Exchange, cross-chain swap platforms, focus on UX and developer platform fragmentation.",
-      "confidence": 0.75
-    },
-    {
-      "name": "US Regulatory Clarity (Clarity Act)",
-      "stage": "Critical Juncture",
-      "velocity": "Low -5%",
-      "summary": "The Clarity Act aims to establish a federal framework for crypto markets, classifying tokens as securities, commodities, or stablecoins. Passage is facing potential delays but remains crucial for industry growth.",
-      "evidence": "House passage of H.R. 4763, Senate Banking Committee markup targeting late April 2026, Senator Tillis negotiations, advocacy from Digital Chamber.",
-      "confidence": 0.8
-    },
-    {
-      "name": "Ethereum Value Capture Evolution",
-      "stage": "Emerging",
+      "name": "Ethereum Layer-2 Debate",
+      "stage": "Breakthrough",
       "velocity": "Medium",
-      "summary": "Ethereum's value capture model is shifting from gas fee burning to security settlement services, driven by staking and restaking yields. This positions ETH as a foundational element of Web3 infrastructure.",
-      "evidence": "Focus on staking and restaking yields, Ethereum's role in DeFi protocols, L1/L2 relationship.",
-      "confidence": 0.7
+      "category": "Layer 2",
+      "summary": "The Ethereum ecosystem is grappling with the impact of Layer-2 scaling solutions, specifically regarding their economic sustainability and potential cannibalization of Ethereum's value.",
+      "evidence": "Ethereum\u2019s layer-2 (L2) centric roadmap has received criticisms regarding its \u201cextractiveness\u201d on ETH. Total fees to three year lows. Vitalik\u2019s critique emphasizes L2s needing to prove unique value.",
+      "confidence": 0.9
+    },
+    {
+      "name": "CLARITY Act Regulatory Uncertainty",
+      "stage": "Incubation",
+      "velocity": "Low",
+      "category": "Regulation",
+      "summary": "The CLARITY Act, a crucial bill for crypto regulation in the US, faces significant delays and potential failure, creating uncertainty for the industry.",
+      "evidence": "Crypto Clarity Act: Risks Senate Failure. Stablecoin yield debate causing delays. Senate's available floor time diminishing. Markup delayed until May.",
+      "confidence": 0.85
+    },
+    {
+      "name": "Cross-Chain Interoperability Growth",
+      "stage": "Incubation",
+      "velocity": "Medium",
+      "category": "DeFi",
+      "summary": "Demand for seamless cross-chain liquidity and asset swaps is increasing, driving the development of interoperability solutions like Symbiosis API and THORChain.",
+      "evidence": "Symbiosis API and THORChain aim to decentralize cryptocurrency liquidity and enable cross-chain swaps. NEAR Intents facilitate cross-chain swaps.",
+      "confidence": 0.75
     }
   ],
   "intelligence_metadata": {
     "agent": "gemma-3-27b-it",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-04-24T22:00:58.907568Z"
+    "timestamp": "2026-04-25T03:01:33.263116Z"
   }
 }
