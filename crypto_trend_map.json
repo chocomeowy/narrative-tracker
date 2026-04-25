@@ -1,15 +1,22 @@
 {
-  "last_updated": "2026-04-25T04:01:50.864319Z",
-  "executive_briefing": "The crypto landscape is undergoing a significant shift characterized by increasing institutional adoption of Bitcoin, a maturing Ethereum ecosystem focused on scalability and security, and a critical juncture for US regulatory clarity with the Clarity Act. Institutional interest in Bitcoin is no longer solely speculative; it's being driven by diversification strategies, long-term growth potential, and improving regulatory conditions, evidenced by the massive inflows into spot Bitcoin ETFs \u2013 nearing $58 billion. This adoption is becoming \u201cboring\u201d in the best way, with established access paths and maturing custodial services. Ethereum's narrative is evolving from being the sole engine of Web3 to a foundational layer supporting Layer 2 solutions. While L2s address scalability, Ethereum remains crucial for security, data availability (EigenDA, danksharding), and as collateral within DeFi protocols. The focus is shifting towards interoperability and resolving fragmentation within the Ethereum ecosystem. The Clarity Act represents a pivotal moment for the US crypto industry. While its passage is facing headwinds, the continued push from industry groups and the bill's potential to classify digital assets and establish a regulatory framework are significant. The outcome of this legislation will heavily influence the future trajectory of the US crypto market. Cross-chain liquidity solutions like THORChain and Symbiosis API are gaining traction, offering native asset swaps and deeper liquidity pools, indicating a growing demand for interoperability beyond simple asset transfers. Overall, the market is maturing, with a focus on operational stability, security, and regulatory clarity.",
+  "last_updated": "2026-04-25T05:32:08.310644Z",
+  "executive_briefing": "The crypto market continues its maturation, marked by a significant shift from speculative fervor to institutional integration, particularly within Bitcoin. The narrative surrounding Bitcoin is solidifying as a legitimate asset class, driven by ETF inflows and a growing acceptance as a hedge against traditional financial risks. Ethereum is evolving beyond its role as the sole Web3 engine, focusing on scalability through Layer 2 solutions while maintaining its core function as a secure settlement layer. The Clarity Act remains a critical, though uncertain, factor for the US market, with potential to unlock significant growth if passed. A key emerging trend is the increasing demand for interoperability, evidenced by the traction of cross-chain liquidity solutions like THORChain and Symbiosis API, indicating a desire to move beyond isolated blockchain ecosystems. The focus is shifting towards operational stability, security, and regulatory clarity, signaling a move towards a more sustainable and mature market. The interplay between Bitcoin and Ethereum is becoming increasingly nuanced, with cross-chain solutions bridging the gap and enabling more complex financial instruments. The potential for Clarity to enable smart contracts on Bitcoin, while still nascent, represents a significant competitive dynamic with the Ethereum Virtual Machine (EVM).",
   "trends": [
     {
       "name": "Institutional Bitcoin Adoption",
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Bitcoin",
-      "summary": "Increasing institutional investment in Bitcoin driven by diversification, long-term growth prospects, and regulatory clarity. ETF inflows are a key indicator.",
-      "evidence": "Bank-backed bitcoin ETFs accelerating adoption; $58 billion cumulative net flows into US spot Bitcoin ETFs; 2,000+ US advisory firms allocating to crypto ETFs; institutions viewing BTC as a legitimate asset.",
-      "confidence": 0.95
+      "summary": "Increasing institutional investment in Bitcoin driven by diversification, long-term growth prospects, and regulatory clarity. ETF inflows are a key indicator, and whale activity is becoming less impactful.",
+      "evidence": "Bank-backed bitcoin ETFs accelerating adoption; $58 billion cumulative net flows into US spot Bitcoin ETFs; 2,000+ US advisory firms allocating to crypto ETFs; institutions viewing BTC as a legitimate asset; ETF mirroring of market price; continuous buying/selling maintaining liquidity.",
+      "confidence": 0.95,
+      "source_links": [
+        "https://www.okx.com/learn/bitcoin-record-high-etfs-adoption-regulatory",
+        "https://www.ainvest.com/news/bitcoin-structural-bullishness-market-resilience-institutional-adoption-etfs-rewriting-btc-volatility-narrative-2507/",
+        "https://www.prosper-fi.com/news/btc-institutional-adoption-101",
+        "https://www.coinglass.com/etf/bitcoin",
+        "https://www.bitrue.com/blog/bitcoin-2026-outlook-btc-price-forecast"
+      ]
     },
     {
       "name": "Ethereum L2 Scalability & Security",
@@ -18,48 +25,61 @@
       "category": "Layer 2",
       "summary": "Ethereum's scalability is improving through Layer 2 solutions, but L1 remains critical for security and data availability. Focus on danksharding and EigenDA.",
       "evidence": "L2 scaling is working with low transaction fees; EigenDA offering Ethereum-aligned security; danksharding roadmap adding DA capacity; L1 as collateral for L2 protocols.",
-      "confidence": 0.85
+      "confidence": 0.85,
+      "source_links": []
     },
     {
       "name": "US Crypto Regulation - Clarity Act",
       "stage": "Incubation",
       "velocity": "Medium",
       "category": "Regulation",
-      "summary": "The Clarity Act aims to establish a federal regulatory framework for crypto, classifying tokens as securities, commodities, or stablecoins. Passage is uncertain but crucial.",
-      "evidence": "Clarity Act classifies tokens; House passed H.R. 4763; Senate Banking Committee targeting markup in late April 2026; industry lobbying for markup.",
-      "confidence": 0.75
+      "summary": "The Clarity Act aims to establish a federal regulatory framework for crypto, classifying tokens and potentially enabling smart contracts on Bitcoin. Passage is uncertain but crucial.",
+      "evidence": "Clarity Act classifies tokens; House passed H.R. 4763; Senate Banking Committee targeting markup; industry lobbying; potential for enabling smart contracts on Bitcoin.",
+      "confidence": 0.75,
+      "source_links": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/3633/text",
+        "https://www.banking.senate.gov/newsroom/majority/myth-vs-fact-the-clarity-act",
+        "https://www.coindesk.com/news-analysis/2026/04/21/crypto-s-great-hope-in-senate-s-clarity-act-still-has-a-path-to-survive-tight-calendar",
+        "https://www.fintechweekly.com/news/clarity-act-senate-returns-april-2026-markup-window",
+        "https://www.avemarialaw.edu/clarity-act/"
+      ]
     },
     {
-      "name": "Cross-Chain Liquidity Solutions",
-      "stage": "Incubation",
+      "name": "Cross-Chain Liquidity & Interoperability (BTC/ETH)",
+      "stage": "Breakthrough",
       "velocity": "Medium",
       "category": "DeFi",
-      "summary": "Growing demand for interoperability and native asset swaps is driving the development of cross-chain liquidity solutions like THORChain and Symbiosis API.",
-      "evidence": "THORChain focusing on native asset swaps; Symbiosis API enabling cross-chain swaps; seamless access to liquidity sources.",
-      "confidence": 0.7
+      "summary": "Growing demand for interoperability and native asset swaps is driving the development of cross-chain liquidity solutions like THORChain and Symbiosis API, facilitating seamless BTC/ETH swaps.",
+      "evidence": "THORChain focusing on native asset swaps; Symbiosis API enabling cross-chain swaps; seamless access to liquidity sources; bridging ETH to Solana; Bitcoin and Ethereum bridge enabling liquidity.",
+      "source_links": [
+        "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps",
+        "https://symbiosis.finance/",
+        "https://swapspace.co/cross-chain/btc-eth-bridge",
+        "https://changenow.io/blog/cross-chain-crypto-bridges-faq",
+        "https://advertorial.cryptonews.com/press-releases/what-would-true-cross-chain-liquidity-between-btc-eth-and-sol-look-like-liquidchain-liquid-weighs-in/"
+      ],
+      "confidence": 0.8
     },
     {
-      "name": "Ethereum Interoperability & Fragmentation",
-      "stage": "Incubation",
+      "name": "Ethereum Fundamentals & Transition to PoS",
+      "stage": "Breakthrough",
       "velocity": "Low",
       "category": "Ethereum",
-      "summary": "Efforts to address fragmentation within the Ethereum ecosystem and improve interoperability between chains and wallets.",
-      "evidence": "Focus on building better interop solutions; addressing UX and developer platform fragmentation; clearer vision for L1/L2 relationship.",
-      "confidence": 0.65
-    },
-    {
-      "name": "Ethereum Value Capture Shift",
-      "stage": "Incubation",
-      "velocity": "Low",
-      "category": "Ethereum",
-      "summary": "Ethereum's value capture model is evolving from gas fee burning to security settlement services through staking and restaking.",
-      "evidence": "ETH's value capture model moves from gas fee burning to security settlement services, relying on staking and restaking yields.",
-      "confidence": 0.6
+      "summary": "Ethereum continues to solidify its position as a foundational blockchain, with the successful transition to Proof-of-Stake (PoS) significantly reducing energy consumption and enhancing security.",
+      "evidence": "Ethereum's PoS transition cut energy usage by over 99%; continued development of smart contract functionality; second largest market capitalization.",
+      "source_links": [
+        "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+        "https://ethereum.org/",
+        "https://etherscan.io/",
+        "https://www.okx.com/price/ethereum-eth",
+        "https://coinmarketcap.com/currencies/ethereum/"
+      ],
+      "confidence": 0.9
     }
   ],
   "intelligence_metadata": {
     "agent": "gemma-3-27b-it",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-04-25T04:01:50.864326Z"
+    "timestamp": "2026-04-25T05:32:08.310645Z"
   }
 }
