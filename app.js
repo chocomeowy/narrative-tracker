@@ -1,5 +1,5 @@
-let currentDataSource = 'trend_map.json';
-let currentFocusLabel = 'Global Tech';
+let currentDataSource = 'tax_trend_map.json';
+let currentFocusLabel = 'Corporate Tax / Tariffs';
 
 async function init() {
     setupTabs();
