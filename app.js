@@ -37,7 +37,9 @@ async function loadData() {
         
         const trendData = await trendResponse.json();
         
-        const steeringFile = currentDataSource === 'trend_map.json' ? 'steering.json' : 'crypto_steering.json';
+        let steeringFile = 'steering.json';
+        if (currentDataSource === 'crypto_trend_map.json') steeringFile = 'crypto_steering.json';
+        if (currentDataSource === 'tax_trend_map.json') steeringFile = 'tax_steering.json';
         const steeringResponse = await fetch(steeringFile);
         let steeringData = {};
         if (steeringResponse.ok) {
