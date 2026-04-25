@@ -85,19 +85,21 @@ def run_agent():
     Task: Perform a deep analysis and update the intelligence map.
     
     Guidelines for Recursive Improvement:
-    1. Evolution: Use 'New Intel' to update existing trends. If a trend's stage has shifted (e.g., Incubation -> Breakthrough), update it.
-    2. Pruning: You are part of a long-term loop. If a trend in 'Current Trends' is no longer supported by 'New Intel' or seems to have been a false positive, you should remove it or significantly lower its confidence.
+    1. Evolution: Use 'New Intel' to update existing trends. If a trend's stage has shifted, update it.
+    2. Pruning: You are part of a long-term loop. If a trend in 'Current Trends' is no longer supported by 'New Intel', DO NOT include it in your output. You MUST KEEP the total number of trends under 25.
     3. Arrangement: Keep the map focused. Merge similar narratives to prevent duplication.
+    4. Categorization: Assign a short, descriptive `category` (e.g., "Layer 2", "DeFi", "Regulation") to every trend.
     
     1. Executive Briefing: Analyze the latest crypto narrative shifts, focusing on the BTC/ETH dynamic and the Clarity Act's impact.
     
     2. Data Update: At the end of your response, provide the updated trends in a strict JSON block.
        YOU MUST include the 'executive_briefing' as a string field inside the top-level JSON object.
+       The `stage` MUST BE exactly one of: "Incubation", "Breakthrough", "Peak Hype", or "Fatigue".
        ```json
        {{
          "executive_briefing": "...",
          "trends": [
-           {{ "name": "Trend Name", "stage": "...", "velocity": "High | Medium | Low | +X%", "summary": "...", "evidence": "...", "confidence": 0.0-1.0 }}
+           {{ "name": "...", "stage": "...", "velocity": "...", "category": "...", "summary": "...", "evidence": "...", "confidence": 0.9 }}
          ]
        }}
        ```
@@ -184,16 +186,16 @@ def run_agent():
         print("No JSON object found in AI response")
         return
         
-    final_trends_map = {t.get("name", ""): t for t in current_map.get("trends", [])}
+    historical_map = {t.get("name", ""): t for t in current_map.get("trends", [])}
+    final_trends_map = {}
     
     for ait in ai_trends:
         name = ait.get("name", "")
         if not name: continue
         
-        if name in final_trends_map:
-            merged = final_trends_map[name].copy()
-            for k, v in ait.items():
-                if v: merged[k] = v
+        if name in historical_map:
+            merged = historical_map[name].copy()
+            merged.update(ait)
             final_trends_map[name] = merged
         else:
             final_trends_map[name] = ait

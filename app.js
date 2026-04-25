@@ -82,7 +82,7 @@ function renderDashboard(data, steering, trends = []) {
     if (currentFocusEl) currentFocusEl.innerText = currentFocusLabel;
 
     // Clear sections
-    const stages = ['incubation', 'breakthrough', 'peak-hype', 'fatigue', 'emerging', 'developing'];
+    const stages = ['incubation', 'breakthrough', 'peak-hype', 'fatigue'];
     stages.forEach(stage => {
         const el = document.getElementById(`${stage}-trends`);
         if (el) el.innerHTML = '';
@@ -90,15 +90,17 @@ function renderDashboard(data, steering, trends = []) {
 
     activeTrends.forEach(trend => {
         const card = createTrendCard(trend);
-        let stageKey = (trend.stage || 'incubation').toLowerCase().replace(' ', '-');
+        let stageKey = (trend.stage || 'incubation').toLowerCase().replace(/\s+/g, '-');
         
-        if (stageKey === 'emerging') stageKey = 'incubation';
-        if (stageKey === 'developing') stageKey = 'breakthrough';
+        // Handle common variations just in case the LLM hallucinates
+        if (stageKey.includes('emerging') || stageKey.includes('growth') || stageKey.includes('developing')) stageKey = 'breakthrough';
+        if (stageKey.includes('decline')) stageKey = 'fatigue';
 
         const section = document.getElementById(`${stageKey}-trends`);
         if (section) {
             section.appendChild(card);
         } else {
+            // Fallback to incubation if totally unknown
             const incubationSection = document.getElementById('incubation-trends');
             if (incubationSection) incubationSection.appendChild(card);
         }
@@ -130,9 +132,14 @@ function createTrendCard(trend) {
     const evidence = trend.evidence || trend.keywords || [];
     const evidenceList = Array.isArray(evidence) ? evidence : [evidence];
 
+    const categoryHtml = trend.category ? `<div class="category-badge">${trend.category}</div>` : '';
+
     card.innerHTML = `
         <div class="trend-header">
-            <div class="trend-name">${name}</div>
+            <div class="trend-name-container">
+                <div class="trend-name">${name}</div>
+                ${categoryHtml}
+            </div>
             <div class="trend-velocity ${velocityClass}">${velocity}</div>
         </div>
         <p class="trend-summary">${summary}</p>

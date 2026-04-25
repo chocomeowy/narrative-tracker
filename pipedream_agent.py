@@ -108,17 +108,21 @@ def handler(pd: "pipedream"):
     
     Iterative Directives:
     1. Refinement: This is a recursive process. Improve upon the 'Past State' using 'New Raw Data'.
-    2. Pruning: If a trend in the 'Past State' is no longer showing activity or was a 'false positive', remove it or lower its confidence score.
+    2. Pruning: If a trend in the 'Past State' is no longer showing activity or was a 'false positive', DO NOT include it in your output. You MUST KEEP the total number of trends under 25.
     3. Merging: If new data suggests two trends are actually the same narrative, merge them into a single, stronger entry.
+    4. Categorization: Assign a short, descriptive `category` (e.g., "AI Hardware", "Regulatory", "Open Source") to every trend.
     
     1. Executive Briefing: Analyze the latest trend shifts based on the New Raw Data.
     
     2. Data Update: At the end of your response, provide the updated trend_map JSON in a strict block. 
        YOU MUST include the 'executive_briefing' (2-3 paragraphs) as a string field inside the top-level JSON object.
+       The `stage` MUST BE exactly one of: "Incubation", "Breakthrough", "Peak Hype", or "Fatigue".
        ```json
        {{ 
          "executive_briefing": "...",
-         "trends": [...] 
+         "trends": [
+           {{ "name": "...", "stage": "...", "velocity": "...", "category": "...", "confidence": 0.9, "summary": "...", "evidence": "..." }}
+         ] 
        }}
        ```
     """
@@ -249,22 +253,21 @@ def handler(pd: "pipedream"):
     update_github_file(briefing_path, briefing_content, briefing_sha, "Update Narrative Briefing")
     print("Updated trend_briefing.md on GitHub")
 
-    # 7. Merge Trends with Strict Name Matching
-    # Start with a copy of our current state
-    final_trends_map = {t.get("name", t.get("title", "")): t for t in current_map.get("trends", [])}
+    # 7. Apply Pruning & Merge Trends
+    # We only keep trends returned by the AI, dropping unmentioned ones to prevent bloat.
+    historical_map = {t.get("name", t.get("title", "")): t for t in current_map.get("trends", [])}
+    final_trends_map = {}
     
     for ait in ai_trends:
         name = ait.get("name", ait.get("title", ""))
         if not name: continue
         
-        if name in final_trends_map:
-            # Update existing: Merge AI's new insights
-            merged = final_trends_map[name].copy()
-            for k, v in ait.items():
-                if v: merged[k] = v
+        if name in historical_map:
+            # Update existing: keep historical data, overwrite with AI's new insights
+            merged = historical_map[name].copy()
+            merged.update(ait)
             final_trends_map[name] = merged
         else:
-            # Only add if it's not a fuzzy duplicate (simplified for script)
             final_trends_map[name] = ait
     
     # Build the final document

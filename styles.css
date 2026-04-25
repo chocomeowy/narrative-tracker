@@ -179,9 +179,26 @@ main {
   margin-bottom: 1rem;
 }
 
+.trend-name-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
 .trend-name {
   font-size: 1.3rem;
   font-weight: 700;
+}
+
+.category-badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #d8b4fe; /* lighter purple for contrast */
+  background: rgba(112, 0, 255, 0.2);
+  padding: 0.2rem 0.5rem;
+  border-radius: 1rem;
+  display: inline-block;
+  width: fit-content;
 }
 
 .trend-velocity {
