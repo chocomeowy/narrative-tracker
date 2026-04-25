@@ -146,6 +146,14 @@ function createTrendCard(trend) {
     const evidence = trend.evidence || trend.keywords || [];
     const evidenceList = Array.isArray(evidence) ? evidence : [evidence];
 
+    // Source links extraction
+    const sourceLinks = trend.source_links || [];
+    const sourceLinksHtml = sourceLinks.length > 0 
+        ? `<div class="source-links-container">
+             ${sourceLinks.map((link, idx) => `<a href="${link}" target="_blank" class="source-link" rel="noopener noreferrer">Source ${idx + 1}</a>`).join('')}
+           </div>`
+        : '';
+
     const categoryHtml = trend.category ? `<div class="category-badge">${trend.category}</div>` : '';
 
     card.innerHTML = `
@@ -160,6 +168,7 @@ function createTrendCard(trend) {
         <div class="evidence-list">
             ${evidenceList.map(e => `<div class="evidence-item">${e}</div>`).join('')}
         </div>
+        ${sourceLinksHtml}
         <div class="trend-footer">
             <div>Confidence: ${Math.round(confidence * 100)}%</div>
             <div class="confidence-bar">

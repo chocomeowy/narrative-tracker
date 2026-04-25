@@ -261,6 +261,31 @@ main {
   color: var(--accent-primary);
 }
 
+.source-links-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.source-link {
+  font-size: 0.75rem;
+  color: var(--accent-secondary);
+  text-decoration: none;
+  background: rgba(112, 0, 255, 0.1);
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  border: 1px solid rgba(112, 0, 255, 0.3);
+  transition: all 0.2s ease;
+}
+
+.source-link:hover {
+  background: rgba(112, 0, 255, 0.3);
+  color: #fff;
+  border-color: var(--accent-secondary);
+}
+
 /* Animations */
 @keyframes pulse {
   0% { transform: scale(1); opacity: 1; }

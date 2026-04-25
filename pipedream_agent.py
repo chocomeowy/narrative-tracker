@@ -43,6 +43,15 @@ def fetch_github_file(path):
         return json_lib.loads(base64.b64decode(content['content']).decode('utf-8')), content['sha']
     return None, None
 
+def fetch_archive():
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/archive.json"
+    headers = {"Authorization": f"token {GITHUB_TOKEN}"}
+    r = requests.get(url, headers=headers)
+    if r.status_code == 200:
+        content = r.json()
+        return json_lib.loads(base64.b64decode(content['content']).decode('utf-8')), content['sha']
+    return {"archived_trends": []}, None
+
 def update_github_file(path, content_obj, sha, message):
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}"
     headers = {"Authorization": f"token {GITHUB_TOKEN}"}
@@ -63,7 +72,7 @@ def get_search_results(query):
     try:
         from ddgs import DDGS
         with DDGS() as ddgs:
-            results = [r['body'] for r in ddgs.text(query, max_results=5)]
+            results = [{"body": r['body'], "url": r['href']} for r in ddgs.text(query, max_results=5)]
             return results
     except Exception as e:
         print(f"Search error for {query}: {e}")
@@ -87,6 +96,7 @@ def handler(pd: "pipedream"):
     # 1. Fetch Current State
     current_map, sha = fetch_github_file("trend_map.json")
     steering, _ = fetch_github_file("steering.json")
+    archive_map, archive_sha = fetch_archive()
     
     # 2. Context Optimization
     past_state_summary = summarize_context(current_map)
@@ -117,11 +127,12 @@ def handler(pd: "pipedream"):
     2. Data Update: At the end of your response, provide the updated trend_map JSON in a strict block. 
        YOU MUST include the 'executive_briefing' (2-3 paragraphs) as a string field inside the top-level JSON object.
        The `stage` MUST BE exactly one of: "Incubation", "Breakthrough", "Peak Hype", or "Fatigue".
+       Extract the specific URLs from 'New Raw Data' that support each trend and include them in `source_links`.
        ```json
        {{ 
          "executive_briefing": "...",
          "trends": [
-           {{ "name": "...", "stage": "...", "velocity": "...", "category": "...", "confidence": 0.9, "summary": "...", "evidence": "..." }}
+           {{ "name": "...", "stage": "...", "velocity": "...", "category": "...", "confidence": 0.9, "summary": "...", "evidence": "...", "source_links": ["https://..."] }}
          ] 
        }}
        ```
@@ -257,6 +268,7 @@ def handler(pd: "pipedream"):
     # We only keep trends returned by the AI, dropping unmentioned ones to prevent bloat.
     historical_map = {t.get("name", t.get("title", "")): t for t in current_map.get("trends", [])}
     final_trends_map = {}
+    archived_trends = archive_map.get("archived_trends", [])
     
     for ait in ai_trends:
         name = ait.get("name", ait.get("title", ""))
@@ -267,8 +279,15 @@ def handler(pd: "pipedream"):
             merged = historical_map[name].copy()
             merged.update(ait)
             final_trends_map[name] = merged
+            # Remove from historical_map so we know what was kept
+            del historical_map[name]
         else:
             final_trends_map[name] = ait
+            
+    # Anything left in historical_map was pruned by the AI. Move to archive.
+    for name, dropped_trend in historical_map.items():
+        dropped_trend["archived_at"] = datetime.utcnow().isoformat() + "Z"
+        archived_trends.append(dropped_trend)
     
     # Build the final document
     updated_map = {
@@ -282,6 +301,12 @@ def handler(pd: "pipedream"):
         }
     }
     
+    updated_archive = {
+        "last_updated": datetime.utcnow().isoformat() + "Z",
+        "archived_trends": archived_trends
+    }
+    
     # 8. Commit Back to GitHub
     update_github_file("trend_map.json", updated_map, sha, "Narrative Intelligence Update")
+    update_github_file("archive.json", updated_archive, archive_sha, "Archive Pruned Trends")
     return {"status": "Success", "trends": len(updated_map["trends"])}

@@ -36,7 +36,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add crypto_trend_map.json crypto_briefing.md
+          git add crypto_trend_map.json crypto_briefing.md crypto_archive.json
           git commit -m "Update Crypto Intelligence: Map & Briefing" || echo "No changes to commit"
           git pull --rebase origin main
           git push

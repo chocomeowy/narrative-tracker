@@ -43,6 +43,16 @@ def fetch_current_state():
         return json_lib.loads(base64.b64decode(content['content']).decode('utf-8'))
     return {"trends": []}
 
+def fetch_archive():
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/crypto_archive.json"
+    headers = {"Authorization": f"token {GITHUB_TOKEN}"}
+    r = requests.get(url, headers=headers)
+    if r.status_code == 200:
+        import base64
+        content = r.json()
+        return json_lib.loads(base64.b64decode(content['content']).decode('utf-8'))
+    return {"archived_trends": []}
+
 def fetch_steering():
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/crypto_steering.json"
     headers = {"Authorization": f"token {GITHUB_TOKEN}"}
@@ -57,7 +67,7 @@ def get_search_results(query):
     try:
         from ddgs import DDGS
         with DDGS() as ddgs:
-            results = [r['body'] for r in ddgs.text(query, max_results=5)]
+            results = [{"body": r['body'], "url": r['href']} for r in ddgs.text(query, max_results=5)]
             return results
     except Exception as e:
         print(f"Search error: {e}")
@@ -69,6 +79,7 @@ def run_agent():
     
     # 1. Load Current State & Steering
     current_map = fetch_current_state()
+    archive_map = fetch_archive()
     steering = fetch_steering()
     
     # 2. Gather Intelligence
@@ -107,11 +118,12 @@ def run_agent():
     2. Data Update: At the end of your response, provide the updated trends in a strict JSON block.
        YOU MUST include the 'executive_briefing' as a string field inside the top-level JSON object.
        The `stage` MUST BE exactly one of: "Incubation", "Breakthrough", "Peak Hype", or "Fatigue".
+       Extract the specific URLs from 'New Intel' that support each trend and include them in `source_links`.
        ```json
        {{
          "executive_briefing": "...",
          "trends": [
-           {{ "name": "...", "stage": "...", "velocity": "...", "category": "...", "summary": "...", "evidence": "...", "confidence": 0.9 }}
+           {{ "name": "...", "stage": "...", "velocity": "...", "category": "...", "summary": "...", "evidence": "...", "source_links": ["https://..."], "confidence": 0.9 }}
          ]
        }}
        ```
@@ -200,6 +212,7 @@ def run_agent():
         
     historical_map = {t.get("name", ""): t for t in current_map.get("trends", [])}
     final_trends_map = {}
+    archived_trends = archive_map.get("archived_trends", [])
     
     for ait in ai_trends:
         name = ait.get("name", "")
@@ -209,8 +222,15 @@ def run_agent():
             merged = historical_map[name].copy()
             merged.update(ait)
             final_trends_map[name] = merged
+            # Remove from historical_map so we know what was kept
+            del historical_map[name]
         else:
             final_trends_map[name] = ait
+            
+    # Anything left in historical_map was pruned by the AI. Move to archive.
+    for name, dropped_trend in historical_map.items():
+        dropped_trend["archived_at"] = datetime.utcnow().isoformat() + "Z"
+        archived_trends.append(dropped_trend)
     
     updated_map = {
         "last_updated": datetime.utcnow().isoformat() + "Z",
@@ -223,10 +243,19 @@ def run_agent():
         }
     }
     
-    # 6. Save back to local file
+    updated_archive = {
+        "last_updated": datetime.utcnow().isoformat() + "Z",
+        "archived_trends": archived_trends
+    }
+    
+    # 6. Save back to local files
     with open("crypto_trend_map.json", "w") as f:
         json_lib.dump(updated_map, f, indent=2)
     print("Successfully updated crypto_trend_map.json")
+    
+    with open("crypto_archive.json", "w") as f:
+        json_lib.dump(updated_archive, f, indent=2)
+    print("Successfully updated crypto_archive.json")
 
 if __name__ == "__main__":
     run_agent()

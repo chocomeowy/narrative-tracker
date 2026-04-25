@@ -36,7 +36,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add tax_trend_map.json tax_briefing.md
+          git add tax_trend_map.json tax_briefing.md tax_archive.json
           git commit -m "Update Tax Intelligence: Map & Briefing" || echo "No changes to commit"
           git pull --rebase origin main
           git push
