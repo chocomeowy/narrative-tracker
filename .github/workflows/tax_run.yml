@@ -28,6 +28,8 @@ jobs:
       - name: Run Tax Agent
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPO: ${{ github.repository }}
         run: python3 tax_agent.py
 
       - name: Commit and Push Changes
