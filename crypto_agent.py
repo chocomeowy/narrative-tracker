@@ -202,6 +202,7 @@ def run_agent():
     
     updated_map = {
         "last_updated": datetime.utcnow().isoformat() + "Z",
+        "executive_briefing": briefing_text,
         "trends": list(final_trends_map.values()),
         "intelligence_metadata": {
             "agent": successful_model,

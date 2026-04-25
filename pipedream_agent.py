@@ -273,6 +273,7 @@ def handler(pd: "pipedream"):
     # Build the final document
     updated_map = {
         "last_updated": datetime.utcnow().isoformat() + "Z",
+        "executive_briefing": briefing_text,
         "trends": list(final_trends_map.values()),
         "intelligence_metadata": {
             "agent": model_id,

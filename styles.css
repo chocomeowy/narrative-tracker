@@ -272,6 +272,23 @@ main {
   animation: pulse 2s infinite ease-in-out;
 }
 
+.briefing-card {
+  background: var(--card-bg);
+  border: 1px solid var(--glass-border);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(10px);
+  margin-bottom: 3rem;
+  border-left: 4px solid var(--accent-primary);
+}
+
+.briefing-content {
+  color: var(--text-main);
+  font-size: 1rem;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+
 @media (max-width: 768px) {
   h1 { font-size: 2rem; }
   .trends-grid { grid-template-columns: 1fr; }

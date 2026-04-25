@@ -83,6 +83,18 @@ function renderDashboard(data, steering, trends = []) {
     if (countTotalEl) countTotalEl.innerText = activeTrends.length;
     if (currentFocusEl) currentFocusEl.innerText = currentFocusLabel;
 
+    // Handle Briefing
+    const briefingContainer = document.getElementById('briefing-container');
+    const briefingText = document.getElementById('briefing-text');
+    if (briefingContainer && briefingText) {
+        if (data.executive_briefing) {
+            briefingContainer.style.display = 'block';
+            briefingText.innerText = data.executive_briefing;
+        } else {
+            briefingContainer.style.display = 'none';
+        }
+    }
+
     // Clear sections
     const stages = ['incubation', 'breakthrough', 'peak-hype', 'fatigue'];
     stages.forEach(stage => {
