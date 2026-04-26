@@ -330,6 +330,8 @@ main {
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 1.5rem;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .trend-name {
@@ -338,6 +340,8 @@ main {
   font-weight: 800;
   line-height: 1.1;
   color: var(--text-main);
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .category-badge {
@@ -365,6 +369,7 @@ main {
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 2rem;
+  word-break: break-word;
 }
 
 .evidence-list {
@@ -392,6 +397,7 @@ main {
   display: flex;
   gap: 0.5rem;
   margin-bottom: 1.5rem;
+  flex-wrap: wrap;
 }
 
 .source-link {
@@ -552,4 +558,5 @@ main {
     gap: 0.25rem;
   }
   .tab-btn { width: 100%; text-align: center; padding: 0.5rem; font-size: 0.7rem; }
+  .trend-name { font-size: 1.2rem; }
 }
