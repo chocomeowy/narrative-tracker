@@ -1,99 +1,56 @@
-# Tax Intelligence Briefing - 2026-04-26 04:02
+# Tax Intelligence Briefing - 2026-04-26 10:03
 
-## Intelligence Map Update - April 27, 2026
-
-**Executive Briefing:**
-
-The global tax landscape remains highly dynamic, marked by significant uncertainty stemming from the US's evolving stance on OECD Pillar One and Two, escalating trade tensions, and proactive digital tax initiatives in jurisdictions like Singapore. The US's side-by-side approach to the global minimum tax, coupled with potential withdrawal from the OECD agreements, introduces complexities for multinational enterprises (MNEs) and impacts revenue projections. The resurgence of trade tariffs, particularly involving the US, China, and the UK, is a major concern, with the legality of these tariffs currently under Supreme Court review. Singapore continues to lead in digital tax transformation with its nationwide e-invoicing mandate (InvoiceNow). Corporate tax rate adjustments are also occurring in Portugal and Austria. Businesses must closely monitor these developments and adapt their strategies to mitigate risks and capitalize on emerging opportunities. The outcome of the US tariff legality case will be a pivotal factor in shaping international trade for the foreseeable future.
-
-**Updated Trends:**
-
-```json
 {
-  "executive_briefing": "The global tax landscape remains highly dynamic, marked by significant uncertainty stemming from the US's evolving stance on OECD Pillar One and Two, escalating trade tensions, and proactive digital tax initiatives in jurisdictions like Singapore. The US's side-by-side approach to the global minimum tax, coupled with potential withdrawal from the OECD agreements, introduces complexities for multinational enterprises (MNEs) and impacts revenue projections. The resurgence of trade tariffs, particularly involving the US, China, and the UK, is a major concern, with the legality of these tariffs currently under Supreme Court review. Singapore continues to lead in digital tax transformation with its nationwide e-invoicing mandate (InvoiceNow). Corporate tax rate adjustments are also occurring in Portugal and Austria. Businesses must closely monitor these developments and adapt their strategies to mitigate risks and capitalize on emerging opportunities. The outcome of the US tariff legality case will be a pivotal factor in shaping international trade for the foreseeable future.",
+  "executive_briefing": "The global tax landscape continues its dynamic evolution, heavily influenced by the widespread adoption and ongoing implementation of the OECD's Pillar Two global minimum corporate tax, which now impacts over 140 jurisdictions and focuses on ensuring a 15% effective tax rate for large MNEs. Concurrently, a significant resurgence of trade tariffs, notably from the US, continues to disrupt international trade, with the legality of these measures actively being reviewed by the Supreme Court, creating substantial uncertainty. On the digital tax front, Singapore solidifies its position as a pioneer with its InvoiceNow e-invoicing mandate, which is expanding its scope to include GST-registered businesses, marking a key step in global digital tax transformation. Singapore also maintains its competitive corporate tax regime through a 17% rate coupled with attractive exemptions and rebates, reinforcing its appeal for foreign investment. Businesses must closely monitor these developments, particularly the Supreme Court's tariff ruling and the evolving landscape of global minimum tax implementation, to mitigate risks and identify strategic opportunities.",
   "trends": [
     {
       "name": "Global Minimum Corporate Tax (Pillar Two)",
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Corporate Tax",
-      "summary": "The OECD's Pillar Two initiative establishes a global minimum corporate tax rate of 15% for large MNEs, impacting tax planning and potentially increasing tax revenue. The US is adopting a side-by-side arrangement, but its commitment remains uncertain.",
-      "evidence": "OECD consensus on the deal. Approximately 140 countries have adopted Pillar Two. Focus on intangible income and base erosion rules. US side-by-side arrangement confirmed. US withdrawal from Pillar One and Two agreements.",
+      "summary": "The OECD's Pillar Two initiative establishes a global minimum corporate tax rate of 15% for large MNEs, impacting tax planning and potentially increasing tax revenue. Approximately 140 countries have adopted Pillar Two, with ongoing implementation efforts globally.",
+      "evidence": "OECD Secretary General confirms broad consensus on a global deal for taxing rights and a minimum corporate tax. The global minimum tax rate of 15% is internationally agreed upon and accepted by approximately 140 jurisdictions for cross-border profits of large multinational corporations. ASEAN+3 economies are reviewing domestic laws to apply a top-up tax to ensure a 15% effective rate for MNEs.",
       "source_links": [
+        "https://www.cbc.ca/news/politics/oecd-head-defends-tax-deal-1.6232027",
+        "https://www.fastcompany.com/90685194/the-world-has-agreed-on-a-global-minimum-corporate-tax-rate-but-is-it-enough",
         "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
+        "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax/",
         "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
-        "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax/",
-        "https://www.deloitte.com/us/en/services/audit-assurance/articles/pillar-two-tax.html",
-        "https://practiceguides.chambers.com/practice-guides/corporate-tax-2026",
-        "https://ciferi.com/glossary/pillar-two",
-        "https://www.aoshearman.com/en/insights/what-does-2025-hold-for-the-global-minimum-tax-pillar-two",
-        "https://www.bakertilly.de/en/post/pillar-2-the-global-minimum-tax-is-still-the-talk-of-the-town",
-        "https://www.bdo.com/insights/tax/what-pillar-two-means-for-income-tax-accounting",
-        "https://www.moore-australia.com.au/services/international-business-advisory-moore-australia/international-tax-services/pillar-two-global-minimum-tax/",
-        "https://home.treasury.gov/news/press-releases/sb0181",
-        "https://www.pwc.com/gx/en/services/tax/pillar-two-readiness/country-tracker.html",
-        "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
-        "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax/",
-        "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html"
+        "https://taxpolicycenter.org/briefing-book/what-are-oecd-pillar-1-and-pillar-2-international-taxation-reforms",
+        "https://amro-asia.org/global-tax-reform-what-lies-ahead-for-asean3"
       ],
       "confidence": 0.95
-    },
-    {
-      "name": "US Corporate Tax Implications of Global Minimum Tax",
-      "stage": "Incubation",
-      "velocity": "Medium",
-      "category": "Corporate Tax",
-      "summary": "The US is positioned to collect additional tax revenue from its companies if they pay less than 15% in other jurisdictions, potentially impacting the competitiveness of US-based MNEs. The side-by-side arrangement exempts US companies from full Pillar Two compliance.",
-      "evidence": "The plan would effectively allow the US to tax the difference between the 15% minimum rate and lower rates paid in countries like Ireland. US side-by-side arrangement exempts US companies from full Pillar Two compliance.",
-      "source_links": [
-        "https://bipartisanpolicy.org/issue-brief/international-tax-policy-where-the-u-s-stands-and-whats-ahead-in-2026/",
-        "https://bipartisanpolicy.org/issue-brief/international-tax-policy-where-the-u-s-stands-and-whats-ahead-in-2026/"
-      ],
-      "confidence": 0.85
     },
     {
       "name": "Resurgence of Trade Tariffs",
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Tariffs",
-      "summary": "The US is implementing and considering reciprocal tariffs on goods from China, the UK, and other countries, potentially disrupting global trade and increasing inflation. The legality of these tariffs is being challenged.",
-      "evidence": "Trump administration imposed tariffs under IEEPA, now facing legal challenges. Potential for $450 billion in revenue shifts. 90-day pause on escalations with China. Average effective tariff rate expected to settle around 15-18%.",
+      "summary": "The US continues to implement and consider tariffs on goods, creating potential disruptions to global trade. The legality of these tariffs, imposed under the International Emergency Economic Powers Act (IEEPA), is currently under active legal challenge, with a Supreme Court ruling anticipated.",
+      "evidence": "Country-specific tariffs are actively updated, with recent litigation including oral arguments in cases challenging Section 122 tariffs. The U.S. Supreme Court is expected to rule on the legality of tariffs imposed under the IEEPA in the coming months, indicating ongoing major trade policy developments. Real-time updates on tariff changes and global trade news are widely reported.",
       "source_links": [
-        "https://www.reuters.com/business/tariffs/",
-        "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/",
         "https://www.tradecomplianceresourcehub.com/2026/04/19/trump-2-0-tariff-tracker/",
-        "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
-        "https://www.bbc.com/news/articles/cn93e12rypgo",
-        "https://www.oiaglobal.com/tariff-updates/",
-        "https://www.washingtonpost.com/"
+        "https://www.reuters.com/business/tariffs/",
+        "https://tariffcheck.org/updates",
+        "https://apnews.com/hub/tariffs",
+        "https://www.bnnbloomberg.ca/tariffs/"
       ],
       "confidence": 0.9
-    },
-    {
-      "name": "Legal Challenges to US Tariffs",
-      "stage": "Incubation",
-      "velocity": "Medium",
-      "category": "Tariffs",
-      "summary": "The legality of tariffs imposed under the International Emergency Economic Powers Act (IEEPA) is being challenged in court, creating uncertainty for businesses and trade policy. The Supreme Court is expected to rule in the coming months.",
-      "evidence": "Court for International Trade (CIT) ruled IEEPA tariffs unlawful. Supreme Court expected to rule in coming months.",
-      "source_links": [
-        "https://www.reuters.com/business/tariffs/",
-        "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs"
-      ],
-      "confidence": 0.75
     },
     {
       "name": "Singapore as a Competitive Tax Jurisdiction",
       "stage": "Peak Hype",
       "velocity": "Medium",
       "category": "International",
-      "summary": "Singapore maintains a competitive corporate tax environment with a 17% rate and extensive exemptions and incentives, attracting foreign investment.",
-      "evidence": "Singapore corporate tax rate is 17%. Offers partial tax exemptions and CIT rebates. Facilitates corporate tax filing with expertise.",
+      "summary": "Singapore maintains a competitive corporate tax environment with a standard 17% rate, offering substantial partial tax exemptions and CIT rebates, enhancing its attractiveness for foreign investment amidst global tax changes like Pillar Two.",
+      "evidence": "Singapore's corporate income tax rate is confirmed at 17%. Eligible companies for Year of Assessment 2026 receive a non-taxable CIT rebate cash grant, and all companies are granted a 50% CIT rebate (capped). Singapore employs a one-tier taxation system where dividends are tax-exempt for shareholders. This is part of the broader competitive tax landscape in ASEAN.",
       "source_links": [
         "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
         "https://www.iras.gov.sg/taxes/corporate-income-tax/basics-of-corporate-income-tax/basic-guide-to-corporate-income-tax-for-companies",
         "https://www.airwallex.com/sg/blog/corporate-tax-singapore-guide",
-        "https://www.hawksford.com/insights-and-guides/singapore-corporate-tax-filing"
+        "https://www.hawksford.com/insights-and-guides/singapore-corporate-tax-filing",
+        "https://www.rd.go.th/fileadmin/user_upload/AEC/AseanTax-Singapore.pdf",
+        "https://www.aseanbriefing.com/news/comparing-tax-rates-across-asean/"
       ],
       "confidence": 0.8
     },
@@ -102,35 +59,17 @@ The global tax landscape remains highly dynamic, marked by significant uncertain
       "stage": "Breakthrough",
       "velocity": "Medium",
       "category": "International",
-      "summary": "Singapore is implementing a nationwide e-invoicing initiative (InvoiceNow) based on the Peppol framework, becoming a core component of digital tax transformation.",
-      "evidence": "InvoiceNow built on Peppol framework. Phased timeline for implementation. Mandate requires structured invoice data to be transmitted to IRAS.",
+      "summary": "Singapore's nationwide e-invoicing initiative, InvoiceNow, built on the Peppol framework, is undergoing a multiyear mandate with phased deadlines. It is expanding its scope to include GST-registered businesses, becoming a core component of the country's digital tax transformation and directly transmitting structured invoice data to IRAS.",
+      "evidence": "InvoiceNow is Singapore's national e-invoicing framework based on the international Peppol network, administered by IMDA and IRAS. It is evolving into a multiyear mandate requiring structured invoice data submission to IRAS, including a 'GST InvoiceNow Requirement.' Phased compliance deadlines are expanding mandatory participation to existing GST-registered businesses. This system supports both business-to-business exchange and tax data submission, becoming a core part of digital tax transformation.",
       "source_links": [
         "https://ecosio.com/en/blog/singapore-e-invoicing-a-complete-guide-for-businesses/",
         "https://invoicedataextraction.com/blog/singapore-invoicenow-e-invoicing-peppol",
-        "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
         "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
+        "https://kpmg.com/us/en/taxnewsflash/news/2026/02/singapore-e-invoicing-mandate-compliance-deadlines.html",
         "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-        "https://sovos.com/vat/tax-rules/singapore-e-invoicing/",
-        "https://hawksford.com/insights-and-guides/gst-registration-einvoicing-singapore",
-        "https://edicomgroup.com/blog/singapore-encourages-the-use-of-e-invoicing-with-peppol",
-        "https://www.ey.com/en_sg/technical/you-and-the-taxman/embracing-the-era-of-electronic-invoicing",
-        "https://www.comarch.com/trade-and-services/data-management/e-invoicing/e-invoicing-in-singapore/"
+        "https://www.linkedin.com/pulse/why-so-many-e-invoicing-projects-fall-apart-what-smart-fabio-santoro-siluf"
       ],
       "confidence": 0.85
-    },
-    {
-      "name": "Corporate Tax Rate Adjustments - Portugal",
-      "stage": "Incubation",
-      "velocity": "Low",
-      "category": "Corporate Tax",
-      "summary": "Portugal is planning to decrease its corporate income tax rate by one percentage point per year from 2026 to 2028.",
-      "evidence": "Corporate income tax will decrease by one percentage point per year, starting from January 2026 and ending in 2028.",
-      "source_links": [
-        "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/",
-        "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/"
-      ],
-      "confidence": 0.7
     }
   ]
 }
-```
