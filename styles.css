@@ -682,3 +682,56 @@ main {
   .tab-btn { width: 100%; text-align: center; padding: 0.5rem; font-size: 0.7rem; }
   .trend-name { font-size: 1.2rem; }
 }
+
+/* Archive Specific Styles */
+.archive-trend-card {
+  filter: grayscale(0.4) brightness(0.8);
+  border-style: dashed;
+}
+
+.archive-trend-card:hover {
+  filter: grayscale(0) brightness(1);
+}
+
+.archived-badge {
+  font-size: 0.6rem;
+  font-weight: 800;
+  color: var(--accent-secondary);
+  background: rgba(112, 0, 255, 0.1);
+  padding: 0.2rem 0.6rem;
+  width: fit-content;
+  margin-bottom: 1rem;
+  border-left: 2px solid var(--accent-secondary);
+  letter-spacing: 0.05em;
+}
+
+.filter-pill {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: rgba(0, 255, 255, 0.05);
+  border: 1px solid var(--accent-primary);
+  padding: 0.5rem 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+  color: var(--text-main);
+  width: fit-content;
+}
+
+.clear-filter-btn {
+  background: var(--accent-primary);
+  color: #000;
+  border: none;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 1rem;
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+
+.clear-filter-btn:hover {
+  background: #fff;
+  box-shadow: 0 0 10px #fff;
+}

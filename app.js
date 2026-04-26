@@ -31,17 +31,20 @@ function formatDate(dateString) {
 }
 
 function setupTabs() {
-    const tabBtns = document.querySelectorAll('.tab-btn');
+    const tabBtns = document.querySelectorAll('.tabs-container .tab-btn');
     tabBtns.forEach(btn => {
         btn.addEventListener('click', async () => {
             if (btn.classList.contains('active')) return;
             
+            const dataSource = btn.getAttribute('data-source');
+            if (!dataSource) return;
+
             // UI Update
             tabBtns.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             
             // State Update
-            currentDataSource = btn.getAttribute('data-source');
+            currentDataSource = dataSource;
             currentArchiveSource = currentDataSource.replace('_trend_map.json', '_archive.json');
             if (currentDataSource === 'trend_map.json') currentArchiveSource = 'archive.json'; // Fallback
             currentFocusLabel = btn.getAttribute('data-focus');
@@ -74,9 +77,14 @@ async function loadData(forceRefresh = false) {
 
             try {
                 const archiveResponse = await fetch(currentArchiveSource);
-                if (archiveResponse.ok) cachedArchive = await archiveResponse.json();
+                if (archiveResponse.ok) {
+                    cachedArchive = await archiveResponse.json();
+                } else {
+                    cachedArchive = { archived_trends: [] };
+                }
             } catch (e) {
-                console.warn("Archive not found.");
+                console.warn("Archive not found:", e);
+                cachedArchive = { archived_trends: [] };
             }
         }
 
@@ -278,7 +286,7 @@ function renderArchive(archivedTrends) {
     if (archivedTrends.length === 0) {
         archiveGrid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; color: var(--text-dim); padding: 2rem;">No archived intelligence found for this focus.</div>';
     } else {
-        archivedTrends.forEach(trend => {
+        archivedTrends.forEach((trend, index) => {
             const card = createTrendCard(trend);
             card.classList.add('archive-trend-card');
             
@@ -286,10 +294,13 @@ function renderArchive(archivedTrends) {
             const dateStr = formatDate(trend.archived_at);
             const badge = document.createElement('div');
             badge.className = 'archived-badge';
-            badge.innerText = `Archived: ${dateStr}`;
+            badge.innerText = `ARCHIVED: ${dateStr}`;
             card.prepend(badge);
             
             archiveGrid.appendChild(card);
+            
+            // Immediately reveal or stagger if visible
+            card.classList.add('revealed');
         });
     }
 
