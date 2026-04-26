@@ -1,40 +1,29 @@
-# Crypto Intelligence Briefing - 2026-04-25 22:02
+# Crypto Intelligence Briefing - 2026-04-26 04:02
 
 ## Intelligence Map Update - April 25, 2026
 
 **Executive Briefing:**
 
-The crypto market continues its evolution towards institutional maturity, with Bitcoin solidifying its position as a legitimate asset class. The influx of capital via ETFs is the dominant driver, eclipsing speculative activity. However, the most significant development is the potential for the Clarity Act to fundamentally reshape the competitive landscape. While still uncertain, the possibility of enabling smart contract functionality on Bitcoin directly challenges Ethereum’s core value proposition and is driving increased focus on interoperability solutions. Ethereum remains critical, particularly through its Layer 2 scaling efforts, but faces a potential disruption if Clarity passes. The demand for seamless BTC/ETH liquidity is growing, evidenced by the proliferation of cross-chain solutions. The overall narrative has shifted away from rapid gains and towards sustainable growth, regulatory clarity, and robust security. The Senate's handling of the Clarity Act is now the key variable influencing the medium-term trajectory of the market.
+The crypto market continues its maturation, driven by substantial institutional investment in Bitcoin via ETFs. This influx of capital is establishing BTC as a legitimate asset class, shifting the focus away from speculative gains towards sustainable growth. However, the Clarity Act remains the pivotal factor influencing the medium-term trajectory. The potential for enabling smart contract functionality on Bitcoin directly challenges Ethereum’s dominance, forcing a re-evaluation of the competitive landscape and accelerating the demand for interoperability solutions. While Ethereum maintains its critical role, particularly through Layer 2 scaling, its future is increasingly contingent on navigating this potential disruption. The growing need for seamless BTC/ETH liquidity is evident in the proliferation of cross-chain solutions. The narrative has decisively shifted towards regulatory clarity and robust security, with the Senate’s handling of the Clarity Act being the key variable. The recent legislative delays and lobbying efforts surrounding the Clarity Act introduce uncertainty, potentially slowing down the pace of regulatory definition. The focus on native asset swaps and cross-chain liquidity is intensifying, indicating a desire for a more interconnected and efficient crypto ecosystem.
 
-**Updated Intelligence Map:**
+**Updated Trends:**
 
 ```json
 {
-  "executive_briefing": "The crypto market continues its evolution towards institutional maturity, with Bitcoin solidifying its position as a legitimate asset class. The influx of capital via ETFs is the dominant driver, eclipsing speculative activity. However, the most significant development is the potential for the Clarity Act to fundamentally reshape the competitive landscape. While still uncertain, the possibility of enabling smart contract functionality on Bitcoin directly challenges Ethereum’s core value proposition and is driving increased focus on interoperability solutions. Ethereum remains critical, particularly through its Layer 2 scaling efforts, but faces a potential disruption if Clarity passes. The demand for seamless BTC/ETH liquidity is growing, evidenced by the proliferation of cross-chain solutions. The overall narrative has shifted away from rapid gains and towards sustainable growth, regulatory clarity, and robust security. The Senate's handling of the Clarity Act is now the key variable influencing the medium-term trajectory of the market.",
+  "executive_briefing": "The crypto market continues its maturation, driven by substantial institutional investment in Bitcoin via ETFs. This influx of capital is establishing BTC as a legitimate asset class, shifting the focus away from speculative gains towards sustainable growth. However, the Clarity Act remains the pivotal factor influencing the medium-term trajectory. The potential for enabling smart contract functionality on Bitcoin directly challenges Ethereum’s dominance, forcing a re-evaluation of the competitive landscape and accelerating the demand for interoperability solutions. While Ethereum maintains its critical role, particularly through Layer 2 scaling, its future is increasingly contingent on navigating this potential disruption. The growing need for seamless BTC/ETH liquidity is evident in the proliferation of cross-chain solutions. The narrative has decisively shifted towards regulatory clarity and robust security, with the Senate’s handling of the Clarity Act being the key variable. The recent legislative delays and lobbying efforts surrounding the Clarity Act introduce uncertainty, potentially slowing down the pace of regulatory definition. The focus on native asset swaps and cross-chain liquidity is intensifying, indicating a desire for a more interconnected and efficient crypto ecosystem.",
   "trends": [
     {
       "name": "Institutional Bitcoin Adoption & ETF Impact",
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Bitcoin",
-      "summary": "Increasing institutional investment in Bitcoin, driven by diversification, long-term growth prospects, and regulatory clarity, is now the dominant force behind price discovery. ETF inflows are a key indicator, and whale activity is becoming less impactful.",
-      "evidence": "Bank-backed bitcoin ETFs accelerating adoption; $58 billion cumulative net flows into US spot Bitcoin ETFs; 2,000+ US advisory firms allocating to crypto ETFs; institutions viewing BTC as a legitimate asset; ETF mirroring of market price; continuous buying/selling maintaining liquidity.",
+      "summary": "Increasing institutional investment in Bitcoin, driven by diversification, long-term growth prospects, and regulatory clarity, is the dominant force behind price discovery. ETF inflows are a key indicator, with over $58 billion in cumulative net flows.",
+      "evidence": "Bank-backed bitcoin ETFs accelerating adoption; $58 billion cumulative net flows into US spot Bitcoin ETFs; 2,000+ US advisory firms allocating to crypto ETFs; institutions viewing BTC as a legitimate asset; ETF mirroring of market price.",
       "source_links": [
-        "https://www.okx.com/learn/bitcoin-record-high-etfs-adoption-regulatory",
-        "https://www.ainvest.com/news/bitcoin-structural-bullishness-market-resilience-institutional-adoption-etfs-rewriting-btc-volatility-narrative-2507",
-        "https://www.prosper-fi.com/news/btc-institutional-adoption-101",
-        "https://www.coinglass.com/etf/bitcoin",
-        "https://www.bitrue.com/blog/bitcoin-2026-outlook-btc-price-forecast",
-        "https://walbi.com/blog/institutional-adoption-etfs-and-crypto-in-traditional-finance",
-        "https://www.chainup.com/blog/institutional-bitcoin-adoption-what-it-means/",
-        "https://kensoninvestments.com/bitcoin-etfs-and-institutional-allocation-a-2025-update/",
-        "https://powerdrill.ai/blog/institutional-cryptocurrency-adoption",
-        "https://coinapproved.com/institutional-crypto-adoption-and-bitcoin-etf-approvals-how-regulation-is-changing-the-game",
-        "https://datos-insights.com/blog/bitcoin-etf-institutional-adoption/",
         "https://www.ssga.com/us/en/institutional/insights/why-bitcoin-institutional-demand-is-on-the-rise",
-        "https://news.bitcoin.com/bitcoin-etf-inflows-turn-fully-positive-across-key-timeframes-led-by-blackrocks-ibit/",
+        "https://news.bitcoin.com/bitcoin-etf-inflows-turn-fully-positive-across-key-timeframes-led-by-blackrocks-ibit",
         "https://bitcoinmagazine.com/news/spot-bitcoin-etfs-cross-1b",
-        "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption/",
+        "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption",
         "https://www.trmlabs.com/resources/blog/the-rise-of-crypto-etps-how-a-fringe-idea-became-a-pillar-of-institutional-adoption"
       ],
       "confidence": 0.98
@@ -54,19 +43,14 @@ The crypto market continues its evolution towards institutional maturity, with B
       "stage": "Incubation",
       "velocity": "Medium",
       "category": "Regulation",
-      "summary": "The Clarity Act aims to establish a federal regulatory framework for crypto, classifying tokens and potentially enabling smart contracts on Bitcoin. Passage is uncertain but crucial, with Senate markup being a key next step.",
-      "evidence": "Clarity Act classifies tokens; House passed H.R. 3633; Senate Banking Committee targeting markup; industry lobbying; potential for enabling smart contracts on Bitcoin.",
+      "summary": "The Clarity Act aims to establish a federal regulatory framework for crypto, classifying tokens and potentially enabling smart contracts on Bitcoin. Passage is uncertain due to legislative delays and lobbying, but remains crucial.",
+      "evidence": "Clarity Act classifies tokens; House passed H.R. 3633; Senate Banking Committee targeting markup; industry lobbying; potential for enabling smart contracts on Bitcoin; legislative delays.",
       "source_links": [
         "https://www.congress.gov/bill/119th-congress/house-bill/3633/text",
-        "https://www.banking.senate.gov/newsroom/majority/myth-vs-fact-the-clarity-act",
-        "https://www.coindesk.com/news-analysis/2026/04/21/crypto-s-great-hope-in-senate-s-clarity-act-still-has-a-path-to-survive-tight-calendar",
-        "https://www.fintechweekly.com/news/clarity-act-senate-returns-april-2026-markup-window",
-        "https://www.avemarialaw.edu/clarity-act/",
+        "https://crypto.news/crypto-firms-demand-clarity-act-markup/",
         "https://parameter.io/clarity-act-advances-in-senate-with-key-committee-vote-on-crypto/",
-        "https://www.cfbenchmarks.com/blog/where-next-for-the-clarity-act-after-a-week-that-left-it-on-the-brink",
-        "https://clsbluesky.law.columbia.edu/2025/09/09/arnold-porter-discusses-the-clarity-act/",
-        "https://crypto.news/clarity-act-delayed-senate-struggles-2026/",
-        "https://beincrypto.com/trum-inner-circle-clarity-act-ultimatum/"
+        "https://cryptorank.io/news/feed/9b72e-clarity-act-delay-banking-lobbying",
+        "https://www.nationalfile.com/article/senate-committees-push-forward-on-clarity-act"
       ],
       "confidence": 0.8
     },
@@ -81,14 +65,8 @@ The crypto market continues its evolution towards institutional maturity, with B
         "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps",
         "https://symbiosis.finance/",
         "https://swapspace.co/cross-chain/btc-eth-bridge",
-        "https://changenow.io/blog/cross-chain-crypto-bridges-faq",
         "https://advertorial.cryptonews.com/press-releases/what-would-true-cross-chain-liquidity-between-btc-eth-and-sol-look-like-liquidchain-liquid-weighs-in/",
-        "https://app.debridge.com/",
-        "https://li.fi/",
-        "https://app.rango.exchange/",
-        "https://symbiosis.finance/",
-        "https://app.debridge.com/",
-        "https://thorchain.org/"
+        "https://rhino.fi/"
       ],
       "confidence": 0.85
     },
@@ -100,16 +78,10 @@ The crypto market continues its evolution towards institutional maturity, with B
       "summary": "Ethereum continues to solidify its position as a foundational blockchain, with the successful transition to Proof-of-Stake (PoS) significantly reducing energy consumption and enhancing security.",
       "evidence": "Ethereum's PoS transition cut energy usage by over 99%; continued development of smart contract functionality; second largest market capitalization.",
       "source_links": [
-        "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
-        "https://ethereum.org/",
-        "https://etherscan.io/",
-        "https://www.okx.com/price/ethereum-eth",
-        "https://coinmarketcap.com/currencies/ethereum/",
         "https://en.wikipedia.org/wiki/Ethereum",
-        "https://www.blockchain.com/prices/ETH",
+        "https://coinmarketcap.com/currencies/ethereum/",
         "https://www.coindesk.com/price/ethereum",
-        "https://finance.yahoo.com/quote/ETH-USD/?fr=sycsrp_catchall",
-        "https://www.coindesk.com/price/ethereum"
+        "https://www.blockchain.com/prices/ETH"
       ],
       "confidence": 0.9
     }
