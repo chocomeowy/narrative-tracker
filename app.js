@@ -323,11 +323,11 @@ function createTrendCard(trend) {
                  try {
                      domainText = new URL(link).hostname.replace(/^www\./, '');
                  } catch (e) {
-                     domainText = \`SRC_\${idx + 1}\`;
+                     domainText = `SRC_${idx + 1}`;
                  }
-                 return \`<a href="\${link}" title="\${link}" target="_blank" class="source-link" rel="noopener noreferrer">
-                     <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px; vertical-align: baseline;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>\${domainText}
-                 </a>\`;
+                 return `<a href="${link}" title="${link}" target="_blank" class="source-link" rel="noopener noreferrer">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px; vertical-align: baseline;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>${domainText}
+                 </a>`;
              }).join('')}
            </div>`
         : '';
