@@ -297,16 +297,13 @@ function renderArchive(archivedTrends) {
     archiveGrid.style.display = 'none';
     toggleBtn.innerText = 'View Archived Narrative Intelligence';
 
-    // Add toggle listener (remove old ones if any)
-    const newToggleBtn = toggleBtn.cloneNode(true);
-    toggleBtn.parentNode.replaceChild(newToggleBtn, toggleBtn);
-    
-    newToggleBtn.addEventListener('click', () => {
+    // Toggle logic
+    toggleBtn.onclick = () => {
         const isHidden = archiveGrid.style.display === 'none';
         archiveGrid.style.display = isHidden ? 'grid' : 'none';
-        newToggleBtn.innerText = isHidden ? 'Hide Intelligence Archive' : 'View Archived Narrative Intelligence';
+        toggleBtn.textContent = isHidden ? 'Hide Intelligence Archive' : 'View Archived Narrative Intelligence';
         if (isHidden) archiveGrid.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    });
+    };
 }
 
 function createTrendCard(trend) {
