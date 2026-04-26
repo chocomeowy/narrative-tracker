@@ -127,21 +127,29 @@ function renderDashboard(data, steering, trends = [], archiveData = { archived_t
         if (el) el.innerHTML = '';
     });
 
-    filteredTrends.forEach(trend => {
+    // Staggered Reveal Logic
+    filteredTrends.forEach((trend, index) => {
         const card = createTrendCard(trend);
         let stageKey = (trend.stage || 'incubation').toLowerCase().replace(/\s+/g, '-');
         
-        // Handle common variations just in case the LLM hallucinates
         if (stageKey.includes('emerging') || stageKey.includes('growth') || stageKey.includes('developing')) stageKey = 'breakthrough';
         if (stageKey.includes('decline')) stageKey = 'fatigue';
 
         const section = document.getElementById(`${stageKey}-trends`);
         if (section) {
             section.appendChild(card);
+            // Staggered reveal
+            setTimeout(() => {
+                card.classList.add('revealed');
+            }, index * 100);
         } else {
-            // Fallback to incubation if totally unknown
             const incubationSection = document.getElementById('incubation-trends');
-            if (incubationSection) incubationSection.appendChild(card);
+            if (incubationSection) {
+                incubationSection.appendChild(card);
+                setTimeout(() => {
+                    card.classList.add('revealed');
+                }, index * 100);
+            }
         }
     });
 }
@@ -302,7 +310,6 @@ function createTrendCard(trend) {
     const velocityClass = (isHighVelocity) ? 'velocity-up' : 
                           (velLower.includes('-') || velLower.includes('low') || velLower.includes('dropping')) ? 'velocity-down' : '';
     
-
     // Robust evidence extraction
     const evidence = trend.evidence || trend.keywords || [];
     const evidenceList = Array.isArray(evidence) ? evidence : [evidence];
@@ -311,7 +318,7 @@ function createTrendCard(trend) {
     const sourceLinks = trend.source_links || [];
     const sourceLinksHtml = sourceLinks.length > 0 
         ? `<div class="source-links-container">
-             ${sourceLinks.map((link, idx) => `<a href="${link}" target="_blank" class="source-link" rel="noopener noreferrer">Source ${idx + 1}</a>`).join('')}
+             ${sourceLinks.map((link, idx) => `<a href="${link}" target="_blank" class="source-link" rel="noopener noreferrer">SRC_${idx + 1}</a>`).join('')}
            </div>`
         : '';
 
@@ -319,7 +326,7 @@ function createTrendCard(trend) {
 
     card.innerHTML = `
         <div class="trend-header">
-            <div class="trend-name-container">
+            <div>
                 <div class="trend-name">${name}</div>
                 ${categoryHtml}
             </div>
@@ -327,15 +334,15 @@ function createTrendCard(trend) {
         </div>
         <p class="trend-summary">${summary}</p>
         <div class="evidence-list">
-            ${evidenceList.map(e => `<div class="evidence-item">${e}</div>`).join('')}
+            ${evidenceList.slice(0, 3).map(e => `<div class="evidence-item">${e}</div>`).join('')}
         </div>
         ${sourceLinksHtml}
         <div class="trend-footer">
-            <div>Confidence: ${Math.round(confidence * 100)}%</div>
+            <div>CONFIDENCE: ${Math.round(confidence * 100)}%</div>
             <div class="confidence-bar">
                 <div class="confidence-fill" style="width: ${confidence * 100}%"></div>
             </div>
-            <div>Observed: ${trend.first_seen || trend.last_observed || 'Recent'}</div>
+            <div style="font-size: 0.6rem;">ID: ${Math.random().toString(36).substr(2, 6).toUpperCase()}</div>
         </div>
     `;
     return card;
