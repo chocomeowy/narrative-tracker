@@ -20,14 +20,20 @@
   box-sizing: border-box;
 }
 
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
+
 body {
   background-color: var(--bg-color);
   color: var(--text-main);
   font-family: var(--font-body);
   font-weight: 400;
   min-height: 100vh;
-  overflow-x: hidden;
   line-height: 1.6;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* Texture Overlays */
@@ -77,7 +83,7 @@ body {
 .bottom-right { bottom: 0; right: 0; }
 
 header {
-  padding: 5rem 2rem 3rem 2rem;
+  padding: 6rem 1.5rem 3rem 1.5rem;
   text-align: center;
   position: relative;
   background: radial-gradient(circle at center, rgba(0, 255, 255, 0.05) 0%, transparent 70%);
@@ -85,14 +91,15 @@ header {
 
 h1 {
   font-family: var(--font-display);
-  font-size: clamp(2.5rem, 8vw, 4.5rem);
+  font-size: clamp(1.2rem, 5vw, 4.5rem);
   font-weight: 800;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.03em;
   text-transform: uppercase;
   color: var(--text-main);
   margin-bottom: 0.5rem;
   position: relative;
   display: inline-block;
+  line-height: 1.1;
 }
 
 h1::after {
@@ -241,7 +248,10 @@ main {
   max-width: 900px;
 }
 
-/* Lifecycle */
+.lifecycle-container {
+  width: 100%;
+  overflow-x: hidden;
+}
 .stage-section {
   margin-bottom: 6rem;
 }
@@ -273,7 +283,7 @@ main {
 /* Trends Grid & Cards */
 .trends-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(400px, 100%), 1fr));
   gap: 2rem;
 }
 
@@ -433,12 +443,20 @@ main {
   margin-bottom: 6rem;
 }
 
+.matrix-wrapper {
+  overflow-x: auto;
+  margin: 0 -1rem;
+  padding: 0 1rem;
+  -webkit-overflow-scrolling: touch;
+}
+
 .matrix-grid {
   display: grid;
-  grid-template-columns: 200px repeat(4, 1fr);
+  grid-template-columns: 180px repeat(4, 1fr);
   gap: 2px;
   background: var(--glass-border);
   border: 1px solid var(--glass-border);
+  min-width: 800px;
 }
 
 .matrix-header-cell, .matrix-category-label, .matrix-cell {
@@ -488,10 +506,50 @@ main {
 }
 
 /* Responsive */
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
+  .trends-grid { grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+}
+
+@media (max-width: 768px) {
+  header { padding: 4rem 1rem 2rem 1rem; }
   main { padding: 1rem; }
+  
+  .stats-grid { 
+    grid-template-columns: 1fr;
+    margin-bottom: 3rem;
+  }
+  
+  .briefing-card { padding: 1.5rem; }
+  .matrix-card { padding: 2rem 1rem; }
+  
+  .stage-header {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+  
+  .stage-title { font-size: 1.4rem; }
+  
+  .trend-card { padding: 1.5rem; }
   .trends-grid { grid-template-columns: 1fr; }
-  .matrix-grid { grid-template-columns: 100px repeat(4, 1fr); }
-  .matrix-header-cell, .matrix-category-label, .matrix-cell { padding: 0.8rem; font-size: 0.6rem; }
-  h1 { font-size: 3rem; }
+  
+  .agency-metadata {
+    position: absolute;
+    font-size: 0.5rem;
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 { 
+    font-size: 1rem; 
+    letter-spacing: -0.04em;
+    white-space: nowrap;
+  }
+  .subtitle { font-size: 0.55rem; letter-spacing: 0.15em; }
+  .tabs-container {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  .tab-btn { width: 100%; text-align: center; padding: 0.5rem; font-size: 0.7rem; }
 }
