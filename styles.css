@@ -499,6 +499,37 @@ main {
   box-shadow: inset 0 0 20px rgba(0, 255, 255, 0.1);
 }
 
+.matrix-legend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 3rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 50px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid var(--glass-border);
+}
+
+.legend-bar {
+  width: 150px;
+  height: 6px;
+  background: linear-gradient(90deg, rgba(0, 242, 255, 0.1), rgba(0, 242, 255, 0.9));
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0, 242, 255, 0.2);
+}
+
+.legend-label {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  letter-spacing: 0.1em;
+  font-weight: 700;
+}
+
 /* Glossary / Velocity Guide */
 .glossary-card {
   background: var(--card-bg);
