@@ -11,6 +11,25 @@ async function init() {
     await loadData();
 }
 
+function formatDate(dateString) {
+    if (!dateString) return 'Unknown Date';
+    const date = new Date(dateString);
+    
+    // Format: DD/MMM/YYYY, h:mm:ss AM/PM
+    const day = date.getDate().toString().padStart(2, '0');
+    const month = date.toLocaleString('en-US', { month: 'short' });
+    const year = date.getFullYear();
+    
+    const time = date.toLocaleString('en-US', { 
+        hour: 'numeric', 
+        minute: '2-digit', 
+        second: '2-digit', 
+        hour12: true 
+    });
+    
+    return `${day}/${month}/${year}, ${time}`;
+}
+
 function setupTabs() {
     const tabBtns = document.querySelectorAll('.tab-btn');
     tabBtns.forEach(btn => {
@@ -84,7 +103,7 @@ function renderDashboard(data, steering, trends = [], archiveData = { archived_t
     const currentFocusEl = document.getElementById('current-focus');
 
     if (lastUpdatedEl && data.last_updated) {
-        lastUpdatedEl.innerText = `Last Updated: ${new Date(data.last_updated).toLocaleString()}`;
+        lastUpdatedEl.innerText = `Last Updated: ${formatDate(data.last_updated)}`;
     }
     if (countTotalEl) countTotalEl.innerText = activeTrends.length;
     if (currentFocusEl) currentFocusEl.innerText = currentFocusLabel;
@@ -264,7 +283,7 @@ function renderArchive(archivedTrends) {
             card.classList.add('archive-trend-card');
             
             // Add archived date
-            const dateStr = trend.archived_at ? new Date(trend.archived_at).toLocaleDateString() : 'Unknown Date';
+            const dateStr = formatDate(trend.archived_at);
             const badge = document.createElement('div');
             badge.className = 'archived-badge';
             badge.innerText = `Archived: ${dateStr}`;
