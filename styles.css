@@ -10,8 +10,8 @@
   --peak-hype: #ff2e2e;
   --fatigue: #444444;
   --glass-border: rgba(0, 255, 255, 0.1);
-  --font-display: 'Syne', sans-serif;
-  --font-mono: 'JetBrains Mono', monospace;
+  --font-display: 'Plus Jakarta Sans', sans-serif;
+  --font-body: 'Outfit', sans-serif;
 }
 
 * {
@@ -23,10 +23,11 @@
 body {
   background-color: var(--bg-color);
   color: var(--text-main);
-  font-family: var(--font-mono);
+  font-family: var(--font-body);
+  font-weight: 400;
   min-height: 100vh;
   overflow-x: hidden;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 /* Texture Overlays */
@@ -131,8 +132,8 @@ main {
   border: 1px solid var(--glass-border);
   color: var(--text-dim);
   padding: 0.6rem 1.5rem;
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
   font-weight: 700;
   text-transform: uppercase;
   cursor: pointer;
@@ -351,7 +352,7 @@ main {
 
 .trend-summary {
   color: var(--text-dim);
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 2rem;
 }
