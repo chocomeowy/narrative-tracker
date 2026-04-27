@@ -1,20 +1,21 @@
-# Tax Intelligence Briefing - 2026-04-26 22:02
+# Tax Intelligence Briefing - 2026-04-27 04:02
 
 ## Analysis and Intelligence Map Update
 
-The global tax landscape continues to be reshaped by the implementation of Pillar Two and escalating trade tensions. The US withdrawal from key OECD agreements and the subsequent side-by-side arrangement for US multinationals significantly alters the landscape, creating a two-tiered system. The impending Supreme Court ruling on the legality of US tariffs remains a critical uncertainty. Singapore continues to be a competitive hub, bolstered by its low corporate tax rate and proactive adoption of digital tax solutions like InvoiceNow. E-invoicing is rapidly expanding globally, driven by both compliance and efficiency gains. The focus on CSR and ESG reporting is increasingly influencing corporate tax strategies, though this is a longer-term trend. Several countries are adjusting their corporate tax rates, with Portugal planning decreases and Slovenia implementing temporary increases.
+The global tax landscape continues to be reshaped by the implementation of Pillar Two, escalating trade tensions, and the ongoing digital transformation of tax administration. The US approach to Pillar Two, with its side-by-side arrangement, introduces complexity for US multinationals. The resurgence of tariffs, particularly those proposed by the US, creates significant uncertainty for global trade, compounded by legal challenges reaching the Supreme Court. Singapore remains a competitive hub, leveraging its low corporate tax rate and embracing digital solutions like InvoiceNow. E-invoicing is rapidly gaining momentum globally, driven by both compliance requirements and efficiency gains. The ASEAN region presents a varied corporate tax landscape, with Singapore maintaining a competitive edge.
 
-**Key Shifts:**
+**Key Updates & Insights:**
 
-*   **Pillar Two Complexity:** The US side-by-side arrangement introduces a significant layer of complexity to Pillar Two implementation, requiring careful analysis by multinational enterprises.
-*   **Tariff Escalation:** The resurgence of tariffs, particularly from the US, is accelerating, with potential for further escalation and retaliatory measures.
-*   **E-invoicing Momentum:** Singapore's InvoiceNow initiative is gaining traction, and the global trend towards e-invoicing is accelerating, driven by regulatory mandates and efficiency benefits.
+*   **Pillar Two Implementation:** The new intel confirms the widespread adoption of Pillar Two across 140+ jurisdictions. The US side-by-side arrangement is a key feature, and the complexities of compliance, particularly data collection, are highlighted. The ongoing debate about whether a global minimum tax will truly end “creative accounting” remains relevant.
+*   **Tariff Escalation & Legal Challenges:** The new intel provides a detailed timeline of recent and proposed US tariffs, including the potential for reciprocal tariffs. The pending Supreme Court ruling on the legality of tariffs under IEEPA adds a layer of uncertainty.
+*   **Singapore's Tax Competitiveness & E-invoicing:** The intel reinforces Singapore’s position as a competitive tax jurisdiction with a low rate and a streamlined system. The rollout of InvoiceNow is progressing, with a phased approach to mandatory compliance.
+*   **ASEAN Tax Landscape:** The intel confirms the varying corporate tax rates across ASEAN countries, with Singapore consistently offering one of the lowest rates.
 
-
+## Updated Intelligence Map (JSON Format)
 
 ```json
 {
-  "executive_briefing": "The global tax landscape is undergoing significant shifts driven by the implementation of Pillar Two, escalating trade tensions, and the increasing adoption of digital tax solutions. The US withdrawal from key OECD agreements and the resulting side-by-side arrangement for US multinationals introduces complexity to Pillar Two compliance. The potential for further tariff escalation, coupled with the pending Supreme Court ruling on their legality, creates substantial uncertainty. Singapore remains a competitive tax jurisdiction, leveraging its low rate and embracing digital transformation through InvoiceNow. Globally, e-invoicing is gaining momentum, driven by both compliance and efficiency gains. Businesses must prioritize monitoring these developments to mitigate risks and capitalize on emerging opportunities.",
+  "executive_briefing": "The global tax landscape is undergoing significant shifts. Pillar Two implementation is progressing rapidly, though the US side-by-side arrangement adds complexity. Resurgent trade tariffs, particularly from the US, create substantial uncertainty, with legal challenges pending. Singapore maintains a competitive tax environment and is leading the charge on digital tax transformation with InvoiceNow. E-invoicing is gaining global traction, and ASEAN presents a diverse range of corporate tax rates, with Singapore remaining highly competitive.",
   "trends": [
     {
       "name": "Global Minimum Corporate Tax (Pillar Two)",
@@ -37,7 +38,10 @@ The global tax landscape continues to be reshaped by the implementation of Pilla
         "https://stantax.fr/en/blog/2026-trends-global-minimum-taxation/",
         "https://ciferi.com/glossary/pillar-two",
         "https://www.aoshearman.com/en/insights/what-does-2025-hold-for-the-global-minimum-tax-pillar-two",
-        "https://www.bdo.com/insights/tax/what-pillar-two-means-for-income-tax-accounting"
+        "https://www.bdo.com/insights/tax/what-pillar-two-means-for-income-tax-accounting",
+        "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax/",
+        "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
+        "https://www.congress.gov/crs-product/R47174"
       ],
       "confidence": 0.98
     },
@@ -63,7 +67,8 @@ The global tax landscape continues to be reshaped by the implementation of Pilla
         "https://ustr.gov/trade-topics/presidential-tariff-actions",
         "https://www.reuters.com/business/tariffs/",
         "https://www.tradecomplianceresourcehub.com/2026/04/19/trump-2-0-tariff-tracker/",
-        "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/"
+        "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/",
+        "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs"
       ],
       "confidence": 0.95
     },
