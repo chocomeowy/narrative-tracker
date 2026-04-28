@@ -156,7 +156,7 @@ def run_agent():
         try:
             print(f"Attempting {model_id}...")
             sys.stdout.flush()
-            response = requests.post(url, headers=headers, json=payload, timeout=60)
+            response = requests.post(url, headers=headers, json=payload, timeout=180)
             res_json = response.json()
             
             if response.status_code != 200:
@@ -176,7 +176,7 @@ def run_agent():
                 print(f"Model {model_id} returned no candidates. Response: {res_json}")
                 continue
         except requests.exceptions.Timeout:
-            print(f"Model {model_id} timed out after 60s.")
+            print(f"Model {model_id} timed out after 180s.")
             continue
         except Exception as e:
             print(f"Error calling {model_id}: {e}")
