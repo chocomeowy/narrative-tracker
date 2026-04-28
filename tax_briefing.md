@@ -1,25 +1,21 @@
-# Tax Intelligence Briefing - 2026-04-28 16:03
+# Tax Intelligence Briefing - 2026-04-28 22:03
 
 ## Analysis and Intelligence Map Update
 
-The global tax landscape continues to evolve rapidly, with significant implications for multinational enterprises and international trade. Pillar Two implementation is gaining momentum, necessitating comprehensive data collection and adjustments to tax strategies. The resurgence of trade tariffs, particularly from the US, introduces substantial uncertainty and potential disruptions, compounded by ongoing legal challenges. Singapore remains a key player in digital tax transformation with its InvoiceNow initiative, driving the global shift towards e-invoicing. ASEAN's varied corporate tax rates continue to present opportunities and complexities for businesses operating within the region. The latest intelligence confirms these trends and highlights the increasing urgency for businesses to adapt to these changes. Corporate tax rate changes are being actively implemented globally, and the focus is shifting from policy agreement to practical implementation and navigating the resulting complexities.
+The global tax landscape continues to undergo rapid transformation, driven by the implementation of Pillar Two, fluctuating trade tariffs, and the accelerating adoption of digital tax solutions like Singapore’s InvoiceNow. The recent intel confirms the acceleration of these trends and highlights increasing complexity, particularly regarding the US approach to international tax agreements. The US’s ‘side-by-side arrangement’ regarding Pillar Two, while accommodating US objections, introduces a layer of complexity for multinational enterprises. Simultaneously, the resurgence of trade tariffs, especially those imposed or threatened by the US, is creating significant uncertainty for global trade and supply chains. The focus is shifting from initial agreement to practical implementation, compliance, and risk mitigation. Corporate tax rate adjustments are also occurring globally, with some countries decreasing rates to remain competitive. Singapore continues to be a competitive jurisdiction, and its e-invoicing initiative is gaining momentum.
 
-**1. Executive Briefing:**
-
-The global tax environment is undergoing a period of intense change. The implementation of Pillar Two is accelerating, demanding significant operational adjustments from large multinational enterprises. Simultaneously, the re-emergence of trade tariffs, particularly from the US, is disrupting established trade patterns and creating legal uncertainties. Singapore's leadership in e-invoicing, through InvoiceNow, underscores the growing importance of digital tax transformation. These factors, combined with the diverse corporate tax rates across ASEAN, require businesses to proactively adapt their strategies to navigate this complex landscape. The focus is now on practical implementation, compliance, and mitigating the risks associated with these evolving policies. Recent updates indicate ongoing changes to corporate and withholding tax rates globally, and a heightened emphasis on GST/HST compliance.
-
-**2. Updated Trends (JSON Format):**
+## Updated Intelligence Map
 
 ```json
 {
-  "executive_briefing": "The global tax environment is undergoing a period of intense change. The implementation of Pillar Two is accelerating, demanding significant operational adjustments from large multinational enterprises. Simultaneously, the re-emergence of trade tariffs, particularly from the US, is disrupting established trade patterns and creating legal uncertainties. Singapore's leadership in e-invoicing, through InvoiceNow, underscores the growing importance of digital tax transformation. These factors, combined with the diverse corporate tax rates across ASEAN, require businesses to proactively adapt their strategies to navigate this complex landscape. The focus is now on practical implementation, compliance, and mitigating the risks associated with these evolving policies. Recent updates indicate ongoing changes to corporate and withholding tax rates globally, and a heightened emphasis on GST/HST compliance.",
+  "executive_briefing": "The global tax environment is marked by accelerating implementation of Pillar Two, increasing trade tensions with the resurgence of tariffs, and the ongoing digital transformation of tax processes exemplified by Singapore's InvoiceNow. The US's 'side-by-side' approach to Pillar Two adds complexity, while tariff changes necessitate constant monitoring and adaptation. Corporate tax rates are also in flux globally, with some nations adjusting to maintain competitiveness. Businesses must prioritize compliance, risk mitigation, and proactive adaptation to these evolving policies.",
   "trends": [
     {
       "name": "Global Minimum Corporate Tax (Pillar Two)",
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Corporate Tax",
-      "summary": "The OECD's Pillar Two establishes a 15% global minimum corporate tax rate for large MNEs, impacting tax planning and potentially increasing tax revenue. Implementation is accelerating across numerous jurisdictions.",
+      "summary": "The OECD's Pillar Two establishes a 15% global minimum corporate tax rate for large MNEs, impacting tax planning and potentially increasing tax revenue. Implementation is accelerating, with the US adopting a side-by-side arrangement.",
       "evidence": "Over 140 jurisdictions are enforcing the OECD GloBE rules. The US has a side-by-side arrangement. Requires substantial data collection and deferred tax recalculations. The rules are being enforced across the EU, Switzerland, and the UK.",
       "source_links": [
         "https://www.cbc.ca/news/politics/oecd-head-defends-tax-deal-1.6232027",
@@ -42,7 +38,9 @@ The global tax environment is undergoing a period of intense change. The impleme
         "https://mena.thomsonreuters.com/en/products-services/tax-accounting/global-minimum-tax.html",
         "https://sigtax.com/How-Multinationals-Can-Navigate-Pillar-Two-in-2025",
         "https://www.pwc.ro/en/services/tax-services/pillar-two.html",
-        "https://www.linkedin.com/pulse/global-minimum-tax-pillar-two-what-means-ahmed-arslan-aca-mba-adit-gw8wf"
+        "https://www.linkedin.com/pulse/global-minimum-tax-pillar-two-what-means-ahmed-arslan-aca-mba-adit-gw8wf",
+        "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
+        "https://www.deloitte.com/us/en/services/audit-assurance/articles/pillar-two-tax.html"
       ],
       "confidence": 0.98
     },
@@ -68,7 +66,9 @@ The global tax environment is undergoing a period of intense change. The impleme
         "https://ustr.gov/trade-topics/presidential-tariff-actions",
         "https://www.bbc.com/news/articles/cn93e12rypgo",
         "https://www.aljazeera.com/economy/2026/2/13/us-and-taiwan-sign-pivotal-deal-to-cut-trade-tariffs?traffic_source=rss",
-        "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lMdk9yOUVCSHJhWjUtbTBKa29TZ0FQAQ?hl=en-PK&gl=PK&ceid=PK:en"
+        "https://www.oiaglobal.com/tariff-updates/",
+        "https://www.elleoglobal.com/import-tariff-updates",
+        "https://www.linkedin.com/posts/radius-international_tradeupdate-tariffs-supplychain-activity-7446946023861731329-WTcX"
       ],
       "confidence": 0.95
     },
@@ -91,7 +91,10 @@ The global tax environment is undergoing a period of intense change. The impleme
         "https://www.b2brouter.net/global/international/singapore/",
         "https://hawksford.com/insights-and-guides/gst-registration-einvoicing-singapore",
         "https://edicomgroup.com/blog/singapore-encourages-the-use-of-e-invoicing-with-peppol",
-        "https://www.ey.com/en_sg/technical/you-and-the-taxman/embracing-the-era-of-electronic-invoicing"
+        "https://www.ey.com/en_sg/technical/you-and-the-taxman/embracing-the-era-of-electronic-invoicing",
+        "https://invoicedataextraction.com/blog/singapore-invoicenow-e-invoicing-peppol",
+        "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
+        "https://kpmg.com/us/en/taxnewsflash/news/2026/02/singapore-e-invoicing-mandate-compliance-deadlines.html"
       ],
       "confidence": 0.9
     },
@@ -117,23 +120,12 @@ The global tax environment is undergoing a period of intense change. The impleme
         "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates",
         "https://b2b-asianews.com/news/imf-to-asean-avoid-tax-competition/",
         "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates",
-        "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income"
+        "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
+        "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates",
+        "https://www.airwallex.com/sg/blog/corporate-tax-singapore-guide",
+        "https://www.hawksford.com/insights-and-guides/singapore-corporate-tax-filing"
       ],
       "confidence": 0.85
-    },
-    {
-      "name": "ASEAN Corporate Tax Rate Variation",
-      "stage": "Incubation",
-      "velocity": "Low",
-      "category": "International",
-      "summary": "Corporate tax rates vary across ASEAN countries, with Singapore maintaining one of the lowest rates in the region.",
-      "evidence": "ASEAN countries have differing corporate tax rates, ranging from 17% in Singapore to 20% or higher in other member states.",
-      "source_links": [
-        "https://www.aseanbriefing.com/news/comparing-tax-rates-across-asean/",
-        "https://b2b-asianews.com/news/imf-to-asean-avoid-tax-competition/",
-        "https://www.kpmg.com/pdf/2014/09/international-tax-ASEAN-publication-v2.pdf"
-      ],
-      "confidence": 0.75
     },
     {
       "name": "Corporate GST/HST Updates",
@@ -147,9 +139,26 @@ The global tax environment is undergoing a period of intense change. The impleme
         "https://www.bdc.ca/en/articles-tools/entrepreneur-toolkit/templates-business-guides/glossary/goods-services-tax-gst-harmonized-sales-tax-hst",
         "https://www.ey.com/en_in/media/podcasts/indirect-tax-insights/episode-1-how-to-navigate-gst-on-corporate-guarantees",
         "https://cleartax.in/s/business-under-gst",
-        "https://tax.thomsonreuters.com/blog/what-is-e-invoicing/"
+        "https://tax.thomsonreuters.com/blog/what-is-e-invoicing/",
+        "https://www.linkedin.com/pulse/gst-corporate-guarantees-complete-compliance-guide-snr-company-j7nxc",
+        "https://taxguru.in/goods-and-service-tax/pan-card-businesses-affects-gst-corporate-tax-filing.html"
       ],
       "confidence": 0.8
+    },
+    {
+      "name": "Corporate Tax Rate Adjustments (Global)",
+      "stage": "Breakthrough",
+      "velocity": "Medium",
+      "category": "Corporate Tax",
+      "summary": "Several countries are adjusting their corporate income tax rates, driven by competitive pressures and the implementation of Pillar Two. Portugal is decreasing its rate, while Slovenia temporarily increased theirs.",
+      "evidence": "Portugal is decreasing its corporate income tax by 1% per year from 2026-2028. Slovenia temporarily increased its rate from 19% to 22%.",
+      "source_links": [
+        "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/",
+        "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
+        "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates",
+        "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income"
+      ],
+      "confidence": 0.9
     }
   ]
 }
