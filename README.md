@@ -3,7 +3,7 @@
 An autonomous intelligence agent that monitors the internet to identify emerging technical/cultural trends, tracks their lifecycle (Incubation to Fatigue), and visualizes the results on a live dashboard.
 
 ## 🚀 Overview
-This project uses a **Cron + AI** pipeline to maintain an "Evolving Memory" of global trends. Every hour, the agent wakes up, searches for new signals, compares them against its past knowledge, and updates a trend map.
+This project uses a **Cron + AI** pipeline to maintain an "Evolving Memory" of global trends. Every **8 hours**, the agent wakes up, searches for new signals, compares them against its past knowledge, and updates a trend map.
 
 ### Key Features
 - **Autonomous Lifecycle Tracking**: Trends move from *Incubation* to *Breakthrough* to *Peak Hype* or *Fatigue*.
@@ -30,7 +30,7 @@ This project uses a **Cron + AI** pipeline to maintain an "Evolving Memory" of g
 
 ### 4. Pipedream Workflow
 1. Create a new workflow in [Pipedream](https://pipedream.com/).
-2. **Trigger**: Select `Cron` (Every 1 hour).
+2. **Trigger**: Select `Cron` (Every 8 hours).
 3. **Step 1 (Fetch Code)**: Add a Python step.
 4. **Environment Variables**: Add the following in Pipedream:
    - `GITHUB_TOKEN`: Your Personal Access Token.
@@ -82,3 +82,19 @@ Edit `crypto_steering.json` to change the agent's focus within the BTC/ETH/Clari
 
 ## 📊 Dashboard
 Enable **GitHub Pages** in your repo settings (Settings > Pages > Branch: main / root) to host your live dashboard.
+
+---
+
+## 🏛️ Tax Intelligence Agent
+
+A specialized agent for monitoring global tax policy and international trade tariffs. 
+
+- **Specialization**: Corporate Tax, Pillar Two, International Tariffs, Singapore Policy shifts, and E-invoicing.
+- **Model Fallback**: Uses a high-performance fallback chain starting with **Gemma 4 31B (MoE)** and **Gemma 3 27B** before falling back to **Gemini 2.5/2.0 Flash**.
+- **Increased Timeout**: Optimized with a **180s timeout** to handle deep policy analysis and complex JSON generation.
+- **Files**:
+  - `tax_agent.py`: The logic core.
+  - `tax_steering.json`: Focus areas (e.g., E-invoicing).
+  - `tax_briefing.md`: Long-form narrative analysis.
+  - `tax_trend_map.json`: Structured trend data.
+
