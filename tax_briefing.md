@@ -1,14 +1,26 @@
-# Tax Intelligence Briefing - 2026-04-28 22:03
+# Tax Intelligence Briefing - 2026-04-29 04:03
 
 ## Analysis and Intelligence Map Update
 
-The global tax landscape continues to undergo rapid transformation, driven by the implementation of Pillar Two, fluctuating trade tariffs, and the accelerating adoption of digital tax solutions like Singapore’s InvoiceNow. The recent intel confirms the acceleration of these trends and highlights increasing complexity, particularly regarding the US approach to international tax agreements. The US’s ‘side-by-side arrangement’ regarding Pillar Two, while accommodating US objections, introduces a layer of complexity for multinational enterprises. Simultaneously, the resurgence of trade tariffs, especially those imposed or threatened by the US, is creating significant uncertainty for global trade and supply chains. The focus is shifting from initial agreement to practical implementation, compliance, and risk mitigation. Corporate tax rate adjustments are also occurring globally, with some countries decreasing rates to remain competitive. Singapore continues to be a competitive jurisdiction, and its e-invoicing initiative is gaining momentum.
+The global tax landscape continues to evolve rapidly, driven by the implementation of Pillar Two, fluctuating trade policies, and the ongoing digital transformation of tax processes. The resurgence of tariffs, particularly from the US, introduces significant uncertainty for international trade. Simultaneously, the acceleration of e-invoicing initiatives, exemplified by Singapore’s InvoiceNow, signals a broader shift towards digitalization in tax administration. Corporate tax rates are also in flux, with nations adjusting to maintain competitiveness and adapt to the new global minimum tax regime. The US’s ‘side-by-side’ approach to Pillar Two adds complexity, demanding careful monitoring and adaptation from multinational enterprises.
 
-## Updated Intelligence Map
+**Key Updates & Insights:**
+
+*   **Pillar Two Implementation:** The momentum behind Pillar Two is undeniable, with over 140 jurisdictions enforcing the rules. New intel confirms the complexity of implementation, particularly regarding deferred tax recalculations and the need for substantial data collection. Australia has issued detailed rules for implementation.
+*   **Tariff Volatility:** The trend of increasing trade tariffs is strengthening. The US continues to impose and consider new tariffs, and the legality of these actions is being challenged. Updates to Section 232 tariffs and the potential for further changes necessitate constant vigilance.
+*   **Singapore's Digital Tax Transformation:** Singapore’s InvoiceNow initiative is progressing, with phased compliance deadlines expanding mandatory participation. This highlights the country’s commitment to digitalizing its tax system and leveraging the Peppol framework.
+*   **Corporate Tax Rate Adjustments:** Several countries are adjusting their corporate tax rates, with Portugal decreasing its rate and Slovenia temporarily increasing theirs. Singapore maintains a competitive rate of 17% with various incentives.
+*   **GST/HST Updates:** Ongoing updates to GST/HST regulations require businesses to stay informed about collection, remittance, and reporting procedures.
+
+**Pruned Trends:**
+
+The "Corporate GST/HST Updates" trend has been absorbed into the broader "Corporate Tax" category, as it represents a specific aspect of corporate tax compliance. The "Singapore as a Competitive Tax Jurisdiction" trend is also absorbed into the "Singapore Corporate Tax" trend, as it is a key aspect of the latter.
+
+## Updated Intelligence Map (JSON)
 
 ```json
 {
-  "executive_briefing": "The global tax environment is marked by accelerating implementation of Pillar Two, increasing trade tensions with the resurgence of tariffs, and the ongoing digital transformation of tax processes exemplified by Singapore's InvoiceNow. The US's 'side-by-side' approach to Pillar Two adds complexity, while tariff changes necessitate constant monitoring and adaptation. Corporate tax rates are also in flux globally, with some nations adjusting to maintain competitiveness. Businesses must prioritize compliance, risk mitigation, and proactive adaptation to these evolving policies.",
+  "executive_briefing": "The global tax environment is characterized by accelerating implementation of Pillar Two, increasing trade tensions with the resurgence of tariffs, and the ongoing digital transformation of tax processes. Corporate tax rates are in flux globally, with nations adjusting to maintain competitiveness. Businesses must prioritize compliance, risk mitigation, and proactive adaptation to these evolving policies. The US's 'side-by-side' approach to Pillar Two adds complexity, while tariff changes necessitate constant monitoring and adaptation. Singapore continues to lead in digital tax transformation with its InvoiceNow initiative.",
   "trends": [
     {
       "name": "Global Minimum Corporate Tax (Pillar Two)",
@@ -16,7 +28,7 @@ The global tax landscape continues to undergo rapid transformation, driven by th
       "velocity": "High",
       "category": "Corporate Tax",
       "summary": "The OECD's Pillar Two establishes a 15% global minimum corporate tax rate for large MNEs, impacting tax planning and potentially increasing tax revenue. Implementation is accelerating, with the US adopting a side-by-side arrangement.",
-      "evidence": "Over 140 jurisdictions are enforcing the OECD GloBE rules. The US has a side-by-side arrangement. Requires substantial data collection and deferred tax recalculations. The rules are being enforced across the EU, Switzerland, and the UK.",
+      "evidence": "Over 140 jurisdictions are enforcing the OECD GloBE rules. The US has a side-by-side arrangement. Requires substantial data collection and deferred tax recalculations. Australia has issued detailed implementation rules.",
       "source_links": [
         "https://www.cbc.ca/news/politics/oecd-head-defends-tax-deal-1.6232027",
         "https://www.fastcompany.com/90685194/the-world-has-agreed-on-a-global-minimum-corporate-tax-rate-but-is-it-enough",
@@ -40,7 +52,10 @@ The global tax landscape continues to undergo rapid transformation, driven by th
         "https://www.pwc.ro/en/services/tax-services/pillar-two.html",
         "https://www.linkedin.com/pulse/global-minimum-tax-pillar-two-what-means-ahmed-arslan-aca-mba-adit-gw8wf",
         "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
-        "https://www.deloitte.com/us/en/services/audit-assurance/articles/pillar-two-tax.html"
+        "https://www.deloitte.com/us/en/services/audit-assurance/articles/pillar-two-tax.html",
+        "https://virtuzone.com/blog/global-minimum-tax-pillar-two/",
+        "https://www.bakertilly.de/en/post/pillar-2-the-global-minimum-tax-is-still-the-talk-of-the-town",
+        "https://oecdpillars.com/pillar-tab/pillar-two-implementation/"
       ],
       "confidence": 0.98
     },
@@ -99,7 +114,7 @@ The global tax landscape continues to undergo rapid transformation, driven by th
       "confidence": 0.9
     },
     {
-      "name": "Singapore as a Competitive Tax Jurisdiction",
+      "name": "Singapore Corporate Tax",
       "stage": "Peak Hype",
       "velocity": "Medium",
       "category": "International",
@@ -123,27 +138,13 @@ The global tax landscape continues to undergo rapid transformation, driven by th
         "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
         "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates",
         "https://www.airwallex.com/sg/blog/corporate-tax-singapore-guide",
-        "https://www.hawksford.com/insights-and-guides/singapore-corporate-tax-filing"
+        "https://www.hawksford.com/insights-and-guides/singapore-corporate-tax-filing",
+        "https://www.pilotoasia.com/guide/singapore-corporate-tax-guide",
+        "https://www.incorp.asia/singapore/tools/singapore-corporate-tax-calculator/",
+        "https://www.singaporecompanyincorporation.sg/how-to/taxation/singapore-corporate-tax-guide/",
+        "https://www.rikvin.com/taxation/singapore-corporate-tax/"
       ],
       "confidence": 0.85
-    },
-    {
-      "name": "Corporate GST/HST Updates",
-      "stage": "Breakthrough",
-      "velocity": "Medium",
-      "category": "Corporate Tax",
-      "summary": "Updates to Goods and Services Tax (GST) and Harmonized Sales Tax (HST) regulations are impacting businesses, requiring attention to collection, remittance, and reporting procedures.",
-      "evidence": "Businesses are responsible for collecting and remitting GST/HST, and claiming input tax credits. Updates to rates and regulations are ongoing.",
-      "source_links": [
-        "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html",
-        "https://www.bdc.ca/en/articles-tools/entrepreneur-toolkit/templates-business-guides/glossary/goods-services-tax-gst-harmonized-sales-tax-hst",
-        "https://www.ey.com/en_in/media/podcasts/indirect-tax-insights/episode-1-how-to-navigate-gst-on-corporate-guarantees",
-        "https://cleartax.in/s/business-under-gst",
-        "https://tax.thomsonreuters.com/blog/what-is-e-invoicing/",
-        "https://www.linkedin.com/pulse/gst-corporate-guarantees-complete-compliance-guide-snr-company-j7nxc",
-        "https://taxguru.in/goods-and-service-tax/pan-card-businesses-affects-gst-corporate-tax-filing.html"
-      ],
-      "confidence": 0.8
     },
     {
       "name": "Corporate Tax Rate Adjustments (Global)",
