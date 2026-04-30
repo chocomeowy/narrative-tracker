@@ -1,16 +1,16 @@
-# Tax Intelligence Briefing - 2026-04-30 10:03
+# Tax Intelligence Briefing - 2026-04-30 16:03
 
 ## Intelligence Map Update - April 30, 2026
 
 **Executive Briefing:**
 
-The global tax landscape continues to undergo significant transformation, driven primarily by the implementation of Pillar Two and escalating trade tensions. The US adoption of a side-by-side approach to Pillar Two, while accommodating domestic concerns, signals a commitment to the global minimum tax framework. Simultaneously, the resurgence of trade tariffs, particularly those initiated by the US, introduces substantial uncertainty for international trade and supply chains. Singapore remains at the forefront of digital tax innovation with its InvoiceNow initiative, setting a precedent for other nations. Corporate tax rate adjustments are occurring globally, influenced by both competitiveness and Pillar Two compliance. The interplay between these factors necessitates a proactive and agile tax strategy, with a strong emphasis on data collection for Pillar Two reporting, monitoring tariff developments, and ensuring compliance with evolving e-invoicing regulations. The focus on corporate guarantees and GST implications adds another layer of complexity requiring careful attention.
+The global tax landscape remains highly dynamic, dominated by the ongoing implementation of Pillar Two and escalating trade tensions. The US adoption of a side-by-side approach to Pillar Two, while accommodating domestic concerns, solidifies the commitment to a global minimum tax. Simultaneously, the resurgence of trade tariffs, particularly those initiated by the US, introduces significant uncertainty for international trade and supply chains, with potential legal challenges looming. Singapore continues to lead in digital tax innovation with InvoiceNow, setting a precedent for other nations. Corporate tax rate adjustments are occurring globally, influenced by both competitiveness and Pillar Two compliance. The interplay of these factors necessitates a proactive and agile tax strategy, with a strong emphasis on data collection for Pillar Two reporting, monitoring tariff developments, and ensuring compliance with evolving e-invoicing regulations. The focus on corporate guarantees and GST implications adds another layer of complexity requiring careful attention. The recent Supreme Court case regarding the legality of tariffs under IEEPA adds another layer of uncertainty.
 
 **Data Update:**
 
 ```json
 {
-  "executive_briefing": "The global tax landscape continues to undergo significant transformation, driven primarily by the implementation of Pillar Two and escalating trade tensions. The US adoption of a side-by-side approach to Pillar Two, while accommodating domestic concerns, signals a commitment to the global minimum tax framework. Simultaneously, the resurgence of trade tariffs, particularly those initiated by the US, introduces substantial uncertainty for international trade and supply chains. Singapore remains at the forefront of digital tax innovation with its InvoiceNow initiative, setting a precedent for other nations. Corporate tax rate adjustments are occurring globally, influenced by both competitiveness and Pillar Two compliance. The interplay between these factors necessitates a proactive and agile tax strategy, with a strong emphasis on data collection for Pillar Two reporting, monitoring tariff developments, and ensuring compliance with evolving e-invoicing regulations. The focus on corporate guarantees and GST implications adds another layer of complexity requiring careful attention.",
+  "executive_briefing": "The global tax landscape remains highly dynamic, dominated by the ongoing implementation of Pillar Two and escalating trade tensions. The US adoption of a side-by-side approach to Pillar Two, while accommodating domestic concerns, solidifies the commitment to a global minimum tax. Simultaneously, the resurgence of trade tariffs, particularly those initiated by the US, introduces significant uncertainty for international trade and supply chains, with potential legal challenges looming. Singapore continues to lead in digital tax innovation with InvoiceNow, setting a precedent for other nations. Corporate tax rate adjustments are occurring globally, influenced by both competitiveness and Pillar Two compliance. The interplay of these factors necessitates a proactive and agile tax strategy, with a strong emphasis on data collection for Pillar Two reporting, monitoring tariff developments, and ensuring compliance with evolving e-invoicing regulations. The focus on corporate guarantees and GST implications adds another layer of complexity requiring careful attention. The recent Supreme Court case regarding the legality of tariffs under IEEPA adds another layer of uncertainty.",
   "trends": [
     {
       "name": "Global Minimum Corporate Tax (Pillar Two)",
@@ -165,19 +165,6 @@ The global tax landscape continues to undergo significant transformation, driven
         "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income"
       ],
       "confidence": 0.9
-    },
-    {
-      "name": "GST Implications on Corporate Guarantees",
-      "stage": "Incubation",
-      "velocity": "Low",
-      "category": "Corporate Tax",
-      "summary": "The application of GST to corporate guarantees is gaining attention, requiring businesses to understand the implications of these transactions.",
-      "evidence": "Corporate guarantees provided without a specific fee attract GST, calculated as 1% of the guarantee amount. If a fee is charged, GST is applied to the actual fee amount.",
-      "source_links": [
-        "https://www.ey.com/en_in/media/podcasts/indirect-tax-insights/episode-1-how-to-navigate-gst-on-corporate-guarantees",
-        "https://razorpay.com/learn/gst-on-corporate-guarantee/"
-      ],
-      "confidence": 0.8
     }
   ]
 }
