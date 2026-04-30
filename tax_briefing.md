@@ -1,23 +1,23 @@
-# Tax Intelligence Briefing - 2026-04-30 16:03
+# Tax Intelligence Briefing - 2026-04-30 22:03
 
-## Intelligence Map Update - April 30, 2026
+## Analysis and Intelligence Map Update
 
-**Executive Briefing:**
+The global tax landscape continues to be reshaped by the implementation of Pillar Two and escalating trade tensions. The US commitment to a side-by-side approach to Pillar Two solidifies the global shift towards a minimum corporate tax rate, while the resurgence of tariffs introduces significant uncertainty for international trade. Singapore remains a leader in digital tax innovation with InvoiceNow, setting a precedent for other nations. Corporate tax rate adjustments are occurring globally, influenced by both competitiveness and Pillar Two compliance. The interplay of these factors necessitates a proactive and agile tax strategy, with a strong emphasis on data collection for Pillar Two reporting, monitoring tariff developments, and ensuring compliance with evolving e-invoicing regulations.
 
-The global tax landscape remains highly dynamic, dominated by the ongoing implementation of Pillar Two and escalating trade tensions. The US adoption of a side-by-side approach to Pillar Two, while accommodating domestic concerns, solidifies the commitment to a global minimum tax. Simultaneously, the resurgence of trade tariffs, particularly those initiated by the US, introduces significant uncertainty for international trade and supply chains, with potential legal challenges looming. Singapore continues to lead in digital tax innovation with InvoiceNow, setting a precedent for other nations. Corporate tax rate adjustments are occurring globally, influenced by both competitiveness and Pillar Two compliance. The interplay of these factors necessitates a proactive and agile tax strategy, with a strong emphasis on data collection for Pillar Two reporting, monitoring tariff developments, and ensuring compliance with evolving e-invoicing regulations. The focus on corporate guarantees and GST implications adds another layer of complexity requiring careful attention. The recent Supreme Court case regarding the legality of tariffs under IEEPA adds another layer of uncertainty.
+The new intelligence confirms the ongoing momentum of Pillar Two implementation, with over 140 jurisdictions involved. The US Supreme Court case regarding the legality of tariffs under IEEPA adds another layer of uncertainty to the trade landscape. Several countries are adjusting their corporate income tax rates, driven by competitive pressures and Pillar Two considerations. Singapore's e-invoicing initiative, InvoiceNow, is expanding, and its corporate tax environment remains competitive. The ASEAN region is also seeing shifts in tax landscapes, with varying rates and approaches. The importance of GST and VAT in international transactions is also highlighted.
 
-**Data Update:**
+## Updated Intelligence Map
 
 ```json
 {
-  "executive_briefing": "The global tax landscape remains highly dynamic, dominated by the ongoing implementation of Pillar Two and escalating trade tensions. The US adoption of a side-by-side approach to Pillar Two, while accommodating domestic concerns, solidifies the commitment to a global minimum tax. Simultaneously, the resurgence of trade tariffs, particularly those initiated by the US, introduces significant uncertainty for international trade and supply chains, with potential legal challenges looming. Singapore continues to lead in digital tax innovation with InvoiceNow, setting a precedent for other nations. Corporate tax rate adjustments are occurring globally, influenced by both competitiveness and Pillar Two compliance. The interplay of these factors necessitates a proactive and agile tax strategy, with a strong emphasis on data collection for Pillar Two reporting, monitoring tariff developments, and ensuring compliance with evolving e-invoicing regulations. The focus on corporate guarantees and GST implications adds another layer of complexity requiring careful attention. The recent Supreme Court case regarding the legality of tariffs under IEEPA adds another layer of uncertainty.",
+  "executive_briefing": "The global tax landscape is undergoing significant transformation driven by Pillar Two implementation and escalating trade tensions. The US is proceeding with a side-by-side approach to Pillar Two, while actively utilizing tariffs as a trade tool, creating legal challenges. Singapore continues to lead in digital tax innovation with InvoiceNow. Globally, corporate tax rates are being adjusted in response to both competitiveness and Pillar Two requirements. Businesses must prioritize data collection for Pillar Two reporting, monitor tariff developments, and adapt to evolving e-invoicing regulations. The ASEAN region presents a diverse tax environment, and understanding GST/VAT implications remains crucial for international transactions.",
   "trends": [
     {
       "name": "Global Minimum Corporate Tax (Pillar Two)",
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Corporate Tax",
-      "summary": "The OECD's Pillar Two establishes a 15% global minimum corporate tax rate for large MNEs, impacting tax planning and potentially increasing tax revenue. The US has adopted a side-by-side arrangement.",
+      "summary": "The OECD's Pillar Two establishes a 15% global minimum corporate tax rate for large MNEs, impacting tax planning and potentially increasing tax revenue. Over 140 jurisdictions are enforcing the rules.",
       "evidence": "Over 140 jurisdictions are enforcing the OECD GloBE rules. The US has a side-by-side arrangement. Requires substantial data collection and deferred tax recalculations. It represents a global shift in tax philosophy.",
       "source_links": [
         "https://www.cbc.ca/news/politics/oecd-head-defends-tax-deal-1.6232027",
@@ -58,7 +58,8 @@ The global tax landscape remains highly dynamic, dominated by the ongoing implem
         "https://www.bakertilly.de/en/post/pillar-2-the-global-minimum-tax-is-still-the-talk-of-the-town",
         "https://oecdpillars.com/pillar-tab/pillar-two-implementation/",
         "https://www.bdo.com/insights/tax/what-pillar-two-means-for-income-tax-accounting",
-        "https://static1.squarespace.com/static/55693d60e4b06d83cf793431/t/652976f430c949467bf666e3/1697216244370/PWBM_W2023-1.pdf"
+        "https://static1.squarespace.com/static/55693d60e4b06d83cf793431/t/652976f430c949467bf666e3/1697216244370/PWBM_W2023-1.pdf",
+        "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax/"
       ],
       "confidence": 0.98
     },
@@ -152,19 +153,49 @@ The global tax landscape remains highly dynamic, dominated by the ongoing implem
       "confidence": 0.85
     },
     {
+      "name": "ASEAN Corporate Tax Landscape",
+      "stage": "Breakthrough",
+      "velocity": "Medium",
+      "category": "International",
+      "summary": "The ASEAN region presents a diverse corporate tax landscape, with varying rates and approaches, impacting investment decisions.",
+      "evidence": "Corporate tax rates vary across ASEAN nations, with Singapore at 17% and the Philippines at 30%.",
+      "source_links": [
+        "https://assets.kpmg.com/content/dam/kpmg/pdf/2013/12/asean-tax-guide-v2.pdf",
+        "https://www.aseanbriefing.com/news/taxation-asean-introduction/",
+        "https://www.grantthornton.com.ph/insights/global-insights1/asean-6-tax-guide/"
+      ],
+      "confidence": 0.8
+    },
+    {
       "name": "Corporate Tax Rate Adjustments (Global)",
       "stage": "Breakthrough",
       "velocity": "Medium",
       "category": "Corporate Tax",
       "summary": "Several countries are adjusting their corporate income tax rates, driven by competitive pressures and the implementation of Pillar Two.",
-      "evidence": "Portugal is decreasing its corporate income tax by 1% per year from 2026-2028. Slovenia temporarily increased its rate from 19% to 22%.",
+      "evidence": "Portugal is decreasing its corporate income tax by 1% per year from 2026-2028. Slovenia temporarily increased its rate from 19% to 22%. Austria is planning to eliminate its highest tax bracket in 2026.",
       "source_links": [
         "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/",
         "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
         "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates",
-        "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income"
+        "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
+        "https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe-2024/"
       ],
       "confidence": 0.9
+    },
+    {
+      "name": "Corporate GST/VAT Implications",
+      "stage": "Breakthrough",
+      "velocity": "Medium",
+      "category": "Corporate Tax",
+      "summary": "Understanding the implications of Goods and Services Tax (GST) and Value Added Tax (VAT) is crucial for international corporate transactions.",
+      "evidence": "GST/VAT rates and regulations vary significantly across countries.",
+      "source_links": [
+        "https://en.wikipedia.org/wiki/List_of_countries_by_tax_rates",
+        "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/gst-hst-account/register-account.html",
+        "https://gocardless.com/guides/posts/gst-vs-vat-tax/",
+        "https://taxguru.in/goods-and-service-tax/gst-payable-godown-renting-services-storage-service-food-items.html"
+      ],
+      "confidence": 0.8
     }
   ]
 }
