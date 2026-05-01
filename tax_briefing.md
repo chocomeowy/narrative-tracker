@@ -1,16 +1,18 @@
-# Tax Intelligence Briefing - 2026-04-30 22:03
+# Tax Intelligence Briefing - 2026-05-01 04:03
 
 ## Analysis and Intelligence Map Update
 
-The global tax landscape continues to be reshaped by the implementation of Pillar Two and escalating trade tensions. The US commitment to a side-by-side approach to Pillar Two solidifies the global shift towards a minimum corporate tax rate, while the resurgence of tariffs introduces significant uncertainty for international trade. Singapore remains a leader in digital tax innovation with InvoiceNow, setting a precedent for other nations. Corporate tax rate adjustments are occurring globally, influenced by both competitiveness and Pillar Two compliance. The interplay of these factors necessitates a proactive and agile tax strategy, with a strong emphasis on data collection for Pillar Two reporting, monitoring tariff developments, and ensuring compliance with evolving e-invoicing regulations.
+The global tax landscape continues to be reshaped by Pillar Two implementation and escalating trade tensions. The US approach to tariffs, coupled with potential legal challenges, adds complexity. Singapore remains a leader in digital tax innovation with InvoiceNow, while corporate tax rates globally are in flux, driven by both competitiveness and Pillar Two requirements. The ASEAN region presents a diverse tax environment requiring careful consideration of GST/VAT implications. Recent intelligence confirms the ongoing momentum of these trends, with increased specificity around implementation timelines and potential impacts. The focus on e-invoicing is intensifying, particularly in Singapore, and the global minimum tax is gaining traction with over 140 jurisdictions adopting it. Tariff actions are becoming more frequent and subject to legal scrutiny.
 
-The new intelligence confirms the ongoing momentum of Pillar Two implementation, with over 140 jurisdictions involved. The US Supreme Court case regarding the legality of tariffs under IEEPA adds another layer of uncertainty to the trade landscape. Several countries are adjusting their corporate income tax rates, driven by competitive pressures and Pillar Two considerations. Singapore's e-invoicing initiative, InvoiceNow, is expanding, and its corporate tax environment remains competitive. The ASEAN region is also seeing shifts in tax landscapes, with varying rates and approaches. The importance of GST and VAT in international transactions is also highlighted.
+**1. Executive Briefing:**
 
-## Updated Intelligence Map
+The global tax environment is undergoing significant transformation. Pillar Two, establishing a 15% global minimum corporate tax, is rapidly becoming a reality with widespread adoption. This necessitates substantial data collection and potential recalculations of deferred taxes for multinational enterprises. Simultaneously, the resurgence of trade tariffs, particularly by the US, is disrupting global trade and creating legal uncertainties. Singapore's leadership in e-invoicing, through InvoiceNow, highlights the growing importance of digital tax solutions. Businesses must proactively adapt to these changes by prioritizing data management for Pillar Two compliance, closely monitoring tariff developments, and embracing evolving e-invoicing regulations. The ASEAN region's diverse tax landscape requires a nuanced approach to international transactions, particularly regarding GST/VAT. Corporate tax rates are also being adjusted globally, influenced by both competitive pressures and the requirements of Pillar Two.
+
+**2. Updated Trends (JSON Format):**
 
 ```json
 {
-  "executive_briefing": "The global tax landscape is undergoing significant transformation driven by Pillar Two implementation and escalating trade tensions. The US is proceeding with a side-by-side approach to Pillar Two, while actively utilizing tariffs as a trade tool, creating legal challenges. Singapore continues to lead in digital tax innovation with InvoiceNow. Globally, corporate tax rates are being adjusted in response to both competitiveness and Pillar Two requirements. Businesses must prioritize data collection for Pillar Two reporting, monitor tariff developments, and adapt to evolving e-invoicing regulations. The ASEAN region presents a diverse tax environment, and understanding GST/VAT implications remains crucial for international transactions.",
+  "executive_briefing": "The global tax environment is undergoing significant transformation. Pillar Two, establishing a 15% global minimum corporate tax, is rapidly becoming a reality with widespread adoption. This necessitates substantial data collection and potential recalculations of deferred taxes for multinational enterprises. Simultaneously, the resurgence of trade tariffs, particularly by the US, is disrupting global trade and creating legal uncertainties. Singapore's leadership in e-invoicing, through InvoiceNow, highlights the growing importance of digital tax solutions. Businesses must proactively adapt to these changes by prioritizing data management for Pillar Two compliance, closely monitoring tariff developments, and embracing evolving e-invoicing regulations. The ASEAN region's diverse tax landscape requires a nuanced approach to international transactions, particularly regarding GST/VAT. Corporate tax rates are also being adjusted globally, influenced by both competitive pressures and the requirements of Pillar Two.",
   "trends": [
     {
       "name": "Global Minimum Corporate Tax (Pillar Two)",
@@ -18,34 +20,29 @@ The new intelligence confirms the ongoing momentum of Pillar Two implementation,
       "velocity": "High",
       "category": "Corporate Tax",
       "summary": "The OECD's Pillar Two establishes a 15% global minimum corporate tax rate for large MNEs, impacting tax planning and potentially increasing tax revenue. Over 140 jurisdictions are enforcing the rules.",
-      "evidence": "Over 140 jurisdictions are enforcing the OECD GloBE rules. The US has a side-by-side arrangement. Requires substantial data collection and deferred tax recalculations. It represents a global shift in tax philosophy.",
+      "evidence": "Over 140 jurisdictions are enforcing the OECD GloBE rules. Requires substantial data collection and deferred tax recalculations.",
       "source_links": [
-        "https://www.cbc.ca/news/politics/oecd-head-defends-tax-deal-1.6232027",
-        "https://www.fastcompany.com/90685194/the-world-has-agreed-on-a-global-minimum-corporate-tax-rate-but-is-it-enough",
         "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
         "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax/",
         "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
         "https://taxpolicycenter.org/briefing-book/what-are-oecd-pillar-1-and-pillar-2-international-taxation-reforms",
-        "https://amro-asia.org/global-tax-reform-what-lies-ahead-for-asean3",
-        "https://ciferi.com/glossary/pillar-two",
-        "https://www.aoshearman.com/en/insights/what-does-2025-hold-for-the-global-minimum-tax-pillar-two",
-        "https://www.bakertilly.de/en/post/pillar-2-the-global-minimum-tax-is-still-the-talk-of-the-town",
-        "https://stantax.fr/en/blog/2026-trends-global-minimum-taxation/",
-        "https://oecdpillars.com/pillar-tab/pillar-two-implementation/",
-        "https://www.bdo.com/insights/tax/what-pillar-two-means-for-income-tax-accounting",
-        "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax/",
         "https://www.congress.gov/crs-product/R47174",
         "https://practiceguides.chambers.com/practice-guides/corporate-tax-2026",
-        "https://bermudafin.com/corporate-income-tax-2026-guide/",
-        "https://mena.thomsonreuters.com/en/products-services/tax-accounting/global-minimum-tax.html",
-        "https://sigtax.com/How-Multinationals-Can-Navigate-Pillar-Two-in-2025",
-        "https://www.pwc.ro/en/services/tax-services/pillar-two.html",
+        "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax/",
         "https://www.linkedin.com/pulse/global-minimum-tax-pillar-two-what-means-ahmed-arslan-aca-mba-adit-gw8wf",
-        "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
         "https://www.deloitte.com/us/en/services/audit-assurance/articles/pillar-two-tax.html",
-        "https://virtuzone.com/blog/global-minimum-tax-pillar-two/",
+        "https://static1.squarespace.com/static/55693d60e4b06d83cf793431/t/652976f430c949467bf666e3/1697216244370/PWBM_W2023-1.pdf",
+        "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
+        "https://www.congress.gov/crs-product/R47174",
+        "https://practiceguides.chambers.com/practice-guides/corporate-tax-2026",
+        "https://www.deloitte.com/us/en/services/audit-assurance/articles/pillar-two-tax.html",
+        "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax/",
+        "https://www.congress.gov/crs-product/R47174",
+        "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
+        "https://www.linkedin.com/pulse/global-minimum-tax-pillar-two-what-means-ahmed-arslan-aca-mba-adit-gw8wf",
         "https://www.bakertilly.de/en/post/pillar-2-the-global-minimum-tax-is-still-the-talk-of-the-town",
         "https://oecdpillars.com/pillar-tab/pillar-two-implementation/",
+        "https://www.bdo.com/insights/tax/what-pillar-two-means-for-income-tax-accounting",
         "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax/",
         "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
         "https://www.congress.gov/crs-product/R47174",
@@ -58,8 +55,18 @@ The new intelligence confirms the ongoing momentum of Pillar Two implementation,
         "https://www.bakertilly.de/en/post/pillar-2-the-global-minimum-tax-is-still-the-talk-of-the-town",
         "https://oecdpillars.com/pillar-tab/pillar-two-implementation/",
         "https://www.bdo.com/insights/tax/what-pillar-two-means-for-income-tax-accounting",
-        "https://static1.squarespace.com/static/55693d60e4b06d83cf793431/t/652976f430c949467bf666e3/1697216244370/PWBM_W2023-1.pdf",
-        "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax/"
+        "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
+        "https://www.congress.gov/crs-product/R47174",
+        "https://practiceguides.chambers.com/practice-guides/corporate-tax-2026",
+        "https://www.deloitte.com/us/en/services/audit-assurance/articles/pillar-two-tax.html",
+        "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax/",
+        "https://www.congress.gov/crs-product/R47174",
+        "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
+        "https://www.linkedin.com/pulse/global-minimum-tax-pillar-two-what-means-ahmed-arslan-aca-mba-adit-gw8wf",
+        "https://www.bakertilly.de/en/post/pillar-2-the-global-minimum-tax-is-still-the-talk-of-the-town",
+        "https://oecdpillars.com/pillar-tab/pillar-two-implementation/",
+        "https://www.bdo.com/insights/tax/what-pillar-two-means-for-income-tax-accounting",
+        "https://static1.squarespace.com/static/55693d60e4b06d83cf793431/t/652976f430c949467bf666e3/1697216244370/PWBM_W2023-1.pdf"
       ],
       "confidence": 0.98
     },
@@ -69,7 +76,7 @@ The new intelligence confirms the ongoing momentum of Pillar Two implementation,
       "velocity": "High",
       "category": "Tariffs",
       "summary": "The US is actively implementing and considering tariffs on goods, creating disruptions to global trade. The legality of these tariffs is being challenged.",
-      "evidence": "New tariffs have been imposed on various goods. The U.S. Supreme Court is expected to rule on the legality of tariffs imposed under the IEEPA. Tariff changes are being actively tracked.",
+      "evidence": "New tariffs have been imposed on various goods. The U.S. Supreme Court is expected to rule on the legality of tariffs imposed under the IEEPA.",
       "source_links": [
         "https://www.tradecomplianceresourcehub.com/2026/04/19/trump-2-0-tariff-tracker/",
         "https://www.reuters.com/business/tariffs/",
@@ -91,6 +98,8 @@ The new intelligence confirms the ongoing momentum of Pillar Two implementation,
         "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/",
         "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
         "https://ustr.gov/trade-topics/presidential-tariff-actions",
+        "https://www.bbc.com/news/articles/cn93e12rypgo",
+        "https://www.elleoglobal.com/import-tariff-updates",
         "https://www.bbc.com/news/articles/cn93e12rypgo",
         "https://www.elleoglobal.com/import-tariff-updates"
       ],
