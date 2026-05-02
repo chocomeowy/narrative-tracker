@@ -1,16 +1,16 @@
-# Tax Intelligence Briefing - 2026-05-01 22:03
+# Tax Intelligence Briefing - 2026-05-02 04:03
 
-## Intelligence Map Update - May 15, 2026
+## Intelligence Map Update - May 2, 2026
 
 **Executive Briefing:**
 
-The global tax landscape remains highly dynamic, dominated by the ongoing implementation of Pillar Two and escalating trade tensions. The US securing a side-by-side arrangement under Pillar Two significantly alters the landscape, allowing it to apply its own minimum taxes, highlighting the tension between international cooperation and national sovereignty. Simultaneously, the resurgence of US tariffs, and potential retaliatory measures, is creating substantial disruption and legal challenges, with the Supreme Court poised to rule on their legality. Several nations are adjusting corporate income tax rates, influenced by both competitive pressures and Pillar Two considerations. Singapore continues to be a key jurisdiction, with its InvoiceNow e-invoicing initiative expanding and its competitive tax regime attracting investment. The ASEAN region presents a complex and varied tax environment. Overall, businesses must proactively adapt to this increasingly complex and interconnected tax environment. The focus is shifting towards navigating these changes, particularly regarding corporate tax rate adjustments, the implications of Pillar Two, and the impact of evolving trade policies.
+The global tax landscape continues to be reshaped by the implementation of Pillar Two and escalating trade tensions. The US securing a side-by-side arrangement under Pillar Two is a significant development, allowing for independent application of minimum taxes and highlighting the tension between international cooperation and national sovereignty. Simultaneously, the resurgence of US tariffs, and the potential for retaliatory measures, is creating substantial disruption. The Supreme Court’s upcoming ruling on the legality of these tariffs is a key event to watch. Corporate tax rate adjustments are occurring globally, influenced by both competitive pressures and Pillar Two considerations. Singapore remains a crucial jurisdiction, with its InvoiceNow e-invoicing initiative expanding and its competitive tax regime attracting investment. The ASEAN region presents a complex and varied tax environment. Businesses must proactively adapt to these changes, particularly regarding corporate tax rate adjustments, the implications of Pillar Two, and the impact of evolving trade policies. The increasing focus on e-invoicing, particularly in Singapore, signals a broader shift towards digital tax administration.
 
 **Updated Trends:**
 
 ```json
 {
-  "executive_briefing": "The global tax landscape remains highly dynamic, dominated by the ongoing implementation of Pillar Two and escalating trade tensions. The US securing a side-by-side arrangement under Pillar Two significantly alters the landscape, allowing it to apply its own minimum taxes, highlighting the tension between international cooperation and national sovereignty. Simultaneously, the resurgence of US tariffs, and potential retaliatory measures, is creating substantial disruption and legal challenges, with the Supreme Court poised to rule on their legality. Several nations are adjusting corporate income tax rates, influenced by both competitive pressures and Pillar Two considerations. Singapore continues to be a key jurisdiction, with its InvoiceNow e-invoicing initiative expanding and its competitive tax regime attracting investment. The ASEAN region presents a complex and varied tax environment. Overall, businesses must proactively adapt to this increasingly complex and interconnected tax environment. The focus is shifting towards navigating these changes, particularly regarding corporate tax rate adjustments, the implications of Pillar Two, and the impact of evolving trade policies.",
+  "executive_briefing": "The global tax landscape continues to be reshaped by the implementation of Pillar Two and escalating trade tensions. The US securing a side-by-side arrangement under Pillar Two is a significant development, allowing for independent application of minimum taxes and highlighting the tension between international cooperation and national sovereignty. Simultaneously, the resurgence of US tariffs, and the potential for retaliatory measures, is creating substantial disruption. The Supreme Court’s upcoming ruling on the legality of these tariffs is a key event to watch. Corporate tax rate adjustments are occurring globally, influenced by both competitive pressures and Pillar Two considerations. Singapore remains a crucial jurisdiction, with its InvoiceNow e-invoicing initiative expanding and its competitive tax regime attracting investment. The ASEAN region presents a complex and varied tax environment. Businesses must proactively adapt to these changes, particularly regarding corporate tax rate adjustments, the implications of Pillar Two, and the impact of evolving trade policies. The increasing focus on e-invoicing, particularly in Singapore, signals a broader shift towards digital tax administration.",
   "trends": [
     {
       "name": "Global Minimum Corporate Tax (Pillar Two)",
@@ -18,7 +18,7 @@ The global tax landscape remains highly dynamic, dominated by the ongoing implem
       "velocity": "High",
       "category": "Corporate Tax",
       "summary": "The OECD's Pillar Two establishes a 15% global minimum corporate tax rate for large MNEs, impacting tax planning and potentially increasing tax revenue. The US has secured a side-by-side arrangement, allowing it to apply its own minimum taxes.",
-      "evidence": "Over 140 jurisdictions are enforcing the rules. The US will apply its own minimum taxes to US-headquartered companies.",
+      "evidence": "Over 140 jurisdictions are enforcing the rules. The US will apply its own minimum taxes to US-headquartered companies. Deferred taxes are being recalculated based on GloBE carrying values.",
       "source_links": [
         "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
         "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax/",
@@ -29,9 +29,13 @@ The global tax landscape remains highly dynamic, dominated by the ongoing implem
         "https://oecdpillars.com/pillar-tab/pillar-two-implementation/",
         "https://virtuzone.com/blog/global-minimum-tax-pillar-two/",
         "https://www.lexology.com/library/detail.aspx?g=ffcb41ae-abcf-49db-bfec-1fb326d4f5eb",
-        "https://www.bakertilly.de/en/post/pillar-2-the-global-minimum-tax-is-still-the-talk-of-the-town",
         "https://bipartisanpolicy.org/issue-brief/international-tax-policy-where-the-u-s-stands-and-whats-ahead-in-2026",
-        "https://practiceguides.chambers.com/practice-guides/corporate-tax-2026"
+        "https://practiceguides.chambers.com/practice-guides/corporate-tax-2026",
+        "https://www.aoshearman.com/en/insights/what-does-2025-hold-for-the-global-minimum-tax-pillar-two",
+        "https://www.bakertilly.de/en/post/pillar-2-the-global-minimum-tax-is-still-the-talk-of-the-town",
+        "https://www.bdo.com/insights/tax/what-pillar-two-means-for-income-tax-accounting",
+        "https://oecdpillars.com/pillar-tab/pillar-two-implementation/",
+        "https://static1.squarespace.com/static/55693d60e4b06d83cf793431/t/652976f430c949467bf666e3/1697216244370/PWBM_W2023-1.pdf"
       ],
       "confidence": 0.98
     },
@@ -55,6 +59,11 @@ The global tax landscape remains highly dynamic, dominated by the ongoing implem
         "https://tax.thomsonreuters.com/blog/update-on-global-tariffs/",
         "https://www.usitc.gov/harmonized_tariff_information",
         "https://www.spglobal.com/market-intelligence/en/news-insights/topics/international-trade-tariffs-news",
+        "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
+        "https://ustr.gov/trade-topics/presidential-tariff-actions",
+        "https://www.tradecomplianceresourcehub.com/2026/04/19/trump-2-0-tariff-tracker/",
+        "https://www.reuters.com/business/tariffs/",
+        "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/",
         "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
         "https://ustr.gov/trade-topics/presidential-tariff-actions"
       ],
