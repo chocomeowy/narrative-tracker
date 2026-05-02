@@ -1,16 +1,14 @@
-# Tax Intelligence Briefing - 2026-05-02 10:03
+# Tax Intelligence Briefing - 2026-05-02 16:02
 
-## Intelligence Map Update - May 2, 2026
+## Analysis and Intelligence Map Update
 
-**Executive Briefing:**
+The global tax landscape continues to be reshaped by the implementation of Pillar Two, escalating trade tensions, and rapid digital transformation. The US adoption of a side-by-side approach to Pillar Two is a significant development, but doesn't eliminate the potential for friction as other nations proceed with independent implementation. The resurgence of US tariffs, and the potential for retaliatory measures, is creating significant disruption to global supply chains, with the upcoming Supreme Court ruling on their legality being a critical event. Singapore remains a key jurisdiction, driving digital tax transformation through InvoiceNow while maintaining a competitive corporate tax regime. The ASEAN region presents a complex and varied tax environment. The increasing focus on e-invoicing globally, particularly in Singapore, signals a broader shift towards digital tax administration and real-time reporting. Recent data indicates corporate tax rate adjustments are occurring globally, with Portugal decreasing rates and Singapore maintaining its competitive position. The interplay between corporate tax and VAT/GST remains crucial for international transactions, particularly in light of evolving trade policies and the increasing adoption of e-invoicing.
 
-The global tax landscape remains highly dynamic, driven by the ongoing implementation of Pillar Two and escalating trade tensions. The US securing a side-by-side arrangement under Pillar Two is a significant development, but doesn't negate the potential for continued international friction as nations navigate independent application of minimum taxes. The resurgence of US tariffs, and the potential for retaliatory measures from countries like Canada and Mexico, is creating substantial disruption to global supply chains. The upcoming Supreme Court ruling on the legality of these tariffs is a critical event.  Singapore continues to be a key jurisdiction, advancing its digital tax transformation with the expansion of InvoiceNow, while maintaining a competitive corporate tax regime. The ASEAN region presents a complex and varied tax environment, requiring careful navigation.  The increasing focus on e-invoicing globally, and particularly in Singapore, signals a broader shift towards digital tax administration and real-time reporting.  Businesses must proactively adapt to these changes, particularly regarding corporate tax rate adjustments, the implications of Pillar Two, and the impact of evolving trade policies. The interplay between corporate tax and VAT/GST remains crucial for international transactions.
-
-**Updated Trends:**
+## Updated Intelligence Map (JSON)
 
 ```json
 {
-  "executive_briefing": "The global tax landscape remains highly dynamic, driven by the ongoing implementation of Pillar Two and escalating trade tensions. The US securing a side-by-side arrangement under Pillar Two is a significant development, but doesn't negate the potential for continued international friction as nations navigate independent application of minimum taxes. The resurgence of US tariffs, and the potential for retaliatory measures from countries like Canada and Mexico, is creating substantial disruption to global supply chains. The upcoming Supreme Court ruling on the legality of these tariffs is a critical event.  Singapore continues to be a key jurisdiction, advancing its digital tax transformation with the expansion of InvoiceNow, while maintaining a competitive corporate tax regime. The ASEAN region presents a complex and varied tax environment, requiring careful navigation.  The increasing focus on e-invoicing globally, and particularly in Singapore, signals a broader shift towards digital tax administration and real-time reporting.  Businesses must proactively adapt to these changes, particularly regarding corporate tax rate adjustments, the implications of Pillar Two, and the impact of evolving trade policies. The interplay between corporate tax and VAT/GST remains crucial for international transactions.",
+  "executive_briefing": "The global tax landscape is undergoing significant shifts driven by Pillar Two implementation, escalating trade tensions, and digital transformation. The US side-by-side approach to Pillar Two introduces complexity, while rising tariffs and potential retaliatory measures disrupt global trade. Singapore continues to lead in digital tax administration with InvoiceNow, and ASEAN presents a diverse tax environment. Corporate tax rates are adjusting globally, necessitating proactive adaptation by businesses.",
   "trends": [
     {
       "name": "Global Minimum Corporate Tax (Pillar Two)",
@@ -18,7 +16,7 @@ The global tax landscape remains highly dynamic, driven by the ongoing implement
       "velocity": "High",
       "category": "Corporate Tax",
       "summary": "The OECD's Pillar Two establishes a 15% global minimum corporate tax rate for large MNEs, impacting tax planning and potentially increasing tax revenue. Implementation is progressing globally, with the US adopting a side-by-side approach.",
-      "evidence": "Over 140 jurisdictions are enforcing the rules. The US will apply its own minimum taxes to US-headquartered companies. Deferred taxes are being recalculated based on GloBE carrying values.  The implementation is a global shift in tax philosophy.",
+      "evidence": "Over 140 jurisdictions are enforcing the rules. The US will apply its own minimum taxes to US-headquartered companies. Deferred taxes are being recalculated based on GloBE carrying values. The implementation is a global shift in tax philosophy.",
       "source_links": [
         "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
         "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax/",
