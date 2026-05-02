@@ -1,24 +1,24 @@
-# Crypto Intelligence Briefing - 2026-05-02 10:02
+# Crypto Intelligence Briefing - 2026-05-02 16:02
 
 ## Intelligence Map Update - May 2, 2026
 
 **Executive Briefing:**
 
-The crypto market is undergoing a fundamental shift, solidifying into an institutional asset class. Bitcoin's price discovery is now overwhelmingly driven by ETF inflows and broad institutional adoption, diminishing the impact of traditional speculative forces. While Ethereum maintains its position as a core platform for DeFi and smart contracts, the landscape is evolving beyond a simple BTC vs. ETH dichotomy. Interoperability, specifically native asset swaps between Bitcoin and Ethereum, is gaining momentum, driven by the need to overcome capital fragmentation. However, the future competitive dynamic hinges on the Clarity Act. Its progress – or lack thereof – will determine whether Bitcoin can effectively compete with Ethereum in the smart contract space. The Senate markup is the critical near-term event. The current delay introduces significant risk, potentially ceding a first-mover advantage to Ethereum. The focus is shifting from theoretical cross-chain solutions to practical infrastructure development, with several projects actively building bridges and liquidity solutions. The market is demonstrating increased resilience, but regulatory uncertainty remains the primary risk factor.
+The crypto market continues its institutionalization, with Bitcoin solidifying its position as a core asset driven by ETF inflows and broad adoption. However, the narrative is shifting beyond a simple BTC vs. ETH dichotomy. While Ethereum remains the dominant platform for DeFi and smart contracts, the potential for Bitcoin to compete in the smart contract space is rapidly increasing, contingent on the passage of the Clarity Act. The current delay in the Senate markup introduces significant risk, potentially ceding a first-mover advantage to Ethereum. The focus is now on practical infrastructure for cross-chain interoperability, particularly native asset swaps between Bitcoin and Ethereum, to address capital fragmentation. This infrastructure development is accelerating, indicating a belief that cross-chain functionality will be crucial regardless of the Clarity Act’s outcome. The market demonstrates resilience to macro events, but regulatory uncertainty, specifically surrounding the Clarity Act, remains the primary risk factor. The increasing operational maturity of the Bitcoin ecosystem, with established access paths and custody solutions, is further bolstering institutional confidence.
 
 **Updated Trends:**
 
 ```json
 {
-  "executive_briefing": "The crypto market is undergoing a fundamental shift, solidifying into an institutional asset class. Bitcoin's price discovery is now overwhelmingly driven by ETF inflows and broad institutional adoption, diminishing the impact of traditional speculative forces. While Ethereum maintains its position as a core platform for DeFi and smart contracts, the landscape is evolving beyond a simple BTC vs. ETH dichotomy. Interoperability, specifically native asset swaps between Bitcoin and Ethereum, is gaining momentum, driven by the need to overcome capital fragmentation. However, the future competitive dynamic hinges on the Clarity Act. Its progress – or lack thereof – will determine whether Bitcoin can effectively compete with Ethereum in the smart contract space. The Senate markup is the critical near-term event. The current delay introduces significant risk, potentially ceding a first-mover advantage to Ethereum. The focus is shifting from theoretical cross-chain solutions to practical infrastructure development, with several projects actively building bridges and liquidity solutions. The market is demonstrating increased resilience, but regulatory uncertainty remains the primary risk factor.",
+  "executive_briefing": "The crypto market continues its institutionalization, with Bitcoin solidifying its position as a core asset driven by ETF inflows and broad adoption. However, the narrative is shifting beyond a simple BTC vs. ETH dichotomy. While Ethereum remains the dominant platform for DeFi and smart contracts, the potential for Bitcoin to compete in the smart contract space is rapidly increasing, contingent on the passage of the Clarity Act. The current delay in the Senate markup introduces significant risk, potentially ceding a first-mover advantage to Ethereum. The focus is now on practical infrastructure for cross-chain interoperability, particularly native asset swaps between Bitcoin and Ethereum, to address capital fragmentation. This infrastructure development is accelerating, indicating a belief that cross-chain functionality will be crucial regardless of the Clarity Act’s outcome. The market demonstrates resilience to macro events, but regulatory uncertainty, specifically surrounding the Clarity Act, remains the primary risk factor. The increasing operational maturity of the Bitcoin ecosystem, with established access paths and custody solutions, is further bolstering institutional confidence.",
   "trends": [
     {
       "name": "Institutional Bitcoin Adoption & ETF Impact",
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Bitcoin",
-      "summary": "Increasing institutional investment in Bitcoin, driven by diversification, long-term growth prospects, and regulatory clarity, is the dominant force behind price discovery. ETF inflows are a key indicator, and the market demonstrates increased resilience to macro events.",
-      "evidence": "Over $58 billion in cumulative net flows into US spot Bitcoin ETFs. 2,000+ US advisory firms now allocate to crypto ETFs. Pension funds and corporate treasuries are integrating Bitcoin ETFs into portfolios. ETF structures provide primary and secondary market liquidity. Operational maturity is now a key factor.",
+      "summary": "Increasing institutional investment in Bitcoin, driven by diversification, long-term growth prospects, and regulatory clarity, is the dominant force behind price discovery. ETF inflows are a key indicator, and the market demonstrates increased resilience to macro events. Operational maturity is a key factor.",
+      "evidence": "Over $58 billion in cumulative net flows into US spot Bitcoin ETFs. 2,000+ US advisory firms now allocate to crypto ETFs. Pension funds and corporate treasuries are integrating Bitcoin ETFs into portfolios. ETF structures provide primary and secondary market liquidity.",
       "source_links": [
         "https://www.ssga.com/us/en/institutional/insights/why-bitcoin-institutional-demand-is-on-the-rise",
         "https://news.bitcoin.com/bitcoin-etf-inflows-turn-fully-positive-across-key-timeframes-led-by-blackrocks-ibit",
@@ -50,7 +50,8 @@ The crypto market is undergoing a fundamental shift, solidifying into an institu
         "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
         "https://en.wikipedia.org/wiki/Ethereum",
         "https://coinmarketcap.com/currencies/ethereum/",
-        "https://ethereum.org/"
+        "https://ethereum.org/",
+        "https://www.coingecko.com/en/coins/ethereum"
       ],
       "confidence": 0.9
     },
@@ -60,7 +61,7 @@ The crypto market is undergoing a fundamental shift, solidifying into an institu
       "velocity": "Medium",
       "category": "Regulation",
       "summary": "The Clarity Act aims to establish a federal regulatory framework for crypto, potentially enabling smart contracts on Bitcoin, creating direct competition for Ethereum. Passage is uncertain due to legislative delays, but remains crucial. Senate markup is the key near-term event.",
-      "evidence": "The Clarity Act passed the House but faces delays in the Senate. Industry lobbying is ongoing. The bill could enable smart contracts on Bitcoin, creating competition for Ethereum. The Senate Banking Committee is targeting a markup, but the legislative calendar poses challenges. Delays could push implementation to 2030.",
+      "evidence": "The Clarity Act passed the House but faces delays in the Senate. Industry lobbying is ongoing. The bill could enable smart contracts on Bitcoin, creating competition for Ethereum. The Senate Banking Committee is targeting a markup, but the legislative calendar poses challenges.",
       "source_links": [
         "https://www.congress.gov/bill/119th-congress/house-bill/3633/text",
         "https://crypto.news/crypto-firms-demand-clarity-act-markup/",
