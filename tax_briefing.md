@@ -1,14 +1,22 @@
-# Tax Intelligence Briefing - 2026-05-03 04:03
+# Tax Intelligence Briefing - 2026-05-03 10:03
 
-## Executive Briefing
+## Analysis and Intelligence Map Update
 
-The global tax landscape continues to undergo rapid transformation, driven primarily by the implementation of Pillar Two and escalating trade tensions. The US has adopted a side-by-side approach to Pillar Two, creating a unique compliance landscape for US-headquartered multinationals. Recent developments confirm the ongoing complexity of Pillar Two implementation, particularly regarding deferred tax calculations and the need for recalculation of GloBE carrying values. Simultaneously, a resurgence of protectionist trade policies, particularly from the US, is disrupting global supply chains and increasing uncertainty. The imposition of new tariffs, coupled with potential retaliatory measures, necessitates proactive risk assessment and mitigation strategies for businesses. Singapore remains a leader in digital tax administration with its InvoiceNow initiative, while the ASEAN region presents a diverse and evolving tax environment. Corporate tax rates are in flux globally, with some nations, like Portugal, enacting reductions, while others are adjusting their approaches. The interplay between these factors demands continuous monitoring and adaptation by tax professionals and businesses alike.
+The global tax landscape continues to undergo rapid transformation, driven primarily by the implementation of Pillar Two and escalating trade tensions. The US adoption of a side-by-side approach to Pillar Two introduces complexity, while the recent surge in tariffs and potential retaliatory measures significantly disrupt global trade flows. Singapore remains a leader in digital tax administration with InvoiceNow, and the ASEAN region presents a diverse and evolving tax environment. Corporate tax rates are in flux globally, necessitating proactive adaptation by businesses. Recent developments indicate an acceleration of tariff implementation and a growing focus on the practical implications of Pillar Two, particularly regarding deferred tax calculations. The interplay between these factors demands continuous monitoring and strategic adjustments to tax planning.
 
-## Updated Intelligence Map
+**Key Updates & Observations:**
+
+*   **Pillar Two Implementation:** The 'New Intel' confirms continued global enforcement of Pillar Two, with over 140 jurisdictions involved. The US side-by-side approach is now formalized, impacting US-headquartered companies. The need for recalculating deferred taxes based on GloBE carrying values is highlighted.
+*   **Resurgence of Trade Tariffs:** The trend of increasing tariffs is accelerating, with new measures imposed on goods from Canada, Mexico, and other regions. The legality of existing tariffs is being challenged, potentially leading to refunds.
+*   **Singapore E-invoicing (InvoiceNow):** Singapore's e-invoicing initiative is progressing, with expanding compliance deadlines and integration with the Peppol framework.
+*   **Corporate Tax Rate Changes:** Several countries, including Portugal, are adjusting their corporate tax rates, indicating a broader trend of rate adjustments globally.
+*   **ASEAN Tax Landscape:** The ASEAN region continues to present a diverse tax environment, with varying rates and approaches.
+
+## Updated Intelligence Map (JSON Format)
 
 ```json
 {
-  "executive_briefing": "The global tax landscape is undergoing significant shifts driven by Pillar Two implementation, escalating trade tensions, and digital transformation. The US side-by-side approach to Pillar Two introduces complexity, while rising tariffs and potential retaliatory measures disrupt global trade. Singapore continues to lead in digital tax administration with InvoiceNow, and ASEAN presents a diverse tax environment. Corporate tax rates are adjusting globally, necessitating proactive adaptation by businesses. Recent developments indicate an acceleration of tariff implementation and a growing focus on the practical implications of Pillar Two, particularly regarding deferred tax calculations.",
+  "executive_briefing": "The global tax landscape is experiencing significant shifts driven by Pillar Two implementation and escalating trade tensions. The US side-by-side approach to Pillar Two introduces complexity, while rising tariffs disrupt global trade. Singapore continues to lead in digital tax administration with InvoiceNow, and ASEAN presents a diverse tax environment. Corporate tax rates are adjusting globally, necessitating proactive adaptation by businesses. Recent developments indicate an acceleration of tariff implementation and a growing focus on the practical implications of Pillar Two, particularly regarding deferred tax calculations.",
   "trends": [
     {
       "name": "Global Minimum Corporate Tax (Pillar Two)",
