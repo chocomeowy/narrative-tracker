@@ -1,23 +1,21 @@
-# Tax Intelligence Briefing - 2026-05-03 22:01
+# Tax Intelligence Briefing - 2026-05-04 04:03
 
-## Intelligence Map Update - May 3, 2026
+## Analysis and Intelligence Map Update
 
-**Executive Briefing:**
+The global tax landscape continues to undergo significant transformation, driven by the implementation of Pillar Two and escalating trade tensions. The US adoption of a side-by-side approach to Pillar Two adds complexity for multinational enterprises (MNEs), necessitating recalculations of deferred taxes and adaptation of tax planning strategies. Simultaneously, the resurgence of tariffs, particularly those imposed by the US on Canada, Mexico, and China, is disrupting global trade flows and prompting legal challenges. Singapore remains a leader in digital tax administration with its InvoiceNow initiative, while the ASEAN region presents a diverse and evolving tax environment. Corporate tax rate adjustments are occurring globally, necessitating proactive monitoring and compliance. The focus is shifting towards the practical implications of these changes, including navigating new tariff regimes and ensuring compliance with e-invoicing mandates. The interplay between these factors demands a comprehensive and adaptable tax strategy for businesses operating internationally. Recent developments highlight a potential shift in US policy regarding international tax agreements, with a move away from OECD collaboration and towards bilateral arrangements. This adds further uncertainty for MNEs. The ongoing evolution of e-invoicing standards, particularly in Singapore, requires businesses to stay abreast of changing requirements.
 
-The global tax landscape continues to be reshaped by the implementation of Pillar Two and escalating trade tensions. The US adoption of a side-by-side approach to Pillar Two adds complexity for multinational enterprises (MNEs), requiring careful recalculation of deferred taxes and adaptation of tax planning strategies. Simultaneously, the resurgence of tariffs, particularly those imposed by the US on Canada, Mexico, and China, is disrupting global trade flows and prompting legal challenges. Singapore remains a leader in digital tax administration with its InvoiceNow initiative, while the ASEAN region presents a diverse and evolving tax environment. Corporate tax rate adjustments are occurring globally, necessitating proactive monitoring and compliance. The focus is shifting towards the practical implications of these changes, including navigating new tariff regimes and ensuring compliance with e-invoicing mandates. The interplay between these factors demands a comprehensive and adaptable tax strategy for businesses operating internationally.
-
-**Updated Trends:**
+## Updated Intelligence Map (JSON Format)
 
 ```json
 {
-  "executive_briefing": "The global tax landscape continues to be reshaped by the implementation of Pillar Two and escalating trade tensions. The US adoption of a side-by-side approach to Pillar Two adds complexity for multinational enterprises (MNEs), requiring careful recalculation of deferred taxes and adaptation of tax planning strategies. Simultaneously, the resurgence of tariffs, particularly those imposed by the US on Canada, Mexico, and China, is disrupting global trade flows and prompting legal challenges. Singapore remains a leader in digital tax administration with its InvoiceNow initiative, while the ASEAN region presents a diverse and evolving tax environment. Corporate tax rate adjustments are occurring globally, necessitating proactive monitoring and compliance. The focus is shifting towards the practical implications of these changes, including navigating new tariff regimes and ensuring compliance with e-invoicing mandates. The interplay between these factors demands a comprehensive and adaptable tax strategy for businesses operating internationally.",
+  "executive_briefing": "The global tax landscape is marked by increasing complexity due to the implementation of Pillar Two, shifting US tax policy, and escalating trade tensions. The US is pursuing a side-by-side approach to Pillar Two, while simultaneously imposing and considering new tariffs on key trading partners. These developments necessitate proactive tax planning and compliance strategies for multinational enterprises. Digital tax administration, particularly through e-invoicing initiatives like Singapore's InvoiceNow, is gaining momentum. Corporate tax rates are also undergoing changes globally, requiring continuous monitoring.",
   "trends": [
     {
       "name": "Global Minimum Corporate Tax (Pillar Two)",
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Corporate Tax",
-      "summary": "The OECD's Pillar Two establishes a 15% global minimum corporate tax rate for large MNEs, impacting tax planning and potentially increasing tax revenue. Implementation is progressing globally, with over 140 jurisdictions enforcing the rules and the US adopting a side-by-side approach.",
+      "summary": "The OECD's Pillar Two establishes a 15% global minimum corporate tax rate for large MNEs, impacting tax planning and potentially increasing tax revenue. Implementation is progressing globally, with the US adopting a side-by-side approach.",
       "evidence": "Over 140 jurisdictions are enforcing the rules. The US will apply its own minimum taxes to US-headquartered companies. Deferred taxes are being recalculated based on GloBE carrying values. It introduces a coordinated global minimum tax on multinational enterprises.",
       "source_links": [
         "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
@@ -27,7 +25,11 @@ The global tax landscape continues to be reshaped by the implementation of Pilla
         "https://www.congress.gov/crs-product/R47174",
         "https://oecdpillars.com/pillar-tab/pillar-two-implementation/",
         "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax/",
-        "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html"
+        "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
+        "https://aoshearman.com/en/insights/what-does-2025-hold-for-the-global-minimum-tax-pillar-two",
+        "https://kpmg.com/xx/en/our-insights/eu-tax/pillar-two-and-tax-incentives.html",
+        "https://www.bdo.com/insights/tax/what-pillar-two-means-for-income-tax-accounting",
+        "https://oecdpillars.com/pillar-tab/pillar-two-implementation/"
       ],
       "confidence": 0.98
     },
@@ -107,13 +109,27 @@ The global tax landscape continues to be reshaped by the implementation of Pilla
       "velocity": "Medium",
       "category": "Corporate Tax",
       "summary": "Corporate tax rates are undergoing changes globally in 2026, requiring businesses to adapt their tax planning strategies.",
-      "evidence": "Multiple sources confirm corporate tax rate changes are taking effect in 2026.",
+      "evidence": "Multiple sources confirm corporate tax rate changes are taking effect in 2026. Portugal will decrease its rate annually from 2026-2028.",
       "source_links": [
         "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
         "https://taxspecialty.com/corporate-tax-rate-changes-2026-proposals/",
-        "https://www.dentons.com/en/services-and-solutions/global-tax-guide-to-doing-business-in/the-netherlands"
+        "https://www.dentons.com/en/services-and-solutions/global-tax-guide-to-doing-business-in/the-netherlands",
+        "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/"
       ],
       "confidence": 0.85
+    },
+    {
+      "name": "US Shift in International Tax Policy",
+      "stage": "Breakthrough",
+      "velocity": "Medium",
+      "category": "Corporate Tax",
+      "summary": "The US is moving away from multilateral OECD agreements (Pillar One and Two) and towards a side-by-side arrangement and bilateral negotiations, creating uncertainty for MNEs.",
+      "evidence": "The US agreed to a side-by-side arrangement accommodating objections. Withdrawal from OECD agreements is underway.",
+      "source_links": [
+        "https://practiceguides.chambers.com/practice-guides/corporate-tax-2026",
+        "https://bipartisanpolicy.org/issue-brief/international-tax-policy-where-the-u-s-stands-and-whats-ahead-in-2026/"
+      ],
+      "confidence": 0.9
     }
   ]
 }
