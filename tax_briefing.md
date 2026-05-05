@@ -1,16 +1,16 @@
-# Tax Intelligence Briefing - 2026-05-05 10:03
+# Tax Intelligence Briefing - 2026-05-05 16:03
 
-## Intelligence Map Update - May 5, 2026
+## Intelligence Map Update - May 6, 2026
 
 **Executive Briefing:**
 
-The global tax landscape continues to be reshaped by the US divergence from OECD agreements and the escalating implementation of Pillar Two. The US adoption of a side-by-side approach to the global minimum tax, coupled with aggressive tariff implementation, introduces significant uncertainty for multinational enterprises. While over 140 jurisdictions are enforcing Pillar Two, the US approach creates a parallel system, demanding careful calculation and compliance strategies. Simultaneously, a resurgence of trade tariffs, particularly from the US, is disrupting global commerce, with investigations into numerous countries’ trade practices underway. Singapore remains a competitive tax jurisdiction, actively leading digital tax transformation through its Peppol PINT SG e-invoicing initiative. Businesses must proactively adapt to these shifts, focusing on global minimum tax calculations, tariff impact assessments, and digital tax compliance. The ASEAN region presents a varied tax landscape, with Singapore maintaining a competitive edge. The increasing complexity necessitates a flexible and informed international tax strategy.
+The global tax landscape remains highly dynamic, dominated by the US divergence from OECD agreements and the escalating implementation of Pillar Two. The US adoption of a side-by-side approach to the global minimum tax, coupled with the resurgence of trade tariffs, introduces significant complexity for multinational enterprises. While over 140 jurisdictions are enforcing Pillar Two, the US parallel system demands careful calculation and compliance strategies. The imposition and potential escalation of tariffs, particularly by the US, are disrupting global commerce and supply chains. Singapore continues to position itself as a competitive hub through its advanced digital tax transformation initiatives, notably the Peppol PINT SG e-invoicing framework. Businesses must proactively adapt to these shifts, focusing on global minimum tax calculations, tariff impact assessments, and digital tax compliance. The ASEAN region presents a varied tax landscape, with Singapore maintaining a competitive edge. The increasing complexity necessitates a flexible and informed international tax strategy. Recent data indicates a trend towards increased corporate tax rates in some European nations, while Singapore maintains its competitive 17% rate.
 
 **Updated Trends:**
 
 ```json
 {
-  "executive_briefing": "The global tax landscape continues to be reshaped by the US divergence from OECD agreements and the escalating implementation of Pillar Two. The US adoption of a side-by-side approach to the global minimum tax, coupled with aggressive tariff implementation, introduces significant uncertainty for multinational enterprises. While over 140 jurisdictions are enforcing Pillar Two, the US approach creates a parallel system, demanding careful calculation and compliance strategies. Simultaneously, a resurgence of trade tariffs, particularly from the US, is disrupting global commerce, with investigations into numerous countries’ trade practices underway. Singapore remains a competitive tax jurisdiction, actively leading digital tax transformation through its Peppol PINT SG e-invoicing initiative. Businesses must proactively adapt to these shifts, focusing on global minimum tax calculations, tariff impact assessments, and digital tax compliance. The ASEAN region presents a varied tax landscape, with Singapore maintaining a competitive edge. The increasing complexity necessitates a flexible and informed international tax strategy.",
+  "executive_briefing": "The global tax landscape remains highly dynamic, dominated by the US divergence from OECD agreements and the escalating implementation of Pillar Two. The US adoption of a side-by-side approach to the global minimum tax, coupled with the resurgence of trade tariffs, introduces significant complexity for multinational enterprises. While over 140 jurisdictions are enforcing Pillar Two, the US parallel system demands careful calculation and compliance strategies. The imposition and potential escalation of tariffs, particularly by the US, are disrupting global commerce and supply chains. Singapore continues to position itself as a competitive hub through its advanced digital tax transformation initiatives, notably the Peppol PINT SG e-invoicing framework. Businesses must proactively adapt to these shifts, focusing on global minimum tax calculations, tariff impact assessments, and digital tax compliance. The ASEAN region presents a varied tax landscape, with Singapore maintaining a competitive edge. The increasing complexity necessitates a flexible and informed international tax strategy.",
   "trends": [
     {
       "name": "Global Minimum Corporate Tax (Pillar Two)",
@@ -32,7 +32,10 @@ The global tax landscape continues to be reshaped by the US divergence from OECD
         "https://www.oecd.org/en/publications/tax-incentives-and-the-global-minimum-corporate-tax_25d30b96-en.html",
         "https://dart.deloitte.com/USDART/home/publications/deloitte/financial-reporting-alerts/2024/faq-pillar-two-international-tax-oecd",
         "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
-        "https://jan22.com/pillar-two-aims-to-introduce-a-minimum-tax-rate-that-reshapes-how-multinational-enterprises-are-taxed-across-jurisdictions/"
+        "https://jan22.com/pillar-two-aims-to-introduce-a-minimum-tax-rate-that-reshapes-how-multinational-enterprises-are-taxed-across-jurisdictions/",
+        "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/",
+        "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
+        "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax/"
       ],
       "confidence": 0.98
     },
@@ -52,7 +55,11 @@ The global tax landscape continues to be reshaped by the US divergence from OECD
         "https://www.bbc.com/news/articles/cn93e12rypgo",
         "https://www.linkedin.com/posts/radius-international_tradeupdate-tariffs-supplychain-activity-7446946023861731329-WTcX",
         "https://www.nytimes.com/2026/04/20/us/politics/trump-administration-tariff-refunds.html",
-        "https://tradecomplianceresourcehub.com/2026/05/02/trump-2-0-tariff-tracker/"
+        "https://tradecomplianceresourcehub.com/2026/05/02/trump-2-0-tariff-tracker/",
+        "https://www.reuters.com/business/tariffs/",
+        "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/",
+        "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
+        "https://ustr.gov/trade-topics/presidential-tariff-actions"
       ],
       "confidence": 0.95
     },
@@ -93,7 +100,9 @@ The global tax landscape continues to be reshaped by the US divergence from OECD
         "https://www.dentons.com/en/services-and-solutions/global-tax-guide-to-doing-business-in/singapore",
         "https://tradingeconomics.com/singapore/corporate-tax-rate",
         "https://www.incorp.asia/singapore/tools/singapore-corporate-tax-calculator/",
-        "https://www.pilotoasia.com/guide/singapore-corporate-tax-guide"
+        "https://www.pilotoasia.com/guide/singapore-corporate-tax-guide",
+        "https://tax.thomsonreuters.com/blog/what-is-e-invoicing/",
+        "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates"
       ],
       "confidence": 0.85
     },
@@ -112,7 +121,8 @@ The global tax landscape continues to be reshaped by the US divergence from OECD
         "https://www.lexology.com/library/detail.aspx?g=68ce04e5-7025-4bb2-8d0c-422aa4422326",
         "https://tradingeconomics.com/country-list/corporate-tax-rate?continent=asia",
         "https://www.aseanbriefing.com/news/comparing-tax-rates-across-asean/",
-        "https://theiabm.org/business-asean-spotlight-tax-rates/"
+        "https://theiabm.org/business-asean-spotlight-tax-rates/",
+        "https://amro-asia.org/global-tax-reform-what-lies-ahead-for-asean3"
       ],
       "confidence": 0.8
     },
@@ -125,6 +135,8 @@ The global tax landscape continues to be reshaped by the US divergence from OECD
       "evidence": "The US agreed to a side-by-side arrangement accommodating objections. Withdrawal from OECD agreements is underway.",
       "source_links": [
         "https://practiceguides.chambers.com/practice-guides/corporate-tax-2026",
+        "https://bipartisanpolicy.org/issue-brief/international-tax-policy-where-the-u-s-stands-and-whats-ahead-in-2026/",
+        "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
         "https://bipartisanpolicy.org/issue-brief/international-tax-policy-where-the-u-s-stands-and-whats-ahead-in-2026/"
       ],
       "confidence": 0.9
