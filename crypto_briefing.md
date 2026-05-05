@@ -1,16 +1,16 @@
-# Crypto Intelligence Briefing - 2026-05-04 22:02
+# Crypto Intelligence Briefing - 2026-05-05 04:02
 
 ## Intelligence Map Update - May 4, 2026
 
-**1. Executive Briefing:**
+**Executive Briefing:**
 
-The crypto market narrative has decisively shifted towards operational maturity, driven by sustained institutional adoption of Bitcoin and the looming potential of the Clarity Act to reshape the competitive landscape. Bitcoin is solidifying its position as a core institutional asset, evidenced by continued ETF inflows and integration into traditional financial portfolios. Simultaneously, Ethereum remains the dominant platform for decentralized applications, but faces a credible challenge from Bitcoin should the Clarity Act pass, enabling smart contract functionality on the Bitcoin network. The focus is no longer *if* crypto integrates into established finance, but *how* and *which* chains will lead. Crucially, the development of cross-chain interoperability solutions, prioritizing native asset swaps, suggests a future where both ecosystems can coexist, mitigating capital fragmentation. The Senate's progress (or lack thereof) on the Clarity Act is the single most important factor to watch. The recent compromise on stablecoin yield within the Act suggests movement, but the legislative calendar remains a significant risk. The increasing sophistication of cross-chain solutions indicates a growing demand for seamless asset transfer between Bitcoin and Ethereum, regardless of the Clarity Act’s outcome. This suggests a future where both chains serve distinct, yet interconnected, purposes.
+The crypto market continues its maturation, driven by sustained institutional adoption of Bitcoin and the evolving regulatory landscape surrounding the Clarity Act. The narrative has decisively shifted from speculative growth to operational integration with traditional finance. Bitcoin’s role as a core institutional asset is being cemented by ETF inflows and increasing allocation from traditional financial institutions. However, the Clarity Act introduces a significant variable – the potential for Bitcoin to host smart contracts, directly challenging Ethereum’s dominance. While Ethereum remains the leading platform for decentralized applications, the possibility of a smart contract-enabled Bitcoin creates a competitive dynamic. Crucially, the development of robust cross-chain interoperability solutions, prioritizing native asset swaps, suggests a future where both ecosystems can coexist, mitigating capital fragmentation. The Senate’s progress on the Clarity Act remains the pivotal factor, with recent compromises on stablecoin yield indicating movement, though legislative hurdles persist. The demand for seamless BTC/ETH transfer, regardless of the Clarity Act’s outcome, underscores a future where both chains serve distinct, yet interconnected, purposes. The focus is now on *how* these chains will interoperate and which will ultimately lead in specific application areas.
 
-**2. Data Update:**
+**Updated Trends:**
 
 ```json
 {
-  "executive_briefing": "The crypto market narrative has decisively shifted towards operational maturity, driven by sustained institutional adoption of Bitcoin and the looming potential of the Clarity Act to reshape the competitive landscape. Bitcoin is solidifying its position as a core institutional asset, evidenced by continued ETF inflows and integration into traditional financial portfolios. Simultaneously, Ethereum remains the dominant platform for decentralized applications, but faces a credible challenge from Bitcoin should the Clarity Act pass, enabling smart contract functionality on the Bitcoin network. The focus is no longer *if* crypto integrates into established finance, but *how* and *which* chains will lead. Crucially, the development of cross-chain interoperability solutions, prioritizing native asset swaps, suggests a future where both ecosystems can coexist, mitigating capital fragmentation. The Senate's progress (or lack thereof) on the Clarity Act is the single most important factor to watch. The recent compromise on stablecoin yield within the Act suggests movement, but the legislative calendar remains a significant risk. The increasing sophistication of cross-chain solutions indicates a growing demand for seamless asset transfer between Bitcoin and Ethereum, regardless of the Clarity Act’s outcome. This suggests a future where both chains serve distinct, yet interconnected, purposes.",
+  "executive_briefing": "The crypto market continues its maturation, driven by sustained institutional adoption of Bitcoin and the evolving regulatory landscape surrounding the Clarity Act. The narrative has decisively shifted from speculative growth to operational integration with traditional finance. Bitcoin’s role as a core institutional asset is being cemented by ETF inflows and increasing allocation from traditional financial institutions. However, the Clarity Act introduces a significant variable – the potential for Bitcoin to host smart contracts, directly challenging Ethereum’s dominance. While Ethereum remains the leading platform for decentralized applications, the possibility of a smart contract-enabled Bitcoin creates a competitive dynamic. Crucially, the development of robust cross-chain interoperability solutions, prioritizing native asset swaps, suggests a future where both ecosystems can coexist, mitigating capital fragmentation. The Senate’s progress on the Clarity Act remains the pivotal factor, with recent compromises on stablecoin yield indicating movement, though legislative hurdles persist. The demand for seamless BTC/ETH transfer, regardless of the Clarity Act’s outcome, underscores a future where both chains serve distinct, yet interconnected, purposes. The focus is now on *how* these chains will interoperate and which will ultimately lead in specific application areas.",
   "trends": [
     {
       "name": "Institutional Bitcoin Adoption & ETF Impact",
@@ -81,7 +81,10 @@ The crypto market narrative has decisively shifted towards operational maturity,
         "https://cryptogazette.com/clarity-act-senate-markup-may-2026-crypto-legislation/",
         "https://beincrypto.com/clarity-act-two-windows-before-midterms/",
         "https://www.banking.senate.gov/newsroom/majority/chairman-scott-highlights-importance-of-kevin-warsh-leading-federal-reserve-momentum-for-clarity-act-on-fox-business-mornings-with-maria",
-        "https://www.coindesk.com/policy/2026/05/02/crypto-industry-backs-clarity-act-yield-compromise-pushes-senate-banking-for-markup"
+        "https://www.coindesk.com/policy/2026/05/02/crypto-industry-backs-clarity-act-yield-compromise-pushes-senate-banking-for-markup",
+        "https://coinpedia.org/news/clarity-act-update-senate-makes-big-decision-on-stablecoin-yield-rewards/",
+        "https://www.cointribune.com/en/clarity-act-clears-final-hurdle-senate-vote-in-may/",
+        "https://www.msn.com/en-us/news/insight/senate-stablecoin-yield-deal-clears-path-for-clarity-act/gm-GM86FF811F"
       ],
       "confidence": 0.8
     },
@@ -90,7 +93,7 @@ The crypto market narrative has decisively shifted towards operational maturity,
       "stage": "Breakthrough",
       "velocity": "Medium",
       "category": "DeFi",
-      "summary": "Growing demand for interoperability and native asset swaps is driving the development of cross-chain liquidity solutions, facilitating seamless BTC/ETH swaps and addressing capital fragmentation. Solutions prioritize native asset swaps over wrapped tokens.",
+      "summary": "Growing demand for interoperability and native asset swaps is driving the development of cross-chain liquidity solutions, facilitating seamless BTC/ETH swaps and addressing capital fragmentation. Solutions prioritize native asset swaps, avoiding wrapped tokens.",
       "evidence": "THORChain, Symbiosis API, and Chainflip are enabling cross-chain swaps. Capital fragmentation is a key driver for these solutions. Solutions are focusing on native asset swaps, avoiding wrapped tokens. Investors are routinely bridging funds between Bitcoin and Ethereum networks.",
       "source_links": [
         "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps",
