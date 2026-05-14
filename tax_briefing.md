@@ -1,15 +1,15 @@
-# Tax Intelligence Briefing - 2026-05-14 10:04
+# Tax Intelligence Briefing - 2026-05-14 16:02
 
 {
-  "executive_briefing": "The global tax environment in May 2026 is dynamic, particularly in corporate taxation and trade. The OECD's Pillar Two global minimum corporate tax is firmly established across over 140 jurisdictions, enforcing a 15% rate for large MNEs, with the US managing its unique 'side-by-side exception'. Trade policy remains contentious, marked by ongoing US tariff actions, including the appeal of a 10% global tariff, continued Section 232 updates (April 2026 metals), new pharmaceutical tariffs, and active IEEPA tariff refunds. Domestically, US state-level corporate tax rates remain volatile, alongside federal proposals for rate hikes. Independently, various countries are adjusting their corporate tax rates (e.g., UAE introducing, Portugal decreasing, Slovenia increasing). Singapore continues to lead ASEAN with a stable, competitive 17% corporate tax rate, bolstered by incentives. Its pioneering InvoiceNow e-invoicing mandate is a firmly established multiyear requirement for GST-registered businesses, underscoring the intensifying global push for digital tax transformation to improve efficiency and compliance in GST/VAT. Concurrently, the accelerating global shift towards mandatory Corporate Social Responsibility (CSR) and ESG reporting introduces new layers of corporate accountability.",
+  "executive_briefing": "The global tax landscape in May 2026 continues its rapid evolution, particularly concerning corporate taxation and international trade. The OECD's Pillar Two global minimum corporate tax is now firmly embedded across nearly 150 jurisdictions, with the US-specific 'side-by-side arrangement' clarifying its unique position. Trade policy remains highly dynamic, marked by ongoing US tariff actions, including updates to Section 232 metals tariffs, new pharmaceutical tariffs, and active IEEPA tariff refunds, alongside the pending appeal of a 10% global tariff. Independently, various countries are adjusting their corporate tax rates, with both increases and decreases effective January 2026, alongside proposals for federal hikes and state-level volatility in the US. Singapore continues to lead ASEAN with its stable 17% corporate tax rate and proactive digital tax transformation, notably its established InvoiceNow e-invoicing mandate for GST-registered businesses, reflecting the intensifying global push for digital tax compliance and efficiency. Concurrently, mandatory Corporate Social Responsibility (CSR) and ESG reporting are becoming more prevalent, introducing new dimensions of corporate accountability.",
   "trends": [
     {
       "name": "Global Minimum Corporate Tax (Pillar Two) and US Divergence",
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Corporate Tax",
-      "summary": "The OECD's Pillar Two, establishing a 15% global minimum corporate tax, is firmly in place across over 140 jurisdictions for large multinational enterprises. The US continues to navigate this landscape through its unique 'side-by-side exception' for US-headquartered companies, a framework clarified and adopted by the OECD. This global reform is driving new compliance requirements for MNEs, with continued discussions around tax competition and harmonization.",
-      "evidence": "Over 140 jurisdictions are enforcing Pillar Two rules as of January 2026, establishing a 15% global minimum effective tax rate for MNEs with annual turnover of at least 750 million euros. The G7 and G20 have backed this 15% rate. The US experienced an 'abrupt withdrawal' from OECD Pillar One and Pillar Two agreements, but subsequently reached an 'agreement between the USA and the remaining Group of Seven countries for a side-by-side exception for US multinational groups' from significant portions of Pillar Two, which has been adopted by the OECD. Pillar Two is intended to establish a global minimum corporate tax rate of 15% in each of a company\u2019s operating jurisdictions, targeting the intangible income of multinational enterprise (MNE) groups under global base erosion rules. This shift brings new compliance requirements to either enforce or respond to.",
+      "summary": "The OECD's Pillar Two, establishing a 15% global minimum corporate tax, is firmly in place across over 147 jurisdictions for large multinational enterprises. The US continues to navigate this landscape through its unique 'side-by-side exception' for US-headquartered companies, a framework confirmed and adopted by the OECD in January 2026. This global reform is driving new compliance requirements for MNEs, with continued discussions around tax competition and harmonization.",
+      "evidence": "Over 147 jurisdictions are enforcing Pillar Two rules as of January 2026, establishing a 15% global minimum effective tax rate for MNEs with annual turnover of at least 750 million euros. The G7 and G20 have backed this 15% rate. The US experienced an 'abrupt withdrawal' from OECD Pillar One and Pillar Two agreements, but subsequently reached an 'agreement between the USA and the remaining Group of Seven countries for a side-by-side exception for US multinational groups' from significant portions of Pillar Two, which has been adopted by the OECD. In January 2026, the 147 countries and jurisdictions working within the OECD Inclusive Framework agreed to a 'side-by-side arrangement' that accommodated objections from the United States, meaning U.S.-headquartered companies remain subject to only U.S. global minimum taxes while exempting them from Pillar Two. This shift brings new compliance requirements to either enforce or respond to.",
       "source_links": [
         "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
         "https://practiceguides.chambers.com/practice-guides/corporate-tax-2026",
@@ -31,17 +31,14 @@
         "https://www.irishtimes.com/business/economy/biden-s-global-corporate-tax-shake-up-an-opportunity-for-ireland-1.4533030",
         "https://www.theguardian.com/business/2021/apr/05/janet-yellen-global-minimum-corporate-tax-rate",
         "https://www.congress.gov/crs-product/R47174",
-        "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
         "https://www.pwc.com/gx/en/services/tax/pillar-two-readiness/country-tracker.html",
         "https://dart.deloitte.com/USDART/home/publications/deloitte/financial-reporting-alerts/2024/faq-pillar-two-international-tax-oecd",
         "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-tl18659-231us-10-17-2024.pdf",
         "https://www.congress.gov/crs_external_products/R/PDF/R47174/R47174.15.pdf",
         "https://pjmedia.com/victoria-taft/2021/07/09/biden-and-dems-want-a-global-cartel-by-october-to-set-corporate-tax-rates-around-the-world-and-the-gop-is-going-to-help-n1460732",
         "https://qz.com/africa/2082754/why-kenya-and-nigeria-havent-agreed-to-global-corporate-tax-deal",
-        "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax/",
-        "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
-        "https://www.congress.gov/crs-product/R47174",
-        "https://www.deloitte.com/us/en/services/audit-assurance/articles/pillar-two-tax.html"
+        "https://www.linkedin.com/pulse/impact-global-minimum-corporate-tax-pillar-two-what-ahmad-bilal-anycf",
+        "https://www.lexology.com/library/detail.aspx?g=ffcb41ae-abcf-49db-bfec-1fb326d4f5eb"
       ],
       "confidence": 0.99
     },
@@ -50,8 +47,8 @@
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Tariffs",
-      "summary": "The US continues active implementation and consideration of new tariffs, causing significant global trade disruptions, amidst increasing legal challenges. IEEPA tariffs are being refunded following a Supreme Court decision, and new Section 122 tariffs face a court ruling of insufficient justification. Significant updates in April 2026 to Section 232 measures for key metals and new pharmaceutical import tariffs, alongside specific reciprocal tariff actions, underscore the dynamic and volatile nature of global trade policy, with the Trump administration's appeal on a 10% global tariff still pending.",
-      "evidence": "Tariffs are taxes on imported goods. IEEPA tariffs are now in the process of being refunded to importers following a recent U.S. Supreme Court decision. A 2-1 ruling by the US Court of International Trade found the administration lacked justification to enact Section 122 tariffs. In April 2026, the U.S. made significant updates to Section 232 tariffs for key metals and introduced new tariff measures targeting pharmaceutical imports. Specific reciprocal tariffs have been enacted, including 10% baseline tariffs and higher reciprocal tariffs for targeted countries (updated April 3, 2025), with an amendment for low-value imports from China (April 8, 2025). The Trump administration has appealed a court ruling that found a 10% global tariff imposed in February was not justified. Global tariff news and international trade war developments, including tariffs imposed by Canada, the United States, China, and Mexico, are continuously monitored, with the WTO providing official tariff and trade data for over 170 economies.",
+      "summary": "The US continues active implementation and consideration of new tariffs, causing significant global trade disruptions, amidst increasing legal challenges. IEEPA tariffs are being refunded following a Supreme Court decision, and new Section 122 tariffs face a court ruling of insufficient justification. Significant updates in April 2026 to Section 232 measures for key metals and new pharmaceutical import tariffs, alongside specific reciprocal tariff actions, underscore the dynamic and volatile nature of global trade policy. The Trump administration's appeal on a 10% global tariff remains pending, with the US Supreme Court expected to rule on the legality of IEEPA tariffs.",
+      "evidence": "Tariffs are taxes on imported goods. IEEPA tariffs are now in the process of being refunded to importers following a recent U.S. Supreme Court decision. The U.S. Supreme Court in the coming months is expected to rule on the legality of tariffs the Trump administration imposed under the International Emergency Economic Powers Act. A 2-1 ruling by the US Court of International Trade found the administration lacked justification to enact Section 122 tariffs. In April 2026, the U.S. made significant updates to Section 232 tariffs for key metals and introduced new tariff measures targeting pharmaceutical imports. Specific reciprocal tariffs have been enacted, including 10% baseline tariffs and higher reciprocal tariffs for targeted countries (updated April 3, 2025), with an amendment for low-value imports from China (April 8, 2025). The Trump administration has appealed a court ruling that found a 10% global tariff imposed in February was not justified. Global tariff news and international trade war developments, including tariffs imposed by Canada, the United States, China, and Mexico, are continuously monitored, with the WTO-IMF Tariff Tracker providing official tariff and trade data for over 170 economies, and the USITC offering high-quality analysis.",
       "source_links": [
         "https://www.oiaglobal.com/tariff-updates/",
         "https://www.bbc.com/news/articles/cn93e12rypgo",
@@ -72,20 +69,9 @@
         "https://www.usitc.gov/harmonized_tariff_information",
         "https://tax.thomsonreuters.com/blog/update-on-global-tariffs/",
         "https://ttd.wto.org/en/reports/tariff-actions",
-        "https://www.oiaglobal.com/tariff-updates/",
-        "https://www.bbc.com/news/articles/cn93e12rypgo",
-        "https://www.elleoglobal.com/import-tariff-updates",
-        "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pja1p1SUVSRlNuVUV3dVZTdzdpZ0FQAQ?hl=en-GB&gl=GB&ceid=GB:en",
-        "https://www.gtlaw.com/en/insights/2025/3/tariffs-update-imposed-paused-changed-and-reciprocal-tariffs-involving-the-us-canada-china-and-mexico-as-of-march-7",
-        "https://apnews.com/hub/tariffs",
         "https://www.bnnbloomberg.ca/tariffs/",
-        "https://ttd.wto.org/en/reports/tariff-actions",
-        "https://tax.thomsonreuters.com/blog/update-on-global-tariffs/",
-        "https://www.reuters.com/business/tariffs/",
-        "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/",
-        "https://www.tradecomplianceresourcehub.com/2026/05/07/trump-2-0-tariff-tracker/",
-        "https://finance.yahoo.com/economy/policy/live/trump-tariffs-live-updates-us-opens-tariff-refund-portal-with-checks-expected-this-summer-223100182.html",
-        "https://www.bdo.com/insights/tax/u-s-court-of-international-trade-invalidates-section-122-tariffs"
+        "https://www.bdo.com/insights/tax/u-s-court-of-international-trade-invalidates-section-122-tariffs",
+        "https://www.usitc.gov/harmonized_tariff_information/announcement_archive"
       ],
       "confidence": 0.99
     },
@@ -95,7 +81,7 @@
       "velocity": "Medium",
       "category": "International Compliance",
       "summary": "Singapore's nationwide InvoiceNow initiative, confirmed as a multiyear government-driven mandate in March 2026, requires structured invoice data submission to IRAS for certain GST-registered businesses. Built on the global Peppol framework and the Peppol PINT SG standard, this initiative mandates B2B and B2G e-invoicing, streamlining payment cycles, improving efficiency through verification and validation, and setting a regional precedent for digital document exchange. Singapore has been a pioneer in the ASEAN region for electronic document exchange since 2018.",
-      "evidence": "InvoiceNow, based on the Peppol framework and specifically the Peppol PINT SG specification, has evolved into a multiyear mandate requiring structured invoice data submission to the Inland Revenue Authority of Singapore (IRAS), as confirmed in March 2026. This includes a specific 'GST InvoiceNow Requirement' for certain GST-registered businesses. The Infocomm Media Development Authority (IMDA) has developed this Nationwide E-invoicing Network. The initiative streamlines payment cycles and improves efficiency by enabling direct exchange of invoice data in a structured digital format, with phased deadlines announced in February 2026 expanding mandatory participation to existing GST-registered businesses, covering both B2B and B2G transactions. Singapore enacted its e-invoicing law on October 1, 2023, requiring newly GST-registered businesses to submit invoice data to IRAS via the InvoiceNow network. The mandate covers the phased timeline, 5-corner Peppol model, and PINT-SG format.",
+      "evidence": "InvoiceNow, based on the Peppol framework and specifically the Peppol PINT SG specification, has evolved into a multiyear mandate requiring structured invoice data submission to the Inland Revenue Authority of Singapore (IRAS), as confirmed in March 2026. This includes a specific 'GST InvoiceNow Requirement' for certain GST-registered businesses. The Infocomm Media Development Authority (IMDA) has developed this Nationwide E-invoicing Network. The initiative streamlines payment cycles and improves efficiency by enabling direct exchange of invoice data in a structured digital format, with phased deadlines announced in February 2026 expanding mandatory participation to existing GST-registered businesses, covering both B2B and B2G transactions. Singapore enacted its e-invoicing law on October 1, 2023, requiring newly GST-registered businesses to submit invoice data to IRAS via the InvoiceNow network. The mandate covers the phased timeline, 5-corner Peppol model, and PINT-SG format. The Singapore e-invoicing requirements represent a government-driven shift away from paper invoices and emailed PDFs.",
       "source_links": [
         "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
         "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
@@ -112,16 +98,7 @@
         "https://www.cleartax.com/sg/en/e-invoicing-singapore",
         "https://kpmg.com/us/en/taxnewsflash/news/2026/02/singapore-e-invoicing-mandate-compliance-deadlines.html",
         "https://invoicedataextraction.com/blog/singapore-invoicenow-e-invoicing-peppol",
-        "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
-        "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
-        "https://edicomgroup.com/electronic-invoicing/singapore",
-        "https://www.ey.com/en_sg/technical/you-and-the-taxman/embracing-the-era-of-electronic-invoicing",
-        "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-        "https://kpmg.com/us/en/taxnewsflash/news/2026/02/singapore-e-invoicing-mandate-compliance-deadlines.html",
-        "https://invoicedataextraction.com/blog/singapore-invoicenow-e-invoicing-peppol",
-        "https://www.storecove.com/blog/en/e-invoicing-in-singapore/",
-        "https://www.taxilla.com/eninvoice-singapore",
-        "https://www.comarch.com/trade-and-services/data-management/e-invoicing/e-invoicing-in-singapore/"
+        "https://rtcsuite.com/e-invoicing-singapore/"
       ],
       "confidence": 0.98
     },
@@ -131,7 +108,7 @@
       "velocity": "Medium",
       "category": "Corporate Tax",
       "summary": "Singapore continues to offer a highly competitive corporate tax environment with a stable 17% rate, the lowest in ASEAN, enhanced by significant exemptions (e.g., start-up, partial tax), group relief, M&A schemes, and the Double Tax Deduction for Internationalisation (DTDi). For income year 2025 (year of assessment 2026), these are bolstered by a non-taxable cash grant of SGD 2,000 and a 50% Corporate Income Tax (CIT) rebate (capped at SGD 40,000 or SGD 38,000 with cash grant). Its one-tier taxation system, where dividends are tax-exempt for shareholders, simplifies the tax code and solidifies its appeal for foreign investment and global businesses.",
-      "evidence": "Singapore's corporate income tax rate remains at 17% for both local and foreign companies, the lowest in ASEAN. It employs a one-tier taxation system where all dividends paid by Singapore-resident companies are tax-exempt for shareholders. For income year 2025 (year of assessment 2026), eligible companies will receive a non-taxable CIT rebate cash grant of SGD 2,000, and all companies will be granted a 50% CIT rebate, capped at SGD 40,000 (or SGD 38,000 if qualifying for the cash grant). The headline rate is 17%, but most companies pay a lower effective rate (e.g., ~4\u20135% for new businesses) due to various exemptions, incentives, and periodic rebates, including start-up and partial tax exemption schemes, group relief, M&A schemes, and DTDi schemes. Singapore uses a territorial tax system and grants incentives for qualifying activities.",
+      "evidence": "Singapore's corporate income tax rate remains at 17% for both local and foreign companies, the lowest in ASEAN. It employs a one-tier taxation system where all dividends paid by Singapore-resident companies are tax-exempt for shareholders, greatly simplifying the tax code. For income year 2025 (year of assessment 2026), eligible companies will receive a non-taxable CIT rebate cash grant of SGD 2,000, and all companies will be granted a 50% CIT rebate, capped at SGD 40,000 (or SGD 38,000 if qualifying for the cash grant). The headline rate is 17%, but most companies pay a lower effective rate (e.g., ~4–5% for new businesses) due to various exemptions, incentives, and periodic rebates, including start-up and partial tax exemption schemes, group relief, M&A schemes, and DTDi schemes. Singapore uses a territorial tax system and grants incentives for qualifying activities.",
       "source_links": [
         "https://www.iras.gov.sg/taxes/corporate-income-tax/basics-of-corporate-income-tax/basic-guide-to-corporate-income-tax-for-companies",
         "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
@@ -149,17 +126,8 @@
         "https://www.rsbu.sg/corporate-taxes",
         "https://www.corporateservices.com/singapore/corporate-tax-filing-in-singapore/",
         "https://www.vjmglobal.com/feeds/blog/corporate-tax-singapore",
-        "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
-        "https://www.mof.gov.sg/policies/taxes/corporate-income-tax/",
-        "https://www.corporateservices.com/singapore/corporate-tax-filing-in-singapore/",
         "https://vivos.com.sg/blog/what-taxes-do-businesses-really-pay-in-singapore/",
-        "https://www.expatica.com/sg/finance/taxes/singapore-corporate-tax-2173548/",
-        "https://www.corporateservices.com/singapore/corporate-tax-in-singapore/",
-        "https://www.rikvin.com/taxation/singapore-corporate-tax/",
-        "https://www.singaporecompanyincorporation.sg/how-to/taxation/singapore-corporate-tax-guide/",
-        "https://www.incorp.asia/singapore/tools/singapore-corporate-tax-calculator/",
-        "https://www.pilotoasia.com/guide/singapore-corporate-tax-guide",
-        "https://b2b-asianews.com/news/imf-to-asean-avoid-tax-competition/"
+        "https://www.expatica.com/sg/finance/taxes/singapore-corporate-tax-2173548/"
       ],
       "confidence": 0.99
     },
@@ -169,7 +137,7 @@
       "velocity": "Medium",
       "category": "International Corporate Tax",
       "summary": "The ASEAN region presents a highly diverse corporate tax landscape characterized by varying rates, exemptions, and digital tax adoption approaches, significantly influencing investment decisions and raising concerns about tax competition and harmonization. While Singapore maintains a competitive edge with its 17% rate (the lowest in ASEAN), countries like Cambodia and Thailand have rates around 20%, with Brunei offering 0% for local companies and Indonesia offering reductions for smaller local corporate taxpayers. Variations also exist in consumption taxes like GST/VAT. Several ASEAN+3 economies are actively reviewing and amending domestic laws to align with global minimum tax (Pillar Two) requirements, reflecting the region's increasing interest to global businesses.",
-      "evidence": "Corporate tax rates vary significantly across ASEAN nations, with Singapore at 17% (the lowest in ASEAN). Countries like Cambodia and Thailand have rates around 20%. Brunei has a 0% corporate tax rate for local companies. Indonesia has a flat rate of 25%, with reductions for smaller local corporate taxpayers with gross revenue up to IDR 50bn entitled to a 50% income tax rate reduction. This diversity influences tax competition and harmonization efforts. Several ASEAN+3 economies have initiated reviews and amendments to their domestic laws to apply a top-up tax to meet Pillar Two's 15% effective corporate income tax rate for large MNEs. The region also shows variation in consumption taxes, with Singapore and Malaysia using GST, Myanmar imposing a commercial tax, and Brunei having no VAT.",
+      "evidence": "Corporate tax rates vary significantly across ASEAN nations, with Singapore at 17% (the lowest in ASEAN). Countries like Cambodia and Thailand have rates around 20%. Brunei has a 0% corporate tax rate for local companies. Indonesia has a flat rate of 25%, with reductions for smaller local corporate taxpayers with gross revenue up to IDR 50bn entitled to a 50% income tax rate reduction. This diversity influences tax competition and harmonization efforts. Several ASEAN+3 economies have initiated reviews and amendments to their domestic laws to apply a top-up tax to meet Pillar Two's 15% effective corporate income tax rate for large MNEs. The region also shows variation in consumption taxes, with Singapore and Malaysia using GST, Myanmar imposing a commercial tax, and Brunei having no VAT. Research indicates ongoing concerns about integration, tax competition, and harmonization within ASEAN.",
       "source_links": [
         "https://lup.lub.lu.se/luur/download?func=downloadFile&recordOId=1338636&fileOId=1646681",
         "https://b2b-asianews.com/news/imf-to-asean-avoid-tax-competition/",
@@ -181,15 +149,6 @@
         "https://www.alasoplascpas.com/Tax/Tax-Special-Issue2.pdf",
         "https://amro-asia.org/global-tax-reform-what-lies-ahead-for-asean3",
         "https://www.thebalancemoney.com/what-is-asean-3305810",
-        "https://lup.lub.lu.se/luur/download?func=downloadFile&recordOId=1338636&fileOId=1646681",
-        "https://b2b-asianews.com/news/imf-to-asean-avoid-tax-competition/",
-        "https://www.researchgate.net/figure/Corporate-Tax-Landscape-Across-ASEAN_fig10_320992230",
-        "https://www.lexology.com/library/detail.aspx?g=68ce04e5-7025-4bb2-8d0c-422aa4422326",
-        "https://tradingeconomics.com/country-list/corporate-tax-rate?continent=asia",
-        "https://www.aseanbriefing.com/news/comparing-tax-rates-across-asean/",
-        "https://theiabm.org/business-asean-spotlight-tax-rates/",
-        "https://www.alasoplascpas.com/Tax/Tax-Special-Issue2.pdf",
-        "https://amro-asia.org/global-tax-reform-what-lies-ahead-for-asean3",
         "https://asean-beta.vercel.app/asean"
       ],
       "confidence": 0.9
@@ -200,7 +159,7 @@
       "velocity": "Medium",
       "category": "Corporate Tax",
       "summary": "Beyond global minimum tax initiatives, numerous jurisdictions are implementing independent changes to their corporate income tax rates for 2026, including both increases (e.g., Slovenia's temporary rise to 22%) and decreases (e.g., Portugal's annual reduction until 2028), alongside adjustments to withholding taxes. These widespread legislative changes, applying from January 1, 2026, alongside a worldwide average statutory corporate income tax rate of 23.85%, underscore a dynamic global tax environment requiring continuous monitoring and careful business planning. Additionally, some countries like Turkey are introducing incentives for exporters and service centers, while the US tax code is also undergoing internal adjustments for 2026, with state-level corporate business tax rates experiencing significant volatility and proposals for federal hikes.",
-      "evidence": "Corporate and withholding tax rate changes are applying from January 1, 2026, across various jurisdictions. These changes are independent of global minimum tax initiatives, with examples including Portugal's corporate income tax decreasing by one percentage point per year from January 2026 until 2028, and Slovenia's top corporate income tax temporarily increasing from 19% to 22% for five years. The worldwide average statutory corporate income tax rate is 23.85%, with continuous adjustments tracked globally. Turkey has proposed tax law changes for May 2026, including reduced corporate tax rates for exporters and incentives for qualified service centers. The US tax code also anticipates changes for 2026, increasing taxes for some companies and decreasing for others based on factors like NCTI, BEAT, FDDEI, and R&D expensing, and state-level corporate business tax rates experienced significant volatility. President Joe Biden has also proposed hiking the US corporate tax rate to 28 per cent from 21 per cent.",
+      "evidence": "Corporate and withholding tax rate changes are applying from January 1, 2026, across various jurisdictions. These changes are independent of global minimum tax initiatives, with examples including Portugal's corporate income tax decreasing by one percentage point per year from January 2026 until 2028, and Slovenia's top corporate income tax temporarily increasing from 19% to 22% for five years. The worldwide average statutory corporate income tax rate is 23.85%, with continuous adjustments tracked globally. Turkey has proposed tax law changes for May 2026, including reduced corporate tax rates for exporters and incentives for qualified service centers. The US tax code also anticipates changes for 2026, increasing taxes for some companies and decreasing for others based on factors like NCTI, BEAT, FDDEI, and R&D expensing, and state-level corporate business tax rates experienced significant volatility. President Joe Biden has also proposed hiking the US corporate tax rate to 28 per cent from 21 per cent. The UAE introduced its federal corporate tax law on December 9, 2022.",
       "source_links": [
         "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/",
         "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
@@ -211,15 +170,11 @@
         "https://sede.agenciatributaria.es/Sede/en_gb/inicio.html",
         "https://bipartisanpolicy.org/issue-brief/international-tax-policy-where-the-u-s-stands-and-whats-ahead-in-2026/",
         "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates",
-        "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
         "https://taxspecialty.com/corporate-tax-rate-changes-2026-proposals/",
         "https://www.grantthornton.com/insights/alerts/tax/2025/legislative-updates/2026-international-tax-planning-guide",
         "https://bermudafin.com/corporate-income-tax-2026-guide/",
-        "https://en.wikipedia.org/wiki/List_of_countries_by_tax_rates",
         "https://www.cbc.ca/news/business/yellen-corporate-tax-rate-1.5975793",
-        "https://www.dentons.com/en/services-and-solutions/global-tax-guide-to-doing-business-in/the-netherlands",
         "https://www.irishtimes.com/business/economy/any-change-in-corporate-tax-rate-would-only-affect-very-large-companies-varadkar-1.4679700",
-        "https://www.cbc.ca/news/business/yellen-corporate-tax-rate-1.5975793",
         "https://www.businessinsider.com/janet-yellen-corporate-tax-global-minimum-overhaul-oecd-treasury-2021-3",
         "https://u.ae/en/information-and-services/finance-and-investment/taxation/corporate-tax"
       ],
@@ -230,8 +185,8 @@
       "stage": "Breakthrough",
       "velocity": "Medium",
       "category": "Compliance",
-      "summary": "The global trend towards digital tax transformation is accelerating, with a growing emphasis on e-invoicing as a standardized method for electronic billing. This involves the electronic presentation and exchange of various transactional documents in structured data formats (e.g., EDI, XML). E-invoicing incorporates descriptive tax data, including direct and indirect tax data, to meet domestic and international financial reporting standards, particularly for Goods and Services Tax (GST) and Value Added Tax (VAT), leading to improved compliance, efficiency, cost savings, and faster payment cycles through validation on designated portals for B2B, Exports, Deemed Exports, and B2C transactions. The digitization helps automate invoice creation and management, with tools available for managing GST/HST and other tax records.",
-      "evidence": "E-invoicing, an umbrella term for electronic billing, encompasses various technologies like Electronic Data Interchange (EDI) and XML data file formats for transmitting highly standardized, structured information. It is designed to include descriptive tax data to comply with government standards for financial reporting, streamline invoice management, reduce errors, and improve compliance for transactional documents. This global shift aims for cost savings, improved accuracy, sustainability, and enhanced compliance, particularly for consumption taxes like GST and VAT. Under this concept, B2B invoices issued by a taxpayer are often required to be validated on a designated Invoice Registration Portal (IRP), facilitating the electronic exchange of invoices. The e-invoicing schema often covers not just B2B but also Exports, Deemed Exports and B2C transactions, automating how businesses create and manage invoices. Businesses are responsible for collecting and remitting GST/HST, and tools are available for managing these tax records. The development involves heavy database management for tracking invoices, payments, and histories; backend automation.",
+      "summary": "The global trend towards digital tax transformation is accelerating, with a growing emphasis on e-invoicing as a standardized method for electronic billing. This involves the electronic presentation and exchange of various transactional documents in structured data formats (e.g., EDI, XML). E-invoicing incorporates descriptive tax data, including direct and indirect tax data, to meet domestic and international financial reporting standards, particularly for Goods and Services Tax (GST) and Value Added Tax (VAT), leading to improved compliance, efficiency, cost savings, and faster payment cycles through validation on designated portals for B2B, Exports, Deemed Exports, and B2C transactions. The digitization helps automate invoice creation and management, with tools available for managing GST/HST and other tax records. This transformation reshapes how businesses operate across borders.",
+      "evidence": "E-invoicing, an umbrella term for electronic billing, encompasses various technologies like Electronic Data Interchange (EDI) and XML data file formats for transmitting highly standardized, structured information. It is designed to include descriptive tax data to comply with government standards for financial reporting, streamline invoice management, reduce errors, and improve compliance for transactional documents. This global shift aims for cost savings, improved accuracy, sustainability, and enhanced compliance, particularly for consumption taxes like GST and VAT. Under this concept, B2B invoices issued by a taxpayer are often required to be validated on a designated Invoice Registration Portal (IRP), facilitating the electronic exchange of invoices. The e-invoicing schema often covers not just B2B but also Exports, Deemed Exports and B2C transactions, automating how businesses create and manage invoices. Businesses are responsible for collecting and remitting GST/HST, and tools are available for managing these tax records. The development involves heavy database management for tracking invoices, payments, and histories; backend automation. E-invoicing has become a core part of digital transformation in tax and finance, reshaping how businesses operate across borders.",
       "source_links": [
         "https://en.wikipedia.org/wiki/E-invoicing",
         "https://en.wikipedia.org/wiki/Electronic_invoicing",
@@ -253,19 +208,14 @@
         "https://taxsummaries.pwc.com/india/corporate/other-taxes",
         "https://stratrich.com/insights/business-tax-in-india/",
         "https://www.ssauditor.com/post/gst-registration-for-private-limited-company-step-by-step-guide",
-        "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html",
         "https://www.gst.gov.in/",
-        "https://taxsummaries.pwc.com/india/corporate/other-taxes",
-        "https://stratrich.com/insights/business-tax-in-india/",
-        "https://grokipedia.com/page/Invoicing_Software",
-        "https://www.linkedin.com/pulse/e-invoicing-move-strengthen-indias-digital-footprints-mayank-goel",
-        "https://en.wikipedia.org/wiki/List_of_countries_by_tax_rates",
-        "https://en.wikipedia.org/wiki/E-invoicing",
-        "https://en.wikipedia.org/wiki/Electronic_invoicing",
-        "https://www.investopedia.com/terms/g/gst.asp",
         "https://vakilsearch.com/gst-registration",
         "https://www.caclubindia.com/experts/gst-liability-for-service-providers-2960309.asp",
-        "https://invoicing.eta.gov.eg/"
+        "https://invoicing.eta.gov.eg/",
+        "https://services.gst.gov.in/services/searchtp",
+        "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)",
+        "https://www.linkedin.com/pulse/why-so-many-e-invoicing-projects-fall-apart-what-smart-fabio-santoro-siluf",
+        "https://simal-khan101.medium.com/busting-common-myths-about-e-invoicing-81aed481c98f"
       ],
       "confidence": 0.95
     },
