@@ -488,7 +488,7 @@ function createTrendCard(trend, archivedTrends = []) {
     card.className = 'trend-card';
     card.tabIndex = 0;
     card.setAttribute('role', 'button');
-    card.setAttribute('aria-label', `Open details for ${trend.name || trend.title || 'trend'}`);
+    card.setAttribute('aria-label', `Open full details and sources for ${trend.name || trend.title || 'trend'}`);
     
     const name = trend.name || trend.title || "Unknown Trend";
     const summary = trend.summary || trend.description || "No summary available.";
@@ -510,6 +510,7 @@ function createTrendCard(trend, archivedTrends = []) {
     
     const evidence = trend.evidence || trend.keywords || [];
     const evidenceList = Array.isArray(evidence) ? evidence : [evidence];
+    const sourceDetails = getSourceDetails(trend);
 
     const header = document.createElement('div');
     header.className = 'trend-header';
@@ -531,7 +532,7 @@ function createTrendCard(trend, archivedTrends = []) {
 
     const summaryEl = document.createElement('p');
     summaryEl.className = 'trend-summary';
-    summaryEl.textContent = summary;
+    summaryEl.textContent = summarizeForCard(summary);
 
     const changeRow = document.createElement('div');
     changeRow.className = 'change-row';
@@ -541,21 +542,26 @@ function createTrendCard(trend, archivedTrends = []) {
         createPill(`${sourceQuality.source_risk || 'unknown'} source risk`)
     );
 
-    const evidenceWrap = document.createElement('div');
-    evidenceWrap.className = 'evidence-list';
-    evidenceList.slice(0, 3).forEach(item => {
-        const evidenceItem = document.createElement('div');
-        evidenceItem.className = 'evidence-item';
-        evidenceItem.textContent = item;
-        evidenceWrap.appendChild(evidenceItem);
-    });
+    const signalStrip = document.createElement('div');
+    signalStrip.className = 'signal-strip';
+    signalStrip.append(
+        createSignalItem('Evidence', evidenceList.length),
+        createSignalItem('Sources', sourceDetails.length),
+        createSignalItem('Primary', sourceDetails.filter(source => source.type === 'primary').length),
+        createSignalItem('Flags', (trend.validation_flags || []).length)
+    );
 
-    const sourceLinks = document.createElement('div');
-    sourceLinks.className = 'source-links-container';
-    getSourceDetails(trend).slice(0, 4).forEach((source, idx) => {
-        const link = createSourceLink(source.url, source.domain || `SRC_${idx + 1}`, source.type);
-        if (link) sourceLinks.appendChild(link);
-    });
+    const preview = document.createElement('div');
+    preview.className = 'card-preview';
+    const previewLabel = document.createElement('span');
+    previewLabel.textContent = 'Key signal';
+    const previewText = document.createElement('p');
+    previewText.textContent = summarizeForCard(evidenceList[0] || trend.reasoning || summary, 120);
+    preview.append(previewLabel, previewText);
+
+    const detailsHint = document.createElement('div');
+    detailsHint.className = 'details-hint';
+    detailsHint.textContent = `View details, reasoning, and ${sourceDetails.length} source${sourceDetails.length === 1 ? '' : 's'}`;
 
     const footer = document.createElement('div');
     footer.className = 'trend-footer';
@@ -572,7 +578,7 @@ function createTrendCard(trend, archivedTrends = []) {
     id.textContent = `ID: ${trend.id || stableTrendId(name)}`;
     footer.append(confidenceEl, bar, id);
 
-    card.append(header, summaryEl, changeRow, evidenceWrap, sourceLinks, footer);
+    card.append(header, summaryEl, changeRow, signalStrip, preview, detailsHint, footer);
     card.addEventListener('click', event => {
         if (event.target.closest('a')) return;
         openTrendDrawer(trend, findArchiveHistory(trend, archivedTrends));
@@ -584,6 +590,27 @@ function createTrendCard(trend, archivedTrends = []) {
         }
     });
     return card;
+}
+
+function summarizeForCard(text, maxLength = 220) {
+    const clean = String(text || '').replace(/\s+/g, ' ').trim();
+    if (clean.length <= maxLength) return clean;
+    const slice = clean.slice(0, maxLength + 1);
+    const sentenceEnd = Math.max(slice.lastIndexOf('. '), slice.lastIndexOf('; '));
+    if (sentenceEnd > 90) return `${slice.slice(0, sentenceEnd + 1).trim()}`;
+    const wordEnd = slice.lastIndexOf(' ');
+    return `${slice.slice(0, wordEnd > 80 ? wordEnd : maxLength).trim()}...`;
+}
+
+function createSignalItem(label, value) {
+    const item = document.createElement('div');
+    item.className = 'signal-item';
+    const valueEl = document.createElement('strong');
+    valueEl.textContent = value;
+    const labelEl = document.createElement('span');
+    labelEl.textContent = label;
+    item.append(valueEl, labelEl);
+    return item;
 }
 
 function createPill(text) {
