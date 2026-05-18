@@ -5,6 +5,7 @@ import base64
 import re
 import sys
 from datetime import datetime
+from intelligence_utils import build_updated_documents
 
 # Configuration (Use Pipedream Env Variables)
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
@@ -52,17 +53,32 @@ def fetch_archive():
         return json_lib.loads(base64.b64decode(content['content']).decode('utf-8')), content['sha']
     return {"archived_trends": []}, None
 
-def update_github_file(path, content_obj, sha, message):
+def update_github_json(path, content_obj, sha, message):
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}"
     headers = {"Authorization": f"token {GITHUB_TOKEN}"}
     content_str = json_lib.dumps(content_obj, indent=2)
     encoded = base64.b64encode(content_str.encode('utf-8')).decode('utf-8')
     data = {
         "message": message,
-        "content": encoded,
-        "sha": sha
+        "content": encoded
     }
-    requests.put(url, headers=headers, json=data)
+    if sha:
+        data["sha"] = sha
+    response = requests.put(url, headers=headers, json=data)
+    response.raise_for_status()
+
+def update_github_text(path, content_text, sha, message):
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}"
+    headers = {"Authorization": f"token {GITHUB_TOKEN}"}
+    encoded = base64.b64encode(content_text.encode('utf-8')).decode('utf-8')
+    data = {
+        "message": message,
+        "content": encoded
+    }
+    if sha:
+        data["sha"] = sha
+    response = requests.put(url, headers=headers, json=data)
+    response.raise_for_status()
 
 def get_search_results(query):
     """
@@ -72,11 +88,20 @@ def get_search_results(query):
     try:
         from ddgs import DDGS
         with DDGS() as ddgs:
-            results = [{"body": r['body'], "url": r['href']} for r in ddgs.text(query, max_results=5)]
+            results = [
+                {
+                    "title": r.get("title"),
+                    "body": r.get("body"),
+                    "url": r.get("href"),
+                    "date": r.get("date"),
+                    "query": query,
+                }
+                for r in ddgs.text(query, max_results=5)
+            ]
             return results
     except Exception as e:
         print(f"Search error for {query}: {e}")
-        return [f"Error fetching data for {query}"]
+        return []
 
 def summarize_context(trend_map):
     """Reduces the trend_map to a snapshot to save Gemini tokens."""
@@ -128,11 +153,12 @@ def handler(pd: "pipedream"):
        YOU MUST include the 'executive_briefing' (2-3 paragraphs) as a string field inside the top-level JSON object.
        The `stage` MUST BE exactly one of: "Incubation", "Breakthrough", "Peak Hype", or "Fatigue".
        Extract the specific URLs from 'New Raw Data' that support each trend and include them in `source_links`.
+       Include a short `reasoning` field explaining why the stage and velocity changed or stayed stable.
        ```json
        {{ 
          "executive_briefing": "...",
          "trends": [
-           {{ "name": "...", "stage": "...", "velocity": "...", "category": "...", "confidence": 0.9, "summary": "...", "evidence": "...", "source_links": ["https://..."] }}
+           {{ "name": "...", "stage": "...", "velocity": "...", "category": "...", "confidence": 0.9, "summary": "...", "evidence": ["..."], "source_links": ["https://..."], "reasoning": "..." }}
          ] 
        }}
        ```
@@ -146,6 +172,7 @@ def handler(pd: "pipedream"):
         "gemini-flash-latest"
     ]
     res_json = {}
+    successful_model = None
     
     for model_id in models_to_try:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_id}:generateContent?key={GEMINI_API_KEY}"
@@ -169,6 +196,7 @@ def handler(pd: "pipedream"):
             if "candidates" in res_json:
                 text = res_json['candidates'][0]['content']['parts'][0]['text']
                 if '{' in text:
+                    successful_model = model_id
                     print(f"Success using {model_id} (Found JSON)")
                     sys.stdout.flush()
                     break
@@ -201,28 +229,11 @@ def handler(pd: "pipedream"):
             # For other errors, we still try the next model just in case
             continue
 
-    if "candidates" not in res_json:
+    if not successful_model or "candidates" not in res_json:
         return {"status": "Error", "message": "Gemini API Error (All models exhausted or failed)", "details": res_json}
         
     raw_response = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
     
-    # 5. Save Narrative Briefing to GitHub
-    briefing_path = "trend_briefing.md"
-    briefing_sha = None
-    # Try to get existing SHA if it exists
-    try:
-        url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{briefing_path}"
-        headers = {"Authorization": f"token {GITHUB_TOKEN}"}
-        r = requests.get(url, headers=headers)
-        if r.status_code == 200:
-            briefing_sha = r.json()['sha']
-    except:
-        pass
-        
-    briefing_content = f"# Narrative Intelligence Briefing - {datetime.utcnow().strftime('%Y-%m-%d %H:%M')}\n\n" + raw_response
-    update_github_file(briefing_path, briefing_content, briefing_sha, "Update Narrative Briefing")
-    print("Updated trend_briefing.md on GitHub")
-
     # 5. Extract JSON for Map & Briefing
     start_index = raw_response.find('{')
     if start_index != -1:
@@ -261,52 +272,20 @@ def handler(pd: "pipedream"):
         pass
         
     briefing_content = f"# Narrative Intelligence Briefing - {datetime.utcnow().strftime('%Y-%m-%d %H:%M')}\n\n" + briefing_text
-    update_github_file(briefing_path, briefing_content, briefing_sha, "Update Narrative Briefing")
+    update_github_text(briefing_path, briefing_content, briefing_sha, "Update Narrative Briefing")
     print("Updated trend_briefing.md on GitHub")
 
-    # 7. Apply Pruning & Merge Trends
-    # We only keep trends returned by the AI, dropping unmentioned ones to prevent bloat.
-    historical_map = {t.get("name", t.get("title", "")): t for t in current_map.get("trends", [])}
-    final_trends_map = {}
-    archived_trends = archive_map.get("archived_trends", [])
-    
-    for ait in ai_trends:
-        name = ait.get("name", ait.get("title", ""))
-        if not name: continue
-        
-        if name in historical_map:
-            # Update existing: keep historical data, overwrite with AI's new insights
-            merged = historical_map[name].copy()
-            merged.update(ait)
-            final_trends_map[name] = merged
-            # Remove from historical_map so we know what was kept
-            del historical_map[name]
-        else:
-            final_trends_map[name] = ait
-            
-    # Anything left in historical_map was pruned by the AI. Move to archive.
-    for name, dropped_trend in historical_map.items():
-        dropped_trend["archived_at"] = datetime.utcnow().isoformat() + "Z"
-        archived_trends.append(dropped_trend)
-    
-    # Build the final document
-    updated_map = {
-        "last_updated": datetime.utcnow().isoformat() + "Z",
-        "executive_briefing": briefing_text,
-        "trends": list(final_trends_map.values()),
-        "intelligence_metadata": {
-            "agent": model_id,
-            "timestamp": datetime.utcnow().isoformat() + "Z",
-            "active_narratives": len(final_trends_map)
-        }
-    }
-    
-    updated_archive = {
-        "last_updated": datetime.utcnow().isoformat() + "Z",
-        "archived_trends": archived_trends
-    }
+    updated_map, updated_archive = build_updated_documents(
+        current_map=current_map,
+        archive_map=archive_map,
+        ai_trends=ai_trends,
+        briefing_text=briefing_text,
+        model_id=successful_model,
+        focus="Global Tech",
+        raw_intel=raw_intelligence,
+    )
     
     # 8. Commit Back to GitHub
-    update_github_file("trend_map.json", updated_map, sha, "Narrative Intelligence Update")
-    update_github_file("archive.json", updated_archive, archive_sha, "Archive Pruned Trends")
+    update_github_json("trend_map.json", updated_map, sha, "Narrative Intelligence Update")
+    update_github_json("archive.json", updated_archive, archive_sha, "Archive Pruned Trends")
     return {"status": "Success", "trends": len(updated_map["trends"])}

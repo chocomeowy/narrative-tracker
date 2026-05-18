@@ -4,6 +4,7 @@ import os
 import re
 import sys
 from datetime import datetime
+from intelligence_utils import build_updated_documents
 
 # Configuration (GitHub Secrets)
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
@@ -67,7 +68,16 @@ def get_search_results(query):
     try:
         from ddgs import DDGS
         with DDGS() as ddgs:
-            results = [{"body": r['body'], "url": r['href']} for r in ddgs.text(query, max_results=5)]
+            results = [
+                {
+                    "title": r.get("title"),
+                    "body": r.get("body"),
+                    "url": r.get("href"),
+                    "date": r.get("date"),
+                    "query": query,
+                }
+                for r in ddgs.text(query, max_results=5)
+            ]
             return results
     except Exception as e:
         print(f"Search error: {e}")
@@ -119,11 +129,12 @@ def run_agent():
        YOU MUST include the 'executive_briefing' as a string field inside the top-level JSON object.
        The `stage` MUST BE exactly one of: "Incubation", "Breakthrough", "Peak Hype", or "Fatigue".
        Extract the specific URLs from 'New Intel' that support each trend and include them in `source_links`.
+       Include a short `reasoning` field explaining why the stage and velocity changed or stayed stable.
        ```json
        {{
          "executive_briefing": "...",
          "trends": [
-           {{ "name": "...", "stage": "...", "velocity": "...", "category": "...", "summary": "...", "evidence": "...", "source_links": ["https://..."], "confidence": 0.9 }}
+           {{ "name": "...", "stage": "...", "velocity": "...", "category": "...", "summary": "...", "evidence": ["..."], "source_links": ["https://..."], "confidence": 0.9, "reasoning": "..." }}
          ]
        }}
        ```
@@ -218,43 +229,15 @@ def run_agent():
         print("No JSON object found in AI response")
         return
         
-    historical_map = {t.get("name", ""): t for t in current_map.get("trends", [])}
-    final_trends_map = {}
-    archived_trends = archive_map.get("archived_trends", [])
-    
-    for ait in ai_trends:
-        name = ait.get("name", "")
-        if not name: continue
-        
-        if name in historical_map:
-            merged = historical_map[name].copy()
-            merged.update(ait)
-            final_trends_map[name] = merged
-            # Remove from historical_map so we know what was kept
-            del historical_map[name]
-        else:
-            final_trends_map[name] = ait
-            
-    # Anything left in historical_map was pruned by the AI. Move to archive.
-    for name, dropped_trend in historical_map.items():
-        dropped_trend["archived_at"] = datetime.utcnow().isoformat() + "Z"
-        archived_trends.append(dropped_trend)
-    
-    updated_map = {
-        "last_updated": datetime.utcnow().isoformat() + "Z",
-        "executive_briefing": briefing_text,
-        "trends": list(final_trends_map.values()),
-        "intelligence_metadata": {
-            "agent": successful_model,
-            "focus": "Corporate Tax / Tariffs",
-            "timestamp": datetime.utcnow().isoformat() + "Z"
-        }
-    }
-    
-    updated_archive = {
-        "last_updated": datetime.utcnow().isoformat() + "Z",
-        "archived_trends": archived_trends
-    }
+    updated_map, updated_archive = build_updated_documents(
+        current_map=current_map,
+        archive_map=archive_map,
+        ai_trends=ai_trends,
+        briefing_text=briefing_text,
+        model_id=successful_model,
+        focus="Corporate Tax / Tariffs",
+        raw_intel=raw_intel,
+    )
     
     # 6. Save back to local files
     with open("tax_trend_map.json", "w") as f:

@@ -49,6 +49,54 @@
             <div id="briefing-text" class="briefing-content"></div>
         </section>
 
+        <section id="ai-showcase" class="ai-showcase">
+            <div class="ai-showcase-header">
+                <div>
+                    <div class="stat-label">AI Information Gathering Console</div>
+                    <h2>From open web signals to the exact intelligence view I want</h2>
+                </div>
+                <div id="ai-showcase-status" class="ai-status-pill">Waiting for agent run</div>
+            </div>
+
+            <div class="ai-pipeline">
+                <div class="ai-pipeline-step">
+                    <div class="step-index">01</div>
+                    <h3>Steer</h3>
+                    <p>The agent starts from my focus areas and ignored topics instead of gathering generic news.</p>
+                </div>
+                <div class="ai-pipeline-step">
+                    <div class="step-index">02</div>
+                    <h3>Gather</h3>
+                    <p>It searches across current public sources and keeps the supporting links for audit.</p>
+                </div>
+                <div class="ai-pipeline-step">
+                    <div class="step-index">03</div>
+                    <h3>Synthesize</h3>
+                    <p>AI clusters scattered source snippets into narrative trends, stages, velocity, and reasoning.</p>
+                </div>
+                <div class="ai-pipeline-step">
+                    <div class="step-index">04</div>
+                    <h3>Validate</h3>
+                    <p>The output is schema checked, source-risk flagged, deduped, and compared with the previous run.</p>
+                </div>
+            </div>
+
+            <div class="ai-signal-grid">
+                <div class="ai-panel">
+                    <div class="panel-label">My Current Research Intent</div>
+                    <div id="ai-focus-list" class="focus-list"></div>
+                </div>
+                <div class="ai-panel">
+                    <div class="panel-label">Useful AI Output</div>
+                    <div id="ai-output-metrics" class="output-metrics"></div>
+                </div>
+                <div class="ai-panel ai-panel-wide">
+                    <div class="panel-label">What Changed Since The Last Run</div>
+                    <div id="ai-change-log" class="change-log"></div>
+                </div>
+            </div>
+        </section>
+
         <div id="lifecycle-map" class="lifecycle-container">
             <!-- Stages will be injected here -->
             <div id="incubation-section" class="stage-section">

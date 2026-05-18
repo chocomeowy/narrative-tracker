@@ -8,6 +8,7 @@ let cachedSteering = null;
 
 async function init() {
     setupTabs();
+    setupDetailDrawer();
     await loadData();
 }
 
@@ -91,13 +92,25 @@ async function loadData(forceRefresh = false) {
         const trends = cachedData.trends || cachedData.active_trends || [];
 
         if (trends.length === 0) {
-            showPlaceholder(cachedSteering);
+            showDataState('No Active Intelligence', `${currentFocusLabel} loaded successfully, but the latest agent run did not publish any active trends.`);
+            renderDashboard(cachedData, cachedSteering, [], cachedArchive || { archived_trends: [] });
         } else {
+            hideDataState();
             renderDashboard(cachedData, cachedSteering, trends, cachedArchive || { archived_trends: [] });
         }
     } catch (error) {
         console.error("Data loading error:", error);
-        showPlaceholder();
+        clearTrendSections();
+        showDataState('Data Unavailable', `Could not load ${currentDataSource}. The dashboard is not showing projected or mock intelligence.`);
+        updateRunHealth({
+            run_health: {
+                status: 'failed',
+                focus: currentFocusLabel,
+                validation_failures: [error.message],
+                search_result_count: 0,
+                validation_error_count: 1
+            }
+        });
     }
 }
 
@@ -115,6 +128,8 @@ function renderDashboard(data, steering, trends = [], archiveData = { archived_t
     }
     if (countTotalEl) countTotalEl.innerText = activeTrends.length;
     if (currentFocusEl) currentFocusEl.innerText = currentFocusLabel;
+    updateRunHealth(data);
+    renderAIShowcase(data, steering, activeTrends);
 
     // Handle Briefing
     const briefingContainer = document.getElementById('briefing-container');
@@ -148,15 +163,11 @@ function renderDashboard(data, steering, trends = [], archiveData = { archived_t
     }
 
     // Clear sections
-    const stages = ['incubation', 'breakthrough', 'peak-hype', 'fatigue'];
-    stages.forEach(stage => {
-        const el = document.getElementById(`${stage}-trends`);
-        if (el) el.innerHTML = '';
-    });
+    clearTrendSections();
 
     // Staggered Reveal Logic
     filteredTrends.forEach((trend, index) => {
-        const card = createTrendCard(trend);
+        const card = createTrendCard(trend, archivedTrends);
         let stageKey = (trend.stage || 'incubation').toLowerCase().replace(/\s+/g, '-');
         
         if (stageKey.includes('emerging') || stageKey.includes('growth') || stageKey.includes('developing')) stageKey = 'breakthrough';
@@ -179,6 +190,156 @@ function renderDashboard(data, steering, trends = [], archiveData = { archived_t
             }
         }
     });
+}
+
+function clearTrendSections() {
+    const stages = ['incubation', 'breakthrough', 'peak-hype', 'fatigue'];
+    stages.forEach(stage => {
+        const el = document.getElementById(`${stage}-trends`);
+        if (el) el.innerHTML = '';
+    });
+}
+
+function showDataState(title, message) {
+    let state = document.getElementById('data-state');
+    if (!state) {
+        state = document.createElement('section');
+        state.id = 'data-state';
+        state.className = 'data-state-card';
+        const lifecycleMap = document.getElementById('lifecycle-map');
+        lifecycleMap.parentNode.insertBefore(state, lifecycleMap);
+    }
+    state.textContent = '';
+    const heading = document.createElement('div');
+    heading.className = 'data-state-title';
+    heading.textContent = title;
+    const copy = document.createElement('p');
+    copy.textContent = message;
+    state.append(heading, copy);
+    state.style.display = 'block';
+}
+
+function hideDataState() {
+    const state = document.getElementById('data-state');
+    if (state) state.style.display = 'none';
+}
+
+function updateRunHealth(data) {
+    const health = data.run_health || (data.intelligence_metadata && data.intelligence_metadata.run_health) || data.intelligence_metadata || {};
+    let card = document.getElementById('run-health-card');
+    if (!card) {
+        card = document.createElement('div');
+        card.id = 'run-health-card';
+        card.className = 'stat-card run-health-card';
+        const statsGrid = document.querySelector('.stats-grid');
+        if (statsGrid) statsGrid.appendChild(card);
+    }
+
+    const status = health.status || 'unknown';
+    const statusClass = status === 'success' ? 'health-success' : status === 'warning' ? 'health-warning' : 'health-failed';
+    card.textContent = '';
+    const label = document.createElement('div');
+    label.className = 'stat-label';
+    label.textContent = 'Run Health';
+    const value = document.createElement('div');
+    value.className = `stat-value run-health-value ${statusClass}`;
+    value.textContent = status.toUpperCase();
+    const meta = document.createElement('div');
+    meta.className = 'run-health-meta';
+    const model = health.model || health.agent || data.intelligence_metadata?.agent || 'unknown model';
+    const searchCount = health.search_result_count ?? 'n/a';
+    const validationCount = health.validation_error_count ?? 0;
+    meta.textContent = `${model} | ${searchCount} search results | ${validationCount} validation flags`;
+    card.append(label, value, meta);
+}
+
+function renderAIShowcase(data, steering, trends) {
+    const statusEl = document.getElementById('ai-showcase-status');
+    const focusList = document.getElementById('ai-focus-list');
+    const outputMetrics = document.getElementById('ai-output-metrics');
+    const changeLog = document.getElementById('ai-change-log');
+    if (!statusEl || !focusList || !outputMetrics || !changeLog) return;
+
+    const health = data.run_health || (data.intelligence_metadata && data.intelligence_metadata.run_health) || data.intelligence_metadata || {};
+    const status = health.status || 'unknown';
+    statusEl.textContent = `${status.toUpperCase()} | ${health.model || health.agent || data.intelligence_metadata?.agent || 'model pending'}`;
+    statusEl.className = `ai-status-pill ai-status-${status}`;
+
+    focusList.textContent = '';
+    const focusAreas = Array.isArray(steering?.focus_areas) && steering.focus_areas.length ? steering.focus_areas : [currentFocusLabel];
+    focusAreas.slice(0, 8).forEach(area => {
+        const item = document.createElement('div');
+        item.className = 'focus-chip';
+        item.textContent = area;
+        focusList.appendChild(item);
+    });
+    if (steering?.custom_directives) {
+        const directive = document.createElement('p');
+        directive.className = 'directive-copy';
+        directive.textContent = steering.custom_directives;
+        focusList.appendChild(directive);
+    }
+
+    const sourceDetails = trends.flatMap(trend => getSourceDetails(trend));
+    const sourceTypes = sourceDetails.reduce((acc, source) => {
+        const type = source.type || 'legacy';
+        acc[type] = (acc[type] || 0) + 1;
+        return acc;
+    }, {});
+    const newTrendCount = trends.filter(trend => trend.changed_since_previous_run?.is_new).length;
+    const changedTrendCount = trends.filter(trend => {
+        const change = trend.changed_since_previous_run || {};
+        return change.is_new || Number(change.stage_delta || 0) !== 0 || Number(change.velocity_delta || 0) !== 0 || (change.new_sources || []).length || (change.dropped_sources || []).length;
+    }).length;
+    const weakSourceCount = trends.filter(trend => (trend.validation_flags || []).length || trend.source_quality?.source_risk === 'high').length;
+
+    outputMetrics.textContent = '';
+    [
+        ['Search results read', health.search_result_count ?? 'n/a'],
+        ['Narratives synthesized', trends.length],
+        ['Changed narratives', changedTrendCount],
+        ['New narratives', newTrendCount],
+        ['Primary sources', sourceTypes.primary || 0],
+        ['Weak-source flags', weakSourceCount],
+    ].forEach(([label, value]) => outputMetrics.appendChild(createMetricRow(label, value)));
+
+    changeLog.textContent = '';
+    const changes = trends
+        .map(trend => ({ trend, change: trend.changed_since_previous_run || {} }))
+        .filter(({ change }) => change.is_new || Number(change.stage_delta || 0) !== 0 || Number(change.velocity_delta || 0) !== 0 || (change.new_sources || []).length || (change.dropped_sources || []).length)
+        .slice(0, 6);
+
+    if (!changes.length) {
+        const empty = document.createElement('p');
+        empty.className = 'muted-copy';
+        empty.textContent = 'No major movement was detected in the latest published data. That itself is useful signal: the agent preserved stable narratives instead of inventing movement.';
+        changeLog.appendChild(empty);
+        return;
+    }
+
+    changes.forEach(({ trend, change }) => {
+        const item = document.createElement('div');
+        item.className = 'change-log-item';
+        const title = document.createElement('strong');
+        title.textContent = trend.name || 'Unknown trend';
+        const detail = document.createElement('span');
+        detail.textContent = change.is_new
+            ? `New narrative with ${(change.new_sources || []).length} supporting source(s).`
+            : `Stage ${formatDelta(change.stage_delta)}, velocity ${formatDelta(change.velocity_delta)}, ${(change.new_sources || []).length} new source(s), ${(change.dropped_sources || []).length} dropped.`;
+        item.append(title, detail);
+        changeLog.appendChild(item);
+    });
+}
+
+function createMetricRow(label, value) {
+    const row = document.createElement('div');
+    row.className = 'metric-row';
+    const labelEl = document.createElement('span');
+    labelEl.textContent = label;
+    const valueEl = document.createElement('strong');
+    valueEl.textContent = value;
+    row.append(labelEl, valueEl);
+    return row;
 }
 
 function renderHeatmap(trends) {
@@ -248,14 +409,19 @@ function showFilterIndicator() {
     }
     
     let filterText = "Filtering by ";
-    if (currentFilter.category && currentFilter.stage) filterText += `<strong>${currentFilter.category}</strong> in <strong>${currentFilter.stage}</strong>`;
-    else if (currentFilter.category) filterText += `Category: <strong>${currentFilter.category}</strong>`;
-    else if (currentFilter.stage) filterText += `Stage: <strong>${currentFilter.stage}</strong>`;
-    
-    indicator.innerHTML = `
-        <span>${filterText}</span>
-        <button onclick="clearFilters()" class="clear-filter-btn">Clear Filter</button>
-    `;
+    if (currentFilter.category && currentFilter.stage) filterText += `${currentFilter.category} in ${currentFilter.stage}`;
+    else if (currentFilter.category) filterText += `Category: ${currentFilter.category}`;
+    else if (currentFilter.stage) filterText += `Stage: ${currentFilter.stage}`;
+
+    indicator.textContent = '';
+    const label = document.createElement('span');
+    label.textContent = filterText;
+    const clearBtn = document.createElement('button');
+    clearBtn.className = 'clear-filter-btn';
+    clearBtn.type = 'button';
+    clearBtn.textContent = 'Clear Filter';
+    clearBtn.addEventListener('click', clearFilters);
+    indicator.append(label, clearBtn);
     indicator.style.display = 'flex';
 }
 
@@ -317,14 +483,19 @@ function renderArchive(archivedTrends) {
     };
 }
 
-function createTrendCard(trend) {
+function createTrendCard(trend, archivedTrends = []) {
     const card = document.createElement('div');
     card.className = 'trend-card';
+    card.tabIndex = 0;
+    card.setAttribute('role', 'button');
+    card.setAttribute('aria-label', `Open details for ${trend.name || trend.title || 'trend'}`);
     
     const name = trend.name || trend.title || "Unknown Trend";
     const summary = trend.summary || trend.description || "No summary available.";
     const velocity = trend.velocity || "Stable";
     const confidence = trend.confidence || 0.8;
+    const change = trend.changed_since_previous_run || {};
+    const sourceQuality = trend.source_quality || {};
     
     const velLower = velocity.toString().toLowerCase();
     const isHighVelocity = velLower.includes('+') || 
@@ -337,118 +508,292 @@ function createTrendCard(trend) {
     const velocityClass = (isHighVelocity) ? 'velocity-up' : 
                           (velLower.includes('-') || velLower.includes('low') || velLower.includes('dropping')) ? 'velocity-down' : '';
     
-    // Robust evidence extraction
     const evidence = trend.evidence || trend.keywords || [];
     const evidenceList = Array.isArray(evidence) ? evidence : [evidence];
 
-    // Source links extraction
-    const sourceLinks = trend.source_links || [];
-    const sourceLinksHtml = sourceLinks.length > 0 
-        ? `<div class="source-links-container">
-             ${sourceLinks.map((link, idx) => {
-                 let domainText = "Link";
-                 try {
-                     domainText = new URL(link).hostname.replace(/^www\./, '');
-                 } catch (e) {
-                     domainText = `SRC_${idx + 1}`;
-                 }
-                 return `<a href="${link}" title="${link}" target="_blank" class="source-link" rel="noopener noreferrer">
-                     <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px; vertical-align: baseline;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>${domainText}
-                 </a>`;
-             }).join('')}
-           </div>`
-        : '';
+    const header = document.createElement('div');
+    header.className = 'trend-header';
+    const titleWrap = document.createElement('div');
+    const title = document.createElement('div');
+    title.className = 'trend-name';
+    title.textContent = name;
+    titleWrap.appendChild(title);
+    if (trend.category) {
+        const category = document.createElement('div');
+        category.className = 'category-badge';
+        category.textContent = trend.category;
+        titleWrap.appendChild(category);
+    }
+    const velocityEl = document.createElement('div');
+    velocityEl.className = `trend-velocity ${velocityClass}`;
+    velocityEl.textContent = velocity;
+    header.append(titleWrap, velocityEl);
 
-    const categoryHtml = trend.category ? `<div class="category-badge">${trend.category}</div>` : '';
+    const summaryEl = document.createElement('p');
+    summaryEl.className = 'trend-summary';
+    summaryEl.textContent = summary;
 
-    card.innerHTML = `
-        <div class="trend-header">
-            <div>
-                <div class="trend-name">${name}</div>
-                ${categoryHtml}
-            </div>
-            <div class="trend-velocity ${velocityClass}">${velocity}</div>
-        </div>
-        <p class="trend-summary">${summary}</p>
-        <div class="evidence-list">
-            ${evidenceList.slice(0, 3).map(e => `<div class="evidence-item">${e}</div>`).join('')}
-        </div>
-        ${sourceLinksHtml}
-        <div class="trend-footer">
-            <div>CONFIDENCE: ${Math.round(confidence * 100)}%</div>
-            <div class="confidence-bar">
-                <div class="confidence-fill" style="width: ${confidence * 100}%"></div>
-            </div>
-            <div style="font-size: 0.6rem;">ID: ${Math.random().toString(36).substr(2, 6).toUpperCase()}</div>
-        </div>
-    `;
+    const changeRow = document.createElement('div');
+    changeRow.className = 'change-row';
+    changeRow.append(
+        createPill(change.is_new ? 'NEW' : `STAGE ${formatDelta(change.stage_delta)}`),
+        createPill(`VEL ${formatDelta(change.velocity_delta)}`),
+        createPill(`${sourceQuality.source_risk || 'unknown'} source risk`)
+    );
+
+    const evidenceWrap = document.createElement('div');
+    evidenceWrap.className = 'evidence-list';
+    evidenceList.slice(0, 3).forEach(item => {
+        const evidenceItem = document.createElement('div');
+        evidenceItem.className = 'evidence-item';
+        evidenceItem.textContent = item;
+        evidenceWrap.appendChild(evidenceItem);
+    });
+
+    const sourceLinks = document.createElement('div');
+    sourceLinks.className = 'source-links-container';
+    getSourceDetails(trend).slice(0, 4).forEach((source, idx) => {
+        const link = createSourceLink(source.url, source.domain || `SRC_${idx + 1}`, source.type);
+        if (link) sourceLinks.appendChild(link);
+    });
+
+    const footer = document.createElement('div');
+    footer.className = 'trend-footer';
+    const confidenceEl = document.createElement('div');
+    confidenceEl.textContent = `CONFIDENCE: ${Math.round(confidence * 100)}%`;
+    const bar = document.createElement('div');
+    bar.className = 'confidence-bar';
+    const fill = document.createElement('div');
+    fill.className = 'confidence-fill';
+    fill.style.width = `${Math.max(0, Math.min(confidence, 1)) * 100}%`;
+    bar.appendChild(fill);
+    const id = document.createElement('div');
+    id.className = 'trend-id';
+    id.textContent = `ID: ${trend.id || stableTrendId(name)}`;
+    footer.append(confidenceEl, bar, id);
+
+    card.append(header, summaryEl, changeRow, evidenceWrap, sourceLinks, footer);
+    card.addEventListener('click', event => {
+        if (event.target.closest('a')) return;
+        openTrendDrawer(trend, findArchiveHistory(trend, archivedTrends));
+    });
+    card.addEventListener('keydown', event => {
+        if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            openTrendDrawer(trend, findArchiveHistory(trend, archivedTrends));
+        }
+    });
     return card;
 }
 
-function showPlaceholder(steeringData) {
-    let mockTrends = [];
-    
-    if (currentDataSource === 'tax_trend_map.json') {
-        mockTrends = [
-            {
-                name: "Global Minimum Tax (Pillar Two)",
-                stage: "Breakthrough",
-                velocity: "+20%",
-                confidence: 0.95,
-                category: "International",
-                summary: "Rapid adoption of the 15% global minimum tax framework across OECD nations.",
-                evidence: ["OECD Pillar Two reports", "National legislative updates"],
-            },
-            {
-                name: "Reciprocal Tariff Frameworks",
-                stage: "Incubation",
-                velocity: "+15%",
-                confidence: 0.85,
-                category: "Tariffs",
-                summary: "New discussions around automated reciprocal tariff triggers in bilateral trade.",
-                evidence: ["Trade policy whitepapers", "Senate committee hearings"],
-            }
-        ];
-    } else if (currentDataSource === 'crypto_trend_map.json') {
-        mockTrends = [
-            {
-                name: "Bitcoin L2s (Stacks/Clarity)",
-                stage: "Breakthrough",
-                velocity: "+45%",
-                confidence: 0.92,
-                category: "Layer 2",
-                summary: "Exponential growth in Bitcoin smart contract activity as Clarity developers build on Stacks.",
-                evidence: ["Clarity GitHub activity", "Stacks Nakamoto release"],
-            },
-            {
-                name: "ETH Data Availability",
-                stage: "Peak Hype",
-                velocity: "+10%",
-                confidence: 0.88,
-                category: "Infrastructure",
-                summary: "Focus on EIP-4844 and Blobs to reduce L2 costs.",
-                evidence: ["Base/Optimism volume", "EIP-4844 adoption rates"],
-            }
-        ];
-    } else {
-        mockTrends = [
-            {
-                name: "Agentic Mesh Protocols",
-                stage: "Incubation",
-                velocity: "High",
-                confidence: 0.9,
-                category: "AI",
-                summary: "Emergence of p2p protocols for autonomous agent collaboration.",
-                evidence: ["GitHub star growth", "New research papers"],
-            }
-        ];
+function createPill(text) {
+    const pill = document.createElement('span');
+    pill.className = 'change-pill';
+    pill.textContent = text;
+    return pill;
+}
+
+function formatDelta(value) {
+    if (value === 'new') return 'NEW';
+    const number = Number(value || 0);
+    if (number > 0) return `+${number}`;
+    return `${number}`;
+}
+
+function stableTrendId(value) {
+    return String(value || 'trend').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'trend';
+}
+
+function createSourceLink(url, label, type) {
+    let parsed;
+    try {
+        parsed = new URL(url);
+    } catch (e) {
+        return null;
     }
-    
-    renderDashboard({
-        last_updated: new Date().toISOString(),
-        executive_briefing: "Agent is initializing data for " + currentFocusLabel + ". Showing projected trends based on current steering focus.",
-        trends: mockTrends
-    }, steeringData || { focus_areas: [currentFocusLabel] }, mockTrends);
+    if (!['http:', 'https:'].includes(parsed.protocol)) return null;
+
+    const link = document.createElement('a');
+    link.href = parsed.href;
+    link.title = parsed.href;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.className = `source-link source-${type || 'unknown'}`;
+    link.textContent = `${label}${type ? ` (${type})` : ''}`;
+    return link;
+}
+
+function findArchiveHistory(trend, archivedTrends) {
+    const trendName = (trend.name || '').toLowerCase();
+    const trendCategory = (trend.category || '').toLowerCase();
+    return (archivedTrends || []).filter(item => {
+        const itemName = (item.name || '').toLowerCase();
+        const itemCategory = (item.category || '').toLowerCase();
+        return itemName === trendName || (itemCategory && itemCategory === trendCategory && itemName.includes(trendName.split(' ')[0]));
+    }).slice(-5).reverse();
+}
+
+function setupDetailDrawer() {
+    if (document.getElementById('detail-drawer')) return;
+
+    const overlay = document.createElement('div');
+    overlay.id = 'drawer-overlay';
+    overlay.className = 'drawer-overlay';
+    overlay.hidden = true;
+
+    const drawer = document.createElement('aside');
+    drawer.id = 'detail-drawer';
+    drawer.className = 'detail-drawer';
+    drawer.setAttribute('aria-hidden', 'true');
+    drawer.setAttribute('aria-label', 'Trend details');
+
+    const closeBtn = document.createElement('button');
+    closeBtn.id = 'drawer-close';
+    closeBtn.className = 'drawer-close';
+    closeBtn.type = 'button';
+    closeBtn.textContent = 'Close';
+    closeBtn.addEventListener('click', closeTrendDrawer);
+
+    const content = document.createElement('div');
+    content.id = 'drawer-content';
+    content.className = 'drawer-content';
+    drawer.append(closeBtn, content);
+    document.body.append(overlay, drawer);
+    overlay.addEventListener('click', closeTrendDrawer);
+    document.addEventListener('keydown', event => {
+        if (event.key === 'Escape') closeTrendDrawer();
+    });
+}
+
+function openTrendDrawer(trend, archiveHistory = []) {
+    const overlay = document.getElementById('drawer-overlay');
+    const drawer = document.getElementById('detail-drawer');
+    const content = document.getElementById('drawer-content');
+    if (!overlay || !drawer || !content) return;
+
+    content.textContent = '';
+    const title = document.createElement('h2');
+    title.textContent = trend.name || 'Unknown Trend';
+    const meta = document.createElement('div');
+    meta.className = 'drawer-meta';
+    meta.textContent = `${trend.category || 'General'} | ${trend.stage || 'Incubation'} | ${trend.velocity || 'Stable'}`;
+    const summary = document.createElement('p');
+    summary.className = 'drawer-summary';
+    summary.textContent = trend.summary || trend.description || 'No summary available.';
+    content.append(title, meta, summary);
+
+    appendDrawerSection(content, 'Reasoning', [trend.reasoning || 'No reasoning captured for this run.']);
+    appendDrawerSection(content, 'Evidence', Array.isArray(trend.evidence) ? trend.evidence : [trend.evidence].filter(Boolean));
+
+    const change = trend.changed_since_previous_run || {};
+    appendDrawerSection(content, 'Changed Since Previous Run', [
+        change.is_new ? 'New in latest run' : `Stage: ${change.previous_stage || 'unknown'} -> ${trend.stage || 'unknown'} (${formatDelta(change.stage_delta)})`,
+        `Velocity: ${change.previous_velocity || 'unknown'} -> ${trend.velocity || 'unknown'} (${formatDelta(change.velocity_delta)})`,
+        `New sources: ${(change.new_sources || []).length}`,
+        `Dropped sources: ${(change.dropped_sources || []).length}`,
+    ]);
+
+    const sourceQuality = trend.source_quality || {};
+    appendDrawerSection(content, 'Source Quality', [
+        `Risk: ${sourceQuality.source_risk || 'unknown'}`,
+        `Primary: ${sourceQuality.primary_source_count || 0}`,
+        `Secondary: ${sourceQuality.secondary_source_count || 0}`,
+        `Wikipedia: ${sourceQuality.wikipedia_source_count || 0}`,
+        `Blog-like: ${sourceQuality.blog_source_count || 0}`,
+        ...(trend.validation_flags || []).map(flag => `Flag: ${flag}`),
+    ]);
+
+    appendSourceSection(content, getSourceDetails(trend));
+    appendArchiveSection(content, archiveHistory);
+
+    overlay.hidden = false;
+    drawer.setAttribute('aria-hidden', 'false');
+    drawer.classList.add('open');
+}
+
+function closeTrendDrawer() {
+    const overlay = document.getElementById('drawer-overlay');
+    const drawer = document.getElementById('detail-drawer');
+    if (!overlay || !drawer) return;
+    overlay.hidden = true;
+    drawer.setAttribute('aria-hidden', 'true');
+    drawer.classList.remove('open');
+}
+
+function appendDrawerSection(parent, title, items) {
+    const section = document.createElement('section');
+    section.className = 'drawer-section';
+    const heading = document.createElement('h3');
+    heading.textContent = title;
+    section.appendChild(heading);
+    const list = document.createElement('ul');
+    (items || []).filter(Boolean).forEach(item => {
+        const li = document.createElement('li');
+        li.textContent = item;
+        list.appendChild(li);
+    });
+    if (!list.children.length) {
+        const li = document.createElement('li');
+        li.textContent = 'No data captured.';
+        list.appendChild(li);
+    }
+    section.appendChild(list);
+    parent.appendChild(section);
+}
+
+function appendSourceSection(parent, sources) {
+    const section = document.createElement('section');
+    section.className = 'drawer-section';
+    const heading = document.createElement('h3');
+    heading.textContent = 'Sources';
+    section.appendChild(heading);
+    const list = document.createElement('div');
+    list.className = 'drawer-source-list';
+    (sources || []).forEach(source => {
+        const row = document.createElement('div');
+        row.className = 'drawer-source-row';
+        const link = createSourceLink(source.url, source.domain || source.url, source.type);
+        if (link) row.appendChild(link);
+        const date = document.createElement('span');
+        date.textContent = source.published_date ? `Published: ${source.published_date}` : 'Published date unavailable';
+        row.appendChild(date);
+        list.appendChild(row);
+    });
+    if (!list.children.length) {
+        const empty = document.createElement('p');
+        empty.textContent = 'No source links captured.';
+        list.appendChild(empty);
+    }
+    section.appendChild(list);
+    parent.appendChild(section);
+}
+
+function appendArchiveSection(parent, archiveHistory) {
+    const items = (archiveHistory || []).map(item => {
+        const archivedAt = item.archived_at ? formatDate(item.archived_at) : 'unknown date';
+        return `${archivedAt}: ${item.stage || 'unknown stage'} / ${item.velocity || 'unknown velocity'} - ${item.summary || item.description || 'No summary'}`;
+    });
+    appendDrawerSection(parent, 'Archive History', items);
+}
+
+function getSourceDetails(trend) {
+    if (Array.isArray(trend.source_details) && trend.source_details.length) {
+        return trend.source_details;
+    }
+    return (trend.source_links || []).map(url => {
+        let domain = url;
+        try {
+            domain = new URL(url).hostname.replace(/^www\./, '');
+        } catch (e) {
+            domain = 'source';
+        }
+        return {
+            url,
+            domain,
+            type: domain.includes('wikipedia.org') ? 'wikipedia' : 'legacy',
+            published_date: null,
+        };
+    });
 }
 
 init();
