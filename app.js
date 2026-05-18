@@ -532,7 +532,7 @@ function createTrendCard(trend, archivedTrends = []) {
 
     const summaryEl = document.createElement('p');
     summaryEl.className = 'trend-summary';
-    summaryEl.textContent = summarizeForCard(summary);
+    summaryEl.textContent = summarizeForCard(summary, 110);
 
     const changeRow = document.createElement('div');
     changeRow.className = 'change-row';
@@ -551,17 +551,9 @@ function createTrendCard(trend, archivedTrends = []) {
         createSignalItem('Flags', (trend.validation_flags || []).length)
     );
 
-    const preview = document.createElement('div');
-    preview.className = 'card-preview';
-    const previewLabel = document.createElement('span');
-    previewLabel.textContent = 'Key signal';
-    const previewText = document.createElement('p');
-    previewText.textContent = summarizeForCard(evidenceList[0] || trend.reasoning || summary, 120);
-    preview.append(previewLabel, previewText);
-
     const detailsHint = document.createElement('div');
     detailsHint.className = 'details-hint';
-    detailsHint.textContent = `View details, reasoning, and ${sourceDetails.length} source${sourceDetails.length === 1 ? '' : 's'}`;
+    detailsHint.textContent = `View full intelligence and ${sourceDetails.length} source${sourceDetails.length === 1 ? '' : 's'}`;
 
     const footer = document.createElement('div');
     footer.className = 'trend-footer';
@@ -578,7 +570,7 @@ function createTrendCard(trend, archivedTrends = []) {
     id.textContent = `ID: ${trend.id || stableTrendId(name)}`;
     footer.append(confidenceEl, bar, id);
 
-    card.append(header, summaryEl, changeRow, signalStrip, preview, detailsHint, footer);
+    card.append(header, summaryEl, changeRow, signalStrip, detailsHint, footer);
     card.addEventListener('click', event => {
         if (event.target.closest('a')) return;
         openTrendDrawer(trend, findArchiveHistory(trend, archivedTrends));
@@ -596,10 +588,8 @@ function summarizeForCard(text, maxLength = 220) {
     const clean = String(text || '').replace(/\s+/g, ' ').trim();
     if (clean.length <= maxLength) return clean;
     const slice = clean.slice(0, maxLength + 1);
-    const sentenceEnd = Math.max(slice.lastIndexOf('. '), slice.lastIndexOf('; '));
-    if (sentenceEnd > 90) return `${slice.slice(0, sentenceEnd + 1).trim()}`;
     const wordEnd = slice.lastIndexOf(' ');
-    return `${slice.slice(0, wordEnd > 80 ? wordEnd : maxLength).trim()}...`;
+    return `${slice.slice(0, wordEnd > 50 ? wordEnd : maxLength).trim()}...`;
 }
 
 function createSignalItem(label, value) {
