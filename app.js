@@ -532,7 +532,7 @@ function createTrendCard(trend, archivedTrends = []) {
 
     const summaryEl = document.createElement('p');
     summaryEl.className = 'trend-summary';
-    summaryEl.textContent = summarizeForCard(summary, 110);
+    summaryEl.textContent = summary;
 
     const changeRow = document.createElement('div');
     changeRow.className = 'change-row';
@@ -702,15 +702,48 @@ function openTrendDrawer(trend, archiveHistory = []) {
     appendDrawerSection(content, 'Reasoning', [trend.reasoning || 'No reasoning captured for this run.']);
     appendDrawerSection(content, 'Evidence', Array.isArray(trend.evidence) ? trend.evidence : [trend.evidence].filter(Boolean));
 
-    const change = trend.changed_since_previous_run || {};
-    appendDrawerSection(content, 'Changed Since Previous Run', [
-        change.is_new ? 'New in latest run' : `Stage: ${change.previous_stage || 'unknown'} -> ${trend.stage || 'unknown'} (${formatDelta(change.stage_delta)})`,
-        `Velocity: ${change.previous_velocity || 'unknown'} -> ${trend.velocity || 'unknown'} (${formatDelta(change.velocity_delta)})`,
-        `New sources: ${(change.new_sources || []).length}`,
-        `Dropped sources: ${(change.dropped_sources || []).length}`,
-    ]);
+    const change = trend.changed_since_previous_run;
+    if (change && (change.is_new || change.stage_delta !== 0 || change.velocity_delta !== 0 || (change.new_sources && change.new_sources.length > 0) || (change.dropped_sources && change.dropped_sources.length > 0))) {
+        if (change.is_new) {
+            appendDrawerSection(content, 'Changed Since Previous Run', [
+                'New narrative trend identified in the latest run.'
+            ]);
+        } else {
+            appendDrawerSection(content, 'Changed Since Previous Run', [
+                `Stage: ${change.previous_stage || 'unknown'} ➔ ${trend.stage || 'unknown'} (${formatDelta(change.stage_delta)})`,
+                `Velocity: ${change.previous_velocity || 'unknown'} ➔ ${trend.velocity || 'unknown'} (${formatDelta(change.velocity_delta)})`,
+                `New sources: ${(change.new_sources || []).length}`,
+                `Dropped sources: ${(change.dropped_sources || []).length}`,
+            ]);
+        }
+    } else {
+        appendDrawerSection(content, 'Changed Since Previous Run', [
+            'No previous run data is available for comparison.'
+        ]);
+    }
 
-    const sourceQuality = trend.source_quality || {};
+    const sourceDetails = getSourceDetails(trend);
+
+    let sourceQuality = trend.source_quality;
+    if (!sourceQuality || !sourceQuality.total_sources || sourceQuality.primary_source_count === undefined) {
+        const total = sourceDetails.length;
+        const primary = sourceDetails.filter(s => s.type === 'primary').length;
+        const secondary = sourceDetails.filter(s => s.type === 'secondary').length;
+        const wikipedia = sourceDetails.filter(s => s.type === 'wikipedia').length;
+        const blog = sourceDetails.filter(s => s.type === 'blog').length;
+        const hasPrimary = primary > 0;
+        const risk = hasPrimary ? 'low' : (total > 1 && wikipedia < total ? 'medium' : 'high');
+        
+        sourceQuality = {
+            source_risk: risk,
+            primary_source_count: primary,
+            secondary_source_count: secondary,
+            wikipedia_source_count: wikipedia,
+            blog_source_count: blog,
+            total_sources: total
+        };
+    }
+
     appendDrawerSection(content, 'Source Quality', [
         `Risk: ${sourceQuality.source_risk || 'unknown'}`,
         `Primary: ${sourceQuality.primary_source_count || 0}`,
@@ -720,7 +753,7 @@ function openTrendDrawer(trend, archiveHistory = []) {
         ...(trend.validation_flags || []).map(flag => `Flag: ${flag}`),
     ]);
 
-    appendSourceSection(content, getSourceDetails(trend));
+    appendSourceSection(content, sourceDetails);
     appendArchiveSection(content, archiveHistory);
 
     overlay.hidden = false;
@@ -771,8 +804,15 @@ function appendSourceSection(parent, sources) {
         row.className = 'drawer-source-row';
         const link = createSourceLink(source.url, source.domain || source.url, source.type);
         if (link) row.appendChild(link);
+        
+        let pubDate = source.published_date;
+        if (!pubDate) {
+            pubDate = extractDateFromUrl(source.url);
+        }
+        const formattedDate = formatSourceDate(pubDate);
+
         const date = document.createElement('span');
-        date.textContent = source.published_date ? `Published: ${source.published_date}` : 'Published date unavailable';
+        date.textContent = formattedDate ? `Published: ${formattedDate}` : 'Published date unavailable';
         row.appendChild(date);
         list.appendChild(row);
     });
@@ -811,6 +851,71 @@ function getSourceDetails(trend) {
             published_date: null,
         };
     });
+}
+
+function extractDateFromUrl(url) {
+    if (!url) return null;
+    
+    // 1. Look for YYYY/MM/DD or YYYY-MM-DD bounded by slashes
+    let match = url.match(/\/(\d{4})[/-](\d{1,2})[/-](\d{1,2})\//);
+    if (match) {
+        const [, year, month, day] = match;
+        return `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`;
+    }
+    
+    // 2. Look for YYYY/MM/DD or YYYY-MM-DD generally
+    match = url.match(/\b(20\d{2})[/-](0?[1-9]|1[0-2])[/-](0?[1-9]|[12]\d|3[01])\b/);
+    if (match) {
+        const [, year, month, day] = match;
+        return `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`;
+    }
+
+    const monthMap = {jan: "01", feb: "02", mar: "03", apr: "04", may: "05", jun: "06", 
+                      jul: "07", aug: "08", sep: "09", oct: "10", nov: "11", dec: "12"};
+    const monthsPattern = '(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)';
+
+    // 3. Look for month names: /2026/may/15/
+    const mNameRegex = new RegExp(`\\/(\\d{4})\\/${monthsPattern}\\/(\\d{1,2})\\/`, 'i');
+    match = url.match(mNameRegex);
+    if (match) {
+        const [, year, monthName, day] = match;
+        const month = monthMap[monthName.toLowerCase().slice(0, 3)];
+        return `${year}-${month}-${day.padStart(2, '0')}`;
+    }
+    
+    // 4. Look for apr-2025 or similar
+    const mYearRegex = new RegExp(`\\b${monthsPattern}[-/_](\\d{4})\\b`, 'i');
+    match = url.match(mYearRegex);
+    if (match) {
+        const [, monthName, year] = match;
+        const month = monthMap[monthName.toLowerCase().slice(0, 3)];
+        return `${year}-${month}-01`;
+    }
+
+    // 5. Look for YYYY/MM
+    match = url.match(/\/(\d{4})\/(\d{2})\//);
+    if (match) {
+        const [, year, month] = match;
+        return `${year}-${month}-01`;
+    }
+    
+    return null;
+}
+
+function formatSourceDate(dateStr) {
+    if (!dateStr) return null;
+    const cleanDate = dateStr.split('T')[0]; // strip time if present
+    const parts = cleanDate.split('-');
+    if (parts.length === 3) {
+        const year = parts[0];
+        const monthNum = parseInt(parts[1], 10);
+        const day = parseInt(parts[2], 10);
+        const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+        if (monthNum >= 1 && monthNum <= 12) {
+            return `${day} ${monthNames[monthNum - 1]} ${year}`;
+        }
+    }
+    return dateStr;
 }
 
 init();

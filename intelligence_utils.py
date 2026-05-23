@@ -75,6 +75,49 @@ def find_source_date(url, raw_intel):
     return None
 
 
+def extract_date_from_url(url):
+    if not url:
+        return None
+    # 1. Look for YYYY/MM/DD or YYYY-MM-DD bounded by slashes
+    match = re.search(r'/(\d{4})[/-](\d{1,2})[/-](\d{1,2})/', url)
+    if match:
+        year, month, day = match.groups()
+        return f"{year}-{month.zfill(2)}-{day.zfill(2)}"
+    
+    # 2. Look for YYYY/MM/DD or YYYY-MM-DD generally
+    match = re.search(r'\b(20\d{2})[/-](0?[1-9]|1[0-2])[/-](0?[1-9]|[12]\d|3[01])\b', url)
+    if match:
+        year, month, day = match.groups()
+        return f"{year}-{month.zfill(2)}-{day.zfill(2)}"
+
+    # 3. Look for month names: /2026/may/15/
+    months_pattern = r'(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)'
+    match = re.search(fr'/(\d{{4}})/{months_pattern}/(\d{{1,2}})/', url, re.IGNORECASE)
+    if match:
+        year, month_name, day = match.groups()
+        month_map = {"jan": "01", "feb": "02", "mar": "03", "apr": "04", "may": "05", "jun": "06", 
+                     "jul": "07", "aug": "08", "sep": "09", "oct": "10", "nov": "11", "dec": "12"}
+        month = month_map[month_name.lower()[:3]]
+        return f"{year}-{month}-{day.zfill(2)}"
+        
+    # 4. Look for apr-2025 or similar
+    match = re.search(fr'\b{months_pattern}[-/_](\d{{4}})\b', url, re.IGNORECASE)
+    if match:
+        month_name, year = match.groups()
+        month_map = {"jan": "01", "feb": "02", "mar": "03", "apr": "04", "may": "05", "jun": "06", 
+                     "jul": "07", "aug": "08", "sep": "09", "oct": "10", "nov": "11", "dec": "12"}
+        month = month_map[month_name.lower()[:3]]
+        return f"{year}-{month}-01"
+
+    # 5. Look for YYYY/MM
+    match = re.search(r'/(\d{4})/(\d{2})/', url)
+    if match:
+        year, month = match.groups()
+        return f"{year}-{month}-01"
+
+    return None
+
+
 def clean_sources(source_links, raw_intel):
     seen = set()
     clean_links = []
@@ -92,11 +135,14 @@ def clean_sources(source_links, raw_intel):
 
     details = []
     for link in clean_links:
+        pub_date = find_source_date(link, raw_intel)
+        if not pub_date:
+            pub_date = extract_date_from_url(link)
         details.append({
             "url": link,
             "domain": urlparse(link).netloc.lower().replace("www.", ""),
             "type": source_type_for_url(link),
-            "published_date": find_source_date(link, raw_intel),
+            "published_date": pub_date,
         })
 
     counts = {
