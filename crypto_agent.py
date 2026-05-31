@@ -140,11 +140,15 @@ def run_agent():
        ```
     """
 
-    # Prioritize Gemma models followed by Gemini fallback
+    # Prioritize newest Gemini models followed by robust fallbacks
     models_to_try = [
+        "gemini-3.5-flash",
+        "gemini-3.1-pro-preview",
+        "gemini-3-pro-preview",
+        "gemini-3-flash-preview",
+        "gemini-3.1-flash-lite",
         "gemma-4-31b-it",
-        "gemma-3-27b-it",
-        "gemini-3-flash",
+        "gemini-2.5-pro",
         "gemini-2.5-flash",
         "gemini-2.0-flash"
     ]
@@ -167,13 +171,13 @@ def run_agent():
         try:
             print(f"Attempting {model_id}...")
             sys.stdout.flush()
-            response = requests.post(url, headers=headers, json=payload, timeout=60)
+            response = requests.post(url, headers=headers, json=payload, timeout=180)
             res_json = response.json()
             
             if response.status_code != 200:
                 print(f"Model {model_id} Error ({response.status_code}): {res_json.get('error', {}).get('message', 'Unknown error')}")
                 continue
-
+ 
             if "candidates" in res_json:
                 text = res_json['candidates'][0]['content']['parts'][0]['text']
                 if '{' in text:
@@ -187,7 +191,7 @@ def run_agent():
                 print(f"Model {model_id} returned no candidates. Response: {res_json}")
                 continue
         except requests.exceptions.Timeout:
-            print(f"Model {model_id} timed out after 60s.")
+            print(f"Model {model_id} timed out after 180s.")
             continue
         except Exception as e:
             print(f"Error calling {model_id}: {e}")

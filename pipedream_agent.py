@@ -164,11 +164,17 @@ def handler(pd: "pipedream"):
        ```
     """
 
-    # Upgraded to Gemma 4 26B (MoE)
+    # Prioritize newest Gemini models followed by robust fallbacks
     models_to_try = [
-        "gemini-3-flash-preview", 
-        "gemini-2.5-flash", 
-        "gemini-2.0-flash", 
+        "gemini-3.5-flash",
+        "gemini-3.1-pro-preview",
+        "gemini-3-pro-preview",
+        "gemini-3-flash-preview",
+        "gemini-3.1-flash-lite",
+        "gemma-4-31b-it",
+        "gemini-2.5-pro",
+        "gemini-2.5-flash",
+        "gemini-2.0-flash",
         "gemini-flash-latest"
     ]
     res_json = {}
@@ -189,7 +195,7 @@ def handler(pd: "pipedream"):
             }
         
         try:
-            response = requests.post(url, headers=headers, json=payload, timeout=60)
+            response = requests.post(url, headers=headers, json=payload, timeout=180)
             res_json = response.json()
             
             # If successful, check if it actually contains JSON
@@ -208,7 +214,7 @@ def handler(pd: "pipedream"):
                 print(f"Model {model_id} API Error: {res_json.get('error', {}).get('message', 'No candidates')}")
                 continue
         except requests.exceptions.Timeout:
-            print(f"Model {model_id} timed out after 60s.")
+            print(f"Model {model_id} timed out after 180s.")
             continue
         except Exception as e:
             print(f"Error calling {model_id}: {e}")

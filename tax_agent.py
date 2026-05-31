@@ -140,11 +140,15 @@ def run_agent():
        ```
     """
 
-    # Prioritize Gemma models followed by Gemini fallback
+    # Prioritize newest Gemini models followed by robust fallbacks
     models_to_try = [
+        "gemini-3.5-flash",
+        "gemini-3.1-pro-preview",
+        "gemini-3-pro-preview",
+        "gemini-3-flash-preview",
+        "gemini-3.1-flash-lite",
         "gemma-4-31b-it",
-        "gemma-3-27b-it",
-        "gemini-3-flash",
+        "gemini-2.5-pro",
         "gemini-2.5-flash",
         "gemini-2.0-flash"
     ]
