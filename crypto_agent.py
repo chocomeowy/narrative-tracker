@@ -162,10 +162,35 @@ def run_agent():
         payload = {
             "contents": [{"parts": [{"text": prompt}]}]
         }
-        # Enable JSON mode for Gemini models
+        # Enable JSON mode & strict schema enforcement for Gemini models
         if "gemini" in model_id:
             payload["generationConfig"] = {
-                "response_mime_type": "application/json"
+                "response_mime_type": "application/json",
+                "response_schema": {
+                    "type": "OBJECT",
+                    "properties": {
+                        "executive_briefing": {"type": "STRING"},
+                        "trends": {
+                            "type": "ARRAY",
+                            "items": {
+                                "type": "OBJECT",
+                                "properties": {
+                                    "name": {"type": "STRING"},
+                                    "stage": {"type": "STRING", "enum": ["Incubation", "Breakthrough", "Peak Hype", "Fatigue"]},
+                                    "velocity": {"type": "STRING"},
+                                    "category": {"type": "STRING"},
+                                    "summary": {"type": "STRING"},
+                                    "evidence": {"type": "ARRAY", "items": {"type": "STRING"}},
+                                    "source_links": {"type": "ARRAY", "items": {"type": "STRING"}},
+                                    "confidence": {"type": "NUMBER"},
+                                    "reasoning": {"type": "STRING"}
+                                },
+                                "required": ["name", "stage", "velocity", "category", "summary", "evidence", "source_links", "confidence", "reasoning"]
+                            }
+                        }
+                    },
+                    "required": ["executive_briefing", "trends"]
+                }
             }
         
         try:

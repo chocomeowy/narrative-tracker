@@ -61,23 +61,23 @@ function setupTabs() {
         });
     });
 }
-
 async function loadData(forceRefresh = false) {
     try {
         if (!cachedData || forceRefresh) {
             console.log(`Fetching data from: ${currentDataSource}`);
-            const trendResponse = await fetch(currentDataSource);
+            const cacheBuster = `?t=${Date.now()}`;
+            const trendResponse = await fetch(currentDataSource + cacheBuster);
             if (!trendResponse.ok) throw new Error(`Failed to load ${currentDataSource}`);
             cachedData = await trendResponse.json();
 
             let steeringFile = 'steering.json';
             if (currentDataSource === 'crypto_trend_map.json') steeringFile = 'crypto_steering.json';
             if (currentDataSource === 'tax_trend_map.json') steeringFile = 'tax_steering.json';
-            const steeringResponse = await fetch(steeringFile);
+            const steeringResponse = await fetch(steeringFile + cacheBuster);
             if (steeringResponse.ok) cachedSteering = await steeringResponse.json();
 
             try {
-                const archiveResponse = await fetch(currentArchiveSource);
+                const archiveResponse = await fetch(currentArchiveSource + cacheBuster);
                 if (archiveResponse.ok) {
                     cachedArchive = await archiveResponse.json();
                 } else {
