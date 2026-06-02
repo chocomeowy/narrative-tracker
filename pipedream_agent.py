@@ -5,7 +5,35 @@ import base64
 import re
 import sys
 from datetime import datetime
-from intelligence_utils import build_updated_documents
+try:
+    from intelligence_utils import build_updated_documents
+except ModuleNotFoundError:
+    # Running on Pipedream, dynamically download intelligence_utils.py from GitHub
+    print("intelligence_utils.py not found locally. Attempting to fetch from GitHub...")
+    _token = os.environ.get("GITHUB_TOKEN")
+    _repo = os.environ.get("GITHUB_REPO")
+    if _repo:
+        try:
+            _url = f"https://api.github.com/repos/{_repo}/contents/intelligence_utils.py"
+            _headers = {}
+            if _token:
+                _headers["Authorization"] = f"token {_token}"
+            _response = requests.get(_url, headers=_headers)
+            if _response.status_code == 200:
+                _content = _response.json()
+                _code = base64.b64decode(_content['content']).decode('utf-8')
+                with open("/tmp/intelligence_utils.py", "w") as _f:
+                    _f.write(_code)
+                if "/tmp" not in sys.path:
+                    sys.path.append("/tmp")
+                from intelligence_utils import build_updated_documents
+                print("Successfully fetched and imported intelligence_utils.")
+            else:
+                raise ModuleNotFoundError(f"Failed to fetch intelligence_utils.py from GitHub (status: {_response.status_code})")
+        except Exception as _e:
+            raise ModuleNotFoundError(f"Failed to fetch intelligence_utils.py from GitHub: {_e}") from _e
+    else:
+        raise ModuleNotFoundError("intelligence_utils.py not found locally, and GITHUB_REPO environment variable is not set to fetch it from GitHub.")
 
 # Configuration (Use Pipedream Env Variables)
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
