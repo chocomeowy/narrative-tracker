@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-03T04:01:03.099207Z",
+  "last_updated": "2026-06-03T10:01:22.473888Z",
   "archived_trends": [
     {
       "name": "Cross-Chain Liquidity Solutions",
@@ -1480,6 +1480,148 @@
         "summary_changed": true
       },
       "archived_at": "2026-06-02T16:01:16.219040Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "ethereum-s-utility-moat-decentralized-realignment",
+      "name": "Ethereum's Utility Moat & Decentralized Realignment",
+      "stage": "Breakthrough",
+      "velocity": "Medium",
+      "category": "Ethereum",
+      "summary": "Ethereum remains the dominant global platform for decentralized finance (DeFi) and smart-contract execution. Following 'The Merge,' its proof-of-stake efficiency and status as a reward-generating asset for validators have cemented its role as the secondary pillar of institutional portfolios alongside Bitcoin.",
+      "evidence": [
+        "Ethereum provides the infrastructure for the vast majority of global DeFi and NFT activity.",
+        "Transition to PoS has reduced energy usage by 99%, meeting institutional ESG requirements.",
+        "Ether (ETH) is consistently ranked as the second largest cryptocurrency by market cap and is a core ETF component."
+      ],
+      "source_links": [
+        "https://en.wikipedia.org/wiki/Ethereum",
+        "https://ethereum.org",
+        "https://coinmarketcap.com/currencies/ethereum",
+        "https://etherscan.io"
+      ],
+      "source_details": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethereum",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        },
+        {
+          "url": "https://ethereum.org",
+          "domain": "ethereum.org",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://coinmarketcap.com/currencies/ethereum",
+          "domain": "coinmarketcap.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://etherscan.io",
+          "domain": "etherscan.io",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 4,
+        "primary_source_count": 1,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 1,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.95,
+      "reasoning": "Ethereum's established role as the core ledger for decentralized apps keeps it stable, though its velocity is medium as it prepares for competition from Bitcoin's emerging programmability.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "Medium",
+        "new_sources": [
+          "https://en.wikipedia.org/wiki/Ethereum"
+        ],
+        "dropped_sources": [
+          "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance"
+        ],
+        "summary_changed": false
+      },
+      "archived_at": "2026-06-03T10:01:22.473888Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "trustless-btc-eth-liquidity-unification",
+      "name": "Trustless BTC-ETH Liquidity Unification",
+      "stage": "Breakthrough",
+      "velocity": "Medium",
+      "category": "DeFi",
+      "summary": "The industry is aggressively pivoting away from high-risk 'lock-and-wrap' bridges in favor of native, non-custodial cross-chain swaps. Protocols are now utilizing liquidity pools and intermediary settlement mechanisms to allow direct interaction between BTC and ETH without the need for synthetic wrappers.",
+      "evidence": [
+        "THORChain enables direct, native cross-chain swaps between BTC and ETH utilizing RUNE liquidity pools without requiring synthetic wrappers.",
+        "Security concerns and past exploits are driving a market-wide shift toward non-custodial routing and away from centralized intermediaries.",
+        "Cross-chain swaps enable direct decentralized trading between isolated blockchains, improving overall market efficiency and capital routing."
+      ],
+      "source_links": [
+        "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps",
+        "https://blog.bitunix.com/en/bitcoin-to-ethereum-bridges-defi",
+        "https://advertorial.cryptonews.com/press-releases/what-would-true-cross-chain-liquidity-between-btc-eth-and-sol-look-like-liquidchain-liquid-weighs-in"
+      ],
+      "source_details": [
+        {
+          "url": "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps",
+          "domain": "gate.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://blog.bitunix.com/en/bitcoin-to-ethereum-bridges-defi",
+          "domain": "blog.bitunix.com",
+          "type": "blog",
+          "published_date": null
+        },
+        {
+          "url": "https://advertorial.cryptonews.com/press-releases/what-would-true-cross-chain-liquidity-between-btc-eth-and-sol-look-like-liquidchain-liquid-weighs-in",
+          "domain": "advertorial.cryptonews.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 3,
+        "primary_source_count": 0,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 1,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.94,
+      "reasoning": "The move to 'wrapper-less' architecture is a technical necessity following historical bridge exploits, and recent intel confirms widespread integration of these protocols.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "Medium",
+        "new_sources": [
+          "https://advertorial.cryptonews.com/press-releases/what-would-true-cross-chain-liquidity-between-btc-eth-and-sol-look-like-liquidchain-liquid-weighs-in",
+          "https://blog.bitunix.com/en/bitcoin-to-ethereum-bridges-defi"
+        ],
+        "dropped_sources": [
+          "https://support.blockchain.com/hc/en-us/articles/11385610019868-Cross-Chain-Swaps-FAQs",
+          "https://swapspace.co/cross-chain/btc-eth-bridge",
+          "https://symbiosis.finance"
+        ],
+        "summary_changed": false
+      },
+      "archived_at": "2026-06-03T10:01:22.473888Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
