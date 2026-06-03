@@ -1,7 +1,7 @@
-# Crypto Intelligence Briefing - 2026-06-03 10:01
+# Crypto Intelligence Briefing - 2026-06-03 16:03
 
 {
-  "executive_briefing": "As of June 2026, the crypto-economic landscape is defined by the high-stakes legislative progression of the Digital Asset Market Clarity Act (CLARITY Act), which has moved beyond committee approval to become a top priority for the U.S. Senate post-recess. This legislation is fundamentally altering the competitive dynamic between Bitcoin and Ethereum by providing a federal framework that enables Bitcoin-native smart contracts, effectively challenging the EVM's monopoly on programmable finance. Institutional Bitcoin adoption has matured into a structural baseline, with ETF AUM now exceeding $100 billion and corporate treasury integration expanding through the final quarter of 2025. In response to this shifting landscape, Ethereum is transitioning toward a 'small ship' model focused on serving as 'trustware' for a sprawling Layer 2 ecosystem. This technological and regulatory convergence is being met with a critical push for 'wrapper-less' cross-chain liquidity to resolve the fragmentation that continues to hinder value transfer between the industry's two primary ledgers.",
+  "executive_briefing": "The crypto-economic landscape in June 2026 is dominated by the structural transformation of Bitcoin and Ethereum as they converge in utility. The CLARITY Act has transitioned from a committee success to a critical Senate floor test, marking a shift toward federally compliant Bitcoin-native smart contracts that directly challenge the EVM's dominance. Simultaneously, institutional Bitcoin adoption has hit a structural baseline with ETF AUM exceeding $100 billion and corporate treasury participation reaching a tipping point with 19 new public entities entering the space. In response, Ethereum is hardening its position as high-security 'trustware' for a sprawling Layer 2 ecosystem, while the industry pivots toward native, non-custodial cross-chain liquidity—led by protocols like THORChain—to eliminate the systemic risks associated with legacy bridge architectures.",
   "trends": [
     {
       "name": "Institutional Bitcoin Reserve Maturity",
@@ -15,70 +15,74 @@
         "19 new public companies officially added Bitcoin to their treasuries in the final quarter of 2025."
       ],
       "source_links": [
-        "https://www.ssga.com/us/en/institutional/insights/why-bitcoin-institutional-demand-is-on-the-rise",
-        "https://www.vaneck.com/blogs/digital-assets/the-investment-case-for-bitcoin/",
         "https://datos-insights.com/blog/bitcoin-etf-institutional-adoption/",
-        "https://www.facebook.com/binance/posts/bitcoins-holder-base-is-evolving-as-institutional-participation-becomes-a-larger/1422775839882668/"
+        "https://www.ssga.com/us/en/institutional/insights/why-bitcoin-institutional-demand-is-on-the-rise",
+        "https://www.facebook.com/binance/posts/bitcoins-holder-base-is-evolving-as-institutional-participation-becomes-a-larger/1422775839882668/",
+        "https://www.vaneck.com/blogs/digital-assets/the-investment-case-for-bitcoin/"
       ],
       "confidence": 0.98,
-      "reasoning": "Data from State Street Global Advisors and VanEck confirms that institutional participation is no longer a forecast but a quantifiable structural reality with massive AUM growth."
+      "reasoning": "Data from State Street Global Advisors and VanEck confirms that institutional participation is no longer a forecast but a quantifiable structural reality with massive AUM growth and consistent corporate treasury additions."
     },
     {
       "name": "Legislative Catalysis of Bitcoin Programmability (The CLARITY Act)",
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Regulation",
-      "summary": "The Digital Asset Market Clarity Act (H.R. 3633) is the primary engine for Bitcoin's evolution into a smart-contract layer. Following a 15-9 Senate Banking Committee vote on May 14, 2026, the bill is now a top legislative priority. It establishes clear jurisdictional lines between the SEC and CFTC and provides a framework for stablecoins while blocking CBDCs.",
+      "summary": "The Digital Asset Market Clarity Act (H.R. 3633) is the primary engine for Bitcoin's evolution into a smart-contract layer. Following a 15-9 Senate Banking Committee vote, the bill is now a top legislative priority. It establishes clear jurisdictional lines between the SEC and CFTC and provides a framework for digital commodities, effectively clearing the path for federally compliant Bitcoin smart contracts.",
       "evidence": [
-        "Senate Banking Committee advanced the Clarity Act in a historic 15-9 bipartisan vote on May 14, 2026.",
+        "Senate Banking Committee advanced the Clarity Act in a historic 15-9 bipartisan vote.",
         "The bill is now at the top of the legislative calendar following the Senate's return from recess.",
         "Legislation establishes rules for digital commodities and effectively clears the path for federally compliant Bitcoin smart contracts."
       ],
       "source_links": [
-        "https://www.banking.senate.gov/newsroom/majority/chairman-scott-senate-banking-committee-advance-clarity-act-in-historic-bipartisan-vote",
-        "https://finance.yahoo.com/markets/crypto/articles/senate-returns-clarity-act-cbdc-082627214.html",
-        "https://www.congress.gov/bill/119th-congress/house-bill/3633/text"
+        "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lpaUkyZkVSRkdmcU1zLTFOekh5Z0FQAQ?hl=en-US&gl=US&ceid=US:en",
+        "https://news.bitcoin.com/clarity-act-faces-growing-scrutiny-as-senate-markup-begins/",
+        "https://www.fomodaily.com/clarity-act-senate-committee-crypto-regulation-floor-test",
+        "https://blockonomi.com/clarity-act-moves-forward-after-15-9-committee-vote/",
+        "https://getblock.medium.com/the-clarity-act-just-cleared-its-biggest-hurdle-heres-what-actually-changed-for-builders-0ab4e0f0e5ed"
       ],
       "confidence": 0.97,
-      "reasoning": "Official Senate Banking Committee records confirm the vote and the legislative timeline, signaling a definitive move toward a full floor vote."
+      "reasoning": "Official committee records and news tracking confirm the CLARITY Act has moved to the floor test phase, signaling high velocity and a definitive shift in the regulatory environment for BTC-native development."
     },
     {
-      "name": "Ethereum's Transition to 'Trustware' & Small-Ship Operations",
+      "name": "Ethereum Hardening: The 'Trustware' & Security Settlement Pivot",
       "stage": "Breakthrough",
       "velocity": "Medium",
       "category": "Ethereum",
-      "summary": "Ethereum is realigning its operational and economic model, pivoting toward a leaner 'small ship' structure at the Foundation level. The network is increasingly viewed as 'trustware'—a foundational security layer that powers high-volume Layer 2 transactions—as evidenced by institutional accumulation and the ongoing validity of the ETH burn thesis.",
+      "summary": "Ethereum is maturing into a foundational security layer or 'trustware' that secures the broader L2 ecosystem. The network's economic model is increasingly defined by the ETH burn thesis (EIP-1559) and its transition to a high-yield (6% APR) proof-of-stake security provider, rather than a monolithic application platform.",
       "evidence": [
-        "Ethereum Foundation is shifting to a 'small ship' model as high-level departures trigger a reorganization.",
-        "Prominent institutional investors like Tom Lee are aggressively acquiring ETH, nearing 5% of total supply.",
-        "The 'ETH burn thesis' remains intact, with transactions on L2s driving demand for ETH as the underlying security trustware."
+        "Ethereum validators are currently earning approximately 6% APR.",
+        "EIP-1559 remains a revolutionary upgrade for transaction fees and ETH supply management.",
+        "Ethereum's status as the second-largest cryptocurrency is reinforced by its open-source decentralized applications and institutional integration via the Ethereum Enterprise Alliance."
       ],
       "source_links": [
-        "https://finance.yahoo.com/video/ethereum-shifts-small-ship-model-193000510.html",
-        "https://x.com/therollupco/status/2060156804470808650",
-        "https://finance.yahoo.com/video/tom-lee-nears-goal-owning-170500949.html"
+        "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+        "https://www.okx.com/price/ethereum-eth",
+        "https://coinmarketcap.com/currencies/ethereum/",
+        "https://markets.bitcoin.com/crypto/ethereum"
       ],
-      "confidence": 0.92,
-      "reasoning": "Recent shifts in Foundation leadership and institutional buying patterns suggest Ethereum is maturing into its role as a settlement and security layer rather than a monolithic application platform."
+      "confidence": 0.95,
+      "reasoning": "Ethereum's shift from a general-purpose DApp platform to a security-focused settlement layer is supported by the validator return data and the sustained dominance of its token standards and enterprise integrations."
     },
     {
-      "name": "Non-Custodial Unification of BTC-ETH Liquidity",
+      "name": "Native Non-Custodial BTC-ETH Liquidity Unification",
       "stage": "Breakthrough",
       "velocity": "Medium",
       "category": "DeFi",
-      "summary": "The industry is moving to resolve the fragmentation between Bitcoin and Ethereum through non-custodial cross-chain tools. This shift prioritizes direct swaps over vulnerable 'lock-and-wrap' bridges, aiming to unify the liquidity of the two largest assets without the risks associated with centralized intermediaries.",
+      "summary": "The industry is moving to resolve fragmentation between Bitcoin and Ethereum through non-custodial cross-chain tools that avoid 'lock-and-wrap' vulnerabilities. Protocols like THORChain are enabling native swaps through liquidity pools, bypassing the systemic risks of centralized intermediaries or bridge hacks.",
       "evidence": [
-        "Symbiosis and other non-custodial tools are enabling direct BTC to ETH bridges to capture concentrated market liquidity.",
-        "Market analysis indicates that liquidity fragmentation remains a primary obstacle to ecosystem value growth.",
-        "The pivot toward non-custodial routing is driven by a technical necessity to avoid the systemic risks of legacy bridge architectures."
+        "THORChain enables native cross-chain swaps between BTC and ETH without requiring wrapped assets.",
+        "LiquidChain is positioning itself to solve the billions in liquidity locked across separate chains.",
+        "Market sentiment is shifting away from synthetic wrappers toward native liquidity solutions to enhance DeFi efficiency."
       ],
       "source_links": [
-        "https://symbiosis.finance/bridge-btc/eth",
-        "https://coincub.com/blog/cross-chain-liquidity-simplifying-crypto-swaps-with-non-custodial-tools/",
-        "https://www.reddit.com/r/ethereum/comments/1rh6nli/blockchain_interoperability_solutions_still_cant/"
+        "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps",
+        "https://advertorial.cryptonews.com/press-releases/what-would-true-cross-chain-liquidity-between-btc-eth-and-sol-look-like-liquidchain-liquid-weighs-in/",
+        "https://bitcoin.tax/blog/cross-chain-liquidity-2025/",
+        "https://godex.io/blog/cross-chain-crypto-swaps-best-exchanges-for-multi-blockchain-trading"
       ],
       "confidence": 0.9,
-      "reasoning": "New technical deployments of non-custodial swap tools confirm the market is moving away from synthetic wrappers toward native liquidity unification."
+      "reasoning": "The emergence of specific technical solutions for 'native' swaps as an alternative to wrapping assets indicates a significant evolution in cross-chain infrastructure aimed at security and efficiency."
     }
   ]
 }
