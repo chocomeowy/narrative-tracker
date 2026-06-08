@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-08T16:03:27.836902Z",
+  "last_updated": "2026-06-08T22:01:22.345669Z",
   "archived_trends": [
     {
       "name": "Cross-Chain Liquidity Solutions",
@@ -2288,6 +2288,152 @@
         "summary_changed": true
       },
       "archived_at": "2026-06-08T16:03:27.836902Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "ethereum-narrative-fatigue-and-institutional-repricing",
+      "name": "Ethereum Narrative Fatigue and Institutional Repricing",
+      "stage": "Fatigue",
+      "velocity": "Medium",
+      "category": "Market Sentiment",
+      "summary": "Ethereum is experiencing a severe confidence crisis. Large-scale institutional holders are facing multibillion-dollar unrealized losses as the price dips below key psychological levels, forcing a reassessment of ETH's value proposition relative to Bitcoin and emerging L1s.",
+      "evidence": [
+        "Bitmine chairman Tom Lee reported to be sitting on nearly $9 billion in unrealized ETH losses.",
+        "ETH price performance has fallen below $1800, leading to concerns of a broader collapse.",
+        "New technical proposals focus on inflation reduction to counter negative price action and narrative stagnation."
+      ],
+      "source_links": [
+        "https://finance.yahoo.com/video/tom-lee-sitting-nearly-9b-180000024.html",
+        "https://finance.yahoo.com/video/ethereum-collapse-could-drag-bitcoin-120000200.html",
+        "https://finance.yahoo.com/video/tom-lees-ethereum-bet-down-162932270.html",
+        "https://www.youtube.com/watch?v=ca6Sk_zptyM"
+      ],
+      "source_details": [
+        {
+          "url": "https://finance.yahoo.com/video/tom-lee-sitting-nearly-9b-180000024.html",
+          "domain": "finance.yahoo.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://finance.yahoo.com/video/ethereum-collapse-could-drag-bitcoin-120000200.html",
+          "domain": "finance.yahoo.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://finance.yahoo.com/video/tom-lees-ethereum-bet-down-162932270.html",
+          "domain": "finance.yahoo.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ca6Sk_zptyM",
+          "domain": "youtube.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 4,
+        "primary_source_count": 0,
+        "secondary_source_count": 4,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.95,
+      "reasoning": "The combination of massive financial drawdowns for institutional leaders and a lack of fresh narratives beyond deflationary mechanics justifies the Fatigue classification.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Fatigue",
+        "velocity_delta": 0,
+        "previous_velocity": "Medium",
+        "new_sources": [
+          "https://www.youtube.com/watch?v=ca6Sk_zptyM"
+        ],
+        "dropped_sources": [
+          "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+          "https://x.com/MilkRoad/status/2063486415573581966"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-06-08T22:01:22.345669Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "intent-based-and-non-custodial-cross-chain-rails",
+      "name": "Intent-Based and Non-Custodial Cross-Chain Rails",
+      "stage": "Breakthrough",
+      "velocity": "Medium",
+      "category": "DeFi",
+      "summary": "Cross-chain infrastructure is evolving from risky, custodial bridges to 'Intent-based' models. These protocols allow users to execute native swaps (e.g., BTC to ETH) via on-chain solvers, minimizing intermediary risk and improving liquidity efficiency.",
+      "evidence": [
+        "The rise of NEAR Intents allows for secure, on-chain execution of cross-chain trades without legacy bridge risk.",
+        "Symbiosis and THORChain continue to scale decentralized cross-chain liquidity management.",
+        "Protocol developers are prioritizing 'solver-based' models to provide best-price execution across disparate chains."
+      ],
+      "source_links": [
+        "https://near-intents.org",
+        "https://symbiosis.finance",
+        "https://thorchain.org",
+        "https://app.debridge.com"
+      ],
+      "source_details": [
+        {
+          "url": "https://near-intents.org",
+          "domain": "near-intents.org",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://symbiosis.finance",
+          "domain": "symbiosis.finance",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://thorchain.org",
+          "domain": "thorchain.org",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://app.debridge.com",
+          "domain": "app.debridge.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 4,
+        "primary_source_count": 0,
+        "secondary_source_count": 4,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.96,
+      "reasoning": "The shift toward 'Intents' represents a significant technical upgrade over previous bridging models, addressing the industry's primary security vulnerability.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
+        "new_sources": [
+          "https://near-intents.org",
+          "https://symbiosis.finance",
+          "https://thorchain.org",
+          "https://app.debridge.com"
+        ],
+        "dropped_sources": [],
+        "summary_changed": false
+      },
+      "archived_at": "2026-06-08T22:01:22.345669Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
