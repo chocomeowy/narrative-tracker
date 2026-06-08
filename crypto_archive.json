@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-08T04:01:03.722971Z",
+  "last_updated": "2026-06-08T10:02:14.377392Z",
   "archived_trends": [
     {
       "name": "Cross-Chain Liquidity Solutions",
@@ -2047,6 +2047,74 @@
         "summary_changed": true
       },
       "archived_at": "2026-06-04T22:01:04.140586Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "ethereum-trust-settlement-hardening",
+      "name": "Ethereum Trust Settlement Hardening",
+      "stage": "Fatigue",
+      "velocity": "Medium",
+      "category": "Smart Contracts",
+      "summary": "While Ethereum maintains its position as the primary decentralized execution environment and second-largest asset, it faces narrative fatigue. It is increasingly viewed as a secure, lower-velocity settlement engine while high-growth and regulatory excitement moves towards Bitcoin and cross-chain layers.",
+      "evidence": [
+        "Ethereum trades at approximately $1,581.55 as of June 6, 2026, with solid but lower-velocity transaction volume.",
+        "Ethereum continues to act as a platform for decentralized smart contracts and ERC-20 tokens but lacks the aggressive momentum of earlier cycles.",
+        "The transition from proof-of-work to proof-of-stake reduced energy consumption by over 99% but did not stave off the relative capital flight to newer narratives."
+      ],
+      "source_links": [
+        "https://coinmarketcap.com/currencies/ethereum",
+        "https://www.coindesk.com/price/ethereum",
+        "https://en.wikipedia.org/wiki/Ethereum"
+      ],
+      "source_details": [
+        {
+          "url": "https://coinmarketcap.com/currencies/ethereum",
+          "domain": "coinmarketcap.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.coindesk.com/price/ethereum",
+          "domain": "coindesk.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethereum",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 3,
+        "primary_source_count": 0,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 1,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.95,
+      "reasoning": "Ethereum's underlying tech is solid, but it experiences market narrative fatigue relative to Bitcoin's sovereign adoption and legislative breakthroughs.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Fatigue",
+        "velocity_delta": 0,
+        "previous_velocity": "Medium",
+        "new_sources": [
+          "https://en.wikipedia.org/wiki/Ethereum",
+          "https://www.coindesk.com/price/ethereum"
+        ],
+        "dropped_sources": [
+          "https://ethereum.org",
+          "https://finance.yahoo.com/quote/ETH-USD"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-06-08T10:02:14.377392Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
