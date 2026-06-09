@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-09T10:04:06.368921Z",
+  "last_updated": "2026-06-09T16:01:24.881936Z",
   "archived_trends": [
     {
       "name": "Cross-Chain Liquidity Solutions",
@@ -2434,6 +2434,144 @@
         "summary_changed": false
       },
       "archived_at": "2026-06-08T22:01:22.345669Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "ethereum-narrative-fatigue-and-evm-displacement",
+      "name": "Ethereum Narrative Fatigue and EVM Displacement",
+      "stage": "Fatigue",
+      "velocity": "Medium",
+      "category": "Market Sentiment",
+      "summary": "Ethereum faces a period of relative stagnation as the market prioritizes the 'Flight to Quality' and regulatory certainty of Bitcoin. ETH price action remains muted around $1,700, and its dominance in smart contracts is being challenged by the legal de-risking of Bitcoin-native alternatives under the CLARITY Act.",
+      "evidence": [
+        "ETH live price stagnating at approximately $1,701 USD despite broader market regulatory wins.",
+        "Institutional capital rotation favoring regulated settlement layers as defined by recent US Senate actions.",
+        "Market sentiment reflecting a shift from Ethereum's general-purpose utility to Bitcoin's specific regulatory-compliant reserve status."
+      ],
+      "source_links": [
+        "https://coinmarketcap.com/currencies/ethereum",
+        "https://www.vaneck.com/us/en/blogs/digital-assets/bitcoin-vs-ethereum",
+        "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance"
+      ],
+      "source_details": [
+        {
+          "url": "https://coinmarketcap.com/currencies/ethereum",
+          "domain": "coinmarketcap.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.vaneck.com/us/en/blogs/digital-assets/bitcoin-vs-ethereum",
+          "domain": "vaneck.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 3,
+        "primary_source_count": 0,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 1,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.92,
+      "reasoning": "The Fatigue stage is justified by the flat price performance ($1,701) in the face of major legislative catalysts for its primary competitor, Bitcoin.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Fatigue",
+        "velocity_delta": 0,
+        "previous_velocity": "Medium",
+        "new_sources": [
+          "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+          "https://www.vaneck.com/us/en/blogs/digital-assets/bitcoin-vs-ethereum"
+        ],
+        "dropped_sources": [
+          "https://en.wikipedia.org/wiki/Ethereum",
+          "https://www.coinbase.com/price/ethereum"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-06-09T16:01:24.881936Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "intent-based-cross-chain-rails-and-interchain-liquidity",
+      "name": "Intent-Based Cross-Chain Rails and Interchain Liquidity",
+      "stage": "Breakthrough",
+      "velocity": "Medium",
+      "category": "DeFi",
+      "summary": "Technical innovation is shifting from risky custodial bridges to 'intent-based' solvers and non-custodial swap tools. These protocols allow users to move liquidity between Bitcoin and the Ethereum ecosystem without typical bridge security failures, facilitating a more secure migration of capital.",
+      "evidence": [
+        "Symbiosis and other non-custodial tools emerging as preferred methods for BTC/ETH swaps.",
+        "Chainalysis data highlighting the move toward platforms like Aave and Curve using bridges for liquidity movement.",
+        "Solver-based models gaining traction to mitigate the security risks identified in legacy cross-chain architecture."
+      ],
+      "source_links": [
+        "https://symbiosis.finance/bridge-btc/eth",
+        "https://www.chainalysis.com/blog/introduction-to-cross-chain-bridges",
+        "https://coincub.com/blog/cross-chain-liquidity-simplifying-crypto-swaps-with-non-custodial-tools"
+      ],
+      "source_details": [
+        {
+          "url": "https://symbiosis.finance/bridge-btc/eth",
+          "domain": "symbiosis.finance",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.chainalysis.com/blog/introduction-to-cross-chain-bridges",
+          "domain": "chainalysis.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://coincub.com/blog/cross-chain-liquidity-simplifying-crypto-swaps-with-non-custodial-tools",
+          "domain": "coincub.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 3,
+        "primary_source_count": 0,
+        "secondary_source_count": 3,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.94,
+      "reasoning": "The trend remains in Breakthrough as the industry adopts non-custodial 'solver' models to bypass the security vulnerabilities of first-generation bridges.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "Medium",
+        "new_sources": [
+          "https://coincub.com/blog/cross-chain-liquidity-simplifying-crypto-swaps-with-non-custodial-tools",
+          "https://symbiosis.finance/bridge-btc/eth",
+          "https://www.chainalysis.com/blog/introduction-to-cross-chain-bridges"
+        ],
+        "dropped_sources": [
+          "https://app.debridge.com",
+          "https://symbiosis.finance",
+          "https://thorchain.org"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-06-09T16:01:24.881936Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
