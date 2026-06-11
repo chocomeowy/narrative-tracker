@@ -28,26 +28,45 @@
     </nav>
 
     <main>
-        <section class="stats-grid">
-            <div class="stat-card">
-                <div class="stat-label">Total Trends Tracked</div>
-                <div id="count-total" class="stat-value">0</div>
-            </div>
-            <div id="top-focus" class="stat-card">
-                <div class="stat-label">Primary Intelligence Focus</div>
-                <div id="current-focus" class="stat-value" style="font-size: 1.2rem; margin-top: 0.5rem;">Global Tech</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-label">Agent Status</div>
-                <div class="stat-value" style="color: #10b981;">Active</div>
-            </div>
-        </section>
-
-        
         <section id="briefing-container" class="briefing-card" style="display: none;">
             <div class="stat-label" style="margin-bottom: 1rem;">Intelligence Briefing</div>
             <div id="briefing-text" class="briefing-content"></div>
         </section>
+
+        <div id="lifecycle-map" class="lifecycle-container">
+            <!-- Stages will be injected here -->
+            <div id="incubation-section" class="stage-section">
+                <div class="stage-header">
+                    <span class="stage-badge" style="background: var(--incubation);">Incubation</span>
+                    <h2 class="stage-title">Emerging Niche</h2>
+                </div>
+                <div id="incubation-trends" class="trends-grid"></div>
+            </div>
+
+            <div id="breakthrough-section" class="stage-section">
+                <div class="stage-header">
+                    <span class="stage-badge" style="background: var(--breakthrough);">Breakthrough</span>
+                    <h2 class="stage-title">Early Adoption</h2>
+                </div>
+                <div id="breakthrough-trends" class="trends-grid"></div>
+            </div>
+
+            <div id="peak-hype-section" class="stage-section">
+                <div class="stage-header">
+                    <span class="stage-badge" style="background: var(--peak-hype);">Peak Hype</span>
+                    <h2 class="stage-title">Mass Awareness</h2>
+                </div>
+                <div id="peak-hype-trends" class="trends-grid"></div>
+            </div>
+
+            <div id="fatigue-section" class="stage-section">
+                <div class="stage-header">
+                    <span class="stage-badge" style="background: var(--fatigue);">Fatigue</span>
+                    <h2 class="stage-title">Backlash & Decline</h2>
+                </div>
+                <div id="fatigue-trends" class="trends-grid"></div>
+            </div>
+        </div>
 
         <section id="ai-showcase" class="ai-showcase">
             <div class="ai-showcase-header">
@@ -97,40 +116,20 @@
             </div>
         </section>
 
-        <div id="lifecycle-map" class="lifecycle-container">
-            <!-- Stages will be injected here -->
-            <div id="incubation-section" class="stage-section">
-                <div class="stage-header">
-                    <span class="stage-badge" style="background: var(--incubation);">Incubation</span>
-                    <h2 class="stage-title">Emerging Niche</h2>
-                </div>
-                <div id="incubation-trends" class="trends-grid"></div>
+        <section class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-label">Total Trends Tracked</div>
+                <div id="count-total" class="stat-value">0</div>
             </div>
-
-            <div id="breakthrough-section" class="stage-section">
-                <div class="stage-header">
-                    <span class="stage-badge" style="background: var(--breakthrough);">Breakthrough</span>
-                    <h2 class="stage-title">Early Adoption</h2>
-                </div>
-                <div id="breakthrough-trends" class="trends-grid"></div>
+            <div id="top-focus" class="stat-card">
+                <div class="stat-label">Primary Intelligence Focus</div>
+                <div id="current-focus" class="stat-value" style="font-size: 1.2rem; margin-top: 0.5rem;">Global Tech</div>
             </div>
-
-            <div id="peak-hype-section" class="stage-section">
-                <div class="stage-header">
-                    <span class="stage-badge" style="background: var(--peak-hype);">Peak Hype</span>
-                    <h2 class="stage-title">Mass Awareness</h2>
-                </div>
-                <div id="peak-hype-trends" class="trends-grid"></div>
+            <div class="stat-card">
+                <div class="stat-label">Agent Status</div>
+                <div class="stat-value" style="color: #10b981;">Active</div>
             </div>
-
-            <div id="fatigue-section" class="stage-section">
-                <div class="stage-header">
-                    <span class="stage-badge" style="background: var(--fatigue);">Fatigue</span>
-                    <h2 class="stage-title">Backlash & Decline</h2>
-                </div>
-                <div id="fatigue-trends" class="trends-grid"></div>
-            </div>
-        </div>
+        </section>
 
         <section id="matrix-container" class="matrix-card" style="margin-top: 4rem;">
             <div class="stat-label" style="margin-bottom: 1.5rem;">Intelligence Heatmap: Category vs Stage</div>

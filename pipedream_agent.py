@@ -195,15 +195,9 @@ def handler(pd: "pipedream"):
     # Prioritize newest Gemini models followed by robust fallbacks
     models_to_try = [
         "gemini-3.5-flash",
-        "gemini-3.1-pro-preview",
-        "gemini-3-pro-preview",
-        "gemini-3-flash-preview",
-        "gemini-3.1-flash-lite",
-        "gemma-4-31b-it",
-        "gemini-2.5-pro",
-        "gemini-2.5-flash",
-        "gemini-2.0-flash",
-        "gemini-flash-latest"
+        "gemini-2.0-flash",       # Standard, fast model
+        "gemini-1.5-flash",       # Stable fallback
+        "gemini-2.5-flash"
     ]
     res_json = {}
     successful_model = None
