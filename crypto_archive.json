@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-10T22:01:16.387218Z",
+  "last_updated": "2026-06-11T04:01:01.892793Z",
   "archived_trends": [
     {
       "name": "Cross-Chain Liquidity Solutions",
@@ -2716,6 +2716,84 @@
         "summary_changed": false
       },
       "archived_at": "2026-06-09T22:01:16.519388Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "non-custodial-cross-chain-settlement-and-bitcoin-isolation",
+      "name": "Non-Custodial Cross-Chain Settlement and Bitcoin Isolation",
+      "stage": "Breakthrough",
+      "velocity": "Medium",
+      "category": "DeFi",
+      "summary": "The historical friction of Bitcoin's isolation is being mitigated by non-custodial cross-chain swap protocols. Solutions like THORChain and Symbiosis enable direct, native-to-native swaps without forcing users to rely on centralized bridges or wrap BTC into vulnerable synthetic assets. This ensures secure interoperability across Ethereum, Solana, and dozens of EVM chains directly from native Bitcoin pools.",
+      "evidence": [
+        "THORChain uses native liquidity pools and RUNE intermediary settlement to execute direct cross-chain swaps between BTC and ETH without wrapping risk.",
+        "Symbiosis successfully links Bitcoin with Solana, Tron, and over 45 EVM networks into a single, unified cross-chain ecosystem.",
+        "The DeFi ecosystem is shifting toward trustless, non-custodial swaps, reducing reliance on centralized custody bridges."
+      ],
+      "source_links": [
+        "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps",
+        "https://swapspace.co/cross-chain/btc-eth-bridge",
+        "https://symbiosis.finance",
+        "https://coincub.com/blog/cross-chain-liquidity-simplifying-crypto-swaps-with-non-custodial-tools",
+        "https://changenow.io/blog/cross-chain-crypto-bridges-faq"
+      ],
+      "source_details": [
+        {
+          "url": "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps",
+          "domain": "gate.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://swapspace.co/cross-chain/btc-eth-bridge",
+          "domain": "swapspace.co",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://symbiosis.finance",
+          "domain": "symbiosis.finance",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://coincub.com/blog/cross-chain-liquidity-simplifying-crypto-swaps-with-non-custodial-tools",
+          "domain": "coincub.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://changenow.io/blog/cross-chain-crypto-bridges-faq",
+          "domain": "changenow.io",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 5,
+        "primary_source_count": 0,
+        "secondary_source_count": 5,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.94,
+      "reasoning": "Stays at Breakthrough. Non-custodial bridging is moving from a niche workaround to a structural requirement. The integration of native BTC across 45+ chains by Symbiosis and similar protocols provides actual trustless execution paths.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "Medium",
+        "new_sources": [
+          "https://changenow.io/blog/cross-chain-crypto-bridges-faq"
+        ],
+        "dropped_sources": [],
+        "summary_changed": true
+      },
+      "archived_at": "2026-06-11T04:01:01.892793Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
