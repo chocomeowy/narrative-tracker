@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-11T15:01:05.095081Z",
+  "last_updated": "2026-06-12T15:00:41.708240Z",
   "archived_trends": [
     {
       "id": "agentic-mesh-protocols",
@@ -3412,6 +3412,68 @@
         "summary_changed": false
       },
       "archived_at": "2026-06-08T15:00:59.787998Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "open-source-model-curation-directory-driven-selection",
+      "name": "Open-Source Model Curation & Directory-Driven Selection",
+      "stage": "Peak Hype",
+      "velocity": "High",
+      "category": "Open Source LLMs",
+      "summary": "The popularity of open-weight large language models is growing, with an increasing number of permissively licensed options entering the market. This proliferation necessitates robust curation, comparison tools, and leaderboards to help developers and organizations select the most suitable models for their specific needs.",
+      "evidence": [
+        "Since 2022, weights-available models have been gaining popularity, especially at first with BLOOM and LLaMA, though both have restrictions on usage and deployment.",
+        "Mistral AI's open-weight models Mistral 7B and Mixtral 8x7B have a more permissive Apache License.",
+        "Comparison and ranking the performance of over 100 AI models (LLMs) across key metrics including intelligence, price, performance and speed (output speed - tokens per second & latency - TTFT), context window & others."
+      ],
+      "source_links": [
+        "https://en.wikipedia.org/wiki/Large_language_model",
+        "https://artificialanalysis.ai/leaderboards/models"
+      ],
+      "source_details": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Large_language_model",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        },
+        {
+          "url": "https://artificialanalysis.ai/leaderboards/models",
+          "domain": "artificialanalysis.ai",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 2,
+        "primary_source_count": 0,
+        "secondary_source_count": 1,
+        "wikipedia_source_count": 1,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.85,
+      "reasoning": "The continued emergence of new open-source models with more permissive licenses, combined with the development of comprehensive LLM leaderboards, indicates ongoing high interest and activity. This sustains its 'Peak Hype' status, albeit with growing practical infrastructure for selection.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Peak Hype",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [
+          "https://artificialanalysis.ai/leaderboards/models",
+          "https://en.wikipedia.org/wiki/Large_language_model"
+        ],
+        "dropped_sources": [
+          "https://botpress.com/blog/best-large-language-models",
+          "https://llm-explorer.com",
+          "https://zapier.com/blog/best-llm"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-06-12T15:00:41.708240Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
