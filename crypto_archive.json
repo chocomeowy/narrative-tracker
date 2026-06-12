@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-12T16:01:05.696816Z",
+  "last_updated": "2026-06-12T22:01:35.393140Z",
   "archived_trends": [
     {
       "name": "Cross-Chain Liquidity Solutions",
@@ -3107,6 +3107,85 @@
         "summary_changed": true
       },
       "archived_at": "2026-06-11T22:01:14.639794Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "ethereum-enterprise-utility-vs-narrative-fatigue",
+      "name": "Ethereum Enterprise Utility vs. Narrative Fatigue",
+      "stage": "Fatigue",
+      "velocity": "Medium",
+      "category": "Market Sentiment",
+      "summary": "Ethereum faces persistent narrative fatigue and capital underperformance relative to Bitcoin, driven by a structural shift of liquidity toward secure Bitcoin yields and programmability. Although it remains the dominant open-source smart contract platform, core developers and institutional advocates are preparing a deep architectural shift to fully integrate zero-knowledge proofs within 3 to 5 years to regain technological dominance.",
+      "evidence": [
+        "Despite remaining the secondary crypto asset by market capitalization, Ethereum experiences short-term narrative challenges and capital outflows.",
+        "Plans are being proposed by core entities like Consensys to transition Ethereum into a fully zero-knowledge proof-based protocol to resolve scalability and security concerns.",
+        "Ethereum continues to host the largest ecosystem of decentralized finance applications that bypass traditional financial intermediaries."
+      ],
+      "source_links": [
+        "https://en.wikipedia.org/wiki/Ethereum",
+        "https://coinmarketcap.com/currencies/ethereum",
+        "https://www.coinbase.com/price/ethereum",
+        "https://www.coingecko.com/en/coins/ethereum"
+      ],
+      "source_details": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethereum",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        },
+        {
+          "url": "https://coinmarketcap.com/currencies/ethereum",
+          "domain": "coinmarketcap.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.coinbase.com/price/ethereum",
+          "domain": "coinbase.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.coingecko.com/en/coins/ethereum",
+          "domain": "coingecko.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 4,
+        "primary_source_count": 0,
+        "secondary_source_count": 3,
+        "wikipedia_source_count": 1,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.93,
+      "reasoning": "The trend remains in Fatigue. While Ethereum's long-term technical roadmap toward zero-knowledge proof integration is concrete, short-to-medium term capital rotation to Bitcoin and structural underperformance continue to weigh on institutional sentiment.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Fatigue",
+        "velocity_delta": 0,
+        "previous_velocity": "Medium",
+        "new_sources": [
+          "https://coinmarketcap.com/currencies/ethereum",
+          "https://en.wikipedia.org/wiki/Ethereum",
+          "https://www.coinbase.com/price/ethereum",
+          "https://www.coingecko.com/en/coins/ethereum"
+        ],
+        "dropped_sources": [
+          "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+          "https://finance.yahoo.com/video/tom-lee-sitting-nearly-9b-180000024.html",
+          "https://x.com/BSCNews/status/2064951764852556076",
+          "https://x.com/cryptorover/status/2064387798078206464"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-06-12T22:01:35.393140Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
