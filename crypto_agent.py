@@ -37,7 +37,7 @@ def repair_json(s):
 def fetch_current_state():
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/crypto_trend_map.json"
     headers = {"Authorization": f"token {GITHUB_TOKEN}"}
-    r = requests.get(url, headers=headers)
+    r = requests.get(url, headers=headers, timeout=15)
     if r.status_code == 200:
         import base64
         content = r.json()
@@ -47,7 +47,7 @@ def fetch_current_state():
 def fetch_archive():
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/crypto_archive.json"
     headers = {"Authorization": f"token {GITHUB_TOKEN}"}
-    r = requests.get(url, headers=headers)
+    r = requests.get(url, headers=headers, timeout=15)
     if r.status_code == 200:
         import base64
         content = r.json()
@@ -57,7 +57,7 @@ def fetch_archive():
 def fetch_steering():
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/crypto_steering.json"
     headers = {"Authorization": f"token {GITHUB_TOKEN}"}
-    r = requests.get(url, headers=headers)
+    r = requests.get(url, headers=headers, timeout=15)
     if r.status_code == 200:
         import base64
         content = r.json()
@@ -67,7 +67,7 @@ def fetch_steering():
 def get_search_results(query):
     try:
         from ddgs import DDGS
-        with DDGS() as ddgs:
+        with DDGS(timeout=10) as ddgs:
             results = [
                 {
                     "title": r.get("title"),
@@ -196,11 +196,12 @@ def run_agent():
         try:
             print(f"Attempting {model_id}...")
             sys.stdout.flush()
-            response = requests.post(url, headers=headers, json=payload, timeout=180)
+            response = requests.post(url, headers=headers, json=payload, timeout=20)
             res_json = response.json()
             
             if response.status_code != 200:
                 print(f"Model {model_id} Error ({response.status_code}): {res_json.get('error', {}).get('message', 'Unknown error')}")
+                sys.stdout.flush()
                 continue
  
             if "candidates" in res_json:
@@ -208,15 +209,19 @@ def run_agent():
                 if '{' in text:
                     successful_model = model_id
                     print(f"Success using {model_id}")
+                    sys.stdout.flush()
                     break
                 else:
                     print(f"Model {model_id} returned NO JSON structure.")
+                    sys.stdout.flush()
                     continue
             else:
                 print(f"Model {model_id} returned no candidates. Response: {res_json}")
+                sys.stdout.flush()
                 continue
         except requests.exceptions.Timeout:
-            print(f"Model {model_id} timed out after 180s.")
+            print(f"Model {model_id} timed out after 20s.")
+            sys.stdout.flush()
             continue
         except Exception as e:
             print(f"Error calling {model_id}: {e}")

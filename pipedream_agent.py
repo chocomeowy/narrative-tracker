@@ -18,7 +18,7 @@ except ModuleNotFoundError:
             _headers = {}
             if _token:
                 _headers["Authorization"] = f"token {_token}"
-            _response = requests.get(_url, headers=_headers)
+            _response = requests.get(_url, headers=_headers, timeout=15)
             if _response.status_code == 200:
                 _content = _response.json()
                 _code = base64.b64decode(_content['content']).decode('utf-8')
@@ -66,7 +66,7 @@ def repair_json(s):
 def fetch_github_file(path):
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}"
     headers = {"Authorization": f"token {GITHUB_TOKEN}"}
-    r = requests.get(url, headers=headers)
+    r = requests.get(url, headers=headers, timeout=15)
     if r.status_code == 200:
         content = r.json()
         return json_lib.loads(base64.b64decode(content['content']).decode('utf-8')), content['sha']
@@ -75,7 +75,7 @@ def fetch_github_file(path):
 def fetch_archive():
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/archive.json"
     headers = {"Authorization": f"token {GITHUB_TOKEN}"}
-    r = requests.get(url, headers=headers)
+    r = requests.get(url, headers=headers, timeout=15)
     if r.status_code == 200:
         content = r.json()
         return json_lib.loads(base64.b64decode(content['content']).decode('utf-8')), content['sha']
@@ -92,7 +92,7 @@ def update_github_json(path, content_obj, sha, message):
     }
     if sha:
         data["sha"] = sha
-    response = requests.put(url, headers=headers, json=data)
+    response = requests.put(url, headers=headers, json=data, timeout=15)
     response.raise_for_status()
 
 def update_github_text(path, content_text, sha, message):
@@ -105,7 +105,7 @@ def update_github_text(path, content_text, sha, message):
     }
     if sha:
         data["sha"] = sha
-    response = requests.put(url, headers=headers, json=data)
+    response = requests.put(url, headers=headers, json=data, timeout=15)
     response.raise_for_status()
 
 def get_search_results(query):
@@ -115,7 +115,7 @@ def get_search_results(query):
     """
     try:
         from ddgs import DDGS
-        with DDGS() as ddgs:
+        with DDGS(timeout=10) as ddgs:
             results = [
                 {
                     "title": r.get("title"),
@@ -242,11 +242,11 @@ def handler(pd: "pipedream"):
             }
         
         try:
-            response = requests.post(url, headers=headers, json=payload, timeout=180)
+            response = requests.post(url, headers=headers, json=payload, timeout=20)
             res_json = response.json()
             
             # If successful, check if it actually contains JSON
-            if "candidates" in res_json:
+            if response.status_code == 200 and "candidates" in res_json:
                 text = res_json['candidates'][0]['content']['parts'][0]['text']
                 if '{' in text:
                     successful_model = model_id
@@ -258,28 +258,24 @@ def handler(pd: "pipedream"):
                     sys.stdout.flush()
                     continue
             else:
-                print(f"Model {model_id} API Error: {res_json.get('error', {}).get('message', 'No candidates')}")
+                error_code = res_json.get('error', {}).get('code', response.status_code)
+                error_msg = res_json.get('error', {}).get('message', 'Unknown error / No candidates')
+                
+                if error_code == 429:
+                    print(f"Rate limit hit for {model_id}. Switching to next model...")
+                elif error_code == 404:
+                    print(f"Model {model_id} not found. Skipping...")
+                else:
+                    print(f"Model {model_id} failed with error {error_code}: {error_msg}")
+                sys.stdout.flush()
                 continue
         except requests.exceptions.Timeout:
-            print(f"Model {model_id} timed out after 180s.")
+            print(f"Model {model_id} timed out after 20s.")
+            sys.stdout.flush()
             continue
         except Exception as e:
             print(f"Error calling {model_id}: {e}")
-            continue
-            
-        # If rate limited (429) or model not found (404), log and try next model
-        error_code = res_json.get('error', {}).get('code')
-        error_msg = res_json.get('error', {}).get('message', 'Unknown error')
-        
-        if error_code == 429:
-            print(f"Rate limit hit for {model_id}. Switching to next model...")
-            continue
-        elif error_code == 404:
-            print(f"Model {model_id} not found. Skipping...")
-            continue
-        else:
-            print(f"Model {model_id} failed with error {error_code}: {error_msg}")
-            # For other errors, we still try the next model just in case
+            sys.stdout.flush()
             continue
 
     if not successful_model or "candidates" not in res_json:
@@ -318,7 +314,7 @@ def handler(pd: "pipedream"):
     try:
         url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{briefing_path}"
         headers = {"Authorization": f"token {GITHUB_TOKEN}"}
-        r = requests.get(url, headers=headers)
+        r = requests.get(url, headers=headers, timeout=15)
         if r.status_code == 200:
             briefing_sha = r.json()['sha']
     except:
