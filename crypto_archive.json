@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-17T10:01:20.736515Z",
+  "last_updated": "2026-06-17T16:02:00.981535Z",
   "archived_trends": [
     {
       "name": "Cross-Chain Liquidity Solutions",
@@ -5310,6 +5310,78 @@
         "summary_changed": true
       },
       "archived_at": "2026-06-17T04:01:23.949951Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "native-cross-chain-swap-architecture-and-intent-based-liquidity",
+      "name": "Native Cross-Chain Swap Architecture and Intent-Based Liquidity",
+      "stage": "Breakthrough",
+      "velocity": "High",
+      "category": "DeFi",
+      "summary": "High-performance protocols are enabling instant, non-custodial cross-chain swaps directly between BTC and ETH, bypassing high-risk wrapped bridges and relying on intent-based models and direct API integrations to pool multi-chain liquidity.",
+      "evidence": [
+        "Platforms like Symbiosis, deBridge, and XSwap are providing zero-registration, direct BTC-to-ETH cross-chain swaps.",
+        "DeFi structures are shifting toward intent-based execution to minimize smart contract exposure during asset bridging."
+      ],
+      "source_links": [
+        "https://xswap.to?from=aergo&to=eth",
+        "https://symbiosis.finance",
+        "https://app.debridge.com",
+        "https://bitcoin.tax/blog/cross-chain-liquidity-2025"
+      ],
+      "source_details": [
+        {
+          "url": "https://xswap.to?from=aergo&to=eth",
+          "domain": "xswap.to",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://symbiosis.finance",
+          "domain": "symbiosis.finance",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://app.debridge.com",
+          "domain": "app.debridge.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://bitcoin.tax/blog/cross-chain-liquidity-2025",
+          "domain": "bitcoin.tax",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 4,
+        "primary_source_count": 0,
+        "secondary_source_count": 4,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.94,
+      "reasoning": "The rapid integration of native swap APIs directly addresses structural bridge vulnerabilities, creating a safer cross-chain environment for institutional and retail liquidity.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [
+          "https://xswap.to?from=aergo&to=eth"
+        ],
+        "dropped_sources": [
+          "https://near-intents.org"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-06-17T16:02:00.981535Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
