@@ -1,79 +1,84 @@
-# Crypto Intelligence Briefing - 2026-06-19 16:01
+# Crypto Intelligence Briefing - 2026-06-19 22:01
 
 {
-  "executive_briefing": "The 2026 digital asset landscape is defined by the crystallization of institutional frameworks and the technical convergence of Bitcoin and Ethereum. The Clarity Act has moved from legislative negotiation to active Senate consideration, providing the regulatory bedrock necessary for mainstream institutional participation. Simultaneously, Bitcoin is transitioning from a passive 'digital gold' store-of-value into a yield-generating treasury asset, facilitated by emerging non-custodial cross-chain protocols that bridge the Bitcoin and EVM ecosystems. Ethereum retains its position as the dominant smart-contract infrastructure, though it faces increasing competition from Bitcoin-native interoperability solutions that seek to combine BTC's capital depth with EVM's programmable utility.",
+  "executive_briefing": "The June 2026 digital asset landscape is characterized by a critical legislative bottleneck and the structural maturation of Bitcoin as a regulated brokerage asset. The Clarity Act has entered a high-stakes Senate phase; however, passage odds have been revised downward to 60% due to a shrinking legislative calendar and jurisdictional friction, creating a 'volatility gap' for institutional planning. Despite this, Bitcoin has established a firm psychological and technical floor above $100,000, driven by its transition from self-custody to integration within pension and RIA brokerage lines. Technologically, the focus has pivoted from risky 'wrapped' asset bridges to native, trustless cross-chain swap architectures, allowing BTC to interface with EVM environments without intermediary risk. Ethereum remains the enterprise standard, recently deploying 'clear signing' to enhance security, even as it navigates intense competition from Bitcoin-native utility protocols enabled by the emerging regulatory framework.",
   "trends": [
     {
-      "name": "Legislative Formalization via the Clarity Act",
+      "name": "Clarity Act Senate Inflection Point",
       "stage": "Breakthrough",
-      "velocity": "Medium",
+      "velocity": "High",
       "category": "Regulation",
-      "summary": "The Clarity Act is currently undergoing Senate scrutiny following its House passage, serving as the primary driver for institutional capital deployment by providing a defined legal framework for digital assets.",
+      "summary": "The Clarity Act is facing its most critical test in the Senate. While it survived a chaotic markup, legislative calendar constraints and debates over illicit-finance provisions have reduced passage certainty, though it remains the primary catalyst for $3 trillion in sidelined institutional capital.",
       "evidence": [
-        "H.R. 3633 passed the House in 2025 and has been formally introduced to the Senate Banking Committee.",
-        "Senate Banking Committee has unveiled latest drafts, signaling a move toward floor debate."
+        "Senate Banking Committee held a historic markup on May 14 despite opposition.",
+        "Galaxy Research revised passage odds from 75% to 60% due to floor time constraints in June 2026.",
+        "Stand With Crypto and 200+ firms have mobilized a formal advocacy campaign for a full floor vote."
       ],
       "source_links": [
-        "https://www.congress.gov/bill/119th-congress/house-bill/3633/text",
-        "https://www.govtrack.us/congress/bills/119/hr3633",
-        "https://www.coindesk.com/policy/2026/05/11/clarity-act-in-the-flesh-unveiled-by-u-s-senate-banking-committee-before-hearing"
+        "https://www.banking.senate.gov/newsroom/majority/the-facts-the-clarity-act-protects-main-street-unleashes-responsible-innovation-and-cracks-down-on-fraud-and-money-laundering",
+        "https://cryptoslate.com/how-clarity-act-survived-a-chaotic-senate-markup-after-warren-banks-and-democrats-tried-to-slow-it-down/",
+        "https://www.galaxy.com/insights/research/clarity-act-passage-odds-60-percent-senate-calendar-june-2026",
+        "https://coinedition.com/stand-with-crypto-and-over-200-firms-urge-senate-to-pass-the-clarity-act/"
       ],
-      "confidence": 0.95,
-      "reasoning": "The trend remains in the Breakthrough stage as it has transitioned from policy drafting to active legislative calendar management, with high stakes and moderate legislative speed."
+      "confidence": 0.92,
+      "reasoning": "The trend's velocity increased to High due to the urgent Senate floor fight, while remaining in Breakthrough as the final legislative outcome is pending."
     },
     {
-      "name": "Institutional Bitcoin Treasury Standard",
+      "name": "Bitcoin Regulated Brokerage Integration",
       "stage": "Peak Hype",
       "velocity": "High",
       "category": "Institutional Finance",
-      "summary": "Institutional demand is evolving beyond simple ETF exposure toward strategic treasury management, where firms utilize regulated custody and prime services to hold BTC directly as a macro-hedge asset.",
+      "summary": "Bitcoin has evolved from a 'self-custody only' asset into a standard component of corporate treasuries and pension funds. The approval of spot ETFs has permitted RIAs and 401(k) providers to hold BTC through traditional brokerage lines, stabilizing the market floor above $100K.",
       "evidence": [
-        "Major institutional players are shifting from indirect ETF wrappers to direct balance-sheet accumulation.",
-        "Expectation that clear regulation will unlock over $3 trillion in institutional capital, including pension and 401(k) allocations."
+        "Bitcoin ETFs projected to hold 7% of total circulating supply by the end of 2026.",
+        "Institutional adoption shifting from 'direct balance sheet' holding to regulated brokerage line integration.",
+        "Market analysis indicates ETF-driven demand prevented traditional 80% drawdowns seen in previous cycles."
       ],
       "source_links": [
-        "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption/",
-        "https://cryptothreads.io/learn/bitcoin-institutional-adoption/",
+        "https://lendefimarkets.com/blog/bitcoin-institutional-adoption",
+        "https://valueaddvc.com/blog/bitcoin-at-100k-what-the-etf-approval-and-institutional-adoption-actually-changed",
         "https://datos-insights.com/blog/bitcoin-etf-institutional-adoption/"
       ],
-      "confidence": 0.9,
-      "reasoning": "The trend is at Peak Hype due to intense market discussion regarding the impact of ETF-driven market structures on corporate treasury behavior."
+      "confidence": 0.95,
+      "reasoning": "Maintained at Peak Hype due to extreme market focus on the $100k milestone and the broad institutional pivot to brokerage-based exposure."
     },
     {
-      "name": "Native Cross-Chain Swap Architecture",
+      "name": "Native Trustless Cross-Chain Swaps",
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "DeFi",
-      "summary": "A fundamental shift toward non-custodial, decentralized cross-chain protocols allows Bitcoin to interface directly with Ethereum-based smart contracts, replacing risky bridge-based models.",
+      "summary": "The DeFi ecosystem is aggressively moving away from custodial bridges toward native swap architectures. Protocols like THORChain now enable direct, non-custodial BTC-to-ETH exchanges, mitigating the security risks that previously plagued cross-chain liquidity.",
       "evidence": [
-        "Increased market focus on trust-minimized, non-custodial swaps as a core requirement for secure institutional liquidity management.",
-        "Ongoing development of protocols like Symbiosis that enable interoperability without traditional centralizing bridges."
+        "THORChain documentation confirms active support for native BTC to native ETH swaps without intermediaries.",
+        "Increased focus on trust-minimized liquidity to solve fragmentation between BTC and EVM chains.",
+        "Industry-wide shift away from 'locked and wrapped' bridge models following high-profile exploits."
       ],
       "source_links": [
-        "https://symbiosis.finance/",
-        "https://ghostswap.io/thorchain-exploit-may-2026-swap-user-guide/",
-        "https://www.techedubyte.com/cross-chain-liquidity-btc-eth-sol-liquidchain/"
+        "https://docs.thorchain.org/native-cross-chain-swaps",
+        "https://bitcoin.tax/blog/cross-chain-liquidity-2025/",
+        "https://ethereum.org/bridges"
       ],
-      "confidence": 0.85,
-      "reasoning": "The technology is in a breakthrough phase because it directly solves the liquidity fragmentation problem between the BTC and EVM ecosystems."
+      "confidence": 0.88,
+      "reasoning": "Technology has moved from theoretical to active implementation with major protocols like THORChain providing the primary architectural blueprint."
     },
     {
-      "name": "Ethereum Enterprise Integration",
+      "name": "Ethereum Security & Clear Signing Standards",
       "stage": "Peak Hype",
       "velocity": "Medium",
       "category": "Smart Contracts",
-      "summary": "Ethereum continues to act as the primary foundational layer for global decentralized finance and enterprise-grade smart contract applications due to its established infrastructure and liquidity dominance.",
+      "summary": "Ethereum is reinforcing its enterprise dominance by introducing 'clear signing' and higher security standards for smart contract interactions, aiming to maintain its lead in DeFi TVL against high-throughput competitors.",
       "evidence": [
-        "Dominance in DeFi activity and smart contract development.",
-        "Successful transition to PoS continues to sustain institutional interest in ESG-compliant blockchain infrastructure."
+        "Ethereum Foundation announced 'Clear Signing' is live to improve user security during ecosystem transactions.",
+        "EEA remains the primary body for standardizing enterprise-grade smart contract applications.",
+        "Post-Merge efficiency continues to be a central narrative for ESG-conscious institutional investors."
       ],
       "source_links": [
-        "https://ethereum.org/",
+        "https://x.com/ethereumfndn/status/2066568147230961679",
         "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
-        "https://coinmarketcap.com/currencies/ethereum/"
+        "https://finance.yahoo.com/video/bitcoin-ethereum-playbook-evolving-strategy-120000578.html"
       ],
-      "confidence": 0.92,
-      "reasoning": "Maintained at Peak Hype as Ethereum remains the industry standard for smart contracts, despite the nascent competition from cross-chain Bitcoin-compatible solutions."
+      "confidence": 0.9,
+      "reasoning": "Remains in Peak Hype as Ethereum continues to roll out technical refinements like clear signing to defend its market share in the smart contract space."
     }
   ]
 }
