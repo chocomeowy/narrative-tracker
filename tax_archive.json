@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-20T16:01:37.122419Z",
+  "last_updated": "2026-06-20T22:01:48.770922Z",
   "archived_trends": [
     {
       "name": "Dubai as a Competitive Tax Jurisdiction",
@@ -9790,6 +9790,74 @@
         "summary_changed": false
       },
       "archived_at": "2026-06-20T16:01:37.122419Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "mandatory-real-time-digital-compliance-ctcs",
+      "name": "Mandatory Real-Time Digital Compliance (CTCs)",
+      "stage": "Breakthrough",
+      "velocity": "High",
+      "category": "Compliance",
+      "summary": "Tax authorities are increasingly mandating real-time transactional transparency, with Singapore's InvoiceNow and similar Peppol-based systems becoming the global blueprint for automated VAT/GST compliance.",
+      "evidence": [
+        "Singapore's nationwide e-invoicing mandate continues as a core national digital strategy.",
+        "Growing global adoption of Peppol frameworks for B2B and B2G transactional reporting.",
+        "Direct integration of digital invoicing with tax authority portals (e.g., IRAS) to prevent tax leakage."
+      ],
+      "source_links": [
+        "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
+        "https://www.cleartax.com/sg/en/e-invoicing-singapore",
+        "https://invoicenow.advintek.com.sg"
+      ],
+      "source_details": [
+        {
+          "url": "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
+          "domain": "imda.gov.sg",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.cleartax.com/sg/en/e-invoicing-singapore",
+          "domain": "cleartax.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://invoicenow.advintek.com.sg",
+          "domain": "invoicenow.advintek.com.sg",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 3,
+        "primary_source_count": 1,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.96,
+      "reasoning": "Stage remains Breakthrough as governments shift from pilot programs to firm, multi-year implementation deadlines.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [
+          "https://invoicenow.advintek.com.sg"
+        ],
+        "dropped_sources": [
+          "https://en.wikipedia.org/wiki/Electronic_invoicing",
+          "https://europe.thomsonreuters.com/blog/what-is-an-e-invoice",
+          "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-06-20T22:01:48.770922Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
