@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-20T10:01:47.635599Z",
-  "executive_briefing": "The June 2026 digital asset landscape has entered a critical consolidation phase. Institutional adoption of Bitcoin has reached a maturity plateau marked by deep integration into regulated financial products, with over $130B in AUM across spot ETFs. The legislative trajectory for the Clarity Act has shifted from abstract lobbying to specific Senate committee implementation, directly influencing the capability for Bitcoin to function as a smart-contract-capable collateral layer. This regulatory certainty is accelerating the decline of centralized 'wrapped' bridge dependencies in favor of non-custodial, trustless cross-chain swap architectures, enabling Bitcoin to compete directly with Ethereum\u2019s liquidity dominance. Ethereum, meanwhile, continues to secure its enterprise footing by prioritizing validator growth and UX-level security standards, maintaining its role as the primary smart contract backbone while Bitcoin shifts toward a programmable asset paradigm.",
+  "last_updated": "2026-06-20T16:01:29.791533Z",
+  "executive_briefing": "The digital asset landscape in late June 2026 is defined by the formalization of institutional infrastructure. The 'Clarity Act' has moved from a committee milestone to a Senate floor reporting phase as of June 1, 2026, marking a definitive shift in the regulatory environment for smart-contract-enabled Bitcoin applications. Bitcoin's role as a macro staple is confirmed by institutional trading volume reaching 60%, even as sophisticated hedging suppresses retail-driven price volatility. Simultaneously, Ethereum has entered a 'Treasury Era,' evidenced by publicly traded firms like BitMine aggressively accumulating ETH, while the network's staking security nears a historic 40M ETH milestone. The competitive frontier has shifted to trustless cross-chain swap architectures, which are beginning to mitigate the liquidity fragmentation that previously hindered Bitcoin's integration into the broader DeFi ecosystem.",
   "trends": [
     {
       "id": "clarity-act-senate-implementation",
@@ -8,16 +8,16 @@
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Regulation",
-      "summary": "The Clarity Act is transitioning from a legislative proposal to an implementation framework following Senate Banking Committee advancement. It serves as the legal foundation for integrating digital assets into traditional financial service infrastructure.",
+      "summary": "Legislation defining the market structure for digital assets and DeFi has been officially reported to the Senate as of June 2026. The act creates the legal taxonomy required for Bitcoin to serve as non-custodial collateral within regulated smart contract environments.",
       "evidence": [
-        "Senate Banking Committee advanced the Clarity Act on May 14, 2026.",
-        "The bill provides the legal basis to distinguish digital assets from bank-secrecy-act-only classifications.",
-        "Legislative activity aligns with the objective to unlock institutional capital flows exceeding $3T."
+        "Reported to the Senate on June 1, 2026, following a 15-9 Banking Committee vote.",
+        "The bill addresses specific taxonomies for DeFi and stablecoin yields.",
+        "Bipartisan advancement supported by 78 House Democrats and nearly all Republicans prior to Senate move."
       ],
       "source_links": [
         "https://www.congress.gov/bill/119th-congress/house-bill/3633/text",
-        "https://bankingjournal.aba.com/2026/05/senate-banking-committee-releases-text-of-crypto-bill-ahead-of-vote",
-        "https://www.govtrack.us/congress/bills/119/hr3633"
+        "https://finance.yahoo.com/markets/crypto/articles/senate-clarity-act-floor-vote-121007136.html",
+        "https://a16zcrypto.com/posts/article/clarity-act-what-why-matters"
       ],
       "source_details": [
         {
@@ -27,41 +27,45 @@
           "published_date": null
         },
         {
-          "url": "https://bankingjournal.aba.com/2026/05/senate-banking-committee-releases-text-of-crypto-bill-ahead-of-vote",
-          "domain": "bankingjournal.aba.com",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/senate-clarity-act-floor-vote-121007136.html",
+          "domain": "finance.yahoo.com",
           "type": "secondary",
-          "published_date": "2026-05-01"
+          "published_date": null
         },
         {
-          "url": "https://www.govtrack.us/congress/bills/119/hr3633",
-          "domain": "govtrack.us",
-          "type": "primary",
+          "url": "https://a16zcrypto.com/posts/article/clarity-act-what-why-matters",
+          "domain": "a16zcrypto.com",
+          "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
         "total_sources": 3,
-        "primary_source_count": 2,
-        "secondary_source_count": 1,
+        "primary_source_count": 1,
+        "secondary_source_count": 2,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
         "source_risk": "low"
       },
-      "confidence": 0.95,
-      "reasoning": "Legislative process is nearing a final floor vote, and recent committee actions provide high confidence that this framework will dictate institutional participation levels.",
+      "confidence": 0.96,
+      "reasoning": "The trend progressed from committee advancement to being 'Reported to Senate,' signaling a transition toward final legislative action. High velocity is sustained by the upcoming floor vote.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
         "new_sources": [
-          "https://www.congress.gov/bill/119th-congress/house-bill/3633/text",
+          "https://a16zcrypto.com/posts/article/clarity-act-what-why-matters",
+          "https://finance.yahoo.com/markets/crypto/articles/senate-clarity-act-floor-vote-121007136.html"
+        ],
+        "dropped_sources": [
           "https://bankingjournal.aba.com/2026/05/senate-banking-committee-releases-text-of-crypto-bill-ahead-of-vote",
           "https://www.govtrack.us/congress/bills/119/hr3633"
         ],
-        "dropped_sources": [],
-        "summary_changed": false
+        "summary_changed": true
       }
     },
     {
@@ -70,33 +74,33 @@
       "stage": "Peak Hype",
       "velocity": "Medium",
       "category": "Institutional Finance",
-      "summary": "Bitcoin has cemented its role in institutional portfolios, with massive AUM growth and standardized inclusion in 401(k) and brokerage lines, effectively shifting it from speculative asset to a macro portfolio staple.",
+      "summary": "Bitcoin ETFs have matured into the primary liquidity vehicle for institutions, now accounting for 60% of total Bitcoin trading volume. The focus has shifted from simple accumulation to complex hedging and portfolio normalization.",
       "evidence": [
-        "US spot Bitcoin ETFs now hold over $130B in total value.",
-        "Approximately 9% of total Bitcoin supply is now held by institutions on balance sheets or through ETFs.",
-        "Institutional flows represent the majority of trading volume, reducing retail-driven price volatility."
+        "Institutional investors now account for approximately 60% of Bitcoin trading volume via ETFs.",
+        "Spot BTC ETFs have normalized at high AUM levels, with Bitget reporting $70B+ in specific fund flows.",
+        "Market dynamics are increasingly shaped by institutional hedging rather than retail spot buying."
       ],
       "source_links": [
-        "https://valueaddvc.com/blog/bitcoin-at-100k-what-the-etf-approval-and-institutional-adoption-actually-changed",
-        "https://datos-insights.com/blog/bitcoin-etf-institutional-adoption",
-        "https://www.ssga.com/us/en/institutional/insights/why-bitcoin-institutional-demand-is-on-the-rise"
+        "https://www.okx.com/en-us/learn/btc-institutional-retail-etfs-investor-behavior",
+        "https://www.ainvest.com/news/bitcoin-gains-momentum-institutional-adoption-etf-dynamics-shape-market-sentiment-2026-2601",
+        "https://www.bitget.com/news/detail/12560604938995"
       ],
       "source_details": [
         {
-          "url": "https://valueaddvc.com/blog/bitcoin-at-100k-what-the-etf-approval-and-institutional-adoption-actually-changed",
-          "domain": "valueaddvc.com",
+          "url": "https://www.okx.com/en-us/learn/btc-institutional-retail-etfs-investor-behavior",
+          "domain": "okx.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://datos-insights.com/blog/bitcoin-etf-institutional-adoption",
-          "domain": "datos-insights.com",
+          "url": "https://www.ainvest.com/news/bitcoin-gains-momentum-institutional-adoption-etf-dynamics-shape-market-sentiment-2026-2601",
+          "domain": "ainvest.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.ssga.com/us/en/institutional/insights/why-bitcoin-institutional-demand-is-on-the-rise",
-          "domain": "ssga.com",
+          "url": "https://www.bitget.com/news/detail/12560604938995",
+          "domain": "bitget.com",
           "type": "secondary",
           "published_date": null
         }
@@ -111,54 +115,60 @@
         "source_risk": "medium"
       },
       "confidence": 0.98,
-      "reasoning": "Massive AUM and broad inclusion in traditional financial services indicate that the 'hype' has successfully translated into permanent institutional structural adoption.",
+      "reasoning": "The trend is stable at 'Peak Hype' because it has become the market's structural baseline. High confidence is supported by precise trading volume data showing institutional dominance.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Peak Hype",
+        "velocity_delta": 0,
+        "previous_velocity": "Medium",
         "new_sources": [
-          "https://valueaddvc.com/blog/bitcoin-at-100k-what-the-etf-approval-and-institutional-adoption-actually-changed",
+          "https://www.ainvest.com/news/bitcoin-gains-momentum-institutional-adoption-etf-dynamics-shape-market-sentiment-2026-2601",
+          "https://www.bitget.com/news/detail/12560604938995",
+          "https://www.okx.com/en-us/learn/btc-institutional-retail-etfs-investor-behavior"
+        ],
+        "dropped_sources": [
           "https://datos-insights.com/blog/bitcoin-etf-institutional-adoption",
+          "https://valueaddvc.com/blog/bitcoin-at-100k-what-the-etf-approval-and-institutional-adoption-actually-changed",
           "https://www.ssga.com/us/en/institutional/insights/why-bitcoin-institutional-demand-is-on-the-rise"
         ],
-        "dropped_sources": [],
-        "summary_changed": false
+        "summary_changed": true
       }
     },
     {
-      "id": "native-trustless-cross-chain-swaps",
-      "name": "Native Trustless Cross-Chain Swaps",
-      "stage": "Breakthrough",
+      "id": "ethereum-treasury-and-staking-maturation",
+      "name": "Ethereum Treasury and Staking Maturation",
+      "stage": "Peak Hype",
       "velocity": "High",
-      "category": "DeFi",
-      "summary": "The market is systematically abandoning centralized bridge models for trustless, non-custodial swaps, allowing Bitcoin to deploy liquidity into smart contract chains without third-party wrapper risk.",
+      "category": "Smart Contracts",
+      "summary": "Ethereum is evolving into a primary treasury asset for public companies, mirroring earlier Bitcoin trends. This is coupled with a massive increase in network security, with total staked ETH reaching the 40M mark.",
       "evidence": [
-        "Protocols like Symbiosis have gained traction for direct liquidity deployment across EVM and non-EVM chains.",
-        "Institutions are prioritizing security by moving away from legacy 'lock-and-mint' wrapped token bridges.",
-        "Direct swaps are becoming the primary mechanism for utilizing Bitcoin in DeFi."
+        "Ethereum staked supply reached 39.6M ETH as of mid-June 2026.",
+        "Publicly traded BitMine Immersion Technologies added 76,881 ETH to its treasury in a single week.",
+        "ETH price action is increasingly driven by spot purchases and ETF inflows rather than speculative L2 activity."
       ],
       "source_links": [
-        "https://symbiosis.finance",
-        "https://coincub.com/blog/cross-chain-liquidity-simplifying-crypto-swaps-with-non-custodial-tools",
-        "https://bitcoin.tax/blog/cross-chain-liquidity-2025"
+        "https://news.bitcoin.com/ethereum-staking-nears-40m-eth-locked-as-96000-new-validators-join-in-2026",
+        "https://coinalertnews.com/news/2026/06/15/bitmine-adds-76881-eth",
+        "https://www.linkedin.com/posts/cryptoex_ethereum-crypto-eth-activity-7361365138660069377-b6nR"
       ],
       "source_details": [
         {
-          "url": "https://symbiosis.finance",
-          "domain": "symbiosis.finance",
+          "url": "https://news.bitcoin.com/ethereum-staking-nears-40m-eth-locked-as-96000-new-validators-join-in-2026",
+          "domain": "news.bitcoin.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://coincub.com/blog/cross-chain-liquidity-simplifying-crypto-swaps-with-non-custodial-tools",
-          "domain": "coincub.com",
+          "url": "https://coinalertnews.com/news/2026/06/15/bitmine-adds-76881-eth",
+          "domain": "coinalertnews.com",
           "type": "secondary",
-          "published_date": null
+          "published_date": "2026-06-15"
         },
         {
-          "url": "https://bitcoin.tax/blog/cross-chain-liquidity-2025",
-          "domain": "bitcoin.tax",
+          "url": "https://www.linkedin.com/posts/cryptoex_ethereum-crypto-eth-activity-7361365138660069377-b6nR",
+          "domain": "linkedin.com",
           "type": "secondary",
           "published_date": null
         }
@@ -172,53 +182,55 @@
         "has_primary_sources": false,
         "source_risk": "medium"
       },
-      "confidence": 0.92,
-      "reasoning": "Technological infrastructure for trustless interoperability is maturing rapidly, directly competing with the previously dominant wrapped-asset infrastructure.",
+      "confidence": 0.94,
+      "reasoning": "The emergence of publicly traded companies specifically targeting ETH treasury holdings, combined with reaching the 40M staked ETH milestone, indicates a new level of maturity and institutional trust.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": false,
-        "stage_delta": 0,
-        "previous_stage": "Breakthrough",
-        "velocity_delta": 0,
-        "previous_velocity": "High",
-        "new_sources": [],
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
+        "new_sources": [
+          "https://news.bitcoin.com/ethereum-staking-nears-40m-eth-locked-as-96000-new-validators-join-in-2026",
+          "https://coinalertnews.com/news/2026/06/15/bitmine-adds-76881-eth",
+          "https://www.linkedin.com/posts/cryptoex_ethereum-crypto-eth-activity-7361365138660069377-b6nR"
+        ],
         "dropped_sources": [],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
-      "id": "ethereum-enterprise-security-standard",
-      "name": "Ethereum Enterprise Security Standard",
-      "stage": "Peak Hype",
+      "id": "traceable-trustless-cross-chain-swaps",
+      "name": "Traceable Trustless Cross-Chain Swaps",
+      "stage": "Breakthrough",
       "velocity": "Medium",
-      "category": "Smart Contracts",
-      "summary": "Ethereum maintains its lead in enterprise application development through security-focused infrastructure refinements, including staked supply expansion and robust smart contract standardization.",
+      "category": "DeFi",
+      "summary": "The market is moving away from opaque 'lock-and-mint' bridges toward engineering frameworks that prioritize swap traceability and non-custodial settlement between Bitcoin and EVM chains.",
       "evidence": [
-        "Ethereum staking has neared 40M ETH locked as of June 2026.",
-        "The Ethereum Enterprise Alliance remains the primary hub for institutional standard-setting.",
-        "The network continues to prioritize user-level security updates like clear signing to sustain enterprise confidence."
+        "TRM Labs released a seven-model engineering framework for cross-chain swap traceability.",
+        "Symbiosis Finance is seeing increased volume for direct BTC-to-ETH liquidity transfers.",
+        "Market emphasis has shifted to solving 'liquidity fragmentation' through shared linkage models."
       ],
       "source_links": [
-        "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
-        "https://news.bitcoin.com/ethereum-staking-nears-40m-eth-locked-as-96000-new-validators-join-in-2026",
-        "https://www.linkedin.com/pulse/ethereum-network-growth-poised-drive-eth-22k-2030-insights-jaiswal-sht7c"
+        "https://www.trmlabs.com/trm-tech-blog/cross-chain-swap-traceability-seven-models-one-engineering-framework",
+        "https://symbiosis.finance/bridge-btc/eth",
+        "https://www.reddit.com/r/ethereum/comments/1rh6nli/blockchain_interoperability_solutions_still_cant"
       ],
       "source_details": [
         {
-          "url": "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
-          "domain": "en.wikipedia.org",
-          "type": "wikipedia",
-          "published_date": null
-        },
-        {
-          "url": "https://news.bitcoin.com/ethereum-staking-nears-40m-eth-locked-as-96000-new-validators-join-in-2026",
-          "domain": "news.bitcoin.com",
+          "url": "https://www.trmlabs.com/trm-tech-blog/cross-chain-swap-traceability-seven-models-one-engineering-framework",
+          "domain": "trmlabs.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.linkedin.com/pulse/ethereum-network-growth-poised-drive-eth-22k-2030-insights-jaiswal-sht7c",
-          "domain": "linkedin.com",
+          "url": "https://symbiosis.finance/bridge-btc/eth",
+          "domain": "symbiosis.finance",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.reddit.com/r/ethereum/comments/1rh6nli/blockchain_interoperability_solutions_still_cant",
+          "domain": "reddit.com",
           "type": "secondary",
           "published_date": null
         }
@@ -226,23 +238,23 @@
       "source_quality": {
         "total_sources": 3,
         "primary_source_count": 0,
-        "secondary_source_count": 2,
-        "wikipedia_source_count": 1,
+        "secondary_source_count": 3,
+        "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": false,
         "source_risk": "medium"
       },
-      "confidence": 0.94,
-      "reasoning": "Ethereum's dominance in TVL and developer activity remains consistent, and the focus on security standards is effectively shielding its enterprise lead against rising competition.",
+      "confidence": 0.88,
+      "reasoning": "While technical solutions like Symbiosis are active, concerns about fragmented liquidity remain, keeping this in the Breakthrough stage rather than reaching Peak Hype.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": true,
         "stage_delta": "new",
         "velocity_delta": "new",
         "new_sources": [
-          "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
-          "https://news.bitcoin.com/ethereum-staking-nears-40m-eth-locked-as-96000-new-validators-join-in-2026",
-          "https://www.linkedin.com/pulse/ethereum-network-growth-poised-drive-eth-22k-2030-insights-jaiswal-sht7c"
+          "https://www.trmlabs.com/trm-tech-blog/cross-chain-swap-traceability-seven-models-one-engineering-framework",
+          "https://symbiosis.finance/bridge-btc/eth",
+          "https://www.reddit.com/r/ethereum/comments/1rh6nli/blockchain_interoperability_solutions_still_cant"
         ],
         "dropped_sources": [],
         "summary_changed": false
@@ -250,9 +262,9 @@
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.1-flash-lite",
+    "agent": "gemini-3-flash-preview",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-06-20T10:01:47.635599Z",
+    "timestamp": "2026-06-20T16:01:29.791533Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -261,9 +273,9 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.1-flash-lite",
+      "model": "gemini-3-flash-preview",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-06-20T10:01:47.635599Z",
+      "timestamp": "2026-06-20T16:01:29.791533Z",
       "search_result_count": 20,
       "validation_error_count": 0,
       "validation_failures": []
@@ -271,9 +283,9 @@
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.1-flash-lite",
+    "model": "gemini-3-flash-preview",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-06-20T10:01:47.635599Z",
+    "timestamp": "2026-06-20T16:01:29.791533Z",
     "search_result_count": 20,
     "validation_error_count": 0,
     "validation_failures": []
