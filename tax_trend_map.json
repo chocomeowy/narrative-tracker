@@ -1,23 +1,23 @@
 {
-  "last_updated": "2026-06-21T16:01:22.527639Z",
-  "executive_briefing": "As of June 2026, the international tax landscape is characterized by the systemic entrenchment of the OECD Pillar Two 15% global minimum tax, which has moved past the initial adoption phase into active enforcement and reporting. Concurrently, global trade policy is increasingly dominated by executive-led tariff strategies that bypass traditional legislative processes, creating significant volatility for multinational supply chain planning. Real-time digital tax transparency is becoming the global gold standard, with systems like Singapore\u2019s Peppol-integrated InvoiceNow serving as a blueprint for automated, transaction-level audits. Meanwhile, corporate tax rates are undergoing a nuanced recalibration as nations strive to maintain FDI competitiveness without violating global minimum tax floors.",
+  "last_updated": "2026-06-21T22:01:35.799445Z",
+  "executive_briefing": "As of June 2026, the international tax landscape has moved definitively into a phase of active enforcement and operational integration. The OECD's Pillar Two 15% global minimum tax is no longer a policy debate but a functional component of domestic tax codes in approximately 140 jurisdictions, forcing multinational enterprises (MNEs) to manage complex top-up tax calculations. Concurrently, global trade is navigating 'Executive-Driven Tariff Volatility,' where rapid-fire tariff adjustments are used as diplomatic leverage, frequently bypassing legislative bodies and facing legal scrutiny in courts regarding the scope of executive power. On the compliance front, the 'Singapore Model' of real-time digital transparency, specifically the InvoiceNow mandate for GST-registered businesses, is emerging as the gold standard for transaction-level tax visibility. Consequently, corporate tax competition has evolved: nations are shifting away from headline rate reductions toward sophisticated, surgical rebates and credits that preserve investment attractiveness while complying with the global 15% floor.",
   "trends": [
     {
-      "id": "global-minimum-tax-pillar-two-consolidation",
-      "name": "Global Minimum Tax (Pillar Two) Consolidation",
+      "id": "global-minimum-tax-pillar-two-operationalization",
+      "name": "Global Minimum Tax (Pillar Two) Operationalization",
       "stage": "Breakthrough",
       "velocity": "Stable",
       "category": "Corporate Tax",
-      "summary": "The OECD Pillar Two 15% minimum tax is now an institutional reality for MNEs, with global reporting frameworks standardized across approximately 140 jurisdictions.",
+      "summary": "The 15% global minimum tax (GMT) has transitioned from policy adoption to systemic enforcement, with MNEs now required to report and pay top-up taxes in approximately 140 jurisdictions.",
       "evidence": [
-        "140+ jurisdictions have adopted the Pillar Two 15% minimum tax framework.",
-        "Systemic integration of reporting requirements for MNEs with revenue over \u20ac750M is complete.",
-        "OECD and national tax authorities have moved from negotiation to active enforcement."
+        "Approximately 140 jurisdictions have implemented the Pillar Two framework for MNEs with revenues exceeding \u20ac750M.",
+        "MNEs are now managing effective tax rate (ETR) calculations on a per-country basis rather than global blending.",
+        "Standardized global reporting requirements for Pillar Two are now an institutional reality."
       ],
       "source_links": [
         "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
-        "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax",
         "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
+        "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax",
         "https://www.deloitte.com/us/en/services/audit-assurance/articles/pillar-two-tax.html"
       ],
       "source_details": [
@@ -28,14 +28,14 @@
           "published_date": null
         },
         {
-          "url": "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax",
-          "domain": "taxfoundation.org",
+          "url": "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
+          "domain": "moodys.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
-          "domain": "moodys.com",
+          "url": "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax",
+          "domain": "taxfoundation.org",
           "type": "secondary",
           "published_date": null
         },
@@ -56,24 +56,20 @@
         "source_risk": "medium"
       },
       "confidence": 0.99,
-      "reasoning": "The framework has successfully transitioned from policy adoption to universal operational compliance, showing high stability.",
+      "reasoning": "The framework has moved past the negotiation stage into active domestic law and multi-national reporting cycles, exhibiting high stability.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": false,
-        "stage_delta": 0,
-        "previous_stage": "Breakthrough",
-        "velocity_delta": 0,
-        "previous_velocity": "Stable",
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
         "new_sources": [
           "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
+          "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
           "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax",
           "https://www.deloitte.com/us/en/services/audit-assurance/articles/pillar-two-tax.html"
         ],
-        "dropped_sources": [
-          "https://taxopilot.com/guides/pillar-two-global-minimum-tax",
-          "https://www.pwc.com/gx/en/services/tax/pillar-two-readiness/country-tracker.html"
-        ],
-        "summary_changed": true
+        "dropped_sources": [],
+        "summary_changed": false
       }
     },
     {
@@ -82,48 +78,55 @@
       "stage": "Peak Hype",
       "velocity": "High",
       "category": "Tariffs",
-      "summary": "Global trade policy is increasingly dominated by rapid, executive-level tariff adjustments, overriding traditional trade agreements and creating high volatility for cost projections.",
+      "summary": "Trade policy is increasingly defined by executive-level tariff actions (e.g., Trump 2.0 or IEEPA-based measures) that create rapid cost fluctuations and trigger significant legal challenges.",
       "evidence": [
-        "Increased use of executive action to impose retaliatory tariffs as seen in recent G7 discussions.",
-        "Persistent diplomatic friction regarding digital services taxes leading to targeted tariff threats.",
-        "High uncertainty in trade policy due to short-term geopolitical maneuvers."
+        "Recent US court rulings have questioned the legality of tariffs imposed under the International Emergency Economic Powers Act (IEEPA).",
+        "Effective tariff rates are projected to settle around 15-18% amid ongoing reciprocal trade escalations.",
+        "A 90-day pause in Chinese tariff escalations highlights the use of tariffs as a tactical negotiation tool rather than stable policy."
       ],
       "source_links": [
-        "https://www.youtube.com/watch?v=MBT0NYvBQHg",
-        "https://www.pbs.org/newshour/world/watch-live-trump-joins-official-leaders-greeting-at-g7-summit-in-france",
-        "https://www.youtube.com/watch?v=bPPd-IWSibo"
+        "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
+        "https://www.reuters.com/business/tariffs",
+        "https://www.tradecomplianceresourcehub.com/2026/06/03/trump-2-0-tariff-tracker",
+        "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war"
       ],
       "source_details": [
         {
-          "url": "https://www.youtube.com/watch?v=MBT0NYvBQHg",
-          "domain": "youtube.com",
+          "url": "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
+          "domain": "jpmorgan.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.pbs.org/newshour/world/watch-live-trump-joins-official-leaders-greeting-at-g7-summit-in-france",
-          "domain": "pbs.org",
+          "url": "https://www.reuters.com/business/tariffs",
+          "domain": "reuters.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.youtube.com/watch?v=bPPd-IWSibo",
-          "domain": "youtube.com",
+          "url": "https://www.tradecomplianceresourcehub.com/2026/06/03/trump-2-0-tariff-tracker",
+          "domain": "tradecomplianceresourcehub.com",
+          "type": "secondary",
+          "published_date": "2026-06-03"
+        },
+        {
+          "url": "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war",
+          "domain": "taxfoundation.org",
           "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 3,
+        "total_sources": 4,
         "primary_source_count": 0,
-        "secondary_source_count": 3,
+        "secondary_source_count": 4,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": false,
         "source_risk": "medium"
       },
       "confidence": 0.95,
-      "reasoning": "High-level bilateral negotiations remain reactive and prone to sudden changes, keeping this trend in the peak hype stage.",
+      "reasoning": "High volatility remains due to legal uncertainty and the use of tariffs as reactive diplomatic instruments, keeping this in the Peak Hype stage.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -132,60 +135,123 @@
         "velocity_delta": 0,
         "previous_velocity": "High",
         "new_sources": [
-          "https://www.pbs.org/newshour/world/watch-live-trump-joins-official-leaders-greeting-at-g7-summit-in-france",
-          "https://www.youtube.com/watch?v=MBT0NYvBQHg",
-          "https://www.youtube.com/watch?v=bPPd-IWSibo"
-        ],
-        "dropped_sources": [
+          "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war",
           "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
           "https://www.reuters.com/business/tariffs",
           "https://www.tradecomplianceresourcehub.com/2026/06/03/trump-2-0-tariff-tracker"
+        ],
+        "dropped_sources": [
+          "https://www.pbs.org/newshour/world/watch-live-trump-joins-official-leaders-greeting-at-g7-summit-in-france",
+          "https://www.youtube.com/watch?v=MBT0NYvBQHg",
+          "https://www.youtube.com/watch?v=bPPd-IWSibo"
         ],
         "summary_changed": true
       }
     },
     {
-      "id": "mandatory-real-time-digital-tax-transparency",
-      "name": "Mandatory Real-Time Digital Tax Transparency",
+      "id": "real-time-digital-tax-visibility-gst-vat",
+      "name": "Real-Time Digital Tax Visibility (GST/VAT)",
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Compliance",
-      "summary": "Tax authorities are shifting to real-time transactional visibility through e-invoicing networks, with Singapore's InvoiceNow and Peppol standards serving as a global gold standard.",
+      "summary": "Tax authorities are mandating structured e-invoicing (e.g., Singapore's InvoiceNow) to gain real-time visibility into B2B and B2G transactions, drastically reducing the 'tax gap'.",
       "evidence": [
-        "Singapore's mandatory adoption of Peppol-based e-invoicing for B2B/B2G compliance.",
-        "Increased global focus on e-invoicing as a primary tool to reduce tax leakage.",
-        "API-driven integration between private accounting systems and government tax portals."
+        "Singapore's GST InvoiceNow mandate phased from 2026 to 2031 requires direct transmission of invoice data to the IRAS.",
+        "Shift from voluntary to mandatory e-invoicing for GST-registered businesses to streamline auditing.",
+        "Increased global use of XML and JSON formats to enable automated, API-driven tax reporting."
       ],
       "source_links": [
-        "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
-        "https://www.e-invoice.app/country/SG",
-        "https://invoicenow.advintek.com.sg",
-        "https://www.linkedin.com/pulse/e-invoicing-move-strengthen-indias-digital-footprints-mayank-goel"
+        "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
+        "https://kpmg.com/us/en/taxnewsflash/news/2026/02/singapore-e-invoicing-mandate-compliance-deadlines.html",
+        "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework"
       ],
       "source_details": [
+        {
+          "url": "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
+          "domain": "avalara.com",
+          "type": "secondary",
+          "published_date": "2026-03-01"
+        },
+        {
+          "url": "https://kpmg.com/us/en/taxnewsflash/news/2026/02/singapore-e-invoicing-mandate-compliance-deadlines.html",
+          "domain": "kpmg.com",
+          "type": "secondary",
+          "published_date": "2026-02-01"
+        },
         {
           "url": "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
           "domain": "imda.gov.sg",
           "type": "primary",
           "published_date": null
-        },
+        }
+      ],
+      "source_quality": {
+        "total_sources": 3,
+        "primary_source_count": 1,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.98,
+      "reasoning": "The move from pilots to multi-year mandates in major financial hubs indicates a permanent shift in compliance methodologies.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
+        "new_sources": [
+          "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
+          "https://kpmg.com/us/en/taxnewsflash/news/2026/02/singapore-e-invoicing-mandate-compliance-deadlines.html",
+          "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework"
+        ],
+        "dropped_sources": [],
+        "summary_changed": false
+      }
+    },
+    {
+      "id": "surgical-corporate-tax-re-baselining",
+      "name": "Surgical Corporate Tax Re-baselining",
+      "stage": "Breakthrough",
+      "velocity": "Medium",
+      "category": "Corporate Tax",
+      "summary": "Nations are abandoning broad rate cuts in favor of targeted rebates and credits to maintain FDI competitiveness without falling below the 15% Pillar Two floor.",
+      "evidence": [
+        "Singapore implemented a 50% CIT rebate for 2026 (capped at SGD 40,000) to support businesses while maintaining its 17% statutory rate.",
+        "Colombia's special 1% rate is scheduled to expire in 2026, signaling a return to baseline rates in emerging markets.",
+        "BHP and other industrial leaders are advocating for corporate rate cuts in high-tax jurisdictions like Australia to counter-balance productivity declines."
+      ],
+      "source_links": [
+        "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
+        "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates",
+        "https://www.dentons.com/en/services-and-solutions/global-tax-guide-to-doing-business-in/colombia",
+        "https://www.miningweekly.com/article/bhp-chair-says-australia-should-look-at-gas-corporate-tax-cuts-to-lift-productivity-2026-03-03"
+      ],
+      "source_details": [
         {
-          "url": "https://www.e-invoice.app/country/SG",
-          "domain": "e-invoice.app",
+          "url": "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
+          "domain": "taxsummaries.pwc.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://invoicenow.advintek.com.sg",
-          "domain": "invoicenow.advintek.com.sg",
+          "url": "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates",
+          "domain": "iras.gov.sg",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.dentons.com/en/services-and-solutions/global-tax-guide-to-doing-business-in/colombia",
+          "domain": "dentons.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.linkedin.com/pulse/e-invoicing-move-strengthen-indias-digital-footprints-mayank-goel",
-          "domain": "linkedin.com",
+          "url": "https://www.miningweekly.com/article/bhp-chair-says-australia-should-look-at-gas-corporate-tax-cuts-to-lift-productivity-2026-03-03",
+          "domain": "miningweekly.com",
           "type": "secondary",
-          "published_date": null
+          "published_date": "2026-03-03"
         }
       ],
       "source_quality": {
@@ -197,100 +263,28 @@
         "has_primary_sources": true,
         "source_risk": "low"
       },
-      "confidence": 0.98,
-      "reasoning": "The shift toward automated, real-time reporting is accelerating as more jurisdictions mandate specific digital formats to close the tax gap.",
-      "validation_flags": [],
-      "changed_since_previous_run": {
-        "is_new": false,
-        "stage_delta": 0,
-        "previous_stage": "Breakthrough",
-        "velocity_delta": 0,
-        "previous_velocity": "High",
-        "new_sources": [
-          "https://invoicenow.advintek.com.sg",
-          "https://www.e-invoice.app/country/SG",
-          "https://www.linkedin.com/pulse/e-invoicing-move-strengthen-indias-digital-footprints-mayank-goel"
-        ],
-        "dropped_sources": [
-          "https://edicomgroup.com/blog/singapore-encourages-the-use-of-e-invoicing-with-peppol",
-          "https://www.cleartax.com/sg/en/e-invoicing-singapore"
-        ],
-        "summary_changed": true
-      }
-    },
-    {
-      "id": "corporate-tax-rate-re-baselining",
-      "name": "Corporate Tax Rate Re-baselining",
-      "stage": "Breakthrough",
-      "velocity": "Medium",
-      "category": "Corporate Tax",
-      "summary": "Nations are recalibrating statutory corporate tax rates to remain competitive under the new 15% global minimum tax floor while meeting domestic revenue needs.",
-      "evidence": [
-        "Stable headline rates in competitive hubs like Singapore to preserve FDI.",
-        "Shift from broad-based cuts toward targeted incentives within the Pillar Two compliance regime.",
-        "Ongoing recalibration in emerging markets to balance investment attractiveness with revenue requirements."
-      ],
-      "source_links": [
-        "https://www.corporateservices.com/singapore/corporate-tax-in-singapore",
-        "https://tradingeconomics.com/singapore/corporate-tax-rate",
-        "https://www.b2b-cambodia.com/news/imf-to-asean-avoid-tax-competition"
-      ],
-      "source_details": [
-        {
-          "url": "https://www.corporateservices.com/singapore/corporate-tax-in-singapore",
-          "domain": "corporateservices.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://tradingeconomics.com/singapore/corporate-tax-rate",
-          "domain": "tradingeconomics.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.b2b-cambodia.com/news/imf-to-asean-avoid-tax-competition",
-          "domain": "b2b-cambodia.com",
-          "type": "secondary",
-          "published_date": null
-        }
-      ],
-      "source_quality": {
-        "total_sources": 3,
-        "primary_source_count": 0,
-        "secondary_source_count": 3,
-        "wikipedia_source_count": 0,
-        "blog_source_count": 0,
-        "has_primary_sources": false,
-        "source_risk": "medium"
-      },
       "confidence": 0.92,
-      "reasoning": "Statutory rates have largely stabilized post-Pillar Two, leading to a medium velocity as adjustments are now surgical rather than radical.",
+      "reasoning": "Tax competition is becoming more complex, moving away from simple rate reductions to specific fiscal incentives allowed under global rules.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": false,
-        "stage_delta": 0,
-        "previous_stage": "Breakthrough",
-        "velocity_delta": 0,
-        "previous_velocity": "Medium",
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
         "new_sources": [
-          "https://tradingeconomics.com/singapore/corporate-tax-rate",
-          "https://www.b2b-cambodia.com/news/imf-to-asean-avoid-tax-competition",
-          "https://www.corporateservices.com/singapore/corporate-tax-in-singapore"
+          "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
+          "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates",
+          "https://www.dentons.com/en/services-and-solutions/global-tax-guide-to-doing-business-in/colombia",
+          "https://www.miningweekly.com/article/bhp-chair-says-australia-should-look-at-gas-corporate-tax-cuts-to-lift-productivity-2026-03-03"
         ],
-        "dropped_sources": [
-          "https://practiceguides.chambers.com/practice-guides/corporate-tax-2026/singapore",
-          "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025",
-          "https://www.dentons.com/en/services-and-solutions/global-tax-guide-to-doing-business-in/colombia"
-        ],
-        "summary_changed": true
+        "dropped_sources": [],
+        "summary_changed": false
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.1-flash-lite",
+    "agent": "gemini-3-flash-preview",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-06-21T16:01:22.527639Z",
+    "timestamp": "2026-06-21T22:01:35.799445Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -299,9 +293,9 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.1-flash-lite",
+      "model": "gemini-3-flash-preview",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-06-21T16:01:22.527639Z",
+      "timestamp": "2026-06-21T22:01:35.799445Z",
       "search_result_count": 40,
       "validation_error_count": 0,
       "validation_failures": []
@@ -309,9 +303,9 @@
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.1-flash-lite",
+    "model": "gemini-3-flash-preview",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-06-21T16:01:22.527639Z",
+    "timestamp": "2026-06-21T22:01:35.799445Z",
     "search_result_count": 40,
     "validation_error_count": 0,
     "validation_failures": []
