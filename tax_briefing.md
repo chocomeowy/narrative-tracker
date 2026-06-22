@@ -1,84 +1,87 @@
-# Tax Intelligence Briefing - 2026-06-22 16:01
+# Tax Intelligence Briefing - 2026-06-22 22:01
 
 {
-  "executive_briefing": "As of June 2026, the global corporate tax landscape is characterized by the consolidation of the OECD's Pillar Two framework, with 147 jurisdictions now aligning to enforce a 15% effective tax rate, despite specific accommodations for U.S.-headquartered firms. Concurrently, international trade remains in a state of high volatility as legal challenges to executive-led tariff authorities, particularly in the U.S., proceed through the court system. Tax administration is undergoing a profound digital shift, with real-time e-invoicing mandates—led by Singapore's InvoiceNow model—becoming the global standard for enhancing fiscal transparency and closing tax gaps. Fiscal policy globally is shifting toward 'surgical' incentives, moving away from broad-based rate cuts toward targeted, compliant mechanisms that maintain competitiveness while adhering to the new 15% minimum tax baseline.",
+  "executive_briefing": "As of June 2026, the international tax environment is stabilizing around the 15% global minimum tax (Pillar Two) floor, while domestic corporate tax strategies are increasingly focused on targeted, investment-oriented incentives rather than broad-based rate reductions. Simultaneously, geopolitical volatility continues to drive uncertainty in trade, with executive-led tariff strategies facing rigorous legal and diplomatic challenges. Digital fiscal compliance has reached a critical juncture, as e-invoicing mandates, epitomized by Singapore’s InvoiceNow, transition from pilot programs to institutionalized, data-rich global standards that facilitate real-time tax visibility and enforcement.",
   "trends": [
     {
-      "name": "Global Minimum Tax (Pillar Two) Operationalization",
+      "name": "Global Minimum Tax (Pillar Two) Implementation",
       "stage": "Breakthrough",
       "velocity": "Stable",
       "category": "Corporate Tax",
-      "summary": "The 15% global minimum tax is now institutionalized, with the OECD Inclusive Framework and participating jurisdictions embedding GloBE rules into national law, including specialized arrangements for U.S. multinationals.",
+      "summary": "The 15% global minimum tax is now an operational reality across major global jurisdictions, with multinational entities moving from preparation to formal compliance and reporting.",
       "evidence": [
-        "147 countries have formalized the Pillar Two framework as of January 2026.",
-        "Side-by-side arrangements have been established to accommodate U.S. tax structures while maintaining compliance.",
-        "MNE reporting requirements are now standard for 15% effective tax rate compliance."
+        "147 jurisdictions have formalized Pillar Two rules.",
+        "Large MNEs with revenues exceeding 750 million EUR are subject to top-up taxes.",
+        "IAS 12.4A accounting standards integrated to handle Pillar Two compliance."
       ],
       "source_links": [
-        "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
-        "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
-        "https://legalclarity.org/what-is-pillar-2-tax-the-global-minimum-tax-explained/",
-        "https://www.pwc.com/gx/en/services/tax/pillar-two-readiness/country-tracker.html"
+        "https://www.linkedin.com/posts/ncs-gx_global-minimum-tax-rules-multinational-guide-activity-7448240889056968704-dlkC",
+        "https://news.law.fordham.edu/jcfl/2024/10/08/taxing-the-digital-giants-what-the-oecd-global-tax-deal-means-for-the-u-s/",
+        "https://ciferi.com/glossary/pillar-two",
+        "https://economy.ac/research/2026/04/202604288908",
+        "https://sigtax.com/index.php/en/How-Multinationals-Can-Navigate-Pillar-Two-in-2025"
       ],
       "confidence": 0.99,
-      "reasoning": "The framework has successfully transitioned into a steady state with global legislative alignment and institutionalized compliance processes, further supported by the 2026 side-by-side agreement."
+      "reasoning": "The framework has moved past the 'hype' phase into steady-state implementation; legislative adoption is now mature across most major economies."
     },
     {
       "name": "Executive-Driven Tariff Volatility",
       "stage": "Peak Hype",
       "velocity": "High",
       "category": "Tariffs",
-      "summary": "Tariff policy remains highly volatile due to reactive executive actions and ongoing judicial reviews concerning the legality of IEEPA-based trade measures.",
+      "summary": "Heightened trade tensions and executive-led tariff threats remain a primary source of economic uncertainty, prompting diplomatic pushback and judicial scrutiny.",
       "evidence": [
-        "U.S. Court for International Trade rulings questioning the lawfulness of IEEPA-based tariffs.",
-        "Average effective tariff rates are projected to settle in the 15-18% range pending legal outcomes.",
-        "Ongoing Supreme Court scrutiny of executive trade powers continues to drive market uncertainty."
+        "Public rebukes from leaders like French President Macron regarding U.S. trade threats.",
+        "Ongoing G7 discussions focused on managing trade conflict and trust deficits.",
+        "Increased market concern over the sustainability of trade measures driven by executive order."
       ],
       "source_links": [
-        "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
-        "https://www.reuters.com/business/tariffs/",
-        "https://www.tradecomplianceresourcehub.com/2026/06/03/trump-2-0-tariff-tracker/"
+        "https://www.youtube.com/watch?v=0ifqUXvvDuo",
+        "https://www.youtube.com/watch?v=mR04UFf-sy4",
+        "https://www.youtube.com/watch?v=poJ_y-oGrgQ"
       ],
-      "confidence": 0.96,
-      "reasoning": "High market anxiety and active litigation regarding the legal basis of executive trade actions keep this trend at 'Peak Hype'."
+      "confidence": 0.95,
+      "reasoning": "High-profile international diplomatic friction and the focus on these issues at G7 summits keep this at 'Peak Hype'."
     },
     {
-      "name": "Real-Time Digital Tax Visibility",
+      "name": "Real-Time Digital Tax Compliance",
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Compliance",
-      "summary": "Tax administrations are adopting real-time e-invoicing pipelines via API, with Singapore's InvoiceNow and the Peppol standard functioning as the gold standard for global compliance.",
+      "summary": "Mandatory real-time e-invoicing pipelines are becoming the new baseline for fiscal oversight, led by Singapore's Peppol-based InvoiceNow framework.",
       "evidence": [
-        "Singapore's phased evolution of InvoiceNow into a multiyear mandate for structured transactional data.",
-        "Government adoption of the Peppol interoperability framework for cross-border tax transparency.",
-        "Growing boardroom-level prioritization of e-invoicing as a strategic finance and compliance requirement."
+        "Integration of InvoiceNow with the Inland Revenue Authority of Singapore (IRAS).",
+        "Growing global standard for structured XML/JSON invoice data to facilitate real-time auditing.",
+        "Transition from voluntary adoption to phased mandates for GST-registered businesses."
       ],
       "source_links": [
         "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
-        "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
-        "https://www.cleartax.com/sg/en/e-invoicing-singapore"
+        "https://edicomgroup.com/blog/singapore-encourages-the-use-of-e-invoicing-with-peppol",
+        "https://www.cleartax.com/sg/en/e-invoicing-singapore",
+        "https://www.comarch.com/trade-and-services/data-management/e-invoicing/e-invoicing-in-singapore/"
       ],
       "confidence": 0.98,
-      "reasoning": "The transition from pilot programs to mandatory legal frameworks in major hubs validates the breakthrough stage of this digital fiscal transition."
+      "reasoning": "The shift from pilot to mandatory legislative enforcement confirms the breakthrough stage of this fiscal digitization trend."
     },
     {
       "name": "Surgical Corporate Tax Re-baselining",
       "stage": "Breakthrough",
       "velocity": "Medium",
       "category": "Corporate Tax",
-      "summary": "Governments are abandoning broad-based rate wars, instead adopting targeted fiscal incentives and tax rebates that remain compliant with global minimum tax requirements.",
+      "summary": "Nations are increasingly utilizing targeted incentives and specific rebates to maintain investment competitiveness while remaining within the global minimum tax framework.",
       "evidence": [
-        "Singapore’s use of targeted CIT rebates (up to 50%) for the 2026 assessment year.",
-        "Global movement toward specialized tax credits to attract investment without violating the 15% floor.",
-        "Varied national adjustments including incremental rate changes (e.g., Portugal's annual reductions)."
+        "Variations in national tax strategies to comply with 15% minimums (e.g., rate shifts in Chad and other jurisdictions).",
+        "Shift in focus toward CIT rates for specialized sectors or business sizes.",
+        "Contrasting national strategies in ASEAN and beyond to balance FDI attraction with global tax alignment."
       ],
       "source_links": [
-        "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
+        "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates",
         "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
-        "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/"
+        "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/",
+        "https://mkefactsettd.maybank-ke.com/PDFS/225060.pdf"
       ],
-      "confidence": 0.93,
-      "reasoning": "Nations are refining their fiscal structures to maintain competitiveness under new global constraints, confirming a maturation of fiscal strategy."
+      "confidence": 0.92,
+      "reasoning": "Nations have largely abandoned broad-based rate wars in favor of more nuanced fiscal instruments, settling into a new equilibrium."
     }
   ]
 }
