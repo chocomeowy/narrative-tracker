@@ -1,83 +1,91 @@
-# Crypto Intelligence Briefing - 2026-06-22 04:02
+# Crypto Intelligence Briefing - 2026-06-22 10:01
 
 {
-  "executive_briefing": "Late June 2026 marks a structural transition where Bitcoin is evolving from a passive 'digital gold' store of value into an active, programmable collateral layer, directly challenging Ethereum's dominance in the smart contract space. The Digital Asset Market Clarity Act, now on the Senate floor, is the primary catalyst, as it provides the legal framework necessary to unlock native Bitcoin programmability for institutional use. While Ethereum continues to post record user activity and throughput, it faces a narrative shift as liquidity providers aggressively migrate from centralized custodial bridges to decentralized, non-custodial cross-chain networks. Institutional involvement has reached a point of 'permanent structural bid,' with ETFs and corporate treasuries now controlling nearly 10% of total Bitcoin supply, creating a supply-demand imbalance that is reshaping market volatility and liquidity profiles.",
+  "executive_briefing": "The late June 2026 macro landscape is defined by a high-stakes legislative pivot and structural shifts in capital allocation. With the Digital Asset Market Clarity Act (H.R. 3633) moving from its House passage to crucial Senate Banking Committee deliberations, a formal federal framework is poised to unlock trillions in institutional capital. This regulatory milestone directly catalyzes Bitcoin's evolution into a programmable collateral layer, challenging Ethereum's historic dominance in decentralized finance. Concurrently, institutional demand is maturing from simple spot ETFs into retirement integrations (401ks, pensions) and advanced derivatives, tightening the circulating supply. To bypass legacy custody risks, cross-chain DeFi is aggressively adopting native, wrapped-less swaps (e.g., THORChain, deBridge). This leaves Ethereum in a complex position: while technical throughput and activity metrics have reached all-time highs, it faces developer narrative fatigue and systemic warnings of an imminent foundation funding crisis.",
   "trends": [
     {
       "name": "Clarity Act Senate Floor Fight & Bitcoin Programmability",
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Regulation",
-      "summary": "The Digital Asset Market Clarity Act has advanced to the Senate floor, representing the final hurdle to a comprehensive federal framework for digital assets. Beyond mere classification, the bill is the key to unlocking institutional-grade smart contracts on Bitcoin, allowing it to compete directly with the EVM as a utility layer.",
+      "summary": "The Digital Asset Market Clarity Act (H.R. 3633) is moving forward in the Senate, providing the necessary legal clarity to unlock institutional-grade smart contracts on Bitcoin. This regulatory progress establishes the foundation for Bitcoin to compete directly with EVM smart contract structures without relying on centralized intermediaries.",
       "evidence": [
-        "The Act is eligible for a full Senate floor vote following a May 14 jurisdictional markup.",
-        "A 60-vote filibuster threshold requires support from at least seven Democrats to pass the Senate.",
-        "Over 200 firms and the Blockchain Association are lobbying for passage to establish definitive non-security taxonomy."
+        "The Digital Asset Market Clarity Act passed the House of Representatives by a bipartisan vote of 294-134.",
+        "The Senate Banking Committee released the draft market structure bill text in May 2026 to serve as the basis for upcoming votes.",
+        "Over 200 firms are actively lobbying to establish a definitive non-security taxonomy that allows Bitcoin to function as an active utility layer."
       ],
       "source_links": [
-        "https://crypto.news/clarity-act-senate-floor-vote-math/",
-        "https://cryptoslate.com/how-clarity-act-survived-a-chaotic-senate-markup-after-warren-banks-and-democrats-tried-to-slow-it-down/",
-        "https://coinedition.com/stand-with-crypto-and-over-200-firms-urge-senate-to-pass-the-clarity-act/"
+        "https://www.congress.gov/bill/119th-congress/house-bill/3633/text",
+        "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=410816",
+        "https://www.govtrack.us/congress/bills/119/hr3633",
+        "https://bankingjournal.aba.com/2026/05/senate-banking-committee-releases-text-of-crypto-bill-ahead-of-vote/",
+        "https://www.paulhastings.com/insights/crypto-policy-tracker/update-on-crypto-market-structure-legislation-senate-banking-draft-and-clarity-act"
       ],
       "confidence": 0.95,
-      "reasoning": "The trend remains in Breakthrough as it moves from committee to the full floor. Velocity is high due to the imminent legislative recess and intensive industry lobbying efforts."
+      "reasoning": "Legislative progress in mid-2026 cements the regulatory foundation needed for institutional-grade deployment of programmable Bitcoin, moving the debate from theory to concrete market structures."
     },
     {
       "name": "Institutional Supply Shock and ETF Dominance",
       "stage": "Peak Hype",
       "velocity": "High",
       "category": "Institutional Finance",
-      "summary": "Bitcoin ETFs have achieved unprecedented market penetration, with AUM exceeding $130 billion. Combined with corporate treasuries, institutions now control roughly 9% of the total circulating Bitcoin supply, creating a massive liquidity imbalance and shifting the asset's role in multi-asset institutional portfolios.",
+      "summary": "Bitcoin institutional adoption is transitioning from simple asset allocation to complex treasury integrations, derivatives, and retirement vehicles. This systematic integration by pension funds, 401(k) plans, and corporate treasuries is creating a persistent supply-demand imbalance.",
       "evidence": [
-        "US spot Bitcoin ETFs hold approximately 1.25 million BTC as of mid-2026.",
-        "Record daily inflows of $1.38B were recorded following the 2025 US election cycle.",
-        "Corporate treasuries hold over 750,000 BTC, bringing the total institutional/corporate share of supply to over 9%."
+        "Adoption timelines show expansion of spot ETFs into pension funds, 401(k) plans, and corporate treasuries.",
+        "Financial institutions are proposing next-generation ETFs, including filings designed to invest in corporate treasury vehicles such as MicroStrategy convertible debt.",
+        "Major asset managers and corporate entities are increasingly treating Bitcoin as a structural, long-term treasury reserve asset rather than a speculative instrument."
       ],
       "source_links": [
-        "https://valueaddvc.com/blog/bitcoin-at-100k-what-the-etf-approval-and-institutional-adoption-actually-changed",
-        "https://powerdrill.ai/blog/institutional-cryptocurrency-adoption",
-        "https://www.ssga.com/us/en/institutional/insights/why-bitcoin-institutional-demand-is-on-the-rise"
+        "https://www.chainup.com/blog/institutional-bitcoin-adoption-what-it-means/",
+        "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption/",
+        "https://datos-insights.com/blog/bitcoin-etf-institutional-adoption/",
+        "https://cryptothreads.io/learn/bitcoin-institutional-adoption/",
+        "https://www.coindesk.com/markets/2024/12/27/bitcoin-institutional-adoption-accelerates-as-etf-filings-show-investor-appetite"
       ],
-      "confidence": 0.98,
-      "reasoning": "Metrics for AUM and market share have hit record highs, and the narrative has fully transitioned from speculative interest to structural institutional necessity."
+      "confidence": 0.97,
+      "reasoning": "The trend remains at Peak Hype as adoption structures mature to include standard corporate balance sheet allocations and long-term retirement fund pipelines, solidifying the narrative of a structural supply squeeze."
     },
     {
       "name": "Non-Custodial Cross-Chain Liquidity Migration",
       "stage": "Breakthrough",
       "velocity": "Medium",
       "category": "DeFi",
-      "summary": "The DeFi ecosystem is moving away from high-risk custodial wrappers like WBTC toward 'wrapped-less' transfers and non-custodial cross-chain swap protocols. These tools allow for trustless value transfer between Bitcoin and the EVM, minimizing third-party risk while maximizing capital efficiency.",
+      "summary": "DeFi is undergoing a structural shift away from custodial wrapped tokens (such as WBTC) toward non-custodial cross-chain swapping protocols. Utilizing deep, decentralized liquidity networks, users are now able to transfer native value between Bitcoin and the EVM without third-party custodianship.",
       "evidence": [
-        "Symbiosis now aggregates liquidity across 50 networks to facilitate native BTC-to-EVM swaps.",
-        "Cobo has launched a Token Bridge that enables asset transfers across BTC, ETH, and other chains without traditional custodial risks.",
-        "Market demand is shifting toward protocols that allow users to trade Bitcoin for Ethereum without intermediary assets or centralized exchanges."
+        "Symbiosis API provides decentralized, native cross-chain swaps and liquidity management directly from non-custodial wallets.",
+        "THORChain facilitates trustless, direct swaps of native assets like real BTC for real ETH without requiring wrapped intermediaries or centralized sign-offs.",
+        "deBridge and other interoperability protocols are seeing increased adoption by allowing instant token swaps cross-chain with guaranteed rates and low friction."
       ],
       "source_links": [
         "https://symbiosis.finance/",
-        "https://www.cobo.com/post/bridge-assets-across-major-networks-like-btc-eth-tron-bnb-and-more",
-        "https://coincub.com/blog/cross-chain-liquidity-simplifying-crypto-swaps-with-non-custodial-tools/"
+        "https://pegasusswap.com/blog/what-is-thorchain",
+        "https://app.debridge.com/",
+        "https://hodltimes.co/2025/07/23/how-interoperability-between-layer-1-blockchains-is-changing-web3/",
+        "https://thorchain.org/"
       ],
-      "confidence": 0.92,
-      "reasoning": "Production-ready protocols are actively displacing the legacy bridge models, though the full migration of TVL from custodial models is still ongoing."
+      "confidence": 0.93,
+      "reasoning": "The rapid expansion of direct, wrapped-less swapping primitives like THORChain and deBridge highlights a key technical breakthrough, actively reducing systemic bridge and counterparty risks."
     },
     {
       "name": "Ethereum Throughput Expansion vs. Narrative Fatigue",
       "stage": "Peak Hype",
       "velocity": "Medium",
       "category": "Layer 1",
-      "summary": "Ethereum has achieved record throughput and user activity in 2026, but faces a complex narrative challenge. While the technical roadmap (PoS efficiency, L2 scaling) is successful, some developers are voicing concerns over utility and competition from a more programmable Bitcoin ecosystem.",
+      "summary": "Ethereum has posted record transactional throughput and active user metrics, yet the ecosystem is facing serious headwinds. Developer pushback regarding application quality, combined with warning signs of an upcoming funding crisis within the Ethereum Foundation, is driving a complex narrative fatigue.",
       "evidence": [
-        "Ethereum recorded all-time highs in active users and transactions during Q1 2026.",
-        "The transition to Proof-of-Stake has maintained a 99% reduction in energy usage.",
-        "Institutional strategy sessions are increasingly comparing the Bitcoin ETF playbook against Ethereum's utility-driven growth."
+        "Ethereum recorded all-time highs in monthly active users, transactions, and network throughput during Q1 2026.",
+        "Former Ethereum Foundation contributors have publicly warned about a potential funding crisis facing the foundation.",
+        "Developer discussions are highlighting growing skepticism around long-term utility, criticizing the predominance of speculative assets on the network."
       ],
       "source_links": [
+        "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+        "https://www.reddit.com/r/ethereum/comments/1ua9dop/good_tech_wont_save_you_a_5year_crypto_dev_shares/",
+        "https://finance.yahoo.com/video/bitcoin-ethereum-playbook-evolving-strategy-120000578.html",
         "https://x.com/BSCNews/status/2067908800359842201",
-        "https://en.wikipedia.org/wiki/Ethereum",
-        "https://finance.yahoo.com/video/bitcoin-ethereum-playbook-evolving-strategy-120000578.html"
+        "https://x.com/BSCNews/status/2068593510706803121"
       ],
-      "confidence": 0.88,
-      "reasoning": "While technical performance is at its peak, the emergence of Bitcoin programmability and developer skepticism introduces a counter-narrative that keeps this in Peak Hype rather than a new breakthrough."
+      "confidence": 0.9,
+      "reasoning": "While technical performance remains robust, emerging structural risks like foundation funding concerns and developer disillusionment create a sharp contrast, maintaining a state of narrative tension."
     }
   ]
 }
