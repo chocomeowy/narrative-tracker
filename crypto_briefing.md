@@ -1,23 +1,23 @@
-# Crypto Intelligence Briefing - 2026-06-23 04:01
+# Crypto Intelligence Briefing - 2026-06-23 10:01
 
 {
-  "executive_briefing": "As of June 2026, the crypto-macro landscape has solidified around the 'Bitcoin-as-a-Platform' narrative, catalyzed by the Senate Banking Committee's advancement of the Digital Asset Market Clarity Act. This legislative progress, moving toward a floor vote, is shifting institutional capital from Ethereum to Bitcoin-native smart contract infrastructures. While institutional adoption of Bitcoin—bolstered by novel ETF structures like bond-linked instruments—continues to reach new heights, Ethereum is experiencing significant sentiment fatigue. The narrative has shifted from Ethereum's general-purpose utility to concerns over its long-term financial sustainability, further exacerbated by the rise of native, non-custodial cross-chain liquidity solutions that eliminate the need for centralized 'wrapped' tokens, effectively bridging Bitcoin's new programmable layer into broader liquidity pools.",
+  "executive_briefing": "As of June 2026, the crypto-macro landscape has solidified around the 'Bitcoin-as-a-Platform' narrative, catalyzed by the Senate Banking Committee's advancement of the Digital Asset Market Clarity Act. This legislative progress is driving institutional capital toward Bitcoin-native smart contract infrastructures. While Bitcoin benefits from novel, structured ETF products that integrate with corporate treasury functions, Ethereum faces ongoing sentiment fatigue. The narrative has decisively shifted from Ethereum's general-purpose utility to concerns over its long-term financial sustainability and the architectural superiority of non-custodial, native cross-chain liquidity solutions, which effectively bypass centralized 'wrapped' tokens to integrate Bitcoin into broader decentralized finance.",
   "trends": [
     {
       "name": "Clarity Act & Bitcoin Programmability",
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Regulation",
-      "summary": "The Digital Asset Market Clarity Act, having passed the Senate Banking Committee, is formalizing Bitcoin's status as a programmable collateral layer. This legislative move facilitates the deployment of smart contracts on Bitcoin, directly challenging the EVM's monopoly on decentralized applications.",
+      "summary": "The Digital Asset Market Clarity Act is formalizing Bitcoin's status as a programmable collateral layer. This legislative move facilitates the deployment of smart contracts directly on Bitcoin, challenging the EVM's monopoly.",
       "evidence": [
-        "Senate Banking Committee advanced the act by a 15-9 vote.",
-        "Legislative movement toward a full Senate floor vote following House passage.",
-        "Regulatory taxonomy clarifies the jurisdictional separation between the SEC and CFTC for Bitcoin-based smart contracts."
+        "Senate Banking Committee advanced the act via official markup sessions.",
+        "Legislative focus on balancing innovation with investor protections and anti-fraud tools.",
+        "Clearer regulatory taxonomy for Bitcoin-based smart contracts versus general purpose chains."
       ],
       "source_links": [
-        "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411120",
-        "https://www.banking.senate.gov/imo/media/doc/section-by-section.pdf",
-        "https://finance.yahoo.com/markets/crypto/articles/clarity-acts-biggest-obstacle-isnt-203040720.html"
+        "https://www.congress.gov/bill/119th-congress/house-bill/3633/text",
+        "https://www.banking.senate.gov/newsroom/majority/the-facts-the-clarity-act",
+        "https://www.banking.senate.gov/newsroom/majority/the-facts-the-clarity-act-protects-main-street-unleashes-responsible-innovation-and-cracks-down-on-fraud-and-money-laundering"
       ],
       "confidence": 0.98,
       "reasoning": "The trend remains in Breakthrough as the bill has cleared committee hurdles and is now subject to high-stakes political debate before a potential floor vote."
@@ -27,16 +27,17 @@
       "stage": "Peak Hype",
       "velocity": "High",
       "category": "Institutional Finance",
-      "summary": "Bitcoin is cementing its role as a core corporate treasury and pension fund asset. Innovation in ETF structures, including those tracking MicroStrategy convertible securities, is significantly widening the institutional funnel.",
+      "summary": "Bitcoin is cementing its role as a core corporate treasury and pension fund asset. Innovation in ETF structures, including those tracking bond-linked and convertible instruments, is widening the institutional funnel.",
       "evidence": [
-        "Launch of novel bond-linked ETFs targeting Bitcoin-heavy corporate treasuries.",
-        "Continued integration of Bitcoin into 401(k) and pension fund portfolios as a standard hedge.",
-        "Increased AUM in spot and derivative-based Bitcoin products."
+        "Expansion of spot Bitcoin ETFs into pension fund and 401(k) allocations.",
+        "Increased focus on Bitcoin as a treasury asset for corporations rather than just speculative holdings.",
+        "Projected hold of 7% of circulating supply by year-end via institutional vehicles."
       ],
       "source_links": [
-        "https://www.coindesk.com/markets/2024/12/27/bitcoin-institutional-adoption-accelerates-as-etf-filings-show-investor-appetite",
+        "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption/",
         "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
-        "https://datos-insights.com/blog/bitcoin-etf-institutional-adoption/"
+        "https://datos-insights.com/blog/bitcoin-etf-institutional-adoption/",
+        "https://lendefimarkets.com/blog/bitcoin-institutional-adoption"
       ],
       "confidence": 0.96,
       "reasoning": "Maintained at Peak Hype as adoption has moved beyond simple asset holding to complex financial engineering and structured institutional products."
@@ -46,16 +47,16 @@
       "stage": "Breakthrough",
       "velocity": "Medium",
       "category": "DeFi",
-      "summary": "The DeFi industry is rapidly transitioning away from custodial wrapped tokens (like wBTC) toward non-custodial, native cross-chain swap architectures, reducing systemic counterparty risk.",
+      "summary": "The DeFi industry is transitioning away from custodial wrapped tokens (like wBTC) toward non-custodial, native cross-chain swap architectures, reducing systemic counterparty risk.",
       "evidence": [
-        "Increased development and adoption of non-custodial bridging protocols.",
-        "Market rejection of centralized bridge models in favor of verifiable engineering frameworks.",
-        "Direct BTC-to-ETH liquidity models gaining traction among professional DeFi users."
+        "Rise of direct BTC-to-ETH liquidity models using verifiable engineering frameworks.",
+        "Market rejection of centralized bridge models in favor of trust-minimized interoperability.",
+        "Growing focus on solving liquidity fragmentation issues across major L1s."
       ],
       "source_links": [
         "https://symbiosis.finance/bridge-btc/eth",
         "https://www.trmlabs.com/trm-tech-blog/cross-chain-swap-traceability-seven-models-one-engineering-framework",
-        "https://www.chainalysis.com/blog/introduction-to-cross-chain-bridges/"
+        "https://www.chainalysis.com/blog/introduction-to-cross-chain-bridges"
       ],
       "confidence": 0.92,
       "reasoning": "The shift toward trust-minimized bridging is reaching a critical inflection point as the market matures beyond initial custodial dependency."
@@ -65,11 +66,11 @@
       "stage": "Fatigue",
       "velocity": "Medium",
       "category": "Layer 1",
-      "summary": "Ethereum is facing a period of stagnant sentiment as the market shifts its focus to Bitcoin's newfound programmability and concerns regarding Ethereum's long-term funding models emerge.",
+      "summary": "Ethereum is facing a period of stagnant sentiment as the market shifts focus to Bitcoin's newfound programmability and concerns regarding Ethereum's long-term funding and sustainability.",
       "evidence": [
-        "Widening market perception gap between BTC and ETH regarding utility and regulatory safety.",
-        "Public discourse focusing on the sustainability of the Ethereum Foundation's resource allocation.",
-        "Lack of high-conviction catalysts compared to the Bitcoin ecosystem's legislative momentum."
+        "Widening market perception gap between BTC and ETH regarding utility.",
+        "Increased critical discourse concerning the Ethereum Foundation's resource allocation and funding models.",
+        "Lack of high-conviction catalysts compared to the legislative momentum behind Bitcoin."
       ],
       "source_links": [
         "https://ethereum.org/",
