@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-23T05:50:48.069322Z",
+  "last_updated": "2026-06-23T15:00:51.823427Z",
   "archived_trends": [
     {
       "id": "agentic-mesh-protocols",
@@ -3542,6 +3542,61 @@
         "summary_changed": true
       },
       "archived_at": "2026-06-23T05:50:48.069322Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "open-weight-open-source-llm-baseline-stability",
+      "name": "Open-Weight & Open-Source LLM Baseline Stability",
+      "stage": "Breakthrough",
+      "velocity": "Stable",
+      "category": "Open Source LLM",
+      "summary": "Open-weight models have become the reference standard for both the developer community and independent benchmarks, serving as the constant in performance comparisons against closed proprietary models.",
+      "evidence": [
+        "Integration of open-source models like Llama into all major cross-model evaluation boards",
+        "Developer interest continues to pivot toward open architecture for control and efficiency"
+      ],
+      "source_links": [
+        "https://llm-stats.com",
+        "https://benchlm.ai"
+      ],
+      "source_details": [
+        {
+          "url": "https://llm-stats.com",
+          "domain": "llm-stats.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://benchlm.ai",
+          "domain": "benchlm.ai",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 2,
+        "primary_source_count": 0,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.85,
+      "reasoning": "The role of open models has stabilized as the benchmark denominator for proprietary AI models, maintaining steady, high-velocity developer engagement.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
+        "new_sources": [
+          "https://llm-stats.com",
+          "https://benchlm.ai"
+        ],
+        "dropped_sources": [],
+        "summary_changed": false
+      },
+      "archived_at": "2026-06-23T15:00:51.823427Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
