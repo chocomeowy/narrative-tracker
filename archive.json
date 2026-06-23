@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-21T15:00:32.058924Z",
+  "last_updated": "2026-06-23T05:50:48.069322Z",
   "archived_trends": [
     {
       "id": "agentic-mesh-protocols",
@@ -3474,6 +3474,74 @@
         "summary_changed": true
       },
       "archived_at": "2026-06-12T15:00:41.708240Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "open-weight-open-source-llms",
+      "name": "Open-Weight & Open-Source LLMs",
+      "stage": "Breakthrough",
+      "velocity": "High",
+      "category": "Open Source LLM",
+      "summary": "High-capability open-weight models matching or exceeding previous proprietary benchmarks, widely adopted due to low-latency local execution tools.",
+      "evidence": [
+        "Meta's Llama 3 models released in 8B and 70B parameter sizes, widely run locally via Ollama.",
+        "The inclusion of top-tier open-source weights alongside proprietary frontier models in benchmarking and chat evaluation interfaces."
+      ],
+      "source_links": [
+        "https://ollama.com/library/llama3",
+        "https://arena.ai/text/direct",
+        "https://www.youtube.com/watch?v=zjkBMFhNj_g"
+      ],
+      "source_details": [
+        {
+          "url": "https://ollama.com/library/llama3",
+          "domain": "ollama.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://arena.ai/text/direct",
+          "domain": "arena.ai",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+          "domain": "youtube.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 3,
+        "primary_source_count": 0,
+        "secondary_source_count": 3,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.95,
+      "reasoning": "Remains in the Breakthrough stage. Open-weight architectures are solidifying their position in developer stacks due to Ollama and decentralized model hubs, driving highly customizable enterprise deployments.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [
+          "https://arena.ai/text/direct",
+          "https://ollama.com/library/llama3",
+          "https://www.youtube.com/watch?v=zjkBMFhNj_g"
+        ],
+        "dropped_sources": [
+          "https://benchlm.ai/models",
+          "https://llm-stats.com/leaderboards/llm-leaderboard"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-06-23T05:50:48.069322Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
