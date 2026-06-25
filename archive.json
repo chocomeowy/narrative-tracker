@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-24T15:00:48.528802Z",
+  "last_updated": "2026-06-25T15:00:26.180867Z",
   "archived_trends": [
     {
       "id": "agentic-mesh-protocols",
@@ -3730,6 +3730,77 @@
         "summary_changed": true
       },
       "archived_at": "2026-06-24T15:00:48.528802Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "commoditized-llm-benchmarking-model-transparency",
+      "name": "Commoditized LLM Benchmarking & Model Transparency",
+      "stage": "Peak Hype",
+      "velocity": "High",
+      "category": "AI LLM Models",
+      "summary": "The emergence of sophisticated, multi-metric benchmarking directories that evaluate hundreds of models across diverse performance indicators, pricing, and latency, signaling a shift toward intelligence as a utility.",
+      "evidence": [
+        "Rapid rise of comparison directories like BenchLM and LLM-Stats tracking 250+ models.",
+        "Integration of complex metrics such as SWE-Bench and coding-arena performance into standardized comparisons."
+      ],
+      "source_links": [
+        "https://benchlm.ai",
+        "https://llm-stats.com",
+        "https://llm-stats.com/models",
+        "https://benchlm.ai/models"
+      ],
+      "source_details": [
+        {
+          "url": "https://benchlm.ai",
+          "domain": "benchlm.ai",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://llm-stats.com",
+          "domain": "llm-stats.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://llm-stats.com/models",
+          "domain": "llm-stats.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://benchlm.ai/models",
+          "domain": "benchlm.ai",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 4,
+        "primary_source_count": 0,
+        "secondary_source_count": 4,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.9,
+      "reasoning": "The market is flooded with comprehensive ranking platforms, indicating a 'Peak Hype' phase where the sheer volume of benchmark data requires systematic aggregation to remain relevant.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
+        "new_sources": [
+          "https://benchlm.ai",
+          "https://llm-stats.com",
+          "https://llm-stats.com/models",
+          "https://benchlm.ai/models"
+        ],
+        "dropped_sources": [],
+        "summary_changed": false
+      },
+      "archived_at": "2026-06-25T15:00:26.180867Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
