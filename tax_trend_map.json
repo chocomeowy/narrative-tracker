@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-27T22:01:40.707698Z",
-  "executive_briefing": "The global tax landscape in mid-2026 is characterized by a definitive retreat from the multilateralism of the OECD Inclusive Framework, replaced by a 'side-by-side' reality where major economies, particularly the United States, prioritize domestic sovereignty over global tax parity. This shift has catalyzed a new era of fiscal protectionism, where tariff warfare is used as an instrument to defend domestic tax bases. Simultaneously, digital tax administration has emerged as the primary mechanism for state-level revenue control, moving beyond treaties toward automated, real-time transactional compliance. The resulting environment is one of regional fragmentation, with multinational enterprises pivoting from global compliance strategies to agile, territory-specific fiscal maneuvering.",
+  "last_updated": "2026-06-28T04:01:15.715725Z",
+  "executive_briefing": "The global tax landscape in mid-2026 remains defined by the decline of multilateral tax harmonization, with nations increasingly prioritizing fiscal autonomy and domestic revenue protection. The OECD's Pillar Two initiative has effectively fractured into a 'side-by-side' system, largely due to U.S. insistence on sovereignty, signaling a permanent move toward regionalized tax policy. This has triggered a shift in corporate tax strategies, moving away from uniform global planning toward agile, local-territory optimization. Meanwhile, tax administrations are aggressively adopting real-time, automated transactional compliance (e-invoicing) as a definitive tool to combat base erosion, while tariff-driven economic statecraft persists as the dominant instrument for managing global supply chain competitiveness.",
   "trends": [
     {
       "id": "global-minimum-tax-pillar-two-bifurcation",
@@ -8,15 +8,16 @@
       "stage": "Fatigue",
       "velocity": "Medium",
       "category": "Corporate Tax",
-      "summary": "The OECD Inclusive Framework has moved from a vision of a unified global 15% floor to a fractured, 'side-by-side' system allowing major economies like the U.S. to opt out of core Pillar Two obligations.",
+      "summary": "The OECD Inclusive Framework has shifted from a unified 15% global minimum tax model to a fragmented, 'side-by-side' reality that accommodates regional exemptions, particularly for U.S.-headquartered companies.",
       "evidence": [
-        "January 2026 OECD agreement accommodating U.S. objections via a side-by-side arrangement.",
-        "U.S. Treasury confirmation of exemption for U.S.-headquartered companies from Pillar Two.",
-        "Ongoing disparity between countries implementing the 15% floor and those shielding domestic MNEs."
+        "Formalization of the January 2026 side-by-side arrangement at the OECD level.",
+        "U.S. Treasury confirmation maintaining existing domestic tax structures over Pillar Two integration.",
+        "Ongoing disparity between jurisdictions implementing the 15% floor versus those granting MNE exemptions."
       ],
       "source_links": [
         "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
-        "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html"
+        "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
+        "https://www.oecd.org/en/topics/sub-issues/global-minimum-tax/global-anti-base-erosion-model-rules-pillar-two.html"
       ],
       "source_details": [
         {
@@ -30,30 +31,37 @@
           "domain": "moodys.com",
           "type": "secondary",
           "published_date": null
+        },
+        {
+          "url": "https://www.oecd.org/en/topics/sub-issues/global-minimum-tax/global-anti-base-erosion-model-rules-pillar-two.html",
+          "domain": "oecd.org",
+          "type": "primary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 2,
-        "primary_source_count": 0,
+        "total_sources": 3,
+        "primary_source_count": 1,
         "secondary_source_count": 1,
         "wikipedia_source_count": 1,
         "blog_source_count": 0,
-        "has_primary_sources": false,
-        "source_risk": "medium"
+        "has_primary_sources": true,
+        "source_risk": "low"
       },
       "confidence": 0.98,
-      "reasoning": "The consensus-based model of Pillar Two has collapsed into a series of bilateral exemptions and regional accommodations, shifting the trend from 'de-institutionalization' to 'bifurcation'.",
+      "reasoning": "The institutional momentum of Pillar Two has stalled at the consensus level, shifting focus toward bilateral and regional implementation rather than global uniformity.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Fatigue",
+        "velocity_delta": 0,
+        "previous_velocity": "Medium",
         "new_sources": [
-          "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
-          "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html"
+          "https://www.oecd.org/en/topics/sub-issues/global-minimum-tax/global-anti-base-erosion-model-rules-pillar-two.html"
         ],
         "dropped_sources": [],
-        "summary_changed": false
+        "summary_changed": true
       }
     },
     {
@@ -62,24 +70,18 @@
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Compliance",
-      "summary": "Jurisdictions are increasingly mandating real-time, structured e-invoicing data submission (e.g., InvoiceNow/Peppol) to secure tax revenue, effectively bypassing the uncertainty of corporate tax treaty outcomes.",
+      "summary": "Governments are bypassing traditional reporting delays by mandating real-time, structured digital data submission via e-invoicing networks (e.g., Peppol/InvoiceNow) to secure immediate revenue control.",
       "evidence": [
-        "Mandatory structured data submission requirements in Singapore.",
-        "Global transition from legacy digital invoicing to structured e-invoicing data feeds.",
-        "Increased integration of tax authorities directly into B2B accounting software."
+        "Singapore's phased transition to mandatory GST InvoiceNow requirements.",
+        "Global movement toward XML/JSON structured data formats for all B2B transactional auditing.",
+        "Integration of tax authority APIs directly into commercial accounting and ERP software suites."
       ],
       "source_links": [
-        "https://kpmg.com/us/en/taxnewsflash/news/2026/02/singapore-e-invoicing-mandate-compliance-deadlines.html",
         "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement",
-        "https://tax.thomsonreuters.com/blog/what-is-e-invoicing"
+        "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
+        "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses"
       ],
       "source_details": [
-        {
-          "url": "https://kpmg.com/us/en/taxnewsflash/news/2026/02/singapore-e-invoicing-mandate-compliance-deadlines.html",
-          "domain": "kpmg.com",
-          "type": "secondary",
-          "published_date": "2026-02-01"
-        },
         {
           "url": "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement",
           "domain": "iras.gov.sg",
@@ -87,8 +89,14 @@
           "published_date": null
         },
         {
-          "url": "https://tax.thomsonreuters.com/blog/what-is-e-invoicing",
-          "domain": "tax.thomsonreuters.com",
+          "url": "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
+          "domain": "avalara.com",
+          "type": "secondary",
+          "published_date": "2026-03-01"
+        },
+        {
+          "url": "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
+          "domain": "stripe.com",
           "type": "secondary",
           "published_date": null
         }
@@ -103,19 +111,23 @@
         "source_risk": "low"
       },
       "confidence": 0.95,
-      "reasoning": "Standardization of e-invoicing technology and legal mandates is accelerating, making it the primary tool for tax base protection.",
+      "reasoning": "Standardization of e-invoicing mandates globally is accelerating, turning tax compliance into a continuous, automated digital function.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
         "new_sources": [
+          "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
+          "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html"
+        ],
+        "dropped_sources": [
           "https://kpmg.com/us/en/taxnewsflash/news/2026/02/singapore-e-invoicing-mandate-compliance-deadlines.html",
-          "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement",
           "https://tax.thomsonreuters.com/blog/what-is-e-invoicing"
         ],
-        "dropped_sources": [],
-        "summary_changed": false
+        "summary_changed": true
       }
     },
     {
@@ -124,16 +136,16 @@
       "stage": "Peak Hype",
       "velocity": "High",
       "category": "Tariffs",
-      "summary": "Tariffs have transitioned from defensive trade tools to a primary instrument of economic policy, with rapid-fire retaliatory measures creating extreme volatility for global supply chain taxation.",
+      "summary": "Tariffs are increasingly weaponized as the primary instrument for supply chain management and trade protection, replacing traditional tax-based competition for market access.",
       "evidence": [
-        "U.S. implementation of 25% tariffs on specific auto and auto-part imports.",
-        "Ongoing trade disputes between major blocs, including US-EU and China.",
-        "Increasing reliance on Executive Orders for unilateral trade policy changes."
+        "Proliferation of U.S. IEEPA-based tariff actions and reciprocal trade policies.",
+        "Constant volatility in global trade caused by retaliatory tariff measures between the U.S., EU, and China.",
+        "Continued reliance on high-frequency Executive Orders for unilateral trade policy adjustments."
       ],
       "source_links": [
         "https://ustr.gov/trade-topics/presidential-tariff-actions",
-        "https://www.kielinstitut.de/topics/kiel-trade-and-tariffs-monitor",
-        "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs"
+        "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
+        "https://www.reuters.com/business/tariffs"
       ],
       "source_details": [
         {
@@ -143,14 +155,14 @@
           "published_date": null
         },
         {
-          "url": "https://www.kielinstitut.de/topics/kiel-trade-and-tariffs-monitor",
-          "domain": "kielinstitut.de",
+          "url": "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
+          "domain": "jpmorgan.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
-          "domain": "jpmorgan.com",
+          "url": "https://www.reuters.com/business/tariffs",
+          "domain": "reuters.com",
           "type": "secondary",
           "published_date": null
         }
@@ -165,19 +177,21 @@
         "source_risk": "low"
       },
       "confidence": 0.94,
-      "reasoning": "High-velocity changes in trade barriers remain the defining feature of 2026 fiscal policy, as traditional tax competition is replaced by direct tariff protectionism.",
+      "reasoning": "Tariff volatility remains at peak levels due to ongoing legal and political battles, making it the most significant disruptor to global cost structures.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Peak Hype",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
         "new_sources": [
-          "https://ustr.gov/trade-topics/presidential-tariff-actions",
-          "https://www.kielinstitut.de/topics/kiel-trade-and-tariffs-monitor",
-          "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs"
+          "https://www.reuters.com/business/tariffs"
         ],
-        "dropped_sources": [],
-        "summary_changed": false
+        "dropped_sources": [
+          "https://www.kielinstitut.de/topics/kiel-trade-and-tariffs-monitor"
+        ],
+        "summary_changed": true
       }
     },
     {
@@ -186,15 +200,16 @@
       "stage": "Incubation",
       "velocity": "Medium",
       "category": "Corporate Tax",
-      "summary": "Nations are recalibrating domestic corporate income tax rates to remain competitive for FDI in the absence of a stable international floor, leading to localized tax rate volatility.",
+      "summary": "In the absence of a stable global tax floor, countries are aggressively adjusting their local corporate income tax (CIT) regimes to preserve competitiveness and attract FDI.",
       "evidence": [
-        "Portugal's multi-year corporate tax reduction schedule starting 2026.",
-        "Temporary corporate rate hikes in Slovenia as a counter-cyclical measure.",
-        "Diverse regional incentives across ASEAN and beyond."
+        "Portugal's multi-year tax reduction schedule (2026-2028).",
+        "Slovenia's counter-cyclical temporary CIT increase.",
+        "Ongoing regional tax incentive recalibrations across ASEAN states."
       ],
       "source_links": [
         "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
-        "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025"
+        "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025",
+        "https://amro-asia.org/global-tax-reform-what-lies-ahead-for-asean3"
       ],
       "source_details": [
         {
@@ -208,19 +223,25 @@
           "domain": "taxfoundation.org",
           "type": "secondary",
           "published_date": null
+        },
+        {
+          "url": "https://amro-asia.org/global-tax-reform-what-lies-ahead-for-asean3",
+          "domain": "amro-asia.org",
+          "type": "secondary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 2,
+        "total_sources": 3,
         "primary_source_count": 0,
-        "secondary_source_count": 2,
+        "secondary_source_count": 3,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": false,
         "source_risk": "medium"
       },
       "confidence": 0.9,
-      "reasoning": "The abandonment of global harmonization has ushered in a period of intense, fragmented national tax competition, which is only just beginning to manifest in 2026 legislative schedules.",
+      "reasoning": "While the trend is in early-to-mid adoption, fragmented national responses are becoming the primary mechanism for fiscal policy competition in 2026.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -229,12 +250,9 @@
         "velocity_delta": 0,
         "previous_velocity": "Medium",
         "new_sources": [
-          "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025"
+          "https://amro-asia.org/global-tax-reform-what-lies-ahead-for-asean3"
         ],
-        "dropped_sources": [
-          "https://taxspecialty.com/corporate-tax-rate-changes-2026-proposals",
-          "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income"
-        ],
+        "dropped_sources": [],
         "summary_changed": true
       }
     }
@@ -242,7 +260,7 @@
   "intelligence_metadata": {
     "agent": "gemini-3.1-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-06-27T22:01:40.707698Z",
+    "timestamp": "2026-06-28T04:01:15.715725Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -253,7 +271,7 @@
       "status": "success",
       "model": "gemini-3.1-flash-lite",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-06-27T22:01:40.707698Z",
+      "timestamp": "2026-06-28T04:01:15.715725Z",
       "search_result_count": 40,
       "validation_error_count": 0,
       "validation_failures": []
@@ -263,7 +281,7 @@
     "status": "success",
     "model": "gemini-3.1-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-06-27T22:01:40.707698Z",
+    "timestamp": "2026-06-28T04:01:15.715725Z",
     "search_result_count": 40,
     "validation_error_count": 0,
     "validation_failures": []
