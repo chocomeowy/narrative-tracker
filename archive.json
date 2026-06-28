@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-27T15:00:45.197444Z",
+  "last_updated": "2026-06-28T15:00:34.881755Z",
   "archived_trends": [
     {
       "id": "agentic-mesh-protocols",
@@ -3801,6 +3801,150 @@
         "summary_changed": false
       },
       "archived_at": "2026-06-25T15:00:26.180867Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "enterprise-operationalization-of-autonomous-ai-agents",
+      "name": "Enterprise Operationalization of Autonomous AI Agents",
+      "stage": "Breakthrough",
+      "velocity": "High",
+      "category": "Autonomous AI Agents",
+      "summary": "Transition of autonomous agents from experimental conversational chatbots to multi-agent, goal-directed enterprise execution systems backed by major cloud and enterprise providers.",
+      "evidence": [
+        "Major enterprise players (Salesforce, Microsoft, AWS, Nvidia) are productizing autonomous agents capable of independent reasoning, planning, and tool utilization.",
+        "Shift from simple prompt-response interactions to independent systems that analyze situations, make decisions, and execute complex workflows without constant human intervention."
+      ],
+      "source_links": [
+        "https://en.wikipedia.org/wiki/Autonomous_agent",
+        "https://www.salesforce.com/agentforce/ai-agents/autonomous-agents",
+        "https://www.microsoft.com/en-us/microsoft-copilot/copilot-101/autonomous-ai-agents",
+        "https://aws.amazon.com/blogs/aws-insights/the-rise-of-autonomous-agents-what-enterprise-leaders-need-to-know-about-the-next-wave-of-ai",
+        "https://www.nvidia.com/en-us/glossary/ai-agents"
+      ],
+      "source_details": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Autonomous_agent",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        },
+        {
+          "url": "https://www.salesforce.com/agentforce/ai-agents/autonomous-agents",
+          "domain": "salesforce.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.microsoft.com/en-us/microsoft-copilot/copilot-101/autonomous-ai-agents",
+          "domain": "microsoft.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://aws.amazon.com/blogs/aws-insights/the-rise-of-autonomous-agents-what-enterprise-leaders-need-to-know-about-the-next-wave-of-ai",
+          "domain": "aws.amazon.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.nvidia.com/en-us/glossary/ai-agents",
+          "domain": "nvidia.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 5,
+        "primary_source_count": 0,
+        "secondary_source_count": 4,
+        "wikipedia_source_count": 1,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.95,
+      "reasoning": "Massive coordinated product releases and platform architecture updates across cloud hyperscalers validate the transition of autonomous agents from theoretical breakthrough to standardized enterprise developer tools.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [
+          "https://aws.amazon.com/blogs/aws-insights/the-rise-of-autonomous-agents-what-enterprise-leaders-need-to-know-about-the-next-wave-of-ai",
+          "https://en.wikipedia.org/wiki/Autonomous_agent",
+          "https://www.nvidia.com/en-us/glossary/ai-agents",
+          "https://www.salesforce.com/agentforce/ai-agents/autonomous-agents"
+        ],
+        "dropped_sources": [
+          "https://gogloby.com/insights/autonomous-ai-agents",
+          "https://usefulai.com/tools/ai-autonomous-agents",
+          "https://www.ibm.com/think/topics/ai-agents"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-06-28T15:00:34.881755Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "unified-llm-evaluation-and-model-arbitrage",
+      "name": "Unified LLM Evaluation and Model Arbitrage",
+      "stage": "Peak Hype",
+      "velocity": "High",
+      "category": "AI LLM Models",
+      "summary": "Developers and platforms increasingly leverage multi-model playgrounds and routers to dynamically test, compare, and execute queries across different proprietary and open-source models, mitigating vendor lock-in.",
+      "evidence": [
+        "Proliferation of platforms like OpenRouter and Arena.ai allowing developers to benchmark and direct traffic to over 400 models.",
+        "Demand for multi-model playgrounds that support direct comparison of OpenAI, Anthropic, Google, and open-source alternatives."
+      ],
+      "source_links": [
+        "https://openrouter.ai/chat",
+        "https://arena.ai/text/direct"
+      ],
+      "source_details": [
+        {
+          "url": "https://openrouter.ai/chat",
+          "domain": "openrouter.ai",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://arena.ai/text/direct",
+          "domain": "arena.ai",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 2,
+        "primary_source_count": 0,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.9,
+      "reasoning": "The rise of proxy platforms like OpenRouter and Arena.ai indicates that developers are actively avoiding single-vendor dependency in favor of real-time model comparisons and routing optimization.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Peak Hype",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [
+          "https://arena.ai/text/direct",
+          "https://openrouter.ai/chat"
+        ],
+        "dropped_sources": [
+          "https://benchlm.ai",
+          "https://llm-stats.com"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-06-28T15:00:34.881755Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
