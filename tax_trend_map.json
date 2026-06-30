@@ -1,23 +1,23 @@
 {
-  "last_updated": "2026-06-29T22:00:59.197138Z",
-  "executive_briefing": "The global fiscal landscape in mid-2026 is defined by a hardened bifurcation between multilateral aspirations and nationalistic protectionism. While OECD Pillar Two implementation faces fatigue as a global standard, nations are aggressively pursuing domestic fiscal sovereignty through competitive tax adjustments and integrated digital compliance. Trade policy has become a primary tool of economic statecraft, characterized by volatile, reactive tariff regimes and the elevation of real-time e-invoicing as the essential infrastructure for modern revenue collection.",
+  "last_updated": "2026-06-30T04:01:35.180952Z",
+  "executive_briefing": "The mid-2026 tax environment remains defined by a pivot away from synchronized multilateralism toward unilateral fiscal assertiveness. OECD Pillar Two is experiencing significant institutional friction, as major economies\u2014most notably the U.S.\u2014seek to bypass strict compliance in favor of domestic tax preservation. Simultaneously, the integration of real-time digital compliance, led by sophisticated e-invoicing mandates, is fundamentally restructuring the relationship between multinationals and revenue authorities. Trade policy continues to operate as an extension of national security, with reactive tariff regimes creating a highly volatile environment for global supply chains.",
   "trends": [
     {
-      "id": "global-minimum-tax-pillar-two-bifurcation",
-      "name": "Global Minimum Tax (Pillar Two) Bifurcation",
+      "id": "global-minimum-tax-pillar-two-erosion",
+      "name": "Global Minimum Tax (Pillar Two) Erosion",
       "stage": "Fatigue",
       "velocity": "Medium",
       "category": "Corporate Tax",
-      "summary": "The OECD's global minimum tax framework is struggling to maintain momentum as jurisdictions prioritize domestic fiscal flexibility and legislative autonomy over uniform compliance.",
+      "summary": "The OECD's global minimum tax framework is undergoing a strategic dilution, with major economies implementing 'side-by-side' arrangements to protect existing domestic corporate tax structures.",
       "evidence": [
-        "Ongoing reports of implementation challenges across major economies.",
-        "Increased focus on domestic legislative overrides to Pillar Two principles.",
-        "Persistent framing of Pillar Two as an administrative burden."
+        "U.S. treasury negotiations to exempt U.S.-headquartered firms from Pillar Two",
+        "Persistent legislative friction across major jurisdictions",
+        "Implementation of national variations that undermine uniform effective tax rates"
       ],
       "source_links": [
         "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
         "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
-        "https://www.deloitte.com/an/en/services/tax/perspectives/oecd-pillar-two.html"
+        "https://home.treasury.gov/news/press-releases/jy1243"
       ],
       "source_details": [
         {
@@ -33,38 +33,35 @@
           "published_date": null
         },
         {
-          "url": "https://www.deloitte.com/an/en/services/tax/perspectives/oecd-pillar-two.html",
-          "domain": "deloitte.com",
-          "type": "secondary",
+          "url": "https://home.treasury.gov/news/press-releases/jy1243",
+          "domain": "home.treasury.gov",
+          "type": "primary",
           "published_date": null
         }
       ],
       "source_quality": {
         "total_sources": 3,
-        "primary_source_count": 0,
-        "secondary_source_count": 2,
+        "primary_source_count": 1,
+        "secondary_source_count": 1,
         "wikipedia_source_count": 1,
         "blog_source_count": 0,
-        "has_primary_sources": false,
-        "source_risk": "medium"
+        "has_primary_sources": true,
+        "source_risk": "low"
       },
-      "confidence": 0.95,
-      "reasoning": "Data continues to show that while the framework exists, global adoption is fragmented and being subordinated to national policy objectives, keeping the trend in a state of fatigue.",
+      "confidence": 0.98,
+      "reasoning": "Recent intelligence confirms that key nations are actively renegotiating their participation to exempt domestic firms, moving the trend further into fatigue as the original multilateral vision weakens.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": false,
-        "stage_delta": 0,
-        "previous_stage": "Fatigue",
-        "velocity_delta": 0,
-        "previous_velocity": "Medium",
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
         "new_sources": [
-          "https://www.deloitte.com/an/en/services/tax/perspectives/oecd-pillar-two.html"
+          "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
+          "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
+          "https://home.treasury.gov/news/press-releases/jy1243"
         ],
-        "dropped_sources": [
-          "https://legalclarity.org/what-is-pillar-2-tax-the-global-minimum-tax-explained",
-          "https://www.pwc.com/gx/en/services/tax/pillar-two-readiness/country-tracker.html"
-        ],
-        "summary_changed": true
+        "dropped_sources": [],
+        "summary_changed": false
       }
     },
     {
@@ -73,11 +70,11 @@
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Compliance",
-      "summary": "Mandatory real-time, API-integrated e-invoicing (e.g., Singapore's InvoiceNow) is rapidly becoming the global standard for tax audit and collection efficiency.",
+      "summary": "Governments are standardizing mandatory real-time, API-integrated e-invoicing as the primary mechanism for indirect tax collection and audit verification.",
       "evidence": [
-        "Widespread mandates for structured, real-time invoice transmission to tax authorities.",
-        "Integration of ERP systems directly with government tax portals like IRAS.",
-        "Growth of Peppol-based reporting frameworks internationally."
+        "Mandatory integration of ERP systems with government portals",
+        "Singapore's InvoiceNow and GST transmission mandates",
+        "Global adoption of Peppol-based reporting standards"
       ],
       "source_links": [
         "https://edicomgroup.com/blog/singapore-encourages-the-use-of-e-invoicing-with-peppol",
@@ -113,8 +110,8 @@
         "has_primary_sources": false,
         "source_risk": "medium"
       },
-      "confidence": 0.98,
-      "reasoning": "The successful rollout of mandatory, data-rich e-invoicing platforms confirms this as a breakthrough technology currently reaching high velocity in adoption.",
+      "confidence": 0.99,
+      "reasoning": "Evidence of widespread mandates and technical integration verifies this as a breakthrough technology that is now being institutionalized globally.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -122,53 +119,44 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "High",
-        "new_sources": [
-          "https://edicomgroup.com/blog/singapore-encourages-the-use-of-e-invoicing-with-peppol",
-          "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
-          "https://www.cleartax.com/sg/en/e-invoicing-singapore"
-        ],
-        "dropped_sources": [
-          "https://rtcsuite.com/e-invoicing-singapore",
-          "https://thedigitalprojectmanager.com/tools/best-e-invoicing-software",
-          "https://www.e-invoice.app/country/SG",
-          "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework"
-        ],
+        "new_sources": [],
+        "dropped_sources": [],
         "summary_changed": true
       }
     },
     {
-      "id": "tariff-driven-economic-statecraft",
-      "name": "Tariff-Driven Economic Statecraft",
+      "id": "reactive-tariff-driven-statecraft",
+      "name": "Reactive Tariff-Driven Statecraft",
       "stage": "Peak Hype",
       "velocity": "High",
       "category": "Tariffs",
-      "summary": "Tariffs have transitioned into highly reactive, primary instruments of national security and economic policy, with frequent updates disrupting global trade expectations.",
+      "summary": "Tariffs have become highly volatile instruments of foreign policy, with rapid adjustments to metal and pharmaceutical imports causing systemic market uncertainty.",
       "evidence": [
-        "High-frequency adjustments to reciprocal tariff schedules in the U.S. and globally.",
-        "Integration of trade barriers into national security frameworks.",
-        "Constant legal challenges and diplomatic revisions to existing trade agreements."
+        "Frequent, high-frequency updates to Section 232 and reciprocal tariff schedules",
+        "Integration of trade barriers directly into national security legislation",
+        "Increased frequency of cross-border trade skirmishes"
       ],
       "source_links": [
-        "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
-        "https://www.tradecomplianceresourcehub.com/2026/06/03/trump-2-0-tariff-tracker",
-        "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war"
+        "https://www.oiaglobal.com/tariff-updates",
+        "https://www.bbc.com/news/articles/cn93e12rypgo",
+        "https://www.export.org.uk/insights/trade-news/the-day-in-trade-steel-tariffs-update-eu-summit-questions-and-entryexit-system-critique"
       ],
       "source_details": [
         {
-          "url": "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
-          "domain": "jpmorgan.com",
+          "url": "https://www.oiaglobal.com/tariff-updates",
+          "domain": "oiaglobal.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.tradecomplianceresourcehub.com/2026/06/03/trump-2-0-tariff-tracker",
-          "domain": "tradecomplianceresourcehub.com",
+          "url": "https://www.bbc.com/news/articles/cn93e12rypgo",
+          "domain": "bbc.com",
           "type": "secondary",
-          "published_date": "2026-06-03"
+          "published_date": null
         },
         {
-          "url": "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war",
-          "domain": "taxfoundation.org",
+          "url": "https://www.export.org.uk/insights/trade-news/the-day-in-trade-steel-tariffs-update-eu-summit-questions-and-entryexit-system-critique",
+          "domain": "export.org.uk",
           "type": "secondary",
           "published_date": null
         }
@@ -182,27 +170,20 @@
         "has_primary_sources": false,
         "source_risk": "medium"
       },
-      "confidence": 0.96,
-      "reasoning": "The intensity of tariff policy shifts, combined with central involvement from the highest levels of executive government, keeps this trend at the peak of the hype cycle.",
+      "confidence": 0.97,
+      "reasoning": "The intensity of policy changes and the use of tariffs as a primary diplomatic tool keep this firmly in the 'Peak Hype' phase.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": false,
-        "stage_delta": 0,
-        "previous_stage": "Peak Hype",
-        "velocity_delta": 0,
-        "previous_velocity": "High",
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
         "new_sources": [
-          "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war",
-          "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
-          "https://www.tradecomplianceresourcehub.com/2026/06/03/trump-2-0-tariff-tracker"
-        ],
-        "dropped_sources": [
-          "https://www.bbc.com/news/articles/cn93e12rypgo",
-          "https://www.elleoglobal.com/import-tariff-updates",
           "https://www.oiaglobal.com/tariff-updates",
-          "https://www.rohlig.com/freight-knowledge/expert-insights/detail/united-states-and-global-tariff-updates"
+          "https://www.bbc.com/news/articles/cn93e12rypgo",
+          "https://www.export.org.uk/insights/trade-news/the-day-in-trade-steel-tariffs-update-eu-summit-questions-and-entryexit-system-critique"
         ],
-        "summary_changed": true
+        "dropped_sources": [],
+        "summary_changed": false
       }
     },
     {
@@ -211,48 +192,48 @@
       "stage": "Incubation",
       "velocity": "Medium",
       "category": "Corporate Tax",
-      "summary": "Nations are increasingly leveraging independent corporate tax rates and targeted incentives to attract foreign direct investment, signaling a move toward decentralized fiscal competition.",
+      "summary": "Jurisdictions are aggressively adjusting corporate tax rates to foster local investment, signaling a move toward fiscal sovereignty over regional alignment.",
       "evidence": [
-        "Emergence of legislative reforms in India and other ASEAN economies to secure investment.",
-        "Increased emphasis on localized tax competition to buffer against global fiscal uncertainty.",
-        "Variations in national effective tax structures despite broader harmonization goals."
+        "Portugal's corporate tax reduction schedule (2026-2028)",
+        "Slovenia's temporary tax rate increases",
+        "ASEAN region's focus on specialized incentives for high-impact industries"
       ],
       "source_links": [
-        "https://www.incometax.gov.in",
-        "https://kneopen.com/kne-social/article/view/2832/2636",
-        "https://tradingeconomics.com/country-list/corporate-tax-rate?continent=asia"
+        "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
+        "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025",
+        "https://www.grantthornton.sg/insights/2026-insights/asean-6-tax-guide-2026"
       ],
       "source_details": [
         {
-          "url": "https://www.incometax.gov.in",
-          "domain": "incometax.gov.in",
-          "type": "primary",
-          "published_date": null
-        },
-        {
-          "url": "https://kneopen.com/kne-social/article/view/2832/2636",
-          "domain": "kneopen.com",
+          "url": "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
+          "domain": "bdo.global",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://tradingeconomics.com/country-list/corporate-tax-rate?continent=asia",
-          "domain": "tradingeconomics.com",
+          "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025",
+          "domain": "taxfoundation.org",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.grantthornton.sg/insights/2026-insights/asean-6-tax-guide-2026",
+          "domain": "grantthornton.sg",
           "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
         "total_sources": 3,
-        "primary_source_count": 1,
-        "secondary_source_count": 2,
+        "primary_source_count": 0,
+        "secondary_source_count": 3,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
-        "has_primary_sources": true,
-        "source_risk": "low"
+        "has_primary_sources": false,
+        "source_risk": "medium"
       },
-      "confidence": 0.92,
-      "reasoning": "Recent legislative activity in major emerging markets demonstrates a shift toward tailoring tax regimes to national growth priorities, which is currently in an early, high-interest incubation stage.",
+      "confidence": 0.94,
+      "reasoning": "Divergent tax rate adjustments in various jurisdictions suggest a trend toward localized competition, currently in the early stages of adoption.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -261,20 +242,23 @@
         "velocity_delta": 0,
         "previous_velocity": "Medium",
         "new_sources": [
-          "https://kneopen.com/kne-social/article/view/2832/2636"
+          "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025",
+          "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
+          "https://www.grantthornton.sg/insights/2026-insights/asean-6-tax-guide-2026"
         ],
         "dropped_sources": [
-          "https://amro-asia.org/global-tax-reform-what-lies-ahead-for-asean3",
-          "https://taxfoundation.org/blog/eu-tax-mix-dominika-langenmayr"
+          "https://kneopen.com/kne-social/article/view/2832/2636",
+          "https://tradingeconomics.com/country-list/corporate-tax-rate?continent=asia",
+          "https://www.incometax.gov.in"
         ],
-        "summary_changed": false
+        "summary_changed": true
       }
     }
   ],
   "intelligence_metadata": {
     "agent": "gemini-3.1-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-06-29T22:00:59.197138Z",
+    "timestamp": "2026-06-30T04:01:35.180952Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -285,7 +269,7 @@
       "status": "success",
       "model": "gemini-3.1-flash-lite",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-06-29T22:00:59.197138Z",
+      "timestamp": "2026-06-30T04:01:35.180952Z",
       "search_result_count": 40,
       "validation_error_count": 0,
       "validation_failures": []
@@ -295,7 +279,7 @@
     "status": "success",
     "model": "gemini-3.1-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-06-29T22:00:59.197138Z",
+    "timestamp": "2026-06-30T04:01:35.180952Z",
     "search_result_count": 40,
     "validation_error_count": 0,
     "validation_failures": []
