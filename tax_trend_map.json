@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-01T16:02:50.020091Z",
-  "executive_briefing": "As of mid-2026, the global fiscal landscape is defined by a retreat from multilateral cooperation toward aggressive tax competition and protectionism. The 15% global minimum tax (Pillar Two) is suffering from severe fatigue as nations prioritize domestic industrial policy through bespoke tax incentives and targeted rate reductions. Simultaneously, unilateral tariff-based trade policy has become a permanent feature of international diplomacy, with major powers utilizing them to control supply chains. Compliance is simultaneously digitizing, with mandatory structured e-invoicing moving from innovation to a foundational requirement for tax enforcement across high-growth regions like ASEAN.",
+  "last_updated": "2026-07-01T22:01:27.294144Z",
+  "executive_briefing": "As of mid-2026, the international tax environment is marked by a clear departure from the OECD-led Pillar Two consensus, with major economies reassessing their commitment to multilateral frameworks in favor of domestic protectionism. We are witnessing a bifurcation: while tax policy is fragmenting into bespoke national incentives and aggressive unilateral tariff strategies, tax administration is becoming increasingly standardized through mandatory real-time digital reporting requirements. The emergence of 'InvoiceNow' models in hubs like Singapore underscores a shift toward digital-first compliance infrastructure as a fundamental requirement for global commerce.",
   "trends": [
     {
       "id": "global-minimum-tax-pillar-two-fragmentation",
@@ -8,54 +8,47 @@
       "stage": "Fatigue",
       "velocity": "Medium",
       "category": "Corporate Tax",
-      "summary": "Multilateral consensus on the 15% global minimum tax is weakening, evidenced by nations implementing independent, lower statutory corporate tax rates and side-arrangements to maintain investment appeal.",
+      "summary": "Multilateral consensus on the 15% global minimum tax is fraying, as significant players revisit their commitments and nations implement independent, often conflicting, corporate tax measures.",
       "evidence": [
-        "Corporate income tax rate drops noted globally for 2026 including potential moves to 15% by 2030 in select jurisdictions",
-        "Pillar Two model remains stuck in debates over carve-outs for large multinationals"
+        "Reports indicate abrupt withdrawal of key jurisdictions from specific OECD agreements",
+        "Increased threat of retaliatory tax measures as a substitute for multilateral cohesion"
       ],
       "source_links": [
-        "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
-        "https://taxfoundation.org/data/all/eu/corporate-income-tax-rates-europe",
-        "https://news.law.fordham.edu/jcfl/2024/10/08/taxing-the-digital-giants-what-the-oecd-global-tax-deal-means-for-the-u-s",
-        "https://ciferi.com/glossary/pillar-two"
+        "https://practiceguides.chambers.com/practice-guides/corporate-tax-2026",
+        "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
+        "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate"
       ],
       "source_details": [
         {
-          "url": "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
-          "domain": "bdo.global",
+          "url": "https://practiceguides.chambers.com/practice-guides/corporate-tax-2026",
+          "domain": "practiceguides.chambers.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://taxfoundation.org/data/all/eu/corporate-income-tax-rates-europe",
-          "domain": "taxfoundation.org",
+          "url": "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
+          "domain": "moodys.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://news.law.fordham.edu/jcfl/2024/10/08/taxing-the-digital-giants-what-the-oecd-global-tax-deal-means-for-the-u-s",
-          "domain": "news.law.fordham.edu",
-          "type": "primary",
-          "published_date": "2024-10-08"
-        },
-        {
-          "url": "https://ciferi.com/glossary/pillar-two",
-          "domain": "ciferi.com",
-          "type": "secondary",
+          "url": "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 4,
-        "primary_source_count": 1,
-        "secondary_source_count": 3,
-        "wikipedia_source_count": 0,
+        "total_sources": 3,
+        "primary_source_count": 0,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 1,
         "blog_source_count": 0,
-        "has_primary_sources": true,
-        "source_risk": "low"
+        "has_primary_sources": false,
+        "source_risk": "medium"
       },
-      "confidence": 0.95,
-      "reasoning": "The trend remains in Fatigue as actual legislative behavior at the national level contradicts the spirit of the original multilateral framework.",
+      "confidence": 0.92,
+      "reasoning": "The stage remains Fatigue as empirical evidence shows a cooling toward original Pillar Two goals and a rise in unilateral fiscal maneuvers.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -64,16 +57,15 @@
         "velocity_delta": 0,
         "previous_velocity": "Medium",
         "new_sources": [
+          "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
+          "https://practiceguides.chambers.com/practice-guides/corporate-tax-2026",
+          "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html"
+        ],
+        "dropped_sources": [
           "https://ciferi.com/glossary/pillar-two",
           "https://news.law.fordham.edu/jcfl/2024/10/08/taxing-the-digital-giants-what-the-oecd-global-tax-deal-means-for-the-u-s",
           "https://taxfoundation.org/data/all/eu/corporate-income-tax-rates-europe",
           "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026"
-        ],
-        "dropped_sources": [
-          "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
-          "https://kpmg.com/ch/en/insights/taxes/beps-2.html",
-          "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
-          "https://www.oecd.org/en/topics/sub-issues/global-minimum-tax/global-anti-base-erosion-model-rules-pillar-two.html"
         ],
         "summary_changed": true
       }
@@ -84,33 +76,26 @@
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Compliance",
-      "summary": "Governments are transitioning from voluntary adoption to legally mandated structured data transmission, with Singapore and other hubs leading the integration of e-invoicing as core tax audit infrastructure.",
+      "summary": "The transition from voluntary digital invoicing to mandatory structured data reporting is accelerating, with national networks like Singapore's InvoiceNow becoming global templates for automated tax enforcement.",
       "evidence": [
-        "Singapore's shift toward mandatory structured invoice data transmission",
-        "Global adoption of Peppol as the standardized transactional layer"
+        "Singapore's shift to multi-year mandates for structured invoice data transmission",
+        "Broadened adoption of the Peppol standard as the foundational transactional layer"
       ],
       "source_links": [
-        "https://www.esker.com/en-sg/solutions/document-delivery/e-invoicing/e-invoicing-singapore",
-        "https://edicomgroup.com/blog/singapore-encourages-the-use-of-e-invoicing-with-peppol",
-        "https://www.sap.com/resources/what-is-e-invoicing",
+        "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
+        "https://www.cleartax.com/sg/en/e-invoicing-singapore",
         "https://tax.thomsonreuters.com/blog/what-is-e-invoicing"
       ],
       "source_details": [
         {
-          "url": "https://www.esker.com/en-sg/solutions/document-delivery/e-invoicing/e-invoicing-singapore",
-          "domain": "esker.com",
+          "url": "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
+          "domain": "avalara.com",
           "type": "secondary",
-          "published_date": null
+          "published_date": "2026-03-01"
         },
         {
-          "url": "https://edicomgroup.com/blog/singapore-encourages-the-use-of-e-invoicing-with-peppol",
-          "domain": "edicomgroup.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.sap.com/resources/what-is-e-invoicing",
-          "domain": "sap.com",
+          "url": "https://www.cleartax.com/sg/en/e-invoicing-singapore",
+          "domain": "cleartax.com",
           "type": "secondary",
           "published_date": null
         },
@@ -122,16 +107,16 @@
         }
       ],
       "source_quality": {
-        "total_sources": 4,
+        "total_sources": 3,
         "primary_source_count": 0,
-        "secondary_source_count": 4,
+        "secondary_source_count": 3,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": false,
         "source_risk": "medium"
       },
       "confidence": 0.98,
-      "reasoning": "The trend remains in Breakthrough as infrastructure-wide mandates are now operational requirements rather than voluntary upgrades.",
+      "reasoning": "Remains in Breakthrough as operational requirements become legally binding in key economic hubs.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -140,12 +125,13 @@
         "velocity_delta": 0,
         "previous_velocity": "High",
         "new_sources": [
-          "https://tax.thomsonreuters.com/blog/what-is-e-invoicing",
-          "https://www.esker.com/en-sg/solutions/document-delivery/e-invoicing/e-invoicing-singapore"
-        ],
-        "dropped_sources": [
           "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
           "https://www.cleartax.com/sg/en/e-invoicing-singapore"
+        ],
+        "dropped_sources": [
+          "https://edicomgroup.com/blog/singapore-encourages-the-use-of-e-invoicing-with-peppol",
+          "https://www.esker.com/en-sg/solutions/document-delivery/e-invoicing/e-invoicing-singapore",
+          "https://www.sap.com/resources/what-is-e-invoicing"
         ],
         "summary_changed": true
       }
@@ -156,54 +142,47 @@
       "stage": "Peak Hype",
       "velocity": "High",
       "category": "Tariffs",
-      "summary": "The application of unilateral tariffs, such as Section 232 updates and targeted regional measures, has become a standard, volatile tool for economic protectionism and industrial policy.",
+      "summary": "Tariffs have transitioned from trade negotiation levers to standard instruments of industrial policy, characterized by high volatility and rapid administrative adjustment.",
       "evidence": [
-        "2026 U.S. updates to Section 232 tariffs on metals and pharmaceuticals",
-        "Frequent reliance on judicial and administrative tariff adjustments to protect domestic supply chains"
+        "Frequent updates to effective tariff rates in the U.S. and retaliatory responses from trade partners",
+        "Persistent legal challenges to tariff imposition under emergency powers"
       ],
       "source_links": [
-        "https://www.oiaglobal.com/tariff-updates",
-        "https://www.consumershield.com/business-law/tariff/updates",
-        "https://flavorcloud.com/blog/2025-tariffs",
-        "https://www.bbc.com/news/articles/cn93e12rypgo"
+        "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
+        "https://www.reuters.com/business/tariffs",
+        "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war"
       ],
       "source_details": [
         {
-          "url": "https://www.oiaglobal.com/tariff-updates",
-          "domain": "oiaglobal.com",
+          "url": "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
+          "domain": "jpmorgan.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.consumershield.com/business-law/tariff/updates",
-          "domain": "consumershield.com",
+          "url": "https://www.reuters.com/business/tariffs",
+          "domain": "reuters.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://flavorcloud.com/blog/2025-tariffs",
-          "domain": "flavorcloud.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.bbc.com/news/articles/cn93e12rypgo",
-          "domain": "bbc.com",
+          "url": "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war",
+          "domain": "taxfoundation.org",
           "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 4,
+        "total_sources": 3,
         "primary_source_count": 0,
-        "secondary_source_count": 4,
+        "secondary_source_count": 3,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": false,
         "source_risk": "medium"
       },
-      "confidence": 0.96,
-      "reasoning": "Remains at Peak Hype due to the high frequency of administrative updates and the persistent impact on global supply chain logistics.",
+      "confidence": 0.95,
+      "reasoning": "Remains at Peak Hype due to the high intensity of trade policy shifts and the systemic impact on global supply chains.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -212,16 +191,15 @@
         "velocity_delta": 0,
         "previous_velocity": "High",
         "new_sources": [
+          "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war",
+          "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
+          "https://www.reuters.com/business/tariffs"
+        ],
+        "dropped_sources": [
           "https://flavorcloud.com/blog/2025-tariffs",
           "https://www.bbc.com/news/articles/cn93e12rypgo",
           "https://www.consumershield.com/business-law/tariff/updates",
           "https://www.oiaglobal.com/tariff-updates"
-        ],
-        "dropped_sources": [
-          "https://ttd.wto.org/en",
-          "https://ustariffrates.com/tariff-tracker",
-          "https://www.reuters.com/business/tariffs",
-          "https://www.usitc.gov/harmonized_tariff_information/announcement_archive"
         ],
         "summary_changed": true
       }
@@ -232,16 +210,15 @@
       "stage": "Incubation",
       "velocity": "Medium",
       "category": "Corporate Tax",
-      "summary": "Nations are increasingly using bespoke tax rebates, cash grants, and competitive tax adjustments to secure FDI, creating a 'race-to-the-middle' tax competition model.",
+      "summary": "As the global tax landscape diverges, nations are deploying bespoke fiscal packages to secure FDI, effectively neutralizing global minimum tax goals.",
       "evidence": [
-        "Singapore's utilization of CIT rebate cash grants and proportional reductions",
-        "Divergence in ASEAN corporate tax strategies to attract capital"
+        "Continued use of CIT rebate cash grants and competitive adjustments in ASEAN markets",
+        "Strategic emphasis on 'race-to-the-middle' policies to maintain investment appeal"
       ],
       "source_links": [
         "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
-        "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates",
-        "https://b2b-asianews.com/news/imf-to-asean-avoid-tax-competition",
-        "https://www.mof.gov.sg/policies/taxes/corporate-income-tax"
+        "https://www.grantthornton.sg/insights/2026-insights/asean-6-tax-guide-2026",
+        "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates"
       ],
       "source_details": [
         {
@@ -251,35 +228,29 @@
           "published_date": null
         },
         {
-          "url": "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates",
-          "domain": "iras.gov.sg",
-          "type": "primary",
-          "published_date": null
-        },
-        {
-          "url": "https://b2b-asianews.com/news/imf-to-asean-avoid-tax-competition",
-          "domain": "b2b-asianews.com",
+          "url": "https://www.grantthornton.sg/insights/2026-insights/asean-6-tax-guide-2026",
+          "domain": "grantthornton.sg",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.mof.gov.sg/policies/taxes/corporate-income-tax",
-          "domain": "mof.gov.sg",
+          "url": "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates",
+          "domain": "iras.gov.sg",
           "type": "primary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 4,
-        "primary_source_count": 2,
+        "total_sources": 3,
+        "primary_source_count": 1,
         "secondary_source_count": 2,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
         "source_risk": "low"
       },
-      "confidence": 0.92,
-      "reasoning": "Remains in Incubation as the strategy is a direct response to the fracturing of a unified global minimum tax environment.",
+      "confidence": 0.88,
+      "reasoning": "Stays in Incubation as the strategy is a reactive adaptation to the breakdown of multilateral cooperation.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -288,11 +259,11 @@
         "velocity_delta": 0,
         "previous_velocity": "Medium",
         "new_sources": [
-          "https://b2b-asianews.com/news/imf-to-asean-avoid-tax-competition",
-          "https://www.mof.gov.sg/policies/taxes/corporate-income-tax"
+          "https://www.grantthornton.sg/insights/2026-insights/asean-6-tax-guide-2026"
         ],
         "dropped_sources": [
-          "https://tradingeconomics.com/country-list/corporate-tax-rate?continent=asia"
+          "https://b2b-asianews.com/news/imf-to-asean-avoid-tax-competition",
+          "https://www.mof.gov.sg/policies/taxes/corporate-income-tax"
         ],
         "summary_changed": true
       }
@@ -301,7 +272,7 @@
   "intelligence_metadata": {
     "agent": "gemini-3.1-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-07-01T16:02:50.020091Z",
+    "timestamp": "2026-07-01T22:01:27.294144Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -312,7 +283,7 @@
       "status": "success",
       "model": "gemini-3.1-flash-lite",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-07-01T16:02:50.020091Z",
+      "timestamp": "2026-07-01T22:01:27.294144Z",
       "search_result_count": 40,
       "validation_error_count": 0,
       "validation_failures": []
@@ -322,7 +293,7 @@
     "status": "success",
     "model": "gemini-3.1-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-07-01T16:02:50.020091Z",
+    "timestamp": "2026-07-01T22:01:27.294144Z",
     "search_result_count": 40,
     "validation_error_count": 0,
     "validation_failures": []

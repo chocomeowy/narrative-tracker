@@ -1,83 +1,79 @@
-# Tax Intelligence Briefing - 2026-07-01 16:02
+# Tax Intelligence Briefing - 2026-07-01 22:01
 
 {
-  "executive_briefing": "As of mid-2026, the global fiscal landscape is defined by a retreat from multilateral cooperation toward aggressive tax competition and protectionism. The 15% global minimum tax (Pillar Two) is suffering from severe fatigue as nations prioritize domestic industrial policy through bespoke tax incentives and targeted rate reductions. Simultaneously, unilateral tariff-based trade policy has become a permanent feature of international diplomacy, with major powers utilizing them to control supply chains. Compliance is simultaneously digitizing, with mandatory structured e-invoicing moving from innovation to a foundational requirement for tax enforcement across high-growth regions like ASEAN.",
+  "executive_briefing": "As of mid-2026, the international tax environment is marked by a clear departure from the OECD-led Pillar Two consensus, with major economies reassessing their commitment to multilateral frameworks in favor of domestic protectionism. We are witnessing a bifurcation: while tax policy is fragmenting into bespoke national incentives and aggressive unilateral tariff strategies, tax administration is becoming increasingly standardized through mandatory real-time digital reporting requirements. The emergence of 'InvoiceNow' models in hubs like Singapore underscores a shift toward digital-first compliance infrastructure as a fundamental requirement for global commerce.",
   "trends": [
     {
       "name": "Global Minimum Tax (Pillar Two) Fragmentation",
       "stage": "Fatigue",
       "velocity": "Medium",
       "category": "Corporate Tax",
-      "summary": "Multilateral consensus on the 15% global minimum tax is weakening, evidenced by nations implementing independent, lower statutory corporate tax rates and side-arrangements to maintain investment appeal.",
+      "summary": "Multilateral consensus on the 15% global minimum tax is fraying, as significant players revisit their commitments and nations implement independent, often conflicting, corporate tax measures.",
       "evidence": [
-        "Corporate income tax rate drops noted globally for 2026 including potential moves to 15% by 2030 in select jurisdictions",
-        "Pillar Two model remains stuck in debates over carve-outs for large multinationals"
+        "Reports indicate abrupt withdrawal of key jurisdictions from specific OECD agreements",
+        "Increased threat of retaliatory tax measures as a substitute for multilateral cohesion"
       ],
       "source_links": [
-        "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
-        "https://taxfoundation.org/data/all/eu/corporate-income-tax-rates-europe/",
-        "https://news.law.fordham.edu/jcfl/2024/10/08/taxing-the-digital-giants-what-the-oecd-global-tax-deal-means-for-the-u-s/",
-        "https://ciferi.com/glossary/pillar-two"
+        "https://practiceguides.chambers.com/practice-guides/corporate-tax-2026",
+        "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
+        "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate"
       ],
-      "confidence": 0.95,
-      "reasoning": "The trend remains in Fatigue as actual legislative behavior at the national level contradicts the spirit of the original multilateral framework."
+      "confidence": 0.92,
+      "reasoning": "The stage remains Fatigue as empirical evidence shows a cooling toward original Pillar Two goals and a rise in unilateral fiscal maneuvers."
     },
     {
       "name": "Mandatory Real-Time E-Invoicing Compliance",
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Compliance",
-      "summary": "Governments are transitioning from voluntary adoption to legally mandated structured data transmission, with Singapore and other hubs leading the integration of e-invoicing as core tax audit infrastructure.",
+      "summary": "The transition from voluntary digital invoicing to mandatory structured data reporting is accelerating, with national networks like Singapore's InvoiceNow becoming global templates for automated tax enforcement.",
       "evidence": [
-        "Singapore's shift toward mandatory structured invoice data transmission",
-        "Global adoption of Peppol as the standardized transactional layer"
+        "Singapore's shift to multi-year mandates for structured invoice data transmission",
+        "Broadened adoption of the Peppol standard as the foundational transactional layer"
       ],
       "source_links": [
-        "https://www.esker.com/en-sg/solutions/document-delivery/e-invoicing/e-invoicing-singapore/",
-        "https://edicomgroup.com/blog/singapore-encourages-the-use-of-e-invoicing-with-peppol",
-        "https://www.sap.com/resources/what-is-e-invoicing",
-        "https://tax.thomsonreuters.com/blog/what-is-e-invoicing/"
+        "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
+        "https://www.cleartax.com/sg/en/e-invoicing-singapore",
+        "https://tax.thomsonreuters.com/blog/what-is-e-invoicing"
       ],
       "confidence": 0.98,
-      "reasoning": "The trend remains in Breakthrough as infrastructure-wide mandates are now operational requirements rather than voluntary upgrades."
+      "reasoning": "Remains in Breakthrough as operational requirements become legally binding in key economic hubs."
     },
     {
       "name": "Normalized Unilateral Tariff Statecraft",
       "stage": "Peak Hype",
       "velocity": "High",
       "category": "Tariffs",
-      "summary": "The application of unilateral tariffs, such as Section 232 updates and targeted regional measures, has become a standard, volatile tool for economic protectionism and industrial policy.",
+      "summary": "Tariffs have transitioned from trade negotiation levers to standard instruments of industrial policy, characterized by high volatility and rapid administrative adjustment.",
       "evidence": [
-        "2026 U.S. updates to Section 232 tariffs on metals and pharmaceuticals",
-        "Frequent reliance on judicial and administrative tariff adjustments to protect domestic supply chains"
+        "Frequent updates to effective tariff rates in the U.S. and retaliatory responses from trade partners",
+        "Persistent legal challenges to tariff imposition under emergency powers"
       ],
       "source_links": [
-        "https://www.oiaglobal.com/tariff-updates/",
-        "https://www.consumershield.com/business-law/tariff/updates",
-        "https://flavorcloud.com/blog/2025-tariffs",
-        "https://www.bbc.com/news/articles/cn93e12rypgo"
+        "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
+        "https://www.reuters.com/business/tariffs/",
+        "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/"
       ],
-      "confidence": 0.96,
-      "reasoning": "Remains at Peak Hype due to the high frequency of administrative updates and the persistent impact on global supply chain logistics."
+      "confidence": 0.95,
+      "reasoning": "Remains at Peak Hype due to the high intensity of trade policy shifts and the systemic impact on global supply chains."
     },
     {
       "name": "Localized Fiscal Incentives for FDI",
       "stage": "Incubation",
       "velocity": "Medium",
       "category": "Corporate Tax",
-      "summary": "Nations are increasingly using bespoke tax rebates, cash grants, and competitive tax adjustments to secure FDI, creating a 'race-to-the-middle' tax competition model.",
+      "summary": "As the global tax landscape diverges, nations are deploying bespoke fiscal packages to secure FDI, effectively neutralizing global minimum tax goals.",
       "evidence": [
-        "Singapore's utilization of CIT rebate cash grants and proportional reductions",
-        "Divergence in ASEAN corporate tax strategies to attract capital"
+        "Continued use of CIT rebate cash grants and competitive adjustments in ASEAN markets",
+        "Strategic emphasis on 'race-to-the-middle' policies to maintain investment appeal"
       ],
       "source_links": [
         "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
-        "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates",
-        "https://b2b-asianews.com/news/imf-to-asean-avoid-tax-competition/",
-        "https://www.mof.gov.sg/policies/taxes/corporate-income-tax/"
+        "https://www.grantthornton.sg/insights/2026-insights/asean-6-tax-guide-2026/",
+        "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates"
       ],
-      "confidence": 0.92,
-      "reasoning": "Remains in Incubation as the strategy is a direct response to the fracturing of a unified global minimum tax environment."
+      "confidence": 0.88,
+      "reasoning": "Stays in Incubation as the strategy is a reactive adaptation to the breakdown of multilateral cooperation."
     }
   ]
 }
