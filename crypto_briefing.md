@@ -1,4 +1,4 @@
-# Crypto Intelligence Briefing - 2026-07-02 10:02
+# Crypto Intelligence Briefing - 2026-07-02 22:01
 
 {
   "executive_briefing": "The crypto market enters mid-2026 driven by the institutional solidification of Bitcoin as a programmable asset class. With the Digital Asset Market Clarity Act nearing final passage, the regulatory environment is pivoting toward enabling complex smart contract capabilities directly on the Bitcoin network. This shift presents a structural challenge to EVM dominance, as 'bridge-less' atomic interoperability gains traction among institutional players seeking to minimize counterparty risk. Ethereum remains a decentralized hub for dApps, but the convergence of regulatory clarity and BTC-native programmability is redirecting capital flows toward a more secure, asset-sovereign infrastructure.",
@@ -36,11 +36,11 @@
         "Systemic supply-demand imbalance created by absorption of mining output."
       ],
       "source_links": [
+        "https://www.ainvest.com/news/bitcoin-etf-inflows-institutional-adoption-catalyst-btc-2025-trajectory-2510/",
         "https://datos-insights.com/blog/bitcoin-etf-institutional-adoption/",
-        "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/how-bitcoin-etf-institutional-adoption",
+        "https://www.chainup.com/blog/institutional-bitcoin-adoption-what-it-means/",
         "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
-        "https://cryptothreads.io/learn/bitcoin-institutional-adoption/",
-        "https://www.ainvest.com/news/bitcoin-etf-inflows-institutional-adoption-catalyst-btc-2025-trajectory-2510/"
+        "https://cryptothreads.io/learn/bitcoin-institutional-adoption/"
       ],
       "confidence": 0.98,
       "reasoning": "Institutional adoption has moved beyond early-adopter speculative phases to become a core component of institutional treasury management and wealth planning."
@@ -53,15 +53,15 @@
       "summary": "Institutional risk aversion is driving the replacement of centralized custodial bridges with atomic, trustless cross-chain liquidity protocols.",
       "evidence": [
         "Shift towards protocols that remove counterparty risk via non-custodial swaps.",
-        "Adoption of cross-chain liquidity tools by traditional financial service providers.",
-        "Technical move towards direct asset swaps between Bitcoin and EVM networks."
+        "Technical move towards direct asset swaps between Bitcoin and EVM networks.",
+        "Increased focus on native BTC-to-ETH liquidity pools as a replacement for wrapped assets."
       ],
       "source_links": [
-        "https://symbiosis.finance/",
-        "https://coincub.com/blog/cross-chain-liquidity-simplifying-crypto-swaps-with-non-custodial-tools/",
-        "https://www.chainup.com/blog/cross-chain-trading-crypto-liquidity/",
         "https://bitcoin.tax/blog/cross-chain-liquidity-2025/",
-        "https://www.cobo.com/post/bridge-assets-across-major-networks-like-btc-eth-tron-bnb-and-more"
+        "https://advertorial.cryptonews.com/press-releases/what-would-true-cross-chain-liquidity-between-btc-eth-and-sol-look-like-liquidchain-liquid-weighs-in/",
+        "https://stargate.finance/",
+        "https://godex.io/blog/cross-chain-crypto-swaps-best-exchanges-for-multi-blockchain-trading",
+        "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps"
       ],
       "confidence": 0.92,
       "reasoning": "Legacy custodial bridge risk is incompatible with modern institutional compliance, necessitating faster technical adoption of trustless liquidity."
