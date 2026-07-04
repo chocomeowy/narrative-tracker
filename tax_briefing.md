@@ -1,4 +1,4 @@
-# Tax Intelligence Briefing - 2026-07-04 16:01
+# Tax Intelligence Briefing - 2026-07-04 22:01
 
 {
   "executive_briefing": "The global tax landscape in mid-2026 is defined by a retreat from the OECD's Pillar Two multilateral consensus toward regional fiscal pragmatism. Following the U.S. formalization of a 'side-by-side' exemption for its MNEs, the global minimum tax framework has effectively shifted from a universal standard to a fragmented compliance challenge. Concurrently, nations—particularly in the ASEAN corridor—are aggressively leveraging territorial tax structures and bespoke incentives to capture foreign direct investment. Administrative enforcement continues to prioritize real-time digital transparency, with mandatory e-invoicing and integrated tax-reporting mandates now standardizing across major trading hubs to secure revenue streams in an increasingly protectionist tariff environment.",
@@ -15,9 +15,9 @@
         "Increased focus on audit-ready local deferred tax recalculations."
       ],
       "source_links": [
-        "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
         "https://oecdpillars.com/pillar-tab/pillar-two-implementation/",
-        "https://pro.bloombergtax.com/insights/international-tax/understanding-digital-services-taxes-the-oecd/"
+        "https://ciferi.com/glossary/pillar-two",
+        "https://www.congress.gov/crs_external_products/R/PDF/R47174/R47174.17.pdf"
       ],
       "confidence": 0.98,
       "reasoning": "The multilateral consensus has been replaced by bilateral accommodations, ending the initial momentum for a uniform 15% global tax floor."
@@ -34,12 +34,12 @@
         "Broad adoption of Peppol-based interoperability standards."
       ],
       "source_links": [
-        "https://edicomgroup.com/blog/singapore-encourages-the-use-of-e-invoicing-with-peppol",
-        "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-        "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html"
+        "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement",
+        "https://kpmg.com/us/en/taxnewsflash/news/2026/02/singapore-e-invoicing-mandate-compliance-deadlines.html",
+        "https://edicomgroup.com/blog/singapore-encourages-the-use-of-e-invoicing-with-peppol"
       ],
       "confidence": 0.99,
-      "reasoning": "Mandates are moving from pilot/voluntary stages to strictly enforced national requirements with clear legal deadlines."
+      "reasoning": "Mandates are moving from pilot stages to strictly enforced national requirements with clear legal deadlines."
     },
     {
       "name": "Weaponized Tariff Statecraft",
@@ -50,13 +50,12 @@
       "evidence": [
         "Increased utilization of USITC tariff-tracker databases by multinationals.",
         "Ongoing legal scrutiny regarding executive tariff authority under Sections 232 and 301.",
-        "Persistent record trade volumes masked by economic damage from tariff volatility."
+        "Judicial challenges to tariff legality under the International Emergency Economic Powers Act."
       ],
       "source_links": [
-        "https://www.reuters.com/business/tariffs/",
-        "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
-        "https://ttd.wto.org/en",
-        "https://ustariffrates.com/tariff-tracker"
+        "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/",
+        "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
+        "https://www.reuters.com/business/tariffs/"
       ],
       "confidence": 0.95,
       "reasoning": "Tariffs remain a top-tier political instrument, but implementation is frequently challenged by judicial review, preventing further velocity acceleration."
@@ -68,13 +67,13 @@
       "category": "Corporate Tax",
       "summary": "Nations are recalibrating statutory tax rates and incentives to secure competitive advantages for FDI as multilateral tax uniformity wanes.",
       "evidence": [
-        "Specific statutory rate changes like Portugal's progressive decreases and Slovenia's temporary increases.",
+        "Specific statutory rate changes like France's temporary levy increases and Chad's rate decreases.",
         "Reliance on Singapore's territorial system as a benchmark for competitive ASEAN tax planning.",
-        "Use of bilateral investment rebates to bypass stalled global minimum tax efforts."
+        "Use of bilateral investment incentives to navigate changing fiscal regimes."
       ],
       "source_links": [
+        "https://taxfoundation.org/data/all/eu/corporate-income-tax-rates-europe/",
         "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
-        "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/",
         "https://www.aseanbriefing.com/doing-business-guide/singapore/taxation-and-accounting/country-wise-tax-structure/corporate-income-tax"
       ],
       "confidence": 0.92,
