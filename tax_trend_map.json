@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-05T16:01:46.327558Z",
-  "executive_briefing": "As of July 2026, the global corporate tax landscape has entered a period of pragmatic divergence. While the OECD's Pillar Two initiative remains a baseline for many, the United States has successfully negotiated a 'side-by-side' exemption, fundamentally altering the trajectory of global tax harmonization and accelerating domestic sovereign tax strategies. Meanwhile, tariff statecraft has moved to the center of judicial review, with high-stakes litigation regarding the scope of executive IEEPA authority defining current trade volatility. Operational compliance is simultaneously hardening, as real-time e-invoicing mandates, exemplified by Singapore's InvoiceNow, transition from voluntary adoption to inescapable, ERP-integrated reality.",
+  "last_updated": "2026-07-05T22:01:50.358515Z",
+  "executive_briefing": "As of July 2026, the global corporate tax environment is stabilizing into a dual-track system following the formalization of the U.S. 'side-by-side' Pillar Two exemption. While the OECD framework remains the status quo for most nations, the divergence of U.S. fiscal policy has neutralized the momentum for a truly universal minimum tax, leading to a state of systemic fatigue. Simultaneously, jurisdictions are pursuing 'strategic tax divergence,' using localized rebates and rate adjustments to compete for capital. Real-time compliance via integrated e-invoicing is moving from a nascent tech experiment to a mandatory, multi-year, ERP-embedded infrastructure requirement, particularly in trade-heavy hubs like Singapore.",
   "trends": [
     {
       "id": "global-minimum-tax-bifurcation",
@@ -8,11 +8,10 @@
       "stage": "Fatigue",
       "velocity": "Low",
       "category": "Corporate Tax",
-      "summary": "The OECD Pillar Two framework has transitioned from a unified global mandate to a fractured landscape following the U.S. side-by-side exemption agreement, leading to a complex multi-tiered global tax environment.",
+      "summary": "The OECD Pillar Two framework has diverged into a two-tiered system following the U.S. side-by-side exemption agreement, shifting global focus from active implementation to managing administrative complexity.",
       "evidence": [
-        "U.S. Treasury secured an exemption from Pillar Two for U.S.-headquartered companies in early 2026.",
-        "Approximately 140 countries continue to apply the 15% minimum tax, creating divergence between U.S. and non-U.S. tax treatment.",
-        "MNEs now must reconcile dual-track compliance systems for U.S.-domestic versus international profit allocations."
+        "U.S. Treasury secured an exemption from Pillar Two for U.S.-headquartered companies in January 2026.",
+        "Approximately 147 countries continue to apply the 15% minimum tax, creating a structural rift between U.S. and international tax standards."
       ],
       "source_links": [
         "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
@@ -49,19 +48,17 @@
         "source_risk": "medium"
       },
       "confidence": 0.98,
-      "reasoning": "The 'side-by-side' agreement formally acknowledges the split between U.S. and global frameworks, shifting the trend from active negotiation to long-term systemic fatigue.",
+      "reasoning": "With the U.S. formalizing its exemption, the push for global harmonization has lost its primary catalyst, moving the narrative from active debate to entrenched bureaucratic management.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
-        "new_sources": [
-          "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
-          "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
-          "https://www.deloitte.com/an/en/services/tax/perspectives/oecd-pillar-two.html"
-        ],
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Fatigue",
+        "velocity_delta": 0,
+        "previous_velocity": "Low",
+        "new_sources": [],
         "dropped_sources": [],
-        "summary_changed": false
+        "summary_changed": true
       }
     },
     {
@@ -70,16 +67,15 @@
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Compliance",
-      "summary": "Mandatory, ERP-integrated e-invoicing is becoming the standard for tax authority oversight, moving beyond voluntary adoption to strict, multi-year, multi-national enforcement regimes.",
+      "summary": "National tax authorities are shifting from voluntary e-invoicing to mandatory, ERP-integrated transmission regimes, with Singapore's InvoiceNow acting as a blueprint for global adoption.",
       "evidence": [
-        "Singapore's InvoiceNow mandate for GST-registered businesses is actively enforcing data transmission through the Peppol framework.",
-        "Direct integration between corporate ERP systems and national tax portals allows for real-time validation and compliance.",
-        "Global adoption of Peppol standards is accelerating to ensure interoperability among distinct revenue authorities."
+        "Singapore's mandate requires structured invoice data transmission via the Peppol framework through 2031.",
+        "Major economies are integrating e-invoicing as a primary mechanism to ensure VAT/GST compliance and combat fraud."
       ],
       "source_links": [
         "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
-        "https://edicomgroup.com/blog/singapore-encourages-the-use-of-e-invoicing-with-peppol",
-        "https://www.cleartax.com/sg/en/e-invoicing-singapore"
+        "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
+        "https://kpmg.com/us/en/taxnewsflash/news/2026/02/singapore-e-invoicing-mandate-compliance-deadlines.html"
       ],
       "source_details": [
         {
@@ -89,29 +85,29 @@
           "published_date": "2026-03-01"
         },
         {
-          "url": "https://edicomgroup.com/blog/singapore-encourages-the-use-of-e-invoicing-with-peppol",
-          "domain": "edicomgroup.com",
-          "type": "secondary",
+          "url": "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
+          "domain": "imda.gov.sg",
+          "type": "primary",
           "published_date": null
         },
         {
-          "url": "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-          "domain": "cleartax.com",
+          "url": "https://kpmg.com/us/en/taxnewsflash/news/2026/02/singapore-e-invoicing-mandate-compliance-deadlines.html",
+          "domain": "kpmg.com",
           "type": "secondary",
-          "published_date": null
+          "published_date": "2026-02-01"
         }
       ],
       "source_quality": {
         "total_sources": 3,
-        "primary_source_count": 0,
-        "secondary_source_count": 3,
+        "primary_source_count": 1,
+        "secondary_source_count": 2,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
-        "has_primary_sources": false,
-        "source_risk": "medium"
+        "has_primary_sources": true,
+        "source_risk": "low"
       },
       "confidence": 0.97,
-      "reasoning": "The trend remains in Breakthrough as enforcement deadlines become binding, specifically as seen in Singapore's 2026-2031 implementation plan.",
+      "reasoning": "The transition to 'mandatory' status in key jurisdictions confirms that this technology is no longer in incubation, moving firmly into the implementation phase.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -119,75 +115,13 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "High",
-        "new_sources": [],
-        "dropped_sources": [],
-        "summary_changed": true
-      }
-    },
-    {
-      "id": "weaponized-tariff-statecraft",
-      "name": "Weaponized Tariff Statecraft",
-      "stage": "Peak Hype",
-      "velocity": "High",
-      "category": "Tariffs",
-      "summary": "The use of tariffs as a primary economic lever faces acute constitutional pressure, with imminent court decisions defining the future limits of executive trade powers.",
-      "evidence": [
-        "Ongoing U.S. Supreme Court and Court of International Trade (CIT) deliberations regarding the legality of IEEPA-based tariff impositions.",
-        "U.S. Section 232 tariff updates targeting metals and pharmaceutical imports throughout early 2026.",
-        "High uncertainty surrounding potential judicial orders to refund or reliquidate past tariff entries."
-      ],
-      "source_links": [
-        "https://www.oiaglobal.com/tariff-updates",
-        "https://catts.eu/customs-tariff-updates-june-2026",
-        "https://www.consumershield.com/business-law/tariff/updates"
-      ],
-      "source_details": [
-        {
-          "url": "https://www.oiaglobal.com/tariff-updates",
-          "domain": "oiaglobal.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://catts.eu/customs-tariff-updates-june-2026",
-          "domain": "catts.eu",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.consumershield.com/business-law/tariff/updates",
-          "domain": "consumershield.com",
-          "type": "secondary",
-          "published_date": null
-        }
-      ],
-      "source_quality": {
-        "total_sources": 3,
-        "primary_source_count": 0,
-        "secondary_source_count": 3,
-        "wikipedia_source_count": 0,
-        "blog_source_count": 0,
-        "has_primary_sources": false,
-        "source_risk": "medium"
-      },
-      "confidence": 0.96,
-      "reasoning": "The trend stays at Peak Hype due to intense legal scrutiny and the high-volatility environment surrounding potential refund litigation and future tariff application.",
-      "validation_flags": [],
-      "changed_since_previous_run": {
-        "is_new": false,
-        "stage_delta": 0,
-        "previous_stage": "Peak Hype",
-        "velocity_delta": 0,
-        "previous_velocity": "High",
         "new_sources": [
-          "https://catts.eu/customs-tariff-updates-june-2026",
-          "https://www.consumershield.com/business-law/tariff/updates",
-          "https://www.oiaglobal.com/tariff-updates"
+          "https://kpmg.com/us/en/taxnewsflash/news/2026/02/singapore-e-invoicing-mandate-compliance-deadlines.html",
+          "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework"
         ],
         "dropped_sources": [
-          "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war",
-          "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
-          "https://www.reuters.com/business/tariffs"
+          "https://edicomgroup.com/blog/singapore-encourages-the-use-of-e-invoicing-with-peppol",
+          "https://www.cleartax.com/sg/en/e-invoicing-singapore"
         ],
         "summary_changed": true
       }
@@ -198,16 +132,16 @@
       "stage": "Breakthrough",
       "velocity": "Medium",
       "category": "Corporate Tax",
-      "summary": "Jurisdictions are increasingly employing localized, granular tax rate adjustments\u2014including rebates and temporary surcharges\u2014to manage fiscal deficits or attract foreign investment.",
+      "summary": "Countries are employing localized, granular fiscal instruments, such as temporary rate hikes or targeted rebates, to manage fiscal deficits while maintaining investment attractiveness.",
       "evidence": [
-        "Slovenia's temporary increase of top CIT to 22% contrasts with Portugal's multi-year downward adjustment strategy.",
-        "Singapore's continued reliance on targeted tax rebates to maintain its competitive 17% headline rate.",
-        "ASEAN states maintaining national autonomy in tax policy as an alternative to standardized regional harmonization."
+        "Slovenia has temporarily increased top CIT to 22%.",
+        "Portugal has initiated a multi-year reduction strategy for corporate income tax.",
+        "Singapore continues to utilize targeted CIT rebates to preserve its competitive 17% effective rate."
       ],
       "source_links": [
         "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
         "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025",
-        "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates"
+        "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income"
       ],
       "source_details": [
         {
@@ -223,7 +157,7 @@
           "published_date": null
         },
         {
-          "url": "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates",
+          "url": "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
           "domain": "taxsummaries.pwc.com",
           "type": "secondary",
           "published_date": null
@@ -239,26 +173,95 @@
         "source_risk": "medium"
       },
       "confidence": 0.94,
-      "reasoning": "This trend is stable in the Breakthrough stage as states adopt divergent tax strategies to counter global uncertainties and address domestic budgetary requirements.",
+      "reasoning": "Governments are moving away from monolithic global policy towards individualized fiscal toolkits to address domestic economic pressures.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "Medium",
         "new_sources": [
-          "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
-          "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025",
+          "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income"
+        ],
+        "dropped_sources": [
           "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates"
         ],
-        "dropped_sources": [],
-        "summary_changed": false
+        "summary_changed": true
+      }
+    },
+    {
+      "id": "weaponized-tariff-statecraft",
+      "name": "Weaponized Tariff Statecraft",
+      "stage": "Peak Hype",
+      "velocity": "High",
+      "category": "Tariffs",
+      "summary": "Tariffs are increasingly utilized as blunt-force economic policy, characterized by ongoing judicial reviews of executive authority and high volatility in import cost structures.",
+      "evidence": [
+        "Persistent use of IEEPA and Section 232 authorities to implement selective metal and commodity duties.",
+        "High uncertainty surrounding potential judicial interventions or reliquidation of past tariff entries."
+      ],
+      "source_links": [
+        "https://ustariffrates.com/tariff-tracker",
+        "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
+        "https://www.reuters.com/business/tariffs"
+      ],
+      "source_details": [
+        {
+          "url": "https://ustariffrates.com/tariff-tracker",
+          "domain": "ustariffrates.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
+          "domain": "usitc.gov",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.reuters.com/business/tariffs",
+          "domain": "reuters.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 3,
+        "primary_source_count": 1,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.92,
+      "reasoning": "The frequency of tariff adjustments and the resulting legal challenges maintain this trend at the peak of the hype cycle due to the high volatility for multinational supply chains.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Peak Hype",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [
+          "https://ustariffrates.com/tariff-tracker",
+          "https://www.reuters.com/business/tariffs",
+          "https://www.usitc.gov/harmonized_tariff_information/announcement_archive"
+        ],
+        "dropped_sources": [
+          "https://catts.eu/customs-tariff-updates-june-2026",
+          "https://www.consumershield.com/business-law/tariff/updates",
+          "https://www.oiaglobal.com/tariff-updates"
+        ],
+        "summary_changed": true
       }
     }
   ],
   "intelligence_metadata": {
     "agent": "gemini-3.1-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-07-05T16:01:46.327558Z",
+    "timestamp": "2026-07-05T22:01:50.358515Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -269,8 +272,8 @@
       "status": "success",
       "model": "gemini-3.1-flash-lite",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-07-05T16:01:46.327558Z",
-      "search_result_count": 40,
+      "timestamp": "2026-07-05T22:01:50.358515Z",
+      "search_result_count": 35,
       "validation_error_count": 0,
       "validation_failures": []
     }
@@ -279,8 +282,8 @@
     "status": "success",
     "model": "gemini-3.1-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-07-05T16:01:46.327558Z",
-    "search_result_count": 40,
+    "timestamp": "2026-07-05T22:01:50.358515Z",
+    "search_result_count": 35,
     "validation_error_count": 0,
     "validation_failures": []
   }
