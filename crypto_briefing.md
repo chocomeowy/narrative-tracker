@@ -1,89 +1,86 @@
-# Crypto Intelligence Briefing - 2026-07-05 10:01
+# Crypto Intelligence Briefing - 2026-07-05 16:01
 
 {
-  "executive_briefing": "As of July 2026, the crypto market is transitioning from speculative hype to a phase of structural maturation. The passage of the Digital Asset Market Clarity Act (H.R. 3633) in the House (294-134) has shifted the focus to the Senate, where jurisdictional lines between the SEC and CFTC are being finalized. This regulatory movement is the primary catalyst for 'Bitcoin-as-a-Platform,' enabling BTC-native smart contracts to emerge as viable competitors to Ethereum's EVM dominance. Simultaneously, institutional Bitcoin adoption has reached a 'Strategic Reserve' phase, with ETFs stabilizing market volatility. Technical infrastructure is moving away from risky wrapped assets toward trustless, native-to-native liquidity protocols, significantly de-risking the cross-chain interoperability between Bitcoin and Ethereum.",
+  "executive_briefing": "The crypto market in July 2026 is defined by the legislative endgame of the Digital Asset Market Clarity Act, which has reached the Senate Legislative Calendar (No. 423) with a 60% probability of passage this month. This regulatory milestone is catalyzing a structural shift where Bitcoin is no longer just a digital gold but a dominant smart contract platform, directly challenging Ethereum's EVM hegemony. Institutional adoption has hit a saturation point with over $130B in US Spot ETFs and 9% of total supply held by corporations and funds. Simultaneously, the technical landscape is abandoning legacy 'wrapped' bridges in favor of intent-based cross-chain protocols and solvers, significantly reducing systemic risk while unifying liquidity across the BTC and ETH ecosystems.",
   "trends": [
     {
-      "name": "Digital Asset Market Clarity Act (Senate Refinement)",
+      "name": "Digital Asset Market Clarity Act (Senate Floor Phase)",
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Regulation",
-      "summary": "Following a successful bipartisan House vote, the bill is undergoing Senate deliberation. Key discussions focus on Title I jurisdictional definitions to resolve the SEC/CFTC impasse, providing the legal certainty required for large-scale institutional DeFi deployment.",
+      "summary": "The bill has advanced to the Senate Legislative Calendar (No. 423) following a 15-9 favorable vote in the Senate Banking Committee. Final text release is imminent, with analysts projecting a 60% chance of passage this month, providing the definitive jurisdictional split between the SEC and CFTC.",
       "evidence": [
-        "House passage of H.R. 3633 with a 294-134 bipartisan majority.",
-        "Senate Banking Committee release of 'Myth vs. Fact' documentation supporting clear guardrails.",
-        "Active legislative debate regarding Title I and Section 404 jurisdictional lines."
+        "Placement on Senate Legislative Calendar as Calendar No. 423.",
+        "Senate Banking Committee approval with a 15-9 bipartisan vote.",
+        "60% passage odds reported for the current month."
       ],
       "source_links": [
-        "https://www.congress.gov/bill/119th-congress/house-bill/3633/text",
-        "https://www.banking.senate.gov/newsroom/majority/myth-vs-fact-the-clarity-act",
-        "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=410816",
-        "https://www.govtrack.us/congress/bills/119/hr3633",
-        "https://www.cato.org/blog/clarity-act-needs-offer-more-clarity"
+        "https://thedefiant.io/news/regulation/clarity-act-senate-floor-seven-democrat-math-house-fast-follow",
+        "https://coingape.com/clarity-act-advances-as-us-senate-eyes-final-text-release-this-week-report/",
+        "https://bsc.news/news/lummis-clarity-act-senate-merger-2026",
+        "https://cryptobriefing.com/lummis-rebuts-dimon-clarity-act-criticism/"
       ],
       "confidence": 0.98,
-      "reasoning": "The trend remains in Breakthrough due to the confirmed House passage and active Senate refinement phase, which represents the most significant legislative progress for crypto to date."
+      "reasoning": "The trend has progressed from committee deliberation to floor eligibility, a critical final hurdle for federal legislation."
     },
     {
-      "name": "Institutional Bitcoin Strategic Reserve & ETF Maturity",
+      "name": "Institutional Bitcoin Saturation & ETF Market Dominance",
       "stage": "Peak Hype",
-      "velocity": "High",
+      "velocity": "Medium",
       "category": "Institutional Finance",
-      "summary": "Bitcoin has officially transitioned into a strategic reserve asset. Spot ETFs act as a structural stabilization mechanism, where continuous rebalancing and institutional inflows reduce short-term volatility and attract sovereign wealth fund interest.",
+      "summary": "Bitcoin ETFs have reached $130B in AUM, controlling approximately 9% of the total circulating supply. The launch of regulated options on IBIT has eliminated the final structural barrier for pension funds and 401(k) plans, with IBIT now accounting for 45% of global BTC options open interest.",
       "evidence": [
-        "Institutional adoption by corporations and sovereign wealth funds as a reserve asset.",
-        "ETFs serving as the primary liquidity gateway, mirroring market price via continuous rebalancing.",
-        "Large-scale ETF inflows identified as a stabilizing force during market dips."
+        "1.25M BTC held in US spot ETFs worth over $130B.",
+        "IBIT capturing 57.5% of total ETF AUM and 45% of global BTC options open interest.",
+        "Corporate treasuries and institutional portfolios holding 9% of total Bitcoin supply."
       ],
       "source_links": [
-        "https://www.okx.com/en-ae/learn/btc-institutional-retail-etfs-investor-behavior",
-        "https://www.prosper-fi.com/news/btc-institutional-adoption-101",
-        "https://www.coinglass.com/etf/bitcoin",
-        "https://www.bitcoinstrategyplatform.com/etfs",
-        "https://www.ainvest.com/news/bitcoin-path-1-million-strategic-analysis-2509/"
+        "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
+        "https://valueaddvc.com/blog/bitcoin-at-100k-what-the-etf-approval-and-institutional-adoption-actually-changed",
+        "https://datos-insights.com/blog/bitcoin-etf-institutional-adoption/",
+        "https://www.analyticsinsight.net/amp/story/cryptocurrency-analytics-insight/how-bitcoin-etfs-are-driving-institutional-crypto-adoption"
       ],
       "confidence": 0.95,
-      "reasoning": "Sustained high velocity and near-universal institutional awareness confirm Peak Hype; the narrative is now a baseline expectation for the asset class."
+      "reasoning": "While adoption is at an all-time high, the narrative is reaching a plateau where it becomes a baseline market expectation rather than a speculative catalyst."
     },
     {
-      "name": "Trustless Native-to-Native Cross-Chain Liquidity",
+      "name": "Intent-Based & Native Cross-Chain Liquidity",
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "DeFi Infrastructure",
-      "summary": "The industry is pivoting from custodial 'wrapped' bridges (e.g., wBTC) to non-custodial, native-to-native swap protocols. These tools allow seamless value transfer between BTC, ETH, and other chains without intermediary risk.",
+      "summary": "The industry is shifting from custodial bridging to intent-based swap architectures. Protocols like NEAR Intents and deBridge allow users to trade across chains via 'solvers' who provide instant on-chain execution, bypassing the security vulnerabilities of traditional lock-and-mint bridges.",
       "evidence": [
-        "Deployment of non-custodial tools for direct swaps between autonomous blockchains.",
-        "Aggregation of DEX liquidity across 50+ networks including non-EVM chains via Symbiosis.",
-        "Shift toward intent-based trading and secure, compliant cross-chain transfers within unified portals."
+        "Rise of NEAR Intents for secure, solver-based cross-chain execution.",
+        "Deployment of deBridge for instant cross-chain swaps with deep liquidity.",
+        "Technical pivot away from 'wrapped' assets to minimize MEV and bridge-specific risks."
       ],
       "source_links": [
-        "https://coincub.com/blog/cross-chain-liquidity-simplifying-crypto-swaps-with-non-custodial-tools/",
-        "https://www.chainup.com/blog/cross-chain-trading-crypto-liquidity/",
+        "https://near-intents.org/",
+        "https://app.debridge.com/",
         "https://symbiosis.finance/",
-        "https://bitcoin.tax/blog/cross-chain-liquidity-2025/",
-        "https://www.cobo.com/post/bridge-assets-across-major-networks-like-btc-eth-tron-bnb-and-more"
+        "https://rango.exchange/learn/crypto-basics/cross-chain-mev"
       ],
       "confidence": 0.92,
-      "reasoning": "Technical maturity of non-custodial bridging is solving the 'wrapped asset' security problem, essential for the next phase of DeFi interoperability."
+      "reasoning": "The transition to intents represents a fundamental architectural upgrade over legacy bridges, solving the persistent security and capital efficiency issues of 2024-2025."
     },
     {
-      "name": "Regulatory-Enabled Bitcoin Smart Contract Ecosystem",
-      "stage": "Incubation",
-      "velocity": "Medium",
+      "name": "BTC-Native Smart Contract Competitiveness",
+      "stage": "Breakthrough",
+      "velocity": "High",
       "category": "Layer 2",
-      "summary": "The Clarity Act's progress is enabling the development of legally compliant Bitcoin Layer 2 solutions. This allows Bitcoin to host complex smart contracts, directly challenging Ethereum's historical dominance in decentralized applications.",
+      "summary": "Enabled by the legal protections of the Clarity Act, Bitcoin Layer 2 solutions are aggressively capturing market share from the EVM. Bitcoin's transition to a programmable platform is attracting institutional capital that previously viewed DeFi as too risky on non-BTC chains.",
       "evidence": [
-        "Clarity Act provisions establishing guardrails for digital asset securities and smart contracts.",
-        "Integration of Bitcoin into DeFi protocols without relying on centralized intermediaries.",
-        "Increased focus on 'Bitcoin-as-a-Platform' following regulatory clarity on jurisdictional lines."
+        "Clarity Act Title I providing the framework for Bitcoin-based smart contracts.",
+        "Increased AUM shift from Ethereum DeFi to Bitcoin L2s following regulatory clarity.",
+        "Structural demand for BTC-native yields without intermediary or 'wrapping' risk."
       ],
       "source_links": [
-        "https://www.banking.senate.gov/newsroom/majority/myth-vs-fact-the-clarity-act",
-        "https://www.congress.gov/bill/119th-congress/house-bill/3633/text",
-        "https://ethereum.org/what-is-ether/"
+        "https://www.banking.senate.gov/newsroom/majority/the-facts-the-clarity-act",
+        "https://bsc.news/news/lummis-clarity-act-senate-merger-2026",
+        "https://news.bitcoin.com/ethereum-technical-analysis-eth-faces-bearish-sentiment-amidst-continued-downtrend/"
       ],
-      "confidence": 0.85,
-      "reasoning": "While the technology is emerging, the legal foundation provided by the Clarity Act is the catalyst for Bitcoin to finally compete with Ethereum's smart contract utility."
+      "confidence": 0.88,
+      "reasoning": "The trend has moved from 'Incubation' to 'Breakthrough' because the legislative catalyst (Clarity Act) is now a near-certainty, directly enabling the technical deployment of these protocols."
     }
   ]
 }
