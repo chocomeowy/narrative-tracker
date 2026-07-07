@@ -1,82 +1,80 @@
-# Crypto Intelligence Briefing - 2026-07-07 10:02
+# Crypto Intelligence Briefing - 2026-07-07 16:01
 
 {
-  "executive_briefing": "July 2026 presents a critical inflection point for digital asset infrastructure. The CLARITY Act's legislative journey through the Senate has become the primary bottleneck for establishing Bitcoin as a legally recognized settlement layer for smart contracts. While institutional Bitcoin adoption has achieved significant maturity through ETF integration—now representing a cornerstone of corporate treasury strategy—the competitive landscape is shifting. Ethereum, while still maintaining high developer activity, is contending with increasing pressure from Bitcoin-native L2 solutions that leverage regulatory compliance to capture DeFi market share. The industry is rapidly abandoning risky, custodial cross-chain bridges in favor of intent-based, non-custodial liquidity protocols, further cementing the move toward an interoperable but settlement-secure ecosystem.",
+  "executive_briefing": "July 2026 marks a pivotal transition as the Digital Asset Market CLARITY Act nears a critical Senate floor vote, setting the stage for Bitcoin to evolve from a treasury-only asset into a robust settlement layer for smart contracts. This legislative milestone is catalyzing a shift in DeFi infrastructure, with market participants increasingly favoring native, non-custodial cross-chain liquidity protocols over traditional bridge models. While Ethereum remains the dominant engine for decentralized computation, Bitcoin-native L2s are gaining significant structural momentum, leveraging the impending regulatory framework to challenge Ethereum’s hegemony in high-security settlement applications. Institutional Bitcoin adoption, matured through continuous ETF inflows, continues to serve as the industry's bedrock, reinforcing the long-term trend of institutional-grade market integration.",
   "trends": [
     {
       "name": "Digital Asset Market CLARITY Act (Senate Floor Advancement)",
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Regulation",
-      "summary": "The CLARITY Act remains the linchpin for legitimizing Bitcoin-native DeFi. Despite legislative hurdles leading into the August recess, momentum is sustained by ongoing bipartisan support and expectations of a final text release.",
+      "summary": "The CLARITY Act is poised for a final Senate floor vote, representing the foundational regulatory shift required to legitimize Bitcoin-native DeFi and institutional-grade smart contract execution.",
       "evidence": [
-        "Passage probability remains approximately 60% with Senate leaders actively pushing for a floor vote.",
-        "Final legislative text expected imminently to address remaining Senate concerns before recess."
+        "Formal committee progression and ongoing Senate floor prioritization.",
+        "Increased focus on legislative clarity regarding jurisdictional boundaries between federal agencies."
       ],
       "source_links": [
-        "https://www.coindesk.com/policy/2026/07/05/clarity-and-congress-s-summer-break-state-of-crypto",
-        "https://coingape.com/clarity-act-advances-as-us-senate-eyes-final-text-release-this-week-report/",
-        "https://news.bitcoin.com/clarity-act-senate-july-push-lummis-consumer-protection/",
-        "https://www.coinspeaker.com/clarity-act-senate-passage-jefferies-warning/"
+        "https://www.congress.gov/bill/119th-congress/house-bill/3633/text",
+        "https://www.banking.senate.gov/newsroom/majority/myth-vs-fact-the-clarity-act",
+        "https://www.cnbc.com/2026/05/14/clarity-act-congress-crypto-senate.html",
+        "https://www.cato.org/blog/clarity-act-needs-offer-more-clarity"
       ],
-      "confidence": 0.9,
-      "reasoning": "Maintained Breakthrough stage as the legislative path remains active despite the pressure of the pre-recess timeline; velocity is high due to the urgency of the final text release."
+      "confidence": 0.95,
+      "reasoning": "Maintained at Breakthrough stage due to formal committee passage and imminent floor vote status, which acts as the primary catalyst for the entire sector's regulatory maturation."
     },
     {
       "name": "Institutional Bitcoin Supply Consolidation",
       "stage": "Peak Hype",
       "velocity": "High",
       "category": "Institutional Finance",
-      "summary": "Bitcoin has transitioned from a volatile retail asset to a core treasury instrument. Institutional-grade access via ETFs has locked significant supply, permanently altering liquidity profiles and price dynamics.",
+      "summary": "Bitcoin has transitioned into a core institutional treasury asset class, with ETFs serving as the primary vehicle for supply consolidation and macro hedging strategies.",
       "evidence": [
-        "Institutional capital inflows via spot ETFs have exceeded $100B in AUM since 2024.",
-        "Corporate treasury planning now routinely incorporates BTC as a macro hedge asset."
+        "Consistent net inflows into spot Bitcoin ETFs tracking tools.",
+        "Broad consensus among institutional analysts on Bitcoin's role as a structural treasury asset."
       ],
       "source_links": [
-        "https://www.chainup.com/blog/institutional-bitcoin-adoption-what-it-means/",
-        "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
-        "https://cryptothreads.io/learn/bitcoin-institutional-adoption/",
-        "https://datos-insights.com/blog/bitcoin-etf-institutional-adoption/",
-        "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/how-bitcoin-etfs-are-driving-institutional-crypto-adoption"
+        "https://www.coinglass.com/etf/bitcoin",
+        "https://www.bitcoinstrategyplatform.com/etfs",
+        "https://www.bitrue.com/blog/bitcoin-2026-outlook-btc-price-forecast"
       ],
       "confidence": 0.98,
-      "reasoning": "The trend remains at Peak Hype as the market fully realizes the impact of ETFs on supply-demand imbalances, further reinforced by consistent institutional reporting."
-    },
-    {
-      "name": "Programmable Bitcoin vs. EVM Smart Contract Hegemony",
-      "stage": "Breakthrough",
-      "velocity": "Medium",
-      "category": "Layer 2",
-      "summary": "Technical and legal convergence is enabling smart contract execution directly on Bitcoin layers, challenging Ethereum's long-standing dominance in decentralized finance by prioritizing settlement security.",
-      "evidence": [
-        "Growing institutional interest in Bitcoin-native settlement for DeFi instruments.",
-        "Ethereum continues to focus on scalability while Bitcoin explores functional expansion via the CLARITY Act framework."
-      ],
-      "source_links": [
-        "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
-        "https://news.bitcoin.com/ethereum-charges-past-3600-with-bulls-eyeing-4k-and-beyond/"
-      ],
-      "confidence": 0.85,
-      "reasoning": "Velocity adjusted to Medium as the sector waits for the CLARITY Act to provide the foundational legal clarity required for large-scale institutional DeFi migration to Bitcoin layers."
+      "reasoning": "Maintained at Peak Hype as ETF integration has reached a saturation point in institutional planning, shifting the narrative from speculative discovery to systemic allocation."
     },
     {
       "name": "Non-Custodial Omnichain & Intent-Based Liquidity",
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "DeFi Infrastructure",
-      "summary": "The market is aggressively pivoting away from centralized bridge-based models toward native, non-custodial cross-chain liquidity. This reduces systemic risk by removing the need for wrapped assets.",
+      "summary": "The industry is aggressively migrating from centralized, bridge-reliant models toward non-custodial, intent-based liquidity protocols to mitigate systemic risk in cross-chain asset swaps.",
       "evidence": [
-        "Growth of protocols like Symbiosis and deBridge facilitating native cross-chain swaps.",
-        "Increasing institutional demand for bridging solutions that avoid single points of failure."
+        "Rise of protocols allowing direct native swaps across EVM and non-EVM chains.",
+        "Institutional shift toward minimizing third-party bridging reliance."
       ],
       "source_links": [
+        "https://coincub.com/blog/cross-chain-liquidity-simplifying-crypto-swaps-with-non-custodial-tools/",
         "https://symbiosis.finance/",
-        "https://app.debridge.com/",
-        "https://rango.exchange/learn/decentralized-finance/what-is-omnichain-liquidity",
-        "https://www.techedubyte.com/cross-chain-liquidity-btc-eth-sol-liquidchain/"
+        "https://www.chainup.com/blog/cross-chain-trading-crypto-liquidity/",
+        "https://www.cobo.com/post/bridge-assets-across-major-networks-like-btc-eth-tron-bnb-and-more"
       ],
       "confidence": 0.92,
-      "reasoning": "Maintained Breakthrough as the technological shift towards non-custodial 'intent-based' architecture is becoming the industry standard for secure cross-chain movement."
+      "reasoning": "Stage remains Breakthrough as non-custodial architectures are currently being adopted as the new industry standard for security and efficiency in cross-chain interactions."
+    },
+    {
+      "name": "Programmable Bitcoin vs. EVM Hegemony",
+      "stage": "Breakthrough",
+      "velocity": "Medium",
+      "category": "Layer 2",
+      "summary": "The technical convergence between Bitcoin settlement and smart contract layers is creating a direct competitive pressure on Ethereum, with institutions eyeing Bitcoin-native DeFi as a settlement-secured alternative.",
+      "evidence": [
+        "Ongoing integration of smart contract capabilities on Bitcoin-native layers.",
+        "Ethereum market dominance persists but is increasingly contrasted with Bitcoin's superior settlement security profile."
+      ],
+      "source_links": [
+        "https://news.bitcoin.com/ethereum-charges-past-3600-with-bulls-eyeing-4k-and-beyond/",
+        "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance"
+      ],
+      "confidence": 0.85,
+      "reasoning": "Velocity maintained at Medium while awaiting final CLARITY Act passage, which will provide the requisite legal certainty for large-scale institutional DeFi migration."
     }
   ]
 }
