@@ -1,4 +1,4 @@
-# Tax Intelligence Briefing - 2026-07-07 16:01
+# Tax Intelligence Briefing - 2026-07-07 22:01
 
 {
   "executive_briefing": "As of mid-2026, the global fiscal landscape is defined by the hardening of digital compliance standards, particularly in e-invoicing, and the persistent friction between multilateral tax agreements and localized fiscal sovereignty. The OECD Pillar Two framework has reached a state of 'Fatigue' as multinationals normalize fragmented implementation, while nations continue to utilize non-tax incentives to circumvent rate erosion. Concurrently, international trade remains characterized by high-stakes judicial volatility regarding U.S. executive tariff powers, further complicated by ongoing trade disputes that continue to challenge global supply chain stability.",
@@ -17,7 +17,7 @@
       "source_links": [
         "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
         "https://www.deloitte.com/an/en/services/tax/perspectives/oecd-pillar-two.html",
-        "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax/"
+        "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax"
       ],
       "confidence": 0.95,
       "reasoning": "The framework has reached a mature, 'Fatigue' stage where administrative compliance is the primary concern rather than political negotiation."
@@ -36,7 +36,7 @@
       "source_links": [
         "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
         "https://europe.thomsonreuters.com/compliance/regulatory-updates/singapore",
-        "https://madronoai.com/"
+        "https://www.comarch.com/trade-and-services/data-management/e-invoicing/e-invoicing-in-singapore/"
       ],
       "confidence": 0.98,
       "reasoning": "Strong, high-velocity shift as authorities move toward legally enforced digital invoicing to close tax gaps."
@@ -54,8 +54,8 @@
       ],
       "source_links": [
         "https://www.reuters.com/business/tariffs/",
-        "https://ustariffrates.com/tariff-tracker",
-        "https://www.usitc.gov/harmonized_tariff_information/announcement_archive"
+        "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
+        "https://www.tradecomplianceresourcehub.com/2026/06/03/trump-2-0-tariff-tracker/"
       ],
       "confidence": 0.94,
       "reasoning": "Remains in 'Peak Hype' due to high-stakes legal scrutiny of executive powers causing real-world market disruption."
@@ -72,9 +72,9 @@
         "Persistence of ASEAN FDI-driven tax competition."
       ],
       "source_links": [
-        "https://www.corporateservices.com/singapore/corporate-tax-in-singapore/",
-        "https://b2b-asianews.com/news/imf-to-asean-avoid-tax-competition/",
-        "https://www.investopedia.com/taxes-4427724"
+        "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
+        "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
+        "https://taxfoundation.org/data/all/eu/corporate-income-tax-rates-europe/"
       ],
       "confidence": 0.91,
       "reasoning": "Formalization of non-tax incentives as a primary tool to mitigate the impact of the global minimum tax keeps this trend in a growth phase."
