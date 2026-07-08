@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-08T04:01:43.057700Z",
-  "executive_briefing": "The mid-2026 global fiscal landscape is marked by critical structural shifts in international tax agreements and intensifying judicial scrutiny over trade policies. Notably, the OECD Pillar Two framework has formalized its bifurcation: a landmark January 2026 agreement exempts U.S.-headquartered companies from Pillar Two under a 'side-by-side arrangement' recognizing domestic U.S. minimum taxes. Concurrently, tax jurisdictions are actively maintaining competitive advantages via aggressive non-tax incentives and structured corporate tax rebates, exemplified by Singapore's 2026 CIT cash grants. On the compliance front, digital mandates are solidifying with defined multi-year roadmaps, such as Singapore's newly announced 2030-2031 mandatory B2B e-invoicing targets. Meanwhile, international trade remains highly volatile as U.S. courts, including a pending Supreme Court decision, challenge the legality of executive tariff powers under the IEEPA, introducing massive compliance risks for global supply chains.",
+  "last_updated": "2026-07-08T10:01:47.258850Z",
+  "executive_briefing": "The 2026 global fiscal landscape is defined by the crystallization of a two-tier tax reality and escalating trade volatility. The OECD Pillar Two framework has transitioned into a 'Fatigue' phase, with the January 2026 side-by-side agreement effectively legitimizing the bifurcation between U.S. and non-U.S. multinational compliance regimes. Meanwhile, tax competition has evolved from simple rate-cutting to sophisticated fiscal engineering, as seen in Singapore's use of non-taxable cash grants and targeted rebates to maintain FDI appeal without violating minimum tax floors. Concurrently, B2B e-invoicing is undergoing a 'Breakthrough' globally, with jurisdictions like Singapore setting mandatory 2030-2031 timelines to eliminate the VAT gap. Paradoxically, while tax administration is becoming more digitized and transparent, international trade policy is entering a period of high instability due to judicial challenges against U.S. executive tariff authorities under the IEEPA, creating significant uncertainty for global supply chains.",
   "trends": [
     {
       "id": "bifurcated-global-minimum-tax-regime",
@@ -8,11 +8,11 @@
       "stage": "Fatigue",
       "velocity": "Low",
       "category": "Corporate Tax",
-      "summary": "The OECD Pillar Two 15% minimum tax framework has transitioned into a fragmented operational reality. A landmark January 2026 compromise officially accommodates the United States via a 'side-by-side arrangement,' allowing U.S.-headquartered firms to remain subject exclusively to U.S. global minimum taxes, cementing a structural division in global compliance.",
+      "summary": "The OECD Pillar Two 15% framework has reached a fragmented operational state, following a January 2026 agreement that effectively accommodates U.S. domestic minimum tax rules, creating a structural divide in global compliance.",
       "evidence": [
-        "January 2026 OECD Inclusive Framework side-by-side agreement exempting U.S. firms from Pillar Two under domestic minimum tax rules.",
-        "Widespread implementation of local corporate tax rate adjustments internationally to align with the 15% floor.",
-        "Persistent compliance challenges for multinational corporations reconciling foreign tax credits under diverging regional systems."
+        "January 2026 OECD Inclusive Framework side-by-side agreement",
+        "Diverging regional systems for foreign tax credits",
+        "Confirmation of 15% minimum tax application to large multinationals"
       ],
       "source_links": [
         "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
@@ -49,7 +49,7 @@
         "source_risk": "medium"
       },
       "confidence": 0.96,
-      "reasoning": "The trend remains in 'Fatigue' as the political negotiations have concluded in a fragmented operational compromise, notably the formal January 2026 side-by-side arrangement for U.S. multinationals.",
+      "reasoning": "The trend is in the 'Fatigue' phase as the diplomatic phase of the agreement is effectively over, replaced by a permanent, bifurcated operational reality.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -57,12 +57,8 @@
         "previous_stage": "Fatigue",
         "velocity_delta": 0,
         "previous_velocity": "Low",
-        "new_sources": [
-          "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate"
-        ],
-        "dropped_sources": [
-          "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax"
-        ],
+        "new_sources": [],
+        "dropped_sources": [],
         "summary_changed": true
       }
     },
@@ -72,11 +68,11 @@
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Compliance",
-      "summary": "Tax authorities are shifting from optional billing programs to strict, phased mandates for B2B e-invoicing. Structured data protocols, particularly those based on the international Peppol standard, are being legally enforced to curb the VAT/GST gap and digitize transactions in real time.",
+      "summary": "Tax authorities are transitioning from voluntary adoption to strict, multi-year legal mandates for structured B2B e-invoicing to close the VAT/GST gap and digitize tax enforcement.",
       "evidence": [
-        "Singapore's February 2026 Committee of Supply announcement establishing a mandatory timeline for all GST-registered businesses by 2030 and 2031.",
-        "Rapid expansion of national InvoiceNow structures to route transaction data directly to tax authorities.",
-        "Broadening global transition from simple digital PDF billing to structured XML data exchange frameworks."
+        "Singapore's Committee of Supply 2026 mandatory timeline for 2030 and 2031",
+        "Expansion of Peppol-based national frameworks",
+        "Broad transition from simple digital PDF billing to structured XML data exchange"
       ],
       "source_links": [
         "https://www.comarch.com/trade-and-services/data-management/e-invoicing/e-invoicing-in-singapore",
@@ -113,7 +109,7 @@
         "source_risk": "low"
       },
       "confidence": 0.98,
-      "reasoning": "This trend is in the 'Breakthrough' stage as governments formalize multi-year regulatory roadmaps with specific compliance deadlines, turning optional digitalization into strict legal mandates.",
+      "reasoning": "Governments are formalizing long-term compliance roadmaps, shifting the technology from an optional tool to a mandatory regulatory requirement.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -132,11 +128,11 @@
       "stage": "Peak Hype",
       "velocity": "High",
       "category": "Tariffs",
-      "summary": "Global trade policy is experiencing intense friction due to legal challenges against executive tariff powers. While unilateral tariffs remain a central tool, recent judicial rulings declaring certain emergency executive tariff actions unlawful have injected unprecedented compliance and pricing risks.",
+      "summary": "Global trade faces intense uncertainty as judicial bodies, including the U.S. Court of International Trade and the upcoming Supreme Court, challenge the limits of executive tariff-setting powers.",
       "evidence": [
-        "The U.S. Court of International Trade (CIT) ruling that tariffs imposed under the International Emergency Economic Powers Act (IEEPA) are unlawful.",
-        "An upcoming U.S. Supreme Court decision tasked with resolving the legality of administration-imposed tariffs.",
-        "Unpredictable baseline trade policy adjustments, including rapid temporary de-escalation periods and tariff level shifts."
+        "Pending Supreme Court ruling on the legality of IEEPA-based tariffs",
+        "U.S. Court of International Trade (CIT) rulings on unlawful tariff applications",
+        "Continuous cycle of tariff implementation and temporary de-escalation"
       ],
       "source_links": [
         "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
@@ -173,7 +169,7 @@
         "source_risk": "medium"
       },
       "confidence": 0.95,
-      "reasoning": "Maintained at 'Peak Hype' because current litigation and pending Supreme Court decisions over IEEPA authorities keep the international trade landscape highly unstable and reactive.",
+      "reasoning": "The trend is at 'Peak Hype' because of the high legal and commercial uncertainty surrounding pending Supreme Court decisions and their immediate impact on global trade flows.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -192,11 +188,11 @@
       "stage": "Breakthrough",
       "velocity": "Medium",
       "category": "International",
-      "summary": "To offset the constraints of the global minimum tax framework, nations are actively deploying domestic tax rebates, non-taxable cash grants, and structural deductions. This allows jurisdictions to maintain Foreign Direct Investment (FDI) competitiveness while nominally adhering to global rules.",
+      "summary": "To maintain competitiveness under the new global minimum tax constraints, nations are leveraging non-taxable cash grants, rebates, and targeted deductions to provide economic relief without breaching the 15% floor.",
       "evidence": [
-        "Singapore's Year of Assessment 2026 implementation of a non-taxable CIT rebate cash grant and capped 50% CIT rebates.",
-        "Targeted reductions in effective tax rates among competitive jurisdictions despite holding stable headline tax rates.",
-        "Increased focus on specialized R&D tax credits and non-tax grant mechanisms to support key industrial sectors."
+        "Singapore's 2026 CIT rebate cash grant and 50% CIT rebate mechanisms",
+        "Increased utilization of specialized R&D tax credits globally",
+        "Jurisdictions maintaining stable headline rates while offering non-tax fiscal supports"
       ],
       "source_links": [
         "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
@@ -233,7 +229,7 @@
         "source_risk": "medium"
       },
       "confidence": 0.93,
-      "reasoning": "This trend is in the 'Breakthrough' stage as jurisdictions actively execute specific, creative fiscal mechanisms like direct cash grants to bypass rate erosion without violating international minimum tax agreements.",
+      "reasoning": "Countries are successfully adopting creative fiscal mechanisms, moving into a breakthrough phase where this becomes the new standard for industrial policy.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -241,20 +237,16 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Medium",
-        "new_sources": [
-          "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025"
-        ],
-        "dropped_sources": [
-          "https://taxfoundation.org/data/all/eu/corporate-income-tax-rates-europe"
-        ],
+        "new_sources": [],
+        "dropped_sources": [],
         "summary_changed": true
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.5-flash",
+    "agent": "gemini-3.1-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-07-08T04:01:43.057700Z",
+    "timestamp": "2026-07-08T10:01:47.258850Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -263,9 +255,9 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.5-flash",
+      "model": "gemini-3.1-flash-lite",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-07-08T04:01:43.057700Z",
+      "timestamp": "2026-07-08T10:01:47.258850Z",
       "search_result_count": 40,
       "validation_error_count": 0,
       "validation_failures": []
@@ -273,9 +265,9 @@
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.5-flash",
+    "model": "gemini-3.1-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-07-08T04:01:43.057700Z",
+    "timestamp": "2026-07-08T10:01:47.258850Z",
     "search_result_count": 40,
     "validation_error_count": 0,
     "validation_failures": []
