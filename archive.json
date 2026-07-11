@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-10T15:00:34.694872Z",
+  "last_updated": "2026-07-11T15:00:50.154786Z",
   "archived_trends": [
     {
       "id": "agentic-mesh-protocols",
@@ -4340,6 +4340,69 @@
         "summary_changed": true
       },
       "archived_at": "2026-07-10T15:00:34.694872Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "competitive-parity-in-open-weights-llms",
+      "name": "Competitive Parity in Open Weights LLMs",
+      "stage": "Peak Hype",
+      "velocity": "Very High",
+      "category": "Open Source LLM",
+      "summary": "Open-weights models are rapidly closing the performance gap with proprietary models, often outperforming industry-standard benchmarks such as SWE-Bench Pro.",
+      "evidence": [
+        "GLM 5.1 exceeding performance of Opus 4.6 and GPT-5.4",
+        "Shift toward model democratization through weight availability"
+      ],
+      "source_links": [
+        "https://en.wikipedia.org/wiki/List_of_large_language_models",
+        "https://en.wikipedia.org/wiki/Large_language_model",
+        "https://artificialanalysis.ai/leaderboards/models"
+      ],
+      "source_details": [
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_large_language_models",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Large_language_model",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        },
+        {
+          "url": "https://artificialanalysis.ai/leaderboards/models",
+          "domain": "artificialanalysis.ai",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 3,
+        "primary_source_count": 0,
+        "secondary_source_count": 1,
+        "wikipedia_source_count": 2,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.9,
+      "reasoning": "Transitioned to Peak Hype due to the extreme speed of performance gains in the open-source sector and the direct competitive threats posed to established proprietary model vendors.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
+        "new_sources": [
+          "https://en.wikipedia.org/wiki/List_of_large_language_models",
+          "https://en.wikipedia.org/wiki/Large_language_model",
+          "https://artificialanalysis.ai/leaderboards/models"
+        ],
+        "dropped_sources": [],
+        "summary_changed": false
+      },
+      "archived_at": "2026-07-11T15:00:50.154786Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
