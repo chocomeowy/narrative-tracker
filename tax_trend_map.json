@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-12T16:01:47.448005Z",
-  "executive_briefing": "The mid-2026 tax policy environment is defined by a 'compliance squeeze' as global tax authorities transition from policy design to hard enforcement. The OECD Pillar Two framework has reached a critical mass with over 140 jurisdictions participating, yet the U.S. remains an outlier with its 14% effective rate under the OBBBA, creating a persistent risk of top-up taxes for American MNEs. Simultaneously, the Asia-Pacific region, led by Singapore, is formalizing a new incentive model using non-taxable cash grants and rebates to circumvent GloBE restrictions. Digital transformation has hit a turning point; Singapore's 2026 announcement of mandatory e-invoicing timelines (2030-2031) signals that real-time transactional reporting is no longer optional, but a foundational requirement for GST/VAT integrity. On the trade front, the instability of executive-led tariffs is meeting increasing resistance, with major economies like India demonstrating resilience against U.S. trade barriers through strategic export shifts.",
+  "last_updated": "2026-07-12T22:01:54.620760Z",
+  "executive_briefing": "Mid-2026 marks a decisive shift in global tax policy as the focus transitions from the design of Pillar Two to the management of its implementation frictions. While approximately 140 jurisdictions have now adopted the 15% global minimum tax, the persistent divergence of U.S. policy (14% effective rate) continues to create top-up tax risks for multinationals. Concurrently, the trade environment has entered a period of intense legal volatility; recent U.S. Court of International Trade rulings on tariff 'reliquidation' empower businesses to challenge executive trade orders even after transactions are finalized. Digital compliance has moved from a strategic goal to a time-bound mandate, exemplified by Singapore\u2019s 2026 announcement of mandatory e-invoicing through 2030-2031. Furthermore, major legislative resets, such as India\u2019s transition to the Income-tax Act 2025 for the 2026-27 tax year, signal a broader trend of emerging markets modernizing their codes to align with a digital, GMT-dominated fiscal landscape.",
   "trends": [
     {
       "id": "geopolitical-fragmentation-of-pillar-two",
@@ -8,16 +8,16 @@
       "stage": "Peak Hype",
       "velocity": "High",
       "category": "International",
-      "summary": "The global minimum tax consensus is under strain as 140+ nations implement a 15% floor while the U.S. OBBBA maintains a 14% rate, forcing MNEs to navigate overlapping top-up tax regimes.",
+      "summary": "The global minimum tax (GMT) consensus faces operational strain as 140+ countries enforce a 15% floor while the U.S. maintains a lower 14% ETR under domestic policy, creating a complex web of top-up taxes.",
       "evidence": [
-        "Approximately 140 countries have now adopted Pillar Two as of April 2026.",
-        "U.S. OBBBA yields a 14% ETR, creating a 1% gap against the 15% OECD GloBE threshold.",
-        "Major hubs like Ireland and UAE are now fully integrated into the 15% minimum tax framework."
+        "Moody's April 2026 data confirms approximately 140 countries have adopted Pillar Two.",
+        "U.S. OBBBA 14% rate remains 1% below the OECD GloBE 15% threshold.",
+        "AMRO reporting indicates ASEAN+3 economies are currently amending domestic laws for top-up tax implementation."
       ],
       "source_links": [
         "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
         "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax",
-        "https://www.irishtimes.com/business/economy/biden-s-global-corporate-tax-shake-up-an-opportunity-for-ireland-1.4533030",
+        "https://amro-asia.org/global-tax-reform-what-lies-ahead-for-asean3",
         "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate"
       ],
       "source_details": [
@@ -34,8 +34,8 @@
           "published_date": null
         },
         {
-          "url": "https://www.irishtimes.com/business/economy/biden-s-global-corporate-tax-shake-up-an-opportunity-for-ireland-1.4533030",
-          "domain": "irishtimes.com",
+          "url": "https://amro-asia.org/global-tax-reform-what-lies-ahead-for-asean3",
+          "domain": "amro-asia.org",
           "type": "secondary",
           "published_date": null
         },
@@ -56,7 +56,7 @@
         "source_risk": "medium"
       },
       "confidence": 0.98,
-      "reasoning": "Data confirms 140+ countries are now active, while the U.S. policy remains divergent, maintaining the high-friction environment.",
+      "reasoning": "The trend remains at Peak Hype as the high number of adopting jurisdictions meets the reality of technical friction between differing effective tax rate thresholds.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -65,36 +65,31 @@
         "velocity_delta": 0,
         "previous_velocity": "High",
         "new_sources": [
-          "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
-          "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax",
-          "https://www.irishtimes.com/business/economy/biden-s-global-corporate-tax-shake-up-an-opportunity-for-ireland-1.4533030"
+          "https://amro-asia.org/global-tax-reform-what-lies-ahead-for-asean3"
         ],
         "dropped_sources": [
-          "https://practiceguides.chambers.com/practice-guides/corporate-tax-2026",
-          "https://sw-cpas.com/pillar-two-global-minimum-tax-oecd-update-2026",
-          "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
-          "https://www.grantthornton.com/insights/alerts/tax/2025/legislative-updates/2026-international-tax-planning-guide"
+          "https://www.irishtimes.com/business/economy/biden-s-global-corporate-tax-shake-up-an-opportunity-for-ireland-1.4533030"
         ],
         "summary_changed": true
       }
     },
     {
-      "id": "hardening-of-digital-tax-compliance-mandates",
-      "name": "Hardening of Digital Tax Compliance Mandates",
-      "stage": "Peak Hype",
+      "id": "mandatory-real-time-digital-tax-reporting",
+      "name": "Mandatory Real-Time Digital Tax Reporting",
+      "stage": "Breakthrough",
       "velocity": "High",
       "category": "Compliance",
-      "summary": "Tax authorities are shifting from voluntary digital adoption to mandatory, Peppol-based e-invoicing to close VAT/GST gaps and automate corporate data reporting.",
+      "summary": "Tax authorities are transitioning from voluntary electronic invoicing to mandatory, Peppol-based frameworks to automate data transmission and close GST/VAT gaps.",
       "evidence": [
-        "Singapore's February 26, 2026 announcement of mandatory InvoiceNow adoption for GST businesses by 2030-2031.",
-        "IRAS utilizing InvoiceNow for real-time transmission of transactional data.",
-        "Integration of Peppol standards as the primary architecture for global digital tax compliance."
+        "Singapore's Committee of Supply February 2026 announcement mandates InvoiceNow for all GST-registered businesses by 2030-2031.",
+        "IRAS utilizing Peppol-standardized 'InvoiceNow' for direct transmission of transactional data.",
+        "Mandatory thresholds start with businesses having annual taxable supplies up to SGD 4 million by April 2030."
       ],
       "source_links": [
         "https://www.comarch.com/trade-and-services/data-management/e-invoicing/e-invoicing-in-singapore",
         "https://europe.thomsonreuters.com/compliance/regulatory-updates/singapore",
         "https://edicomgroup.com/blog/singapore-encourages-the-use-of-e-invoicing-with-peppol",
-        "https://sovos.com/vat/tax-rules/singapore-e-invoicing"
+        "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework"
       ],
       "source_details": [
         {
@@ -116,23 +111,23 @@
           "published_date": null
         },
         {
-          "url": "https://sovos.com/vat/tax-rules/singapore-e-invoicing",
-          "domain": "sovos.com",
-          "type": "secondary",
+          "url": "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
+          "domain": "imda.gov.sg",
+          "type": "primary",
           "published_date": null
         }
       ],
       "source_quality": {
         "total_sources": 4,
-        "primary_source_count": 0,
-        "secondary_source_count": 4,
+        "primary_source_count": 1,
+        "secondary_source_count": 3,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
-        "has_primary_sources": false,
-        "source_risk": "medium"
+        "has_primary_sources": true,
+        "source_risk": "low"
       },
-      "confidence": 0.96,
-      "reasoning": "The transition from voluntary to mandatory timelines in 2026 significantly increases the velocity and business impact of this trend.",
+      "confidence": 0.97,
+      "reasoning": "The trend has moved to the Breakthrough stage due to the formalization of hard deadlines for implementation in a key financial hub like Singapore.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": true,
@@ -142,7 +137,69 @@
           "https://www.comarch.com/trade-and-services/data-management/e-invoicing/e-invoicing-in-singapore",
           "https://europe.thomsonreuters.com/compliance/regulatory-updates/singapore",
           "https://edicomgroup.com/blog/singapore-encourages-the-use-of-e-invoicing-with-peppol",
-          "https://sovos.com/vat/tax-rules/singapore-e-invoicing"
+          "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework"
+        ],
+        "dropped_sources": [],
+        "summary_changed": false
+      }
+    },
+    {
+      "id": "judicial-scrutiny-and-remediation-of-executive-tariffs",
+      "name": "Judicial Scrutiny and Remediation of Executive Tariffs",
+      "stage": "Breakthrough",
+      "velocity": "High",
+      "category": "Tariffs",
+      "summary": "The stability of executive-led trade barriers is being challenged by judicial rulings that allow for the recalculation of tariff rates even on liquidated entries.",
+      "evidence": [
+        "2026 Court of International Trade ruling confirms power to order 'reliquidation' of already-liquidated tariff entries.",
+        "U.S. expanded Section 232 tariffs in April 2026 to include new pharmaceutical import measures alongside metals.",
+        "Ongoing legal challenges to IEEPA-based tariff mandates creating uncertainty for customs refunds."
+      ],
+      "source_links": [
+        "https://www.consumershield.com/business-law/tariff/updates",
+        "https://www.oiaglobal.com/tariff-updates",
+        "https://www.usitc.gov/harmonized_tariff_information/announcement_archive"
+      ],
+      "source_details": [
+        {
+          "url": "https://www.consumershield.com/business-law/tariff/updates",
+          "domain": "consumershield.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.oiaglobal.com/tariff-updates",
+          "domain": "oiaglobal.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
+          "domain": "usitc.gov",
+          "type": "primary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 3,
+        "primary_source_count": 1,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.94,
+      "reasoning": "New judicial powers to order reliquidation represent a breakthrough in how businesses can remediate excessive or unstable tariff applications.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
+        "new_sources": [
+          "https://www.consumershield.com/business-law/tariff/updates",
+          "https://www.oiaglobal.com/tariff-updates",
+          "https://www.usitc.gov/harmonized_tariff_information/announcement_archive"
         ],
         "dropped_sources": [],
         "summary_changed": false
@@ -154,17 +211,16 @@
       "stage": "Breakthrough",
       "velocity": "Medium",
       "category": "Corporate Tax",
-      "summary": "Jurisdictions are pivoting away from tax holidays to 'Qualified Refundable Tax Credits' and non-taxable cash grants to retain investment without triggering Pillar Two top-ups.",
+      "summary": "Low-tax jurisdictions are shifting from tax holidays to refundable credits and non-taxable cash grants to remain technically compliant with Pillar Two while retaining investment.",
       "evidence": [
-        "Singapore's 17% statutory rate remains but is offset by substantive activity-linked rebates.",
-        "ASEAN shift toward investment incentives that prioritize 'creating shared value' and CSR-aligned social impacts.",
-        "Use of CIT rebates and grants to manage effective tax rates while remaining technically compliant with GloBE rules."
+        "Singapore maintaining a 17% headline rate but utilizing periodic rebates to manage effective tax outcomes.",
+        "Shift in ASEAN incentives toward 'creating shared value' and ESG-aligned cash grants rather than direct income tax exemptions.",
+        "Use of 'Qualified Refundable Tax Credits' to offset global minimum tax top-up liabilities."
       ],
       "source_links": [
         "https://www.corporateservices.com/singapore/corporate-tax-in-singapore",
-        "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
         "https://en.wikipedia.org/wiki/Corporate_social_responsibility",
-        "https://u.ae/en/information-and-services/finance-and-investment/taxation/corporate-tax"
+        "https://amro-asia.org/global-tax-reform-what-lies-ahead-for-asean3"
       ],
       "source_details": [
         {
@@ -174,185 +230,103 @@
           "published_date": null
         },
         {
-          "url": "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
-          "domain": "imda.gov.sg",
-          "type": "primary",
-          "published_date": null
-        },
-        {
           "url": "https://en.wikipedia.org/wiki/Corporate_social_responsibility",
           "domain": "en.wikipedia.org",
           "type": "wikipedia",
           "published_date": null
         },
         {
-          "url": "https://u.ae/en/information-and-services/finance-and-investment/taxation/corporate-tax",
-          "domain": "u.ae",
+          "url": "https://amro-asia.org/global-tax-reform-what-lies-ahead-for-asean3",
+          "domain": "amro-asia.org",
           "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 4,
-        "primary_source_count": 1,
+        "total_sources": 3,
+        "primary_source_count": 0,
         "secondary_source_count": 2,
         "wikipedia_source_count": 1,
-        "blog_source_count": 0,
-        "has_primary_sources": true,
-        "source_risk": "low"
-      },
-      "confidence": 0.92,
-      "reasoning": "Singapore's 2026 fiscal guidelines explicitly utilize these mechanisms to maintain regional competitiveness under the new global floor.",
-      "validation_flags": [],
-      "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
-        "new_sources": [
-          "https://www.corporateservices.com/singapore/corporate-tax-in-singapore",
-          "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
-          "https://en.wikipedia.org/wiki/Corporate_social_responsibility",
-          "https://u.ae/en/information-and-services/finance-and-investment/taxation/corporate-tax"
-        ],
-        "dropped_sources": [],
-        "summary_changed": false
-      }
-    },
-    {
-      "id": "aggressive-indirect-taxation-of-related-party-services",
-      "name": "Aggressive Indirect Taxation of Related-Party Services",
-      "stage": "Breakthrough",
-      "velocity": "Medium",
-      "category": "Corporate Tax",
-      "summary": "Authorities are increasingly applying GST/VAT to intra-group financial support, specifically targeting corporate guarantees and management fees.",
-      "evidence": [
-        "Application of 18% GST on corporate guarantees in India applied to the higher of 1% of the guarantee or actual consideration.",
-        "Closer scrutiny of 'closely related' corporate elections for GST recovery.",
-        "Increased use of HSN codes to track and tax intra-group financial transactions."
-      ],
-      "source_links": [
-        "https://cleartax.in/s/gst-on-corporate-guarantee",
-        "https://www.ey.com/en_in/media/podcasts/indirect-tax-insights/episode-1-how-to-navigate-gst-on-corporate-guarantees",
-        "https://dmainc.com/news-and-insights/gst-or-hst-between-related-corporations",
-        "https://stripe.com/resources/more/goods-and-services-tax-what-it-is-and-how-businesses-comply"
-      ],
-      "source_details": [
-        {
-          "url": "https://cleartax.in/s/gst-on-corporate-guarantee",
-          "domain": "cleartax.in",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.ey.com/en_in/media/podcasts/indirect-tax-insights/episode-1-how-to-navigate-gst-on-corporate-guarantees",
-          "domain": "ey.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://dmainc.com/news-and-insights/gst-or-hst-between-related-corporations",
-          "domain": "dmainc.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://stripe.com/resources/more/goods-and-services-tax-what-it-is-and-how-businesses-comply",
-          "domain": "stripe.com",
-          "type": "secondary",
-          "published_date": null
-        }
-      ],
-      "source_quality": {
-        "total_sources": 4,
-        "primary_source_count": 0,
-        "secondary_source_count": 4,
-        "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": false,
         "source_risk": "medium"
       },
-      "confidence": 0.9,
-      "reasoning": "Enforcement actions in India and Canada provide a clear template for revenue authorities seeking new indirect tax streams from multinationals.",
+      "confidence": 0.92,
+      "reasoning": "The pivot from direct tax breaks to substance-linked rebates is a confirmed tactical response by regional hubs to the global 15% floor.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "Medium",
         "new_sources": [
-          "https://cleartax.in/s/gst-on-corporate-guarantee",
-          "https://www.ey.com/en_in/media/podcasts/indirect-tax-insights/episode-1-how-to-navigate-gst-on-corporate-guarantees",
-          "https://dmainc.com/news-and-insights/gst-or-hst-between-related-corporations",
-          "https://stripe.com/resources/more/goods-and-services-tax-what-it-is-and-how-businesses-comply"
+          "https://amro-asia.org/global-tax-reform-what-lies-ahead-for-asean3"
         ],
-        "dropped_sources": [],
-        "summary_changed": false
+        "dropped_sources": [
+          "https://u.ae/en/information-and-services/finance-and-investment/taxation/corporate-tax",
+          "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework"
+        ],
+        "summary_changed": true
       }
     },
     {
-      "id": "executive-tariff-instability-and-trade-defiance",
-      "name": "Executive Tariff Instability and Trade Defiance",
-      "stage": "Peak Hype",
-      "velocity": "High",
-      "category": "Tariffs",
-      "summary": "Unilateral U.S. tariffs are facing both judicial review at home and defiance abroad, as major trading partners like India bypass trade barriers.",
+      "id": "emerging-market-legislative-resets",
+      "name": "Emerging Market Legislative Resets",
+      "stage": "Incubation",
+      "velocity": "Medium",
+      "category": "Corporate Tax",
+      "summary": "Major emerging economies are replacing legacy tax codes with modernized frameworks designed for the 2026+ global tax environment.",
       "evidence": [
-        "India's exports grew in late 2025/early 2026 despite steep U.S. tariffs.",
-        "U.S. Court of International Trade increasing scrutiny on executive-imposed baseline tariffs.",
-        "Ongoing tension between USITC quasi-judicial federal agency mandates and executive trade orders."
+        "India's introduction of the Income-tax Act 2025 for the Tax Year 2026-27 onwards.",
+        "Digital-first interfaces for tax payments replacing legacy 1961 Act processes for new dues.",
+        "Increasing integration of GST compliance with corporate income tax reporting in large-scale jurisdictions."
       ],
       "source_links": [
-        "https://www.reuters.com/business/tariffs",
-        "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
-        "https://www.spglobal.com/market-intelligence/en/news-insights/topics/international-trade-tariffs-news",
-        "https://ttd.wto.org/en"
+        "https://www.incometax.gov.in",
+        "https://kpcindia.com/services/goods-and-services-tax/corporate-gst-compliance",
+        "https://theiabm.org/business-asean-spotlight-tax-rates"
       ],
       "source_details": [
         {
-          "url": "https://www.reuters.com/business/tariffs",
-          "domain": "reuters.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
-          "domain": "usitc.gov",
+          "url": "https://www.incometax.gov.in",
+          "domain": "incometax.gov.in",
           "type": "primary",
           "published_date": null
         },
         {
-          "url": "https://www.spglobal.com/market-intelligence/en/news-insights/topics/international-trade-tariffs-news",
-          "domain": "spglobal.com",
+          "url": "https://kpcindia.com/services/goods-and-services-tax/corporate-gst-compliance",
+          "domain": "kpcindia.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://ttd.wto.org/en",
-          "domain": "ttd.wto.org",
-          "type": "primary",
+          "url": "https://theiabm.org/business-asean-spotlight-tax-rates",
+          "domain": "theiabm.org",
+          "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 4,
-        "primary_source_count": 2,
+        "total_sources": 3,
+        "primary_source_count": 1,
         "secondary_source_count": 2,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
         "source_risk": "low"
       },
-      "confidence": 0.94,
-      "reasoning": "Recent reporting on India's export resilience and ongoing legal challenges to IEEPA-based tariffs confirms high volatility in trade policy.",
+      "confidence": 0.89,
+      "reasoning": "India's massive legislative overhaul signals a new stage of 'incubation' for other emerging markets to follow suit in modernizing their domestic codes.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": true,
         "stage_delta": "new",
         "velocity_delta": "new",
         "new_sources": [
-          "https://www.reuters.com/business/tariffs",
-          "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
-          "https://www.spglobal.com/market-intelligence/en/news-insights/topics/international-trade-tariffs-news",
-          "https://ttd.wto.org/en"
+          "https://www.incometax.gov.in",
+          "https://kpcindia.com/services/goods-and-services-tax/corporate-gst-compliance",
+          "https://theiabm.org/business-asean-spotlight-tax-rates"
         ],
         "dropped_sources": [],
         "summary_changed": false
@@ -362,7 +336,7 @@
   "intelligence_metadata": {
     "agent": "gemini-3-flash-preview",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-07-12T16:01:47.448005Z",
+    "timestamp": "2026-07-12T22:01:54.620760Z",
     "active_narratives": 5,
     "validation": {
       "accepted": 5,
@@ -373,7 +347,7 @@
       "status": "success",
       "model": "gemini-3-flash-preview",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-07-12T16:01:47.448005Z",
+      "timestamp": "2026-07-12T22:01:54.620760Z",
       "search_result_count": 40,
       "validation_error_count": 0,
       "validation_failures": []
@@ -383,7 +357,7 @@
     "status": "success",
     "model": "gemini-3-flash-preview",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-07-12T16:01:47.448005Z",
+    "timestamp": "2026-07-12T22:01:54.620760Z",
     "search_result_count": 40,
     "validation_error_count": 0,
     "validation_failures": []
