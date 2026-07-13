@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-12T15:00:48.380085Z",
+  "last_updated": "2026-07-13T15:00:36.720124Z",
   "archived_trends": [
     {
       "id": "agentic-mesh-protocols",
@@ -4403,6 +4403,72 @@
         "summary_changed": false
       },
       "archived_at": "2026-07-11T15:00:50.154786Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "open-weights-and-model-interoperability",
+      "name": "Open Weights and Model Interoperability",
+      "stage": "Peak Hype",
+      "velocity": "Very High",
+      "category": "Open Source LLM",
+      "summary": "The ecosystem is standardizing around model repositories and universal inference APIs, emphasizing comparative evaluation and accessibility of diverse model architectures.",
+      "evidence": [
+        "Centralized directory activity on platforms like Hugging Face and LLM Explorer.",
+        "High demand for model comparison tools like OpenRouter to standardize evaluation across disparate providers.",
+        "Normalization of technical discourse regarding model efficiency and supervised fine-tuning."
+      ],
+      "source_links": [
+        "https://huggingface.co/models?sort=downloads&search=llm",
+        "https://openrouter.ai/chat",
+        "https://llm-explorer.com"
+      ],
+      "source_details": [
+        {
+          "url": "https://huggingface.co/models?sort=downloads&search=llm",
+          "domain": "huggingface.co",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://openrouter.ai/chat",
+          "domain": "openrouter.ai",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://llm-explorer.com",
+          "domain": "llm-explorer.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 3,
+        "primary_source_count": 0,
+        "secondary_source_count": 3,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.85,
+      "reasoning": "Remains in peak hype due to the rapid growth of aggregator services and the normalization of LLM benchmarking, showing massive developer adoption.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Peak Hype",
+        "velocity_delta": 0,
+        "previous_velocity": "Very High",
+        "new_sources": [
+          "https://openrouter.ai/chat"
+        ],
+        "dropped_sources": [
+          "https://arena.ai/text/side-by-side"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-07-13T15:00:36.720124Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
