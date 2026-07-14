@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-14T04:01:55.014138Z",
+  "last_updated": "2026-07-14T10:01:55.408671Z",
   "archived_trends": [
     {
       "name": "Cross-Chain Liquidity Solutions",
@@ -16473,6 +16473,85 @@
         "summary_changed": false
       },
       "archived_at": "2026-07-13T10:02:05.795516Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "native-cross-chain-liquidity-migration",
+      "name": "Native Cross-Chain Liquidity Migration",
+      "stage": "Breakthrough",
+      "velocity": "High",
+      "category": "DeFi",
+      "summary": "The DeFi ecosystem is pivotally shifting away from centralized, custodial bridge models toward trust-minimized, native cross-chain atomic settlement to mitigate bridge exploitation risks.",
+      "evidence": [
+        "Rise of protocols facilitating atomic, non-custodial asset swaps between chains.",
+        "Decline in market reliance on wrapped asset models prone to single-point-of-failure vulnerabilities.",
+        "Rapid adoption of cross-chain routing solutions that maintain native asset properties."
+      ],
+      "source_links": [
+        "https://symbiosis.finance",
+        "https://atomicpay.cloud",
+        "https://app.debridge.com",
+        "https://near-intents.org"
+      ],
+      "source_details": [
+        {
+          "url": "https://symbiosis.finance",
+          "domain": "symbiosis.finance",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://atomicpay.cloud",
+          "domain": "atomicpay.cloud",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://app.debridge.com",
+          "domain": "app.debridge.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://near-intents.org",
+          "domain": "near-intents.org",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 4,
+        "primary_source_count": 0,
+        "secondary_source_count": 4,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.93,
+      "reasoning": "The shift toward native settlement is accelerating as institutional and DeFi users prioritize security and liquidity efficiency over traditional bridge convenience.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [
+          "https://app.debridge.com",
+          "https://atomicpay.cloud",
+          "https://near-intents.org",
+          "https://symbiosis.finance"
+        ],
+        "dropped_sources": [
+          "https://advertorial.cryptonews.com/press-releases/what-would-true-cross-chain-liquidity-between-btc-eth-and-sol-look-like-liquidchain-liquid-weighs-in",
+          "https://bitcoin.tax/blog/cross-chain-liquidity-2025",
+          "https://simpleswap.gr.com/bridge",
+          "https://stargate.finance"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-07-14T10:01:55.408671Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
