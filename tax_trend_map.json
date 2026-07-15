@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-15T04:01:51.819176Z",
-  "executive_briefing": "The 2026 corporate tax landscape is dominated by a clear divergence between US domestic policy and the OECD's Pillar Two framework, catalyzed by the US 'One Big Beautiful Bill Act' (OBBBA) which prioritizes localized incentives like the 14% effective rate on foreign-market income. While the global minimum tax consensus faces fatigue, jurisdictions such as Portugal and Singapore are aggressively engineering tax rates and non-taxable grants to maintain competitiveness. Simultaneously, a significant breakthrough in trade policy has emerged as US courts have ruled certain IEEPA-based tariffs unlawful, creating a judicial check on executive protectionism. On the compliance front, the transition to real-time transactional reporting is accelerating, with Singapore's mandatory InvoiceNow framework (2025-2031) serving as the global benchmark for Peppol-based GST enforcement.",
+  "last_updated": "2026-07-15T10:02:00.999396Z",
+  "executive_briefing": "The 2026 tax landscape is defined by a intensifying pushback against multilateral fiscal norms, led by the US 'One Big Beautiful Bill Act' (OBBBA) which establishes an effective ~14% foreign income tax rate, creating friction with the OECD Pillar Two 15% floor. While the global minimum tax framework experiences strategic fatigue, individual nations are successfully maneuvering through non-taxable grants and structural rebates to preserve investment attractiveness. Parallel to fiscal divergence, international trade has entered a period of judicial disruption, with the US Court of International Trade actively dismantling executive-led tariff frameworks. Simultaneously, mandatory real-time digital tax enforcement, spearheaded by Singapore's InvoiceNow and the Peppol standard, is evolving from an innovative pilot to the essential, high-velocity infrastructure for global tax compliance.",
   "trends": [
     {
       "id": "divergence-from-global-minimum-tax-consensus",
@@ -8,11 +8,11 @@
       "stage": "Fatigue",
       "velocity": "High",
       "category": "International",
-      "summary": "The OECD's Pillar Two initiative is fracturing as the US prioritizes domestic legislation (OBBBA) over multilateral agreements. The US Section 250 deduction now targets a ~14% effective tax rate for foreign income, explicitly undercutting the OECD's 15% floor and signaling a shift toward bilateral tax competition.",
+      "summary": "The OECD's Pillar Two initiative faces systemic decline as the US prioritizes the OBBBA legislation, setting a ~14% effective tax rate on foreign income that effectively rejects the 15% global minimum floor.",
       "evidence": [
         "US enactment of the One Big Beautiful Bill Act (OBBBA).",
-        "Modification of Section 250 deduction to 33.34% creating a ~14% effective rate.",
-        "60+ jurisdictions moving forward with Pillar Two in the absence of US participation."
+        "Section 250 deduction adjustment to 33.34%.",
+        "OECD's ongoing struggle to maintain consensus amid US non-compliance."
       ],
       "source_links": [
         "https://practiceguides.chambers.com/practice-guides/corporate-tax-2026",
@@ -49,19 +49,17 @@
         "source_risk": "medium"
       },
       "confidence": 0.95,
-      "reasoning": "The US OBBBA enactment provides definitive legal evidence of a systemic shift away from OECD alignment, moving this trend into a state of geopolitical fatigue.",
+      "reasoning": "Legislative finalization of the OBBBA confirms a structural break from OECD standards, moving this trend into a state of geopolitical fatigue.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
-        "new_sources": [
-          "https://practiceguides.chambers.com/practice-guides/corporate-tax-2026",
-          "https://www.grantthornton.com/insights/alerts/tax/2025/legislative-updates/2026-international-tax-planning-guide",
-          "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html"
-        ],
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Fatigue",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [],
         "dropped_sources": [],
-        "summary_changed": false
+        "summary_changed": true
       }
     },
     {
@@ -70,60 +68,58 @@
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Tariffs",
-      "summary": "The era of unchecked executive tariff authority is facing a legal reckoning. The US Court of International Trade (CIT) has ruled that tariffs under the IEEPA are unlawful, a move that could fundamentally reset global trade dynamics as the Supreme Court prepares for a final ruling.",
+      "summary": "The reliance on IEEPA-based unilateral tariffs is being curtailed by judicial oversight, with US courts ruling such measures unlawful, fundamentally altering global trade negotiation strategies.",
       "evidence": [
         "CIT ruling declaring IEEPA-based tariffs unlawful.",
-        "US Supreme Court expected to rule on tariff legality in mid-2026.",
-        "Average effective US tariff rates projected to settle between 15-18% despite escalations."
+        "Pending Supreme Court review on tariff authority.",
+        "Continued volatility in metal and pharmaceutical tariff updates."
       ],
       "source_links": [
-        "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
-        "https://www.reuters.com/business/tariffs",
-        "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war"
+        "https://www.oiaglobal.com/tariff-updates",
+        "https://www.consumershield.com/business-law/tariff/updates"
       ],
       "source_details": [
         {
-          "url": "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
-          "domain": "jpmorgan.com",
+          "url": "https://www.oiaglobal.com/tariff-updates",
+          "domain": "oiaglobal.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.reuters.com/business/tariffs",
-          "domain": "reuters.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war",
-          "domain": "taxfoundation.org",
+          "url": "https://www.consumershield.com/business-law/tariff/updates",
+          "domain": "consumershield.com",
           "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 3,
+        "total_sources": 2,
         "primary_source_count": 0,
-        "secondary_source_count": 3,
+        "secondary_source_count": 2,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": false,
         "source_risk": "medium"
       },
-      "confidence": 0.93,
-      "reasoning": "The CIT ruling represents a tangible breakthrough where judicial intervention is actively modifying executive trade policy.",
+      "confidence": 0.92,
+      "reasoning": "The shift from executive policy to court-ordered deconstruction marks a breakthrough in the legal limitations of modern trade protectionism.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
         "new_sources": [
-          "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
-          "https://www.reuters.com/business/tariffs",
-          "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war"
+          "https://www.consumershield.com/business-law/tariff/updates",
+          "https://www.oiaglobal.com/tariff-updates"
         ],
-        "dropped_sources": [],
-        "summary_changed": false
+        "dropped_sources": [
+          "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war",
+          "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
+          "https://www.reuters.com/business/tariffs"
+        ],
+        "summary_changed": true
       }
     },
     {
@@ -132,11 +128,11 @@
       "stage": "Breakthrough",
       "velocity": "Medium",
       "category": "Corporate Tax",
-      "summary": "Nations are increasingly using headline rate adjustments and complex rebate structures to bypass the 15% global minimum tax. Portugal has initiated annual 1% rate cuts through 2028, while Singapore is deploying non-taxable CIT rebates and cash grants to lower effective burdens without triggering top-up taxes.",
+      "summary": "Nations are increasingly employing sophisticated fiscal engineering, including annual rate cuts and cash-based grants, to maintain competitiveness without triggering OECD top-up tax provisions.",
       "evidence": [
-        "Portugal's planned 1% annual CIT reduction from 2026-2028.",
-        "Singapore's YA2026 CIT rebate offering 50% back capped at SGD 40,000.",
-        "Slovenia's temporary CIT increase to 22% as a counter-cyclical measure."
+        "Portugal's 1% annual CIT reduction phase-in.",
+        "Singapore's non-taxable CIT rebates (capped at SGD 40,000).",
+        "Slovenia's counter-cyclical temporary rate hikes."
       ],
       "source_links": [
         "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025",
@@ -173,19 +169,17 @@
         "source_risk": "medium"
       },
       "confidence": 0.94,
-      "reasoning": "Direct legislation in multiple jurisdictions demonstrates a breakthrough in localized fiscal strategies designed to circumvent global floors.",
+      "reasoning": "Evidence of widespread legislative adoption of non-taxable incentives confirms this as a key breakthrough strategy for state-level fiscal sovereignty.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
-        "new_sources": [
-          "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025",
-          "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
-          "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026"
-        ],
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "Medium",
+        "new_sources": [],
         "dropped_sources": [],
-        "summary_changed": false
+        "summary_changed": true
       }
     },
     {
@@ -194,29 +188,29 @@
       "stage": "Peak Hype",
       "velocity": "High",
       "category": "Compliance",
-      "summary": "Digital tax administration has reached its peak regulatory momentum, with Peppol-based e-invoicing becoming the primary vehicle for GST/VAT enforcement. Singapore's InvoiceNow mandate is the first to provide a decade-long roadmap for full corporate integration by 2031.",
+      "summary": "Digital tax enforcement has reached a saturation point of adoption, with the Peppol-based InvoiceNow framework serving as the gold standard for long-term automated GST reporting.",
       "evidence": [
-        "Singapore's mandatory e-invoicing phase-in for GST-registered firms (2025-2031).",
-        "Integration of Peppol BIS 3.0 data with national tax authority (IRAS) systems.",
-        "Shift from voluntary to mandatory XML data file exchange for cross-border billing."
+        "Singapore's 2026-2031 mandatory e-invoicing roadmap.",
+        "Integration of Peppol BIS 3.0 into national tax systems.",
+        "Global trend toward mandatory XML-based transactional exchange."
       ],
       "source_links": [
-        "https://sovos.com/en-gb/vat/tax-rules/singapore-e-invoicing",
-        "https://kpmg.com/us/en/taxnewsflash/news/2026/02/singapore-e-invoicing-mandate-compliance-deadlines.html",
+        "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
+        "https://invoicenow.advintek.com.sg",
         "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement"
       ],
       "source_details": [
         {
-          "url": "https://sovos.com/en-gb/vat/tax-rules/singapore-e-invoicing",
-          "domain": "sovos.com",
+          "url": "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
+          "domain": "avalara.com",
           "type": "secondary",
-          "published_date": null
+          "published_date": "2026-03-01"
         },
         {
-          "url": "https://kpmg.com/us/en/taxnewsflash/news/2026/02/singapore-e-invoicing-mandate-compliance-deadlines.html",
-          "domain": "kpmg.com",
+          "url": "https://invoicenow.advintek.com.sg",
+          "domain": "invoicenow.advintek.com.sg",
           "type": "secondary",
-          "published_date": "2026-02-01"
+          "published_date": null
         },
         {
           "url": "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement",
@@ -235,26 +229,30 @@
         "source_risk": "low"
       },
       "confidence": 0.97,
-      "reasoning": "Rigid enforcement timelines and standardized technical protocols indicate this trend has reached Peak Hype, transitioning into a core compliance requirement.",
+      "reasoning": "Institutionalization of 5-year compliance timelines in major trade hubs confirms that this trend has reached Peak Hype status.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Peak Hype",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
         "new_sources": [
-          "https://sovos.com/en-gb/vat/tax-rules/singapore-e-invoicing",
-          "https://kpmg.com/us/en/taxnewsflash/news/2026/02/singapore-e-invoicing-mandate-compliance-deadlines.html",
-          "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement"
+          "https://invoicenow.advintek.com.sg",
+          "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html"
         ],
-        "dropped_sources": [],
-        "summary_changed": false
+        "dropped_sources": [
+          "https://kpmg.com/us/en/taxnewsflash/news/2026/02/singapore-e-invoicing-mandate-compliance-deadlines.html",
+          "https://sovos.com/en-gb/vat/tax-rules/singapore-e-invoicing"
+        ],
+        "summary_changed": true
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3-flash-preview",
+    "agent": "gemini-3.1-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-07-15T04:01:51.819176Z",
+    "timestamp": "2026-07-15T10:02:00.999396Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -263,9 +261,9 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3-flash-preview",
+      "model": "gemini-3.1-flash-lite",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-07-15T04:01:51.819176Z",
+      "timestamp": "2026-07-15T10:02:00.999396Z",
       "search_result_count": 40,
       "validation_error_count": 0,
       "validation_failures": []
@@ -273,9 +271,9 @@
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3-flash-preview",
+    "model": "gemini-3.1-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-07-15T04:01:51.819176Z",
+    "timestamp": "2026-07-15T10:02:00.999396Z",
     "search_result_count": 40,
     "validation_error_count": 0,
     "validation_failures": []
