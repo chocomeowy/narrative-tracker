@@ -1,26 +1,32 @@
 {
-  "last_updated": "2026-07-18T04:01:04.218312Z",
-  "executive_briefing": "Mid-2026 highlights a systemic maturation of the digital asset ecosystem across institutional, legislative, and technical layers. Institutionally, spot Bitcoin ETFs are transitioning to a baseline corporate treasury and portfolio reserve asset class, surpassing $100 billion in AUM. Legisatively, the debate over the Digital Asset Market Clarity Act (H.R. 3633) is defining regulatory jurisdictions between the SEC and CFTC. Technically, the industry is actively shifting away from fragile, wrapped-token bridging infrastructure toward intent-based native atomic interoperability, while developer interest grows around decidable computation models like Clarity. Clarity's non-Turing-complete design offers a highly secure alternative for smart contracts, countering the persistent vulnerability vector of the EVM.",
+  "last_updated": "2026-07-18T10:01:14.464652Z",
+  "executive_briefing": "Mid-2026 exhibits a stark bifurcation in the digital asset landscape. Institutionally, the expansion of Spot Bitcoin ETFs has hit its first structural speed bump, transitioning from 'Breakthrough' to 'Fatigue' as H1 2026 logs its first calendar year of net outflows and key holders like MicroStrategy trim positions. Legislatively, the Digital Asset Market Clarity Act (H.R. 3633) remains a high-velocity focus in the Senate, seeking to settle SEC/CFTC jurisdictions. Technically, the ecosystem is aggressively moving away from fragile wrapped-asset bridges toward native cross-chain atomic interoperability. Crucially, the developer community is championing decidable computation frameworks like Clarity to challenge EVM's vulnerability-prone, Turing-complete architecture, establishing a secure smart contract paradigm natively on Bitcoin.",
   "trends": [
     {
       "id": "institutional-strategic-reserve-etf-maturation",
       "name": "Institutional Strategic Reserve & ETF Maturation",
-      "stage": "Breakthrough",
+      "stage": "Fatigue",
       "velocity": "Moderate",
       "category": "Institutional Finance",
-      "summary": "Bitcoin ETF integration has transitioned into a standardized corporate treasury and programmatic portfolio management tool, consolidating BTC's role as a modern reserve asset.",
+      "summary": "Bitcoin ETF programmatic inflows have hit a visible plateau in the first half of 2026, marking the first calendar year of net outflows and a shift in treasury behaviors.",
       "evidence": [
-        "Spot Bitcoin ETFs surpassed critical institutional milestones, transforming global asset management flows.",
-        "Corporate treasuries and pension funds are adopting a 2025-2032 integration timeline for crypto assets.",
-        "Shift in perception from highly volatile retail vehicles to structured, regulated treasury assets."
+        "Spot Bitcoin ETFs recorded their first calendar year of net outflows in early 2026.",
+        "MicroStrategy executed its first sale of Bitcoin since 2022, signaling a temporary pause in aggressive programmatic accumulation.",
+        "Despite short-term fatigue, a significant portion of known Bitcoin remains consolidated in institutional structures."
       ],
       "source_links": [
+        "https://www.theblock.co/learn/408156/how-bitcoin-etfs-changed-institutional-adoption",
         "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
-        "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/how-bitcoin-etfs-are-driving-institutional-crypto-adoption",
-        "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption",
-        "https://datos-insights.com/blog/bitcoin-etf-institutional-adoption"
+        "https://datos-insights.com/blog/bitcoin-etf-institutional-adoption",
+        "https://www.ssga.com/us/en/institutional/insights/why-bitcoin-institutional-demand-is-on-the-rise"
       ],
       "source_details": [
+        {
+          "url": "https://www.theblock.co/learn/408156/how-bitcoin-etfs-changed-institutional-adoption",
+          "domain": "theblock.co",
+          "type": "secondary",
+          "published_date": null
+        },
         {
           "url": "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
           "domain": "spark.money",
@@ -28,20 +34,14 @@
           "published_date": null
         },
         {
-          "url": "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/how-bitcoin-etfs-are-driving-institutional-crypto-adoption",
-          "domain": "analyticsinsight.net",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption",
-          "domain": "blockchain-council.org",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
           "url": "https://datos-insights.com/blog/bitcoin-etf-institutional-adoption",
           "domain": "datos-insights.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.ssga.com/us/en/institutional/insights/why-bitcoin-institutional-demand-is-on-the-rise",
+          "domain": "ssga.com",
           "type": "secondary",
           "published_date": null
         }
@@ -55,23 +55,22 @@
         "has_primary_sources": false,
         "source_risk": "medium"
       },
-      "confidence": 0.95,
-      "reasoning": "The trend remains in Breakthrough. ETF inflows have solidified, and major firms are formally integrating Bitcoin into their long-term corporate treasury strategies.",
+      "confidence": 0.92,
+      "reasoning": "The stage has transitioned from Breakthrough to Fatigue due to recent H1 2026 data indicating the first net outflows in the ETF sector and MicroStrategy's first sale since 2022, signaling a temporary saturation point.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
-        "stage_delta": 0,
+        "stage_delta": 2,
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
         "new_sources": [
-          "https://datos-insights.com/blog/bitcoin-etf-institutional-adoption",
-          "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/how-bitcoin-etfs-are-driving-institutional-crypto-adoption",
-          "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption"
+          "https://www.ssga.com/us/en/institutional/insights/why-bitcoin-institutional-demand-is-on-the-rise",
+          "https://www.theblock.co/learn/408156/how-bitcoin-etfs-changed-institutional-adoption"
         ],
         "dropped_sources": [
-          "https://www.fundssociety.com/en/news/alternatives/bitcoin-matures-lower-liquid-supply-and-growing-institutional-dominance-redefine-its-cycle",
-          "https://www.theblock.co/learn/408156/how-bitcoin-etfs-changed-institutional-adoption"
+          "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/how-bitcoin-etfs-are-driving-institutional-crypto-adoption",
+          "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption"
         ],
         "summary_changed": true
       }
@@ -82,11 +81,11 @@
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Regulation",
-      "summary": "The legislative battle over H.R. 3633 (CLARITY Act) intensifies in the Senate as lawmakers seek to codify Jurisdictional boundaries between the SEC and CFTC for digital assets.",
+      "summary": "The legislative push behind the CLARITY Act (H.R. 3633) intensifies in the Senate, representing a key structural battle to define SEC and CFTC jurisdictions over digital assets.",
       "evidence": [
         "The House of Representatives successfully passed H.R. 3633 by a bipartisan vote of 294-134.",
-        "Senate Banking Committee drafts are actively tackling structural holes in regulatory jurisdictions.",
-        "Intense debates persist regarding consumer protection rules and the separation of commodity vs. security definitions."
+        "The Senate Banking Committee is reviewing drafts to address structural gaps in CFTC and SEC oversight.",
+        "Critics and advocates debate the clarity of jurisdiction definitions under Title I and Title III of the bill."
       ],
       "source_links": [
         "https://www.congress.gov/bill/119th-congress/house-bill/3633/text",
@@ -129,8 +128,8 @@
         "has_primary_sources": true,
         "source_risk": "low"
       },
-      "confidence": 0.96,
-      "reasoning": "High velocity is sustained because the CLARITY Act represents the most advanced bipartisan effort to date for comprehensive crypto market structure regulation in the United States.",
+      "confidence": 0.95,
+      "reasoning": "The legislative trend maintains its Breakthrough stage and High velocity as Senate drafts are actively analyzed and debated in mid-2026 to reconcile regulatory boundaries.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -138,17 +137,8 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "High",
-        "new_sources": [
-          "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=410816",
-          "https://www.cato.org/blog/clarity-act-needs-offer-more-clarity",
-          "https://www.congress.gov/bill/119th-congress/house-bill/3633/text",
-          "https://www.paulhastings.com/insights/crypto-policy-tracker/update-on-crypto-market-structure-legislation-senate-banking-draft-and-clarity-act"
-        ],
-        "dropped_sources": [
-          "https://coinmarketcap.com/academy/article/trump-senate-meeting-clarity-act-ethics-deadlock",
-          "https://crypto.news/dimons-clarity-act-criticism-sparks-fierce-response-from-sen-lummis",
-          "https://www.yahoo.com/news/politics/articles/clarity-act-stumbles-over-two-121541234.html"
-        ],
+        "new_sources": [],
+        "dropped_sources": [],
         "summary_changed": true
       }
     },
@@ -158,11 +148,11 @@
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "DeFi",
-      "summary": "Decentralized finance is rapidly shifting away from vulnerable custodial wrapping bridges toward intent-driven, native atomic cross-chain liquidity networks.",
+      "summary": "DeFi is rapidly replacing legacy wrapped-token bridges with intent-driven, native atomic cross-chain liquidity networks that directly swap assets without lock-and-mint risk.",
       "evidence": [
-        "Widespread adoption of cross-chain DEX protocols that swap native assets without relying on wrapped tokens.",
-        "Protocols like Chainflip, deBridge, and Symbiosis are enabling slippage-free native swaps between BTC, ETH, and SOL.",
-        "Focus on deep liquidity hub architectures that resolve smart contract risks associated with legacy bridging."
+        "Accelerating volume in native cross-chain protocols that execute swaps without reliance on wrapped intermediaries.",
+        "Platforms like Chainflip, deBridge, and Symbiosis facilitate slippage-minimizing native swaps between BTC, ETH, and SOL.",
+        "Technical shifts focus on native liquidity hubs to mitigate historical multi-signature and smart contract exploit vectors."
       ],
       "source_links": [
         "https://symbiosis.finance",
@@ -205,8 +195,8 @@
         "has_primary_sources": false,
         "source_risk": "medium"
       },
-      "confidence": 0.93,
-      "reasoning": "The shift to native liquidity pools and solver-based intent execution is replacing standard bridges to permanently mitigate multi-signature and lock-and-mint exploit vectors.",
+      "confidence": 0.94,
+      "reasoning": "Remains in Breakthrough with High velocity, driven by continuous integration of intent-based architectures that permanently bypass the systemic security risks of legacy bridges.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -225,23 +215,16 @@
       "stage": "Incubation",
       "velocity": "Moderate",
       "category": "Layer 2",
-      "summary": "The developer community is actively exploring decidable languages like Clarity to establish secure, formally verified smart contracts on Bitcoin, directly challenging the exploit-prone nature of Turing-complete EVMs.",
+      "summary": "The developer ecosystem is leveraging non-Turing-complete decidable smart contract languages like Clarity to run highly secure dApps on Bitcoin, offering an alternative to exploit-prone EVM architectures.",
       "evidence": [
-        "Increased focus on mathematically determinable smart contract execution to eliminate common EVM vulnerabilities like reentrancy.",
-        "Clarity provides a non-Turing-complete framework, preventing run-time errors and enabling precise gas cost estimation before execution.",
-        "Enterprise-level demand for high-assurance code bases to protect institutional capital deployed on-chain."
+        "Growing interest in mathematical determinism to prevent common EVM smart contract exploits such as reentrancy.",
+        "Clarity provides predictable gas costs and prevents run-time errors by forbidding Turing-complete loops.",
+        "Institutional capital deployment demands formal verification frameworks that are difficult to achieve on Ethereum's EVM."
       ],
       "source_links": [
-        "https://ethereum.org",
         "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance"
       ],
       "source_details": [
-        {
-          "url": "https://ethereum.org",
-          "domain": "ethereum.org",
-          "type": "primary",
-          "published_date": null
-        },
         {
           "url": "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
           "domain": "en.wikipedia.org",
@@ -250,17 +233,20 @@
         }
       ],
       "source_quality": {
-        "total_sources": 2,
-        "primary_source_count": 1,
+        "total_sources": 1,
+        "primary_source_count": 0,
         "secondary_source_count": 0,
         "wikipedia_source_count": 1,
         "blog_source_count": 0,
-        "has_primary_sources": true,
-        "source_risk": "low"
+        "has_primary_sources": false,
+        "source_risk": "high"
       },
-      "confidence": 0.88,
-      "reasoning": "This trend resides in Incubation as the developer ecosystem matures. Decidable computation represents a fundamental paradigm shift away from the Turing-complete execution risks of Ethereum's EVM.",
-      "validation_flags": [],
+      "confidence": 0.89,
+      "reasoning": "Sustained in Incubation; the technical paradigm shift from Turing-complete EVM execution to decidable, formally verified Bitcoin-native languages represents a structural shift for security-first institutional DeFi.",
+      "validation_flags": [
+        "weak_source_support",
+        "wikipedia_only"
+      ],
       "changed_since_previous_run": {
         "is_new": false,
         "stage_delta": 0,
@@ -268,7 +254,9 @@
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
         "new_sources": [],
-        "dropped_sources": [],
+        "dropped_sources": [
+          "https://ethereum.org"
+        ],
         "summary_changed": true
       }
     }
@@ -276,7 +264,7 @@
   "intelligence_metadata": {
     "agent": "gemini-3.5-flash",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-07-18T04:01:04.218312Z",
+    "timestamp": "2026-07-18T10:01:14.464652Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -287,7 +275,7 @@
       "status": "success",
       "model": "gemini-3.5-flash",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-07-18T04:01:04.218312Z",
+      "timestamp": "2026-07-18T10:01:14.464652Z",
       "search_result_count": 20,
       "validation_error_count": 0,
       "validation_failures": []
@@ -297,7 +285,7 @@
     "status": "success",
     "model": "gemini-3.5-flash",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-07-18T04:01:04.218312Z",
+    "timestamp": "2026-07-18T10:01:14.464652Z",
     "search_result_count": 20,
     "validation_error_count": 0,
     "validation_failures": []
