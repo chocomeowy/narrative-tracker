@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-21T22:01:23.514741Z",
+  "last_updated": "2026-07-22T04:01:26.094869Z",
   "archived_trends": [
     {
       "name": "Cross-Chain Liquidity Solutions",
@@ -18604,6 +18604,138 @@
         "summary_changed": true
       },
       "archived_at": "2026-07-21T22:01:23.514741Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "institutional-bitcoin-etf-treasury-maturation",
+      "name": "Institutional Bitcoin ETF & Treasury Maturation",
+      "stage": "Fatigue",
+      "velocity": "Moderate",
+      "category": "Institutional Finance",
+      "summary": "The hyper-growth phase of Bitcoin ETFs has concluded, transitioning into a phase of institutional portfolio rebalancing and treasury maturation characterized by the first net outflows in 2026.",
+      "evidence": [
+        "First calendar year of net ETF outflows recorded in early 2026",
+        "MicroStrategy recorded its first Bitcoin sale since 2022",
+        "Institutional ownership of known Bitcoin reached 31% by late 2025"
+      ],
+      "source_links": [
+        "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
+        "https://www.theblock.co/learn/408156/how-bitcoin-etfs-changed-institutional-adoption",
+        "https://datos-insights.com/blog/bitcoin-etf-institutional-adoption"
+      ],
+      "source_details": [
+        {
+          "url": "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
+          "domain": "spark.money",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.theblock.co/learn/408156/how-bitcoin-etfs-changed-institutional-adoption",
+          "domain": "theblock.co",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://datos-insights.com/blog/bitcoin-etf-institutional-adoption",
+          "domain": "datos-insights.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 3,
+        "primary_source_count": 0,
+        "secondary_source_count": 3,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.95,
+      "reasoning": "New data confirming net outflows and the first divestments by major corporate treasuries like MicroStrategy confirms the fatigue stage of this adoption cycle.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Fatigue",
+        "velocity_delta": 0,
+        "previous_velocity": "Moderate",
+        "new_sources": [
+          "https://datos-insights.com/blog/bitcoin-etf-institutional-adoption",
+          "https://www.theblock.co/learn/408156/how-bitcoin-etfs-changed-institutional-adoption"
+        ],
+        "dropped_sources": [
+          "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/how-bitcoin-etfs-are-driving-institutional-crypto-adoption",
+          "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-07-22T04:01:26.094869Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "clarity-act-legislative-consolidation",
+      "name": "CLARITY Act Legislative Consolidation",
+      "stage": "Peak Hype",
+      "velocity": "High",
+      "category": "Regulation",
+      "summary": "The Digital Asset Market Clarity Act (H.R. 3633) has transitioned from a House-passed bill to a high-stakes Senate priority, aiming to provide a comprehensive market-structure framework.",
+      "evidence": [
+        "Senate Banking Committee approval via 15-9 vote on May 14, 2026",
+        "Market response saw Bitcoin peak at $81,965 following committee clearance",
+        "Approaching August recess deadline for full Senate floor vote"
+      ],
+      "source_links": [
+        "https://www.govtrack.us/congress/bills/119/hr3633",
+        "https://finance.yahoo.com/markets/crypto/articles/clarity-act-just-cleared-senate-092031058.html",
+        "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next"
+      ],
+      "source_details": [
+        {
+          "url": "https://www.govtrack.us/congress/bills/119/hr3633",
+          "domain": "govtrack.us",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://finance.yahoo.com/markets/crypto/articles/clarity-act-just-cleared-senate-092031058.html",
+          "domain": "finance.yahoo.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
+          "domain": "cryptotimes.io",
+          "type": "secondary",
+          "published_date": "2026-05-14"
+        }
+      ],
+      "source_quality": {
+        "total_sources": 3,
+        "primary_source_count": 1,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.98,
+      "reasoning": "The bill has cleared significant committee hurdles and has a defined legislative timeline, with price action directly correlating to its progress.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
+        "new_sources": [
+          "https://www.govtrack.us/congress/bills/119/hr3633",
+          "https://finance.yahoo.com/markets/crypto/articles/clarity-act-just-cleared-senate-092031058.html",
+          "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next"
+        ],
+        "dropped_sources": [],
+        "summary_changed": false
+      },
+      "archived_at": "2026-07-22T04:01:26.094869Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
