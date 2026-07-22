@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-21T15:00:36.151965Z",
+  "last_updated": "2026-07-22T15:00:48.381331Z",
   "archived_trends": [
     {
       "id": "agentic-mesh-protocols",
@@ -4469,6 +4469,56 @@
         "summary_changed": true
       },
       "archived_at": "2026-07-13T15:00:36.720124Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "open-source-performance-parity",
+      "name": "Open Source Performance Parity",
+      "stage": "Breakthrough",
+      "velocity": "High",
+      "category": "Open Source LLM",
+      "summary": "Open-weights models are now achieving performance levels on benchmarks like SWE-Bench Pro that match or exceed leading proprietary models, disrupting the LLM model hierarchy.",
+      "evidence": [
+        "GLM 5.1 outperforming Opus 4.6 and GPT-5.4 on SWE-Bench Pro",
+        "Google's Gemma 4 development as a direct competitive response to open weights momentum"
+      ],
+      "source_links": [
+        "https://en.wikipedia.org/wiki/List_of_large_language_models"
+      ],
+      "source_details": [
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_large_language_models",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 1,
+        "primary_source_count": 0,
+        "secondary_source_count": 0,
+        "wikipedia_source_count": 1,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "high"
+      },
+      "confidence": 0.9,
+      "reasoning": "Upgraded to Breakthrough due to specific benchmarking evidence showing open models displacing top-tier proprietary models in developer-centric tasks.",
+      "validation_flags": [
+        "weak_source_support",
+        "wikipedia_only"
+      ],
+      "changed_since_previous_run": {
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
+        "new_sources": [
+          "https://en.wikipedia.org/wiki/List_of_large_language_models"
+        ],
+        "dropped_sources": [],
+        "summary_changed": false
+      },
+      "archived_at": "2026-07-22T15:00:48.381331Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
