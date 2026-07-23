@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-23T04:01:27.610165Z",
-  "executive_briefing": "Late July 2026 exhibits a pivotal shift in crypto-policy and institutional architecture. The Digital Asset Market Clarity Act (CLARITY Act) has moved from a total impasse toward a high-velocity bipartisan negotiation phase, fueled by a landmark agreement on ethics provisions between Republican leadership and the White House. This legislative momentum is being mirrored technically by the 'Clarity' programming language, which is gaining traction as the safety-critical standard for Bitcoin-native smart contracts, contrasting the EVM's flexibility with deterministic security. Simultaneously, Bitcoin's institutional narrative is evolving from simple ETF spot exposure to complex 'Bitcoin Bond' products and strategic reserve asset considerations, while DeFi liquidity matures through non-custodial routers that facilitate seamless, bridge-less BTC/ETH interoperability.",
+  "last_updated": "2026-07-23T10:01:30.328729Z",
+  "executive_briefing": "Late July 2026 marks a high-stakes legislative and structural turning point for the digital asset ecosystem. The Digital Asset Market Clarity Act (HR 3633) has entered a critical 'countdown phase' with an August 7 Senate recess deadline, now complicated by new provisions restricting federal officials from issuing digital assets. This regulatory pressure is catalyzing a technical flight to 'deterministic' infrastructure, where the Clarity programming language is being positioned as a safety-critical alternative to Ethereum's EVM for Bitcoin-native smart contracts. Simultaneously, Bitcoin's institutional narrative is undergoing a sophisticated transformation; the emergence of 'Bitcoin Bond' ETFs and corporate treasury mandates signifies a shift from simple spot exposure to complex fixed-income and reserve-asset strategies. Cross-chain interoperability is also maturing, moving away from vulnerable bridges toward native liquidity protocols like THORChain and deBridge, which facilitate direct, non-custodial BTC/ETH swaps.",
   "trends": [
     {
       "id": "institutional-bitcoin-strategic-allocation",
@@ -8,11 +8,11 @@
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Institutional Finance",
-      "summary": "Bitcoin is transitioning from a speculative ETF asset to a strategic treasury and reserve asset, evidenced by the emergence of Bitcoin Bond ETFs and corporate treasury mandates.",
+      "summary": "Bitcoin is evolving from a speculative asset to a foundational treasury reserve, characterized by the development of yield-bearing 'Bitcoin Bond' products and sovereign-level accumulation strategies.",
       "evidence": [
-        "Strive Asset Management filing for Bitcoin Bond ETFs targeting MicroStrategy securities",
-        "Recognition of BTC as a strategic reserve asset by sovereign and corporate treasuries",
-        "Record ETF inflows and market depth documented by CoinGlass and OKX"
+        "Strive Asset Management's filing for a Bitcoin Bond ETF targeting MicroStrategy convertible securities",
+        "Integration of BTC into corporate and sovereign wealth fund strategic reserve mandates",
+        "Record ETF inflows and market depth indicating structural institutional demand"
       ],
       "source_links": [
         "https://www.okx.com/en-ae/learn/btc-institutional-retail-etfs-investor-behavior",
@@ -55,121 +55,118 @@
         "has_primary_sources": false,
         "source_risk": "medium"
       },
-      "confidence": 0.97,
-      "reasoning": "New filings for Bond-related ETFs and the 'strategic reserve' narrative signify a deepening of the institutional layer beyond basic spot exposure.",
+      "confidence": 0.98,
+      "reasoning": "The filing of the first 'Bitcoin Bond' ETF marks a transition from price exposure to complex financial instruments, confirming a deepening of institutional integration.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
-        "new_sources": [
-          "https://www.okx.com/en-ae/learn/btc-institutional-retail-etfs-investor-behavior",
-          "https://www.ainvest.com/news/bitcoin-institutional-adoption-etf-driven-price-dynamics-structural-demand-analysis-2026-2601",
-          "https://www.coindesk.com/markets/2024/12/27/bitcoin-institutional-adoption-accelerates-as-etf-filings-show-investor-appetite",
-          "https://www.coinglass.com/etf/bitcoin"
-        ],
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [],
         "dropped_sources": [],
-        "summary_changed": false
+        "summary_changed": true
       }
     },
     {
-      "id": "clarity-act-bipartisan-re-alignment",
-      "name": "CLARITY Act Bipartisan Re-alignment",
+      "id": "clarity-act-legislative-countdown",
+      "name": "CLARITY Act Legislative Countdown",
       "stage": "Peak Hype",
       "velocity": "High",
       "category": "Regulation",
-      "summary": "The legislative deadlock on the CLARITY Act is showing signs of resolution following an ethics agreement between the White House and Senate Republicans, though Democratic concerns over consumer protection persist.",
+      "summary": "The Digital Asset Market Clarity Act (HR 3633) is facing an August 7 deadline, with new versions including a ban on federal officials issuing or sponsoring digital assets to clear the path for a floor vote.",
       "evidence": [
-        "Senate Majority Leader signaling a bipartisan deal before August recess",
-        "Agreement by the Executive Branch on core ethics provisions to clear the floor vote path",
-        "Coinbase executives citing 'tremendous momentum' for the act in federal hearings"
+        "HR 3633 reported by Senator Scott in the Senate Banking Committee",
+        "New version of the bill restricting federal officials from issuing digital assets",
+        "Legislative 'countdown' with only 20 working days before the August recess"
       ],
       "source_links": [
-        "https://coingape.com/clarity-act-senate-majority-leader-sees-good-chance-of-bipartisan-deal-after-ethics-agreement",
-        "https://cryptobriefing.com/trump-agrees-to-ethics-provision-clearing-path-for-clarity-act-senate-vote",
-        "https://www.coindesk.com/policy/2026/07/22/key-democratic-lawmakers-say-crypto-clarity-act-falls-short-on-ethics-other-issues",
-        "https://www.zerohedge.com/crypto/coinbase-exec-says-clarity-act-has-tremendous-momentum-senate"
+        "https://www.govtrack.us/congress/bills/119/hr3633",
+        "https://finance.yahoo.com/markets/crypto/articles/clarity-act-countdown-crypto-bill-161215444.html",
+        "https://www.banking.senate.gov/newsroom/majority/the-facts-the-clarity-act",
+        "https://www.cnbc.com/2026/07/22/senate-crypto-bill-would-ban-federal-officials-from-issuing-digital-assets.html"
       ],
       "source_details": [
         {
-          "url": "https://coingape.com/clarity-act-senate-majority-leader-sees-good-chance-of-bipartisan-deal-after-ethics-agreement",
-          "domain": "coingape.com",
+          "url": "https://www.govtrack.us/congress/bills/119/hr3633",
+          "domain": "govtrack.us",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://finance.yahoo.com/markets/crypto/articles/clarity-act-countdown-crypto-bill-161215444.html",
+          "domain": "finance.yahoo.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://cryptobriefing.com/trump-agrees-to-ethics-provision-clearing-path-for-clarity-act-senate-vote",
-          "domain": "cryptobriefing.com",
-          "type": "secondary",
+          "url": "https://www.banking.senate.gov/newsroom/majority/the-facts-the-clarity-act",
+          "domain": "banking.senate.gov",
+          "type": "primary",
           "published_date": null
         },
         {
-          "url": "https://www.coindesk.com/policy/2026/07/22/key-democratic-lawmakers-say-crypto-clarity-act-falls-short-on-ethics-other-issues",
-          "domain": "coindesk.com",
+          "url": "https://www.cnbc.com/2026/07/22/senate-crypto-bill-would-ban-federal-officials-from-issuing-digital-assets.html",
+          "domain": "cnbc.com",
           "type": "secondary",
           "published_date": "2026-07-22"
-        },
-        {
-          "url": "https://www.zerohedge.com/crypto/coinbase-exec-says-clarity-act-has-tremendous-momentum-senate",
-          "domain": "zerohedge.com",
-          "type": "secondary",
-          "published_date": null
         }
       ],
       "source_quality": {
         "total_sources": 4,
-        "primary_source_count": 0,
-        "secondary_source_count": 4,
+        "primary_source_count": 2,
+        "secondary_source_count": 2,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
-        "has_primary_sources": false,
-        "source_risk": "medium"
+        "has_primary_sources": true,
+        "source_risk": "low"
       },
-      "confidence": 0.94,
-      "reasoning": "The trend remains at Peak Hype as the market reacts to shifting vote counts and the 'July 17 field hearing' pressures before the Senate recess.",
+      "confidence": 0.95,
+      "reasoning": "Legislative progress and specific new ethics amendments indicate the bill is at its most critical and most discussed stage before potential passage or delay.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": true,
         "stage_delta": "new",
         "velocity_delta": "new",
         "new_sources": [
-          "https://coingape.com/clarity-act-senate-majority-leader-sees-good-chance-of-bipartisan-deal-after-ethics-agreement",
-          "https://cryptobriefing.com/trump-agrees-to-ethics-provision-clearing-path-for-clarity-act-senate-vote",
-          "https://www.coindesk.com/policy/2026/07/22/key-democratic-lawmakers-say-crypto-clarity-act-falls-short-on-ethics-other-issues",
-          "https://www.zerohedge.com/crypto/coinbase-exec-says-clarity-act-has-tremendous-momentum-senate"
+          "https://www.govtrack.us/congress/bills/119/hr3633",
+          "https://finance.yahoo.com/markets/crypto/articles/clarity-act-countdown-crypto-bill-161215444.html",
+          "https://www.banking.senate.gov/newsroom/majority/the-facts-the-clarity-act",
+          "https://www.cnbc.com/2026/07/22/senate-crypto-bill-would-ban-federal-officials-from-issuing-digital-assets.html"
         ],
         "dropped_sources": [],
         "summary_changed": false
       }
     },
     {
-      "id": "non-custodial-multi-chain-routers",
-      "name": "Non-Custodial Multi-Chain Routers",
+      "id": "native-multi-chain-liquidity-infrastructure",
+      "name": "Native Multi-Chain Liquidity Infrastructure",
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "DeFi",
-      "summary": "The industry is moving away from centralized bridges toward non-custodial routers and liquidity aggregators that allow native BTC to ETH swaps without intermediate custodial risk.",
+      "summary": "The industry is shifting toward 'native' cross-chain swaps using protocols like THORChain and deBridge, eliminating the custodial risk associated with traditional bridges.",
       "evidence": [
-        "Cobo's Token Bridge app enabling institutional-grade cross-chain transfers across BTC and ETH",
-        "Rango Exchange and Symbiosis aggregating liquidity for bridge-less, limit-order native swaps",
-        "Shift in focus toward 'Token Bridges' as apps rather than protocol-level custodial risks"
+        "THORChain's use of native RUNE bonding to secure BTC/ETH L1 asset pools",
+        "DeBridge providing instant cross-chain swaps with deep liquidity and low fees",
+        "Symbiosis using multi-coin pools for capital-efficient, zero-volatility cross-chain transfers"
       ],
       "source_links": [
-        "https://www.cobo.com/post/bridge-assets-across-major-networks-like-btc-eth-tron-bnb-and-more",
-        "https://rango.exchange/swap/btc-to-eth",
+        "https://thorchain.org",
+        "https://app.debridge.com",
         "https://symbiosis.finance",
-        "https://coincub.com/blog/cross-chain-liquidity-simplifying-crypto-swaps-with-non-custodial-tools"
+        "https://oakresearch.io/en/projects/Bittensor/vs/Thorchain"
       ],
       "source_details": [
         {
-          "url": "https://www.cobo.com/post/bridge-assets-across-major-networks-like-btc-eth-tron-bnb-and-more",
-          "domain": "cobo.com",
+          "url": "https://thorchain.org",
+          "domain": "thorchain.org",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://rango.exchange/swap/btc-to-eth",
-          "domain": "rango.exchange",
+          "url": "https://app.debridge.com",
+          "domain": "app.debridge.com",
           "type": "secondary",
           "published_date": null
         },
@@ -180,8 +177,8 @@
           "published_date": null
         },
         {
-          "url": "https://coincub.com/blog/cross-chain-liquidity-simplifying-crypto-swaps-with-non-custodial-tools",
-          "domain": "coincub.com",
+          "url": "https://oakresearch.io/en/projects/Bittensor/vs/Thorchain",
+          "domain": "oakresearch.io",
           "type": "secondary",
           "published_date": null
         }
@@ -195,45 +192,45 @@
         "has_primary_sources": false,
         "source_risk": "medium"
       },
-      "confidence": 0.91,
-      "reasoning": "Data confirms a transition from high-risk bridges to aggregator-led swaps, reducing the attack surface for cross-chain liquidity.",
+      "confidence": 0.92,
+      "reasoning": "Data from active protocols like THORChain and deBridge show a clear move toward native asset swapping, which is fundamentally more secure than previous bridge models.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": true,
         "stage_delta": "new",
         "velocity_delta": "new",
         "new_sources": [
-          "https://www.cobo.com/post/bridge-assets-across-major-networks-like-btc-eth-tron-bnb-and-more",
-          "https://rango.exchange/swap/btc-to-eth",
+          "https://thorchain.org",
+          "https://app.debridge.com",
           "https://symbiosis.finance",
-          "https://coincub.com/blog/cross-chain-liquidity-simplifying-crypto-swaps-with-non-custodial-tools"
+          "https://oakresearch.io/en/projects/Bittensor/vs/Thorchain"
         ],
         "dropped_sources": [],
         "summary_changed": false
       }
     },
     {
-      "id": "deterministic-smart-contracts-for-bitcoin",
-      "name": "Deterministic Smart Contracts for Bitcoin",
-      "stage": "Breakthrough",
+      "id": "deterministic-security-standards-clarity-vs-evm",
+      "name": "Deterministic Security Standards (Clarity vs EVM)",
+      "stage": "Incubation",
       "velocity": "Moderate",
       "category": "Layer 2",
-      "summary": "Leveraging the narrative of the CLARITY Act, the Clarity programming language is being positioned as a superior, decidable alternative to the EVM for secure Bitcoin Layer 2 applications.",
+      "summary": "Driven by the 'Clarity Act' narrative, the Clarity programming language is being pushed as the 'regulation-ready' standard for Bitcoin Layer 2s due to its decidable and predictable nature.",
       "evidence": [
-        "Increased developer focus on 'decidable' code to prevent re-entrancy bugs common in Ethereum's EVM",
-        "Strategic positioning of Clarity-based smart contracts as 'regulation-ready' due to their predictable nature",
-        "Technical differentiation of non-Turing complete models for high-value BTC financial protocols"
+        "Strategic alignment of 'Clarity' the language with the 'Clarity Act' for institutional branding",
+        "Technical focus on preventing re-entrancy bugs through decidable, non-Turing complete smart contracts",
+        "Bitcoin-native smart contract development prioritizing safety-first code over EVM flexibility"
       ],
       "source_links": [
-        "https://genfinity.io/2026/07/14/clarity-act-senate-hearing-july-17-crypto-2026",
+        "https://www.banking.senate.gov/newsroom/majority/the-facts-the-clarity-act",
         "https://www.okx.com/en-ae/learn/btc-institutional-retail-etfs-investor-behavior"
       ],
       "source_details": [
         {
-          "url": "https://genfinity.io/2026/07/14/clarity-act-senate-hearing-july-17-crypto-2026",
-          "domain": "genfinity.io",
-          "type": "secondary",
-          "published_date": "2026-07-14"
+          "url": "https://www.banking.senate.gov/newsroom/majority/the-facts-the-clarity-act",
+          "domain": "banking.senate.gov",
+          "type": "primary",
+          "published_date": null
         },
         {
           "url": "https://www.okx.com/en-ae/learn/btc-institutional-retail-etfs-investor-behavior",
@@ -244,22 +241,22 @@
       ],
       "source_quality": {
         "total_sources": 2,
-        "primary_source_count": 0,
-        "secondary_source_count": 2,
+        "primary_source_count": 1,
+        "secondary_source_count": 1,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
-        "has_primary_sources": false,
-        "source_risk": "medium"
+        "has_primary_sources": true,
+        "source_risk": "low"
       },
-      "confidence": 0.85,
-      "reasoning": "The synergy between the Clarity Act and the Clarity language is driving institutional preference for deterministic smart contract environments.",
+      "confidence": 0.82,
+      "reasoning": "While the legislative 'Clarity' and technical 'Clarity' are different, the branding synergy and institutional need for predictable code are driving a new technical standard on Bitcoin.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": true,
         "stage_delta": "new",
         "velocity_delta": "new",
         "new_sources": [
-          "https://genfinity.io/2026/07/14/clarity-act-senate-hearing-july-17-crypto-2026",
+          "https://www.banking.senate.gov/newsroom/majority/the-facts-the-clarity-act",
           "https://www.okx.com/en-ae/learn/btc-institutional-retail-etfs-investor-behavior"
         ],
         "dropped_sources": [],
@@ -270,7 +267,7 @@
   "intelligence_metadata": {
     "agent": "gemini-3-flash-preview",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-07-23T04:01:27.610165Z",
+    "timestamp": "2026-07-23T10:01:30.328729Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -281,7 +278,7 @@
       "status": "success",
       "model": "gemini-3-flash-preview",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-07-23T04:01:27.610165Z",
+      "timestamp": "2026-07-23T10:01:30.328729Z",
       "search_result_count": 20,
       "validation_error_count": 0,
       "validation_failures": []
@@ -291,7 +288,7 @@
     "status": "success",
     "model": "gemini-3-flash-preview",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-07-23T04:01:27.610165Z",
+    "timestamp": "2026-07-23T10:01:30.328729Z",
     "search_result_count": 20,
     "validation_error_count": 0,
     "validation_failures": []
