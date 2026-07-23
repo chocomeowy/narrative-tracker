@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22T15:00:48.381331Z",
+  "last_updated": "2026-07-23T15:00:49.075933Z",
   "archived_trends": [
     {
       "id": "agentic-mesh-protocols",
@@ -4519,6 +4519,60 @@
         "summary_changed": false
       },
       "archived_at": "2026-07-22T15:00:48.381331Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "llm-performance-and-comparative-benchmarking",
+      "name": "LLM Performance and Comparative Benchmarking",
+      "stage": "Fatigue",
+      "velocity": "Low",
+      "category": "AI LLM Models",
+      "summary": "General-purpose benchmarking has become a commodity, with over 250 models competing on identical metrics, leading to diminishing interest in standardized LLM rankings.",
+      "evidence": [
+        "Presence of numerous mature leaderboard sites and the 'all models are wrong' sentiment reflecting on the limits of current statistical model testing.",
+        "Shift in developer conversation away from pure model specs toward agentic capability."
+      ],
+      "source_links": [
+        "https://artificialanalysis.ai/leaderboards/models",
+        "https://en.wikipedia.org/wiki/All_models_are_wrong"
+      ],
+      "source_details": [
+        {
+          "url": "https://artificialanalysis.ai/leaderboards/models",
+          "domain": "artificialanalysis.ai",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/All_models_are_wrong",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 2,
+        "primary_source_count": 0,
+        "secondary_source_count": 1,
+        "wikipedia_source_count": 1,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.85,
+      "reasoning": "The market has reached a saturation point regarding raw LLM rankings, moving the topic into a Fatigue stage as users prioritize agentic output over model-specific metrics.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Fatigue",
+        "velocity_delta": -1,
+        "previous_velocity": "Medium",
+        "new_sources": [],
+        "dropped_sources": [],
+        "summary_changed": true
+      },
+      "archived_at": "2026-07-23T15:00:49.075933Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
