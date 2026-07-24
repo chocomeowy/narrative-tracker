@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-23T15:00:49.075933Z",
+  "last_updated": "2026-07-24T15:00:33.903867Z",
   "archived_trends": [
     {
       "id": "agentic-mesh-protocols",
@@ -4573,6 +4573,70 @@
         "summary_changed": true
       },
       "archived_at": "2026-07-23T15:00:49.075933Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "commoditization-of-llm-evaluation",
+      "name": "Commoditization of LLM Evaluation",
+      "stage": "Fatigue",
+      "velocity": "Low",
+      "category": "AI LLM Models",
+      "summary": "The excitement surrounding generic comparative benchmarking is waning, replaced by a preference for functional selection, utility-driven models, and cost-efficiency (intelligence per dollar).",
+      "evidence": [
+        "Shift from comparative benchmarks to task-specific implementation.",
+        "Growing focus on small-scale, high-efficiency models like Qwen3-32B.",
+        "Platform maturity where side-by-side comparison is treated as a utility rather than a novel research area."
+      ],
+      "source_links": [
+        "https://openrouter.ai/chat",
+        "https://chutes.ai/models?q=DeepSeek",
+        "https://arena.ai/text/direct"
+      ],
+      "source_details": [
+        {
+          "url": "https://openrouter.ai/chat",
+          "domain": "openrouter.ai",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://chutes.ai/models?q=DeepSeek",
+          "domain": "chutes.ai",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://arena.ai/text/direct",
+          "domain": "arena.ai",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 3,
+        "primary_source_count": 0,
+        "secondary_source_count": 3,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.85,
+      "reasoning": "Previous interest in general-purpose model comparison has hit a ceiling as users prioritize specialized, efficient, and cost-effective local or open-source models over broad leaderboard scores.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
+        "new_sources": [
+          "https://openrouter.ai/chat",
+          "https://chutes.ai/models?q=DeepSeek",
+          "https://arena.ai/text/direct"
+        ],
+        "dropped_sources": [],
+        "summary_changed": false
+      },
+      "archived_at": "2026-07-24T15:00:33.903867Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
