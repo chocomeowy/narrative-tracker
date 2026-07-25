@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-24T15:00:33.903867Z",
+  "last_updated": "2026-07-25T15:00:36.414749Z",
   "archived_trends": [
     {
       "id": "agentic-mesh-protocols",
@@ -4637,6 +4637,70 @@
         "summary_changed": false
       },
       "archived_at": "2026-07-24T15:00:33.903867Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "llm-market-saturation-and-commodity-benchmarking",
+      "name": "LLM Market Saturation and Commodity Benchmarking",
+      "stage": "Fatigue",
+      "velocity": "Low",
+      "category": "AI Foundation Models",
+      "summary": "The existence of 300+ models has shifted the industry focus from model creation to competitive benchmarking and selection based on cost-to-performance ratios.",
+      "evidence": [
+        "Proliferation of granular leaderboards tracking 290+ models",
+        "Recognition of the 'All models are wrong' constraint in applied statistics",
+        "Standardization of API-based performance evaluation"
+      ],
+      "source_links": [
+        "https://llm-stats.com",
+        "https://benchlm.ai",
+        "https://en.wikipedia.org/wiki/All_models_are_wrong"
+      ],
+      "source_details": [
+        {
+          "url": "https://llm-stats.com",
+          "domain": "llm-stats.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://benchlm.ai",
+          "domain": "benchlm.ai",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/All_models_are_wrong",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 3,
+        "primary_source_count": 0,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 1,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.85,
+      "reasoning": "The sheer volume of models has led to 'benchmark fatigue,' where incremental score improvements carry less weight than operational reliability and cost.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
+        "new_sources": [
+          "https://llm-stats.com",
+          "https://benchlm.ai",
+          "https://en.wikipedia.org/wiki/All_models_are_wrong"
+        ],
+        "dropped_sources": [],
+        "summary_changed": false
+      },
+      "archived_at": "2026-07-25T15:00:36.414749Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
