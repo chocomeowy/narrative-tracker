@@ -140,19 +140,15 @@ def run_agent():
        ```
     """
 
-    # Prioritize newest Gemini models followed by robust fallbacks
+    # Prioritize active Gemini models followed by robust fallbacks
     models_to_try = [
-        "gemini-3.5-flash",
-        "gemini-3.1-pro-preview",
-        "gemini-3-pro-preview",
-        "gemini-3-flash-preview",
+        "gemini-3.6-flash",
+        "gemini-3.5-flash-lite",
         "gemini-3.1-flash-lite",
-        "gemma-4-31b-it",
-        "gemini-2.5-pro",
+        "gemini-3-flash-preview",
         "gemini-2.5-flash",
         "gemini-2.5-flash-lite",
-        "gemini-2.0-flash",
-        "gemini-2.0-flash-lite",
+        "gemma-4-31b-it",
         "gemini-flash-latest"
     ]
     
@@ -236,13 +232,7 @@ def run_agent():
 
     raw_response = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
     
-    # 4. Save Markdown Briefing
-    with open("tax_briefing.md", "w") as f:
-        f.write(f"# Tax Intelligence Briefing - {datetime.utcnow().strftime('%Y-%m-%d %H:%M')}\n\n")
-        f.write(raw_response)
-    print("Saved tax_briefing.md")
-
-    # 5. Extract JSON for Map & Briefing
+    # 4. Extract JSON for Map & Briefing
     start_index = raw_response.find('{')
     if start_index != -1:
         try:
@@ -265,6 +255,12 @@ def run_agent():
     else:
         print("No JSON object found in AI response")
         return
+
+    # 5. Save Markdown Briefing
+    with open("tax_briefing.md", "w") as f:
+        f.write(f"# Tax Intelligence Briefing - {datetime.utcnow().strftime('%Y-%m-%d %H:%M')}\n\n")
+        f.write(briefing_text)
+    print("Saved tax_briefing.md")
         
     updated_map, updated_archive = build_updated_documents(
         current_map=current_map,
