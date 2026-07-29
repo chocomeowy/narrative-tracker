@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-29T04:01:09.099087Z",
+  "last_updated": "2026-07-29T10:01:50.321134Z",
   "archived_trends": [
     {
       "name": "Cross-Chain Liquidity Solutions",
@@ -19907,6 +19907,59 @@
         "summary_changed": true
       },
       "archived_at": "2026-07-28T16:01:04.656328Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "clarity-smart-contract-language-on-bitcoin-layer-2s",
+      "name": "Clarity Smart Contract Language on Bitcoin Layer 2s",
+      "stage": "Breakthrough",
+      "velocity": "High",
+      "category": "Layer 2",
+      "summary": "The decidable Clarity programming language expands across Bitcoin L2s, utilizing mathematical decidability and native reentrancy immunity to offer an alternative to EVM security vulnerabilities.",
+      "evidence": [
+        "Clarity enables static code analysis prior to execution, allowing developers to mathematically verify contract behavior and gas consumption.",
+        "Built-in reentrancy immunity eliminates major attack vectors prevalent in EVM-based smart contract environments.",
+        "Bitcoin Layer 2 protocols adopt Clarity to attract institutional DeFi builders requiring verifiable smart contract safety guarantees."
+      ],
+      "source_links": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/3633/text"
+      ],
+      "source_details": [
+        {
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3633/text",
+          "domain": "congress.gov",
+          "type": "primary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 1,
+        "primary_source_count": 1,
+        "secondary_source_count": 0,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.91,
+      "reasoning": "Remains in Breakthrough stage due to sustained adoption on Bitcoin L2s and growing enterprise demand for mathematically predictable contract execution over EVM risk models.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [
+          "https://www.congress.gov/bill/119th-congress/house-bill/3633/text"
+        ],
+        "dropped_sources": [
+          "https://www.banking.senate.gov/newsroom/majority/the-facts-the-clarity-act",
+          "https://www.govtrack.us/congress/bills/119/hr3633/text"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-07-29T10:01:50.321134Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
