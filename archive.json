@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-01T15:00:36.383691Z",
+  "last_updated": "2026-08-02T15:00:42.802865Z",
   "archived_trends": [
     {
       "id": "agentic-mesh-protocols",
@@ -4923,6 +4923,55 @@
         "summary_changed": true
       },
       "archived_at": "2026-08-01T15:00:36.383691Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "local-deployment-of-open-weight-models",
+      "name": "Local Deployment of Open-Weight Models",
+      "stage": "Breakthrough",
+      "velocity": "High",
+      "category": "Open Source LLM",
+      "summary": "The developer-led movement towards running highly optimized, open-weight models locally to achieve data privacy, lower latency, and zero API costs.",
+      "evidence": [
+        "Meta's Llama 3 8B and 70B models serving as state-of-the-art open-weight baselines.",
+        "Local runtimes like Ollama simplifying the model orchestration and serving pipeline for local developers."
+      ],
+      "source_links": [
+        "https://ollama.com/library/llama3"
+      ],
+      "source_details": [
+        {
+          "url": "https://ollama.com/library/llama3",
+          "domain": "ollama.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 1,
+        "primary_source_count": 0,
+        "secondary_source_count": 1,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "high"
+      },
+      "confidence": 0.88,
+      "reasoning": "Highly aligned with technical developer interest and GitHub repository growth. Ollama and Llama 3 represent a breakthrough in making local LLMs accessible and highly performing.",
+      "validation_flags": [
+        "weak_source_support"
+      ],
+      "changed_since_previous_run": {
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
+        "new_sources": [
+          "https://ollama.com/library/llama3"
+        ],
+        "dropped_sources": [],
+        "summary_changed": false
+      },
+      "archived_at": "2026-08-02T15:00:42.802865Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
