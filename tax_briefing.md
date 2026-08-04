@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-08-04 04:01
+# Tax Intelligence Briefing - 2026-08-04 10:01
 
-Global tax policy in 2026 is driven by the operationalization of the OECD Pillar Two 15% minimum corporate tax framework across over 140 jurisdictions, paired with aggressive unilateral trade tariff enforcement by the U.S. affecting 60 trading partners. In response to global tax standardization, jurisdictions in Europe and ASEAN are modifying domestic corporate tax structures and expanding mandatory e-invoicing networks like Singapore's Peppol-based InvoiceNow framework to secure compliance and reduce revenue leakage.
+Global tax policy in late 2026 is defined by the full operationalization of the OECD Pillar Two 15% minimum corporate tax across 140+ countries, coupled with dynamic legal shifts and surcharges in international trade tariffs following U.S. judicial rulings on IEEPA and Sec. 122 tariffs. Concurrently, nations across Europe and ASEAN are refining territorial corporate tax regimes and enforcing mandatory e-invoicing networks such as Singapore's Peppol-based InvoiceNow framework to secure compliance and prevent tax base erosion.
