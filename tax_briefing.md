@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-08-05 22:01
+# Tax Intelligence Briefing - 2026-08-06 04:01
 
-Global corporate tax policy in 2026 is defined by the operationalization of the OECD Pillar Two 15 percent global minimum tax framework across 140 jurisdictions, heightened trade friction and legal challenges surrounding U.S. tariff policy, structural territorial corporate tax adjustments across ASEAN and international hubs, and expanding continuous transaction controls driven by mandates like Singapore's GST InvoiceNow e-invoicing framework.
+Global corporate tax policy in 2026 remains centered around the continued integration of the OECD Pillar Two 15 percent global minimum tax framework, ongoing legal and trade friction regarding U.S. and international tariffs following recent legislative adjustments, regional corporate tax and incentive shifts across ASEAN, and the scaling of mandatory digital tax compliance frameworks such as Singapore's GST InvoiceNow network.
