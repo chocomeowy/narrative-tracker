@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-08-06 10:01
+# Tax Intelligence Briefing - 2026-08-07 04:01
 
-Global corporate tax policy in mid-2026 continues its primary focus on the operationalization of the OECD Pillar Two 15 percent global minimum tax framework across participating Inclusive Framework jurisdictions. Concurrently, intense international trade tensions and litigation surrounding unilateral tariffs persist, while regional hubs like Singapore drive mandatory digital tax compliance via scaled GST InvoiceNow Peppol frameworks extending toward 2031.
+Global tax frameworks in mid-2026 are heavily anchored by the practical operationalization of the OECD Pillar Two 15 percent global minimum tax across participating jurisdictions. Simultaneously, international trade disputes and legal challenges surrounding sweeping tariff measures continue to create volatility for multinational supply chains, while regional hubs like Singapore drive rapid adoption of continuous transaction controls through mandatory e-invoicing frameworks extending toward 2031.
