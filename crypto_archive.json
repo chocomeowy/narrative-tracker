@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-09T10:01:33.056635Z",
+  "last_updated": "2026-08-09T16:01:43.936682Z",
   "archived_trends": [
     {
       "name": "Cross-Chain Liquidity Solutions",
@@ -21620,6 +21620,75 @@
         "summary_changed": true
       },
       "archived_at": "2026-08-09T04:01:33.767004Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "clarity-based-bitcoin-smart-contracting-and-evm-interoperability",
+      "name": "Clarity-Based Bitcoin Smart Contracting and EVM Interoperability",
+      "stage": "Breakthrough",
+      "velocity": "High",
+      "category": "DeFi",
+      "summary": "The execution architecture of decentralized finance is diversifying beyond Ethereum's Turing-complete EVM. The Clarity programming language is emerging as a secure, decidable alternative on Bitcoin layers. By offering predictable execution and eliminating reentrancy bugs without compiling code, Clarity competes with the EVM safety model. This execution environment is supported by non-custodial cross-chain routing engines like THORChain and Symbiosis that bridge native BTC directly into DeFi without wrap-token risk.",
+      "evidence": [
+        "Clarity's decidable design eliminates the compiler-related vulnerabilities and reentrancy bugs common in EVM environments.",
+        "Non-custodial cross-chain architectures allow native BTC-to-ETH swaps without wrapping or centralized bridge risk.",
+        "Decentralized liquidity hubs aggregate routing protocols to connect native Bitcoin directly to external execution layers."
+      ],
+      "source_links": [
+        "https://thorchain.org",
+        "https://thorchain.global",
+        "https://symbiosis.finance",
+        "https://app.debridge.com"
+      ],
+      "source_details": [
+        {
+          "url": "https://thorchain.org",
+          "domain": "thorchain.org",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://thorchain.global",
+          "domain": "thorchain.global",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://symbiosis.finance",
+          "domain": "symbiosis.finance",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://app.debridge.com",
+          "domain": "app.debridge.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 4,
+        "primary_source_count": 0,
+        "secondary_source_count": 4,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.95,
+      "reasoning": "Stays at Breakthrough as technical architecture shifts toward secure, decidable smart contracting languages (Clarity) and native cross-chain routing models that offer direct competition to Ethereum's legacy EVM monopoly.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [],
+        "dropped_sources": [],
+        "summary_changed": true
+      },
+      "archived_at": "2026-08-09T16:01:43.936682Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
