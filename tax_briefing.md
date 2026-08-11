@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-08-11 10:01
+# Tax Intelligence Briefing - 2026-08-11 16:01
 
-Global tax and trade policy in 2026 is anchored by four major structural shifts: active enforcement of the OECD Pillar Two 15% global minimum tax across over 140 jurisdictions, judicial and statutory recalibrations in international trade following Supreme Court invalidation of IEEPA tariffs and new Section 122 global duties, statutory corporate tax rate balancing with enterprise incentives, and expanding continuous transaction controls driven by Peppol-based e-invoicing mandates such as Singapore's InvoiceNow.
+Global tax policy and trade governance in 2026 are defined by four converging structural developments: the expanding active enforcement of OECD Pillar Two 15% global minimum tax rules across over 60 implementing jurisdictions, escalating international tariff litigation and statutory duties, tactical regional corporate tax rate and incentive calibrations across key commercial hubs, and mandatory continuous transaction controls anchored by Peppol-standard e-invoicing networks like Singapore's InvoiceNow framework.
