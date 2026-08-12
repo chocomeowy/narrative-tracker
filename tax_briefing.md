@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-08-11 22:01
+# Tax Intelligence Briefing - 2026-08-12 04:01
 
-Global corporate tax and trade governance in 2026 are defined by the operational enforcement of OECD Pillar Two 15% global minimum tax rules across key economic regions, heightened uncertainty surrounding unilateral import tariffs and executive trade measures, competitive calibrations of territorial corporate tax rates and rebates in hub jurisdictions like Singapore and the UAE, and accelerating continuous transaction controls via mandated Peppol e-invoicing framework timelines.
+Global corporate tax and trade governance in mid-2026 is anchored by the full-scale implementation of OECD Pillar Two 15% global minimum tax rules across nearly 140 jurisdictions, alongside severe trade volatility triggered by new US Section 301 tariffs targeting 60 nations. Concurrently, regional trade hubs like Singapore and the UAE are fine-tuning their territorial tax systems and free-zone incentives to sustain foreign direct investment, while tax administrations worldwide accelerate mandatory Peppol-based e-invoicing frameworks for real-time continuous transaction controls.
