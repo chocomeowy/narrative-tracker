@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-08-13 04:01
+# Tax Intelligence Briefing - 2026-08-13 10:01
 
-In 2026, global corporate tax policy and international trade dynamics are defined by the live enforcement of OECD Pillar Two's 15% global minimum tax alongside volatile unilateral tariff regimes. Legal actions surrounding U.S. emergency trade powers and reciprocal tariffs drive supply chain restructuring. Simultaneously, financial hubs in ASEAN calibrate corporate income tax rebates while accelerating mandatory e-invoicing frameworks like Singapore's InvoiceNow to strengthen Continuous Transaction Controls.
+In 2026, global corporate tax policy and international trade dynamics are defined by active enforcement of OECD Pillar Two 15% global minimum tax rules alongside expanding unilateral trade measures, such as Section 301 forced labor tariffs. Concurrently, major ASEAN financial hubs calibrate competitive territorial tax regimes while rapidly deploying Peppol-based Continuous Transaction Controls (CTC) and mandatory e-invoicing frameworks like Singapore's InvoiceNow to automate indirect tax administration.
