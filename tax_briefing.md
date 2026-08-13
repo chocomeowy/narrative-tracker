@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-08-13 16:01
+# Tax Intelligence Briefing - 2026-08-13 22:01
 
-In 2026, corporate tax policy and international trade dynamics are heavily shaped by active implementation and reporting under the OECD Pillar Two 15% global minimum tax framework alongside shifting unilateral trade tariffs and baseline duty updates. Meanwhile, financial hubs like Singapore continue to balance competitive corporate tax structures, regional FDI incentives, and the progressive scaling of Peppol-based e-invoicing mandates for continuous compliance.
+Global tax policy in 2026 is defined by active operational enforcement of the OECD Pillar Two 15% global minimum tax alongside escalating trade tariff actions, including newly implemented USTR Section 301 forced labor ad valorem duties on 60 nations. Simultaneously, leading financial hubs in ASEAN maintain investment attractiveness through territorial tax structures and corporate tax exemptions while expanding continuous transaction controls via mandatory Peppol e-invoicing networks.
