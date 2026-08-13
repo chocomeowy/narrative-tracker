@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-08-12 22:02
+# Tax Intelligence Briefing - 2026-08-13 04:01
 
-In 2026, global corporate tax and international trade policy are undergoing widespread structural realignments. The enforcement of the OECD Pillar Two 15% global minimum tax across over 140 jurisdictions is reshaping corporate strategy and territorial tax regimes. Concurrently, heightened unilateral trade tariffs and changes to de minimis rules are increasing supply chain friction, while mandatory Peppol e-invoicing and Continuous Transaction Controls (CTC) expand rapidly across global tax jurisdictions.
+In 2026, global corporate tax policy and international trade dynamics are defined by the live enforcement of OECD Pillar Two's 15% global minimum tax alongside volatile unilateral tariff regimes. Legal actions surrounding U.S. emergency trade powers and reciprocal tariffs drive supply chain restructuring. Simultaneously, financial hubs in ASEAN calibrate corporate income tax rebates while accelerating mandatory e-invoicing frameworks like Singapore's InvoiceNow to strengthen Continuous Transaction Controls.
