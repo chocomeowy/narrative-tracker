@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-12T15:00:32.885469Z",
+  "last_updated": "2026-08-13T15:00:50.259761Z",
   "archived_trends": [
     {
       "id": "agentic-mesh-protocols",
@@ -5026,6 +5026,70 @@
         "summary_changed": true
       },
       "archived_at": "2026-08-12T15:00:32.885469Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "dynamic-multi-model-routing-and-local-deployment-platforms",
+      "name": "Dynamic Multi-Model Routing and Local Deployment Platforms",
+      "stage": "Breakthrough",
+      "velocity": "High",
+      "category": "Open Source LLM",
+      "summary": "Developers are shifting away from proprietary single-model lock-in toward complex multi-model aggregation and routing platforms. This is fueled by high-performance local runners like Ollama and multi-model interfaces like OpenRouter and Arena.ai.",
+      "evidence": [
+        "Hugging Face lists over 188,000 models optimized for the Ollama ecosystem, highlighting a robust local deployment pipeline.",
+        "Developer interfaces like OpenRouter support comparing and routing queries dynamically across more than 400 models.",
+        "Platforms like Arena.ai enable simultaneous side-by-side prompt testing of both proprietary and open-source models."
+      ],
+      "source_links": [
+        "https://huggingface.co/models?apps=ollama&sort=trending",
+        "https://openrouter.ai/chat",
+        "https://arena.ai/text/direct"
+      ],
+      "source_details": [
+        {
+          "url": "https://huggingface.co/models?apps=ollama&sort=trending",
+          "domain": "huggingface.co",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://openrouter.ai/chat",
+          "domain": "openrouter.ai",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://arena.ai/text/direct",
+          "domain": "arena.ai",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 3,
+        "primary_source_count": 0,
+        "secondary_source_count": 3,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.92,
+      "reasoning": "This trend represents an evolution of the dynamic routing narrative, incorporating the rise of local offline LLM runtimes (like GGUF formats on Ollama) which show intensive developer-level adoption on repository platforms.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
+        "new_sources": [
+          "https://huggingface.co/models?apps=ollama&sort=trending",
+          "https://openrouter.ai/chat",
+          "https://arena.ai/text/direct"
+        ],
+        "dropped_sources": [],
+        "summary_changed": false
+      },
+      "archived_at": "2026-08-13T15:00:50.259761Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
