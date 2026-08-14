@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-08-14 16:01
+# Tax Intelligence Briefing - 2026-08-14 22:02
 
-Global tax policy in mid-2026 remains dominated by operational enforcement of the OECD Pillar Two 15% global minimum tax alongside rapidly evolving unilateral trade tariffs and duty modifications. ASEAN member states continue balancing international tax floor requirements with tailored territorial grants and corporate tax rebates to remain FDI-attractive. Simultaneously, indirect tax administrations are accelerating digital compliance through mandatory continuous transaction controls and Peppol-based GST e-invoicing systems.
+As of mid-2026, global tax policy is characterized by the operational enforcement of the OECD Pillar Two 15% minimum corporate tax alongside aggressive unilateral trade tariff updates under Section 301 targeting forced labor across 60 nations. ASEAN member states continue recalibrating territorial corporate tax incentives to maintain FDI competitiveness under global tax floors, while indirect tax administrations accelerate continuous transaction controls via standardized Peppol e-invoicing networks.
