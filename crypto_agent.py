@@ -34,35 +34,40 @@ def repair_json(s):
     s = re.sub(r',\s*([\]}])', r'\1', s)
     return s
 
+def load_json_file(filename, default_val=None):
+    if default_val is None:
+        default_val = {}
+    if os.path.exists(filename):
+        try:
+            with open(filename, "r", encoding="utf-8") as f:
+                return json_lib.load(f)
+        except Exception as e:
+            print(f"Error reading local {filename}: {e}")
+
+    # Fallback to GitHub API (uses raw header to support files > 1MB)
+    if GITHUB_REPO and GITHUB_TOKEN:
+        try:
+            url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{filename}"
+            headers = {
+                "Authorization": f"token {GITHUB_TOKEN}",
+                "Accept": "application/vnd.github.raw+json"
+            }
+            r = requests.get(url, headers=headers, timeout=15)
+            if r.status_code == 200:
+                return r.json()
+        except Exception as e:
+            print(f"Error fetching remote {filename}: {e}")
+
+    return default_val
+
 def fetch_current_state():
-    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/crypto_trend_map.json"
-    headers = {"Authorization": f"token {GITHUB_TOKEN}"}
-    r = requests.get(url, headers=headers, timeout=15)
-    if r.status_code == 200:
-        import base64
-        content = r.json()
-        return json_lib.loads(base64.b64decode(content['content']).decode('utf-8'))
-    return {"trends": []}
+    return load_json_file("crypto_trend_map.json", {"trends": []})
 
 def fetch_archive():
-    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/crypto_archive.json"
-    headers = {"Authorization": f"token {GITHUB_TOKEN}"}
-    r = requests.get(url, headers=headers, timeout=15)
-    if r.status_code == 200:
-        import base64
-        content = r.json()
-        return json_lib.loads(base64.b64decode(content['content']).decode('utf-8'))
-    return {"archived_trends": []}
+    return load_json_file("crypto_archive.json", {"archived_trends": []})
 
 def fetch_steering():
-    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/crypto_steering.json"
-    headers = {"Authorization": f"token {GITHUB_TOKEN}"}
-    r = requests.get(url, headers=headers, timeout=15)
-    if r.status_code == 200:
-        import base64
-        content = r.json()
-        return json_lib.loads(base64.b64decode(content['content']).decode('utf-8'))
-    return {}
+    return load_json_file("crypto_steering.json", {})
 
 def get_search_results(query):
     try:
