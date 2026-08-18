@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17T15:00:40.123134Z",
+  "last_updated": "2026-08-18T15:01:14.109162Z",
   "archived_trends": [
     {
       "id": "agentic-mesh-protocols",
@@ -5090,6 +5090,157 @@
         "summary_changed": false
       },
       "archived_at": "2026-08-13T15:00:50.259761Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "autonomous-agentic-orchestration",
+      "name": "Autonomous Agentic Orchestration",
+      "stage": "Breakthrough",
+      "velocity": "High",
+      "category": "Autonomous AI Agents",
+      "summary": "Autonomous AI agents capable of planning, executing, and reasoning across multi-step workflows with minimal human intervention are transitioning rapidly into integrated developer IDEs and enterprise productivity platforms.",
+      "evidence": [
+        "Microsoft Copilot integrating autonomous AI agents for independent business process execution.",
+        "JetBrains embedding autonomous agent capabilities for bounded, multi-step developer workflows.",
+        "Consensus around autonomous agents acting within complex dynamic environments to realize defined goals."
+      ],
+      "source_links": [
+        "https://en.wikipedia.org/wiki/Autonomous_agent",
+        "https://www.microsoft.com/en-us/microsoft-copilot/copilot-101/autonomous-ai-agents",
+        "https://usefulai.com/tools/ai-autonomous-agents",
+        "https://www.jetbrains.com/pages/ai-agents/autonomous-ai-agents",
+        "https://www.kimi.ai/resources/autonomous-ai-agent"
+      ],
+      "source_details": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Autonomous_agent",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        },
+        {
+          "url": "https://www.microsoft.com/en-us/microsoft-copilot/copilot-101/autonomous-ai-agents",
+          "domain": "microsoft.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://usefulai.com/tools/ai-autonomous-agents",
+          "domain": "usefulai.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.jetbrains.com/pages/ai-agents/autonomous-ai-agents",
+          "domain": "jetbrains.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.kimi.ai/resources/autonomous-ai-agent",
+          "domain": "kimi.ai",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 5,
+        "primary_source_count": 0,
+        "secondary_source_count": 4,
+        "wikipedia_source_count": 1,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.95,
+      "reasoning": "The trend remains in the Breakthrough stage with high velocity. It is heavily backed by major industry releases (Microsoft, JetBrains) that shift agents from experimental command-line scripts to production-ready workflows embedded in standard developer and enterprise software.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [
+          "https://en.wikipedia.org/wiki/Autonomous_agent",
+          "https://usefulai.com/tools/ai-autonomous-agents",
+          "https://www.jetbrains.com/pages/ai-agents/autonomous-ai-agents",
+          "https://www.kimi.ai/resources/autonomous-ai-agent"
+        ],
+        "dropped_sources": [
+          "https://aws.amazon.com/blogs/aws-insights/the-rise-of-autonomous-agents-what-enterprise-leaders-need-to-know-about-the-next-wave-of-ai",
+          "https://www.snowflake.com/en/artificial-intelligence/agents/autonomous-agents"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-08-18T15:01:14.109162Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "dynamic-multi-model-routing-and-benchmarking",
+      "name": "Dynamic Multi-Model Routing and Benchmarking",
+      "stage": "Breakthrough",
+      "velocity": "High",
+      "category": "AI LLM Models",
+      "summary": "As the volume of proprietary and open-source models (such as DeepSeek, Mistral, and GPT-4) expands, systematic benchmarking of latency, throughput, and cost-efficiency is enabling real-time, dynamic model routing architectures.",
+      "evidence": [
+        "Artificial Analysis tracking and ranking performance, latency, cost, and TTFT across 250+ LLMs.",
+        "Integration and deployment of competitive alternative open-weight models like Mixtral and DeepSeek.",
+        "Increased market reliance on precise, granular performance metrics rather than single-vendor lock-in."
+      ],
+      "source_links": [
+        "https://en.wikipedia.org/wiki/List_of_large_language_models",
+        "https://artificialanalysis.ai/leaderboards/models",
+        "https://www.ibm.com/think/topics/large-language-models"
+      ],
+      "source_details": [
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_large_language_models",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        },
+        {
+          "url": "https://artificialanalysis.ai/leaderboards/models",
+          "domain": "artificialanalysis.ai",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/large-language-models",
+          "domain": "ibm.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 3,
+        "primary_source_count": 0,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 1,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.9,
+      "reasoning": "This trend maintains Breakthrough status. The existence of platforms benchmarking hundreds of models on specific execution metrics (latency, TTFT, cost) indicates a mature infrastructure designed to help developers route queries dynamically to the most efficient LLM.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [
+          "https://en.wikipedia.org/wiki/List_of_large_language_models",
+          "https://www.ibm.com/think/topics/large-language-models"
+        ],
+        "dropped_sources": [
+          "https://benchlm.ai"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-08-18T15:01:14.109162Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
