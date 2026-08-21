@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-20T15:00:34.400536Z",
+  "last_updated": "2026-08-21T15:00:35.180827Z",
   "archived_trends": [
     {
       "id": "agentic-mesh-protocols",
@@ -5241,6 +5241,79 @@
         "summary_changed": true
       },
       "archived_at": "2026-08-18T15:01:14.109162Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "ai-llm-model-benchmarking-and-comparison",
+      "name": "AI LLM Model Benchmarking and Comparison",
+      "stage": "Breakthrough",
+      "velocity": "High",
+      "category": "AI LLM Models",
+      "summary": "The rapid growth of empirical, side-by-side testing and performance analytics platforms to help developers navigate the choice between millions of specialized LLMs based on cost, latency, throughput, and quality.",
+      "evidence": [
+        "Hugging Face hosting over 3 million models, with rapid updates like DeepSeek-V4-Flash.",
+        "Emergence of specialized testing infrastructure like Artificial Analysis comparing 250+ LLMs on performance, cost, and latency.",
+        "Adoption of side-by-side playgrounds like OpenRouter and Arena AI for developer evaluation."
+      ],
+      "source_links": [
+        "https://huggingface.co/models",
+        "https://artificialanalysis.ai/leaderboards/models",
+        "https://openrouter.ai/chat",
+        "https://arena.ai/text/side-by-side"
+      ],
+      "source_details": [
+        {
+          "url": "https://huggingface.co/models",
+          "domain": "huggingface.co",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://artificialanalysis.ai/leaderboards/models",
+          "domain": "artificialanalysis.ai",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://openrouter.ai/chat",
+          "domain": "openrouter.ai",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://arena.ai/text/side-by-side",
+          "domain": "arena.ai",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 4,
+        "primary_source_count": 0,
+        "secondary_source_count": 4,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.92,
+      "reasoning": "Maintained Breakthrough stage and High velocity. With millions of models now available on registries like Hugging Face, automated benchmarking and interactive evaluation platforms are critical for engineering decisions.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [
+          "https://artificialanalysis.ai/leaderboards/models"
+        ],
+        "dropped_sources": [
+          "https://llm-explorer.com"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-08-21T15:00:35.180827Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
