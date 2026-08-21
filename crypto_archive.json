@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-21T10:01:01.651473Z",
+  "last_updated": "2026-08-21T16:02:01.992483Z",
   "archived_trends": [
     {
       "name": "Cross-Chain Liquidity Solutions",
@@ -23190,6 +23190,169 @@
         "summary_changed": true
       },
       "archived_at": "2026-08-20T04:01:04.961544Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "ethereum-evm-dominance-and-competition-from-bitcoin-smart-contracts",
+      "name": "Ethereum EVM Dominance and Competition from Bitcoin Smart Contracts",
+      "stage": "Breakthrough",
+      "velocity": "High",
+      "category": "Layer 1",
+      "summary": "Ethereum maintains its position as the dominant smart contract platform and primary DeFi liquidity engine, but faces architectural challenges from Bitcoin-native execution layers. Languages like Clarity offer non-Turing-complete, decidable smart contracts designed to mathematically eliminate reentrancy vulnerabilities inherent to the EVM.",
+      "evidence": [
+        "Ethereum anchors institutional dApp development, staking ecosystems, and enterprise blockchain initiatives like the Ethereum Enterprise Alliance.",
+        "Decidability features in alternative smart contract languages like Clarity enable static verification of program logic prior to execution on Bitcoin layers.",
+        "Developers are seeking alternatives to Turing-complete EVM execution to eliminate smart contract hack risks and high gas unpredictability."
+      ],
+      "source_links": [
+        "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+        "https://ethereum.org",
+        "https://ethereum.org/what-is-ether",
+        "https://etherscan.io",
+        "https://coinmarketcap.com/currencies/ethereum"
+      ],
+      "source_details": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        },
+        {
+          "url": "https://ethereum.org",
+          "domain": "ethereum.org",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://ethereum.org/what-is-ether",
+          "domain": "ethereum.org",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://etherscan.io",
+          "domain": "etherscan.io",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://coinmarketcap.com/currencies/ethereum",
+          "domain": "coinmarketcap.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 5,
+        "primary_source_count": 2,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 1,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.93,
+      "reasoning": "Stays in Breakthrough as Bitcoin-native smart contract architectures demonstrate proven security advantages against EVM vulnerabilities while Ethereum retains core liquidity.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [
+          "https://coinmarketcap.com/currencies/ethereum",
+          "https://etherscan.io"
+        ],
+        "dropped_sources": [
+          "https://en.wikipedia.org/wiki/Ethereum"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-08-21T16:02:01.992483Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "decentralized-native-btc-to-eth-cross-chain-liquidity-protocols",
+      "name": "Decentralized Native BTC-to-ETH Cross-Chain Liquidity Protocols",
+      "stage": "Incubation",
+      "velocity": "High",
+      "category": "DeFi",
+      "summary": "Direct, bridge-less liquidity routing protocols are emerging to connect native Bitcoin capital directly with Ethereum DeFi. These cross-chain frameworks aim to replace custodial wrapped tokens and centralized bridge contracts with non-custodial state verification and automated liquidity aggregation.",
+      "evidence": [
+        "Legacy cross-chain wrapped bridges remain major attack vectors for multi-million dollar DeFi exploits.",
+        "Non-custodial swap tools and liquidity aggregators like Symbiosis and LiFi enable seamless multi-chain execution without intermediate asset wrapping.",
+        "Protocols are optimizing decentralized state verification to unlock dormant Bitcoin capital directly into Ethereum applications."
+      ],
+      "source_links": [
+        "https://support.blockchain.com/hc/en-us/articles/11385610019868-Cross-Chain-Swaps-FAQs",
+        "https://symbiosis.finance",
+        "https://bitcoin.tax/blog/cross-chain-liquidity-2025",
+        "https://coincub.com/blog/cross-chain-liquidity-simplifying-crypto-swaps-with-non-custodial-tools",
+        "https://www.chainup.com/blog/cross-chain-trading-crypto-liquidity"
+      ],
+      "source_details": [
+        {
+          "url": "https://support.blockchain.com/hc/en-us/articles/11385610019868-Cross-Chain-Swaps-FAQs",
+          "domain": "support.blockchain.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://symbiosis.finance",
+          "domain": "symbiosis.finance",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://bitcoin.tax/blog/cross-chain-liquidity-2025",
+          "domain": "bitcoin.tax",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://coincub.com/blog/cross-chain-liquidity-simplifying-crypto-swaps-with-non-custodial-tools",
+          "domain": "coincub.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.chainup.com/blog/cross-chain-trading-crypto-liquidity",
+          "domain": "chainup.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 5,
+        "primary_source_count": 0,
+        "secondary_source_count": 5,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.91,
+      "reasoning": "Remains in Incubation as non-custodial cross-chain state verification protocols undergo active development and early adoption across decentralized exchanges.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Incubation",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [
+          "https://support.blockchain.com/hc/en-us/articles/11385610019868-Cross-Chain-Swaps-FAQs",
+          "https://symbiosis.finance",
+          "https://www.chainup.com/blog/cross-chain-trading-crypto-liquidity"
+        ],
+        "dropped_sources": [
+          "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-08-21T16:02:01.992483Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
