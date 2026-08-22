@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-08-22 04:01
+# Tax Intelligence Briefing - 2026-08-22 10:01
 
-As of mid-2026, global tax and trade frameworks continue to experience rapid transformation driven by the scaling of the OECD's 15% Pillar Two global minimum tax standard and intensified regional digital tax compliance mandates like Singapore's Peppol-based InvoiceNow. Simultaneously, international trade faces high volatility, highlighted by ongoing executive tariff adjustments, potential trade pact revisions between the U.S. and Canada, and pivotal judicial reviews concerning emergency trade powers.
+Mid-2026 international trade and tax policy frameworks are undergoing structural shifts marked by the global rollout of the OECD Pillar Two 15% minimum tax standard, escalating trade friction accompanied by key judicial challenges to executive emergency tariffs, and localized corporate tax incentive realignments across ASEAN economies. Additionally, tax authorities continue to mandate Peppol-based e-invoicing frameworks like Singapore's InvoiceNow to automate continuous transaction controls.
