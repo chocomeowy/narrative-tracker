@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-22T16:01:37.773713Z",
-  "executive_briefing": "International trade and tax policy frameworks in mid-2026 continue to experience structural volatility and transformation. The global implementation of the OECD Pillar Two 15% minimum corporate tax standard is progressing across approximately 140 jurisdictions, standardizing effective tax rates and information reporting. Meanwhile, international trade relations face intense friction characterized by aggressive bilateral tariffs, such as significant levies on Canadian goods following stalled trade talks, and ongoing judicial scrutiny over executive tariff powers. Regionally, ASEAN economies continue to calibrate corporate tax incentives and direct rebates to sustain foreign investment appeal, while tax authorities globally rapidly enforce Peppol-based e-invoicing and continuous transaction controls to automate compliance and bridge indirect tax gaps.",
+  "last_updated": "2026-08-22T22:01:41.816973Z",
+  "executive_briefing": "International trade and tax policy frameworks in mid-2026 continue to experience structural volatility and transformation. The global implementation of the OECD Pillar Two 15% minimum corporate tax standard is progressing across approximately 140 jurisdictions, standardizing effective tax rates and information reporting. Meanwhile, international trade relations face intense friction characterized by aggressive bilateral tariffs, ongoing judicial scrutiny over executive trade powers, and dynamic multilateral trade reviews. Regionally, ASEAN economies continue to calibrate corporate tax incentives and direct rebates to sustain foreign investment appeal, while tax authorities globally rapidly enforce Peppol-based e-invoicing and continuous transaction controls to automate compliance and bridge indirect tax gaps.",
   "trends": [
     {
       "id": "oecd-pillar-two-global-minimum-tax-implementation",
@@ -10,7 +10,7 @@
       "category": "Corporate Tax",
       "summary": "The OECD Pillar Two framework enforcing a 15% global minimum corporate tax rate continues active execution across roughly 140 jurisdictions, backed by updated OECD corporate tax statistics and Inclusive Framework databases.",
       "evidence": [
-        "The OECD published 2026 corporate income tax rates datasets for all Inclusive Framework jurisdictions.",
+        "The OECD published updated 2026 corporate income tax rates datasets and standard withholding tax data for all Inclusive Framework jurisdictions.",
         "Approximately 140 countries are actively adopting or enforcing the 15% global minimum tax on large multinational enterprise profits."
       ],
       "source_links": [
@@ -70,13 +70,9 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [
-          "https://www.oecd.org/en/data/datasets/corporate-income-tax-rates-database.html"
-        ],
-        "dropped_sources": [
-          "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html"
-        ],
-        "summary_changed": true
+        "new_sources": [],
+        "dropped_sources": [],
+        "summary_changed": false
       }
     },
     {
@@ -85,16 +81,17 @@
       "stage": "Peak Hype",
       "velocity": "Fast",
       "category": "Tariffs",
-      "summary": "Global trade remains highly unpredictable due to aggressive unilateral tariff actions, such as major punitive import duties on key trade partners following stalled negotiations, alongside ongoing legal challenges regarding executive trade powers.",
+      "summary": "Global trade remains highly unpredictable due to aggressive unilateral tariff actions, ongoing legal challenges regarding executive trade powers, and upcoming trilateral reviews of major trade agreements.",
       "evidence": [
-        "Recent trade developments indicate aggressive tariff deployments, including major levies on Canadian goods after trade talks failed.",
-        "Independent trade commissions and international monitors maintain close tracking of escalating import restrictions and supply chain adjustments."
+        "Recent trade developments indicate aggressive tariff deployments and ongoing discussions between the U.S., Canada, and Mexico.",
+        "The U.S. Supreme Court and Court of International Trade face active legal challenges regarding the legality of tariffs imposed under emergency executive authorities."
       ],
       "source_links": [
         "https://www.reuters.com/business/tariffs",
-        "https://www.usitc.gov",
-        "https://tariffcheck.org/updates",
-        "https://www.spglobal.com/market-intelligence/en/news-insights/topics/international-trade-tariffs-news"
+        "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war",
+        "https://apnews.com/hub/tariffs",
+        "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
+        "https://www.tradecomplianceresourcehub.com/2026/07/27/trump-2-0-tariff-tracker"
       ],
       "source_details": [
         {
@@ -104,35 +101,41 @@
           "published_date": null
         },
         {
-          "url": "https://www.usitc.gov",
-          "domain": "usitc.gov",
-          "type": "primary",
-          "published_date": null
-        },
-        {
-          "url": "https://tariffcheck.org/updates",
-          "domain": "tariffcheck.org",
+          "url": "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war",
+          "domain": "taxfoundation.org",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.spglobal.com/market-intelligence/en/news-insights/topics/international-trade-tariffs-news",
-          "domain": "spglobal.com",
+          "url": "https://apnews.com/hub/tariffs",
+          "domain": "apnews.com",
           "type": "secondary",
           "published_date": null
+        },
+        {
+          "url": "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
+          "domain": "jpmorgan.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.tradecomplianceresourcehub.com/2026/07/27/trump-2-0-tariff-tracker",
+          "domain": "tradecomplianceresourcehub.com",
+          "type": "secondary",
+          "published_date": "2026-07-27"
         }
       ],
       "source_quality": {
-        "total_sources": 4,
-        "primary_source_count": 1,
-        "secondary_source_count": 3,
+        "total_sources": 5,
+        "primary_source_count": 0,
+        "secondary_source_count": 5,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
-        "has_primary_sources": true,
-        "source_risk": "low"
+        "has_primary_sources": false,
+        "source_risk": "medium"
       },
       "confidence": 0.98,
-      "reasoning": "Sustains Peak Hype due to sudden aggressive tariff spikes and high market uncertainty regarding international trade agreements.",
+      "reasoning": "Sustains Peak Hype due to sudden aggressive tariff spikes, legal scrutiny, and high market uncertainty regarding international trade agreements.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -141,15 +144,15 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
-          "https://tariffcheck.org/updates",
-          "https://www.spglobal.com/market-intelligence/en/news-insights/topics/international-trade-tariffs-news",
-          "https://www.usitc.gov"
-        ],
-        "dropped_sources": [
           "https://apnews.com/hub/tariffs",
           "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war",
           "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
           "https://www.tradecomplianceresourcehub.com/2026/07/27/trump-2-0-tariff-tracker"
+        ],
+        "dropped_sources": [
+          "https://tariffcheck.org/updates",
+          "https://www.spglobal.com/market-intelligence/en/news-insights/topics/international-trade-tariffs-news",
+          "https://www.usitc.gov"
         ],
         "summary_changed": true
       }
@@ -209,10 +212,8 @@
         "velocity_delta": 0,
         "previous_velocity": "Medium",
         "new_sources": [],
-        "dropped_sources": [
-          "https://pathmakerid.com/blog/corporate-tax-rates-in-asia-2026-a-9-country-asean-comparison"
-        ],
-        "summary_changed": true
+        "dropped_sources": [],
+        "summary_changed": false
       }
     },
     {
@@ -227,41 +228,34 @@
         "Adoption of Peppol standards enables automated, direct transmission of invoice data to tax authorities to minimize compliance gaps."
       ],
       "source_links": [
-        "https://kpmg.com/us/en/taxnewsflash/news/2026/02/singapore-e-invoicing-mandate-compliance-deadlines.html",
-        "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
-        "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
-        "https://www.cleartax.com/sg/en/e-invoicing-singapore"
+        "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement",
+        "https://www.comarch.com/trade-and-services/data-management/e-invoicing/e-invoicing-in-singapore",
+        "https://europe.thomsonreuters.com/compliance/regulatory-updates/singapore"
       ],
       "source_details": [
         {
-          "url": "https://kpmg.com/us/en/taxnewsflash/news/2026/02/singapore-e-invoicing-mandate-compliance-deadlines.html",
-          "domain": "kpmg.com",
-          "type": "secondary",
-          "published_date": "2026-02-01"
-        },
-        {
-          "url": "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
-          "domain": "avalara.com",
-          "type": "secondary",
-          "published_date": "2026-03-01"
-        },
-        {
-          "url": "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
-          "domain": "imda.gov.sg",
+          "url": "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement",
+          "domain": "iras.gov.sg",
           "type": "primary",
           "published_date": null
         },
         {
-          "url": "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-          "domain": "cleartax.com",
+          "url": "https://www.comarch.com/trade-and-services/data-management/e-invoicing/e-invoicing-in-singapore",
+          "domain": "comarch.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://europe.thomsonreuters.com/compliance/regulatory-updates/singapore",
+          "domain": "europe.thomsonreuters.com",
           "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 4,
+        "total_sources": 3,
         "primary_source_count": 1,
-        "secondary_source_count": 3,
+        "secondary_source_count": 2,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
@@ -277,25 +271,24 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
+          "https://europe.thomsonreuters.com/compliance/regulatory-updates/singapore",
+          "https://www.comarch.com/trade-and-services/data-management/e-invoicing/e-invoicing-in-singapore",
+          "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement"
+        ],
+        "dropped_sources": [
           "https://kpmg.com/us/en/taxnewsflash/news/2026/02/singapore-e-invoicing-mandate-compliance-deadlines.html",
           "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
           "https://www.cleartax.com/sg/en/e-invoicing-singapore",
           "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework"
         ],
-        "dropped_sources": [
-          "https://edicomgroup.com/blog/singapore-encourages-the-use-of-e-invoicing-with-peppol",
-          "https://europe.thomsonreuters.com/compliance/regulatory-updates/singapore",
-          "https://www.comarch.com/trade-and-services/data-management/e-invoicing/e-invoicing-in-singapore",
-          "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement"
-        ],
-        "summary_changed": true
+        "summary_changed": false
       }
     }
   ],
   "intelligence_metadata": {
     "agent": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-08-22T16:01:37.773713Z",
+    "timestamp": "2026-08-22T22:01:41.816973Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -306,7 +299,7 @@
       "status": "success",
       "model": "gemini-3.5-flash-lite",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-08-22T16:01:37.773713Z",
+      "timestamp": "2026-08-22T22:01:41.816973Z",
       "search_result_count": 40,
       "validation_error_count": 0,
       "validation_failures": []
@@ -316,7 +309,7 @@
     "status": "success",
     "model": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-08-22T16:01:37.773713Z",
+    "timestamp": "2026-08-22T22:01:41.816973Z",
     "search_result_count": 40,
     "validation_error_count": 0,
     "validation_failures": []
