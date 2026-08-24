@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-23T22:01:15.833810Z",
-  "executive_briefing": "In mid-2026, global corporate tax and trade policy is defined by the operationalization of OECD Pillar Two's 15% global minimum tax across roughly 140 jurisdictions, complemented by published 2026 OECD withholding and standard corporate rate datasets. Concurrently, trade policy remains highly volatile, driven by aggressive executive tariff mandates and ongoing court challenges concerning IEEPA authority. Regionally, ASEAN economies are actively adjusting corporate tax structures and rebates to maintain regional investment appeal in the post-Pillar Two environment. Meanwhile, indirect tax administration continues its structural migration toward mandatory continuous transaction controls, led by multi-year Peppol-based e-invoicing mandates such as Singapore's GST InvoiceNow rollout through 2031.",
+  "last_updated": "2026-08-24T04:01:47.881416Z",
+  "executive_briefing": "In mid-2026, global corporate tax and trade policy is heavily defined by the operationalization of OECD Pillar Two's 15% global minimum tax across roughly 140 jurisdictions, complemented by published 2026 OECD withholding and standard corporate rate datasets. Concurrently, trade policy remains highly volatile, driven by aggressive executive tariff mandates and ongoing court challenges concerning IEEPA authority and upcoming Supreme Court reviews. Regionally, ASEAN economies are actively adjusting corporate tax structures, rebates, and withholding rules to maintain regional investment appeal in the post-Pillar Two environment. Meanwhile, indirect tax administration continues its structural migration toward mandatory continuous transaction controls, led by multi-year Peppol-based e-invoicing mandates such as Singapore's GST InvoiceNow rollout stretching through 2031.",
   "trends": [
     {
       "id": "oecd-pillar-two-global-minimum-tax-implementation",
@@ -15,8 +15,8 @@
       ],
       "source_links": [
         "https://www.oecd.org/en/data/datasets/corporate-income-tax-rates-database.html",
-        "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
-        "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax"
+        "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
+        "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html"
       ],
       "source_details": [
         {
@@ -26,14 +26,14 @@
           "published_date": null
         },
         {
-          "url": "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
-          "domain": "moodys.com",
+          "url": "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
+          "domain": "bdo.global",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax",
-          "domain": "taxfoundation.org",
+          "url": "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
+          "domain": "moodys.com",
           "type": "secondary",
           "published_date": null
         }
@@ -48,7 +48,7 @@
         "source_risk": "low"
       },
       "confidence": 0.99,
-      "reasoning": "Remains firmly in the Breakthrough stage as international enforcement transitions into operational compliance backed by published 2026 OECD rate databases.",
+      "reasoning": "Remains firmly in the Breakthrough stage as international enforcement transitions into operational compliance backed by published 2026 OECD rate databases and updated BDO global tax datasets.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -56,11 +56,13 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [],
-        "dropped_sources": [
-          "https://www.deloitte.com/us/en/services/audit-assurance/articles/pillar-two-tax.html"
+        "new_sources": [
+          "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026"
         ],
-        "summary_changed": true
+        "dropped_sources": [
+          "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax"
+        ],
+        "summary_changed": false
       }
     },
     {
@@ -124,15 +126,9 @@
         "previous_stage": "Peak Hype",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [
-          "https://apnews.com/hub/tariffs",
-          "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war",
-          "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs"
-        ],
-        "dropped_sources": [
-          "https://ttd.wto.org/en"
-        ],
-        "summary_changed": true
+        "new_sources": [],
+        "dropped_sources": [],
+        "summary_changed": false
       }
     },
     {
@@ -189,13 +185,9 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Medium",
-        "new_sources": [
-          "https://www.mof.gov.sg/policies/taxes/corporate-income-tax"
-        ],
-        "dropped_sources": [
-          "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates"
-        ],
-        "summary_changed": true
+        "new_sources": [],
+        "dropped_sources": [],
+        "summary_changed": false
       }
     },
     {
@@ -252,25 +244,16 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [
-          "https://edicomgroup.com/blog/singapore-encourages-the-use-of-e-invoicing-with-peppol",
-          "https://www.comarch.com/trade-and-services/data-management/e-invoicing/e-invoicing-in-singapore",
-          "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement"
-        ],
-        "dropped_sources": [
-          "https://kpmg.com/us/en/taxnewsflash/news/2026/02/singapore-e-invoicing-mandate-compliance-deadlines.html",
-          "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
-          "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-          "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework"
-        ],
-        "summary_changed": true
+        "new_sources": [],
+        "dropped_sources": [],
+        "summary_changed": false
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.6-flash",
+    "agent": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-08-23T22:01:15.833810Z",
+    "timestamp": "2026-08-24T04:01:47.881416Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -279,9 +262,9 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.6-flash",
+      "model": "gemini-3.5-flash-lite",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-08-23T22:01:15.833810Z",
+      "timestamp": "2026-08-24T04:01:47.881416Z",
       "search_result_count": 40,
       "validation_error_count": 0,
       "validation_failures": []
@@ -289,9 +272,9 @@
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.6-flash",
+    "model": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-08-23T22:01:15.833810Z",
+    "timestamp": "2026-08-24T04:01:47.881416Z",
     "search_result_count": 40,
     "validation_error_count": 0,
     "validation_failures": []
