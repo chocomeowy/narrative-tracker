@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-08-28 16:01
+# Tax Intelligence Briefing - 2026-08-28 22:01
 
 Mid-2026 tax policy features highly targeted corporate relief mechanisms in competitive hubs like Singapore alongside the global baseline enforcement of Pillar Two's 15% minimum tax. While OECD statistics show a gradual decline in corporate effective tax rates (averaging 20.5% in 2025), countries are utilizing structured tax rebate cash grants and regional exemptions to preserve business attractiveness. Simultaneously, jurisdictions are locking in statutory timelines for digital VAT/GST compliance, spearheaded by Singapore's phased mandatory InvoiceNow e-invoicing starting in 2030. Unilateral tariffs and reciprocal trade barriers remain a major source of macroeconomic risk and corporate friction across key global trade corridors.
