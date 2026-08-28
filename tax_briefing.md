@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-08-27 22:01
+# Tax Intelligence Briefing - 2026-08-28 04:01
 
-As of late 2026, global corporate tax and trade policy are shaped by the critical operationalization of OECD Pillar Two global minimum tax rules across approximately 140 jurisdictions, targeted corporate income tax adjustments and rebates across key ASEAN economies, and volatile international trade policies dominated by retaliatory unilateral tariff actions. Concurrently, tax administrations are transitioning to continuous transaction controls, with Singapore establishing a formal, phased timeline through April 2031 for mandatory Peppol-based InvoiceNow e-invoicing for GST-registered businesses.
+As of mid-2026, global tax policy is dominated by three main forces: the operational enforcement of OECD Pillar Two global minimum tax rules across over 140 countries, escalating unilateral tariffs and trade litigation, and the structural rollout of digital Continuous Transaction Controls through mandatory Peppol-based e-invoicing regimes across key commercial hubs like Singapore.
