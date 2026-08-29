@@ -1,3 +1,3 @@
-# Crypto Intelligence Briefing - 2026-08-28 22:01
+# Crypto Intelligence Briefing - 2026-08-29 04:01
 
 Late-August 2026 intelligence indicates that U.S. Senate progress on the Digital Asset Market Clarity Act (H.R. 3633) is fundamentally restructuring market incentives, driving institutional capital beyond spot Bitcoin ETFs into smart contract platforms and tokenized infrastructure. While spot Bitcoin ETFs have entered a maturation phase, institutional focus is pivoting toward evaluating Ethereum's established EVM dApp ecosystem against emerging Bitcoin-native deterministic smart contract execution enabled by regulatory clarity. Concurrently, native BTC-to-ETH cross-chain liquidity protocols are maturing through non-custodial intent engines and threshold signature vaults, displacing traditional wrapped token bridge risks.
