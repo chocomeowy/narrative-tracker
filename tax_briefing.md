@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-08-30 10:01
+# Tax Intelligence Briefing - 2026-08-30 16:01
 
 Mid-2026 tax policy intelligence continues to track the global institutionalization of the OECD Pillar Two 15% minimum tax framework across roughly 140 jurisdictions, reinforced by the official release of the 2026 OECD Corporate Tax Statistics. Concurrently, regional hubs like Singapore are pairing corporate tax strategies and cash grants with mandatory Peppol-based e-invoicing networks (InvoiceNow) rolling out through 2031. On trade policy, high legal volatility persists surrounding emergency executive trade authorities, reciprocal tariffs, and ongoing judicial challenges under the U.S. Court of International Trade and Supreme Court.

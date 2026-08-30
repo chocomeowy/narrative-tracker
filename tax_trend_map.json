@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-30T10:01:42.828980Z",
+  "last_updated": "2026-08-30T16:01:46.599032Z",
   "executive_briefing": "Mid-2026 tax policy intelligence continues to track the global institutionalization of the OECD Pillar Two 15% minimum tax framework across roughly 140 jurisdictions, reinforced by the official release of the 2026 OECD Corporate Tax Statistics. Concurrently, regional hubs like Singapore are pairing corporate tax strategies and cash grants with mandatory Peppol-based e-invoicing networks (InvoiceNow) rolling out through 2031. On trade policy, high legal volatility persists surrounding emergency executive trade authorities, reciprocal tariffs, and ongoing judicial challenges under the U.S. Court of International Trade and Supreme Court.",
   "trends": [
     {
@@ -16,8 +16,8 @@
       "source_links": [
         "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html",
         "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en.html",
-        "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
-        "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html"
+        "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
+        "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax"
       ],
       "source_details": [
         {
@@ -33,14 +33,14 @@
           "published_date": null
         },
         {
-          "url": "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
-          "domain": "en.wikipedia.org",
-          "type": "wikipedia",
+          "url": "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
+          "domain": "moodys.com",
+          "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
-          "domain": "moodys.com",
+          "url": "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax",
+          "domain": "taxfoundation.org",
           "type": "secondary",
           "published_date": null
         }
@@ -48,8 +48,8 @@
       "source_quality": {
         "total_sources": 4,
         "primary_source_count": 1,
-        "secondary_source_count": 2,
-        "wikipedia_source_count": 1,
+        "secondary_source_count": 3,
+        "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
         "source_risk": "low"
@@ -63,9 +63,11 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [],
-        "dropped_sources": [
+        "new_sources": [
           "https://taxfoundation.org/taxedu/glossary/oecd-pillar-2-global-minimum-tax"
+        ],
+        "dropped_sources": [
+          "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate"
         ],
         "summary_changed": false
       }
@@ -83,9 +85,10 @@
       ],
       "source_links": [
         "https://www.reuters.com/business/tariffs",
-        "https://www.usitc.gov",
-        "https://tariffcheck.org/updates",
-        "https://www.bnnbloomberg.ca/tariffs"
+        "https://apnews.com/hub/tariffs",
+        "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war",
+        "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
+        "https://www.tradecomplianceresourcehub.com/2026/07/27/trump-2-0-tariff-tracker"
       ],
       "source_details": [
         {
@@ -95,32 +98,38 @@
           "published_date": null
         },
         {
-          "url": "https://www.usitc.gov",
-          "domain": "usitc.gov",
-          "type": "primary",
-          "published_date": null
-        },
-        {
-          "url": "https://tariffcheck.org/updates",
-          "domain": "tariffcheck.org",
+          "url": "https://apnews.com/hub/tariffs",
+          "domain": "apnews.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.bnnbloomberg.ca/tariffs",
-          "domain": "bnnbloomberg.ca",
+          "url": "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war",
+          "domain": "taxfoundation.org",
           "type": "secondary",
           "published_date": null
+        },
+        {
+          "url": "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
+          "domain": "jpmorgan.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.tradecomplianceresourcehub.com/2026/07/27/trump-2-0-tariff-tracker",
+          "domain": "tradecomplianceresourcehub.com",
+          "type": "secondary",
+          "published_date": "2026-07-27"
         }
       ],
       "source_quality": {
-        "total_sources": 4,
-        "primary_source_count": 1,
-        "secondary_source_count": 3,
+        "total_sources": 5,
+        "primary_source_count": 0,
+        "secondary_source_count": 5,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
-        "has_primary_sources": true,
-        "source_risk": "low"
+        "has_primary_sources": false,
+        "source_risk": "medium"
       },
       "confidence": 0.96,
       "reasoning": "Stays at Peak Hype due to ongoing high-stakes judicial reviews regarding executive trade authorities and heavy media tracking of retaliatory duties.",
@@ -132,15 +141,15 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
-          "https://tariffcheck.org/updates",
-          "https://www.bnnbloomberg.ca/tariffs",
-          "https://www.usitc.gov"
-        ],
-        "dropped_sources": [
           "https://apnews.com/hub/tariffs",
           "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war",
           "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
           "https://www.tradecomplianceresourcehub.com/2026/07/27/trump-2-0-tariff-tracker"
+        ],
+        "dropped_sources": [
+          "https://tariffcheck.org/updates",
+          "https://www.bnnbloomberg.ca/tariffs",
+          "https://www.usitc.gov"
         ],
         "summary_changed": false
       }
@@ -159,7 +168,7 @@
       "source_links": [
         "https://www.grantthornton.sg/insights/2026-insights/asean-6-tax-guide-2026",
         "https://www.iras.gov.sg/taxes/corporate-income-tax/basics-of-corporate-income-tax/basic-guide-to-corporate-income-tax-for-companies",
-        "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income"
+        "https://amro-asia.org/global-tax-reform-what-lies-ahead-for-asean3"
       ],
       "source_details": [
         {
@@ -175,8 +184,8 @@
           "published_date": null
         },
         {
-          "url": "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
-          "domain": "taxsummaries.pwc.com",
+          "url": "https://amro-asia.org/global-tax-reform-what-lies-ahead-for-asean3",
+          "domain": "amro-asia.org",
           "type": "secondary",
           "published_date": null
         }
@@ -200,10 +209,10 @@
         "velocity_delta": 0,
         "previous_velocity": "Medium",
         "new_sources": [
-          "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income"
+          "https://amro-asia.org/global-tax-reform-what-lies-ahead-for-asean3"
         ],
         "dropped_sources": [
-          "https://amro-asia.org/global-tax-reform-what-lies-ahead-for-asean3"
+          "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income"
         ],
         "summary_changed": false
       }
@@ -221,9 +230,9 @@
       ],
       "source_links": [
         "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement",
-        "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-        "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
-        "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html"
+        "https://www.comarch.com/trade-and-services/data-management/e-invoicing/e-invoicing-in-singapore",
+        "https://edicomgroup.com/blog/singapore-encourages-the-use-of-e-invoicing-with-peppol",
+        "https://europe.thomsonreuters.com/compliance/regulatory-updates/singapore"
       ],
       "source_details": [
         {
@@ -233,28 +242,28 @@
           "published_date": null
         },
         {
-          "url": "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-          "domain": "cleartax.com",
+          "url": "https://www.comarch.com/trade-and-services/data-management/e-invoicing/e-invoicing-in-singapore",
+          "domain": "comarch.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
-          "domain": "imda.gov.sg",
-          "type": "primary",
+          "url": "https://edicomgroup.com/blog/singapore-encourages-the-use-of-e-invoicing-with-peppol",
+          "domain": "edicomgroup.com",
+          "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
-          "domain": "avalara.com",
+          "url": "https://europe.thomsonreuters.com/compliance/regulatory-updates/singapore",
+          "domain": "europe.thomsonreuters.com",
           "type": "secondary",
-          "published_date": "2026-03-01"
+          "published_date": null
         }
       ],
       "source_quality": {
         "total_sources": 4,
-        "primary_source_count": 2,
-        "secondary_source_count": 2,
+        "primary_source_count": 1,
+        "secondary_source_count": 3,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
@@ -270,14 +279,14 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
-          "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
-          "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-          "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework"
-        ],
-        "dropped_sources": [
           "https://edicomgroup.com/blog/singapore-encourages-the-use-of-e-invoicing-with-peppol",
           "https://europe.thomsonreuters.com/compliance/regulatory-updates/singapore",
           "https://www.comarch.com/trade-and-services/data-management/e-invoicing/e-invoicing-in-singapore"
+        ],
+        "dropped_sources": [
+          "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
+          "https://www.cleartax.com/sg/en/e-invoicing-singapore",
+          "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework"
         ],
         "summary_changed": false
       }
@@ -286,7 +295,7 @@
   "intelligence_metadata": {
     "agent": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-08-30T10:01:42.828980Z",
+    "timestamp": "2026-08-30T16:01:46.599032Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -297,7 +306,7 @@
       "status": "success",
       "model": "gemini-3.5-flash-lite",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-08-30T10:01:42.828980Z",
+      "timestamp": "2026-08-30T16:01:46.599032Z",
       "search_result_count": 40,
       "validation_error_count": 0,
       "validation_failures": []
@@ -307,7 +316,7 @@
     "status": "success",
     "model": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-08-30T10:01:42.828980Z",
+    "timestamp": "2026-08-30T16:01:46.599032Z",
     "search_result_count": 40,
     "validation_error_count": 0,
     "validation_failures": []
