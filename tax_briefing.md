@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-09-02 22:01
+# Tax Intelligence Briefing - 2026-09-03 04:01
 
 The global tax and trade environment continues to evolve rapidly around the operational maturity of Pillar Two, ongoing adjustments to national corporate tax rates, and bilateral tariff negotiations. Approximately 140 jurisdictions are actively enforcing the 15% global minimum tax backed by updated OECD statistics. Meanwhile, trade authorities such as the USITC and international partners continue to manage volatile tariff developments, while countries like Singapore advance their mandatory e-invoicing and real-time transaction reporting requirements.
