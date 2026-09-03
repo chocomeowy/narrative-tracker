@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-03T16:01:45.847768Z",
+  "last_updated": "2026-09-03T22:01:43.987094Z",
   "executive_briefing": "The global tax and trade environment continues to evolve rapidly around the operational maturity of Pillar Two, ongoing adjustments to national corporate tax rates, and bilateral tariff negotiations. Approximately 140 jurisdictions are actively enforcing the 15% global minimum tax backed by updated OECD statistics. Meanwhile, trade authorities such as the USITC and international partners continue to manage volatile tariff developments, while countries like Singapore advance their mandatory e-invoicing and real-time transaction reporting requirements.",
   "trends": [
     {
@@ -63,13 +63,8 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [
-          "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
-          "https://home.treasury.gov/news/press-releases/jy1243"
-        ],
-        "dropped_sources": [
-          "https://www.deloitte.com/an/en/services/tax/perspectives/oecd-pillar-two.html"
-        ],
+        "new_sources": [],
+        "dropped_sources": [],
         "summary_changed": false
       }
     },
@@ -86,9 +81,9 @@
       ],
       "source_links": [
         "https://www.reuters.com/business/tariffs",
-        "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
-        "https://www.spglobal.com/market-intelligence/en/news-insights/topics/international-trade-tariffs-news",
-        "https://ttd.wto.org/en"
+        "https://apnews.com/hub/tariffs",
+        "https://taxfoundation.org/research/federal-tax/trump-tariffs-trade-war",
+        "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs"
       ],
       "source_details": [
         {
@@ -98,32 +93,32 @@
           "published_date": null
         },
         {
-          "url": "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
-          "domain": "usitc.gov",
-          "type": "primary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.spglobal.com/market-intelligence/en/news-insights/topics/international-trade-tariffs-news",
-          "domain": "spglobal.com",
+          "url": "https://apnews.com/hub/tariffs",
+          "domain": "apnews.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://ttd.wto.org/en",
-          "domain": "ttd.wto.org",
-          "type": "primary",
+          "url": "https://taxfoundation.org/research/federal-tax/trump-tariffs-trade-war",
+          "domain": "taxfoundation.org",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
+          "domain": "jpmorgan.com",
+          "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
         "total_sources": 4,
-        "primary_source_count": 2,
-        "secondary_source_count": 2,
+        "primary_source_count": 0,
+        "secondary_source_count": 4,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
-        "has_primary_sources": true,
-        "source_risk": "low"
+        "has_primary_sources": false,
+        "source_risk": "medium"
       },
       "confidence": 0.97,
       "reasoning": "Remains in Peak Hype as trade frictions, ongoing administrative updates, and high-frequency policy announcements dominate global trade news.",
@@ -135,13 +130,14 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
+          "https://apnews.com/hub/tariffs",
+          "https://taxfoundation.org/research/federal-tax/trump-tariffs-trade-war",
+          "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs"
+        ],
+        "dropped_sources": [
           "https://ttd.wto.org/en",
           "https://www.spglobal.com/market-intelligence/en/news-insights/topics/international-trade-tariffs-news",
           "https://www.usitc.gov/harmonized_tariff_information/announcement_archive"
-        ],
-        "dropped_sources": [
-          "https://ustr.gov/trade-topics/presidential-tariff-actions",
-          "https://www.avalara.com/us/en/learn/guides/us-tariffs-by-country.html"
         ],
         "summary_changed": false
       }
@@ -158,24 +154,12 @@
         "Global databases indicate active adjustments to corporate and withholding tax rates taking effect."
       ],
       "source_links": [
-        "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html",
-        "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en.html",
         "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
-        "https://ledgerism.net/corporate-tax-rate-database-2026"
+        "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025",
+        "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en/full-report/corporate-effective-tax-rates_1ef65f9a.html",
+        "https://www.oecd.org/en/data/datasets/corporate-income-tax-rates-database.html"
       ],
       "source_details": [
-        {
-          "url": "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html",
-          "domain": "kpmg.com",
-          "type": "secondary",
-          "published_date": "2026-07-01"
-        },
-        {
-          "url": "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en.html",
-          "domain": "oecd.org",
-          "type": "primary",
-          "published_date": null
-        },
         {
           "url": "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
           "domain": "bdo.global",
@@ -183,16 +167,28 @@
           "published_date": null
         },
         {
-          "url": "https://ledgerism.net/corporate-tax-rate-database-2026",
-          "domain": "ledgerism.net",
+          "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025",
+          "domain": "taxfoundation.org",
           "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en/full-report/corporate-effective-tax-rates_1ef65f9a.html",
+          "domain": "oecd.org",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.oecd.org/en/data/datasets/corporate-income-tax-rates-database.html",
+          "domain": "oecd.org",
+          "type": "primary",
           "published_date": null
         }
       ],
       "source_quality": {
         "total_sources": 4,
-        "primary_source_count": 1,
-        "secondary_source_count": 3,
+        "primary_source_count": 2,
+        "secondary_source_count": 2,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
@@ -208,9 +204,15 @@
         "velocity_delta": 0,
         "previous_velocity": "Medium",
         "new_sources": [
-          "https://ledgerism.net/corporate-tax-rate-database-2026"
+          "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025",
+          "https://www.oecd.org/en/data/datasets/corporate-income-tax-rates-database.html",
+          "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en/full-report/corporate-effective-tax-rates_1ef65f9a.html"
         ],
-        "dropped_sources": [],
+        "dropped_sources": [
+          "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html",
+          "https://ledgerism.net/corporate-tax-rate-database-2026",
+          "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en.html"
+        ],
         "summary_changed": false
       }
     },
@@ -226,41 +228,27 @@
         "Regional tax guides outline extensive adjustments to corporate tax rules and incentives across major ASEAN nations."
       ],
       "source_links": [
-        "https://pathmakerid.com/blog/corporate-tax-rates-in-asia-2026-a-9-country-asean-comparison",
-        "https://investinasia.com/blog/corporate-tax-rates-in-asia",
-        "https://lifeindexed.com/tax/asia",
-        "https://www.grantthornton.sg/insights/2026-insights/asean-6-tax-guide-2026"
+        "https://www.grantthornton.sg/insights/2026-insights/asean-6-tax-guide-2026",
+        "https://tradingeconomics.com/country-list/corporate-tax-rate?continent=asia"
       ],
       "source_details": [
-        {
-          "url": "https://pathmakerid.com/blog/corporate-tax-rates-in-asia-2026-a-9-country-asean-comparison",
-          "domain": "pathmakerid.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://investinasia.com/blog/corporate-tax-rates-in-asia",
-          "domain": "investinasia.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://lifeindexed.com/tax/asia",
-          "domain": "lifeindexed.com",
-          "type": "secondary",
-          "published_date": null
-        },
         {
           "url": "https://www.grantthornton.sg/insights/2026-insights/asean-6-tax-guide-2026",
           "domain": "grantthornton.sg",
           "type": "secondary",
           "published_date": null
+        },
+        {
+          "url": "https://tradingeconomics.com/country-list/corporate-tax-rate?continent=asia",
+          "domain": "tradingeconomics.com",
+          "type": "secondary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 4,
+        "total_sources": 2,
         "primary_source_count": 0,
-        "secondary_source_count": 4,
+        "secondary_source_count": 2,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": false,
@@ -276,12 +264,12 @@
         "velocity_delta": 0,
         "previous_velocity": "Medium",
         "new_sources": [
+          "https://tradingeconomics.com/country-list/corporate-tax-rate?continent=asia"
+        ],
+        "dropped_sources": [
           "https://investinasia.com/blog/corporate-tax-rates-in-asia",
           "https://lifeindexed.com/tax/asia",
           "https://pathmakerid.com/blog/corporate-tax-rates-in-asia-2026-a-9-country-asean-comparison"
-        ],
-        "dropped_sources": [
-          "https://amro-asia.org/global-tax-reform-what-lies-ahead-for-asean3"
         ],
         "summary_changed": false
       }
@@ -347,17 +335,8 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [
-          "https://edicomgroup.com/blog/singapore-encourages-the-use-of-e-invoicing-with-peppol",
-          "https://europe.thomsonreuters.com/compliance/regulatory-updates/singapore",
-          "https://www.comarch.com/trade-and-services/data-management/e-invoicing/e-invoicing-in-singapore",
-          "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement"
-        ],
-        "dropped_sources": [
-          "https://tax.thomsonreuters.com/blog/what-is-e-invoicing",
-          "https://www.avalara.com/blog/en/europe/2026/03/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
-          "https://www.cleartax.com/sg/en/e-invoicing-singapore"
-        ],
+        "new_sources": [],
+        "dropped_sources": [],
         "summary_changed": false
       }
     }
@@ -365,7 +344,7 @@
   "intelligence_metadata": {
     "agent": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-09-03T16:01:45.847768Z",
+    "timestamp": "2026-09-03T22:01:43.987094Z",
     "active_narratives": 5,
     "validation": {
       "accepted": 5,
@@ -376,7 +355,7 @@
       "status": "success",
       "model": "gemini-3.5-flash-lite",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-09-03T16:01:45.847768Z",
+      "timestamp": "2026-09-03T22:01:43.987094Z",
       "search_result_count": 40,
       "validation_error_count": 0,
       "validation_failures": []
@@ -386,7 +365,7 @@
     "status": "success",
     "model": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-09-03T16:01:45.847768Z",
+    "timestamp": "2026-09-03T22:01:43.987094Z",
     "search_result_count": 40,
     "validation_error_count": 0,
     "validation_failures": []
