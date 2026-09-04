@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-09-04 16:01
+# Tax Intelligence Briefing - 2026-09-04 22:01
 
-The 2026 global tax landscape is defined by the operationalization of the OECD Pillar Two 15% global minimum tax across roughly 140 jurisdictions, triggering statutory corporate tax rate realignments worldwide and strategic restructuring across ASEAN economies. Concurrently, trade policy remains volatile amid ongoing litigation over IEEPA-backed tariffs and judicial injunctions, while digital tax administration accelerates through mandatory Peppol-based e-invoicing timelines like Singapore's InvoiceNow initiative.
+The 2026 global tax landscape is defined by the operationalization of the OECD Pillar Two 15% global minimum tax across roughly 140 jurisdictions, triggering statutory corporate tax rate realignments worldwide and strategic restructuring across ASEAN economies. Concurrently, trade policy remains volatile amid ongoing litigation over emergency tariffs and judicial injunctions, while digital tax administration accelerates through mandatory Peppol-based e-invoicing timelines like Singapore's InvoiceNow initiative.
