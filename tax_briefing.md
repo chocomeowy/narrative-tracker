@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-09-06 04:01
+# Tax Intelligence Briefing - 2026-09-06 10:01
 
-In mid-2026, global tax policy is defined by operational enforcement of Pillar Two's 15% global minimum tax, active structural adjustments to domestic corporate tax rates, and intense legal friction surrounding executive tariff authority. While ASEAN economies balance local incentives with top-up mechanisms, tax administrations worldwide are expediting continuous transaction controls through standardized e-invoicing mandates such as Singapore's InvoiceNow.
+In 2026, global tax policy is defined by operational enforcement of OECD Pillar Two's 15% global minimum tax across approximately 140 jurisdictions, alongside structural corporate tax rate recalibrations across Europe, Asia, and the United States. Simultaneously, tax authorities are accelerating continuous transaction controls through standardized e-invoicing mandates, notably Singapore's Peppol-based InvoiceNow framework. Meanwhile, international trade policy faces elevated friction and policy volatility from unilateral executive tariffs and trade dispute adjudications.
