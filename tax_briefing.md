@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-09-08 10:01
+# Tax Intelligence Briefing - 2026-09-08 16:01
 
 Global tax and trade policy frameworks in 2026 are experiencing a profound structural transformation driven by the aggressive worldwide implementation of the OECD Pillar Two 15% global minimum tax. National tax authorities are actively modifying statutory corporate rates, withholding taxes, and targeted incentive regimes—particularly across key economic zones like ASEAN and Singapore—to balance international compliance with competitive investment preservation. Concurrently, indirect tax governance is rapidly accelerating toward mandatory real-time reporting, exemplified by Singapore's phased rollout of the GST InvoiceNow Peppol network. In international trade, unilateral tariffs and emergency trade powers remain subject to fierce legal scrutiny and administrative recalculations across major trade courts.
