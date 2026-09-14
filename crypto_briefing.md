@@ -1,3 +1,3 @@
-# Crypto Intelligence Briefing - 2026-09-14 16:00
+# Crypto Intelligence Briefing - 2026-09-14 22:01
 
-As of September 2026, the digital asset landscape is anchored by pivotal legislative momentum surrounding the U.S. Senate's upcoming procedural vote on the Digital Asset Market Clarity Act (H.R. 3633). Institutional spot Bitcoin ETFs have reached structural maturation with over $100B in AUM, prompting smart capital to rotate toward tokenized real-world assets, non-custodial yield, and cross-chain execution. Furthermore, statutory protections under the Clarity Act are accelerating native programmability on Bitcoin, challenging long-standing EVM dominance and expanding non-custodial intent-based liquidity routing across chains.
+As of September 2026, the digital asset landscape is defined by the Senate's imminent vote on the Digital Asset Market Clarity Act, establishing long-awaited market structure rules and statutory safe harbors. Institutional Bitcoin ETF allocations have stabilized into a mature asset class, shifting developer focus towards native Bitcoin programmability and intent-based cross-chain liquidity networks bridging BTC and EVM ecosystems.
