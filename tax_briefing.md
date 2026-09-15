@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-09-15 16:01
+# Tax Intelligence Briefing - 2026-09-15 22:02
 
 In late 2026, global tax and trade architectures continue to undergo rapid structural transformations. The OECD Pillar Two 15% global minimum tax is heavily enforced across over 140 jurisdictions, requiring multinationals to closely navigate complex Effective Tax Rate tracking, GIR filing deadlines, and carve-out rules. Concurrently, regional tax jurisdictions such as Singapore preserve stable competitive rates while fine-tuning incentives, alongside broader ASEAN adjustments. Digital tax enforcement continues to accelerate through mandatory Peppol-based e-invoicing networks like Singapore's GST InvoiceNow. Meanwhile, international supply chains remain pressured by volatile unilateral tariffs, reciprocal trade measures, and critical pending judicial reviews regarding emergency trade powers.
