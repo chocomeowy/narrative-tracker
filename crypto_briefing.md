@@ -1,3 +1,3 @@
-# Crypto Intelligence Briefing - 2026-09-14 22:01
+# Crypto Intelligence Briefing - 2026-09-15 04:01
 
-As of September 2026, the digital asset landscape is defined by the Senate's imminent vote on the Digital Asset Market Clarity Act, establishing long-awaited market structure rules and statutory safe harbors. Institutional Bitcoin ETF allocations have stabilized into a mature asset class, shifting developer focus towards native Bitcoin programmability and intent-based cross-chain liquidity networks bridging BTC and EVM ecosystems.
+As of September 2026, the digital asset ecosystem is anchored by the impending Senate vote on the Digital Asset Market Clarity Act, which offers statutory safe harbors for non-custodial developers and smart contract execution. Institutional Bitcoin ETF adoption has entered a mature consolidation phase around $100B+ AUM, shifting market momentum toward native Bitcoin programmability that challenges EVM dominance and non-custodial intent-based cross-chain liquidity networks linking BTC and Ethereum.
