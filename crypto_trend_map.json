@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-19T16:01:11.596252Z",
-  "executive_briefing": "In September 2026, the digital asset ecosystem navigates critical hurdles across regulatory clarity, institutional maturity, and cross-chain execution models. The Digital Asset Market Clarity Act (H.R. 3633) encountered a significant procedural roadblock after failing a Senate cloture vote, stalling comprehensive regulatory integration and prolonging uncertainty. Meanwhile, institutional engagement with Bitcoin continues to shift away from raw speculative spot ETF inflows toward multi-faceted corporate balance-sheet allocations, regulated custody, and structured products. On the technical front, developers are actively advancing cross-chain liquidity frameworks to minimize reliance on high-risk bridges, while programmable Bitcoin layers leveraging decidable frameworks like Clarity provide robust, high-assurance smart contract capabilities that aggressively challenge Ethereum's long-standing EVM dominance.",
+  "last_updated": "2026-09-19T22:01:03.726097Z",
+  "executive_briefing": "The digital asset ecosystem in September 2026 is defined by critical structural evolutions across regulatory, institutional, and smart contract paradigms. Bipartisan momentum for the Digital Asset Market Clarity Act (H.R. 3633) has hit a temporary plateau in the U.S. Senate due to procedural cloture roadblocks, despite unified committee texts. Bitcoin's institutional narrative continues to transition away from raw speculative ETF inflows toward mature custody, corporate treasuries, and systemic portfolio integration. This stabilization is mirrored technically by a rising challenge to Ethereum's EVM hegemony. Developers are increasingly looking toward deterministic, decidable programming languages like Clarity on Bitcoin-native layers to avoid reentrancy and runtime execution bugs. Concurrently, the rise of non-custodial cross-chain liquidity abstraction engines is replacing highly vulnerable lock-and-mint bridges, laying the groundwork for safe, decentralized multi-chain asset routing between BTC and EVM-compatible ecosystems.",
   "trends": [
     {
       "id": "clarity-act-legislative-consolidation-and-senate-cloture-setback",
@@ -16,7 +16,8 @@
       "source_links": [
         "https://www.congress.gov/bill/119th-congress/house-bill/3633/text",
         "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
-        "https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text"
+        "https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text",
+        "https://cryptoforinnovation.org/the-clarity-act-what-happened-and-whats-next"
       ],
       "source_details": [
         {
@@ -36,12 +37,18 @@
           "domain": "lummis.senate.gov",
           "type": "primary",
           "published_date": null
+        },
+        {
+          "url": "https://cryptoforinnovation.org/the-clarity-act-what-happened-and-whats-next",
+          "domain": "cryptoforinnovation.org",
+          "type": "secondary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 3,
+        "total_sources": 4,
         "primary_source_count": 3,
-        "secondary_source_count": 0,
+        "secondary_source_count": 1,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
@@ -57,12 +64,10 @@
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
         "new_sources": [
-          "https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text"
+          "https://cryptoforinnovation.org/the-clarity-act-what-happened-and-whats-next"
         ],
-        "dropped_sources": [
-          "https://www.thestreet.com/crypto/policy/live-clarity-act-faces-senate-cloture-vote-in-today"
-        ],
-        "summary_changed": true
+        "dropped_sources": [],
+        "summary_changed": false
       }
     },
     {
@@ -73,32 +78,20 @@
       "category": "Institutional Finance",
       "summary": "Institutional Bitcoin adoption has moved past initial high-velocity spot ETF hype into a steady phase of portfolio diversification, corporate treasury integrations, and structured derivatives use.",
       "evidence": [
-        "Spot ETFs continue to act as foundational gateways, but institutional capital focus is diversifying into macro asset strategies and prime custody services.",
-        "Corporate adoption has settled into systematic treasury allocation rather than speculative wave accumulation."
+        "Spot ETFs act as foundational gateways, holding over $100B in AUM, but capital allocation has diversified into systematic treasury allocations.",
+        "Institutional investors increasingly treat Bitcoin as a macro asset and portfolio diversifier, utilizing regulated derivatives and custody services over speculative accumulation."
       ],
       "source_links": [
-        "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
         "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
-        "https://cryptonium.cloud/articles/bitcoins-sovereign-embrace-decoding-2026-institutional-adoption-curve-macro-tailwinds",
         "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption",
-        "https://www.ark-invest.com/articles/analyst-research/bitcoins-evolving-institutional-role"
+        "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
+        "https://datos-insights.com/blog/bitcoin-etf-institutional-adoption",
+        "https://www.livebitcoinnews.com/bitcoin-etf-institutional"
       ],
       "source_details": [
         {
-          "url": "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
-          "domain": "cryptothreads.io",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
           "url": "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
           "domain": "spark.money",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://cryptonium.cloud/articles/bitcoins-sovereign-embrace-decoding-2026-institutional-adoption-curve-macro-tailwinds",
-          "domain": "cryptonium.cloud",
           "type": "secondary",
           "published_date": null
         },
@@ -109,8 +102,20 @@
           "published_date": null
         },
         {
-          "url": "https://www.ark-invest.com/articles/analyst-research/bitcoins-evolving-institutional-role",
-          "domain": "ark-invest.com",
+          "url": "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
+          "domain": "cryptothreads.io",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://datos-insights.com/blog/bitcoin-etf-institutional-adoption",
+          "domain": "datos-insights.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.livebitcoinnews.com/bitcoin-etf-institutional",
+          "domain": "livebitcoinnews.com",
           "type": "secondary",
           "published_date": null
         }
@@ -124,8 +129,8 @@
         "has_primary_sources": false,
         "source_risk": "medium"
       },
-      "confidence": 0.95,
-      "reasoning": "Remains in Fatigue because direct institutional appetite for raw spot ETF inflows has cooled into a structural, slow-growth holding pattern.",
+      "confidence": 0.96,
+      "reasoning": "Remains in Fatigue because direct institutional appetite for raw spot ETF inflows has cooled into a structural, slow-growth holding pattern dominated by corporate allocations and custody.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -134,18 +139,14 @@
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
         "new_sources": [
-          "https://cryptonium.cloud/articles/bitcoins-sovereign-embrace-decoding-2026-institutional-adoption-curve-macro-tailwinds",
-          "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
-          "https://www.ark-invest.com/articles/analyst-research/bitcoins-evolving-institutional-role",
-          "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption",
-          "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis"
+          "https://datos-insights.com/blog/bitcoin-etf-institutional-adoption",
+          "https://www.livebitcoinnews.com/bitcoin-etf-institutional"
         ],
         "dropped_sources": [
-          "https://bitcoinfoundation.org/news/bitcoin/beyond-bitcoin-etfs-where-smart-institutional-money-is-moving-next-in-2026",
-          "https://www.ssga.com/us/en/institutional/insights/why-bitcoin-institutional-demand-is-on-the-rise",
-          "https://www.vaneck.com/us/en/blogs/digital-assets/the-investment-case-for-bitcoin"
+          "https://cryptonium.cloud/articles/bitcoins-sovereign-embrace-decoding-2026-institutional-adoption-curve-macro-tailwinds",
+          "https://www.ark-invest.com/articles/analyst-research/bitcoins-evolving-institutional-role"
         ],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
@@ -164,7 +165,7 @@
         "https://en.wikipedia.org/wiki/Ethereum",
         "https://ethereum.org",
         "https://coinmarketcap.com/currencies/ethereum",
-        "https://www.coindesk.com/price/ethereum"
+        "https://www.coingecko.com/en/coins/ethereum"
       ],
       "source_details": [
         {
@@ -192,8 +193,8 @@
           "published_date": null
         },
         {
-          "url": "https://www.coindesk.com/price/ethereum",
-          "domain": "coindesk.com",
+          "url": "https://www.coingecko.com/en/coins/ethereum",
+          "domain": "coingecko.com",
           "type": "secondary",
           "published_date": null
         }
@@ -208,7 +209,7 @@
         "source_risk": "low"
       },
       "confidence": 0.94,
-      "reasoning": "Sustained in Breakthrough as developer interest in secure execution environments continues to erode the absolute monopoly of legacy EVM setups.",
+      "reasoning": "Sustained in Breakthrough as developer interest in secure, decidable execution environments continues to erode the absolute monopoly of legacy EVM setups.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -217,11 +218,12 @@
         "velocity_delta": 0,
         "previous_velocity": "High",
         "new_sources": [
-          "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+          "https://www.coingecko.com/en/coins/ethereum"
+        ],
+        "dropped_sources": [
           "https://www.coindesk.com/price/ethereum"
         ],
-        "dropped_sources": [],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
@@ -238,9 +240,9 @@
       "source_links": [
         "https://symbiosis.finance",
         "https://support.blockchain.com/hc/en-us/articles/11385610019868-Cross-Chain-Swaps-FAQs",
-        "https://coincub.com/blog/cross-chain-liquidity-simplifying-cross-chain-swaps-with-non-custodial-tools",
-        "https://bitcoin.tax/blog/cross-chain-liquidity-2025",
-        "https://www.chainup.com/blog/cross-chain-trading-crypto-liquidity"
+        "https://coincub.com/blog/cross-chain-liquidity-simplifying-crypto-swaps-with-non-custodial-tools",
+        "https://www.chainup.com/blog/cross-chain-trading-crypto-liquidity",
+        "https://bitcoin.tax/blog/cross-chain-liquidity-2025"
       ],
       "source_details": [
         {
@@ -256,20 +258,20 @@
           "published_date": null
         },
         {
-          "url": "https://coincub.com/blog/cross-chain-liquidity-simplifying-cross-chain-swaps-with-non-custodial-tools",
+          "url": "https://coincub.com/blog/cross-chain-liquidity-simplifying-crypto-swaps-with-non-custodial-tools",
           "domain": "coincub.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://bitcoin.tax/blog/cross-chain-liquidity-2025",
-          "domain": "bitcoin.tax",
           "type": "secondary",
           "published_date": null
         },
         {
           "url": "https://www.chainup.com/blog/cross-chain-trading-crypto-liquidity",
           "domain": "chainup.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://bitcoin.tax/blog/cross-chain-liquidity-2025",
+          "domain": "bitcoin.tax",
           "type": "secondary",
           "published_date": null
         }
@@ -284,7 +286,7 @@
         "source_risk": "medium"
       },
       "confidence": 0.96,
-      "reasoning": "Maintained in Breakthrough as architectural adoption accelerates to overcome systemic security risks associated with traditional cross-chain asset bridges.",
+      "reasoning": "Maintained in Breakthrough as architectural adoption of multi-chain routing networks accelerates to overcome systemic security risks associated with traditional cross-chain asset bridges.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -293,18 +295,19 @@
         "velocity_delta": 0,
         "previous_velocity": "High",
         "new_sources": [
-          "https://bitcoin.tax/blog/cross-chain-liquidity-2025",
-          "https://www.chainup.com/blog/cross-chain-trading-crypto-liquidity"
+          "https://coincub.com/blog/cross-chain-liquidity-simplifying-crypto-swaps-with-non-custodial-tools"
         ],
-        "dropped_sources": [],
-        "summary_changed": true
+        "dropped_sources": [
+          "https://coincub.com/blog/cross-chain-liquidity-simplifying-cross-chain-swaps-with-non-custodial-tools"
+        ],
+        "summary_changed": false
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.5-flash-lite",
+    "agent": "gemini-3.5-flash",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-09-19T16:01:11.596252Z",
+    "timestamp": "2026-09-19T22:01:03.726097Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -313,9 +316,9 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.5-flash-lite",
+      "model": "gemini-3.5-flash",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-09-19T16:01:11.596252Z",
+      "timestamp": "2026-09-19T22:01:03.726097Z",
       "search_result_count": 20,
       "validation_error_count": 0,
       "validation_failures": []
@@ -323,9 +326,9 @@
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.5-flash-lite",
+    "model": "gemini-3.5-flash",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-09-19T16:01:11.596252Z",
+    "timestamp": "2026-09-19T22:01:03.726097Z",
     "search_result_count": 20,
     "validation_error_count": 0,
     "validation_failures": []
