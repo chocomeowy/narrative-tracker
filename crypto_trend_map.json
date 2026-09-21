@@ -1,22 +1,23 @@
 {
-  "last_updated": "2026-09-21T10:01:07.972160Z",
-  "executive_briefing": "The macroeconomic and regulatory landscape in late September 2026 highlights deep structural shifts in both institutional capital and smart contract architectures. The U.S. Senate is on the verge of voting on the consolidated Digital Asset Market Clarity Act, bringing years of bipartisan and multi-committee negotiations to a critical legislative climax. Simultaneously, Bitcoin's institutional presence has solidified past speculative retail flows, characterized now by massive ETF asset retention (exceeding $100B total AUM) and corporate treasury strategies. In technical infrastructure, the demand for secure, mathematically decidable execution environments has positioned languages like Clarity as robust alternatives to traditional EVM environments for Bitcoin-native programmability, eliminating reentrancy vulnerabilities. This is complemented by the growth of non-custodial cross-chain liquidity abstraction networks like Symbiosis and LiFi, which are successfully phasing out high-risk, legacy wrapped asset bridges.",
+  "last_updated": "2026-09-21T16:01:29.001577Z",
+  "executive_briefing": "The late 2026 digital asset landscape is defined by the crystallization of institutional Bitcoin frameworks and a pivot toward mathematically rigorous smart contract security. The U.S. Senate is currently positioning to vote on the Digital Asset Market Clarity Act, signaling a transition from years of political negotiation to finalized regulatory oversight. Simultaneously, Bitcoin's evolution from a speculative asset to an institutional treasury staple has solidified, with ETF AUM benchmarks serving as the primary metric for systemic maturity. In the technical layer, we observe a migration of high-value decentralized application logic toward decidable environments like Clarity to bypass the reentrancy risks inherent in traditional EVM architectures. This is being accelerated by the rise of non-custodial liquidity abstraction, which is effectively sunsetting legacy centralized bridge architectures in favor of trust-minimized, cross-chain routing.",
   "trends": [
     {
       "id": "clarity-act-legislative-advancement-in-the-u-s-senate",
       "name": "CLARITY Act Legislative Advancement in the U.S. Senate",
-      "stage": "Fatigue",
-      "velocity": "Moderate",
+      "stage": "Peak Hype",
+      "velocity": "High",
       "category": "Regulation",
-      "summary": "The Digital Asset Market Clarity Act (H.R. 3633) is approaching a critical Senate vote after more than a year of intense bipartisan negotiations and joint committee reconciliations.",
+      "summary": "The Digital Asset Market Clarity Act is entering the final voting phase in the U.S. Senate following the consolidation of bipartisan texts from the Banking and Agriculture Committees.",
       "evidence": [
-        "Senate Banking Digital Assets Subcommittee Chair Cynthia Lummis alongside Chairmen John Boozman and Tim Scott released the final draft of the Digital Asset Market Clarity Act ahead of an imminent vote.",
-        "The bill reflects a unified text merging years of work between the Senate Banking and Agriculture committees."
+        "Final draft released by key committee chairs Lummis, Boozman, and Scott.",
+        "Formalized legislative path following multiple committee approvals in 2026."
       ],
       "source_links": [
         "https://www.congress.gov/bill/119th-congress/house-bill/3633/text",
         "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
         "https://cryptoforinnovation.org/the-clarity-act-what-happened-and-whats-next",
+        "https://x.com/SenatorTimScott/status/2080251587084025921",
         "https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text"
       ],
       "source_details": [
@@ -39,6 +40,12 @@
           "published_date": null
         },
         {
+          "url": "https://x.com/SenatorTimScott/status/2080251587084025921",
+          "domain": "x.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
           "url": "https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text",
           "domain": "lummis.senate.gov",
           "type": "primary",
@@ -46,29 +53,28 @@
         }
       ],
       "source_quality": {
-        "total_sources": 4,
+        "total_sources": 5,
         "primary_source_count": 3,
-        "secondary_source_count": 1,
+        "secondary_source_count": 2,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
         "source_risk": "low"
       },
-      "confidence": 0.98,
-      "reasoning": "Maintained in Fatigue due to the lengthy, grinding legislative timeline, though it is transitioning toward a major milestone with the release of the final draft ahead of a Senate vote.",
+      "confidence": 0.99,
+      "reasoning": "Moved to Peak Hype as the legislation has moved from committee deliberation to a final, pending floor vote.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
+        "is_new": false,
+        "stage_delta": -1,
+        "previous_stage": "Fatigue",
+        "velocity_delta": 2,
+        "previous_velocity": "Moderate",
         "new_sources": [
-          "https://www.congress.gov/bill/119th-congress/house-bill/3633/text",
-          "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
-          "https://cryptoforinnovation.org/the-clarity-act-what-happened-and-whats-next",
-          "https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text"
+          "https://x.com/SenatorTimScott/status/2080251587084025921"
         ],
         "dropped_sources": [],
-        "summary_changed": false
+        "summary_changed": true
       }
     },
     {
@@ -77,17 +83,17 @@
       "stage": "Fatigue",
       "velocity": "Moderate",
       "category": "Institutional Finance",
-      "summary": "Institutional exposure to Bitcoin has fully transitioned from speculative retail hype to highly structured allocation strategies, characterized by spot ETFs exceeding $100B in cumulative AUM and corporate treasury accumulation.",
+      "summary": "Bitcoin has transitioned into a standard component of institutional portfolio and treasury management, with ETF adoption reaching sustainable saturation levels.",
       "evidence": [
-        "Institutional adoption has evolved past initial retail-led trading into structured custody, corporate treasury holdings like MicroStrategy's $70B portfolio, and macroeconomic risk hedging.",
-        "The BlackRock IBIT ETF reached $86B in AUM, outperforming futures-based funds and absorbing liquidity from standard spot markets."
+        "Spot ETF inflows have normalized into long-term holding strategies.",
+        "Institutional focus has shifted from speculative entry to custody and long-term risk hedging."
       ],
       "source_links": [
         "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
         "https://www.livebitcoinnews.com/bitcoin-etf-institutional",
         "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption",
         "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
-        "https://www.ainvest.com/news/bitcoin-etf-inflows-institutional-adoption-catalyst-btc-2025-trajectory-2510"
+        "https://datos-insights.com/blog/bitcoin-etf-institutional-adoption"
       ],
       "source_details": [
         {
@@ -115,8 +121,8 @@
           "published_date": null
         },
         {
-          "url": "https://www.ainvest.com/news/bitcoin-etf-inflows-institutional-adoption-catalyst-btc-2025-trajectory-2510",
-          "domain": "ainvest.com",
+          "url": "https://datos-insights.com/blog/bitcoin-etf-institutional-adoption",
+          "domain": "datos-insights.com",
           "type": "secondary",
           "published_date": null
         }
@@ -131,7 +137,7 @@
         "source_risk": "medium"
       },
       "confidence": 0.97,
-      "reasoning": "Remains in Fatigue because the initial speculative hype of spot ETF approvals has subsided, solidifying into a permanent, methodical corporate treasury and macro allocation asset class.",
+      "reasoning": "Remains in Fatigue because the asset class has achieved broad institutional acceptance, removing the 'speculative' volatility typically associated with new adoption cycles.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -140,10 +146,10 @@
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
         "new_sources": [
-          "https://www.ainvest.com/news/bitcoin-etf-inflows-institutional-adoption-catalyst-btc-2025-trajectory-2510"
+          "https://datos-insights.com/blog/bitcoin-etf-institutional-adoption"
         ],
         "dropped_sources": [
-          "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/how-bitcoin-etfs-are-driving-institutional-adoption"
+          "https://www.ainvest.com/news/bitcoin-etf-inflows-institutional-adoption-catalyst-btc-2025-trajectory-2510"
         ],
         "summary_changed": true
       }
@@ -154,10 +160,10 @@
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Layer 1",
-      "summary": "Decidable and mathematically secure execution environments like Clarity are challenging traditional EVM dominance on Bitcoin layer platforms by eliminating critical runtime vulnerabilities like reentrancy.",
+      "summary": "Developers are increasingly favoring decidable languages like Clarity to secure high-value Bitcoin transactions, effectively mitigating reentrancy and runtime vulnerabilities common in the EVM ecosystem.",
       "evidence": [
-        "While Ethereum maintains dominance in general DeFi smart contract deployments, developers are shifting to deterministic languages for securing high-value native Bitcoin transactions.",
-        "Clarity allows static analysis of smart contracts, providing predictable transaction outcomes and preventing the execution bugs historically found in dynamic EVM runtimes."
+        "Increased developer shift toward formal verification tools.",
+        "Growing preference for static analysis over dynamic EVM execution for sensitive smart contracts."
       ],
       "source_links": [
         "https://en.wikipedia.org/wiki/Ethereum",
@@ -186,8 +192,8 @@
         "has_primary_sources": true,
         "source_risk": "low"
       },
-      "confidence": 0.93,
-      "reasoning": "Sustained in Breakthrough as developers seek alternatives to EVM's vulnerability surface, leveraging Clarity's decidability for higher-security Bitcoin-native decentralized applications.",
+      "confidence": 0.94,
+      "reasoning": "Continues in Breakthrough stage due to ongoing technical migration and the increasing emphasis on security-first smart contract design in DeFi.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -195,12 +201,8 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "High",
-        "new_sources": [
-          "https://ethereum.org/what-is-ether"
-        ],
-        "dropped_sources": [
-          "https://ethereum.org"
-        ],
+        "new_sources": [],
+        "dropped_sources": [],
         "summary_changed": true
       }
     },
@@ -210,17 +212,16 @@
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "DeFi",
-      "summary": "Decentralized liquidity routing layers and non-custodial cross-chain tools are actively replacing legacy lock-and-mint wrapped asset bridges, offering unified liquidity across BTC, ETH, and alternative networks.",
+      "summary": "The industry is moving away from centralized, high-risk lock-and-mint bridges toward non-custodial cross-chain routing that maintains native asset ownership.",
       "evidence": [
-        "Cross-chain routing networks like Symbiosis allow seamless swapping and bridging across Bitcoin, Ethereum, Solana, and over 50 EVM networks in a single flow.",
-        "Liquidity abstraction layers utilizing multi-chain routers like LiFi eliminate the need for centralized escrow intermediaries or vulnerable wrapped assets."
+        "Adoption of LiFi and Symbiosis for cross-chain liquidity routing.",
+        "Reduction in dependency on third-party custodial escrow for cross-chain swaps."
       ],
       "source_links": [
         "https://symbiosis.finance",
         "https://support.blockchain.com/hc/en-us/articles/11385610019868-Cross-Chain-Swaps-FAQs",
         "https://coincub.com/blog/cross-chain-liquidity-simplifying-crypto-swaps-with-non-custodial-tools",
-        "https://bitcoin.tax/blog/cross-chain-liquidity-2025",
-        "https://www.chainup.com/blog/cross-chain-trading-crypto-liquidity"
+        "https://bitcoin.tax/blog/cross-chain-liquidity-2025"
       ],
       "source_details": [
         {
@@ -246,25 +247,19 @@
           "domain": "bitcoin.tax",
           "type": "secondary",
           "published_date": null
-        },
-        {
-          "url": "https://www.chainup.com/blog/cross-chain-trading-crypto-liquidity",
-          "domain": "chainup.com",
-          "type": "secondary",
-          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 5,
+        "total_sources": 4,
         "primary_source_count": 0,
-        "secondary_source_count": 5,
+        "secondary_source_count": 4,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": false,
         "source_risk": "medium"
       },
-      "confidence": 0.95,
-      "reasoning": "Remains in Breakthrough due to the rapid adoption of non-custodial, one-click swapping solutions over insecure legacy bridge contracts.",
+      "confidence": 0.96,
+      "reasoning": "Maintained in Breakthrough as non-custodial tools continue to displace insecure legacy infrastructure at scale.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -273,15 +268,17 @@
         "velocity_delta": 0,
         "previous_velocity": "High",
         "new_sources": [],
-        "dropped_sources": [],
+        "dropped_sources": [
+          "https://www.chainup.com/blog/cross-chain-trading-crypto-liquidity"
+        ],
         "summary_changed": true
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.5-flash",
+    "agent": "gemini-3.1-flash-lite-preview",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-09-21T10:01:07.972160Z",
+    "timestamp": "2026-09-21T16:01:29.001577Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -290,9 +287,9 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.5-flash",
+      "model": "gemini-3.1-flash-lite-preview",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-09-21T10:01:07.972160Z",
+      "timestamp": "2026-09-21T16:01:29.001577Z",
       "search_result_count": 20,
       "validation_error_count": 0,
       "validation_failures": []
@@ -300,9 +297,9 @@
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.5-flash",
+    "model": "gemini-3.1-flash-lite-preview",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-09-21T10:01:07.972160Z",
+    "timestamp": "2026-09-21T16:01:29.001577Z",
     "search_result_count": 20,
     "validation_error_count": 0,
     "validation_failures": []
