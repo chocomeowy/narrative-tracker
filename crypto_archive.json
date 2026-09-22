@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-22T10:01:23.544241Z",
+  "last_updated": "2026-09-22T16:01:07.135569Z",
   "archived_trends": [
     {
       "name": "Cross-Chain Liquidity Solutions",
@@ -25928,6 +25928,70 @@
         "summary_changed": true
       },
       "archived_at": "2026-09-21T10:01:07.972160Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "native-bitcoin-programmability-via-clarity-vs-evm-dominance",
+      "name": "Native Bitcoin Programmability via Clarity vs EVM Dominance",
+      "stage": "Breakthrough",
+      "velocity": "High",
+      "category": "Layer 1",
+      "summary": "Developers increasingly implement decidable smart contract frameworks like Clarity to eliminate reentrancy risks common in traditional EVM architectures, unlocking robust smart contract capabilities natively.",
+      "evidence": [
+        "Continued enterprise and protocol reliance on formal verification and static execution analyses.",
+        "Ongoing technical advancements scaling decentralized application logic safely without standard EVM vulnerabilities."
+      ],
+      "source_links": [
+        "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+        "https://en.wikipedia.org/wiki/Ethereum",
+        "https://coinmarketcap.com/currencies/ethereum"
+      ],
+      "source_details": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethereum",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        },
+        {
+          "url": "https://coinmarketcap.com/currencies/ethereum",
+          "domain": "coinmarketcap.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 3,
+        "primary_source_count": 0,
+        "secondary_source_count": 1,
+        "wikipedia_source_count": 2,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.95,
+      "reasoning": "Remains in Breakthrough as developers systematically adopt decidable smart contract environments to mitigate severe execution flaws inherent in older virtual machine designs.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [],
+        "dropped_sources": [
+          "https://ethereum.org",
+          "https://www.coinbase.com/price/ethereum"
+        ],
+        "summary_changed": false
+      },
+      "archived_at": "2026-09-22T16:01:07.135569Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
