@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-09-23 04:01
+# Tax Intelligence Briefing - 2026-09-23 10:01
 
 The global corporate and international tax landscape in 2026 continues to experience deep structural realignments centered on the operationalization of the OECD Pillar Two 15% global minimum tax across approximately 140 jurisdictions. Investment hubs such as Singapore and broader ASEAN-6 economies are actively adapting by introducing targeted domestic corporate tax rebates and incentives to maintain foreign direct investment competitiveness. Concurrently, tax administrations are aggressively pushing digital compliance through mandatory continuous transaction controls and Peppol-standardized e-invoicing networks. Simultaneously, international trade remains heavily disrupted by active tariff escalations, regulatory challenges to emergency tariff authorities, and cross-border trade policy adjustments.
