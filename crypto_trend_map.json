@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-09-24T10:01:31.105888Z",
-  "executive_briefing": "The late 2026 landscape is defined by the failure of the U.S. CLARITY Act to pass the Senate, shifting the industry focus from legislative optimism to navigating existing agency-level enforcement. Institutional Bitcoin adoption has largely matured from speculative ETF volatility into a stable framework of long-term treasury management. Concurrently, technical innovation is accelerating with Bitcoin-native smart contract programmability via decidable languages, creating a high-assurance alternative to EVM ecosystems, while non-custodial cross-chain liquidity abstractions are effectively replacing legacy custodial bridges, enhancing trust-minimized interoperability between major chains.",
+  "last_updated": "2026-09-24T16:01:01.586480Z",
+  "executive_briefing": "The late 2026 regulatory landscape has reached a decisive point of impasse following the failed passage of the U.S. CLARITY Act, effectively pushing the industry toward a long-term strategy of navigating existing agency enforcement. Institutional Bitcoin adoption has largely matured from speculative ETF-driven inflows into a stable, structural framework of treasury management. Simultaneously, technical innovation is tilting toward Bitcoin-native smart contract programmability and trust-minimized, non-custodial cross-chain liquidity abstractions, which are increasingly challenging EVM dominance by prioritizing formal security over legacy interoperability models.",
   "trends": [
     {
-      "id": "clarity-act-legislative-stalemate-and-regulatory-shift",
-      "name": "CLARITY Act Legislative Stalemate and Regulatory Shift",
+      "id": "clarity-act-legislative-stalemate",
+      "name": "CLARITY Act Legislative Stalemate",
       "stage": "Fatigue",
       "velocity": "Moderate",
       "category": "Regulation",
-      "summary": "Comprehensive U.S. digital asset market legislation has faced terminal procedural hurdles in the Senate, forcing the industry to adapt to decentralized enforcement by existing agencies.",
+      "summary": "Legislative efforts for a comprehensive U.S. digital asset market framework have stalled, forcing the industry to adapt to current regulatory enforcement by existing agencies.",
       "evidence": [
-        "Final versions of the CLARITY Act failed to reach the required Senate vote thresholds despite multi-committee advancement.",
-        "Regulatory focus has shifted toward existing framework interpretation rather than new statutory market structure."
+        "Final legislative text failed to gain sufficient momentum for Senate floor success despite multi-committee advancement.",
+        "Regulatory strategy has shifted toward interpretation of existing statutes rather than market structure reform."
       ],
       "source_links": [
         "https://www.congress.gov/bill/119th-congress/house-bill/3633/text",
@@ -55,29 +55,32 @@
         "source_risk": "low"
       },
       "confidence": 0.95,
-      "reasoning": "Legislative path is effectively blocked; the trend remains in the 'Fatigue' phase due to the exhaustion of bipartisan negotiation capital.",
+      "reasoning": "The legislative path is effectively blocked, leading to a state of regulatory fatigue as the industry pivots to operational compliance under current frameworks.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": false,
-        "stage_delta": 0,
-        "previous_stage": "Fatigue",
-        "velocity_delta": 0,
-        "previous_velocity": "Moderate",
-        "new_sources": [],
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
+        "new_sources": [
+          "https://www.congress.gov/bill/119th-congress/house-bill/3633/text",
+          "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
+          "https://cryptoforinnovation.org/the-clarity-act-what-happened-and-whats-next",
+          "https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text"
+        ],
         "dropped_sources": [],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
-      "id": "bitcoin-institutional-portfolio-integration",
-      "name": "Bitcoin Institutional Portfolio Integration",
+      "id": "bitcoin-institutional-treasury-integration",
+      "name": "Bitcoin Institutional Treasury Integration",
       "stage": "Fatigue",
       "velocity": "Moderate",
       "category": "Institutional Finance",
-      "summary": "Bitcoin institutional adoption has stabilized into a predictable 'macro-asset' allocation strategy, characterized by long-term ETF holdings and corporate treasury integration rather than speculative market entry.",
+      "summary": "Institutional participation has transitioned from speculative ETF excitement into a steady-state adoption of Bitcoin as a core treasury asset and macro hedge.",
       "evidence": [
-        "Spot Bitcoin ETFs now function as primary conduits for institutional allocation with established inflow patterns.",
-        "Corporations are treating Bitcoin as a long-term treasury hedge, consistent with normalized institutional balance sheet management."
+        "Spot Bitcoin ETFs now serve as normalized conduits for long-term institutional capital allocation.",
+        "Corporate treasury integration has moved beyond early experimentation into standardized risk-management workflows."
       ],
       "source_links": [
         "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
@@ -128,7 +131,7 @@
         "source_risk": "medium"
       },
       "confidence": 0.93,
-      "reasoning": "The 'hype' cycle surrounding ETFs has subsided into a durable, institutional-grade status quo.",
+      "reasoning": "The 'peak hype' cycle of institutional ETF approval has yielded to the predictable, slow growth of strategic portfolio management.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": true,
@@ -146,15 +149,15 @@
       }
     },
     {
-      "id": "native-bitcoin-programmability-vs-evm",
-      "name": "Native Bitcoin Programmability vs. EVM",
+      "id": "native-bitcoin-smart-contract-programmability",
+      "name": "Native Bitcoin Smart Contract Programmability",
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Layer 1",
-      "summary": "The adoption of decidable programming models for Bitcoin smart contracts is challenging EVM dominance by offering inherently secure, non-reentrant financial primitives.",
+      "summary": "Development in decidable programming models for Bitcoin is gaining momentum, offering a high-assurance, non-reentrant alternative to EVM-based smart contracts.",
       "evidence": [
-        "Increased developer focus on high-assurance, formally verified logic for Bitcoin smart contracts.",
-        "Direct competition with legacy EVM infrastructure that remains prone to reentrancy vulnerabilities."
+        "Shift in developer sentiment favoring formally verified logic over the reentrancy-prone EVM architecture.",
+        "Increased infrastructure support for high-security smart contracts native to the Bitcoin network."
       ],
       "source_links": [
         "https://ethereum.org",
@@ -184,7 +187,7 @@
         "source_risk": "low"
       },
       "confidence": 0.88,
-      "reasoning": "The sector is seeing a breakthrough in technical adoption as developers prioritize safety over legacy ecosystem ubiquity.",
+      "reasoning": "The technical maturity of high-assurance languages on Bitcoin is allowing it to capture complexity previously exclusive to EVM environments.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": true,
@@ -204,47 +207,40 @@
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "DeFi",
-      "summary": "Trust-minimized liquidity routing between Bitcoin and Ethereum is displacing custodial bridges, removing centralized intermediaries from inter-chain asset swaps.",
+      "summary": "Trust-minimized, decentralized liquidity routing is replacing traditional custodial bridges, reducing systemic risk in inter-chain asset transfers between Bitcoin and other ecosystems.",
       "evidence": [
-        "Proliferation of protocols enabling direct, non-custodial swaps between major blockchain ecosystems.",
-        "Industry-wide move toward trust-minimized architecture in DeFi, minimizing the systemic risk of legacy 'lock-and-mint' bridges."
+        "Widespread adoption of protocols enabling atomic, non-custodial swaps for native assets.",
+        "Industry-wide migration away from 'lock-and-mint' bridge models due to inherent security vulnerabilities."
       ],
       "source_links": [
-        "https://symbiosis.finance",
-        "https://support.blockchain.com/hc/en-us/articles/11385610019868-Cross-Chain-Swaps-FAQs",
-        "https://coincub.com/blog/cross-chain-liquidity-simplifying-crypto-swaps-with-non-custodial-tools"
+        "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
+        "https://bitcoin.tax/blog/cross-chain-liquidity-2025"
       ],
       "source_details": [
         {
-          "url": "https://symbiosis.finance",
-          "domain": "symbiosis.finance",
+          "url": "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
+          "domain": "bitunix.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://support.blockchain.com/hc/en-us/articles/11385610019868-Cross-Chain-Swaps-FAQs",
-          "domain": "support.blockchain.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://coincub.com/blog/cross-chain-liquidity-simplifying-crypto-swaps-with-non-custodial-tools",
-          "domain": "coincub.com",
+          "url": "https://bitcoin.tax/blog/cross-chain-liquidity-2025",
+          "domain": "bitcoin.tax",
           "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 3,
+        "total_sources": 2,
         "primary_source_count": 0,
-        "secondary_source_count": 3,
+        "secondary_source_count": 2,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": false,
         "source_risk": "medium"
       },
       "confidence": 0.94,
-      "reasoning": "The stage reflects a breakthrough deployment phase where trust-minimized solutions are now standard for high-volume cross-chain DeFi.",
+      "reasoning": "The movement toward trust-minimized interoperability has moved past the incubation phase and is now setting the standard for DeFi liquidity.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -252,18 +248,23 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "High",
-        "new_sources": [],
+        "new_sources": [
+          "https://bitcoin.tax/blog/cross-chain-liquidity-2025",
+          "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi"
+        ],
         "dropped_sources": [
-          "https://cryptoadventure.com/top-10-cross-chain-projects-connecting-crypto-liquidity"
+          "https://coincub.com/blog/cross-chain-liquidity-simplifying-crypto-swaps-with-non-custodial-tools",
+          "https://support.blockchain.com/hc/en-us/articles/11385610019868-Cross-Chain-Swaps-FAQs",
+          "https://symbiosis.finance"
         ],
         "summary_changed": true
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.1-flash-lite",
+    "agent": "gemini-3.1-flash-lite-preview",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-09-24T10:01:31.105888Z",
+    "timestamp": "2026-09-24T16:01:01.586480Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -272,9 +273,9 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.1-flash-lite",
+      "model": "gemini-3.1-flash-lite-preview",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-09-24T10:01:31.105888Z",
+      "timestamp": "2026-09-24T16:01:01.586480Z",
       "search_result_count": 20,
       "validation_error_count": 0,
       "validation_failures": []
@@ -282,9 +283,9 @@
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.1-flash-lite",
+    "model": "gemini-3.1-flash-lite-preview",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-09-24T10:01:31.105888Z",
+    "timestamp": "2026-09-24T16:01:01.586480Z",
     "search_result_count": 20,
     "validation_error_count": 0,
     "validation_failures": []
