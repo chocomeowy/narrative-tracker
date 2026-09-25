@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-09-24 22:01
+# Tax Intelligence Briefing - 2026-09-25 04:01
 
 The global corporate tax and trade environment in late 2026 is defined by the ongoing consolidation of the OECD Pillar Two 15% global minimum tax, alongside proactive regional adjustments in key hubs like Singapore and ASEAN to protect foreign direct investment. Simultaneously, digital compliance continues its aggressive march via mandatory e-invoicing rollouts, while international trade faces sustained friction from shifting tariff cycles and legal challenges.
