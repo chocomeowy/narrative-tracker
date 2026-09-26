@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-09-26 04:01
+# Tax Intelligence Briefing - 2026-09-26 10:01
 
 The global tax and trade environment in 2026 continues to experience intensive structural realignments led by the global implementation of the OECD Pillar Two 15% minimum effective tax rate across over 140 jurisdictions. Multinational enterprises and regional hubs, particularly across ASEAN and Singapore, are adapting corporate tax regimes and tax incentives to balance GloBE rules with foreign direct investment competitiveness. Simultaneously, tax authorities are accelerating digital transformations through mandated Peppol-based e-invoicing and real-time transaction controls. On the trade front, cross-border supply chains navigate ongoing volatility caused by unilateral tariff escalations and dynamic import policies.
