@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-27T10:01:01.114975Z",
+  "last_updated": "2026-09-27T16:01:25.571070Z",
   "archived_trends": [
     {
       "name": "Cross-Chain Liquidity Solutions",
@@ -26629,6 +26629,85 @@
         "summary_changed": false
       },
       "archived_at": "2026-09-26T22:00:59.241121Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "clarity-driven-bitcoin-smart-contract-architecture-vs-evm",
+      "name": "Clarity-Driven Bitcoin Smart Contract Architecture vs EVM",
+      "stage": "Breakthrough",
+      "velocity": "High",
+      "category": "Layer 1",
+      "summary": "Decidable, non-Turing complete languages like Clarity are capturing developer interest by offering non-reentrant security models that challenge traditional EVM paradigms for native Bitcoin execution.",
+      "evidence": [
+        "Rising focus on decidable logic languages to circumvent reentrancy vulnerabilities found in standard EVM contracts.",
+        "Native execution architectures allowing secure and verifiable logic directly tied to Bitcoin settlement layers."
+      ],
+      "source_links": [
+        "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+        "https://en.wikipedia.org/wiki/Ethereum",
+        "https://coinmarketcap.com/currencies/ethereum",
+        "https://ethereum.org",
+        "https://www.coinbase.com/price/ethereum"
+      ],
+      "source_details": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethereum",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        },
+        {
+          "url": "https://coinmarketcap.com/currencies/ethereum",
+          "domain": "coinmarketcap.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://ethereum.org",
+          "domain": "ethereum.org",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.coinbase.com/price/ethereum",
+          "domain": "coinbase.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 5,
+        "primary_source_count": 1,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 2,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.91,
+      "reasoning": "With ongoing smart contract security concerns across EVM chains, Clarity's predictable execution structure represents a major technical breakthrough for safe programming on Bitcoin.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [
+          "https://coinmarketcap.com/currencies/ethereum",
+          "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+          "https://www.coinbase.com/price/ethereum"
+        ],
+        "dropped_sources": [],
+        "summary_changed": true
+      },
+      "archived_at": "2026-09-27T16:01:25.571070Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
