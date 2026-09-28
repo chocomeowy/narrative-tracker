@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-28T10:01:06.780502Z",
+  "last_updated": "2026-09-28T16:01:28.770796Z",
   "executive_briefing": "Late 2026 intelligence confirms a transition toward institutional stabilization and functional smart contract specialization. Following the failed Senate cloture vote on the Digital Asset Market Clarity Act (H.R. 3633), regulatory momentum has shifted into a structural stalemate, prompting institutional market participants to adapt to administrative enforcement regimes. Bitcoin spot ETF flows have normalized past the $100B AUM threshold, while corporate treasury adoption pivots to long-term asset management. Technical innovation is heavily focused on Bitcoin-native smart execution via decidable languages like Clarity, which offer deterministic safety to mitigate EVM reentrancy vulnerabilities, alongside non-custodial cross-chain liquidity networks that directly connect native BTC and ETH without wrapped asset bridge dependencies.",
   "trends": [
     {
@@ -62,7 +62,7 @@
         "source_risk": "low"
       },
       "confidence": 0.98,
-      "reasoning": "The legislative stall confirms market fatigue around federal policy breakthroughs, locking regulatory dynamics into an administrative equilibrium.",
+      "reasoning": "The legislative stall confirms market fatigue around federal policy breakthroughs, locking regulatory dynamics into an administrative equilibrium. New intel sources reinforce the existing narrative of legislative stalemate and the shift to administrative enforcement.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -70,10 +70,7 @@
         "previous_stage": "Fatigue",
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
-        "new_sources": [
-          "https://www.cnbc.com/2026/09/14/clarity-act-senate-vote-crypto-regulation.html",
-          "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text"
-        ],
+        "new_sources": [],
         "dropped_sources": [],
         "summary_changed": false
       }
@@ -94,7 +91,7 @@
         "https://www.livebitcoinnews.com/bitcoin-etf-institutional",
         "https://www.theblock.co/learn/markets/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111",
         "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption",
-        "https://www.gate.com/crypto-wiki/article/institutional-bitcoin-buying"
+        "https://www.gate.com/crypto-market-data/info/bitcoin-etfs"
       ],
       "source_details": [
         {
@@ -122,7 +119,7 @@
           "published_date": null
         },
         {
-          "url": "https://www.gate.com/crypto-wiki/article/institutional-bitcoin-buying",
+          "url": "https://www.gate.com/crypto-market-data/info/bitcoin-etfs",
           "domain": "gate.com",
           "type": "secondary",
           "published_date": null
@@ -138,7 +135,7 @@
         "source_risk": "medium"
       },
       "confidence": 0.95,
-      "reasoning": "Inflow deceleration and corporate treasury consolidation indicate the institutional ETF narrative has reached mature consolidation and fatigue.",
+      "reasoning": "Inflow deceleration and corporate treasury consolidation indicate the institutional ETF narrative has reached mature consolidation and fatigue. New intel confirms the $100B AUM milestone and the shift towards portfolio integration, reinforcing the 'Fatigue' stage.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -147,13 +144,10 @@
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
         "new_sources": [
-          "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption",
-          "https://www.gate.com/crypto-wiki/article/institutional-bitcoin-buying",
-          "https://www.livebitcoinnews.com/bitcoin-etf-institutional",
-          "https://www.theblock.co/learn/markets/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111"
+          "https://www.gate.com/crypto-market-data/info/bitcoin-etfs"
         ],
         "dropped_sources": [
-          "https://www.theblock.co/learn/408156/how-bitcoin-etfs-changed-institutional-adoption"
+          "https://www.gate.com/crypto-wiki/article/institutional-bitcoin-buying"
         ],
         "summary_changed": false
       }
@@ -204,7 +198,7 @@
         "source_risk": "medium"
       },
       "confidence": 0.92,
-      "reasoning": "Technical adoption of decidable smart contracts on Bitcoin is accelerating as an enterprise-grade alternative to EVM vulnerability risks.",
+      "reasoning": "Technical adoption of decidable smart contracts on Bitcoin is accelerating as an enterprise-grade alternative to EVM vulnerability risks. New intel on Ethereum provides context for the comparison and highlights the demand for safer smart contract execution, supporting the 'Breakthrough' stage for Clarity.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -212,13 +206,8 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "High",
-        "new_sources": [
-          "https://coinmarketcap.com/currencies/ethereum",
-          "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance"
-        ],
-        "dropped_sources": [
-          "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi"
-        ],
+        "new_sources": [],
+        "dropped_sources": [],
         "summary_changed": false
       }
     },
@@ -282,7 +271,7 @@
         "source_risk": "medium"
       },
       "confidence": 0.94,
-      "reasoning": "Protocol volume and developer integration demonstrate continuous shift away from wrapped tokens toward direct cross-chain liquidity abstractions.",
+      "reasoning": "Protocol volume and developer integration demonstrate a continuous shift away from wrapped tokens toward direct cross-chain liquidity abstractions. New intel reinforces the trend of direct, non-custodial swaps between BTC and ETH, supporting the 'Breakthrough' stage.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -290,22 +279,16 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "High",
-        "new_sources": [
-          "https://advertorial.cryptonews.com/press-releases/what-would-true-cross-chain-liquidity-between-btc-eth-and-sol-look-like-liquidchain-liquid-weighs-in",
-          "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps",
-          "https://www.techedubyte.com/cross-chain-liquidity-btc-eth-sol-liquidchain"
-        ],
-        "dropped_sources": [
-          "https://swaprocket.io/blog/cross-chain-crypto-swaps-without-kyc-2026"
-        ],
+        "new_sources": [],
+        "dropped_sources": [],
         "summary_changed": false
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.5-flash-lite",
+    "agent": "gemini-2.5-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-09-28T10:01:06.780502Z",
+    "timestamp": "2026-09-28T16:01:28.770796Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -314,9 +297,9 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.5-flash-lite",
+      "model": "gemini-2.5-flash-lite",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-09-28T10:01:06.780502Z",
+      "timestamp": "2026-09-28T16:01:28.770796Z",
       "search_result_count": 20,
       "validation_error_count": 0,
       "validation_failures": []
@@ -324,9 +307,9 @@
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.5-flash-lite",
+    "model": "gemini-2.5-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-09-28T10:01:06.780502Z",
+    "timestamp": "2026-09-28T16:01:28.770796Z",
     "search_result_count": 20,
     "validation_error_count": 0,
     "validation_failures": []
