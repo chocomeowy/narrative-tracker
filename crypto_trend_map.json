@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-28T04:01:05.950078Z",
-  "executive_briefing": "Late 2026 intelligence confirms a transition toward institutional stabilization and functional smart contract specialization. Following the failed Senate cloture vote on the Digital Asset Market Clarity Act (H.R. 3633), regulatory momentum has shifted into a structural stalemate, prompting institutional market participants to adapt to administrative enforcement regimes. Bitcoin spot ETF flows have normalized, experiencing their first plateau post-$100B AUM, while corporate treasury adoption pivots to long-term asset management. Technical innovation is focused on Bitcoin-native smart execution via decidable languages like Clarity, which offer deterministic safety to mitigate EVM reentrancy vulnerabilities, alongside non-custodial cross-chain liquidity networks that directly connect native BTC and ETH without wrapped asset bridge dependencies.",
+  "last_updated": "2026-09-28T10:01:06.780502Z",
+  "executive_briefing": "Late 2026 intelligence confirms a transition toward institutional stabilization and functional smart contract specialization. Following the failed Senate cloture vote on the Digital Asset Market Clarity Act (H.R. 3633), regulatory momentum has shifted into a structural stalemate, prompting institutional market participants to adapt to administrative enforcement regimes. Bitcoin spot ETF flows have normalized past the $100B AUM threshold, while corporate treasury adoption pivots to long-term asset management. Technical innovation is heavily focused on Bitcoin-native smart execution via decidable languages like Clarity, which offer deterministic safety to mitigate EVM reentrancy vulnerabilities, alongside non-custodial cross-chain liquidity networks that directly connect native BTC and ETH without wrapped asset bridge dependencies.",
   "trends": [
     {
       "id": "clarity-act-legislative-stalemate",
@@ -16,7 +16,9 @@
       "source_links": [
         "https://www.cnbc.com/2026/09/15/senate-cloture-vote-on-clarity-act-fails-dealing-regulatory-setback-to-crypto-industry.html",
         "https://www.congress.gov/bill/119th-congress/house-bill/3633/text",
-        "https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text"
+        "https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text",
+        "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
+        "https://www.cnbc.com/2026/09/14/clarity-act-senate-vote-crypto-regulation.html"
       ],
       "source_details": [
         {
@@ -36,12 +38,24 @@
           "domain": "lummis.senate.gov",
           "type": "primary",
           "published_date": null
+        },
+        {
+          "url": "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
+          "domain": "lummis.senate.gov",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.cnbc.com/2026/09/14/clarity-act-senate-vote-crypto-regulation.html",
+          "domain": "cnbc.com",
+          "type": "secondary",
+          "published_date": "2026-09-14"
         }
       ],
       "source_quality": {
-        "total_sources": 3,
-        "primary_source_count": 2,
-        "secondary_source_count": 1,
+        "total_sources": 5,
+        "primary_source_count": 3,
+        "secondary_source_count": 2,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
@@ -56,9 +70,12 @@
         "previous_stage": "Fatigue",
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
-        "new_sources": [],
+        "new_sources": [
+          "https://www.cnbc.com/2026/09/14/clarity-act-senate-vote-crypto-regulation.html",
+          "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text"
+        ],
         "dropped_sources": [],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
@@ -73,27 +90,48 @@
         "Major institutional allocators treat BTC as a standard multi-asset portfolio component rather than a tactical growth asset."
       ],
       "source_links": [
-        "https://www.theblock.co/learn/408156/how-bitcoin-etfs-changed-institutional-adoption",
-        "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis"
+        "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
+        "https://www.livebitcoinnews.com/bitcoin-etf-institutional",
+        "https://www.theblock.co/learn/markets/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111",
+        "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption",
+        "https://www.gate.com/crypto-wiki/article/institutional-bitcoin-buying"
       ],
       "source_details": [
-        {
-          "url": "https://www.theblock.co/learn/408156/how-bitcoin-etfs-changed-institutional-adoption",
-          "domain": "theblock.co",
-          "type": "secondary",
-          "published_date": null
-        },
         {
           "url": "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
           "domain": "spark.money",
           "type": "secondary",
           "published_date": null
+        },
+        {
+          "url": "https://www.livebitcoinnews.com/bitcoin-etf-institutional",
+          "domain": "livebitcoinnews.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.theblock.co/learn/markets/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111",
+          "domain": "theblock.co",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption",
+          "domain": "blockchain-council.org",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.gate.com/crypto-wiki/article/institutional-bitcoin-buying",
+          "domain": "gate.com",
+          "type": "secondary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 2,
+        "total_sources": 5,
         "primary_source_count": 0,
-        "secondary_source_count": 2,
+        "secondary_source_count": 5,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": false,
@@ -109,13 +147,15 @@
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
         "new_sources": [
-          "https://www.theblock.co/learn/408156/how-bitcoin-etfs-changed-institutional-adoption"
-        ],
-        "dropped_sources": [
           "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption",
+          "https://www.gate.com/crypto-wiki/article/institutional-bitcoin-buying",
+          "https://www.livebitcoinnews.com/bitcoin-etf-institutional",
           "https://www.theblock.co/learn/markets/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111"
         ],
-        "summary_changed": true
+        "dropped_sources": [
+          "https://www.theblock.co/learn/408156/how-bitcoin-etfs-changed-institutional-adoption"
+        ],
+        "summary_changed": false
       }
     },
     {
@@ -130,14 +170,15 @@
         "Bitcoin-native execution protocols utilize predictable gas models and static analysis to secure complex cross-chain and L2 settlement."
       ],
       "source_links": [
-        "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
-        "https://en.wikipedia.org/wiki/Ethereum"
+        "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+        "https://en.wikipedia.org/wiki/Ethereum",
+        "https://coinmarketcap.com/currencies/ethereum"
       ],
       "source_details": [
         {
-          "url": "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
-          "domain": "bitunix.com",
-          "type": "secondary",
+          "url": "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
           "published_date": null
         },
         {
@@ -145,13 +186,19 @@
           "domain": "en.wikipedia.org",
           "type": "wikipedia",
           "published_date": null
+        },
+        {
+          "url": "https://coinmarketcap.com/currencies/ethereum",
+          "domain": "coinmarketcap.com",
+          "type": "secondary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 2,
+        "total_sources": 3,
         "primary_source_count": 0,
         "secondary_source_count": 1,
-        "wikipedia_source_count": 1,
+        "wikipedia_source_count": 2,
         "blog_source_count": 0,
         "has_primary_sources": false,
         "source_risk": "medium"
@@ -166,14 +213,13 @@
         "velocity_delta": 0,
         "previous_velocity": "High",
         "new_sources": [
-          "https://en.wikipedia.org/wiki/Ethereum",
-          "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi"
+          "https://coinmarketcap.com/currencies/ethereum",
+          "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance"
         ],
         "dropped_sources": [
-          "https://coinmarketcap.com/currencies/ethereum",
-          "https://ethereum.org"
+          "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi"
         ],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
@@ -188,11 +234,25 @@
         "Threshold signature vaults and automated routing layers eliminate single-point-of-failure bridge risks."
       ],
       "source_links": [
+        "https://www.techedubyte.com/cross-chain-liquidity-btc-eth-sol-liquidchain",
+        "https://advertorial.cryptonews.com/press-releases/what-would-true-cross-chain-liquidity-between-btc-eth-and-sol-look-like-liquidchain-liquid-weighs-in",
         "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
         "https://bitcoin.tax/blog/cross-chain-liquidity-2025",
-        "https://swaprocket.io/blog/cross-chain-crypto-swaps-without-kyc-2026"
+        "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps"
       ],
       "source_details": [
+        {
+          "url": "https://www.techedubyte.com/cross-chain-liquidity-btc-eth-sol-liquidchain",
+          "domain": "techedubyte.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://advertorial.cryptonews.com/press-releases/what-would-true-cross-chain-liquidity-between-btc-eth-and-sol-look-like-liquidchain-liquid-weighs-in",
+          "domain": "advertorial.cryptonews.com",
+          "type": "secondary",
+          "published_date": null
+        },
         {
           "url": "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
           "domain": "bitunix.com",
@@ -206,16 +266,16 @@
           "published_date": null
         },
         {
-          "url": "https://swaprocket.io/blog/cross-chain-crypto-swaps-without-kyc-2026",
-          "domain": "swaprocket.io",
+          "url": "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps",
+          "domain": "gate.com",
           "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 3,
+        "total_sources": 5,
         "primary_source_count": 0,
-        "secondary_source_count": 3,
+        "secondary_source_count": 5,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": false,
@@ -231,23 +291,21 @@
         "velocity_delta": 0,
         "previous_velocity": "High",
         "new_sources": [
-          "https://bitcoin.tax/blog/cross-chain-liquidity-2025",
-          "https://swaprocket.io/blog/cross-chain-crypto-swaps-without-kyc-2026",
-          "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi"
+          "https://advertorial.cryptonews.com/press-releases/what-would-true-cross-chain-liquidity-between-btc-eth-and-sol-look-like-liquidchain-liquid-weighs-in",
+          "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps",
+          "https://www.techedubyte.com/cross-chain-liquidity-btc-eth-sol-liquidchain"
         ],
         "dropped_sources": [
-          "https://docs.thorchain.org/native-cross-chain-swaps",
-          "https://symbiosis.finance",
-          "https://www.ccn.com/thorchain-crypto-has-plenty-of-liquidity"
+          "https://swaprocket.io/blog/cross-chain-crypto-swaps-without-kyc-2026"
         ],
-        "summary_changed": true
+        "summary_changed": false
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.6-flash",
+    "agent": "gemini-3.5-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-09-28T04:01:05.950078Z",
+    "timestamp": "2026-09-28T10:01:06.780502Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -256,9 +314,9 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.6-flash",
+      "model": "gemini-3.5-flash-lite",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-09-28T04:01:05.950078Z",
+      "timestamp": "2026-09-28T10:01:06.780502Z",
       "search_result_count": 20,
       "validation_error_count": 0,
       "validation_failures": []
@@ -266,9 +324,9 @@
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.6-flash",
+    "model": "gemini-3.5-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-09-28T04:01:05.950078Z",
+    "timestamp": "2026-09-28T10:01:06.780502Z",
     "search_result_count": 20,
     "validation_error_count": 0,
     "validation_failures": []
