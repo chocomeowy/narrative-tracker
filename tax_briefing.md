@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-09-29 10:01
+# Tax Intelligence Briefing - 2026-09-29 16:01
 
-As of late 2026, the international tax and trade landscapes are deeply defined by the operationalization of the OECD Pillar Two 15% global minimum tax across nearly 140 jurisdictions, alongside evolving corporate tax statistics and regional recalibrations. Concurrently, tax authorities globally are rapidly enforcing digital compliance architectures, notably mandatory B2B e-invoicing and real-time transaction frameworks like Singapore's InvoiceNow. Global trade and tariff policies remain highly volatile, shaped by ongoing bilateral adjustments, trade deals, and legal challenges regarding emergency tariff authorities.
+As of late 2026, the international tax and trade architectures are strongly dominated by the global maturation of the OECD Pillar Two 15% minimum tax, widespread adoption of real-time digital compliance like Singapore's GST InvoiceNow, and ongoing volatility in international tariffs and trade rules.
