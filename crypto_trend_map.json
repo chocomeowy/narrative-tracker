@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-29T04:01:04.317022Z",
-  "executive_briefing": "Late 2026 digital asset intelligence confirms a pivotal structural shift marked by the legislative defeat of the Senate's Digital Asset Market Clarity Act (H.R. 3633) in September 2026, cementing administrative enforcement regimes led by the SEC and CFTC as the primary regulatory framework. Institutional spot Bitcoin ETFs have entered a phase of mature consolidation following the $100B AUM milestone, transitioning corporate balance sheet strategies toward disciplined multi-asset management amid first-year net outflow periods. On the technical front, smart contract development is heavily prioritizing Bitcoin-native execution via decidable languages like Clarity, which utilize static code verification and mathematical determinism to eliminate EVM-style reentrancy risks. Concurrently, non-custodial cross-chain liquidity protocols are dissolving siloed capital barriers by enabling direct, trustless swaps between native BTC and ETH without relying on centralized wrapped asset bridges.",
+  "last_updated": "2026-09-29T10:02:23.122838Z",
+  "executive_briefing": "The cryptocurrency landscape in late 2026 is characterized by a significant regulatory maturation following the legislative defeat of the Clarity Act, pushing innovation towards administrative enforcement. Institutional Bitcoin ETFs have moved past initial hype into a stable, albeit sometimes outflow-heavy, phase of multi-asset integration. Technologically, a key development is the rise of Bitcoin-native smart contract languages like Clarity, which offer enhanced security through decidable logic, directly addressing EVM's reentrancy risks. Concurrently, DeFi is evolving towards non-custodial, trustless cross-chain solutions, enabling direct liquidity between Bitcoin and Ethereum, thereby dismantling previous capital silos.",
   "trends": [
     {
       "id": "clarity-act-legislative-failure-administrative-regulatory-shift",
@@ -8,23 +8,17 @@
       "stage": "Fatigue",
       "velocity": "Moderate",
       "category": "Regulation",
-      "summary": "The failure of the Digital Asset Market Clarity Act (H.R. 3633) to advance in the Senate has effectively halted federal crypto market structure legislation, accelerating reliance on SEC and CFTC administrative rules and enforcement actions.",
+      "summary": "The failure of the Digital Asset Market Clarity Act (H.R. 3633) to pass in the Senate has solidified the existing SEC and CFTC administrative enforcement as the primary regulatory framework for digital assets, signaling a fatigue in federal legislative efforts.",
       "evidence": [
-        "The Senate killed procedural advancement of the CLARITY Act (H.R. 3633) in September 2026, stalling comprehensive statutory crypto reforms.",
-        "Regulatory agencies including the SEC and CFTC immediately instituted administrative rule updates to regulate digital assets in lieu of federal legislation."
+        "The Senate did not advance the CLARITY Act (H.R. 3633) in September 2026, halting comprehensive statutory reform.",
+        "Regulatory bodies like the SEC and CFTC are now the main drivers of digital asset regulation through administrative rule-making and enforcement."
       ],
       "source_links": [
-        "https://finance.yahoo.com/markets/crypto/articles/clarity-act-died-tuesday-friday-130539272.html?fr=sycsrp_catchall",
         "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text-ahead-of-historic-tuesday-vote",
-        "https://www.govtrack.us/congress/bills/119/hr3633/text"
+        "https://www.govtrack.us/congress/bills/119/hr3633/text",
+        "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next"
       ],
       "source_details": [
-        {
-          "url": "https://finance.yahoo.com/markets/crypto/articles/clarity-act-died-tuesday-friday-130539272.html?fr=sycsrp_catchall",
-          "domain": "finance.yahoo.com",
-          "type": "secondary",
-          "published_date": null
-        },
         {
           "url": "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text-ahead-of-historic-tuesday-vote",
           "domain": "lummis.senate.gov",
@@ -36,6 +30,12 @@
           "domain": "govtrack.us",
           "type": "primary",
           "published_date": null
+        },
+        {
+          "url": "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
+          "domain": "cryptotimes.io",
+          "type": "secondary",
+          "published_date": "2026-05-14"
         }
       ],
       "source_quality": {
@@ -48,19 +48,21 @@
         "source_risk": "low"
       },
       "confidence": 0.98,
-      "reasoning": "The legislative death of the bill in late 2026 confirms prolonged fatigue in federal lawmaking, shifting institutional focus permanently toward agency compliance.",
+      "reasoning": "The legislative outcome confirms a prolonged period of uncertainty in federal lawmaking, shifting focus to agency-led regulation and institutional compliance, leading to a 'Fatigue' stage.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Fatigue",
+        "velocity_delta": 0,
+        "previous_velocity": "Moderate",
         "new_sources": [
-          "https://finance.yahoo.com/markets/crypto/articles/clarity-act-died-tuesday-friday-130539272.html?fr=sycsrp_catchall",
-          "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text-ahead-of-historic-tuesday-vote",
-          "https://www.govtrack.us/congress/bills/119/hr3633/text"
+          "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next"
         ],
-        "dropped_sources": [],
-        "summary_changed": false
+        "dropped_sources": [
+          "https://finance.yahoo.com/markets/crypto/articles/clarity-act-died-tuesday-friday-130539272.html?fr=sycsrp_catchall"
+        ],
+        "summary_changed": true
       }
     },
     {
@@ -69,15 +71,16 @@
       "stage": "Fatigue",
       "velocity": "Moderate",
       "category": "Institutional Finance",
-      "summary": "Following hyper-growth phases past $100B AUM, spot Bitcoin ETF flows have normalized into mature multi-asset balance sheet management, recording initial periods of net outflows as corporate treasury adoption stabilizes.",
+      "summary": "Spot Bitcoin ETFs have entered a mature consolidation phase, surpassing $100B AUM. Institutional treasury strategies are now focused on disciplined multi-asset management, with early periods of net outflows indicating a stabilization rather than explosive growth.",
       "evidence": [
-        "Spot Bitcoin ETFs recorded their first calendar year periods of net outflows in 2026 following historic accumulation phases.",
-        "Institutional allocators and corporate treasuries increasingly treat BTC as a strategic long-term diversifier rather than a speculative accumulation trade."
+        "Spot Bitcoin ETFs experienced net outflows in early 2026, marking their first such period after significant accumulation.",
+        "Institutions are increasingly viewing Bitcoin as a strategic, long-term diversifier within broader multi-asset portfolios."
       ],
       "source_links": [
         "https://www.theblock.co/learn/408156/how-bitcoin-etfs-changed-institutional-adoption",
         "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
-        "https://www.ssga.com/us/en/institutional/insights/why-bitcoin-institutional-demand-is-on-the-rise"
+        "https://www.ssga.com/us/en/institutional/insights/why-bitcoin-institutional-demand-is-on-the-rise",
+        "https://www.dakota.com/resources/blog/bitcoin-etf-ownership-in-2026-how-institutions-actually-decide-to-allocate"
       ],
       "source_details": [
         {
@@ -97,19 +100,25 @@
           "domain": "ssga.com",
           "type": "secondary",
           "published_date": null
+        },
+        {
+          "url": "https://www.dakota.com/resources/blog/bitcoin-etf-ownership-in-2026-how-institutions-actually-decide-to-allocate",
+          "domain": "dakota.com",
+          "type": "secondary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 3,
+        "total_sources": 4,
         "primary_source_count": 0,
-        "secondary_source_count": 3,
+        "secondary_source_count": 4,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": false,
         "source_risk": "medium"
       },
       "confidence": 0.95,
-      "reasoning": "Inflow stabilization and outflow events confirm that the initial ETF launch narrative has fully matured into corporate treasury integration.",
+      "reasoning": "The shift from significant inflows to periods of outflows, coupled with discussions of multi-asset integration, indicates a move from 'Peak Hype' to 'Fatigue' as adoption stabilizes.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -117,7 +126,9 @@
         "previous_stage": "Fatigue",
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
-        "new_sources": [],
+        "new_sources": [
+          "https://www.dakota.com/resources/blog/bitcoin-etf-ownership-in-2026-how-institutions-actually-decide-to-allocate"
+        ],
         "dropped_sources": [],
         "summary_changed": true
       }
@@ -128,14 +139,17 @@
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Layer 1",
-      "summary": "Decidable execution environments powered by the Clarity programming language are driving Bitcoin smart contract adoption, using static analysis and deterministic runtime models to prevent EVM-style exploit vectors like reentrancy.",
+      "summary": "The adoption of decidable programming languages like Clarity for smart contracts on Bitcoin is accelerating. This approach leverages static code analysis and deterministic execution to eliminate common vulnerabilities found in EVM-style contracts, such as reentrancy.",
       "evidence": [
-        "Developers are adopting non-Turing complete, decidable logic to perform static code validation prior to executing smart contracts on Bitcoin.",
-        "Clarity's deterministic framework completely eliminates EVM reentrancy vulnerabilities, establishing a safer environment for enterprise Bitcoin financial logic."
+        "Developers are increasingly using decidable, non-Turing complete languages for static code validation before smart contract execution on Bitcoin.",
+        "Clarity's deterministic execution environment significantly reduces security risks like reentrancy, offering a safer alternative for enterprise-grade Bitcoin financial logic."
       ],
       "source_links": [
         "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
-        "https://coinmarketcap.com/currencies/ethereum"
+        "https://en.wikipedia.org/wiki/Ethereum",
+        "https://coinmarketcap.com/currencies/ethereum",
+        "https://ethereum.org",
+        "https://robinhood.com/us/en/crypto/ETH"
       ],
       "source_details": [
         {
@@ -145,23 +159,41 @@
           "published_date": null
         },
         {
+          "url": "https://en.wikipedia.org/wiki/Ethereum",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        },
+        {
           "url": "https://coinmarketcap.com/currencies/ethereum",
           "domain": "coinmarketcap.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://ethereum.org",
+          "domain": "ethereum.org",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://robinhood.com/us/en/crypto/ETH",
+          "domain": "robinhood.com",
           "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 2,
-        "primary_source_count": 0,
-        "secondary_source_count": 1,
-        "wikipedia_source_count": 1,
+        "total_sources": 5,
+        "primary_source_count": 1,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 2,
         "blog_source_count": 0,
-        "has_primary_sources": false,
-        "source_risk": "medium"
+        "has_primary_sources": true,
+        "source_risk": "low"
       },
       "confidence": 0.92,
-      "reasoning": "Technical adoption of decidable smart execution models continues to expand rapidly as security-conscious developers seek alternatives to complex EVM code structures.",
+      "reasoning": "The focus on security through decidable logic and static verification represents a significant technical advancement, moving smart contract development on Bitcoin into a 'Breakthrough' stage with high velocity.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -169,7 +201,11 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "High",
-        "new_sources": [],
+        "new_sources": [
+          "https://en.wikipedia.org/wiki/Ethereum",
+          "https://ethereum.org",
+          "https://robinhood.com/us/en/crypto/ETH"
+        ],
         "dropped_sources": [],
         "summary_changed": true
       }
@@ -180,10 +216,10 @@
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "DeFi",
-      "summary": "Direct cross-chain liquidity protocols, atomic swap architectures, and threshold signature mechanisms are facilitating seamless capital flow between native BTC and ETH, bypassing centralized wrapped token bridges.",
+      "summary": "New protocols are enabling direct, non-custodial, and trustless cross-chain liquidity between native Bitcoin and Ethereum. These solutions bypass traditional wrapped asset bridges, utilizing mechanisms like atomic swaps and threshold signatures to enhance security and capital efficiency.",
       "evidence": [
-        "Decentralized liquidity protocols enable direct BTC to ETH cross-chain swaps without relying on centralized wrapped token custodians like WBTC.",
-        "Threshold signature vaults and atomic routing protocols significantly mitigate single-point-of-failure risks inherent in traditional bridge contracts."
+        "Decentralized protocols facilitate direct BTC-ETH cross-chain swaps, removing reliance on centralized custodians for wrapped assets like WBTC.",
+        "Advanced techniques such as threshold signature vaults and atomic routing are mitigating risks associated with centralized bridges."
       ],
       "source_links": [
         "https://www.techedubyte.com/cross-chain-liquidity-btc-eth-sol-liquidchain",
@@ -227,27 +263,24 @@
         "source_risk": "medium"
       },
       "confidence": 0.94,
-      "reasoning": "Continuous protocol launches and rising cross-chain volume validate the accelerated transition away from wrapped asset bridges toward trustless native swaps.",
+      "reasoning": "The emergence of secure, trustless cross-chain solutions signifies a major advancement in DeFi interoperability, moving from conceptualization to practical implementation, hence 'Breakthrough' with high velocity.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
-        "new_sources": [
-          "https://www.techedubyte.com/cross-chain-liquidity-btc-eth-sol-liquidchain",
-          "https://advertorial.cryptonews.com/press-releases/what-would-true-cross-chain-liquidity-between-btc-eth-and-sol-look-like-liquidchain-liquid-weighs-in",
-          "https://bitcoin.tax/blog/cross-chain-liquidity-2025",
-          "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi"
-        ],
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [],
         "dropped_sources": [],
-        "summary_changed": false
+        "summary_changed": true
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.6-flash",
+    "agent": "gemini-2.5-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-09-29T04:01:04.317022Z",
+    "timestamp": "2026-09-29T10:02:23.122838Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -256,9 +289,9 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.6-flash",
+      "model": "gemini-2.5-flash-lite",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-09-29T04:01:04.317022Z",
+      "timestamp": "2026-09-29T10:02:23.122838Z",
       "search_result_count": 20,
       "validation_error_count": 0,
       "validation_failures": []
@@ -266,9 +299,9 @@
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.6-flash",
+    "model": "gemini-2.5-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-09-29T04:01:04.317022Z",
+    "timestamp": "2026-09-29T10:02:23.122838Z",
     "search_result_count": 20,
     "validation_error_count": 0,
     "validation_failures": []
