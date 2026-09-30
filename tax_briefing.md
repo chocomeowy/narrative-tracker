@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-09-30 04:01
+# Tax Intelligence Briefing - 2026-09-30 10:01
 
-International tax and trade architectures in late 2026 are experiencing structural consolidation, underscored by the global maturation of the OECD Pillar Two 15% minimum tax framework, rapid implementation of digital compliance mandates like Singapore's GST InvoiceNow initiatives via the Peppol network, and continuous volatility in bilateral and unilateral international tariffs despite legal challenges and trade talks.
+International tax architecture in late 2026 is characterized by the ongoing consolidation of the OECD Pillar Two 15% global minimum tax across over 140 jurisdictions, the aggressive expansion of real-time digital tax controls such as Singapore's Peppol-based GST InvoiceNow network, and sustained turbulence in global trade policies driven by unilateral tariffs and corresponding legal challenges.
