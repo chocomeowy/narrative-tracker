@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-29T15:00:28.424087Z",
+  "last_updated": "2026-09-30T15:00:28.493774Z",
   "archived_trends": [
     {
       "id": "agentic-mesh-protocols",
@@ -6328,6 +6328,69 @@
         "summary_changed": false
       },
       "archived_at": "2026-09-28T15:00:53.632991Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "comparative-ai-model-analytics-open-source-llms",
+      "name": "Comparative AI Model Analytics & Open Source LLMs",
+      "stage": "Peak Hype",
+      "velocity": "High",
+      "category": "Model Ecosystem",
+      "summary": "Development focus is shifting toward multi-model benchmarking and the deployment of open-source weights to facilitate cross-model performance evaluation.",
+      "evidence": [
+        "Rapid proliferation of side-by-side comparative platforms like OpenRouter and model arenas.",
+        "Continued adoption of open-source foundational models like Meta Llama 3 as standard benchmarks."
+      ],
+      "source_links": [
+        "https://openrouter.ai/chat",
+        "https://imagera.ai/llm-arena",
+        "https://ollama.com/library/llama3"
+      ],
+      "source_details": [
+        {
+          "url": "https://openrouter.ai/chat",
+          "domain": "openrouter.ai",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://imagera.ai/llm-arena",
+          "domain": "imagera.ai",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://ollama.com/library/llama3",
+          "domain": "ollama.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 3,
+        "primary_source_count": 0,
+        "secondary_source_count": 3,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.9,
+      "reasoning": "The velocity remains high due to the overwhelming number of new models released monthly, forcing the industry to build infrastructure for comparative analysis rather than relying on a single vendor.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Peak Hype",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [],
+        "dropped_sources": [
+          "https://arena.ai/text/direct"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-09-30T15:00:28.493774Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
