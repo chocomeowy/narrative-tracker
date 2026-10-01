@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-10-01 04:01
+# Tax Intelligence Briefing - 2026-10-01 10:02
 
-Global tax architecture in late 2026 is undergoing rapid transformation, dominated by the widespread integration of the OECD Pillar Two 15% global minimum tax, the tightening of global digital tax controls and mandatory B2B e-invoicing frameworks like Singapore's InvoiceNow initiative, and significant shifts in international trade tariffs.
+The global tax landscape in late 2026 is characterized by concrete consolidation. The OECD Pillar Two global minimum tax is fully operational, with detailed administrative and compliance policies solidified by the newly released 2026 OECD Corporate Tax Statistics. Concurrently, digital tax controls and automated B2B e-invoicing systems are maturing into mandatory regulatory standards across major economies like Canada and Southeast Asia. Finally, ASEAN jurisdictions are recalibrating corporate tax rates, dividend rules, and investment incentives to protect sovereign revenues while fostering regional tax integration, representing critical shifts for multinational financial strategy.
