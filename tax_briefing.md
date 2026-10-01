@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-09-30 22:01
+# Tax Intelligence Briefing - 2026-10-01 04:01
 
-International tax architecture in late 2026 is characterized by the ongoing consolidation of the OECD Pillar Two 15% global minimum tax across over 140 jurisdictions, the aggressive expansion of real-time digital tax controls such as Singapore's Peppol-based InvoiceNow framework, and structural tax and incentive recalibrations across ASEAN economies.
+Global tax architecture in late 2026 is undergoing rapid transformation, dominated by the widespread integration of the OECD Pillar Two 15% global minimum tax, the tightening of global digital tax controls and mandatory B2B e-invoicing frameworks like Singapore's InvoiceNow initiative, and significant shifts in international trade tariffs.
