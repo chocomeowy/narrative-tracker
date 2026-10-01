@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-01T16:01:14.981403Z",
-  "executive_briefing": "The global corporate tax landscape in 2026 is driven by the maturation of the OECD Pillar Two global minimum tax, ongoing digital tax enforcement through e-invoicing, and strategic fiscal adjustments across regional blocks like ASEAN. While large multinationals adapt to 15% minimum effective tax rates and standardized compliance frameworks, regional jurisdictions continue to balance economic incentives with sovereign tax preservation.",
+  "last_updated": "2026-10-01T22:01:35.282675Z",
+  "executive_briefing": "The global corporate tax and trade landscape in 2026 is defined by the continued institutionalization of the OECD Pillar Two 15% global minimum tax, rapid deployment of mandatory electronic invoicing systems like Singapore's Peppol-based InvoiceNow, and intense legal and regulatory volatility surrounding international import tariffs. Multinationals must navigate simultaneous compliance pressures from both digital tax authorities and shifting trade barriers.",
   "trends": [
     {
       "id": "oecd-pillar-two-and-global-minimum-tax-integration",
@@ -8,11 +8,11 @@
       "stage": "Breakthrough",
       "velocity": "Fast",
       "category": "Corporate Tax",
-      "summary": "Implementation of the 15% global minimum corporate tax continues worldwide, underpinned by the 2026 OECD Corporate Tax Statistics report and widespread adoption of GloBE rules.",
+      "summary": "Implementation of the 15% global minimum corporate tax continues worldwide, backed by the 2026 OECD Corporate Tax Statistics report and expanded adoption of GloBE and domestic minimum tax rules.",
       "evidence": [
         "The OECD released the 2026 edition of Corporate Tax Statistics covering corporate income tax, MNE activity, and BEPS practices.",
-        "Pillar Two legislation was recently enacted in North Macedonia and other expanding jurisdictions aligned with the EU Global Minimum Tax Directive.",
-        "Moody's and KPMG reports highlight the systemic corporate compliance race to align accounting systems with GloBE rules."
+        "Pillar Two legislation and GloBE rules continue to expand across global jurisdictions aligned with international minimum tax directives.",
+        "Major financial and tax advisory firms highlight systemic corporate compliance races to align accounting systems with GloBE rules."
       ],
       "source_links": [
         "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html",
@@ -63,7 +63,7 @@
         "source_risk": "low"
       },
       "confidence": 0.99,
-      "reasoning": "Maintains Breakthrough stage with fast velocity as the 2026 OECD reports and recent legislative rollouts establish deeper global enforcement.",
+      "reasoning": "Maintains Breakthrough stage with fast velocity as the 2026 OECD reports and legislative rollouts establish deeper global enforcement.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -71,12 +71,8 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [
-          "https://whtcalculator.com/beps-pillar-two"
-        ],
-        "dropped_sources": [
-          "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026"
-        ],
+        "new_sources": [],
+        "dropped_sources": [],
         "summary_changed": true
       }
     },
@@ -86,21 +82,36 @@
       "stage": "Breakthrough",
       "velocity": "Fast",
       "category": "Digital Tax",
-      "summary": "Tax authorities globally are accelerating the transition to mandatory digital transaction reporting, Peppol-based e-invoicing standards, and electronic GST/HST filing.",
+      "summary": "Tax authorities globally are accelerating the transition to mandatory digital transaction reporting, Peppol-based e-invoicing standards, and electronic GST/HST filing, highlighted by specific rollouts like Singapore's InvoiceNow.",
       "evidence": [
+        "Singapore's IRAS mandates phased GST invoice data transmission via the InvoiceNow network starting for new voluntary registrants.",
         "Revenue agencies are enforcing strict electronic reporting frameworks and deadlines for transactional tax verification.",
-        "Global software and payment infrastructure guides outline the expanding requirement for automated digital invoice compliance."
+        "Global payment and tax software guides outline expanding requirements for automated digital invoice compliance."
       ],
       "source_links": [
-        "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/file-gst-hst-return/reporting-requirements-deadlines.html",
+        "https://e-invoicing.org/singapore",
+        "https://www.cleartax.com/sg/en/e-invoicing-singapore",
+        "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement",
         "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
         "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html"
       ],
       "source_details": [
         {
-          "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/file-gst-hst-return/reporting-requirements-deadlines.html",
-          "domain": "canada.ca",
+          "url": "https://e-invoicing.org/singapore",
+          "domain": "e-invoicing.org",
           "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.cleartax.com/sg/en/e-invoicing-singapore",
+          "domain": "cleartax.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement",
+          "domain": "iras.gov.sg",
+          "type": "primary",
           "published_date": null
         },
         {
@@ -117,16 +128,16 @@
         }
       ],
       "source_quality": {
-        "total_sources": 3,
-        "primary_source_count": 0,
-        "secondary_source_count": 3,
+        "total_sources": 5,
+        "primary_source_count": 1,
+        "secondary_source_count": 4,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
-        "has_primary_sources": false,
-        "source_risk": "medium"
+        "has_primary_sources": true,
+        "source_risk": "low"
       },
-      "confidence": 0.95,
-      "reasoning": "Maintains Breakthrough stage as digital reporting transforms from voluntary adoption into mandatory operational law across major tax jurisdictions.",
+      "confidence": 0.96,
+      "reasoning": "Maintains Breakthrough stage as digital invoicing transitions from voluntary adoption into mandatory operational law across major financial hubs.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -135,13 +146,83 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
-          "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
-          "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html"
+          "https://e-invoicing.org/singapore",
+          "https://www.cleartax.com/sg/en/e-invoicing-singapore",
+          "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement"
         ],
         "dropped_sources": [
-          "https://en.wikipedia.org/wiki/E-invoicing"
+          "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/file-gst-hst-return/reporting-requirements-deadlines.html"
         ],
         "summary_changed": true
+      }
+    },
+    {
+      "id": "international-trade-tariffs-and-cross-border-compliance",
+      "name": "International Trade Tariffs and Cross-Border Compliance",
+      "stage": "Breakthrough",
+      "velocity": "Fast",
+      "category": "Tariffs",
+      "summary": "Heightened scrutiny and legal challenges surrounding global import tariffs, Section 122 duties, and trade compliance requirements create acute uncertainty for international supply chains.",
+      "evidence": [
+        "The US Court of International Trade continues to review and adjudicate the legal standing of recent wide-ranging global import tariffs and proclamations.",
+        "Trade compliance resource hubs actively track evolving import tariff rates, affected countries, exemptions, and 2026 policy updates."
+      ],
+      "source_links": [
+        "https://www.reuters.com/business/tariffs",
+        "https://www.bloomberg.com/latest/trump-tariffs",
+        "https://usacustomsclearance.com/import-tariffs-updates",
+        "https://www.tradecomplianceresourcehub.com/2026/09/10/trump-2-0-tariff-tracker"
+      ],
+      "source_details": [
+        {
+          "url": "https://www.reuters.com/business/tariffs",
+          "domain": "reuters.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.bloomberg.com/latest/trump-tariffs",
+          "domain": "bloomberg.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://usacustomsclearance.com/import-tariffs-updates",
+          "domain": "usacustomsclearance.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.tradecomplianceresourcehub.com/2026/09/10/trump-2-0-tariff-tracker",
+          "domain": "tradecomplianceresourcehub.com",
+          "type": "secondary",
+          "published_date": "2026-09-10"
+        }
+      ],
+      "source_quality": {
+        "total_sources": 4,
+        "primary_source_count": 0,
+        "secondary_source_count": 4,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.95,
+      "reasoning": "Elevated to Breakthrough stage due to active judicial challenges and extensive regulatory tracking of aggressive global trade tariff implementations.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
+        "new_sources": [
+          "https://www.reuters.com/business/tariffs",
+          "https://www.bloomberg.com/latest/trump-tariffs",
+          "https://usacustomsclearance.com/import-tariffs-updates",
+          "https://www.tradecomplianceresourcehub.com/2026/09/10/trump-2-0-tariff-tracker"
+        ],
+        "dropped_sources": [],
+        "summary_changed": false
       }
     },
     {
@@ -190,7 +271,7 @@
         "source_risk": "medium"
       },
       "confidence": 0.93,
-      "reasoning": "Remains in Incubation with steady velocity backed by newly published 2026 regional tax guides tracking structured fiscal reforms.",
+      "reasoning": "Remains in Incubation with steady velocity backed by newly published regional tax guides tracking structured fiscal reforms across ASEAN.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -198,23 +279,19 @@
         "previous_stage": "Incubation",
         "velocity_delta": 0,
         "previous_velocity": "Medium",
-        "new_sources": [
-          "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026"
-        ],
-        "dropped_sources": [
-          "https://www.grantthornton.sg/globalassets/1.-member-firms/singapore/pdf-articles/asean-tax-guide-2026_updated.pdf"
-        ],
-        "summary_changed": true
+        "new_sources": [],
+        "dropped_sources": [],
+        "summary_changed": false
       }
     }
   ],
   "intelligence_metadata": {
     "agent": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-10-01T16:01:14.981403Z",
-    "active_narratives": 3,
+    "timestamp": "2026-10-01T22:01:35.282675Z",
+    "active_narratives": 4,
     "validation": {
-      "accepted": 3,
+      "accepted": 4,
       "rejected": 0,
       "validation_error_count": 0
     },
@@ -222,8 +299,8 @@
       "status": "success",
       "model": "gemini-3.5-flash-lite",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-10-01T16:01:14.981403Z",
-      "search_result_count": 26,
+      "timestamp": "2026-10-01T22:01:35.282675Z",
+      "search_result_count": 31,
       "validation_error_count": 0,
       "validation_failures": []
     }
@@ -232,8 +309,8 @@
     "status": "success",
     "model": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-10-01T16:01:14.981403Z",
-    "search_result_count": 26,
+    "timestamp": "2026-10-01T22:01:35.282675Z",
+    "search_result_count": 31,
     "validation_error_count": 0,
     "validation_failures": []
   }
