@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-10-03 04:01
+# Tax Intelligence Briefing - 2026-10-03 10:01
 
-In 2026, global corporate tax policy is defined by the widespread operationalization of OECD Pillar Two rules alongside aggressive digital tax administration shifts. Multinational enterprises face tighter compliance standards as tax authorities integrate 15% global minimum effective tax rate monitoring with mandatory real-time Peppol-based e-invoicing regimes, such as Singapore's InvoiceNow initiative, while jurisdictions recalibrate statutory corporate rates for competitive alignment.
+In 2026, global tax policy is rapidly consolidating around the 15% global minimum tax under OECD Pillar Two and widespread digital tax administration, including structured e-invoicing and corporate GST compliance. Tax authorities are relying heavily on real-time transaction reporting and comprehensive international databases to monitor base erosion and profit shifting.

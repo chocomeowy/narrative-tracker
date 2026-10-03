@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-03T04:01:22.647402Z",
-  "executive_briefing": "In 2026, global corporate tax policy is defined by the widespread operationalization of OECD Pillar Two rules alongside aggressive digital tax administration shifts. Multinational enterprises face tighter compliance standards as tax authorities integrate 15% global minimum effective tax rate monitoring with mandatory real-time Peppol-based e-invoicing regimes, such as Singapore's InvoiceNow initiative, while jurisdictions recalibrate statutory corporate rates for competitive alignment.",
+  "last_updated": "2026-10-03T10:01:40.145539Z",
+  "executive_briefing": "In 2026, global tax policy is rapidly consolidating around the 15% global minimum tax under OECD Pillar Two and widespread digital tax administration, including structured e-invoicing and corporate GST compliance. Tax authorities are relying heavily on real-time transaction reporting and comprehensive international databases to monitor base erosion and profit shifting.",
   "trends": [
     {
       "id": "oecd-pillar-two-and-global-minimum-tax-integration",
@@ -8,24 +8,17 @@
       "stage": "Breakthrough",
       "velocity": "Fast",
       "category": "Corporate Tax",
-      "summary": "Implementation of the 15% global minimum corporate tax accelerates worldwide as approximately 140 countries enact GloBE rules, supported by updated OECD 2026 statistical tracking and international guidance.",
+      "summary": "Implementation of the 15% global minimum corporate tax accelerates worldwide as countries enact GloBE rules, reinforced by the OECD's 2026 Corporate Tax Statistics publication.",
       "evidence": [
-        "The OECD released its 2026 Corporate Tax Statistics flagship publication tracking corporate taxation, MNE activity, and BEPS practices.",
-        "Pillar Two frameworks enforce a 15% minimum effective tax rate across participating multinational enterprises.",
-        "KPMG and tax authorities report ongoing global alignment around effective tax rate disclosures and base erosion controls."
+        "The OECD released its 2026 Corporate Tax Statistics flagship publication tracking corporate taxation and MNE activity.",
+        "KPMG and international tax updates confirm ongoing alignment around effective tax rate disclosures and base erosion controls."
       ],
       "source_links": [
-        "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en/full-report.html",
         "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html",
-        "https://taxrate.org/corporate-tax-rates"
+        "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en/full-report.html",
+        "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en/full-report/statutory-corporate-income-tax-rates_ce84abb9.html"
       ],
       "source_details": [
-        {
-          "url": "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en/full-report.html",
-          "domain": "oecd.org",
-          "type": "primary",
-          "published_date": null
-        },
         {
           "url": "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html",
           "domain": "kpmg.com",
@@ -33,23 +26,29 @@
           "published_date": "2026-07-01"
         },
         {
-          "url": "https://taxrate.org/corporate-tax-rates",
-          "domain": "taxrate.org",
-          "type": "secondary",
+          "url": "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en/full-report.html",
+          "domain": "oecd.org",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en/full-report/statutory-corporate-income-tax-rates_ce84abb9.html",
+          "domain": "oecd.org",
+          "type": "primary",
           "published_date": null
         }
       ],
       "source_quality": {
         "total_sources": 3,
-        "primary_source_count": 1,
-        "secondary_source_count": 2,
+        "primary_source_count": 2,
+        "secondary_source_count": 1,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
         "source_risk": "low"
       },
       "confidence": 0.99,
-      "reasoning": "Maintains Breakthrough stage with fast velocity as OECD 2026 publication and multi-jurisdictional reporting frameworks solidify global execution.",
+      "reasoning": "Maintains Breakthrough stage due to ongoing formal releases from the OECD and major global accounting firms tracking minimum effective tax rate enforcement.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -57,8 +56,12 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [],
-        "dropped_sources": [],
+        "new_sources": [
+          "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en/full-report/statutory-corporate-income-tax-rates_ce84abb9.html"
+        ],
+        "dropped_sources": [
+          "https://taxrate.org/corporate-tax-rates"
+        ],
         "summary_changed": true
       }
     },
@@ -68,56 +71,36 @@
       "stage": "Breakthrough",
       "velocity": "Fast",
       "category": "Digital Tax",
-      "summary": "Tax authorities are aggressively enforcing real-time structured electronic transaction reporting via Peppol networks, highlighted by Singapore's GST InvoiceNow framework.",
+      "summary": "Tax authorities continue to aggressively enforce real-time structured electronic transaction reporting to ensure total GST compliance and reduce billing fraud.",
       "evidence": [
-        "Singapore's IRAS and IMDA enforce structured e-invoice data transmission using the Peppol-based InvoiceNow framework.",
-        "E-invoicing software and direct system-to-system exchanges replace traditional billing to enhance tax compliance and auditability.",
-        "ClearTax and industry analysts highlight expanding statutory e-invoicing compliance requirements for corporate GST registrants."
+        "E-invoicing frameworks and software adoption expand globally as standard infrastructure for corporate trade partners.",
+        "Governments mandate system-to-system electronic billing to improve visibility into business transactions and tax remittances."
       ],
       "source_links": [
-        "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-        "https://e-invoicing.org/singapore",
-        "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement",
-        "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework"
+        "https://ledgerism.net/corporate-tax-rate-database-2026"
       ],
       "source_details": [
         {
-          "url": "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-          "domain": "cleartax.com",
+          "url": "https://ledgerism.net/corporate-tax-rate-database-2026",
+          "domain": "ledgerism.net",
           "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://e-invoicing.org/singapore",
-          "domain": "e-invoicing.org",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement",
-          "domain": "iras.gov.sg",
-          "type": "primary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
-          "domain": "imda.gov.sg",
-          "type": "primary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 4,
-        "primary_source_count": 2,
-        "secondary_source_count": 2,
+        "total_sources": 1,
+        "primary_source_count": 0,
+        "secondary_source_count": 1,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
-        "has_primary_sources": true,
-        "source_risk": "low"
+        "has_primary_sources": false,
+        "source_risk": "high"
       },
-      "confidence": 0.98,
-      "reasoning": "Sustains Breakthrough stage as regional digital tax mandates transition into strict statutory enforcement deadlines.",
-      "validation_flags": [],
+      "confidence": 0.97,
+      "reasoning": "Sustains Breakthrough stage as electronic billing systems become mandatory requirements for corporate transaction reporting.",
+      "validation_flags": [
+        "weak_source_support"
+      ],
       "changed_since_previous_run": {
         "is_new": false,
         "stage_delta": 0,
@@ -125,11 +108,13 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
-          "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
-          "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement"
+          "https://ledgerism.net/corporate-tax-rate-database-2026"
         ],
         "dropped_sources": [
-          "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)"
+          "https://e-invoicing.org/singapore",
+          "https://www.cleartax.com/sg/en/e-invoicing-singapore",
+          "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
+          "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement"
         ],
         "summary_changed": true
       }
@@ -140,25 +125,25 @@
       "stage": "Incubation",
       "velocity": "Medium",
       "category": "Corporate Tax",
-      "summary": "Jurisdictions are modifying statutory corporate income tax rates, state-level brackets, and withholding taxes for 2026 to balance domestic revenues with global minimum tax standards.",
+      "summary": "Jurisdictions continue to calibrate statutory corporate income tax rates, state-level brackets, and withholding tax structures for 2026 to stay globally competitive.",
       "evidence": [
-        "BDO details global corporate and withholding tax rate changes taking effect from January 1, 2026.",
-        "TaxRate reporting notes the US federal corporate rate at 21% alongside evolving state corporate tax brackets and pass-through rules."
+        "TaxRate.org reports federal and state corporate rates alongside pass-through rules for 2026.",
+        "Specialized tax databases provide worldwide tracking of statutory and effective rate modifications."
       ],
       "source_links": [
-        "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
-        "https://taxrate.org/corporate-tax-rates"
+        "https://taxrate.org/corporate-tax-rates",
+        "https://ledgerism.net/corporate-tax-rate-database-2026"
       ],
       "source_details": [
         {
-          "url": "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
-          "domain": "bdo.global",
+          "url": "https://taxrate.org/corporate-tax-rates",
+          "domain": "taxrate.org",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://taxrate.org/corporate-tax-rates",
-          "domain": "taxrate.org",
+          "url": "https://ledgerism.net/corporate-tax-rate-database-2026",
+          "domain": "ledgerism.net",
           "type": "secondary",
           "published_date": null
         }
@@ -172,8 +157,8 @@
         "has_primary_sources": false,
         "source_risk": "medium"
       },
-      "confidence": 0.94,
-      "reasoning": "Remains in Incubation as domestic statutory tax rate adjustments proceed incrementally across distinct national jurisdictions.",
+      "confidence": 0.95,
+      "reasoning": "Remains in Incubation as countries incrementally adjust domestic corporate tax rates and brackets in response to international minimum standards.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -182,20 +167,19 @@
         "velocity_delta": 0,
         "previous_velocity": "Medium",
         "new_sources": [
-          "https://taxrate.org/corporate-tax-rates"
+          "https://ledgerism.net/corporate-tax-rate-database-2026"
         ],
         "dropped_sources": [
-          "https://taxspecialty.com/corporate-tax-rate-changes-2026-proposals",
-          "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income"
+          "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026"
         ],
         "summary_changed": true
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.6-flash",
+    "agent": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-10-03T04:01:22.647402Z",
+    "timestamp": "2026-10-03T10:01:40.145539Z",
     "active_narratives": 3,
     "validation": {
       "accepted": 3,
@@ -204,20 +188,20 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.6-flash",
+      "model": "gemini-3.5-flash-lite",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-10-03T04:01:22.647402Z",
-      "search_result_count": 16,
+      "timestamp": "2026-10-03T10:01:40.145539Z",
+      "search_result_count": 8,
       "validation_error_count": 0,
       "validation_failures": []
     }
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.6-flash",
+    "model": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-10-03T04:01:22.647402Z",
-    "search_result_count": 16,
+    "timestamp": "2026-10-03T10:01:40.145539Z",
+    "search_result_count": 8,
     "validation_error_count": 0,
     "validation_failures": []
   }
