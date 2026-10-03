@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-03T16:01:22.420306Z",
+  "last_updated": "2026-10-03T22:01:14.066079Z",
   "archived_trends": [
     {
       "id": "strategic-corporate-tax-reforms-in-competitive-hubs",
@@ -4451,6 +4451,159 @@
         "summary_changed": false
       },
       "archived_at": "2026-10-03T04:01:22.647402Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "global-e-invoicing-mandates-and-corporate-gst-digitisation",
+      "name": "Global E-Invoicing Mandates and Corporate GST Digitisation",
+      "stage": "Breakthrough",
+      "velocity": "Fast",
+      "category": "Digital Tax",
+      "summary": "Tax authorities globally are enforcing digital tax reporting, electronic invoicing, and structured transactional data submission to close tax gaps. Mandatory e-filing for sales taxes (like Canada's GST/HST) and real-time invoicing platforms streamline reporting and auditing.",
+      "evidence": [
+        "Revenue agencies (e.g., Canada Revenue Agency) enforce mandatory electronic filing for GST/HST returns.",
+        "Stripe and Avalara emphasize the transition to structured electronic invoicing formats to satisfy compliance standards.",
+        "Global tax authorities deploy real-time transaction monitoring to counter tax leakage and audit errors."
+      ],
+      "source_links": [
+        "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/file-gst-hst-return/reporting-requirements-deadlines.html",
+        "https://www.stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
+        "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html",
+        "https://taxsummaries.pwc.com/india/corporate/other-taxes"
+      ],
+      "source_details": [
+        {
+          "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/file-gst-hst-return/reporting-requirements-deadlines.html",
+          "domain": "canada.ca",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
+          "domain": "stripe.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html",
+          "domain": "avalara.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://taxsummaries.pwc.com/india/corporate/other-taxes",
+          "domain": "taxsummaries.pwc.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 4,
+        "primary_source_count": 0,
+        "secondary_source_count": 4,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.96,
+      "reasoning": "Retains Breakthrough stage as real-time reporting shifts from policy proposal to rigid system-to-system mandates globally.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "Fast",
+        "new_sources": [
+          "https://taxsummaries.pwc.com/india/corporate/other-taxes",
+          "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html",
+          "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/file-gst-hst-return/reporting-requirements-deadlines.html",
+          "https://www.stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses"
+        ],
+        "dropped_sources": [
+          "https://ledgerism.net/corporate-tax-rate-database-2026"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-10-03T22:01:14.066079Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "global-corporate-income-tax-rate-adjustments",
+      "name": "Global Corporate Income Tax Rate Adjustments",
+      "stage": "Incubation",
+      "velocity": "Medium",
+      "category": "Corporate Tax",
+      "summary": "Nations continue to adjust statutory corporate tax structures and exemptions to balance Pillar Two rules with regional competitiveness. For example, Singapore retains its 17% baseline rate while offering targeted exemptions (SOTE/PTE) and a 40% rebate for Budget 2026 to cushion local firms.",
+      "evidence": [
+        "Singapore's Budget 2026 retains a 17% corporate income tax but introduces a 40% CIT Rebate (capped at S$30,000) alongside Start-Up and Partial Tax Exemptions.",
+        "BDO Global's tracking indicates ongoing global calibration of corporate and withholding tax rates starting January 1, 2026.",
+        "TaxRate.org monitors 2026 federal (e.g., US 21%) and state corporate brackets relative to OECD rules."
+      ],
+      "source_links": [
+        "https://www.nationrules.com/singapore/corporate-tax-sote-start-up-tax-exemption-guide",
+        "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates",
+        "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
+        "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income"
+      ],
+      "source_details": [
+        {
+          "url": "https://www.nationrules.com/singapore/corporate-tax-sote-start-up-tax-exemption-guide",
+          "domain": "nationrules.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates",
+          "domain": "iras.gov.sg",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
+          "domain": "bdo.global",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
+          "domain": "taxsummaries.pwc.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 4,
+        "primary_source_count": 1,
+        "secondary_source_count": 3,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.95,
+      "reasoning": "Remains in Incubation as domestic jurisdictions selectively structure incentives and tax credits to mitigate the impact of the global minimum tax.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Incubation",
+        "velocity_delta": 0,
+        "previous_velocity": "Medium",
+        "new_sources": [
+          "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
+          "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
+          "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates",
+          "https://www.nationrules.com/singapore/corporate-tax-sote-start-up-tax-exemption-guide"
+        ],
+        "dropped_sources": [
+          "https://ledgerism.net/corporate-tax-rate-database-2026",
+          "https://taxrate.org/corporate-tax-rates"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-10-03T22:01:14.066079Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
