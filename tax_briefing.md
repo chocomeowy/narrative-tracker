@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-10-02 22:01
+# Tax Intelligence Briefing - 2026-10-03 04:01
 
-The corporate tax and global trade environment in 2026 continues to undergo intense structural transformation, driven by the widespread global enforcement of the OECD Pillar Two 15% minimum tax framework, dynamic legal updates regarding import tariffs, and the aggressive worldwide expansion of mandatory digital e-invoicing and real-time transaction reporting.
+In 2026, global corporate tax policy is defined by the widespread operationalization of OECD Pillar Two rules alongside aggressive digital tax administration shifts. Multinational enterprises face tighter compliance standards as tax authorities integrate 15% global minimum effective tax rate monitoring with mandatory real-time Peppol-based e-invoicing regimes, such as Singapore's InvoiceNow initiative, while jurisdictions recalibrate statutory corporate rates for competitive alignment.
