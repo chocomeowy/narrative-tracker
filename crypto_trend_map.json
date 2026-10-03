@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-03T10:01:10.745688Z",
-  "executive_briefing": "The digital asset landscape in late 2026 demonstrates clear maturation across institutional Bitcoin integration and cross-chain architectural primitives. With cumulative assets under management across spot Bitcoin ETFs and corporate treasuries surpassing $100 billion, institutional adoption has shifted from speculative excitement to systemic portfolio standardisation. Concurrently, technical developments focus on mitigating execution risk through decidable smart contract frameworks like Clarity on Bitcoin layers, providing a risk-mitigated alternative to Turing-complete EVM environments.",
+  "last_updated": "2026-10-03T16:01:09.754021Z",
+  "executive_briefing": "The digital asset landscape in late 2026 demonstrates structural maturation across institutional integration and cross-chain architectural primitives. Bitcoin institutional adoption has solidified past the $100 billion AUM milestone, transitioning from speculative interest to standard portfolio maintenance. Simultaneously, cross-chain architectural developments are bridging the BTC/ETH divide, enabling native BTC to seamlessly fuel Ethereum's DeFi ecosystem. In parallel, the demand for predictable, decidable execution environments has elevated Clarity-based Bitcoin smart contract frameworks as a robust, non-reentrant alternative to Ethereum's Turing-complete EVM architecture.",
   "trends": [
     {
       "id": "institutional-bitcoin-treasury-etf-portfolio-consolidation",
@@ -17,8 +17,8 @@
         "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
         "https://cryptonium.cloud/articles/bitcoins-sovereign-embrace-decoding-2026-institutional-adoption-curve-macro-tailwinds",
         "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
-        "https://www.theblock.co/learn/markets/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111",
-        "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption"
+        "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption",
+        "https://www.ainvest.com/news/bitcoin-etf-inflows-institutional-adoption-2026-momentum-market-impact-strategic-entry-points-growth-2601"
       ],
       "source_details": [
         {
@@ -40,14 +40,14 @@
           "published_date": null
         },
         {
-          "url": "https://www.theblock.co/learn/markets/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111",
-          "domain": "theblock.co",
+          "url": "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption",
+          "domain": "blockchain-council.org",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption",
-          "domain": "blockchain-council.org",
+          "url": "https://www.ainvest.com/news/bitcoin-etf-inflows-institutional-adoption-2026-momentum-market-impact-strategic-entry-points-growth-2601",
+          "domain": "ainvest.com",
           "type": "secondary",
           "published_date": null
         }
@@ -71,10 +71,10 @@
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
         "new_sources": [
-          "https://cryptothreads.io/learn/bitcoin-institutional-adoption"
+          "https://www.ainvest.com/news/bitcoin-etf-inflows-institutional-adoption-2026-momentum-market-impact-strategic-entry-points-growth-2601"
         ],
         "dropped_sources": [
-          "https://www.ainvest.com/news/bitcoin-etf-inflows-institutional-adoption-2026-bull-case-digital-asset-era-2601"
+          "https://www.theblock.co/learn/markets/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111"
         ],
         "summary_changed": false
       }
@@ -91,7 +91,8 @@
         "Institutional demand for secure smart contracts on Bitcoin is accelerating alternatives to EVM execution complexity."
       ],
       "source_links": [
-        "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance"
+        "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+        "https://ethereum.org"
       ],
       "source_details": [
         {
@@ -99,23 +100,26 @@
           "domain": "en.wikipedia.org",
           "type": "wikipedia",
           "published_date": null
+        },
+        {
+          "url": "https://ethereum.org",
+          "domain": "ethereum.org",
+          "type": "primary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 1,
-        "primary_source_count": 0,
+        "total_sources": 2,
+        "primary_source_count": 1,
         "secondary_source_count": 0,
         "wikipedia_source_count": 1,
         "blog_source_count": 0,
-        "has_primary_sources": false,
-        "source_risk": "high"
+        "has_primary_sources": true,
+        "source_risk": "low"
       },
       "confidence": 0.92,
       "reasoning": "Technical specialization around decidable smart contract design on Bitcoin layers continues to advance as an alternative to Ethereum's EVM complexity.",
-      "validation_flags": [
-        "weak_source_support",
-        "wikipedia_only"
-      ],
+      "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
         "stage_delta": 0,
@@ -123,42 +127,108 @@
         "velocity_delta": 0,
         "previous_velocity": "High",
         "new_sources": [
-          "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance"
+          "https://ethereum.org"
         ],
-        "dropped_sources": [
-          "https://ethereum.org",
-          "https://www.vaneck.com/us/en/blogs/digital-assets/bitcoin-vs-ethereum"
+        "dropped_sources": [],
+        "summary_changed": false
+      }
+    },
+    {
+      "id": "cross-chain-bitcoin-to-ethereum-liquidity-bridges",
+      "name": "Cross-Chain Bitcoin-to-Ethereum Liquidity Bridges",
+      "stage": "Breakthrough",
+      "velocity": "High",
+      "category": "DeFi",
+      "summary": "Decentralized bridges and native cross-chain swaps are increasingly integrating native Bitcoin into Ethereum's DeFi ecosystem, enabling frictionless multi-chain asset utility.",
+      "evidence": [
+        "Cross-chain swaps allow trading BTC for ETH in a single transaction with backend bridging.",
+        "Bridges like WBTC and tBTC allow native Bitcoin to directly enter Ethereum's DeFi, NFT, and dApp ecosystems."
+      ],
+      "source_links": [
+        "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
+        "https://ethereum.org/bridges",
+        "https://symbiosis.finance/bridge-btc-to-eth",
+        "https://trustwallet.com/blog/academy/cross-chain-swaps-explained"
+      ],
+      "source_details": [
+        {
+          "url": "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
+          "domain": "bitunix.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://ethereum.org/bridges",
+          "domain": "ethereum.org",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://symbiosis.finance/bridge-btc-to-eth",
+          "domain": "symbiosis.finance",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
+          "domain": "trustwallet.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 4,
+        "primary_source_count": 1,
+        "secondary_source_count": 3,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.95,
+      "reasoning": "New data shows a rise in user adoption of automated cross-chain swapping and bridging mechanisms to port BTC liquidity over to Ethereum protocols, signifying a major breakthrough in interoperability.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
+        "new_sources": [
+          "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
+          "https://ethereum.org/bridges",
+          "https://symbiosis.finance/bridge-btc-to-eth",
+          "https://trustwallet.com/blog/academy/cross-chain-swaps-explained"
         ],
+        "dropped_sources": [],
         "summary_changed": false
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.5-flash-lite",
+    "agent": "gemini-3.5-flash",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-10-03T10:01:10.745688Z",
-    "active_narratives": 2,
+    "timestamp": "2026-10-03T16:01:09.754021Z",
+    "active_narratives": 3,
     "validation": {
-      "accepted": 2,
+      "accepted": 3,
       "rejected": 0,
       "validation_error_count": 0
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.5-flash-lite",
+      "model": "gemini-3.5-flash",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-10-03T10:01:10.745688Z",
-      "search_result_count": 6,
+      "timestamp": "2026-10-03T16:01:09.754021Z",
+      "search_result_count": 15,
       "validation_error_count": 0,
       "validation_failures": []
     }
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.5-flash-lite",
+    "model": "gemini-3.5-flash",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-10-03T10:01:10.745688Z",
-    "search_result_count": 6,
+    "timestamp": "2026-10-03T16:01:09.754021Z",
+    "search_result_count": 15,
     "validation_error_count": 0,
     "validation_failures": []
   }
