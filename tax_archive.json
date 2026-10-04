@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-04T10:01:37.850695Z",
+  "last_updated": "2026-10-04T16:01:30.570276Z",
   "archived_trends": [
     {
       "id": "strategic-corporate-tax-reforms-in-competitive-hubs",
@@ -4818,6 +4818,69 @@
         "summary_changed": false
       },
       "archived_at": "2026-10-04T10:01:37.850695Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "international-tariffs-and-trade-policy-shifts",
+      "name": "International Tariffs and Trade Policy Shifts",
+      "stage": "Incubation",
+      "velocity": "Medium",
+      "category": "Tariffs",
+      "summary": "Global trade policy is experiencing volatility as courts and international organizations scrutinize sweeping import tariffs, trade frameworks, and cross-border duties.",
+      "evidence": [
+        "The US Court of International Trade is actively reviewing legal challenges surrounding recent comprehensive global import tariffs.",
+        "WTO and global trade databases provide updated applied tariff frameworks for over 170 economies."
+      ],
+      "source_links": [
+        "https://www.reuters.com/business/tariffs",
+        "https://ttd.wto.org/en",
+        "https://usacustomsclearance.com/import-tariffs-updates"
+      ],
+      "source_details": [
+        {
+          "url": "https://www.reuters.com/business/tariffs",
+          "domain": "reuters.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://ttd.wto.org/en",
+          "domain": "ttd.wto.org",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://usacustomsclearance.com/import-tariffs-updates",
+          "domain": "usacustomsclearance.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 3,
+        "primary_source_count": 1,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.94,
+      "reasoning": "Kept in Incubation as new tariff regulations undergo active judicial review and ongoing policy adjustments across global markets.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
+        "new_sources": [
+          "https://www.reuters.com/business/tariffs",
+          "https://ttd.wto.org/en",
+          "https://usacustomsclearance.com/import-tariffs-updates"
+        ],
+        "dropped_sources": [],
+        "summary_changed": false
+      },
+      "archived_at": "2026-10-04T16:01:30.570276Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
