@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-04T15:00:27.574149Z",
+  "last_updated": "2026-10-05T15:01:23.660862Z",
   "archived_trends": [
     {
       "id": "agentic-mesh-protocols",
@@ -6391,6 +6391,68 @@
         "summary_changed": true
       },
       "archived_at": "2026-09-30T15:00:28.493774Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "comparative-ai-model-analytics",
+      "name": "Comparative AI Model Analytics",
+      "stage": "Peak Hype",
+      "velocity": "High",
+      "category": "Benchmarking",
+      "summary": "The field of model comparison has matured into systematic, platform-driven leaderboard frameworks that process hundreds of benchmarks to determine real-world utility over theoretical performance.",
+      "evidence": [
+        "Proliferation of granular benchmark tracking for over 700 models",
+        "Shift toward competitive head-to-head performance analysis",
+        "Increased focus on runtime and API pricing in model selection"
+      ],
+      "source_links": [
+        "https://benchlm.ai",
+        "https://www.geeksforgeeks.org/machine-learning/top-20-llm-models"
+      ],
+      "source_details": [
+        {
+          "url": "https://benchlm.ai",
+          "domain": "benchlm.ai",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/machine-learning/top-20-llm-models",
+          "domain": "geeksforgeeks.org",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 2,
+        "primary_source_count": 0,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.9,
+      "reasoning": "Maintains high velocity due to the sheer volume of new models released monthly and the critical need for normalized performance data.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Peak Hype",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [
+          "https://benchlm.ai",
+          "https://www.geeksforgeeks.org/machine-learning/top-20-llm-models"
+        ],
+        "dropped_sources": [
+          "https://arena.ai/text/direct",
+          "https://ollama.com/library/llama3",
+          "https://openrouter.ai/chat"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-10-05T15:01:23.660862Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
