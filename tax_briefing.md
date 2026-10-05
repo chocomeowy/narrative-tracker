@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-10-05 10:01
+# Tax Intelligence Briefing - 2026-10-05 16:01
 
 The corporate and international tax policy landscape in late 2026 continues to be shaped by the global statutory enforcement of the OECD Pillar Two 15% minimum corporate tax, extensive empirical tracking through reports like the 2026 Corporate Tax Statistics, and escalating trade friction regarding global tariffs. Concurrently, nations are aggressively modernizing compliance architectures via mandatory real-time digital e-invoicing, while regional hubs like ASEAN recalibrate corporate tax structures and investment incentives to sustain competitiveness.
