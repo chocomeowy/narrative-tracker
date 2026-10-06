@@ -1,41 +1,35 @@
 {
-  "last_updated": "2026-10-06T10:01:25.908146Z",
-  "executive_briefing": "The digital asset landscape in late 2026 continues to experience profound structural shifts, characterized by the institutionalization of Bitcoin via spot ETFs exceeding $100 billion in AUM and technical advancements in cross-chain interoperability. While institutional adoption of Bitcoin has matured into normalized portfolio management, technical focus has pivoted toward secure smart contract architectures, utilizing languages like Clarity on Bitcoin layers to avoid EVM vulnerabilities. Simultaneously, regulatory progress remains encumbered following the Senate defeat of the Digital Asset Market Clarity Act, pushing comprehensive market structure reform into legislative gridlock.",
+  "last_updated": "2026-10-06T16:01:39.296269Z",
+  "executive_briefing": "The digital asset landscape in late 2026 is defined by a shift from speculative volatility to structural integration. Bitcoin's institutional status is solidified by over $100 billion in ETF AUM, moving it from a growth asset to a core treasury component. Technical discourse has intensified around secure smart contract execution, with Clarity-based architectures on Bitcoin gaining traction as a safer, decidable alternative to the EVM. Meanwhile, legislative efforts for comprehensive regulation, specifically the Digital Asset Market Clarity Act, have stalled in the Senate, creating a period of regulatory inertia that forces industry participants to focus on technical and interoperability solutions rather than waiting for immediate federal framework updates.",
   "trends": [
     {
-      "id": "institutional-bitcoin-treasury-etf-portfolio-consolidation",
-      "name": "Institutional Bitcoin Treasury & ETF Portfolio Consolidation",
+      "id": "institutional-bitcoin-treasury-etf-consolidation",
+      "name": "Institutional Bitcoin Treasury & ETF Consolidation",
       "stage": "Fatigue",
       "velocity": "Moderate",
       "category": "Institutional Finance",
-      "summary": "Cumulative institutional AUM across spot Bitcoin ETFs and corporate treasuries has established BTC as a permanent multi-asset portfolio component, shifting smart-money focus toward infrastructure and cross-chain execution.",
+      "summary": "Spot Bitcoin ETFs have become standard infrastructure for institutional portfolios, moving the sector beyond the initial hype of accessibility toward long-term capital allocation strategies.",
       "evidence": [
-        "Spot Bitcoin ETFs led by BlackRock and Fidelity pushed institutional BTC exposure past $100 billion.",
-        "Institutions treat regulated derivatives, spot ETFs, and custody solutions as standardized portfolio infrastructure."
+        "Spot Bitcoin ETFs now exceed $100 billion in AUM, serving as the primary gateway for institutional entry.",
+        "Major financial institutions, including pensions and insurers, have normalized BTC exposure through regulated custody and ETF products."
       ],
       "source_links": [
-        "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
-        "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption",
         "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
+        "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
         "https://cryptonium.cloud/articles/bitcoins-sovereign-embrace-decoding-2026-institutional-adoption-curve-macro-tailwinds",
-        "https://www.theblock.co/learn/markets/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111"
+        "https://www.theblock.co/learn/markets/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111",
+        "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption"
       ],
       "source_details": [
         {
-          "url": "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
-          "domain": "spark.money",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption",
-          "domain": "blockchain-council.org",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
           "url": "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
           "domain": "cryptothreads.io",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
+          "domain": "spark.money",
           "type": "secondary",
           "published_date": null
         },
@@ -50,6 +44,12 @@
           "domain": "theblock.co",
           "type": "secondary",
           "published_date": null
+        },
+        {
+          "url": "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption",
+          "domain": "blockchain-council.org",
+          "type": "secondary",
+          "published_date": null
         }
       ],
       "source_quality": {
@@ -62,22 +62,20 @@
         "source_risk": "medium"
       },
       "confidence": 0.98,
-      "reasoning": "Institutional adoption has matured with spot ETFs firmly establishing BTC as a permanent multi-asset portfolio asset class, moving past speculative hype into a normalized market structure supported by persistent inflows.",
+      "reasoning": "The trend has reached institutional maturity; the growth is steady and infrastructure-based rather than driven by speculative excitement, justifying a Fatigue stage.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": false,
-        "stage_delta": 0,
-        "previous_stage": "Fatigue",
-        "velocity_delta": 0,
-        "previous_velocity": "Moderate",
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
         "new_sources": [
+          "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
+          "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
           "https://cryptonium.cloud/articles/bitcoins-sovereign-embrace-decoding-2026-institutional-adoption-curve-macro-tailwinds",
-          "https://www.theblock.co/learn/markets/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111"
+          "https://www.theblock.co/learn/markets/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111",
+          "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption"
         ],
-        "dropped_sources": [
-          "https://bitcoincompleteguide.com/guide/bitcoin-institutional-adoption",
-          "https://www.livebitcoinnews.com/bitcoin-etf-institutional"
-        ],
+        "dropped_sources": [],
         "summary_changed": false
       }
     },
@@ -87,10 +85,10 @@
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Layer 1",
-      "summary": "Developers are prioritizing decidable programming frameworks like Clarity on Bitcoin layers to deliver formal verification and static state inspection, offering a risk-mitigated alternative to Turing-complete EVM reentrancy vulnerabilities.",
+      "summary": "The shift toward decidable, formally verifiable smart contract languages like Clarity on Bitcoin is positioning the network as a secure alternative to the vulnerabilities associated with Turing-complete EVM environments.",
       "evidence": [
-        "Clarity enables static code verification and predictable gas execution before deployment on Bitcoin layers.",
-        "Institutional demand for secure smart contracts on Bitcoin is accelerating alternatives to EVM execution complexity."
+        "Increasing demand for non-reentrant contract logic in DeFi applications.",
+        "Development of static state inspection capabilities on Bitcoin layers to mitigate security risks prevalent in EVM."
       ],
       "source_links": [
         "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance"
@@ -113,7 +111,7 @@
         "source_risk": "high"
       },
       "confidence": 0.92,
-      "reasoning": "Technical specialization around decidable smart contract design on Bitcoin layers continues to advance as a secure alternative to Ethereum's EVM complexity.",
+      "reasoning": "This represents a critical technical pivot; developers are actively moving toward safer execution models, validating a Breakthrough stage.",
       "validation_flags": [
         "weak_source_support",
         "wikipedia_only"
@@ -126,7 +124,7 @@
         "previous_velocity": "High",
         "new_sources": [],
         "dropped_sources": [],
-        "summary_changed": false
+        "summary_changed": true
       }
     },
     {
@@ -135,17 +133,16 @@
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "DeFi",
-      "summary": "Decentralized bridges and native cross-chain swaps are increasingly integrating native Bitcoin into Ethereum's DeFi ecosystem, enabling frictionless multi-chain asset utility.",
+      "summary": "The development of decentralized native asset swaps and bridges is enabling Bitcoin to interact with Ethereum-based DeFi protocols without needing centralized wrappers or trusted custodians.",
       "evidence": [
-        "Cross-chain swaps allow trading BTC for ETH in a single transaction with backend bridging.",
-        "Bridges allow native Bitcoin to directly enter Ethereum's DeFi, NFT, and dApp ecosystems without wrapping."
+        "THORChain and other interoperability networks are facilitating direct native BTC-to-ETH swaps.",
+        "Liquidity pools enable non-custodial asset movement between the two largest ecosystems, reducing dependency on legacy centralized bridges."
       ],
       "source_links": [
         "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
-        "https://ethereum.org/bridges",
-        "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
-        "https://www.shironeko.gg/how-to-bridge-crypto",
-        "https://chainspot.io/portal/bridges-by-chains/ethereum-to-bitcoin"
+        "https://dailycoin.com/best-cross-chain-bridges-in-crypto",
+        "https://swaprocket.io/blog/cross-chain-crypto-swaps-without-kyc-2026",
+        "https://www.techedubyte.com/cross-chain-liquidity-btc-eth-sol-liquidchain"
       ],
       "source_details": [
         {
@@ -155,41 +152,35 @@
           "published_date": null
         },
         {
-          "url": "https://ethereum.org/bridges",
-          "domain": "ethereum.org",
-          "type": "primary",
-          "published_date": null
-        },
-        {
-          "url": "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
-          "domain": "trustwallet.com",
+          "url": "https://dailycoin.com/best-cross-chain-bridges-in-crypto",
+          "domain": "dailycoin.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.shironeko.gg/how-to-bridge-crypto",
-          "domain": "shironeko.gg",
+          "url": "https://swaprocket.io/blog/cross-chain-crypto-swaps-without-kyc-2026",
+          "domain": "swaprocket.io",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://chainspot.io/portal/bridges-by-chains/ethereum-to-bitcoin",
-          "domain": "chainspot.io",
+          "url": "https://www.techedubyte.com/cross-chain-liquidity-btc-eth-sol-liquidchain",
+          "domain": "techedubyte.com",
           "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 5,
-        "primary_source_count": 1,
+        "total_sources": 4,
+        "primary_source_count": 0,
         "secondary_source_count": 4,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
-        "has_primary_sources": true,
-        "source_risk": "low"
+        "has_primary_sources": false,
+        "source_risk": "medium"
       },
       "confidence": 0.95,
-      "reasoning": "Active deployments and native trading mechanisms allowing BTC/ETH cross-chain liquidity swaps mark a high-velocity breakthrough in interoperability.",
+      "reasoning": "Technological advancements in trustless bridging are enabling significant liquidity flow, marking high-velocity progress in multi-chain interoperability.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -198,16 +189,17 @@
         "velocity_delta": 0,
         "previous_velocity": "High",
         "new_sources": [
+          "https://dailycoin.com/best-cross-chain-bridges-in-crypto",
+          "https://swaprocket.io/blog/cross-chain-crypto-swaps-without-kyc-2026",
+          "https://www.techedubyte.com/cross-chain-liquidity-btc-eth-sol-liquidchain"
+        ],
+        "dropped_sources": [
           "https://chainspot.io/portal/bridges-by-chains/ethereum-to-bitcoin",
           "https://ethereum.org/bridges",
           "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
-          "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
           "https://www.shironeko.gg/how-to-bridge-crypto"
         ],
-        "dropped_sources": [
-          "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance"
-        ],
-        "summary_changed": false
+        "summary_changed": true
       }
     },
     {
@@ -216,61 +208,33 @@
       "stage": "Fatigue",
       "velocity": "Moderate",
       "category": "Regulation",
-      "summary": "The failure of the Digital Asset Market Clarity Act in the US Senate cloture vote has extended regulatory uncertainty for crypto market structures, pausing sweeping federal compliance harmonization.",
+      "summary": "The failure of the Digital Asset Market Clarity Act to pass a Senate cloture vote has stalled comprehensive regulatory reform in the US, forcing the industry to operate under existing, ambiguous standards.",
       "evidence": [
-        "The Clarity Act failed a 49-50 Senate cloture vote, falling short of the threshold needed to advance.",
-        "Bipartisan committee support failed to translate into final floor passage, creating ongoing regulatory ambiguity."
+        "Cloture vote failure in the Senate reflects deep divisions regarding market structure and authority.",
+        "Lack of legislative progress delays the creation of a clear federal roadmap for digital assets."
       ],
       "source_links": [
-        "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
-        "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
-        "https://www.cnbc.com/2026/09/15/senate-cloture-vote-on-clarity-act-fails-dealing-regulatory-setback-to-crypto-industry.html",
-        "https://www.reuters.com/legal/government/us-senate-vote-advancing-landmark-crypto-bill-2026-09-15",
-        "https://finance.yahoo.com/markets/crypto/articles/clarity-act-2-0-failed-085853233.html?fr=sycsrp_catchall"
+        "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text"
       ],
       "source_details": [
-        {
-          "url": "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
-          "domain": "cryptotimes.io",
-          "type": "secondary",
-          "published_date": "2026-05-14"
-        },
         {
           "url": "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
           "domain": "lummis.senate.gov",
           "type": "primary",
           "published_date": null
-        },
-        {
-          "url": "https://www.cnbc.com/2026/09/15/senate-cloture-vote-on-clarity-act-fails-dealing-regulatory-setback-to-crypto-industry.html",
-          "domain": "cnbc.com",
-          "type": "secondary",
-          "published_date": "2026-09-15"
-        },
-        {
-          "url": "https://www.reuters.com/legal/government/us-senate-vote-advancing-landmark-crypto-bill-2026-09-15",
-          "domain": "reuters.com",
-          "type": "secondary",
-          "published_date": "2026-09-15"
-        },
-        {
-          "url": "https://finance.yahoo.com/markets/crypto/articles/clarity-act-2-0-failed-085853233.html?fr=sycsrp_catchall",
-          "domain": "finance.yahoo.com",
-          "type": "secondary",
-          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 5,
+        "total_sources": 1,
         "primary_source_count": 1,
-        "secondary_source_count": 4,
+        "secondary_source_count": 0,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
         "source_risk": "low"
       },
       "confidence": 0.96,
-      "reasoning": "Despite advancement out of committees, legislative efforts have hit a wall in the Senate cloture vote, inducing a fatigue stage for comprehensive market structure reform.",
+      "reasoning": "Legislative momentum has hit a structural wall, leading to a loss of urgency and shifting the regulatory landscape into a period of prolonged uncertainty.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -278,24 +242,21 @@
         "previous_stage": "Fatigue",
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
-        "new_sources": [
+        "new_sources": [],
+        "dropped_sources": [
           "https://finance.yahoo.com/markets/crypto/articles/clarity-act-2-0-failed-085853233.html?fr=sycsrp_catchall",
           "https://www.cnbc.com/2026/09/15/senate-cloture-vote-on-clarity-act-fails-dealing-regulatory-setback-to-crypto-industry.html",
           "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
-          "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
           "https://www.reuters.com/legal/government/us-senate-vote-advancing-landmark-crypto-bill-2026-09-15"
         ],
-        "dropped_sources": [
-          "https://cryptothreads.io/learn/bitcoin-institutional-adoption"
-        ],
-        "summary_changed": false
+        "summary_changed": true
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.5-flash-lite",
+    "agent": "gemini-3.1-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-10-06T10:01:25.908146Z",
+    "timestamp": "2026-10-06T16:01:39.296269Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -304,20 +265,20 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.5-flash-lite",
+      "model": "gemini-3.1-flash-lite",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-10-06T10:01:25.908146Z",
-      "search_result_count": 16,
+      "timestamp": "2026-10-06T16:01:39.296269Z",
+      "search_result_count": 15,
       "validation_error_count": 0,
       "validation_failures": []
     }
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.5-flash-lite",
+    "model": "gemini-3.1-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-10-06T10:01:25.908146Z",
-    "search_result_count": 16,
+    "timestamp": "2026-10-06T16:01:39.296269Z",
+    "search_result_count": 15,
     "validation_error_count": 0,
     "validation_failures": []
   }
