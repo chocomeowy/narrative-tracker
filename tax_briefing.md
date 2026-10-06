@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-10-06 10:01
+# Tax Intelligence Briefing - 2026-10-06 16:01
 
-The global corporate and international tax landscape in 2026 continues to center on the implementation of the OECD Pillar Two 15% minimum corporate tax, ongoing structural rate adjustments, and heightened transactional oversight through real-time e-invoicing networks like Singapore's InvoiceNow. Multinational corporations must continuously adapt their tax strategies and compliance frameworks to meet these synchronized regulatory demands while navigating shifting global trade policies.
+The global corporate tax and international trade landscape in 2026 continues to center on the operationalization of the OECD Pillar Two 15% minimum corporate tax, regional tax harmonization efforts across ASEAN jurisdictions, and the rapid expansion of real-time e-invoicing and transactional reporting frameworks. Multinational corporations must continuously adapt their tax and compliance frameworks to meet synchronized regulatory demands while navigating evolving tariff structures and trade policies.
