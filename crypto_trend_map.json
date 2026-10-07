@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-07T16:01:46.383616Z",
+  "last_updated": "2026-10-07T22:01:07.086213Z",
   "executive_briefing": "The digital asset landscape in late 2026 demonstrates clear maturation, favoring technical security and institutional integration over speculative noise. Bitcoin continues its journey as a core macroeconomic asset class, bolstered by over $100 billion in spot ETF AUM. Meanwhile, technical emphasis shifts toward safer execution environments, such as decidable and formal smart contract architectures on Bitcoin using languages like Clarity, contrasting with traditional Turing-complete EVM vulnerabilities. Although the Clarity Act faced procedural defeat in the Senate causing regulatory stagnation, the development of trustless cross-chain liquidity mechanisms between Bitcoin and Ethereum is successfully bridging siloed ecosystems without centralized intermediaries.",
   "trends": [
     {
@@ -70,13 +70,9 @@
         "previous_stage": "Fatigue",
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
-        "new_sources": [
-          "https://informedclearly.com/en/crypto/58167/crypto-institutional-adoption-bitcoin-etfs-2026"
-        ],
-        "dropped_sources": [
-          "https://www.theblock.co/learn/markets/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111"
-        ],
-        "summary_changed": true
+        "new_sources": [],
+        "dropped_sources": [],
+        "summary_changed": false
       }
     },
     {
@@ -91,10 +87,7 @@
         "Integration of static analysis features into Bitcoin layering frameworks."
       ],
       "source_links": [
-        "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
-        "https://coinmarketcap.com/currencies/ethereum",
-        "https://ethereum.org",
-        "https://ethereum.org/what-is-ether"
+        "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance"
       ],
       "source_details": [
         {
@@ -102,51 +95,36 @@
           "domain": "en.wikipedia.org",
           "type": "wikipedia",
           "published_date": null
-        },
-        {
-          "url": "https://coinmarketcap.com/currencies/ethereum",
-          "domain": "coinmarketcap.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://ethereum.org",
-          "domain": "ethereum.org",
-          "type": "primary",
-          "published_date": null
-        },
-        {
-          "url": "https://ethereum.org/what-is-ether",
-          "domain": "ethereum.org",
-          "type": "primary",
-          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 4,
-        "primary_source_count": 2,
-        "secondary_source_count": 1,
+        "total_sources": 1,
+        "primary_source_count": 0,
+        "secondary_source_count": 0,
         "wikipedia_source_count": 1,
         "blog_source_count": 0,
-        "has_primary_sources": true,
-        "source_risk": "low"
+        "has_primary_sources": false,
+        "source_risk": "high"
       },
       "confidence": 0.93,
       "reasoning": "Remains in the Breakthrough stage as builders actively shift focus toward secure alternative execution models compared to traditional EVM platforms.",
-      "validation_flags": [],
+      "validation_flags": [
+        "weak_source_support",
+        "wikipedia_only"
+      ],
       "changed_since_previous_run": {
         "is_new": false,
         "stage_delta": 0,
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "High",
-        "new_sources": [
+        "new_sources": [],
+        "dropped_sources": [
+          "https://coinmarketcap.com/currencies/ethereum",
+          "https://ethereum.org",
           "https://ethereum.org/what-is-ether"
         ],
-        "dropped_sources": [
-          "https://en.wikipedia.org/wiki/Ethereum"
-        ],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
@@ -161,49 +139,31 @@
         "Growing reliance on decentralized protocols for trustless multi-chain liquidity."
       ],
       "source_links": [
-        "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
-        "https://ethereum.org/bridges",
-        "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
-        "https://www.shironeko.gg/how-to-bridge-crypto"
+        "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance"
       ],
       "source_details": [
         {
-          "url": "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
-          "domain": "bitunix.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://ethereum.org/bridges",
-          "domain": "ethereum.org",
-          "type": "primary",
-          "published_date": null
-        },
-        {
-          "url": "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
-          "domain": "trustwallet.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.shironeko.gg/how-to-bridge-crypto",
-          "domain": "shironeko.gg",
-          "type": "secondary",
+          "url": "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 4,
-        "primary_source_count": 1,
-        "secondary_source_count": 3,
-        "wikipedia_source_count": 0,
+        "total_sources": 1,
+        "primary_source_count": 0,
+        "secondary_source_count": 0,
+        "wikipedia_source_count": 1,
         "blog_source_count": 0,
-        "has_primary_sources": true,
-        "source_risk": "low"
+        "has_primary_sources": false,
+        "source_risk": "high"
       },
       "confidence": 0.95,
       "reasoning": "Maintains Breakthrough stage placement due to rapid technical iteration and growing deployment of trustless multi-chain swaps.",
-      "validation_flags": [],
+      "validation_flags": [
+        "weak_source_support",
+        "wikipedia_only"
+      ],
       "changed_since_previous_run": {
         "is_new": false,
         "stage_delta": 0,
@@ -211,19 +171,22 @@
         "velocity_delta": 0,
         "previous_velocity": "High",
         "new_sources": [
-          "https://www.shironeko.gg/how-to-bridge-crypto"
+          "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance"
         ],
         "dropped_sources": [
-          "https://garden.finance/blog/cross-chain-swap-protocols-2026-top-5-compared"
+          "https://ethereum.org/bridges",
+          "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
+          "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
+          "https://www.shironeko.gg/how-to-bridge-crypto"
         ],
-        "summary_changed": true
+        "summary_changed": false
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.5-flash-lite",
+    "agent": "gemini-3.6-flash",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-10-07T16:01:46.383616Z",
+    "timestamp": "2026-10-07T22:01:07.086213Z",
     "active_narratives": 3,
     "validation": {
       "accepted": 3,
@@ -232,20 +195,20 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.5-flash-lite",
+      "model": "gemini-3.6-flash",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-10-07T16:01:46.383616Z",
-      "search_result_count": 15,
+      "timestamp": "2026-10-07T22:01:07.086213Z",
+      "search_result_count": 6,
       "validation_error_count": 0,
       "validation_failures": []
     }
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.5-flash-lite",
+    "model": "gemini-3.6-flash",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-10-07T16:01:46.383616Z",
-    "search_result_count": 15,
+    "timestamp": "2026-10-07T22:01:07.086213Z",
+    "search_result_count": 6,
     "validation_error_count": 0,
     "validation_failures": []
   }
