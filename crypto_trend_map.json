@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-08T16:01:06.042472Z",
-  "executive_briefing": "The late 2026 digital asset ecosystem is characterized by structural maturation and deep technical shifts, led by spot Bitcoin ETFs consolidating over $100 billion in assets under management to firmly establish Bitcoin as a macro asset. Meanwhile, legislative stagnation following the Senate's rejection of the Clarity Act has driven developers toward technical workarounds, notably utilizing decidable, non-Turing complete smart contract execution environments like Clarity on Bitcoin. Concurrently, native cross-chain bridges and trustless peer-to-peer mechanisms are reshaping decentralized finance by directly connecting BTC and ETH liquidity.",
+  "last_updated": "2026-10-08T22:01:14.502770Z",
+  "executive_briefing": "The late 2026 digital asset ecosystem is defined by structural maturation and deep technical shifts, marked by spot Bitcoin ETFs consolidating over $100 billion in assets to establish BTC as a macro asset class. In the wake of legislative stagnation surrounding the Senate's rejection of the Clarity Act, developers are actively leaning into alternative execution environments. Notably, decidable, non-Turing complete frameworks like Clarity on Bitcoin are gaining traction as secure, verifiable alternatives to standard EVM environments. Simultaneously, native, trustless cross-chain bridges continue to bridge BTC and ETH liquidity directly, bypassing centralized custody.",
   "trends": [
     {
       "id": "institutional-bitcoin-treasury-etf-consolidation",
@@ -16,9 +16,9 @@
       "source_links": [
         "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
         "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
-        "https://www.theblock.co/learn/markets/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111",
         "https://www.blockchain-council.org/bitcoin/bitcoin-etf-inflows-btc-price",
-        "https://cryptonium.cloud/articles/bitcoins-sovereign-embrace-decoding-2026-institutional-adoption-curve-macro-tailwinds"
+        "https://cryptonium.cloud/articles/bitcoins-sovereign-embrace-decoding-2026-institutional-adoption-curve-macro-tailwinds",
+        "https://amifs.org/institutional-crypto-adoption-and-bitcoin-etf-approvals-how-regulation-is-reshaping-finance"
       ],
       "source_details": [
         {
@@ -34,12 +34,6 @@
           "published_date": null
         },
         {
-          "url": "https://www.theblock.co/learn/markets/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111",
-          "domain": "theblock.co",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
           "url": "https://www.blockchain-council.org/bitcoin/bitcoin-etf-inflows-btc-price",
           "domain": "blockchain-council.org",
           "type": "secondary",
@@ -48,6 +42,12 @@
         {
           "url": "https://cryptonium.cloud/articles/bitcoins-sovereign-embrace-decoding-2026-institutional-adoption-curve-macro-tailwinds",
           "domain": "cryptonium.cloud",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://amifs.org/institutional-crypto-adoption-and-bitcoin-etf-approvals-how-regulation-is-reshaping-finance",
+          "domain": "amifs.org",
           "type": "secondary",
           "published_date": null
         }
@@ -71,12 +71,12 @@
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
         "new_sources": [
-          "https://www.theblock.co/learn/markets/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111"
+          "https://amifs.org/institutional-crypto-adoption-and-bitcoin-etf-approvals-how-regulation-is-reshaping-finance"
         ],
         "dropped_sources": [
-          "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption"
+          "https://www.theblock.co/learn/markets/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111"
         ],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
@@ -124,7 +124,7 @@
         "previous_velocity": "High",
         "new_sources": [],
         "dropped_sources": [],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
@@ -139,48 +139,20 @@
         "Growing reliance on decentralized protocols for trustless multi-chain liquidity as alternatives to centralized bridge operators."
       ],
       "source_links": [
-        "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
-        "https://ethereum.org/bridges",
-        "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
-        "https://markaicode.com/bitcoin-ethereum-crosschain-defi-integration",
-        "https://chainspot.io/portal/bridges-by-chains/ethereum-to-bitcoin"
+        "https://ethereum.org/bridges"
       ],
       "source_details": [
-        {
-          "url": "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
-          "domain": "bitunix.com",
-          "type": "secondary",
-          "published_date": null
-        },
         {
           "url": "https://ethereum.org/bridges",
           "domain": "ethereum.org",
           "type": "primary",
           "published_date": null
-        },
-        {
-          "url": "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
-          "domain": "trustwallet.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://markaicode.com/bitcoin-ethereum-crosschain-defi-integration",
-          "domain": "markaicode.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://chainspot.io/portal/bridges-by-chains/ethereum-to-bitcoin",
-          "domain": "chainspot.io",
-          "type": "secondary",
-          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 5,
+        "total_sources": 1,
         "primary_source_count": 1,
-        "secondary_source_count": 4,
+        "secondary_source_count": 0,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
@@ -195,18 +167,21 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "High",
-        "new_sources": [
-          "https://markaicode.com/bitcoin-ethereum-crosschain-defi-integration"
+        "new_sources": [],
+        "dropped_sources": [
+          "https://chainspot.io/portal/bridges-by-chains/ethereum-to-bitcoin",
+          "https://markaicode.com/bitcoin-ethereum-crosschain-defi-integration",
+          "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
+          "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi"
         ],
-        "dropped_sources": [],
-        "summary_changed": true
+        "summary_changed": false
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.5-flash-lite",
+    "agent": "gemini-3.5-flash",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-10-08T16:01:06.042472Z",
+    "timestamp": "2026-10-08T22:01:14.502770Z",
     "active_narratives": 3,
     "validation": {
       "accepted": 3,
@@ -215,20 +190,20 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.5-flash-lite",
+      "model": "gemini-3.5-flash",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-10-08T16:01:06.042472Z",
-      "search_result_count": 11,
+      "timestamp": "2026-10-08T22:01:14.502770Z",
+      "search_result_count": 6,
       "validation_error_count": 0,
       "validation_failures": []
     }
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.5-flash-lite",
+    "model": "gemini-3.5-flash",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-10-08T16:01:06.042472Z",
-    "search_result_count": 11,
+    "timestamp": "2026-10-08T22:01:14.502770Z",
+    "search_result_count": 6,
     "validation_error_count": 0,
     "validation_failures": []
   }
