@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-10-08 16:01
+# Tax Intelligence Briefing - 2026-10-08 22:01
 
 The 2026 corporate tax landscape is defined by the rigorous global operationalization of the OECD Pillar Two 15% global minimum tax, supported by extensive tracking of multinational effective tax rates as detailed in the OECD's landmark 2026 Corporate Tax Statistics. In tandem, countries are broadly adapting their tax structures, with significant statutory and withholding tax adjustments taking effect globally. Furthermore, real-time transactional reporting is accelerating through the standardisation of e-invoicing frameworks and digital invoice management platforms to automate corporate compliance and protect domestic tax bases.
