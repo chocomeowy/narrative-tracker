@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-10-08 04:01
+# Tax Intelligence Briefing - 2026-10-08 10:01
 
-The 2026 corporate tax landscape is characterized by the structured enforcement of the OECD Pillar Two 15% global minimum tax alongside updated global statutory and effective tax rate databases tracking international compliance. Countries are adjusting local corporate and withholding tax rates starting January 2026 to sustain FDI attractiveness, while tax administrations continue to transition to mandatory digital e-invoicing frameworks to curb tax leakages.
+The 2026 tax and trade landscape is marked by the concrete enforcement of the OECD Pillar Two 15% global minimum tax and the rapid expansion of mandatory transactional e-invoicing, such as Singapore's GST InvoiceNow and the UAE's B2B digital transformation. Concurrently, developing regions—particularly the ASEAN-6—are actively restructuring corporate incentives and withholding taxes to defend FDI. In parallel, strategic trade policies are hardening, characterized by escalating unilateral tariffs and targeted anti-dumping duties that add operational tax complexity to global supply chains.
