@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-09T16:01:14.168184Z",
+  "last_updated": "2026-10-09T22:01:05.910893Z",
   "executive_briefing": "The late 2026 digital asset landscape reflects institutional integration alongside structural developments in smart contract ecosystems. Spot Bitcoin ETFs have matured into standard treasury tools for traditional finance, cementing BTC as a macro asset with over $100 billion in AUM. Concurrently, Ethereum remains the baseline for decentralized finance and smart contract execution, accelerating developer demand for secure execution environments and native cross-chain interoperability.",
   "trends": [
     {
@@ -15,10 +15,9 @@
       ],
       "source_links": [
         "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
-        "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
-        "https://amifs.org/institutional-crypto-adoption-and-bitcoin-etf-approvals-how-regulation-is-reshaping-finance",
+        "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/how-institutional-adoption-is-impacting-bitcoin-and-crypto-prices",
         "https://cryptonium.cloud/articles/bitcoins-sovereign-embrace-decoding-2026-institutional-adoption-curve-macro-tailwinds",
-        "https://bitcoincompleteguide.com/guide/bitcoin-institutional-adoption"
+        "https://amifs.org/institutional-crypto-adoption-and-bitcoin-etf-approvals-how-regulation-is-reshaping-finance"
       ],
       "source_details": [
         {
@@ -28,14 +27,8 @@
           "published_date": null
         },
         {
-          "url": "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
-          "domain": "spark.money",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://amifs.org/institutional-crypto-adoption-and-bitcoin-etf-approvals-how-regulation-is-reshaping-finance",
-          "domain": "amifs.org",
+          "url": "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/how-institutional-adoption-is-impacting-bitcoin-and-crypto-prices",
+          "domain": "analyticsinsight.net",
           "type": "secondary",
           "published_date": null
         },
@@ -46,16 +39,16 @@
           "published_date": null
         },
         {
-          "url": "https://bitcoincompleteguide.com/guide/bitcoin-institutional-adoption",
-          "domain": "bitcoincompleteguide.com",
+          "url": "https://amifs.org/institutional-crypto-adoption-and-bitcoin-etf-approvals-how-regulation-is-reshaping-finance",
+          "domain": "amifs.org",
           "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 5,
+        "total_sources": 4,
         "primary_source_count": 0,
-        "secondary_source_count": 5,
+        "secondary_source_count": 4,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": false,
@@ -70,9 +63,14 @@
         "previous_stage": "Fatigue",
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
-        "new_sources": [],
-        "dropped_sources": [],
-        "summary_changed": true
+        "new_sources": [
+          "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/how-institutional-adoption-is-impacting-bitcoin-and-crypto-prices"
+        ],
+        "dropped_sources": [
+          "https://bitcoincompleteguide.com/guide/bitcoin-institutional-adoption",
+          "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis"
+        ],
+        "summary_changed": false
       }
     },
     {
@@ -113,11 +111,80 @@
         "wikipedia_only"
       ],
       "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Peak Hype",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [],
+        "dropped_sources": [],
+        "summary_changed": false
+      }
+    },
+    {
+      "id": "cross-chain-liquidity-and-native-btc-to-eth-interoperability",
+      "name": "Cross-Chain Liquidity and Native BTC-to-ETH Interoperability",
+      "stage": "Breakthrough",
+      "velocity": "High",
+      "category": "Interoperability",
+      "summary": "Advanced cross-chain architectures and native decentralized liquidity protocols are enabling seamless swaps and bridging mechanisms between Bitcoin and Ethereum without reliance on wrapped assets or centralized exchanges.",
+      "evidence": [
+        "Protocols like THORChain facilitate native cross-chain swaps between BTC and ETH utilizing decentralized liquidity pools.",
+        "Growing developer focus on bitcoin-to-ethereum bridges expands BTC utility into decentralized finance and smart contract execution."
+      ],
+      "source_links": [
+        "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
+        "https://ethereum.org/bridges",
+        "https://chainspot.io/portal/bridges-by-chains/ethereum-to-bitcoin",
+        "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps"
+      ],
+      "source_details": [
+        {
+          "url": "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
+          "domain": "bitunix.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://ethereum.org/bridges",
+          "domain": "ethereum.org",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://chainspot.io/portal/bridges-by-chains/ethereum-to-bitcoin",
+          "domain": "chainspot.io",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps",
+          "domain": "gate.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 4,
+        "primary_source_count": 1,
+        "secondary_source_count": 3,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.92,
+      "reasoning": "Advancing rapidly in the Breakthrough stage as protocols transition from risky wrapped token models to trust-minimized, native cross-chain liquidity networks.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
         "is_new": true,
         "stage_delta": "new",
         "velocity_delta": "new",
         "new_sources": [
-          "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance"
+          "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
+          "https://ethereum.org/bridges",
+          "https://chainspot.io/portal/bridges-by-chains/ethereum-to-bitcoin",
+          "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps"
         ],
         "dropped_sources": [],
         "summary_changed": false
@@ -125,31 +192,31 @@
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.6-flash",
+    "agent": "gemini-3.5-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-10-09T16:01:14.168184Z",
-    "active_narratives": 2,
+    "timestamp": "2026-10-09T22:01:05.910893Z",
+    "active_narratives": 3,
     "validation": {
-      "accepted": 2,
+      "accepted": 3,
       "rejected": 0,
       "validation_error_count": 0
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.6-flash",
+      "model": "gemini-3.5-flash-lite",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-10-09T16:01:14.168184Z",
-      "search_result_count": 6,
+      "timestamp": "2026-10-09T22:01:05.910893Z",
+      "search_result_count": 11,
       "validation_error_count": 0,
       "validation_failures": []
     }
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.6-flash",
+    "model": "gemini-3.5-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-10-09T16:01:14.168184Z",
-    "search_result_count": 6,
+    "timestamp": "2026-10-09T22:01:05.910893Z",
+    "search_result_count": 11,
     "validation_error_count": 0,
     "validation_failures": []
   }
