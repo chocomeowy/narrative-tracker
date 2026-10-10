@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-10-10 16:01
+# Tax Intelligence Briefing - 2026-10-10 22:01
 
-The global tax landscape in 2026 continues its aggressive structural evolution, heavily anchored by the global operationalization of OECD Pillar Two rules, expanding digital e-invoicing networks across key hubs like Singapore, and dynamic international trade tariff adjustments. Multinational enterprises are forced to adapt to stricter enforcement of baseline taxation and real-time fiscal reporting.
+The global tax landscape in 2026 is defined by heightened volatility and structural shifts. While the OECD Pillar Two global minimum tax framework and country-level effective tax reporting remain central, international policy uncertainties have escalated due to strategic jurisdictional recalibrations, including US shifts regarding multilateral tax agreements and rising threats of retaliatory trade tariffs. Concurrently, tax administrations continue to expand mandatory e-invoicing and real-time digital transaction reporting networks to curb evasion and ensure tax compliance across cross-border operations.
