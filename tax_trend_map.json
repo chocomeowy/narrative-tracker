@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-10T10:01:20.916558Z",
+  "last_updated": "2026-10-10T16:01:13.083613Z",
   "executive_briefing": "The global tax landscape in 2026 continues its aggressive structural evolution, heavily anchored by the global operationalization of OECD Pillar Two rules, expanding digital e-invoicing networks across key hubs like Singapore, and dynamic international trade tariff adjustments. Multinational enterprises are forced to adapt to stricter enforcement of baseline taxation and real-time fiscal reporting.",
   "trends": [
     {
@@ -16,8 +16,8 @@
       "source_links": [
         "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en/full-report.html",
         "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html",
-        "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
-        "https://sw-cpas.com/pillar-two-global-minimum-tax-oecd-update-2026"
+        "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en.html",
+        "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026"
       ],
       "source_details": [
         {
@@ -33,22 +33,22 @@
           "published_date": "2026-07-01"
         },
         {
-          "url": "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
-          "domain": "bdo.global",
-          "type": "secondary",
+          "url": "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en.html",
+          "domain": "oecd.org",
+          "type": "primary",
           "published_date": null
         },
         {
-          "url": "https://sw-cpas.com/pillar-two-global-minimum-tax-oecd-update-2026",
-          "domain": "sw-cpas.com",
+          "url": "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
+          "domain": "bdo.global",
           "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
         "total_sources": 4,
-        "primary_source_count": 1,
-        "secondary_source_count": 3,
+        "primary_source_count": 2,
+        "secondary_source_count": 2,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
@@ -64,10 +64,12 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
+          "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en.html"
+        ],
+        "dropped_sources": [
           "https://sw-cpas.com/pillar-two-global-minimum-tax-oecd-update-2026"
         ],
-        "dropped_sources": [],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
@@ -82,38 +84,31 @@
         "Tax authorities worldwide are steadily replacing manual reporting with real-time digital transaction networks."
       ],
       "source_links": [
-        "https://e-invoicing.org/singapore",
-        "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-        "https://sovos.com/vat/tax-rules/singapore-e-invoicing"
+        "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
+        "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates"
       ],
       "source_details": [
         {
-          "url": "https://e-invoicing.org/singapore",
-          "domain": "e-invoicing.org",
+          "url": "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
+          "domain": "taxsummaries.pwc.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-          "domain": "cleartax.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://sovos.com/vat/tax-rules/singapore-e-invoicing",
-          "domain": "sovos.com",
-          "type": "secondary",
+          "url": "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates",
+          "domain": "iras.gov.sg",
+          "type": "primary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 3,
-        "primary_source_count": 0,
-        "secondary_source_count": 3,
+        "total_sources": 2,
+        "primary_source_count": 1,
+        "secondary_source_count": 1,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
-        "has_primary_sources": false,
-        "source_risk": "medium"
+        "has_primary_sources": true,
+        "source_risk": "low"
       },
       "confidence": 0.96,
       "reasoning": "Real-time tax digitisation maintains fast velocity as regional jurisdictions scale up structured digital reporting mandates.",
@@ -125,74 +120,15 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
+          "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
+          "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates"
+        ],
+        "dropped_sources": [
           "https://e-invoicing.org/singapore",
           "https://sovos.com/vat/tax-rules/singapore-e-invoicing",
           "https://www.cleartax.com/sg/en/e-invoicing-singapore"
         ],
-        "dropped_sources": [
-          "https://en.wikipedia.org/wiki/E-invoicing",
-          "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates"
-        ],
-        "summary_changed": true
-      }
-    },
-    {
-      "id": "asean-and-global-corporate-tax-rate-re-alignment",
-      "name": "ASEAN and Global Corporate Tax Rate Re-alignment",
-      "stage": "Breakthrough",
-      "velocity": "Medium",
-      "category": "Corporate Tax",
-      "summary": "Restructuring of regional statutory corporate tax rates, withholding taxes, and investment incentives across ASEAN markets to remain competitive in the post-Pillar Two environment.",
-      "evidence": [
-        "Grant Thornton published the 2026 ASEAN 6 Tax Guide outlining critical tax adjustments and business considerations.",
-        "BDO and PwC documented shifting statutory tax rates and withholding schedules across regional economies."
-      ],
-      "source_links": [
-        "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026",
-        "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
-        "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income"
-      ],
-      "source_details": [
-        {
-          "url": "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026",
-          "domain": "grantthornton.co.th",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
-          "domain": "bdo.global",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
-          "domain": "taxsummaries.pwc.com",
-          "type": "secondary",
-          "published_date": null
-        }
-      ],
-      "source_quality": {
-        "total_sources": 3,
-        "primary_source_count": 0,
-        "secondary_source_count": 3,
-        "wikipedia_source_count": 0,
-        "blog_source_count": 0,
-        "has_primary_sources": false,
-        "source_risk": "medium"
-      },
-      "confidence": 0.95,
-      "reasoning": "Regional tax realignments sustain a medium breakthrough pace as governments recalibrate incentives around baseline international tax rules.",
-      "validation_flags": [],
-      "changed_since_previous_run": {
-        "is_new": false,
-        "stage_delta": 0,
-        "previous_stage": "Breakthrough",
-        "velocity_delta": 0,
-        "previous_velocity": "Medium",
-        "new_sources": [],
-        "dropped_sources": [],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
@@ -207,24 +143,12 @@
         "Major trade coverage tracks the implementation of dynamic tariffs impacting cross-border business models."
       ],
       "source_links": [
-        "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
-        "https://ttd.wto.org/en",
         "https://www.reuters.com/business/tariffs",
-        "https://www.bloomberg.com/latest/trump-tariffs"
+        "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
+        "https://www.usitc.gov/harmonized_tariff_information",
+        "https://tariffcheck.org/updates"
       ],
       "source_details": [
-        {
-          "url": "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
-          "domain": "usitc.gov",
-          "type": "primary",
-          "published_date": null
-        },
-        {
-          "url": "https://ttd.wto.org/en",
-          "domain": "ttd.wto.org",
-          "type": "primary",
-          "published_date": null
-        },
         {
           "url": "https://www.reuters.com/business/tariffs",
           "domain": "reuters.com",
@@ -232,8 +156,20 @@
           "published_date": null
         },
         {
-          "url": "https://www.bloomberg.com/latest/trump-tariffs",
-          "domain": "bloomberg.com",
+          "url": "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
+          "domain": "usitc.gov",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.usitc.gov/harmonized_tariff_information",
+          "domain": "usitc.gov",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://tariffcheck.org/updates",
+          "domain": "tariffcheck.org",
           "type": "secondary",
           "published_date": null
         }
@@ -257,24 +193,24 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
+          "https://tariffcheck.org/updates",
+          "https://www.usitc.gov/harmonized_tariff_information"
+        ],
+        "dropped_sources": [
           "https://ttd.wto.org/en",
           "https://www.bloomberg.com/latest/trump-tariffs"
         ],
-        "dropped_sources": [
-          "https://apnews.com/hub/tariffs",
-          "https://tariffcheck.org/updates"
-        ],
-        "summary_changed": true
+        "summary_changed": false
       }
     }
   ],
   "intelligence_metadata": {
     "agent": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-10-10T10:01:20.916558Z",
-    "active_narratives": 4,
+    "timestamp": "2026-10-10T16:01:13.083613Z",
+    "active_narratives": 3,
     "validation": {
-      "accepted": 4,
+      "accepted": 3,
       "rejected": 0,
       "validation_error_count": 0
     },
@@ -282,8 +218,8 @@
       "status": "success",
       "model": "gemini-3.5-flash-lite",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-10-10T10:01:20.916558Z",
-      "search_result_count": 35,
+      "timestamp": "2026-10-10T16:01:13.083613Z",
+      "search_result_count": 25,
       "validation_error_count": 0,
       "validation_failures": []
     }
@@ -292,8 +228,8 @@
     "status": "success",
     "model": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-10-10T10:01:20.916558Z",
-    "search_result_count": 35,
+    "timestamp": "2026-10-10T16:01:13.083613Z",
+    "search_result_count": 25,
     "validation_error_count": 0,
     "validation_failures": []
   }
