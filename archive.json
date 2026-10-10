@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-09T15:00:34.985056Z",
+  "last_updated": "2026-10-10T15:00:38.151573Z",
   "archived_trends": [
     {
       "id": "agentic-mesh-protocols",
@@ -6908,6 +6908,81 @@
         "summary_changed": true
       },
       "archived_at": "2026-10-09T15:00:34.985056Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "frontier-model-comparative-evaluation-and-access",
+      "name": "Frontier Model Comparative Evaluation and Access",
+      "stage": "Peak Hype",
+      "velocity": "High",
+      "category": "AI LLM Models",
+      "summary": "With hundreds of open and proprietary LLMs entering the market, developer focus is shifting toward objective performance comparisons. Side-by-side prompt testing playgrounds and aggregation APIs (such as OpenRouter) are critical infrastructure, allowing developers to route prompts dynamically to optimal models.",
+      "evidence": [
+        "OpenRouter facilitating comparative evaluation across 500+ models",
+        "Arena AI text comparison platform for empirical, side-by-side testing",
+        "Growing ecosystem of third-party model registries and indexes like LLMIndex"
+      ],
+      "source_links": [
+        "https://openrouter.ai/chat",
+        "https://arena.ai/text/side-by-side",
+        "https://llmindex.net/models/developer/huihui-ai",
+        "https://en.wikipedia.org/wiki/All_models_are_wrong"
+      ],
+      "source_details": [
+        {
+          "url": "https://openrouter.ai/chat",
+          "domain": "openrouter.ai",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://arena.ai/text/side-by-side",
+          "domain": "arena.ai",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://llmindex.net/models/developer/huihui-ai",
+          "domain": "llmindex.net",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/All_models_are_wrong",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 4,
+        "primary_source_count": 0,
+        "secondary_source_count": 3,
+        "wikipedia_source_count": 1,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.92,
+      "reasoning": "This trend remains at Peak Hype as new models launch daily, creating high volatility and a critical dependency on comparison engines to cut through vendor benchmarking claims.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Peak Hype",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [
+          "https://arena.ai/text/side-by-side",
+          "https://en.wikipedia.org/wiki/All_models_are_wrong",
+          "https://llmindex.net/models/developer/huihui-ai"
+        ],
+        "dropped_sources": [
+          "https://contesimal.ai/blog/best-llm-models"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-10-10T15:00:38.151573Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
