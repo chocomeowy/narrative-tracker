@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-10-11 16:01
+# Tax Intelligence Briefing - 2026-10-11 22:01
 
-The global corporate and international tax landscape in 2026 is driven by mature implementation of the OECD Pillar Two global minimum tax, aggressive enforcement of mandatory e-invoicing and real-time transaction monitoring, and significant volatility from international trade tariffs. Major economies continue to refine effective tax rates (ETRs) and compliance structures, while regional bodies like ASEAN harmonize corporate tax rules to balance competitiveness with international standards.
+The global tax landscape in 2026 remains dominated by the active implementation of the OECD Pillar Two global minimum tax, rapid scaling of electronic invoicing mandates for real-time transaction reporting, and ongoing cross-border trade friction driven by international tariffs. Singapore and ASEAN are actively aligning tax rules and electronic invoicing initiatives like InvoiceNow to balance regional investment attractiveness with rigorous global compliance standards.
