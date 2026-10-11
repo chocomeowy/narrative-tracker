@@ -1,3 +1,3 @@
-# Crypto Intelligence Briefing - 2026-10-10 22:01
+# Crypto Intelligence Briefing - 2026-10-11 04:01
 
-Late 2026 digital asset dynamics are anchored by institutional Bitcoin ETF consolidation crossing $100B in AUM and Ethereum's foundational role in EVM smart contract standards. Concurrently, regulatory momentum around the Clarity Act continues to drive cross-chain interoperability, bridging Bitcoin native liquidity with Ethereum smart contract capabilities.
+Late 2026 digital asset dynamics are anchored by institutional Bitcoin ETF consolidation crossing $100B in AUM and Ethereum's foundational role in EVM smart contract standards. Concurrently, regulatory setbacks around the CLARITY Act, following its Senate defeat, continue to impact cross-chain interoperability initiatives and institutional clarity.
