@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-11T10:01:10.811437Z",
-  "executive_briefing": "The global tax landscape in late 2026 is defined by structural shifts in corporate income tax monitoring, expanding digital enforcement networks, and persistent international trade tariff volatility. The OECD's release of its 2026 Corporate Tax Statistics highlights maturing compliance under Pillar Two GloBE rules, pressuring multinational enterprises (MNEs) to manage effective tax rates (ETRs) amidst shifting jurisdictional incentives. Concurrently, regional tax updates across ASEAN show countries recalibrating corporate tax rebates and dividend exemptions to maintain regional competitiveness while aligning with international standards. Meanwhile, mandatory e-invoicing and real-time GST/VAT transaction monitoring continue to accelerate globally, transforming corporate tax administration into an automated, real-time function.",
+  "last_updated": "2026-10-11T16:01:27.635612Z",
+  "executive_briefing": "The global corporate and international tax landscape in 2026 is driven by mature implementation of the OECD Pillar Two global minimum tax, aggressive enforcement of mandatory e-invoicing and real-time transaction monitoring, and significant volatility from international trade tariffs. Major economies continue to refine effective tax rates (ETRs) and compliance structures, while regional bodies like ASEAN harmonize corporate tax rules to balance competitiveness with international standards.",
   "trends": [
     {
       "id": "oecd-pillar-two-and-global-minimum-tax-integration",
@@ -16,7 +16,13 @@
       "source_links": [
         "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en.html",
         "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html",
-        "https://taxrate.org/corporate-tax-rates"
+        "https://taxrate.org/corporate-tax-rates",
+        "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
+        "https://jurisdb.org/corporate-tax-rates-by-country",
+        "https://www.sw-cpas.com/pillar-two-global-minimum-tax-oecd-update-2026",
+        "https://www.oecd.org/en/topics/sub-issues/global-minimum-tax/global-anti-base-erosion-model-rules-pillar-two.html",
+        "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
+        "https://www.pwc.com/gx/en/services/tax/pillar-two-readiness/country-tracker.html"
       ],
       "source_details": [
         {
@@ -36,12 +42,48 @@
           "domain": "taxrate.org",
           "type": "secondary",
           "published_date": null
+        },
+        {
+          "url": "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
+          "domain": "bdo.global",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://jurisdb.org/corporate-tax-rates-by-country",
+          "domain": "jurisdb.org",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.sw-cpas.com/pillar-two-global-minimum-tax-oecd-update-2026",
+          "domain": "sw-cpas.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.oecd.org/en/topics/sub-issues/global-minimum-tax/global-anti-base-erosion-model-rules-pillar-two.html",
+          "domain": "oecd.org",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
+          "domain": "moodys.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.pwc.com/gx/en/services/tax/pillar-two-readiness/country-tracker.html",
+          "domain": "pwc.com",
+          "type": "secondary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 3,
-        "primary_source_count": 1,
-        "secondary_source_count": 2,
+        "total_sources": 9,
+        "primary_source_count": 2,
+        "secondary_source_count": 7,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
@@ -56,13 +98,16 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [],
-        "dropped_sources": [
-          "https://sw-cpas.com/pillar-two-global-minimum-tax-oecd-update-2026",
+        "new_sources": [
+          "https://jurisdb.org/corporate-tax-rates-by-country",
           "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
-          "https://www.oecd.org/en/topics/sub-issues/global-minimum-tax/global-anti-base-erosion-model-rules-pillar-two.html"
+          "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
+          "https://www.oecd.org/en/topics/sub-issues/global-minimum-tax/global-anti-base-erosion-model-rules-pillar-two.html",
+          "https://www.pwc.com/gx/en/services/tax/pillar-two-readiness/country-tracker.html",
+          "https://www.sw-cpas.com/pillar-two-global-minimum-tax-oecd-update-2026"
         ],
-        "summary_changed": true
+        "dropped_sources": [],
+        "summary_changed": false
       }
     },
     {
@@ -78,8 +123,9 @@
       ],
       "source_links": [
         "https://en.wikipedia.org/wiki/E-invoicing",
-        "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
-        "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/file-gst-hst-return/reporting-requirements-deadlines.html"
+        "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html",
+        "https://taxsummaries.pwc.com/india/corporate/other-taxes",
+        "https://www.investopedia.com/terms/g/gst.asp"
       ],
       "source_details": [
         {
@@ -89,22 +135,28 @@
           "published_date": null
         },
         {
-          "url": "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
-          "domain": "stripe.com",
+          "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html",
+          "domain": "canada.ca",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/file-gst-hst-return/reporting-requirements-deadlines.html",
-          "domain": "canada.ca",
+          "url": "https://taxsummaries.pwc.com/india/corporate/other-taxes",
+          "domain": "taxsummaries.pwc.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.investopedia.com/terms/g/gst.asp",
+          "domain": "investopedia.com",
           "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 3,
+        "total_sources": 4,
         "primary_source_count": 0,
-        "secondary_source_count": 2,
+        "secondary_source_count": 3,
         "wikipedia_source_count": 1,
         "blog_source_count": 0,
         "has_primary_sources": false,
@@ -120,18 +172,15 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
+          "https://taxsummaries.pwc.com/india/corporate/other-taxes",
+          "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html",
+          "https://www.investopedia.com/terms/g/gst.asp"
+        ],
+        "dropped_sources": [
           "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
           "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/file-gst-hst-return/reporting-requirements-deadlines.html"
         ],
-        "dropped_sources": [
-          "https://e-invoicing.org/singapore",
-          "https://grokipedia.com/page/Invoicing_Software",
-          "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
-          "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-          "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
-          "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates"
-        ],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
@@ -142,22 +191,17 @@
       "category": "Tariffs",
       "summary": "Escalating international trade tariffs and retaliatory customs measures are driving multinational enterprises to continuously restructure cross-border supply chains and trade strategies.",
       "evidence": [
-        "Official WTO tariff data and global news trackers record active tariff adjustments and bilateral trade friction involving the US, Canada, Europe, and China.",
+        "Official WTO tariff data and global news trackers record active tariff adjustments and bilateral trade friction involving major trading blocs.",
         "MNEs are recalibrating supply chain routing and import duty strategies to mitigate geopolitical trade risks."
       ],
       "source_links": [
-        "https://ttd.wto.org/en",
         "https://www.reuters.com/business/tariffs",
-        "https://www.bnnbloomberg.ca/tariffs",
+        "https://usacustomsclearance.com/import-tariffs-updates",
+        "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
+        "https://ttd.wto.org/en",
         "https://www.bloomberg.com/latest/trump-tariffs"
       ],
       "source_details": [
-        {
-          "url": "https://ttd.wto.org/en",
-          "domain": "ttd.wto.org",
-          "type": "primary",
-          "published_date": null
-        },
         {
           "url": "https://www.reuters.com/business/tariffs",
           "domain": "reuters.com",
@@ -165,9 +209,21 @@
           "published_date": null
         },
         {
-          "url": "https://www.bnnbloomberg.ca/tariffs",
-          "domain": "bnnbloomberg.ca",
+          "url": "https://usacustomsclearance.com/import-tariffs-updates",
+          "domain": "usacustomsclearance.com",
           "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
+          "domain": "usitc.gov",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://ttd.wto.org/en",
+          "domain": "ttd.wto.org",
+          "type": "primary",
           "published_date": null
         },
         {
@@ -178,8 +234,8 @@
         }
       ],
       "source_quality": {
-        "total_sources": 4,
-        "primary_source_count": 1,
+        "total_sources": 5,
+        "primary_source_count": 2,
         "secondary_source_count": 3,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
@@ -190,47 +246,49 @@
       "reasoning": "Maintains Breakthrough status due to direct policy links between international trade tariffs, supply chain restructuring, and corporate tax strategies.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "Fast",
         "new_sources": [
-          "https://ttd.wto.org/en",
-          "https://www.reuters.com/business/tariffs",
-          "https://www.bnnbloomberg.ca/tariffs",
-          "https://www.bloomberg.com/latest/trump-tariffs"
+          "https://usacustomsclearance.com/import-tariffs-updates",
+          "https://www.usitc.gov/harmonized_tariff_information/announcement_archive"
         ],
-        "dropped_sources": [],
+        "dropped_sources": [
+          "https://www.bnnbloomberg.ca/tariffs"
+        ],
         "summary_changed": false
       }
     },
     {
-      "id": "asean-corporate-tax-alignment-and-regional-tax-policies",
-      "name": "ASEAN Corporate Tax Alignment and Regional Tax Policies",
+      "id": "singapore-and-asean-corporate-tax-alignment",
+      "name": "Singapore and ASEAN Corporate Tax Alignment",
       "stage": "Incubation",
       "velocity": "Moderate",
       "category": "Regional Tax Policy",
       "summary": "Southeast Asian economies are harmonizing corporate tax frameworks, dividend exemption rules, and incentive structures to balance global tax standards with regional investment attraction.",
       "evidence": [
-        "Grant Thornton released the ASEAN 6 Tax Guide 2026 outlining corporate tax updates across Singapore, Indonesia, Malaysia, Philippines, Thailand, and Vietnam.",
-        "Singapore MOF and IRAS published updated guidelines on corporate income tax rates, rebates, and enterprise growth incentives for local and foreign companies."
+        "Singapore MOF and IRAS published updated guidelines on corporate income tax rates, rebates, and enterprise growth incentives for local and foreign companies.",
+        "Regional economies evaluate standard holding structures alongside international baseline requirements."
       ],
       "source_links": [
-        "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026",
-        "https://pathmakerid.com/blog/corporate-tax-rates-in-asia-2026-a-9-country-asean-comparison",
+        "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
+        "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates",
         "https://www.mof.gov.sg/policies/taxes/corporate-income-tax",
-        "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates"
+        "https://corporate.taxinfo.sg/tax-rates/corporate-tax-rate"
       ],
       "source_details": [
         {
-          "url": "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026",
-          "domain": "grantthornton.co.th",
+          "url": "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
+          "domain": "taxsummaries.pwc.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://pathmakerid.com/blog/corporate-tax-rates-in-asia-2026-a-9-country-asean-comparison",
-          "domain": "pathmakerid.com",
-          "type": "secondary",
+          "url": "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates",
+          "domain": "iras.gov.sg",
+          "type": "primary",
           "published_date": null
         },
         {
@@ -240,9 +298,9 @@
           "published_date": null
         },
         {
-          "url": "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates",
-          "domain": "iras.gov.sg",
-          "type": "primary",
+          "url": "https://corporate.taxinfo.sg/tax-rates/corporate-tax-rate",
+          "domain": "corporate.taxinfo.sg",
+          "type": "secondary",
           "published_date": null
         }
       ],
@@ -263,10 +321,10 @@
         "stage_delta": "new",
         "velocity_delta": "new",
         "new_sources": [
-          "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026",
-          "https://pathmakerid.com/blog/corporate-tax-rates-in-asia-2026-a-9-country-asean-comparison",
+          "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
+          "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates",
           "https://www.mof.gov.sg/policies/taxes/corporate-income-tax",
-          "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates"
+          "https://corporate.taxinfo.sg/tax-rates/corporate-tax-rate"
         ],
         "dropped_sources": [],
         "summary_changed": false
@@ -274,9 +332,9 @@
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.6-flash",
+    "agent": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-10-11T10:01:10.811437Z",
+    "timestamp": "2026-10-11T16:01:27.635612Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -285,20 +343,20 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.6-flash",
+      "model": "gemini-3.5-flash-lite",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-10-11T10:01:10.811437Z",
-      "search_result_count": 30,
+      "timestamp": "2026-10-11T16:01:27.635612Z",
+      "search_result_count": 27,
       "validation_error_count": 0,
       "validation_failures": []
     }
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.6-flash",
+    "model": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-10-11T10:01:10.811437Z",
-    "search_result_count": 30,
+    "timestamp": "2026-10-11T16:01:27.635612Z",
+    "search_result_count": 27,
     "validation_error_count": 0,
     "validation_failures": []
   }
