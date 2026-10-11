@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-11T16:01:10.240693Z",
+  "last_updated": "2026-10-11T22:01:25.075444Z",
   "archived_trends": [
     {
       "name": "Cross-Chain Liquidity Solutions",
@@ -28004,6 +28004,147 @@
         "summary_changed": true
       },
       "archived_at": "2026-10-11T16:01:10.240693Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "clarity-act-and-market-structure-legislation",
+      "name": "CLARITY Act and Market Structure Legislation",
+      "stage": "Fatigue",
+      "velocity": "Slow",
+      "category": "Regulation",
+      "summary": "The Digital Asset Market CLARITY Act faced significant legislative headwinds after failing a pivotal 49-50 Senate vote in September 2026, stalling comprehensive US market structure rules and extending regulatory uncertainty between jurisdictional bodies.",
+      "evidence": [
+        "The CLARITY Act suffered a major Senate floor defeat in September 2026 following a 49-50 vote.",
+        "Bipartisan compromise efforts by Senate Banking leadership require substantial revisions before further floor consideration."
+      ],
+      "source_links": [
+        "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
+        "https://blockspot.io/clarity-act-explained",
+        "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
+        "https://www.npr.org/2026/09/15/nx-s1-5968711/clarity-act-crypto-senate-vote",
+        "https://www.banking.senate.gov/newsroom/majority/the-facts-the-clarity-act"
+      ],
+      "source_details": [
+        {
+          "url": "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
+          "domain": "cryptotimes.io",
+          "type": "secondary",
+          "published_date": "2026-05-14"
+        },
+        {
+          "url": "https://blockspot.io/clarity-act-explained",
+          "domain": "blockspot.io",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
+          "domain": "lummis.senate.gov",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.npr.org/2026/09/15/nx-s1-5968711/clarity-act-crypto-senate-vote",
+          "domain": "npr.org",
+          "type": "secondary",
+          "published_date": "2026-09-15"
+        },
+        {
+          "url": "https://www.banking.senate.gov/newsroom/majority/the-facts-the-clarity-act",
+          "domain": "banking.senate.gov",
+          "type": "primary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 5,
+        "primary_source_count": 2,
+        "secondary_source_count": 3,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.91,
+      "reasoning": "Transitioned from Breakthrough to Fatigue following the failed September 2026 Senate vote, shifting momentum back to negotiation and redrafting phases.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
+        "new_sources": [
+          "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
+          "https://blockspot.io/clarity-act-explained",
+          "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
+          "https://www.npr.org/2026/09/15/nx-s1-5968711/clarity-act-crypto-senate-vote",
+          "https://www.banking.senate.gov/newsroom/majority/the-facts-the-clarity-act"
+        ],
+        "dropped_sources": [],
+        "summary_changed": false
+      },
+      "archived_at": "2026-10-11T22:01:25.075444Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "cross-chain-liquidity-and-bitcoin-to-ethereum-bridging",
+      "name": "Cross-Chain Liquidity and Bitcoin-to-Ethereum Bridging",
+      "stage": "Incubation",
+      "velocity": "Fast",
+      "category": "Interoperability",
+      "summary": "Developer focus is intensifying around trust-minimized interoperability primitives designed to bring native Bitcoin capital directly into EVM-based DeFi application layers without central wrapping risks.",
+      "evidence": [
+        "Architectural research prioritizes trust-reduced cross-chain swaps and native BTC liquidity integration for smart contracts.",
+        "Cross-chain protocols seek to capture passive BTC holding liquidity into active EVM yield environments."
+      ],
+      "source_links": [
+        "https://ethereum.org",
+        "https://cryptothreads.io/learn/bitcoin-institutional-adoption"
+      ],
+      "source_details": [
+        {
+          "url": "https://ethereum.org",
+          "domain": "ethereum.org",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
+          "domain": "cryptothreads.io",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 2,
+        "primary_source_count": 1,
+        "secondary_source_count": 1,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.87,
+      "reasoning": "Maintained at Incubation as protocol designers build non-custodial bridging mechanics to connect Bitcoin's deep liquidity base to EVM execution layers.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Incubation",
+        "velocity_delta": 0,
+        "previous_velocity": "Fast",
+        "new_sources": [
+          "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
+          "https://ethereum.org"
+        ],
+        "dropped_sources": [
+          "https://chainspot.io/portal/bridges-by-chains/ethereum-to-bitcoin",
+          "https://ethereum.org/bridges",
+          "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
+          "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-10-11T22:01:25.075444Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
