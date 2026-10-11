@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-10T22:01:10.315276Z",
+  "last_updated": "2026-10-11T04:01:14.821102Z",
   "executive_briefing": "The global tax landscape in 2026 is defined by heightened volatility and structural shifts. While the OECD Pillar Two global minimum tax framework and country-level effective tax reporting remain central, international policy uncertainties have escalated due to strategic jurisdictional recalibrations, including US shifts regarding multilateral tax agreements and rising threats of retaliatory trade tariffs. Concurrently, tax administrations continue to expand mandatory e-invoicing and real-time digital transaction reporting networks to curb evasion and ensure tax compliance across cross-border operations.",
   "trends": [
     {
@@ -11,14 +11,15 @@
       "summary": "Enforcement of the 15% global minimum tax under OECD GloBE rules continues alongside updated corporate tax statistics, while navigating significant jurisdictional policy shifts and retaliatory tax dynamics.",
       "evidence": [
         "OECD published the 2026 Corporate Tax Statistics detailing corporate tax revenues, effective tax rates (ETRs), and BEPS compliance indicators.",
-        "Legal analysis highlights growing volatility, including US policy shifts concerning OECD Pillar One/Two agreements and potential retaliatory tax mechanisms."
+        "Over 60 countries have enacted or are actively implementing GloBE rules with ongoing monitoring by the OECD."
       ],
       "source_links": [
         "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en.html",
         "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html",
-        "https://practiceguides.chambers.com/practice-guides/corporate-tax-2026",
+        "https://taxrate.org/corporate-tax-rates",
         "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
-        "https://taxrate.org/corporate-tax-rates"
+        "https://www.oecd.org/en/topics/sub-issues/global-minimum-tax/global-anti-base-erosion-model-rules-pillar-two.html",
+        "https://sw-cpas.com/pillar-two-global-minimum-tax-oecd-update-2026"
       ],
       "source_details": [
         {
@@ -34,8 +35,8 @@
           "published_date": "2026-07-01"
         },
         {
-          "url": "https://practiceguides.chambers.com/practice-guides/corporate-tax-2026",
-          "domain": "practiceguides.chambers.com",
+          "url": "https://taxrate.org/corporate-tax-rates",
+          "domain": "taxrate.org",
           "type": "secondary",
           "published_date": null
         },
@@ -46,15 +47,21 @@
           "published_date": null
         },
         {
-          "url": "https://taxrate.org/corporate-tax-rates",
-          "domain": "taxrate.org",
+          "url": "https://www.oecd.org/en/topics/sub-issues/global-minimum-tax/global-anti-base-erosion-model-rules-pillar-two.html",
+          "domain": "oecd.org",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://sw-cpas.com/pillar-two-global-minimum-tax-oecd-update-2026",
+          "domain": "sw-cpas.com",
           "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 5,
-        "primary_source_count": 1,
+        "total_sources": 6,
+        "primary_source_count": 2,
         "secondary_source_count": 4,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
@@ -62,7 +69,7 @@
         "source_risk": "low"
       },
       "confidence": 0.98,
-      "reasoning": "Maintains Breakthrough status as implementation proceeds globally despite geopolitical tax Friction and US policy updates introducing strategic uncertainty.",
+      "reasoning": "Maintains Breakthrough status as implementation proceeds globally despite geopolitical tax friction and updates introducing strategic uncertainty.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -71,13 +78,13 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
-          "https://practiceguides.chambers.com/practice-guides/corporate-tax-2026",
-          "https://taxrate.org/corporate-tax-rates"
+          "https://sw-cpas.com/pillar-two-global-minimum-tax-oecd-update-2026",
+          "https://www.oecd.org/en/topics/sub-issues/global-minimum-tax/global-anti-base-erosion-model-rules-pillar-two.html"
         ],
         "dropped_sources": [
-          "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en/full-report.html"
+          "https://practiceguides.chambers.com/practice-guides/corporate-tax-2026"
         ],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
@@ -95,7 +102,10 @@
         "https://en.wikipedia.org/wiki/E-invoicing",
         "https://grokipedia.com/page/Invoicing_Software",
         "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
-        "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates"
+        "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates",
+        "https://e-invoicing.org/singapore",
+        "https://www.cleartax.com/sg/en/e-invoicing-singapore",
+        "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework"
       ],
       "source_details": [
         {
@@ -121,12 +131,30 @@
           "domain": "iras.gov.sg",
           "type": "primary",
           "published_date": null
+        },
+        {
+          "url": "https://e-invoicing.org/singapore",
+          "domain": "e-invoicing.org",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.cleartax.com/sg/en/e-invoicing-singapore",
+          "domain": "cleartax.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
+          "domain": "imda.gov.sg",
+          "type": "primary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 4,
-        "primary_source_count": 1,
-        "secondary_source_count": 2,
+        "total_sources": 7,
+        "primary_source_count": 2,
+        "secondary_source_count": 4,
         "wikipedia_source_count": 1,
         "blog_source_count": 0,
         "has_primary_sources": true,
@@ -142,11 +170,12 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
-          "https://en.wikipedia.org/wiki/E-invoicing",
-          "https://grokipedia.com/page/Invoicing_Software"
+          "https://e-invoicing.org/singapore",
+          "https://www.cleartax.com/sg/en/e-invoicing-singapore",
+          "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework"
         ],
         "dropped_sources": [],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
@@ -158,12 +187,16 @@
       "summary": "Rising trade tariffs and retaliatory tax measures are driving multinational enterprises to continuously restructure cross-border supply chains and business models.",
       "evidence": [
         "Tax and practice reports highlight escalating threats of retaliatory tariffs and dynamic tax adjustments impacting cross-border trade.",
-        "Updates to Harmonized Tariff Schedules by international trade bodies require frequent duty recalibrations."
+        "Presidential and governmental orders on import tariffs throw the global economy into active policy calibration."
       ],
       "source_links": [
         "https://practiceguides.chambers.com/practice-guides/corporate-tax-2026",
         "https://www.reuters.com/business/tariffs",
-        "https://www.usitc.gov/harmonized_tariff_information"
+        "https://www.usitc.gov/harmonized_tariff_information",
+        "https://www.bloomberg.com/latest/trump-tariffs",
+        "https://usacustomsclearance.com/import-tariffs-updates",
+        "https://ttd.wto.org/en",
+        "https://www.bnnbloomberg.ca/tariffs"
       ],
       "source_details": [
         {
@@ -183,12 +216,36 @@
           "domain": "usitc.gov",
           "type": "primary",
           "published_date": null
+        },
+        {
+          "url": "https://www.bloomberg.com/latest/trump-tariffs",
+          "domain": "bloomberg.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://usacustomsclearance.com/import-tariffs-updates",
+          "domain": "usacustomsclearance.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://ttd.wto.org/en",
+          "domain": "ttd.wto.org",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.bnnbloomberg.ca/tariffs",
+          "domain": "bnnbloomberg.ca",
+          "type": "secondary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 3,
-        "primary_source_count": 1,
-        "secondary_source_count": 2,
+        "total_sources": 7,
+        "primary_source_count": 2,
+        "secondary_source_count": 5,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
@@ -204,20 +261,20 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
-          "https://practiceguides.chambers.com/practice-guides/corporate-tax-2026"
+          "https://ttd.wto.org/en",
+          "https://usacustomsclearance.com/import-tariffs-updates",
+          "https://www.bloomberg.com/latest/trump-tariffs",
+          "https://www.bnnbloomberg.ca/tariffs"
         ],
-        "dropped_sources": [
-          "https://tariffcheck.org/updates",
-          "https://www.usitc.gov/harmonized_tariff_information/announcement_archive"
-        ],
-        "summary_changed": true
+        "dropped_sources": [],
+        "summary_changed": false
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.6-flash",
+    "agent": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-10-10T22:01:10.315276Z",
+    "timestamp": "2026-10-11T04:01:14.821102Z",
     "active_narratives": 3,
     "validation": {
       "accepted": 3,
@@ -226,20 +283,20 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.6-flash",
+      "model": "gemini-3.5-flash-lite",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-10-10T22:01:10.315276Z",
-      "search_result_count": 8,
+      "timestamp": "2026-10-11T04:01:14.821102Z",
+      "search_result_count": 23,
       "validation_error_count": 0,
       "validation_failures": []
     }
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.6-flash",
+    "model": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-10-10T22:01:10.315276Z",
-    "search_result_count": 8,
+    "timestamp": "2026-10-11T04:01:14.821102Z",
+    "search_result_count": 23,
     "validation_error_count": 0,
     "validation_failures": []
   }
