@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-12T16:01:36.305011Z",
+  "last_updated": "2026-10-12T22:01:17.650449Z",
   "executive_briefing": "In late 2026, global corporate tax policy continues to be shaped by the full enforcement of OECD Pillar Two minimum tax standards alongside the stabilization of statutory corporate tax rates across major economies. Multinational enterprises face significant trade policy volatility driven by ongoing US tariff updates, harmonized schedule adjustments, and trade defense measures. Simultaneously, tax administrations globally are expanding mandatory real-time structured e-invoicing and digital GST/VAT reporting frameworks. Regionally, Singapore and ASEAN partners are adapting corporate tax incentive structures to retain investment attractiveness while complying with evolving international tax norms.",
   "trends": [
     {
@@ -11,7 +11,7 @@
       "summary": "Global implementation of the 15% global minimum tax under OECD GloBE rules continues to progress, accompanied by the publication of 2026 corporate tax statistics highlighting statutory rate stabilization and BEPS mitigation.",
       "evidence": [
         "OECD Corporate Tax Statistics 2026 provides comprehensive metrics on corporate income taxes, effective tax rates, and BEPS practices.",
-        "Major international tax networks (KPMG, BDO) publish implementation frameworks for global corporate and withholding tax rate updates in 2026."
+        "Major international tax networks publish implementation frameworks for global corporate and withholding tax rate updates in 2026."
       ],
       "source_links": [
         "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en.html",
@@ -63,16 +63,9 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [
-          "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en.html"
-        ],
-        "dropped_sources": [
-          "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
-          "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en/full-report.html",
-          "https://www.oecd.org/en/topics/sub-issues/global-minimum-tax/global-anti-base-erosion-model-rules-pillar-two.html",
-          "https://www.pwc.com/gx/en/services/tax/pillar-two-readiness/country-tracker.html"
-        ],
-        "summary_changed": true
+        "new_sources": [],
+        "dropped_sources": [],
+        "summary_changed": false
       }
     },
     {
@@ -87,23 +80,9 @@
         "Enterprise technology platforms are integrating structured invoice exchanges to satisfy increasing cross-border tax transparency requirements."
       ],
       "source_links": [
-        "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
-        "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html",
         "https://en.wikipedia.org/wiki/E-invoicing"
       ],
       "source_details": [
-        {
-          "url": "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
-          "domain": "stripe.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html",
-          "domain": "avalara.com",
-          "type": "secondary",
-          "published_date": null
-        },
         {
           "url": "https://en.wikipedia.org/wiki/E-invoicing",
           "domain": "en.wikipedia.org",
@@ -112,33 +91,32 @@
         }
       ],
       "source_quality": {
-        "total_sources": 3,
+        "total_sources": 1,
         "primary_source_count": 0,
-        "secondary_source_count": 2,
+        "secondary_source_count": 0,
         "wikipedia_source_count": 1,
         "blog_source_count": 0,
         "has_primary_sources": false,
-        "source_risk": "medium"
+        "source_risk": "high"
       },
       "confidence": 0.96,
       "reasoning": "Maintains Breakthrough status due to ongoing worldwide implementation of real-time e-invoicing mandates and automated digital VAT/GST audit tooling.",
-      "validation_flags": [],
+      "validation_flags": [
+        "weak_source_support",
+        "wikipedia_only"
+      ],
       "changed_since_previous_run": {
         "is_new": false,
         "stage_delta": 0,
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [
-          "https://en.wikipedia.org/wiki/E-invoicing"
-        ],
+        "new_sources": [],
         "dropped_sources": [
-          "https://e-invoicing.org/singapore",
-          "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
-          "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-          "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework"
+          "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
+          "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html"
         ],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
@@ -203,10 +181,8 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [],
-        "dropped_sources": [
-          "https://www.tariffstool.com/guides/tariff-news-2026"
-        ],
-        "summary_changed": true
+        "dropped_sources": [],
+        "summary_changed": false
       }
     },
     {
@@ -264,19 +240,15 @@
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
         "new_sources": [],
-        "dropped_sources": [
-          "https://pathmakerid.com/blog/corporate-tax-rates-in-asia-2026-a-9-country-asean-comparison",
-          "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026",
-          "https://www.grantthornton.sg/globalassets/1.-member-firms/singapore/pdf-articles/asean-tax-guide-2026_updated.pdf"
-        ],
-        "summary_changed": true
+        "dropped_sources": [],
+        "summary_changed": false
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.5-flash",
+    "agent": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-10-12T16:01:36.305011Z",
+    "timestamp": "2026-10-12T22:01:17.650449Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -285,20 +257,20 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.5-flash",
+      "model": "gemini-3.5-flash-lite",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-10-12T16:01:36.305011Z",
-      "search_result_count": 21,
+      "timestamp": "2026-10-12T22:01:17.650449Z",
+      "search_result_count": 23,
       "validation_error_count": 0,
       "validation_failures": []
     }
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.5-flash",
+    "model": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-10-12T16:01:36.305011Z",
-    "search_result_count": 21,
+    "timestamp": "2026-10-12T22:01:17.650449Z",
+    "search_result_count": 23,
     "validation_error_count": 0,
     "validation_failures": []
   }

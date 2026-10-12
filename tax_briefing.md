@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-10-12 16:01
+# Tax Intelligence Briefing - 2026-10-12 22:01
 
 In late 2026, global corporate tax policy continues to be shaped by the full enforcement of OECD Pillar Two minimum tax standards alongside the stabilization of statutory corporate tax rates across major economies. Multinational enterprises face significant trade policy volatility driven by ongoing US tariff updates, harmonized schedule adjustments, and trade defense measures. Simultaneously, tax administrations globally are expanding mandatory real-time structured e-invoicing and digital GST/VAT reporting frameworks. Regionally, Singapore and ASEAN partners are adapting corporate tax incentive structures to retain investment attractiveness while complying with evolving international tax norms.
