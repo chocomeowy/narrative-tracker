@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-12T16:01:12.362099Z",
+  "last_updated": "2026-10-12T22:01:15.042285Z",
   "archived_trends": [
     {
       "name": "Cross-Chain Liquidity Solutions",
@@ -28294,6 +28294,61 @@
         "summary_changed": false
       },
       "archived_at": "2026-10-12T16:01:12.362099Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "clarity-deterministic-smart-contracts-on-bitcoin",
+      "name": "Clarity Deterministic Smart Contracts on Bitcoin",
+      "stage": "Incubation",
+      "velocity": "Moderate",
+      "category": "Smart Contracts",
+      "summary": "Clarity smart contracts enable decidable, non-Turing complete execution on Bitcoin layers, providing a security-focused alternative to EVM's dynamic execution model.",
+      "evidence": [
+        "Clarity language features enable developers to statically analyze contract behavior before execution on Bitcoin L2s.",
+        "Predictable gas fees and deterministic code execution positioning Clarity as a structural competitor for high-value Bitcoin smart contracts."
+      ],
+      "source_links": [
+        "https://cryptonium.cloud/articles/bitcoins-sovereign-embrace-decoding-2026-institutional-adoption-curve-macro-tailwinds",
+        "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi"
+      ],
+      "source_details": [
+        {
+          "url": "https://cryptonium.cloud/articles/bitcoins-sovereign-embrace-decoding-2026-institutional-adoption-curve-macro-tailwinds",
+          "domain": "cryptonium.cloud",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
+          "domain": "bitunix.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 2,
+        "primary_source_count": 0,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.88,
+      "reasoning": "Positioned at Incubation as developer interest in native Bitcoin smart contracting grows, leveraging Clarity's decidable structure to compete directly with EVM application architectures.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
+        "new_sources": [
+          "https://cryptonium.cloud/articles/bitcoins-sovereign-embrace-decoding-2026-institutional-adoption-curve-macro-tailwinds",
+          "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi"
+        ],
+        "dropped_sources": [],
+        "summary_changed": false
+      },
+      "archived_at": "2026-10-12T22:01:15.042285Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
