@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-12T04:01:16.542671Z",
-  "executive_briefing": "The late 2026 digital asset market structure is characterized by the steady institutional integration of Bitcoin via spot ETFs alongside regulatory setbacks following the defeat of the CLARITY Act in the US Senate. While regulatory friction persists, technical development increasingly centers on trust-minimized cross-chain architectures connecting Bitcoin's deep liquidity directly into Ethereum's foundational EVM ecosystem.",
+  "last_updated": "2026-10-12T10:01:10.330012Z",
+  "executive_briefing": "The late 2026 crypto landscape is defined by the maturation of institutional Bitcoin treasury integration via spot ETFs, contrasting sharply with regulatory friction following the Senate's rejection of the CLARITY Act. Simultaneously, technical innovation focuses heavily on trust-minimized cross-chain architectures connecting native Bitcoin liquidity directly to Ethereum's EVM ecosystem.",
   "trends": [
     {
       "id": "institutional-bitcoin-treasury-and-etf-consolidation",
@@ -8,17 +8,16 @@
       "stage": "Fatigue",
       "velocity": "Moderate",
       "category": "Institutional Finance",
-      "summary": "Spot Bitcoin ETFs have transitioned from speculative vehicles into established corporate treasury balance sheet management tools and standard macroeconomic portfolio diversifiers.",
+      "summary": "Spot Bitcoin ETFs have firmly transitioned from speculative vehicles into established corporate treasury balance sheet tools and standard macroeconomic portfolio diversifiers.",
       "evidence": [
-        "Spot Bitcoin ETFs maintain sustained institutional capital flows exceeding $100B aggregate AUM.",
+        "Spot Bitcoin ETFs maintain sustained institutional capital flows exceeding baseline aggregates.",
         "Pension funds, corporate treasuries, and insurers treat BTC as a standard macro portfolio diversifier."
       ],
       "source_links": [
         "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
-        "https://www.theblock.co/learn/macro/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111",
+        "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/how-institutional-adoption-is-impacting-bitcoin-and-crypto-prices",
         "https://cryptonium.cloud/articles/bitcoins-sovereign-embrace-decoding-2026-institutional-adoption-curve-macro-tailwinds",
-        "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
-        "https://www.ainvest.com/news/bitcoin-etf-inflows-institutional-adoption-2026-momentum-market-impact-strategic-entry-points-growth-2601"
+        "https://amifs.org/institutional-crypto-adoption-and-bitcoin-etf-approvals-how-regulation-is-reshaping-finance"
       ],
       "source_details": [
         {
@@ -28,8 +27,8 @@
           "published_date": null
         },
         {
-          "url": "https://www.theblock.co/learn/macro/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111",
-          "domain": "theblock.co",
+          "url": "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/how-institutional-adoption-is-impacting-bitcoin-and-crypto-prices",
+          "domain": "analyticsinsight.net",
           "type": "secondary",
           "published_date": null
         },
@@ -40,22 +39,16 @@
           "published_date": null
         },
         {
-          "url": "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
-          "domain": "spark.money",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.ainvest.com/news/bitcoin-etf-inflows-institutional-adoption-2026-momentum-market-impact-strategic-entry-points-growth-2601",
-          "domain": "ainvest.com",
+          "url": "https://amifs.org/institutional-crypto-adoption-and-bitcoin-etf-approvals-how-regulation-is-reshaping-finance",
+          "domain": "amifs.org",
           "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 5,
+        "total_sources": 4,
         "primary_source_count": 0,
-        "secondary_source_count": 5,
+        "secondary_source_count": 4,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": false,
@@ -65,18 +58,21 @@
       "reasoning": "Maintained at the Fatigue stage as ETF inflows have matured into baseline corporate treasury operations rather than high-velocity speculative price discovery phases.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Fatigue",
+        "velocity_delta": 0,
+        "previous_velocity": "Moderate",
         "new_sources": [
-          "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
-          "https://www.theblock.co/learn/macro/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111",
-          "https://cryptonium.cloud/articles/bitcoins-sovereign-embrace-decoding-2026-institutional-adoption-curve-macro-tailwinds",
-          "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
-          "https://www.ainvest.com/news/bitcoin-etf-inflows-institutional-adoption-2026-momentum-market-impact-strategic-entry-points-growth-2601"
+          "https://amifs.org/institutional-crypto-adoption-and-bitcoin-etf-approvals-how-regulation-is-reshaping-finance",
+          "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/how-institutional-adoption-is-impacting-bitcoin-and-crypto-prices"
         ],
-        "dropped_sources": [],
-        "summary_changed": false
+        "dropped_sources": [
+          "https://www.ainvest.com/news/bitcoin-etf-inflows-institutional-adoption-2026-momentum-market-impact-strategic-entry-points-growth-2601",
+          "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
+          "https://www.theblock.co/learn/macro/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111"
+        ],
+        "summary_changed": true
       }
     },
     {
@@ -92,13 +88,19 @@
       ],
       "source_links": [
         "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+        "https://en.wikipedia.org/wiki/Ethereum",
         "https://coinmarketcap.com/currencies/ethereum",
-        "https://ethereum.org",
-        "https://ethereum.org/what-is-ether"
+        "https://ethereum.org"
       ],
       "source_details": [
         {
           "url": "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethereum",
           "domain": "en.wikipedia.org",
           "type": "wikipedia",
           "published_date": null
@@ -114,19 +116,13 @@
           "domain": "ethereum.org",
           "type": "primary",
           "published_date": null
-        },
-        {
-          "url": "https://ethereum.org/what-is-ether",
-          "domain": "ethereum.org",
-          "type": "primary",
-          "published_date": null
         }
       ],
       "source_quality": {
         "total_sources": 4,
-        "primary_source_count": 2,
+        "primary_source_count": 1,
         "secondary_source_count": 1,
-        "wikipedia_source_count": 1,
+        "wikipedia_source_count": 2,
         "blog_source_count": 0,
         "has_primary_sources": true,
         "source_risk": "low"
@@ -141,12 +137,12 @@
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
         "new_sources": [
-          "https://coinmarketcap.com/currencies/ethereum",
-          "https://ethereum.org",
+          "https://en.wikipedia.org/wiki/Ethereum"
+        ],
+        "dropped_sources": [
           "https://ethereum.org/what-is-ether"
         ],
-        "dropped_sources": [],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
@@ -162,9 +158,9 @@
       ],
       "source_links": [
         "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
-        "https://blockspot.io/clarity-act-explained",
-        "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
-        "https://www.npr.org/2026/09/15/nx-s1-5968711/clarity-act-crypto-senate-vote"
+        "https://www.npr.org/2026/09/15/nx-s1-5968711/clarity-act-crypto-senate-vote",
+        "https://www.cnbc.com/2026/09/15/senate-cloture-vote-on-clarity-act-fails-dealing-regulatory-setback-to-crypto-industry.html",
+        "https://www.banking.senate.gov/newsroom/majority/myth-vs-fact-the-clarity-act"
       ],
       "source_details": [
         {
@@ -174,22 +170,22 @@
           "published_date": "2026-05-14"
         },
         {
-          "url": "https://blockspot.io/clarity-act-explained",
-          "domain": "blockspot.io",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
-          "domain": "lummis.senate.gov",
-          "type": "primary",
-          "published_date": null
-        },
-        {
           "url": "https://www.npr.org/2026/09/15/nx-s1-5968711/clarity-act-crypto-senate-vote",
           "domain": "npr.org",
           "type": "secondary",
           "published_date": "2026-09-15"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/09/15/senate-cloture-vote-on-clarity-act-fails-dealing-regulatory-setback-to-crypto-industry.html",
+          "domain": "cnbc.com",
+          "type": "secondary",
+          "published_date": "2026-09-15"
+        },
+        {
+          "url": "https://www.banking.senate.gov/newsroom/majority/myth-vs-fact-the-clarity-act",
+          "domain": "banking.senate.gov",
+          "type": "primary",
+          "published_date": null
         }
       ],
       "source_quality": {
@@ -205,16 +201,19 @@
       "reasoning": "Positioned at Peak Hype due to intense legislative activity, public debate, and high market sensitivity following the Senate's rejection.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Peak Hype",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
         "new_sources": [
-          "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
-          "https://blockspot.io/clarity-act-explained",
-          "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
-          "https://www.npr.org/2026/09/15/nx-s1-5968711/clarity-act-crypto-senate-vote"
+          "https://www.banking.senate.gov/newsroom/majority/myth-vs-fact-the-clarity-act",
+          "https://www.cnbc.com/2026/09/15/senate-cloture-vote-on-clarity-act-fails-dealing-regulatory-setback-to-crypto-industry.html"
         ],
-        "dropped_sources": [],
+        "dropped_sources": [
+          "https://blockspot.io/clarity-act-explained",
+          "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text"
+        ],
         "summary_changed": false
       }
     },
@@ -231,20 +230,14 @@
       ],
       "source_links": [
         "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
-        "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
         "https://symbiosis.finance/bridge-btc-to-eth",
-        "https://trustwallet.com/blog/academy/how-to-bridge-tokens-from-one-chain-to-another"
+        "https://chainspot.io/portal/bridges-by-chains/ethereum-to-bitcoin",
+        "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps"
       ],
       "source_details": [
         {
           "url": "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
           "domain": "bitunix.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
-          "domain": "trustwallet.com",
           "type": "secondary",
           "published_date": null
         },
@@ -255,8 +248,14 @@
           "published_date": null
         },
         {
-          "url": "https://trustwallet.com/blog/academy/how-to-bridge-tokens-from-one-chain-to-another",
-          "domain": "trustwallet.com",
+          "url": "https://chainspot.io/portal/bridges-by-chains/ethereum-to-bitcoin",
+          "domain": "chainspot.io",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps",
+          "domain": "gate.com",
           "type": "secondary",
           "published_date": null
         }
@@ -274,16 +273,19 @@
       "reasoning": "Advanced to Breakthrough as functional non-custodial cross-chain bridges successfully unify Bitcoin's capital reserves with Ethereum smart contract tooling.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
         "new_sources": [
-          "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
+          "https://chainspot.io/portal/bridges-by-chains/ethereum-to-bitcoin",
+          "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps"
+        ],
+        "dropped_sources": [
           "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
-          "https://symbiosis.finance/bridge-btc-to-eth",
           "https://trustwallet.com/blog/academy/how-to-bridge-tokens-from-one-chain-to-another"
         ],
-        "dropped_sources": [],
         "summary_changed": false
       }
     }
@@ -291,7 +293,7 @@
   "intelligence_metadata": {
     "agent": "gemini-3.5-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-10-12T04:01:16.542671Z",
+    "timestamp": "2026-10-12T10:01:10.330012Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -302,7 +304,7 @@
       "status": "success",
       "model": "gemini-3.5-flash-lite",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-10-12T04:01:16.542671Z",
+      "timestamp": "2026-10-12T10:01:10.330012Z",
       "search_result_count": 20,
       "validation_error_count": 0,
       "validation_failures": []
@@ -312,7 +314,7 @@
     "status": "success",
     "model": "gemini-3.5-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-10-12T04:01:16.542671Z",
+    "timestamp": "2026-10-12T10:01:10.330012Z",
     "search_result_count": 20,
     "validation_error_count": 0,
     "validation_failures": []
