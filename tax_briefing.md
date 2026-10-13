@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-10-13 16:01
+# Tax Intelligence Briefing - 2026-10-13 22:01
 
-As of late 2026, global tax policy is dominated by the consolidation of the OECD Pillar Two framework and an intensified focus on trade protectionism through targeted tariffs. With over 60 nations now enacting global minimum tax legislation, multinational corporations are shifting focus toward compliance and the integration of mandatory real-time digital reporting. Simultaneously, trade dynamics are increasingly volatile, with major economies leveraging import tariffs as primary policy tools, while Southeast Asian jurisdictions are optimizing corporate tax structures to maintain regional competitiveness amid these global headwinds.
+Global tax policy continues its rapid evolution around the consolidation of the OECD Pillar Two 15% global minimum tax framework and aggressive real-time digital reporting mandates such as e-invoicing. Concurrently, regional adjustments in ASEAN and escalating trade protectionism via international tariffs are driving multinational corporations to redesign compliance and supply chain architectures.
