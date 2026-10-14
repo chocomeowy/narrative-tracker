@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T04:01:10.040868Z",
+  "last_updated": "2026-10-14T10:01:07.507616Z",
   "executive_briefing": "As of late 2026, the crypto landscape is heavily shaped by institutional integration and regulatory structuring. Bitcoin institutional adoption via ETFs has transitioned into a mature macroeconomic asset standard, while cross-chain interoperability protocols are successfully unlocking native Bitcoin liquidity for decentralized finance on EVM-compatible networks. Simultaneously, the Digital Asset Market Clarity Act has advanced through critical Senate committees, establishing a definitive regulatory boundary that enables robust multi-chain smart contract environments.",
   "trends": [
     {
@@ -16,9 +16,9 @@
       "source_links": [
         "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
         "https://www.theblock.co/learn/macro/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111",
+        "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
         "https://bitcoincompleteguide.com/guide/bitcoin-institutional-adoption",
-        "https://cryptonium.cloud/articles/bitcoins-sovereign-embrace-decoding-2026-institutional-adoption-curve-macro-tailwinds",
-        "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis"
+        "https://cryptonium.cloud/articles/bitcoins-sovereign-embrace-decoding-2026-institutional-adoption-curve-macro-tailwinds"
       ],
       "source_details": [
         {
@@ -34,6 +34,12 @@
           "published_date": null
         },
         {
+          "url": "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
+          "domain": "spark.money",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
           "url": "https://bitcoincompleteguide.com/guide/bitcoin-institutional-adoption",
           "domain": "bitcoincompleteguide.com",
           "type": "secondary",
@@ -42,12 +48,6 @@
         {
           "url": "https://cryptonium.cloud/articles/bitcoins-sovereign-embrace-decoding-2026-institutional-adoption-curve-macro-tailwinds",
           "domain": "cryptonium.cloud",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
-          "domain": "spark.money",
           "type": "secondary",
           "published_date": null
         }
@@ -70,15 +70,9 @@
         "previous_stage": "Fatigue",
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
-        "new_sources": [
-          "https://bitcoincompleteguide.com/guide/bitcoin-institutional-adoption",
-          "https://cryptonium.cloud/articles/bitcoins-sovereign-embrace-decoding-2026-institutional-adoption-curve-macro-tailwinds"
-        ],
-        "dropped_sources": [
-          "https://www.ainvest.com/news/bitcoin-etf-inflows-institutional-adoption-catalyst-2026-price-surge-2512",
-          "https://www.ainvest.com/news/bitcoin-etf-inflows-institutional-demand-catalyst-2026-price-recovery-2601"
-        ],
-        "summary_changed": true
+        "new_sources": [],
+        "dropped_sources": [],
+        "summary_changed": false
       }
     },
     {
@@ -93,11 +87,7 @@
         "EVM architecture maintains widespread enterprise consortium backing and developer mindshare."
       ],
       "source_links": [
-        "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
-        "https://coinmarketcap.com/currencies/ethereum",
-        "https://ethereum.org",
-        "https://ethereum.org/what-is-ether",
-        "https://etherscan.io"
+        "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance"
       ],
       "source_details": [
         {
@@ -105,44 +95,23 @@
           "domain": "en.wikipedia.org",
           "type": "wikipedia",
           "published_date": null
-        },
-        {
-          "url": "https://coinmarketcap.com/currencies/ethereum",
-          "domain": "coinmarketcap.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://ethereum.org",
-          "domain": "ethereum.org",
-          "type": "primary",
-          "published_date": null
-        },
-        {
-          "url": "https://ethereum.org/what-is-ether",
-          "domain": "ethereum.org",
-          "type": "primary",
-          "published_date": null
-        },
-        {
-          "url": "https://etherscan.io",
-          "domain": "etherscan.io",
-          "type": "secondary",
-          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 5,
-        "primary_source_count": 2,
-        "secondary_source_count": 2,
+        "total_sources": 1,
+        "primary_source_count": 0,
+        "secondary_source_count": 0,
         "wikipedia_source_count": 1,
         "blog_source_count": 0,
-        "has_primary_sources": true,
-        "source_risk": "low"
+        "has_primary_sources": false,
+        "source_risk": "high"
       },
       "confidence": 0.93,
       "reasoning": "Ethereum remains in Peak Hype as the primary settlement layer and execution engine driving standard dApp environments.",
-      "validation_flags": [],
+      "validation_flags": [
+        "weak_source_support",
+        "wikipedia_only"
+      ],
       "changed_since_previous_run": {
         "is_new": false,
         "stage_delta": 0,
@@ -150,8 +119,13 @@
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
         "new_sources": [],
-        "dropped_sources": [],
-        "summary_changed": true
+        "dropped_sources": [
+          "https://coinmarketcap.com/currencies/ethereum",
+          "https://ethereum.org",
+          "https://ethereum.org/what-is-ether",
+          "https://etherscan.io"
+        ],
+        "summary_changed": false
       }
     },
     {
@@ -222,106 +196,19 @@
         "previous_stage": "Incubation",
         "velocity_delta": 0,
         "previous_velocity": "High",
-        "new_sources": [
-          "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
-          "https://www.govtrack.us/congress/bills/119/hr3633/text",
-          "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text-ahead-of-historic-tuesday-vote"
-        ],
+        "new_sources": [],
         "dropped_sources": [],
-        "summary_changed": true
-      }
-    },
-    {
-      "id": "bitcoin-to-ethereum-cross-chain-liquidity-bridges",
-      "name": "Bitcoin-to-Ethereum Cross-Chain Liquidity Bridges",
-      "stage": "Breakthrough",
-      "velocity": "High",
-      "category": "DeFi",
-      "summary": "Trust-minimized interoperability networks are successfully channeling native Bitcoin capital into EVM smart contract ecosystems without relying on centralized intermediaries.",
-      "evidence": [
-        "Decentralized liquidity protocols enable native asset swaps from BTC to ETH through decentralized pools.",
-        "Interoperability layers allow dApps to tap into idle Bitcoin reserves securely."
-      ],
-      "source_links": [
-        "https://dailycoin.com/best-cross-chain-bridges-in-crypto",
-        "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
-        "https://ethereum.org/bridges",
-        "https://blocklr.com/guides/how-to-bridge-crypto",
-        "https://www.shironeko.gg/how-to-bridge-crypto"
-      ],
-      "source_details": [
-        {
-          "url": "https://dailycoin.com/best-cross-chain-bridges-in-crypto",
-          "domain": "dailycoin.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
-          "domain": "bitunix.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://ethereum.org/bridges",
-          "domain": "ethereum.org",
-          "type": "primary",
-          "published_date": null
-        },
-        {
-          "url": "https://blocklr.com/guides/how-to-bridge-crypto",
-          "domain": "blocklr.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.shironeko.gg/how-to-bridge-crypto",
-          "domain": "shironeko.gg",
-          "type": "secondary",
-          "published_date": null
-        }
-      ],
-      "source_quality": {
-        "total_sources": 5,
-        "primary_source_count": 1,
-        "secondary_source_count": 4,
-        "wikipedia_source_count": 0,
-        "blog_source_count": 0,
-        "has_primary_sources": true,
-        "source_risk": "low"
-      },
-      "confidence": 0.92,
-      "reasoning": "This trend is in Breakthrough as cross-chain infrastructure proves viable for trust-minimized integration of native BTC into DeFi protocols.",
-      "validation_flags": [],
-      "changed_since_previous_run": {
-        "is_new": false,
-        "stage_delta": 0,
-        "previous_stage": "Breakthrough",
-        "velocity_delta": 0,
-        "previous_velocity": "High",
-        "new_sources": [
-          "https://blocklr.com/guides/how-to-bridge-crypto",
-          "https://dailycoin.com/best-cross-chain-bridges-in-crypto",
-          "https://ethereum.org/bridges",
-          "https://www.shironeko.gg/how-to-bridge-crypto"
-        ],
-        "dropped_sources": [
-          "https://markaicode.com/bitcoin-ethereum-crosschain-defi-integration",
-          "https://symbiosis.finance/bridge-btc-to-eth",
-          "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
-          "https://www.techedubyte.com/cross-chain-liquidity-btc-eth-sol-liquidchain"
-        ],
-        "summary_changed": true
+        "summary_changed": false
       }
     }
   ],
   "intelligence_metadata": {
     "agent": "gemini-3.5-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-10-14T04:01:10.040868Z",
-    "active_narratives": 4,
+    "timestamp": "2026-10-14T10:01:07.507616Z",
+    "active_narratives": 3,
     "validation": {
-      "accepted": 4,
+      "accepted": 3,
       "rejected": 0,
       "validation_error_count": 0
     },
@@ -329,8 +216,8 @@
       "status": "success",
       "model": "gemini-3.5-flash-lite",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-10-14T04:01:10.040868Z",
-      "search_result_count": 20,
+      "timestamp": "2026-10-14T10:01:07.507616Z",
+      "search_result_count": 11,
       "validation_error_count": 0,
       "validation_failures": []
     }
@@ -339,8 +226,8 @@
     "status": "success",
     "model": "gemini-3.5-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-10-14T04:01:10.040868Z",
-    "search_result_count": 20,
+    "timestamp": "2026-10-14T10:01:07.507616Z",
+    "search_result_count": 11,
     "validation_error_count": 0,
     "validation_failures": []
   }
