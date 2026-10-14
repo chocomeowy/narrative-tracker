@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-10-14 10:01
+# Tax Intelligence Briefing - 2026-10-14 16:01
 
 Global corporate tax policy and international trade frameworks are undergoing profound structural evolution. Implementation of the OECD Pillar Two 15% minimum tax has progressed smoothly from legislative design into full-scale global operational enforcement across over 60 jurisdictions. Concurrently, nations are aggressively accelerating real-time tax digitisation, highlighted by Singapore's phased GST InvoiceNow mandates utilizing Peppol networks. These digital compliance shifts, alongside dynamic international trade tariff adjustments, are forcing multinational enterprises to comprehensively re-architect their compliance frameworks and supply chains.
