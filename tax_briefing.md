@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-10-13 22:01
+# Tax Intelligence Briefing - 2026-10-14 04:01
 
-Global tax policy continues its rapid evolution around the consolidation of the OECD Pillar Two 15% global minimum tax framework and aggressive real-time digital reporting mandates such as e-invoicing. Concurrently, regional adjustments in ASEAN and escalating trade protectionism via international tariffs are driving multinational corporations to redesign compliance and supply chain architectures.
+Global tax policy continues to experience rapid institutional consolidation around the OECD Pillar Two 15% minimum tax framework, supported by ongoing tracking and administrative enforcement across over 60 jurisdictions. Simultaneously, nations are aggressively accelerating real-time tax digitisation, exemplified by Singapore's phased GST InvoiceNow mandates utilizing Peppol networks. Regional adjustments in ASEAN and broader international trade tariff dynamics are further compelling multinational enterprises to deeply re-architect their compliance frameworks and supply chains.
