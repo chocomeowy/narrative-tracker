@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-15T16:01:38.576027Z",
-  "executive_briefing": "Global corporate tax policy and international trade frameworks continue to experience deep structural alignment. The implementation of the OECD Pillar Two 15% global minimum tax has advanced steadily into operational enforcement across over 60 jurisdictions, backed by updated multi-jurisdictional reporting metrics and compliance trackers. Concurrently, tax administrations are prioritizing real-time tax digitisation, electronic invoicing networks, and comprehensive digital reporting requirements to curb base erosion and automate tax transparency for multinational enterprise groups, while regional policy adjustments such as Singapore's GST InvoiceNow mandate continue to expand alongside evolving global tariff updates.",
+  "last_updated": "2026-10-15T22:01:29.559024Z",
+  "executive_briefing": "Global tax and trade policies are currently characterized by deep multilateral alignment around the OECD Pillar Two 15% global minimum tax, alongside surging enforcement of real-time digital invoicing mandates. Concurrently, international trade frameworks continue to face significant friction driven by active tariff updates and trade policy implementations across major economies.",
   "trends": [
     {
       "id": "oecd-pillar-two-and-global-minimum-tax-integration",
@@ -16,7 +16,9 @@
       ],
       "source_links": [
         "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en.html",
-        "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html"
+        "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html",
+        "https://www.pwc.com/gx/en/services/tax/pillar-two-readiness/country-tracker.html",
+        "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html"
       ],
       "source_details": [
         {
@@ -30,12 +32,24 @@
           "domain": "kpmg.com",
           "type": "secondary",
           "published_date": "2026-07-01"
+        },
+        {
+          "url": "https://www.pwc.com/gx/en/services/tax/pillar-two-readiness/country-tracker.html",
+          "domain": "pwc.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
+          "domain": "moodys.com",
+          "type": "secondary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 2,
+        "total_sources": 4,
         "primary_source_count": 1,
-        "secondary_source_count": 1,
+        "secondary_source_count": 3,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
@@ -50,12 +64,11 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [],
-        "dropped_sources": [
-          "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
-          "https://sw-cpas.com/pillar-two-global-minimum-tax-oecd-update-2026",
+        "new_sources": [
+          "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
           "https://www.pwc.com/gx/en/services/tax/pillar-two-readiness/country-tracker.html"
         ],
+        "dropped_sources": [],
         "summary_changed": false
       }
     },
@@ -65,52 +78,51 @@
       "stage": "Breakthrough",
       "velocity": "Fast",
       "category": "Digital Tax",
-      "summary": "Tax authorities worldwide are mandating structured electronic invoicing and digital data transmission, such as Singapore's phased GST InvoiceNow rollout, to bridge the tax gap, automate auditing, and streamline compliance integration.",
+      "summary": "Tax authorities worldwide are mandating structured electronic invoicing and digital data transmission to bridge the tax gap, automate auditing, and streamline compliance integration.",
       "evidence": [
         "Global software and compliance standards are systematically aligning with structured electronic invoicing frameworks.",
-        "Singapore has implemented phased mandates requiring GST-registered businesses to submit invoice data via the Peppol-based InvoiceNow network.",
         "Governments are deploying automated real-time e-invoicing infrastructure to reduce manual errors and match invoices against business contracts."
       ],
       "source_links": [
-        "https://e-invoicing.org/singapore",
-        "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-        "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement",
-        "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html"
+        "https://www.sap.com/resources/what-is-e-invoicing",
+        "https://tax.thomsonreuters.com/blog/what-is-e-invoicing",
+        "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html",
+        "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses"
       ],
       "source_details": [
         {
-          "url": "https://e-invoicing.org/singapore",
-          "domain": "e-invoicing.org",
+          "url": "https://www.sap.com/resources/what-is-e-invoicing",
+          "domain": "sap.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-          "domain": "cleartax.com",
+          "url": "https://tax.thomsonreuters.com/blog/what-is-e-invoicing",
+          "domain": "tax.thomsonreuters.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement",
-          "domain": "iras.gov.sg",
-          "type": "primary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
+          "url": "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html",
           "domain": "avalara.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
+          "domain": "stripe.com",
           "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
         "total_sources": 4,
-        "primary_source_count": 1,
-        "secondary_source_count": 3,
+        "primary_source_count": 0,
+        "secondary_source_count": 4,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
-        "has_primary_sources": true,
-        "source_risk": "low"
+        "has_primary_sources": false,
+        "source_risk": "medium"
       },
       "confidence": 0.97,
       "reasoning": "Remains in Breakthrough stage due to rapid global expansion and concrete national enforcement dates for digital invoice mandates and automated transactional monitoring systems.",
@@ -122,10 +134,18 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
-          "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html"
+          "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
+          "https://tax.thomsonreuters.com/blog/what-is-e-invoicing",
+          "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html",
+          "https://www.sap.com/resources/what-is-e-invoicing"
         ],
-        "dropped_sources": [],
-        "summary_changed": false
+        "dropped_sources": [
+          "https://e-invoicing.org/singapore",
+          "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
+          "https://www.cleartax.com/sg/en/e-invoicing-singapore",
+          "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement"
+        ],
+        "summary_changed": true
       }
     },
     {
@@ -175,13 +195,8 @@
         "previous_stage": "Incubation",
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
-        "new_sources": [
-          "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026"
-        ],
-        "dropped_sources": [
-          "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
-          "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates"
-        ],
+        "new_sources": [],
+        "dropped_sources": [],
         "summary_changed": false
       }
     },
@@ -194,12 +209,13 @@
       "summary": "Global trade frameworks face heightened volatility as nations implement extensive import tariffs and adjust cross-border trade mechanisms.",
       "evidence": [
         "Major trade economies have initiated slates of import tariffs causing widespread economic re-evaluations.",
-        "International trade commissions and WTO databases report increasing compliance tracking on applied tariffs and trade relationships."
+        "International trade commissions and trade databases report increasing compliance tracking on applied tariffs and trade relationships."
       ],
       "source_links": [
         "https://www.reuters.com/business/tariffs",
         "https://usacustomsclearance.com/import-tariffs-updates",
-        "https://www.usitc.gov/harmonized_tariff_information/announcement_archive"
+        "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
+        "https://www.tariffstool.com/guides/tariff-news-2026"
       ],
       "source_details": [
         {
@@ -219,12 +235,18 @@
           "domain": "usitc.gov",
           "type": "primary",
           "published_date": null
+        },
+        {
+          "url": "https://www.tariffstool.com/guides/tariff-news-2026",
+          "domain": "tariffstool.com",
+          "type": "secondary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 3,
+        "total_sources": 4,
         "primary_source_count": 1,
-        "secondary_source_count": 2,
+        "secondary_source_count": 3,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
@@ -240,11 +262,9 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
-          "https://www.usitc.gov/harmonized_tariff_information/announcement_archive"
+          "https://www.tariffstool.com/guides/tariff-news-2026"
         ],
-        "dropped_sources": [
-          "https://ttd.wto.org/en"
-        ],
+        "dropped_sources": [],
         "summary_changed": false
       }
     }
@@ -252,7 +272,7 @@
   "intelligence_metadata": {
     "agent": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-10-15T16:01:38.576027Z",
+    "timestamp": "2026-10-15T22:01:29.559024Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -263,8 +283,8 @@
       "status": "success",
       "model": "gemini-3.5-flash-lite",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-10-15T16:01:38.576027Z",
-      "search_result_count": 21,
+      "timestamp": "2026-10-15T22:01:29.559024Z",
+      "search_result_count": 26,
       "validation_error_count": 0,
       "validation_failures": []
     }
@@ -273,8 +293,8 @@
     "status": "success",
     "model": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-10-15T16:01:38.576027Z",
-    "search_result_count": 21,
+    "timestamp": "2026-10-15T22:01:29.559024Z",
+    "search_result_count": 26,
     "validation_error_count": 0,
     "validation_failures": []
   }
