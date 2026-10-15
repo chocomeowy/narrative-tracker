@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-15T10:01:05.855114Z",
-  "executive_briefing": "As of late 2026, the regulatory landscape faces a major hurdle following the Senate's rejection of the Clarity Act, sparking continued debates over asset classification and digital asset market structure in the United States. Meanwhile, institutional adoption of Bitcoin via corporate treasuries and spot ETFs remains fully consolidated as a standard macroeconomic asset class. Concurrently, technical advancements in cross-chain protocols are bridging native Bitcoin liquidity with EVM-compatible ecosystems, fostering deep interoperability between Bitcoin and Ethereum infrastructure.",
+  "last_updated": "2026-10-15T16:01:14.832934Z",
+  "executive_briefing": "As of late 2026, the regulatory and technical landscapes are deeply intertwined following the Senate's rejection of the Clarity Act. This legislative hurdle has intensified debates over digital asset market structure and asset classification in the United States. Simultaneously, institutional adoption of Bitcoin via corporate treasuries and spot ETFs remains fully consolidated as a standard macroeconomic asset class. Crucially, technical advancements and cross-chain protocols are bridging native Bitcoin liquidity with EVM-compatible ecosystems, fostering deep interoperability and enabling innovative smart contract capabilities that intersect with Ethereum infrastructure.",
   "trends": [
     {
       "id": "institutional-bitcoin-treasury-and-etf-consolidation",
@@ -16,9 +16,9 @@
       "source_links": [
         "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
         "https://www.theblock.co/learn/macro/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111",
-        "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
-        "https://cryptonium.cloud/articles/bitcoins-sovereign-embrace-decoding-2026-institutional-adoption-curve-macro-tailwinds",
-        "https://www.livebitcoinnews.com/bitcoin-etf-institutional"
+        "https://www.ainvest.com/news/bitcoin-etf-inflows-institutional-adoption-catalyst-2026-price-surge-2512",
+        "https://bitcoincompleteguide.com/guide/bitcoin-institutional-adoption",
+        "https://cryptonium.cloud/articles/bitcoins-sovereign-embrace-decoding-2026-institutional-adoption-curve-macro-tailwinds"
       ],
       "source_details": [
         {
@@ -34,20 +34,20 @@
           "published_date": null
         },
         {
-          "url": "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
-          "domain": "spark.money",
+          "url": "https://www.ainvest.com/news/bitcoin-etf-inflows-institutional-adoption-catalyst-2026-price-surge-2512",
+          "domain": "ainvest.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://bitcoincompleteguide.com/guide/bitcoin-institutional-adoption",
+          "domain": "bitcoincompleteguide.com",
           "type": "secondary",
           "published_date": null
         },
         {
           "url": "https://cryptonium.cloud/articles/bitcoins-sovereign-embrace-decoding-2026-institutional-adoption-curve-macro-tailwinds",
           "domain": "cryptonium.cloud",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.livebitcoinnews.com/bitcoin-etf-institutional",
-          "domain": "livebitcoinnews.com",
           "type": "secondary",
           "published_date": null
         }
@@ -70,8 +70,14 @@
         "previous_stage": "Fatigue",
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
-        "new_sources": [],
-        "dropped_sources": [],
+        "new_sources": [
+          "https://bitcoincompleteguide.com/guide/bitcoin-institutional-adoption",
+          "https://www.ainvest.com/news/bitcoin-etf-inflows-institutional-adoption-catalyst-2026-price-surge-2512"
+        ],
+        "dropped_sources": [
+          "https://www.livebitcoinnews.com/bitcoin-etf-institutional",
+          "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis"
+        ],
         "summary_changed": false
       }
     },
@@ -87,7 +93,11 @@
         "Ethereum functions as a decentralized platform for resilient apps, smart contracts, and infrastructure."
       ],
       "source_links": [
-        "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance"
+        "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+        "https://coinmarketcap.com/currencies/ethereum",
+        "https://ethereum.org",
+        "https://ethereum.org/what-is-ether",
+        "https://etherscan.io"
       ],
       "source_details": [
         {
@@ -95,23 +105,44 @@
           "domain": "en.wikipedia.org",
           "type": "wikipedia",
           "published_date": null
+        },
+        {
+          "url": "https://coinmarketcap.com/currencies/ethereum",
+          "domain": "coinmarketcap.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://ethereum.org",
+          "domain": "ethereum.org",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://ethereum.org/what-is-ether",
+          "domain": "ethereum.org",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://etherscan.io",
+          "domain": "etherscan.io",
+          "type": "secondary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 1,
-        "primary_source_count": 0,
-        "secondary_source_count": 0,
+        "total_sources": 5,
+        "primary_source_count": 2,
+        "secondary_source_count": 2,
         "wikipedia_source_count": 1,
         "blog_source_count": 0,
-        "has_primary_sources": false,
-        "source_risk": "high"
+        "has_primary_sources": true,
+        "source_risk": "low"
       },
       "confidence": 0.93,
       "reasoning": "Ethereum maintains its position in Peak Hype as the dominant settlement layer and decentralized application hub.",
-      "validation_flags": [
-        "weak_source_support",
-        "wikipedia_only"
-      ],
+      "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
         "stage_delta": 0,
@@ -119,13 +150,12 @@
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
         "new_sources": [
-          "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance"
-        ],
-        "dropped_sources": [
           "https://coinmarketcap.com/currencies/ethereum",
           "https://ethereum.org",
-          "https://ethereum.org/what-is-ether"
+          "https://ethereum.org/what-is-ether",
+          "https://etherscan.io"
         ],
+        "dropped_sources": [],
         "summary_changed": false
       }
     },
@@ -142,14 +172,26 @@
       ],
       "source_links": [
         "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
-        "https://www.banking.senate.gov/newsroom/majority/the-facts-the-clarity-act",
         "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
-        "https://www.npr.org/2026/09/15/nx-s1-5968711/clarity-act-crypto-senate-vote",
-        "https://finance.yahoo.com/markets/crypto/articles/crypto-clarity-act-tuesday-senate-124041399.html?fr=sycsrp_catchall"
+        "https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text",
+        "https://www.banking.senate.gov/newsroom/majority/the-facts-the-clarity-act",
+        "https://www.npr.org/2026/09/15/nx-s1-5968711/clarity-act-crypto-senate-vote"
       ],
       "source_details": [
         {
           "url": "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
+          "domain": "lummis.senate.gov",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
+          "domain": "cryptotimes.io",
+          "type": "secondary",
+          "published_date": "2026-05-14"
+        },
+        {
+          "url": "https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text",
           "domain": "lummis.senate.gov",
           "type": "primary",
           "published_date": null
@@ -161,28 +203,16 @@
           "published_date": null
         },
         {
-          "url": "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
-          "domain": "cryptotimes.io",
-          "type": "secondary",
-          "published_date": "2026-05-14"
-        },
-        {
           "url": "https://www.npr.org/2026/09/15/nx-s1-5968711/clarity-act-crypto-senate-vote",
           "domain": "npr.org",
           "type": "secondary",
           "published_date": "2026-09-15"
-        },
-        {
-          "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-clarity-act-tuesday-senate-124041399.html?fr=sycsrp_catchall",
-          "domain": "finance.yahoo.com",
-          "type": "secondary",
-          "published_date": null
         }
       ],
       "source_quality": {
         "total_sources": 5,
-        "primary_source_count": 2,
-        "secondary_source_count": 3,
+        "primary_source_count": 3,
+        "secondary_source_count": 2,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
@@ -197,8 +227,12 @@
         "previous_stage": "Incubation",
         "velocity_delta": 0,
         "previous_velocity": "High",
-        "new_sources": [],
-        "dropped_sources": [],
+        "new_sources": [
+          "https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text"
+        ],
+        "dropped_sources": [
+          "https://finance.yahoo.com/markets/crypto/articles/crypto-clarity-act-tuesday-senate-124041399.html?fr=sycsrp_catchall"
+        ],
         "summary_changed": false
       }
     }
@@ -206,7 +240,7 @@
   "intelligence_metadata": {
     "agent": "gemini-3.5-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-10-15T10:01:05.855114Z",
+    "timestamp": "2026-10-15T16:01:14.832934Z",
     "active_narratives": 3,
     "validation": {
       "accepted": 3,
@@ -217,8 +251,8 @@
       "status": "success",
       "model": "gemini-3.5-flash-lite",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-10-15T10:01:05.855114Z",
-      "search_result_count": 11,
+      "timestamp": "2026-10-15T16:01:14.832934Z",
+      "search_result_count": 15,
       "validation_error_count": 0,
       "validation_failures": []
     }
@@ -227,8 +261,8 @@
     "status": "success",
     "model": "gemini-3.5-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-10-15T10:01:05.855114Z",
-    "search_result_count": 11,
+    "timestamp": "2026-10-15T16:01:14.832934Z",
+    "search_result_count": 15,
     "validation_error_count": 0,
     "validation_failures": []
   }
