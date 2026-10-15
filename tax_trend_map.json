@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-15T04:01:15.286571Z",
-  "executive_briefing": "Global corporate tax policy and international trade frameworks continue to experience deep structural alignment. The implementation of the OECD Pillar Two 15% global minimum tax has advanced steadily into operational enforcement across over 60 jurisdictions, backed by updated multi-jurisdictional reporting metrics and compliance trackers. Concurrently, tax administrations are prioritizing real-time tax digitisation, electronic invoicing networks, and comprehensive digital reporting requirements to curb base erosion and automate tax transparency for multinational enterprise groups, while regional policy adjustments such as Singapore's GST InvoiceNow mandate continue to expand.",
+  "last_updated": "2026-10-15T10:01:17.472907Z",
+  "executive_briefing": "Global corporate tax policy and international trade frameworks continue to experience deep structural alignment. The implementation of the OECD Pillar Two 15% global minimum tax has advanced steadily into operational enforcement across over 60 jurisdictions, backed by updated multi-jurisdictional reporting metrics and compliance trackers. Concurrently, tax administrations are prioritizing real-time tax digitisation, electronic invoicing networks, and comprehensive digital reporting requirements to curb base erosion and automate tax transparency for multinational enterprise groups, while regional policy adjustments such as Singapore's GST InvoiceNow mandate continue to expand alongside evolving global tariff updates.",
   "trends": [
     {
       "id": "oecd-pillar-two-and-global-minimum-tax-integration",
@@ -15,7 +15,7 @@
         "Pillar Two country trackers confirm ongoing global adoption and administrative rollout for large multinational enterprises."
       ],
       "source_links": [
-        "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en/full-report.html",
+        "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en.html",
         "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html",
         "https://www.pwc.com/gx/en/services/tax/pillar-two-readiness/country-tracker.html",
         "https://sw-cpas.com/pillar-two-global-minimum-tax-oecd-update-2026",
@@ -23,7 +23,7 @@
       ],
       "source_details": [
         {
-          "url": "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en/full-report.html",
+          "url": "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en.html",
           "domain": "oecd.org",
           "type": "primary",
           "published_date": null
@@ -72,10 +72,10 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
-          "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en/full-report.html"
+          "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en.html"
         ],
         "dropped_sources": [
-          "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en.html"
+          "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en/full-report.html"
         ],
         "summary_changed": false
       }
@@ -135,17 +135,9 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [
-          "https://e-invoicing.org/singapore",
-          "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-          "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement"
-        ],
-        "dropped_sources": [
-          "https://en.wikipedia.org/wiki/E-invoicing",
-          "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html",
-          "https://www.sap.com/resources/what-is-e-invoicing"
-        ],
-        "summary_changed": true
+        "new_sources": [],
+        "dropped_sources": [],
+        "summary_changed": false
       }
     },
     {
@@ -202,13 +194,69 @@
         "previous_stage": "Incubation",
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
+        "new_sources": [],
+        "dropped_sources": [],
+        "summary_changed": false
+      }
+    },
+    {
+      "id": "international-trade-tariffs-and-policy-updates",
+      "name": "International Trade Tariffs and Policy Updates",
+      "stage": "Breakthrough",
+      "velocity": "Fast",
+      "category": "Tariffs",
+      "summary": "Global trade frameworks face heightened volatility as nations implement extensive import tariffs and adjust cross-border trade mechanisms.",
+      "evidence": [
+        "Major trade economies have initiated slates of import tariffs causing widespread economic re-evaluations.",
+        "International trade commissions and WTO databases report increasing compliance tracking on applied tariffs and trade relationships."
+      ],
+      "source_links": [
+        "https://www.reuters.com/business/tariffs",
+        "https://usacustomsclearance.com/import-tariffs-updates",
+        "https://ttd.wto.org/en"
+      ],
+      "source_details": [
+        {
+          "url": "https://www.reuters.com/business/tariffs",
+          "domain": "reuters.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://usacustomsclearance.com/import-tariffs-updates",
+          "domain": "usacustomsclearance.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://ttd.wto.org/en",
+          "domain": "ttd.wto.org",
+          "type": "primary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 3,
+        "primary_source_count": 1,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.95,
+      "reasoning": "Elevated to Breakthrough due to immediate market-moving updates in global import tariffs and active trade policy implementations.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
         "new_sources": [
-          "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
-          "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates"
+          "https://www.reuters.com/business/tariffs",
+          "https://usacustomsclearance.com/import-tariffs-updates",
+          "https://ttd.wto.org/en"
         ],
-        "dropped_sources": [
-          "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026"
-        ],
+        "dropped_sources": [],
         "summary_changed": false
       }
     }
@@ -216,10 +264,10 @@
   "intelligence_metadata": {
     "agent": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-10-15T04:01:15.286571Z",
-    "active_narratives": 3,
+    "timestamp": "2026-10-15T10:01:17.472907Z",
+    "active_narratives": 4,
     "validation": {
-      "accepted": 3,
+      "accepted": 4,
       "rejected": 0,
       "validation_error_count": 0
     },
@@ -227,7 +275,7 @@
       "status": "success",
       "model": "gemini-3.5-flash-lite",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-10-15T04:01:15.286571Z",
+      "timestamp": "2026-10-15T10:01:17.472907Z",
       "search_result_count": 26,
       "validation_error_count": 0,
       "validation_failures": []
@@ -237,7 +285,7 @@
     "status": "success",
     "model": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-10-15T04:01:15.286571Z",
+    "timestamp": "2026-10-15T10:01:17.472907Z",
     "search_result_count": 26,
     "validation_error_count": 0,
     "validation_failures": []
