@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-10-16 16:01
+# Tax Intelligence Briefing - 2026-10-16 22:01
 
-The global tax landscape in 2026 continues to be shaped by the stabilization of statutory corporate income tax rates, halting prior decades' downward trends as OECD Pillar Two minimum tax implementation takes full effect. Concurrently, international trade policy faces severe volatility driven by new executive import tariffs, while revenue authorities aggressively scale real-time digital tax enforcement through e-invoicing networks.
+The global tax policy landscape in 2026 is defined by three main structural shifts: corporate tax rate stabilization driven by OECD Pillar Two minimum tax implementation, escalated trade friction from unilateral executive import tariffs, and the aggressive acceleration of real-time digital tax enforcement through mandatory e-invoicing networks such as Singapore's Peppol-based GST InvoiceNow. As statutory rates plateau globally, tax administrations are prioritizing direct transactional data access and trade duty enforcement to safeguard revenues.
