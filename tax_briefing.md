@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-10-16 10:01
+# Tax Intelligence Briefing - 2026-10-16 16:01
 
-The global tax landscape is dominated by the maturation of the OECD's Pillar Two global minimum tax, now shifting from legislative advocacy into widespread multinational enforcement. Parallel to this, national tax authorities are aggressively digitizing revenue collection through mandatory, PEPPOL-based e-invoicing networks. Concurrently, regional tax policies in ASEAN are being recalibrated to maintain investment competitiveness, while international trade remains heavily influenced by fluctuating tariff regimes and evolving bilateral trade policy frameworks.
+The global tax landscape in 2026 continues to be shaped by the stabilization of statutory corporate income tax rates, halting prior decades' downward trends as OECD Pillar Two minimum tax implementation takes full effect. Concurrently, international trade policy faces severe volatility driven by new executive import tariffs, while revenue authorities aggressively scale real-time digital tax enforcement through e-invoicing networks.
