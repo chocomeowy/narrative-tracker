@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-10-16 04:01
+# Tax Intelligence Briefing - 2026-10-16 10:01
 
-Global tax and trade policies remain deeply centered on the implementation of the OECD Pillar Two 15% global minimum tax, alongside expanding domestic enforcement of digital e-invoicing networks like Singapore's InvoiceNow. Meanwhile, trade policy frameworks continue to experience high volatility due to shifting international import tariffs and multilateral trade negotiations across major economies.
+The global tax landscape is dominated by the maturation of the OECD's Pillar Two global minimum tax, now shifting from legislative advocacy into widespread multinational enforcement. Parallel to this, national tax authorities are aggressively digitizing revenue collection through mandatory, PEPPOL-based e-invoicing networks. Concurrently, regional tax policies in ASEAN are being recalibrated to maintain investment competitiveness, while international trade remains heavily influenced by fluctuating tariff regimes and evolving bilateral trade policy frameworks.
