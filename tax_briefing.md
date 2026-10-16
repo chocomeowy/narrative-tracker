@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-10-15 22:01
+# Tax Intelligence Briefing - 2026-10-16 04:01
 
-Global tax and trade policies are currently characterized by deep multilateral alignment around the OECD Pillar Two 15% global minimum tax, alongside surging enforcement of real-time digital invoicing mandates. Concurrently, international trade frameworks continue to face significant friction driven by active tariff updates and trade policy implementations across major economies.
+Global tax and trade policies remain deeply centered on the implementation of the OECD Pillar Two 15% global minimum tax, alongside expanding domestic enforcement of digital e-invoicing networks like Singapore's InvoiceNow. Meanwhile, trade policy frameworks continue to experience high volatility due to shifting international import tariffs and multilateral trade negotiations across major economies.
