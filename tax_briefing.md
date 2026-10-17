@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-10-17 16:01
+# Tax Intelligence Briefing - 2026-10-17 22:01
 
-The global tax policy landscape in 2026 is defined by three converging structural shifts: the worldwide statutory implementation of OECD Pillar Two global minimum tax rules across over 60 jurisdictions, escalating international trade tariff volatility driving supply chain realignments, and expanding mandatory real-time digital tax enforcement regimes such as Singapore's GST InvoiceNow mandate.
+The global tax policy landscape in 2026 continues to be shaped by the comprehensive rollout of the OECD Pillar Two global minimum tax rules, escalating international trade tariff volatility requiring supply chain realignments, and the rapid global expansion of mandatory real-time digital tax enforcement regimes such as Singapore's InvoiceNow mandate.
