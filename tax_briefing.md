@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-10-18 10:01
+# Tax Intelligence Briefing - 2026-10-18 16:01
 
-The global corporate tax policy landscape in late 2026 is defined by operational integration of OECD Pillar Two 15% global minimum tax rules across over 60 jurisdictions, dynamic executive tariff actions triggering cross-border supply chain restructuring, and expanded statutory mandates for real-time digital tax enforcement and structured e-invoicing.
+The global corporate tax policy landscape in late 2026 continues to experience profound structural shifts driven by operational enforcement of the OECD Pillar Two 15% global minimum tax across over 60 jurisdictions, sustained executive tariff volatility affecting international trade supply chains, and the rapid expansion of mandatory structured e-invoicing networks such as Singapore's InvoiceNow framework.
