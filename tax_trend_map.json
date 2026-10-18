@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-18T16:01:19.589125Z",
-  "executive_briefing": "The global corporate tax policy landscape in late 2026 continues to experience profound structural shifts driven by operational enforcement of the OECD Pillar Two 15% global minimum tax across over 60 jurisdictions, sustained executive tariff volatility affecting international trade supply chains, and the rapid expansion of mandatory structured e-invoicing networks such as Singapore's InvoiceNow framework.",
+  "last_updated": "2026-10-18T22:01:13.149523Z",
+  "executive_briefing": "The global corporate tax policy landscape in late 2026 is defined by three structural shifts: the worldwide operationalization of OECD Pillar Two rules across more than 60 jurisdictions, sustained international trade volatility driven by executive tariff adjustments, and accelerated adoption of mandatory structured e-invoicing frameworks such as Singapore's InvoiceNow network.",
   "trends": [
     {
       "id": "oecd-pillar-two-and-global-minimum-tax-integration",
@@ -8,10 +8,10 @@
       "stage": "Breakthrough",
       "velocity": "Fast",
       "category": "Corporate Tax",
-      "summary": "Multinational corporate taxation is increasingly governed by global enforcement of the 15% GloBE effective tax rate threshold across participating jurisdictions, supported by updated OECD statistical tracking and administrative toolkits.",
+      "summary": "Multinational corporate taxation is increasingly governed by active enforcement of the 15% GloBE ETR threshold across participating jurisdictions, supported by updated OECD 2026 statistics and administrative toolkits.",
       "evidence": [
         "Over 60 countries have enacted or are actively implementing GloBE rules targeting MNEs with revenues exceeding 750 million euros.",
-        "The OECD Corporate Tax Statistics 2026 report and implementation toolkits provide systematic tracking of effective tax rates and base erosion practices."
+        "The OECD Corporate Tax Statistics 2026 report and implementation toolkits provide systematic tracking of effective tax rates and BEPS practices."
       ],
       "source_links": [
         "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html",
@@ -69,7 +69,7 @@
         "source_risk": "low"
       },
       "confidence": 0.99,
-      "reasoning": "Sustained at Breakthrough stage due to ongoing statutory execution across 60+ countries and OECD monitoring frameworks.",
+      "reasoning": "Sustained at Breakthrough stage due to active statutory execution across 60+ countries and OECD monitoring frameworks in 2026.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -77,9 +77,7 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [
-          "https://www.oecd.org/en/topics/sub-issues/global-minimum-tax/global-anti-base-erosion-model-rules-pillar-two.html"
-        ],
+        "new_sources": [],
         "dropped_sources": [],
         "summary_changed": true
       }
@@ -98,9 +96,9 @@
       "source_links": [
         "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
         "https://usacustomsclearance.com/import-tariffs-updates",
-        "https://www.reuters.com/business/tariffs",
-        "https://www.tariffstool.com/guides/tariff-news-2026",
-        "https://ttd.wto.org/en"
+        "https://ttd.wto.org/en",
+        "https://tariffcheck.org/updates",
+        "https://www.bloomberg.com/latest/trump-tariffs"
       ],
       "source_details": [
         {
@@ -116,21 +114,21 @@
           "published_date": null
         },
         {
-          "url": "https://www.reuters.com/business/tariffs",
-          "domain": "reuters.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.tariffstool.com/guides/tariff-news-2026",
-          "domain": "tariffstool.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
           "url": "https://ttd.wto.org/en",
           "domain": "ttd.wto.org",
           "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://tariffcheck.org/updates",
+          "domain": "tariffcheck.org",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.bloomberg.com/latest/trump-tariffs",
+          "domain": "bloomberg.com",
+          "type": "secondary",
           "published_date": null
         }
       ],
@@ -153,14 +151,14 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
-          "https://www.reuters.com/business/tariffs",
-          "https://www.tariffstool.com/guides/tariff-news-2026"
-        ],
-        "dropped_sources": [
           "https://tariffcheck.org/updates",
           "https://www.bloomberg.com/latest/trump-tariffs"
         ],
-        "summary_changed": true
+        "dropped_sources": [
+          "https://www.reuters.com/business/tariffs",
+          "https://www.tariffstool.com/guides/tariff-news-2026"
+        ],
+        "summary_changed": false
       }
     },
     {
@@ -223,7 +221,7 @@
         "source_risk": "low"
       },
       "confidence": 0.98,
-      "reasoning": "Maintained at Breakthrough as regional e-invoicing mandates transition into enforceable statutory requirements.",
+      "reasoning": "Maintained at Breakthrough stage as regional e-invoicing mandates transition into enforceable statutory requirements.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -231,28 +229,16 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [
-          "https://dddinvoices.com/learn/e-invoicing-in-singapore",
-          "https://e-invoicing.org/singapore",
-          "https://rtcsuite.com/e-invoicing-singapore",
-          "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-          "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework"
-        ],
-        "dropped_sources": [
-          "https://en.wikipedia.org/wiki/E-invoicing",
-          "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
-          "https://tax.thomsonreuters.com/blog/what-is-e-invoicing",
-          "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html",
-          "https://www.sap.com/resources/what-is-e-invoicing"
-        ],
-        "summary_changed": true
+        "new_sources": [],
+        "dropped_sources": [],
+        "summary_changed": false
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.5-flash",
+    "agent": "gemini-3.6-flash",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-10-18T16:01:19.589125Z",
+    "timestamp": "2026-10-18T22:01:13.149523Z",
     "active_narratives": 3,
     "validation": {
       "accepted": 3,
@@ -261,20 +247,20 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.5-flash",
+      "model": "gemini-3.6-flash",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-10-18T16:01:19.589125Z",
-      "search_result_count": 26,
+      "timestamp": "2026-10-18T22:01:13.149523Z",
+      "search_result_count": 31,
       "validation_error_count": 0,
       "validation_failures": []
     }
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.5-flash",
+    "model": "gemini-3.6-flash",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-10-18T16:01:19.589125Z",
-    "search_result_count": 26,
+    "timestamp": "2026-10-18T22:01:13.149523Z",
+    "search_result_count": 31,
     "validation_error_count": 0,
     "validation_failures": []
   }
