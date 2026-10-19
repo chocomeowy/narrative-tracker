@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19T10:01:10.136645Z",
+  "last_updated": "2026-10-19T16:01:09.628492Z",
   "archived_trends": [
     {
       "name": "Cross-Chain Liquidity Solutions",
@@ -29118,6 +29118,78 @@
         "summary_changed": false
       },
       "archived_at": "2026-10-18T16:01:11.605961Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "non-custodial-cross-chain-btc-eth-liquidity-routing",
+      "name": "Non-Custodial Cross-Chain BTC/ETH Liquidity Routing",
+      "stage": "Incubation",
+      "velocity": "High",
+      "category": "Interoperability",
+      "summary": "Trust-minimized bridging and cross-chain routing mechanisms enable native Bitcoin collateral to supply liquidity directly into EVM DeFi protocols without custodial wrappers.",
+      "evidence": [
+        "Cross-chain DEX routers and trust-minimized bridges allow direct native BTC interaction with EVM protocols.",
+        "Elimination of centralized custodial wrapped tokens reduces systemic single-point-of-failure risks."
+      ],
+      "source_links": [
+        "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
+        "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
+        "https://dailycoin.com/best-cross-chain-bridges-in-crypto",
+        "https://ethereum.org/bridges"
+      ],
+      "source_details": [
+        {
+          "url": "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
+          "domain": "bitunix.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
+          "domain": "trustwallet.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://dailycoin.com/best-cross-chain-bridges-in-crypto",
+          "domain": "dailycoin.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://ethereum.org/bridges",
+          "domain": "ethereum.org",
+          "type": "primary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 4,
+        "primary_source_count": 1,
+        "secondary_source_count": 3,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.92,
+      "reasoning": "Technological advancement in trust-minimized cross-chain architectures maintains rapid growth during early deployment.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Incubation",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [
+          "https://ethereum.org/bridges"
+        ],
+        "dropped_sources": [
+          "https://web3.okx.com/dex-swap/bridge"
+        ],
+        "summary_changed": false
+      },
+      "archived_at": "2026-10-19T16:01:09.628492Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
