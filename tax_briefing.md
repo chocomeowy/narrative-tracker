@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-10-19 22:01
+# Tax Intelligence Briefing - 2026-10-20 04:01
 
-In late 2026, the global corporate tax and trade environment continues to be fundamentally shaped by the active rollout of the OECD Pillar Two 15% global minimum tax across multiple jurisdictions, ongoing shifts and unilateral volatility in international tariffs, and the acceleration of real-time digital tax enforcement and e-invoicing mandates globally, particularly across regions like Singapore and ASEAN.
+In late 2026, the international tax and trade landscapes are deeply defined by the robust institutionalization of the OECD Pillar Two 15% global minimum tax, continuous bilateral and unilateral tariff shifts and executive duty volatility, and the widespread scaling of real-time digital tax enforcement and e-invoicing mandates across major trading hubs like Singapore and the broader ASEAN region.
