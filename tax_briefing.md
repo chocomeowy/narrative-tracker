@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-10-21 04:01
+# Tax Intelligence Briefing - 2026-10-21 10:01
 
-The late 2026 corporate tax landscape is characterized by the operational maturity of global minimum tax regimes under OECD Pillar Two and an intensification of real-time transactional indirect tax enforcement. With over 60 jurisdictions actively enforcing GloBE rules, multinational enterprises face tightening effective tax rate floors. Simultaneously, volatile trade policy driven by executive tariff mandates and unilateral duty updates is elevating cross-border supply chain risks, while tax administrations accelerate e-invoicing mandates to secure real-time visibility into B2B transactions.
+The late 2026 corporate tax and trade environment continues to be heavily shaped by the global operationalization of OECD Pillar Two rules, expanding across more than 60 jurisdictions, and the rapid pace of real-time digital tax enforcement like Singapore's GST InvoiceNow mandate. Meanwhile, trade policy volatility driven by unilateral tariff measures and shifting national duty structures introduces persistent cross-border compliance challenges.
