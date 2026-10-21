@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-20T22:02:17.614964Z",
-  "executive_briefing": "The late 2026 corporate tax landscape is characterized by the maturation of global minimum tax regimes and a shift toward aggressive, real-time digital enforcement. The OECD's 2026 data release confirms that over 60 jurisdictions have now operationalized Pillar Two, targeting the persistent gap between statutory headlines and effective tax rates. Simultaneously, international trade is navigating heightened volatility driven by unilateral executive tariff mandates, particularly in the U.S., which are reshaping cross-border supply chain costs. In the ASEAN region, Singapore is setting a benchmark through its phased 'InvoiceNow' rollout for mandatory real-time GST reporting, signaling a broader movement toward the end of traditional periodic tax filing.",
+  "last_updated": "2026-10-21T04:01:16.487497Z",
+  "executive_briefing": "The late 2026 corporate tax landscape is characterized by the operational maturity of global minimum tax regimes under OECD Pillar Two and an intensification of real-time transactional indirect tax enforcement. With over 60 jurisdictions actively enforcing GloBE rules, multinational enterprises face tightening effective tax rate floors. Simultaneously, volatile trade policy driven by executive tariff mandates and unilateral duty updates is elevating cross-border supply chain risks, while tax administrations accelerate e-invoicing mandates to secure real-time visibility into B2B transactions.",
   "trends": [
     {
       "id": "oecd-pillar-two-and-global-minimum-tax-operationalization",
@@ -11,15 +11,14 @@
       "summary": "The 15% global minimum tax framework under OECD Pillar Two has fully transitioned into operational law across more than 60 jurisdictions, narrowing the divergence between statutory corporate rates and effective taxation for MNEs.",
       "evidence": [
         "OECD 2026 Corporate Tax Statistics publication highlights ongoing monitoring of MNE activity and BEPS practices across member states.",
-        "US corporate tax receipts fell 16% in FY2026 to $382B, with effective rates averaging 15.33% against headline rates of 25.57%.",
-        "Over 60 countries have actively enacted GloBE rules including IIR and UTPR frameworks by late 2026."
+        "Over 60 countries have actively enacted GloBE rules including IIR and UTPR frameworks by late 2026.",
+        "PwC Country Tracker confirms widespread statutory alignment with OECD GloBE rules across global jurisdictions."
       ],
       "source_links": [
         "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en.html",
         "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html",
         "https://sw-cpas.com/pillar-two-global-minimum-tax-oecd-update-2026",
-        "https://www.pwc.com/gx/en/services/tax/pillar-two-readiness/country-tracker.html",
-        "https://axis-intelligence.com/corporate-tax-statistics"
+        "https://www.pwc.com/gx/en/services/tax/pillar-two-readiness/country-tracker.html"
       ],
       "source_details": [
         {
@@ -45,25 +44,19 @@
           "domain": "pwc.com",
           "type": "secondary",
           "published_date": null
-        },
-        {
-          "url": "https://axis-intelligence.com/corporate-tax-statistics",
-          "domain": "axis-intelligence.com",
-          "type": "secondary",
-          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 5,
+        "total_sources": 4,
         "primary_source_count": 1,
-        "secondary_source_count": 4,
+        "secondary_source_count": 3,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
         "source_risk": "low"
       },
       "confidence": 0.98,
-      "reasoning": "The release of the OECD 2026 flagship report and statutory enactment by over 60 countries confirm Pillar Two's concrete transition from policy proposal to enforceable international tax standard.",
+      "reasoning": "Continued global enactment and official publication releases by OECD and major advisory firms confirm Pillar Two remains in Breakthrough as operational enforcement matures.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -73,9 +66,9 @@
         "previous_velocity": "Fast",
         "new_sources": [],
         "dropped_sources": [
-          "https://taxrate.org/corporate-tax-rates"
+          "https://axis-intelligence.com/corporate-tax-statistics"
         ],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
@@ -86,8 +79,8 @@
       "category": "Tariffs",
       "summary": "Executive-led trade interventions and immediate policy revisions to duty structures are driving significant operational uncertainty and strategic reshuffling across international supply chains.",
       "evidence": [
-        "Reuters reports legal challenges and trade disruptions resulting from executive orders imposing duties on major trading partners.",
-        "USITC administrative updates throughout October 2026 reflect rapid alterations to Harmonized Tariff Schedule positions.",
+        "Importers filing legal challenges to block executive-ordered duties on key trade partners.",
+        "USITC administrative updates reflect rapid ongoing alterations to Harmonized Tariff Schedule positions.",
         "Updated 2026 importer guidelines highlight strict tracking of country-specific duty hikes and trade remedy exemptions."
       ],
       "source_links": [
@@ -132,7 +125,7 @@
         "source_risk": "low"
       },
       "confidence": 0.97,
-      "reasoning": "Sustained reliance on administrative tariff enforcement over bilateral trade pacts keeps this trend at Breakthrough status due to immediate impacts on global trade compliance.",
+      "reasoning": "Active litigation and continuous administrative HTS changes keep this trend at Breakthrough status due to direct impacts on international trade policy.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -142,7 +135,7 @@
         "previous_velocity": "Fast",
         "new_sources": [],
         "dropped_sources": [],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
@@ -151,17 +144,16 @@
       "stage": "Breakthrough",
       "velocity": "Fast",
       "category": "Digital Tax",
-      "summary": "Tax authorities, spearheaded by Singapore's IRAS and IMDA, are phasing in mandatory e-invoicing transmission via structured networks like Peppol, fundamentally altering indirect tax compliance timelines.",
+      "summary": "Tax authorities, spearheaded by Singapore's IRAS and IMDA alongside global indirect tax initiatives, are phasing in mandatory e-invoicing transmission via structured networks, fundamentally altering indirect tax compliance timelines.",
       "evidence": [
-        "Singapore's 'GST InvoiceNow' mandate requires structured e-invoice data transmission for voluntary GST registrants starting late 2025/2026 and scaling to full coverage by 2031.",
-        "The adoption of the interoperable Peppol framework provides tax authorities direct visiblity into transactional B2B data, reducing periodic filing errors.",
-        "Regional ASEAN tax updates show a widespread migration towards automated, real-time transaction reporting models."
+        "Singapore's GST InvoiceNow mandate requires structured e-invoice data transmission scaling to full coverage.",
+        "Broad adoption of interoperable framework gives tax authorities real-time visibility into B2B transactional data.",
+        "Tax administrations globally are accelerating e-invoicing requirements to automate reporting and curb indirect tax gaps."
       ],
       "source_links": [
         "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
         "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-        "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
-        "https://e-invoicing.org/singapore"
+        "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html"
       ],
       "source_details": [
         {
@@ -181,45 +173,38 @@
           "domain": "avalara.com",
           "type": "secondary",
           "published_date": null
-        },
-        {
-          "url": "https://e-invoicing.org/singapore",
-          "domain": "e-invoicing.org",
-          "type": "secondary",
-          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 4,
+        "total_sources": 3,
         "primary_source_count": 1,
-        "secondary_source_count": 3,
+        "secondary_source_count": 2,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
         "source_risk": "low"
       },
       "confidence": 0.96,
-      "reasoning": "Clear statutory rollout deadlines (2025\u20132031) and direct API/network integration with IRAS confirm a operational breakthrough in digital tax enforcement.",
+      "reasoning": "Definite statutory rollout schedules and expanding adoption across key financial hubs maintain Breakthrough status for real-time digital tax compliance.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
-        "new_sources": [
-          "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
-          "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-          "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "Fast",
+        "new_sources": [],
+        "dropped_sources": [
           "https://e-invoicing.org/singapore"
         ],
-        "dropped_sources": [],
-        "summary_changed": false
+        "summary_changed": true
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.5-flash",
+    "agent": "gemini-3.6-flash",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-10-20T22:02:17.614964Z",
+    "timestamp": "2026-10-21T04:01:16.487497Z",
     "active_narratives": 3,
     "validation": {
       "accepted": 3,
@@ -228,20 +213,20 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.5-flash",
+      "model": "gemini-3.6-flash",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-10-20T22:02:17.614964Z",
-      "search_result_count": 40,
+      "timestamp": "2026-10-21T04:01:16.487497Z",
+      "search_result_count": 18,
       "validation_error_count": 0,
       "validation_failures": []
     }
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.5-flash",
+    "model": "gemini-3.6-flash",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-10-20T22:02:17.614964Z",
-    "search_result_count": 40,
+    "timestamp": "2026-10-21T04:01:16.487497Z",
+    "search_result_count": 18,
     "validation_error_count": 0,
     "validation_failures": []
   }
