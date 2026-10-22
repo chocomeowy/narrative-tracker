@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-22T16:01:57.953735Z",
-  "executive_briefing": "The digital asset landscape in late 2026 is characterized by a dual focus on the maturation of Bitcoin as institutional infrastructure and the growing influence of deterministic smart contract models, particularly on Bitcoin. Spot Bitcoin ETFs have solidified their role, managing over $100B in assets and establishing Bitcoin as a core portfolio component. Concurrently, regulatory headwinds in the U.S., exemplified by continued legislative friction around the CLARITY Act, are driving developers towards more predictable, non-Turing complete smart contract solutions like Clarity. This shift is occurring alongside advancements in native cross-chain interoperability, enabling direct liquidity flow from Bitcoin to EVM ecosystems without relying on centralized wrapped assets. Ethereum continues to be the dominant settlement and execution layer for DeFi, maintaining its 'Peak Hype' status.",
+  "last_updated": "2026-10-22T22:01:32.832001Z",
+  "executive_briefing": "The digital asset market in late 2026 is defined by institutional consolidation around Bitcoin ETFs and pivotal regulatory shifts following the Senate rejection of the CLARITY Act. While spot Bitcoin ETFs have surpassed $100B in AUM, establishing BTC as a foundational macro treasury asset, legislative friction in Washington has accelerated the transition toward deterministic smart contract architectures like Clarity on Bitcoin L2s. Concurrently, Ethereum retains its position as the primary EVM execution layer, driving increased reliance on non-custodial cross-chain bridging mechanisms to flow native Bitcoin liquidity directly into EVM DeFi ecosystems.",
   "trends": [
     {
       "id": "institutional-bitcoin-treasury-and-etf-consolidation",
@@ -10,14 +10,14 @@
       "category": "Institutional Finance",
       "summary": "Spot Bitcoin ETFs and corporate treasury allocations have stabilized into mature macroeconomic portfolio holdings exceeding $100B in AUM, serving as baseline institutional infrastructure.",
       "evidence": [
-        "Spot Bitcoin ETFs continue to operate as mature baseline multi-asset entry points with cumulative AUM exceeding $100B.",
-        "Major financial institutions, corporate balance sheets, and asset managers utilize ETFs as primary gateways for BTC exposure."
+        "Spot Bitcoin ETFs operate as mature multi-asset gateways with cumulative AUM exceeding $100B.",
+        "Institutional investors increasingly treat Bitcoin as a core macro asset and portfolio diversifier."
       ],
       "source_links": [
         "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
-        "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
-        "https://www.ainvest.com/news/bitcoin-etf-inflows-institutional-adoption-catalyst-2026-price-surge-2512",
         "https://www.theblock.co/learn/macro/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111",
+        "https://www.ainvest.com/news/bitcoin-etf-inflows-institutional-adoption-2026-bull-case-digital-asset-era-2601",
+        "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
         "https://bitcoincompleteguide.com/guide/bitcoin-institutional-adoption"
       ],
       "source_details": [
@@ -28,20 +28,20 @@
           "published_date": null
         },
         {
-          "url": "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
-          "domain": "spark.money",
+          "url": "https://www.theblock.co/learn/macro/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111",
+          "domain": "theblock.co",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.ainvest.com/news/bitcoin-etf-inflows-institutional-adoption-catalyst-2026-price-surge-2512",
+          "url": "https://www.ainvest.com/news/bitcoin-etf-inflows-institutional-adoption-2026-bull-case-digital-asset-era-2601",
           "domain": "ainvest.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.theblock.co/learn/macro/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111",
-          "domain": "theblock.co",
+          "url": "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
+          "domain": "spark.money",
           "type": "secondary",
           "published_date": null
         },
@@ -62,7 +62,7 @@
         "source_risk": "medium"
       },
       "confidence": 0.96,
-      "reasoning": "The trend remains in the Fatigue stage with Moderate velocity as new intel confirms the continued, stable integration of Bitcoin ETFs and corporate treasuries into mainstream financial portfolios. The narrative has shifted from explosive growth to sustained adoption.",
+      "reasoning": "The trend remains stabilized in the Fatigue stage as institutional ETF flows and treasury holdings mature into permanent macro allocation tools rather than speculative catalysts.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -70,9 +70,90 @@
         "previous_stage": "Fatigue",
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
-        "new_sources": [],
-        "dropped_sources": [],
+        "new_sources": [
+          "https://www.ainvest.com/news/bitcoin-etf-inflows-institutional-adoption-2026-bull-case-digital-asset-era-2601"
+        ],
+        "dropped_sources": [
+          "https://www.ainvest.com/news/bitcoin-etf-inflows-institutional-adoption-catalyst-2026-price-surge-2512"
+        ],
         "summary_changed": false
+      }
+    },
+    {
+      "id": "clarity-act-legislative-stalls-and-bitcoin-smart-contract-expansion",
+      "name": "CLARITY Act Legislative Stalls and Bitcoin Smart Contract Expansion",
+      "stage": "Breakthrough",
+      "velocity": "High",
+      "category": "Regulation & Infrastructure",
+      "summary": "Senate rejection and procedural delays on the CLARITY Act prolong US regulatory uncertainty, accelerating developer adoption of deterministic Clarity smart contracts on Bitcoin L2s.",
+      "evidence": [
+        "The CLARITY Act suffered a Senate cloture rejection (49-50 vote), prolonging market structure ambiguity.",
+        "Developers are rapidly migrating to predictable execution languages like Clarity to mitigate smart contract risks."
+      ],
+      "source_links": [
+        "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
+        "https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text",
+        "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
+        "https://blockspot.io/clarity-act-explained",
+        "https://www.npr.org/2026/09/15/nx-s1-5968711/clarity-act-crypto-senate-vote"
+      ],
+      "source_details": [
+        {
+          "url": "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
+          "domain": "cryptotimes.io",
+          "type": "secondary",
+          "published_date": "2026-05-14"
+        },
+        {
+          "url": "https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text",
+          "domain": "lummis.senate.gov",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
+          "domain": "lummis.senate.gov",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://blockspot.io/clarity-act-explained",
+          "domain": "blockspot.io",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.npr.org/2026/09/15/nx-s1-5968711/clarity-act-crypto-senate-vote",
+          "domain": "npr.org",
+          "type": "secondary",
+          "published_date": "2026-09-15"
+        }
+      ],
+      "source_quality": {
+        "total_sources": 5,
+        "primary_source_count": 2,
+        "secondary_source_count": 3,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.96,
+      "reasoning": "Recent Senate failure of the CLARITY Act reinforces regulatory friction in the US, maintaining High velocity in Breakthrough stage as developers seek non-Turing complete security models on Bitcoin.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [
+          "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text"
+        ],
+        "dropped_sources": [
+          "https://www.cnbc.com/2026/09/15/senate-cloture-vote-on-clarity-act-fails-dealing-regulatory-setback-to-crypto-industry.html"
+        ],
+        "summary_changed": true
       }
     },
     {
@@ -81,25 +162,17 @@
       "stage": "Peak Hype",
       "velocity": "Moderate",
       "category": "Layer 1",
-      "summary": "Ethereum maintains its position as the foundational liquidity hub and settlement layer for decentralized finance, with EVM compatibility serving as the primary multi-chain smart contract execution standard.",
+      "summary": "Ethereum maintains its dominant position as the primary settlement hub and execution standard for decentralized finance across L2 networks.",
       "evidence": [
-        "Ethereum PoS consensus secures decentralized applications, lending markets, and cross-chain execution states.",
-        "EVM compatibility remains the core benchmark for developer tooling and execution liquidity across L2 and multi-chain architectures."
+        "EVM remains the primary execution benchmark across L2 rollups and decentralized lending protocols.",
+        "Ethereum PoS continues to secure the majority of decentralized financial settlement activity."
       ],
       "source_links": [
-        "https://coinmarketcap.com/currencies/ethereum",
         "https://ethereum.org",
         "https://etherscan.io",
-        "https://ethereum.org/what-is-ether",
-        "https://www.tradingview.com/symbols/ETHUSD"
+        "https://coinmarketcap.com/currencies/ethereum"
       ],
       "source_details": [
-        {
-          "url": "https://coinmarketcap.com/currencies/ethereum",
-          "domain": "coinmarketcap.com",
-          "type": "secondary",
-          "published_date": null
-        },
         {
           "url": "https://ethereum.org",
           "domain": "ethereum.org",
@@ -113,29 +186,23 @@
           "published_date": null
         },
         {
-          "url": "https://ethereum.org/what-is-ether",
-          "domain": "ethereum.org",
-          "type": "primary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.tradingview.com/symbols/ETHUSD",
-          "domain": "tradingview.com",
+          "url": "https://coinmarketcap.com/currencies/ethereum",
+          "domain": "coinmarketcap.com",
           "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 5,
-        "primary_source_count": 2,
-        "secondary_source_count": 3,
+        "total_sources": 3,
+        "primary_source_count": 1,
+        "secondary_source_count": 2,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
         "source_risk": "low"
       },
       "confidence": 0.95,
-      "reasoning": "Ethereum's position as the dominant smart contract platform and DeFi settlement layer is reinforced by new intel, keeping it in the 'Peak Hype' stage with 'Moderate' velocity. Its foundational role is widely acknowledged and continues to attract development and liquidity.",
+      "reasoning": "Ethereum remains at Peak Hype with steady execution dominance as EVM infrastructure continues to be the default environment for multi-chain liquidity.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -143,96 +210,12 @@
         "previous_stage": "Peak Hype",
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
-        "new_sources": [
-          "https://coinmarketcap.com/currencies/ethereum",
-          "https://ethereum.org",
+        "new_sources": [],
+        "dropped_sources": [
           "https://ethereum.org/what-is-ether",
-          "https://etherscan.io",
           "https://www.tradingview.com/symbols/ETHUSD"
         ],
-        "dropped_sources": [
-          "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance"
-        ],
-        "summary_changed": false
-      }
-    },
-    {
-      "id": "clarity-act-legislative-stalls-and-bitcoin-smart-contract-expansion",
-      "name": "CLARITY Act Legislative Stalls and Bitcoin Smart Contract Expansion",
-      "stage": "Breakthrough",
-      "velocity": "High",
-      "category": "Regulation & Infrastructure",
-      "summary": "Senate delays and failed cloture votes on the Digital Asset Market CLARITY Act sustain U.S. regulatory ambiguity, accelerating developer adoption of deterministic Clarity smart contracts anchored to Bitcoin settlement.",
-      "evidence": [
-        "Persistent legislative friction and failed cloture votes in the U.S. Senate prolong market structure ambiguity.",
-        "Developers increasingly leverage Clarity smart contracts on Bitcoin layer-2s to achieve predictable execution security and avoid EVM vulnerabilities."
-      ],
-      "source_links": [
-        "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
-        "https://blockspot.io/clarity-act-explained",
-        "https://www.npr.org/2026/09/15/nx-s1-5968711/clarity-act-crypto-senate-vote",
-        "https://www.cnbc.com/2026/09/15/senate-cloture-vote-on-clarity-act-fails-dealing-regulatory-setback-to-crypto-industry.html",
-        "https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text"
-      ],
-      "source_details": [
-        {
-          "url": "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
-          "domain": "cryptotimes.io",
-          "type": "secondary",
-          "published_date": "2026-05-14"
-        },
-        {
-          "url": "https://blockspot.io/clarity-act-explained",
-          "domain": "blockspot.io",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.npr.org/2026/09/15/nx-s1-5968711/clarity-act-crypto-senate-vote",
-          "domain": "npr.org",
-          "type": "secondary",
-          "published_date": "2026-09-15"
-        },
-        {
-          "url": "https://www.cnbc.com/2026/09/15/senate-cloture-vote-on-clarity-act-fails-dealing-regulatory-setback-to-crypto-industry.html",
-          "domain": "cnbc.com",
-          "type": "secondary",
-          "published_date": "2026-09-15"
-        },
-        {
-          "url": "https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text",
-          "domain": "lummis.senate.gov",
-          "type": "primary",
-          "published_date": null
-        }
-      ],
-      "source_quality": {
-        "total_sources": 5,
-        "primary_source_count": 1,
-        "secondary_source_count": 4,
-        "wikipedia_source_count": 0,
-        "blog_source_count": 0,
-        "has_primary_sources": true,
-        "source_risk": "low"
-      },
-      "confidence": 0.96,
-      "reasoning": "The CLARITY Act's continued legislative challenges in the Senate, as confirmed by new intel, are directly fueling the 'Breakthrough' stage for Bitcoin-based smart contract solutions like Clarity. The 'High' velocity reflects the urgent developer migration towards predictable execution environments in response to regulatory uncertainty.",
-      "validation_flags": [],
-      "changed_since_previous_run": {
-        "is_new": false,
-        "stage_delta": 0,
-        "previous_stage": "Breakthrough",
-        "velocity_delta": 0,
-        "previous_velocity": "High",
-        "new_sources": [
-          "https://www.cnbc.com/2026/09/15/senate-cloture-vote-on-clarity-act-fails-dealing-regulatory-setback-to-crypto-industry.html",
-          "https://www.npr.org/2026/09/15/nx-s1-5968711/clarity-act-crypto-senate-vote"
-        ],
-        "dropped_sources": [
-          "https://www.banking.senate.gov/newsroom/majority/the-facts-the-clarity-act",
-          "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-text"
-        ],
-        "summary_changed": false
+        "summary_changed": true
       }
     },
     {
@@ -241,25 +224,17 @@
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Interoperability",
-      "summary": "Advanced cross-chain swap platforms and decentralized bridging protocols are rapidly expanding, allowing native Bitcoin capital to flow directly into EVM-based DeFi execution environments without centralized wrapping risks.",
+      "summary": "Advanced non-custodial liquidity protocols enable direct capital flows from native Bitcoin into EVM-based smart contract environments without centralized wrapping mechanisms.",
       "evidence": [
-        "Cross-chain swap protocols and decentralized liquidity pools facilitate native BTC transfers into EVM yield platforms.",
-        "Audited cross-chain messaging solutions minimize custody risks associated with traditional wrapped assets."
+        "Decentralized cross-chain messaging allows native BTC deposits into EVM yield protocols.",
+        "Audit-focused bridging protocols reduce wrapping custody risks for cross-ecosystem liquidity."
       ],
       "source_links": [
-        "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
         "https://ethereum.org/bridges",
         "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
-        "https://chainhub.exchange/learn/cross-chain-swaps-explained",
-        "https://www.techedubyte.com/cross-chain-liquidity-btc-eth-sol-liquidchain"
+        "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi"
       ],
       "source_details": [
-        {
-          "url": "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
-          "domain": "bitunix.com",
-          "type": "secondary",
-          "published_date": null
-        },
         {
           "url": "https://ethereum.org/bridges",
           "domain": "ethereum.org",
@@ -273,29 +248,23 @@
           "published_date": null
         },
         {
-          "url": "https://chainhub.exchange/learn/cross-chain-swaps-explained",
-          "domain": "chainhub.exchange",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.techedubyte.com/cross-chain-liquidity-btc-eth-sol-liquidchain",
-          "domain": "techedubyte.com",
+          "url": "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
+          "domain": "bitunix.com",
           "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 5,
+        "total_sources": 3,
         "primary_source_count": 1,
-        "secondary_source_count": 4,
+        "secondary_source_count": 2,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
         "source_risk": "low"
       },
       "confidence": 0.95,
-      "reasoning": "The ongoing development and adoption of native cross-chain liquidity solutions, enabling direct BTC to EVM transfers, maintain this trend in the 'Breakthrough' stage with 'High' velocity. New intel highlights the expanding capabilities and increasing user awareness of these non-custodial bridging mechanisms.",
+      "reasoning": "Cross-chain interoperability retains High velocity in Breakthrough as demand grows for native BTC integration into EVM execution layers.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -303,22 +272,19 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "High",
-        "new_sources": [
+        "new_sources": [],
+        "dropped_sources": [
           "https://chainhub.exchange/learn/cross-chain-swaps-explained",
           "https://www.techedubyte.com/cross-chain-liquidity-btc-eth-sol-liquidchain"
         ],
-        "dropped_sources": [
-          "https://www.blocklr.com/guides/how-to-bridge-crypto",
-          "https://www.shironeko.gg/how-to-bridge-crypto"
-        ],
-        "summary_changed": false
+        "summary_changed": true
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-2.5-flash-lite",
+    "agent": "gemini-3.6-flash",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-10-22T16:01:57.953735Z",
+    "timestamp": "2026-10-22T22:01:32.832001Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -327,20 +293,20 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-2.5-flash-lite",
+      "model": "gemini-3.6-flash",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-10-22T16:01:57.953735Z",
-      "search_result_count": 15,
+      "timestamp": "2026-10-22T22:01:32.832001Z",
+      "search_result_count": 10,
       "validation_error_count": 0,
       "validation_failures": []
     }
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-2.5-flash-lite",
+    "model": "gemini-3.6-flash",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-10-22T16:01:57.953735Z",
-    "search_result_count": 15,
+    "timestamp": "2026-10-22T22:01:32.832001Z",
+    "search_result_count": 10,
     "validation_error_count": 0,
     "validation_failures": []
   }
