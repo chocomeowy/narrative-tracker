@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-10-23 04:01
+# Tax Intelligence Briefing - 2026-10-23 10:01
 
 The global corporate tax landscape in late 2026 is defined by the widespread operationalization of the OECD's Pillar Two global minimum tax, with over 60 jurisdictions actively enforcing GloBE and QDMTT frameworks. International trade policies and tariff structures remain dynamic, directly impacting global supply chains. Concurrently, digital tax compliance initiatives, such as mandatory real-time electronic invoicing across Singapore and the broader ASEAN region, continue to accelerate rapidly, while baseline corporate tax rates hover near historical lows with increased reliance on targeted incentives.
