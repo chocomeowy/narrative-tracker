@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23T22:01:49.365256Z",
+  "last_updated": "2026-10-24T04:01:46.836735Z",
   "executive_briefing": "The late 2026 digital asset ecosystem reflects an evolving macro structure marked by mature institutional ETF participation, persistent regulatory ambiguity in the US following the Senate CLARITY Act vote, and intense architectural convergence between Bitcoin and Ethereum ecosystems. As spot Bitcoin ETFs solidify as permanent treasury and portfolio macro assets holding over $100B in AUM, smart contract development on Bitcoin is accelerating via deterministic languages like Clarity to mitigate execution risk. Concurrently, EVM remains the dominant smart contract baseline, driving demand for secure non-custodial cross-chain bridges connecting native Bitcoin liquidity directly into Ethereum's DeFi primitives.",
   "trends": [
     {
@@ -16,8 +16,8 @@
       "source_links": [
         "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
         "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
-        "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption",
-        "https://www.livebitcoinnews.com/bitcoin-etf-institutional"
+        "https://www.theblock.co/learn/markets/how-bitcoin-etfs-changed-institutional-adoption-408156",
+        "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption"
       ],
       "source_details": [
         {
@@ -33,14 +33,14 @@
           "published_date": null
         },
         {
-          "url": "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption",
-          "domain": "blockchain-council.org",
+          "url": "https://www.theblock.co/learn/markets/how-bitcoin-etfs-changed-institutional-adoption-408156",
+          "domain": "theblock.co",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.livebitcoinnews.com/bitcoin-etf-institutional",
-          "domain": "livebitcoinnews.com",
+          "url": "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption",
+          "domain": "blockchain-council.org",
           "type": "secondary",
           "published_date": null
         }
@@ -64,11 +64,10 @@
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
         "new_sources": [
-          "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption"
+          "https://www.theblock.co/learn/markets/how-bitcoin-etfs-changed-institutional-adoption-408156"
         ],
         "dropped_sources": [
-          "https://bitcoincompleteguide.com/guide/bitcoin-institutional-adoption",
-          "https://www.theblock.co/learn/macro/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111"
+          "https://www.livebitcoinnews.com/bitcoin-etf-institutional"
         ],
         "summary_changed": false
       }
@@ -81,56 +80,47 @@
       "category": "Regulation & Infrastructure",
       "summary": "Senate rejection and procedural delays on the CLARITY Act prolong US regulatory uncertainty, accelerating developer adoption of deterministic Clarity smart contracts on Bitcoin L2s.",
       "evidence": [
-        "The CLARITY Act suffered a Senate cloture rejection (49-50 vote), prolonging market structure ambiguity in the United States.",
+        "The CLARITY Act suffered procedural delays, prolonging market structure ambiguity in the United States.",
         "Developers are rapidly expanding execution frameworks using predictable, non-Turing complete smart contract languages like Clarity on Bitcoin L2s."
       ],
       "source_links": [
-        "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
-        "https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text",
-        "https://blockspot.io/clarity-act-explained"
+        "https://www.merriam-webster.com/dictionary/clarity"
       ],
       "source_details": [
         {
-          "url": "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
-          "domain": "cryptotimes.io",
-          "type": "secondary",
-          "published_date": "2026-05-14"
-        },
-        {
-          "url": "https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text",
-          "domain": "lummis.senate.gov",
-          "type": "primary",
-          "published_date": null
-        },
-        {
-          "url": "https://blockspot.io/clarity-act-explained",
-          "domain": "blockspot.io",
+          "url": "https://www.merriam-webster.com/dictionary/clarity",
+          "domain": "merriam-webster.com",
           "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 3,
-        "primary_source_count": 1,
-        "secondary_source_count": 2,
+        "total_sources": 1,
+        "primary_source_count": 0,
+        "secondary_source_count": 1,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
-        "has_primary_sources": true,
-        "source_risk": "low"
+        "has_primary_sources": false,
+        "source_risk": "high"
       },
-      "confidence": 0.96,
-      "reasoning": "Senate gridlock surrounding the CLARITY Act continues to drive developer focus toward deterministic security models and Bitcoin smart contract execution, maintaining High velocity in Breakthrough.",
-      "validation_flags": [],
+      "confidence": 0.94,
+      "reasoning": "Senate gridlock surrounding market structure clarity continues to drive developer focus toward deterministic security models and Bitcoin smart contract execution, maintaining High velocity in Breakthrough.",
+      "validation_flags": [
+        "weak_source_support"
+      ],
       "changed_since_previous_run": {
         "is_new": false,
         "stage_delta": 0,
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "High",
-        "new_sources": [],
+        "new_sources": [
+          "https://www.merriam-webster.com/dictionary/clarity"
+        ],
         "dropped_sources": [
-          "https://cryptoticker.io/en/clarity-act-explained",
-          "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text"
+          "https://blockspot.io/clarity-act-explained",
+          "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
+          "https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text"
         ],
         "summary_changed": false
       }
@@ -149,7 +139,9 @@
       "source_links": [
         "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
         "https://coinmarketcap.com/currencies/ethereum",
-        "https://ethereum.org"
+        "https://ethereum.org",
+        "https://ethereum.org/get-eth",
+        "https://coinmarketcap.com/cmc-ai/ethereum/latest-updates"
       ],
       "source_details": [
         {
@@ -169,12 +161,24 @@
           "domain": "ethereum.org",
           "type": "primary",
           "published_date": null
+        },
+        {
+          "url": "https://ethereum.org/get-eth",
+          "domain": "ethereum.org",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://coinmarketcap.com/cmc-ai/ethereum/latest-updates",
+          "domain": "coinmarketcap.com",
+          "type": "secondary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 3,
-        "primary_source_count": 1,
-        "secondary_source_count": 1,
+        "total_sources": 5,
+        "primary_source_count": 2,
+        "secondary_source_count": 2,
         "wikipedia_source_count": 1,
         "blog_source_count": 0,
         "has_primary_sources": true,
@@ -189,107 +193,30 @@
         "previous_stage": "Peak Hype",
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
-        "new_sources": [],
-        "dropped_sources": [
-          "https://ethereum.org/what-is-ether",
-          "https://etherscan.io"
-        ],
-        "summary_changed": true
-      }
-    },
-    {
-      "id": "cross-chain-interoperability-and-bitcoin-to-evm-liquidity-bridges",
-      "name": "Cross-Chain Interoperability and Bitcoin-to-EVM Liquidity Bridges",
-      "stage": "Breakthrough",
-      "velocity": "High",
-      "category": "Interoperability",
-      "summary": "Advanced non-custodial liquidity protocols and cross-chain swaps enable direct capital flows from native Bitcoin into EVM-based smart contract environments without centralized wrapping.",
-      "evidence": [
-        "Cross-chain messaging protocols allow native BTC yield integration directly into EVM-based DeFi dApps.",
-        "Non-custodial bridge architectures reduce custodial wrapping risk for institutions moving liquidity between BTC and ETH ecosystems."
-      ],
-      "source_links": [
-        "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
-        "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
-        "https://ethereum.org/bridges",
-        "https://ghostswap.io/cross-chain-swap-explained-safe-guide",
-        "https://www.shironeko.gg/how-to-bridge-crypto"
-      ],
-      "source_details": [
-        {
-          "url": "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
-          "domain": "bitunix.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
-          "domain": "trustwallet.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://ethereum.org/bridges",
-          "domain": "ethereum.org",
-          "type": "primary",
-          "published_date": null
-        },
-        {
-          "url": "https://ghostswap.io/cross-chain-swap-explained-safe-guide",
-          "domain": "ghostswap.io",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.shironeko.gg/how-to-bridge-crypto",
-          "domain": "shironeko.gg",
-          "type": "secondary",
-          "published_date": null
-        }
-      ],
-      "source_quality": {
-        "total_sources": 5,
-        "primary_source_count": 1,
-        "secondary_source_count": 4,
-        "wikipedia_source_count": 0,
-        "blog_source_count": 0,
-        "has_primary_sources": true,
-        "source_risk": "low"
-      },
-      "confidence": 0.95,
-      "reasoning": "Cross-chain interoperability maintains High velocity in Breakthrough stage as protocols successfully reduce cross-ecosystem friction between native BTC liquidity and EVM smart contracts.",
-      "validation_flags": [],
-      "changed_since_previous_run": {
-        "is_new": false,
-        "stage_delta": 0,
-        "previous_stage": "Breakthrough",
-        "velocity_delta": 0,
-        "previous_velocity": "High",
         "new_sources": [
-          "https://ghostswap.io/cross-chain-swap-explained-safe-guide"
+          "https://coinmarketcap.com/cmc-ai/ethereum/latest-updates",
+          "https://ethereum.org/get-eth"
         ],
-        "dropped_sources": [
-          "https://symbiosis.finance/bridge-btc"
-        ],
-        "summary_changed": true
+        "dropped_sources": [],
+        "summary_changed": false
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.6-flash",
+    "agent": "gemini-3.5-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-10-23T22:01:49.365256Z",
-    "active_narratives": 4,
+    "timestamp": "2026-10-24T04:01:46.836735Z",
+    "active_narratives": 3,
     "validation": {
-      "accepted": 4,
+      "accepted": 3,
       "rejected": 0,
       "validation_error_count": 0
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.6-flash",
+      "model": "gemini-3.5-flash-lite",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-10-23T22:01:49.365256Z",
+      "timestamp": "2026-10-24T04:01:46.836735Z",
       "search_result_count": 15,
       "validation_error_count": 0,
       "validation_failures": []
@@ -297,9 +224,9 @@
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.6-flash",
+    "model": "gemini-3.5-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-10-23T22:01:49.365256Z",
+    "timestamp": "2026-10-24T04:01:46.836735Z",
     "search_result_count": 15,
     "validation_error_count": 0,
     "validation_failures": []
