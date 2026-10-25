@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-24T22:01:12.286271Z",
+  "last_updated": "2026-10-25T04:01:29.619955Z",
   "executive_briefing": "The global tax landscape in late 2026 remains anchored by the operational maturity of the OECD Pillar Two 15% minimum corporate tax, which has halted historic downward statutory rate competition and steered multinational strategic focus toward substance-based incentives. Concurrently, regional frameworks like ASEAN tax harmonization, escalating unilateral trade tariffs, and mandatory digital compliance networks such as Singapore's Peppol-based InvoiceNow mandate are driving continuous real-time transformation in corporate tax operations.",
   "trends": [
     {
@@ -56,14 +56,8 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [
-          "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en/full-report.html"
-        ],
-        "dropped_sources": [
-          "https://cpavalidated.com/pillar-two-guide.html",
-          "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
-          "https://www.pwc.com/gx/en/services/tax/pillar-two-readiness/country-tracker.html"
-        ],
+        "new_sources": [],
+        "dropped_sources": [],
         "summary_changed": false
       }
     },
@@ -83,7 +77,7 @@
         "https://www.cleartax.com/sg/en/e-invoicing-singapore",
         "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
         "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
-        "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html"
+        "https://dddinvoices.com/learn/e-invoicing-in-singapore"
       ],
       "source_details": [
         {
@@ -111,8 +105,8 @@
           "published_date": null
         },
         {
-          "url": "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html",
-          "domain": "avalara.com",
+          "url": "https://dddinvoices.com/learn/e-invoicing-in-singapore",
+          "domain": "dddinvoices.com",
           "type": "secondary",
           "published_date": null
         }
@@ -136,12 +130,12 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
-          "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework"
+          "https://dddinvoices.com/learn/e-invoicing-in-singapore"
         ],
         "dropped_sources": [
-          "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses"
+          "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html"
         ],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
@@ -159,8 +153,7 @@
         "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
         "https://usacustomsclearance.com/import-tariffs-updates",
         "https://tariffcheck.org/updates",
-        "https://www.reuters.com/business/tariffs",
-        "https://www.spglobal.com/market-intelligence/en/news-insights/topics/international-trade-tariffs-news"
+        "https://htshero.com/tariff-updates"
       ],
       "source_details": [
         {
@@ -182,22 +175,16 @@
           "published_date": null
         },
         {
-          "url": "https://www.reuters.com/business/tariffs",
-          "domain": "reuters.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.spglobal.com/market-intelligence/en/news-insights/topics/international-trade-tariffs-news",
-          "domain": "spglobal.com",
+          "url": "https://htshero.com/tariff-updates",
+          "domain": "htshero.com",
           "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 5,
+        "total_sources": 4,
         "primary_source_count": 1,
-        "secondary_source_count": 4,
+        "secondary_source_count": 3,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
@@ -213,9 +200,12 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
+          "https://htshero.com/tariff-updates"
+        ],
+        "dropped_sources": [
+          "https://www.reuters.com/business/tariffs",
           "https://www.spglobal.com/market-intelligence/en/news-insights/topics/international-trade-tariffs-news"
         ],
-        "dropped_sources": [],
         "summary_changed": false
       }
     },
@@ -265,7 +255,7 @@
         "source_risk": "low"
       },
       "confidence": 0.94,
-      "reasoning": "With global tax floors capping statutory rate reductions, policy attention remains at Peak Hype around targeted economic and R&D incentives.",
+      "reasoning": "With global tax floors capping statutory rate reductions, policy attention remains focused around targeted economic and R&D incentives.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -286,7 +276,7 @@
       "category": "Corporate Tax",
       "summary": "ASEAN jurisdictions are actively balancing localized incentives (such as Singapore's lower rates versus regional alternatives like the Philippines and Indonesia) against incoming international minimum tax structures.",
       "evidence": [
-        "Grant Thornton ASEAN 6 Tax Guide 2026 outlines complex regional tax and compliance developments.",
+        "Grant Thornton ASEAN 6 Tax Guide outlines complex regional tax and compliance developments.",
         "Special tax holidays and enhanced deductions remain central for attracting strategic investments across Southeast Asia."
       ],
       "source_links": [
@@ -327,14 +317,12 @@
       "reasoning": "Regional tax competition across ASEAN markets is actively adapting to global minimum tax rules while preserving special investment incentives.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
-        "new_sources": [
-          "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026",
-          "https://www.grantthornton.com.ph/insights/global-insights1/asean-6-tax-guide",
-          "https://pathmakerid.com/blog/corporate-tax-rates-in-asia-2026-a-9-country-asean-comparison"
-        ],
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Incubation",
+        "velocity_delta": 0,
+        "previous_velocity": "Medium",
+        "new_sources": [],
         "dropped_sources": [],
         "summary_changed": false
       }
@@ -343,7 +331,7 @@
   "intelligence_metadata": {
     "agent": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-10-24T22:01:12.286271Z",
+    "timestamp": "2026-10-25T04:01:29.619955Z",
     "active_narratives": 5,
     "validation": {
       "accepted": 5,
@@ -354,8 +342,8 @@
       "status": "success",
       "model": "gemini-3.5-flash-lite",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-10-24T22:01:12.286271Z",
-      "search_result_count": 25,
+      "timestamp": "2026-10-25T04:01:29.619955Z",
+      "search_result_count": 31,
       "validation_error_count": 0,
       "validation_failures": []
     }
@@ -364,8 +352,8 @@
     "status": "success",
     "model": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-10-24T22:01:12.286271Z",
-    "search_result_count": 25,
+    "timestamp": "2026-10-25T04:01:29.619955Z",
+    "search_result_count": 31,
     "validation_error_count": 0,
     "validation_failures": []
   }
