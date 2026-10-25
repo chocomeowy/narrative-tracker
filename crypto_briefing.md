@@ -1,3 +1,3 @@
-# Crypto Intelligence Briefing - 2026-10-25 16:01
+# Crypto Intelligence Briefing - 2026-10-25 22:01
 
 In late 2026, the crypto asset landscape is heavily shaped by structural integration and ongoing regulatory friction. Institutional Bitcoin adoption has firmly transitioned into baseline portfolio management, evidenced by cumulative spot Bitcoin ETF AUM holding steady above $100 billion. Concurrently, legislative battles surrounding the CLARITY Act have reached a critical juncture following Senate procedural setbacks and cloture failures, leaving market structure definitions in a holding pattern. Furthermore, technological developments are bridging the gap between Bitcoin liquidity and EVM execution layers, driving cross-chain interoperability and smart contract capabilities without relying on centralized wrapped token models.
