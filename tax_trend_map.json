@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-25T10:01:09.512048Z",
-  "executive_briefing": "The global tax landscape in late 2026 remains anchored by the operational maturity of the OECD Pillar Two 15% minimum corporate tax, which has halted historic downward statutory rate competition and steered multinational strategic focus toward substance-based incentives. Concurrently, regional frameworks like ASEAN tax harmonization, escalating unilateral trade tariffs, and mandatory digital compliance networks such as Singapore's Peppol-based InvoiceNow mandate are driving continuous real-time transformation in corporate tax operations.",
+  "last_updated": "2026-10-25T16:01:27.793826Z",
+  "executive_briefing": "The global corporate tax landscape in late 2026 remains defined by the operationalization of the OECD Pillar Two global minimum tax, stabilizing historical statutory rate cuts while directing multinational focus onto substance-based incentives. Concurrently, regional initiatives like ASEAN harmonization, escalating cross-border trade protectionism and tariff volatility, and mandatory real-time digital compliance networks\u2014such as Singapore's progressive Peppol-based InvoiceNow mandates extending through 2031\u2014continue to fundamentally transform international tax compliance operations.",
   "trends": [
     {
       "id": "oecd-pillar-two-and-global-minimum-tax-operationalization",
@@ -48,7 +48,7 @@
         "source_risk": "low"
       },
       "confidence": 0.98,
-      "reasoning": "Pillar Two enforcement remains steadily in the Breakthrough stage as international rules solidify into mandatory, routine corporate filing requirements.",
+      "reasoning": "Pillar Two enforcement remains solidly in the Breakthrough stage as international rules solidify into mandatory, routine corporate filing requirements globally.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -123,9 +123,7 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [],
-        "dropped_sources": [
-          "https://dddinvoices.com/learn/e-invoicing-in-singapore"
-        ],
+        "dropped_sources": [],
         "summary_changed": false
       }
     },
@@ -143,7 +141,7 @@
       "source_links": [
         "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
         "https://usacustomsclearance.com/import-tariffs-updates",
-        "https://tariffcheck.org/updates"
+        "https://ttd.wto.org/en"
       ],
       "source_details": [
         {
@@ -159,16 +157,16 @@
           "published_date": null
         },
         {
-          "url": "https://tariffcheck.org/updates",
-          "domain": "tariffcheck.org",
-          "type": "secondary",
+          "url": "https://ttd.wto.org/en",
+          "domain": "ttd.wto.org",
+          "type": "primary",
           "published_date": null
         }
       ],
       "source_quality": {
         "total_sources": 3,
-        "primary_source_count": 1,
-        "secondary_source_count": 2,
+        "primary_source_count": 2,
+        "secondary_source_count": 1,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
@@ -183,9 +181,11 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [],
+        "new_sources": [
+          "https://ttd.wto.org/en"
+        ],
         "dropped_sources": [
-          "https://htshero.com/tariff-updates"
+          "https://tariffcheck.org/updates"
         ],
         "summary_changed": false
       }
@@ -253,7 +253,7 @@
   "intelligence_metadata": {
     "agent": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-10-25T10:01:09.512048Z",
+    "timestamp": "2026-10-25T16:01:27.793826Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -264,7 +264,7 @@
       "status": "success",
       "model": "gemini-3.5-flash-lite",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-10-25T10:01:09.512048Z",
+      "timestamp": "2026-10-25T16:01:27.793826Z",
       "search_result_count": 30,
       "validation_error_count": 0,
       "validation_failures": []
@@ -274,7 +274,7 @@
     "status": "success",
     "model": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-10-25T10:01:09.512048Z",
+    "timestamp": "2026-10-25T16:01:27.793826Z",
     "search_result_count": 30,
     "validation_error_count": 0,
     "validation_failures": []
