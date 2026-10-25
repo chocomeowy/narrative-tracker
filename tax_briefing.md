@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-10-25 04:01
+# Tax Intelligence Briefing - 2026-10-25 10:01
 
 The global tax landscape in late 2026 remains anchored by the operational maturity of the OECD Pillar Two 15% minimum corporate tax, which has halted historic downward statutory rate competition and steered multinational strategic focus toward substance-based incentives. Concurrently, regional frameworks like ASEAN tax harmonization, escalating unilateral trade tariffs, and mandatory digital compliance networks such as Singapore's Peppol-based InvoiceNow mandate are driving continuous real-time transformation in corporate tax operations.
