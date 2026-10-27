@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-27T04:01:35.290484Z",
+  "last_updated": "2026-10-27T10:01:29.732787Z",
   "archived_trends": [
     {
       "name": "Cross-Chain Liquidity Solutions",
@@ -29951,6 +29951,89 @@
         "summary_changed": false
       },
       "archived_at": "2026-10-27T04:01:35.290484Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "ethereum-ecosystem-maturity",
+      "name": "Ethereum Ecosystem Maturity",
+      "stage": "Fatigue",
+      "velocity": "Low",
+      "category": "Smart Contract Platforms",
+      "summary": "Ethereum continues to act as the primary foundational settlement layer for decentralized applications and enterprise use cases, exhibiting high operational stability post-Proof-of-Stake.",
+      "evidence": [
+        "Consistent developer tooling and established decentralized application ecosystems.",
+        "Enduring infrastructure reliability serving as the baseline for multi-chain liquidity routing."
+      ],
+      "source_links": [
+        "https://coinmarketcap.com/currencies/ethereum",
+        "https://ethereum.org",
+        "https://ethereum.org/what-is-ether",
+        "https://etherscan.io",
+        "https://www.tradingview.com/symbols/ETHUSD"
+      ],
+      "source_details": [
+        {
+          "url": "https://coinmarketcap.com/currencies/ethereum",
+          "domain": "coinmarketcap.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://ethereum.org",
+          "domain": "ethereum.org",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://ethereum.org/what-is-ether",
+          "domain": "ethereum.org",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://etherscan.io",
+          "domain": "etherscan.io",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.tradingview.com/symbols/ETHUSD",
+          "domain": "tradingview.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 5,
+        "primary_source_count": 2,
+        "secondary_source_count": 3,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.92,
+      "reasoning": "Ethereum remains in a mature, established state where core network infrastructure is stable and developer focus is evolutionary rather than explosive, keeping it in the Fatigue category.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Fatigue",
+        "velocity_delta": 0,
+        "previous_velocity": "Low",
+        "new_sources": [
+          "https://ethereum.org/what-is-ether",
+          "https://etherscan.io",
+          "https://www.tradingview.com/symbols/ETHUSD"
+        ],
+        "dropped_sources": [
+          "https://coinmarketcap.com/cmc-ai/ethereum/latest-updates",
+          "https://ethereum.org/get-eth",
+          "https://finance.yahoo.com/quote/ETH-USD?fr=sycsrp_catchall"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-10-27T10:01:29.732787Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
