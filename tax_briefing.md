@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-10-27 04:01
+# Tax Intelligence Briefing - 2026-10-27 10:01
 
-The corporate and international tax policy environment in late 2026 is defined by the full-scale operationalization of OECD Pillar Two global minimum tax rules across over 60 jurisdictions, rapid adoption of mandatory real-time e-invoicing networks such as Singapore's GST InvoiceNow, and escalating geopolitical trade tariff updates impacting cross-border supply chains. As long-term declines in statutory corporate income tax rates stabilize, tax authorities are shifting focus toward substance-based incentive realignments and rigorous digital compliance enforcement.
+The corporate and international tax landscape in late 2026 is defined by the full-scale operationalization of the OECD Pillar Two 15% global minimum tax, stabilizing headline statutory tax rates, and a structural pivot toward substance-based incentives across key economic hubs, particularly within the ASEAN region. Concurrently, tax authorities are expanding digital compliance through mandatory real-time e-invoicing networks while geopolitical trade tensions drive targeted border tariff adjustments.
