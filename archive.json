@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-27T15:01:02.057362Z",
+  "last_updated": "2026-10-28T15:00:53.435491Z",
   "archived_trends": [
     {
       "id": "agentic-mesh-protocols",
@@ -8108,6 +8108,66 @@
         "summary_changed": true
       },
       "archived_at": "2026-10-26T15:01:17.407510Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "local-execution-of-high-parameter-open-source-models",
+      "name": "Local Execution of High-Parameter Open Source Models",
+      "stage": "Breakthrough",
+      "velocity": "Medium",
+      "category": "Open Source LLM",
+      "summary": "There is an increasing focus on the capability to run large, parameter-rich LLMs locally. This trend is driven by the availability of open-source models and advancements in hardware and software that enable more efficient local inference, addressing concerns around privacy, cost, and customization.",
+      "evidence": [
+        "Falcon: A family of language models developed by the Technology Innovation Institute.",
+        "MiniMax: A family of AI models supporting reasoning, coding and multimodal applications.",
+        "ERNIE: Baidu's AI model family for Chinese-language understanding, content generation and multilingual tasks.",
+        "A large language model (LLM) is a machine learning model (typically a neural network) trained on a vast amount of text for natural language processing tasks, especially language generation.",
+        "LLMs are language models with many parameters, and are trained with self-supervised learning on a vast amount of text."
+      ],
+      "source_links": [
+        "https://www.geeksforgeeks.org/machine-learning/top-20-llm-models",
+        "https://en.wikipedia.org/wiki/List_of_large_language_models"
+      ],
+      "source_details": [
+        {
+          "url": "https://www.geeksforgeeks.org/machine-learning/top-20-llm-models",
+          "domain": "geeksforgeeks.org",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_large_language_models",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 2,
+        "primary_source_count": 0,
+        "secondary_source_count": 1,
+        "wikipedia_source_count": 1,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.85,
+      "reasoning": "This trend remains in 'Breakthrough' with 'Medium' velocity. While the previous state highlighted this trend, the new data, although not exclusively focused on local execution, mentions various open-source model families. This suggests continued development and interest in the underlying models that can facilitate local execution, rather than direct content on the *act* of local execution itself. The velocity is maintained due to the foundational nature of open-source model development enabling this capability.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "Medium",
+        "new_sources": [
+          "https://en.wikipedia.org/wiki/List_of_large_language_models",
+          "https://www.geeksforgeeks.org/machine-learning/top-20-llm-models"
+        ],
+        "dropped_sources": [],
+        "summary_changed": true
+      },
+      "archived_at": "2026-10-28T15:00:53.435491Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
