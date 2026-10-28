@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-28T04:01:22.725172Z",
-  "executive_briefing": "In late 2026, international corporate tax governance is defined by the operationalization of OECD Pillar Two 15% global minimum tax rules alongside widespread realignment of statutory corporate tax rates and incentives, particularly across ASEAN and major global markets. Tax administrations are rapidly mandating system-to-system continuous transaction controls and digital e-invoicing framework initiatives (such as Singapore's GST InvoiceNow and Peppol networks) to secure indirect tax compliance. Concurrently, strategic geopolitical trade tariffs and targeted cross-border supply chain duty recalibrations continue to force multinational enterprises to re-evaluate international trade architecture.",
+  "last_updated": "2026-10-28T10:01:20.343522Z",
+  "executive_briefing": "In late 2026, international corporate tax governance is defined by the operationalization of OECD Pillar Two 15% global minimum tax rules alongside widespread realignment of statutory corporate tax rates and incentives, particularly across ASEAN and major global markets. Tax administrations are rapidly mandating system-to-system continuous transaction controls and digital e-invoicing framework initiatives to secure indirect tax compliance. Concurrently, strategic geopolitical trade tariffs and targeted cross-border supply chain duty recalibrations continue to force multinational enterprises to re-evaluate international trade architecture.",
   "trends": [
     {
       "id": "oecd-pillar-two-and-global-minimum-tax-operationalization",
@@ -70,11 +70,9 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [
-          "https://whtcalculator.com/beps-pillar-two"
-        ],
+        "new_sources": [],
         "dropped_sources": [],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
@@ -83,68 +81,47 @@
       "stage": "Breakthrough",
       "velocity": "Fast",
       "category": "Digital Tax",
-      "summary": "Tax authorities globally are accelerating mandates for structured electronic invoicing and continuous transaction controls, notably via Peppol-based networks like Singapore's GST InvoiceNow, to minimize indirect tax gaps and automate real-time GST/VAT monitoring.",
+      "summary": "Tax authorities globally are accelerating mandates for structured electronic invoicing and continuous transaction controls to minimize indirect tax gaps and automate real-time tax monitoring.",
       "evidence": [
-        "Singapore and global jurisdictions are rolling out mandatory GST invoice data transmission via Peppol-based networks.",
-        "Tax authorities in Canada, India, and across ASEAN are expanding automated system-to-system e-invoicing compliance."
+        "Global jurisdictions are rolling out mandatory GST and VAT invoice data transmission via standardized digital networks.",
+        "Tax authorities are expanding automated system-to-system e-invoicing compliance globally."
       ],
       "source_links": [
-        "https://e-invoicing.org/singapore",
-        "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-        "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
-        "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
-        "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html",
-        "https://en.wikipedia.org/wiki/E-invoicing"
+        "https://www.sap.com/resources/what-is-e-invoicing",
+        "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html",
+        "https://tax.thomsonreuters.com/blog/what-is-e-invoicing"
       ],
       "source_details": [
         {
-          "url": "https://e-invoicing.org/singapore",
-          "domain": "e-invoicing.org",
+          "url": "https://www.sap.com/resources/what-is-e-invoicing",
+          "domain": "sap.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-          "domain": "cleartax.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
-          "domain": "imda.gov.sg",
-          "type": "primary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
+          "url": "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html",
           "domain": "avalara.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html",
-          "domain": "canada.ca",
+          "url": "https://tax.thomsonreuters.com/blog/what-is-e-invoicing",
+          "domain": "tax.thomsonreuters.com",
           "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/E-invoicing",
-          "domain": "en.wikipedia.org",
-          "type": "wikipedia",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 6,
-        "primary_source_count": 1,
-        "secondary_source_count": 4,
-        "wikipedia_source_count": 1,
+        "total_sources": 3,
+        "primary_source_count": 0,
+        "secondary_source_count": 3,
+        "wikipedia_source_count": 0,
         "blog_source_count": 0,
-        "has_primary_sources": true,
-        "source_risk": "low"
+        "has_primary_sources": false,
+        "source_risk": "medium"
       },
       "confidence": 0.96,
-      "reasoning": "Transition to structured digital invoicing networks (InvoiceNow, CTCs) is accelerating globally, keeping this trend at Breakthrough with high velocity.",
+      "reasoning": "Transition to structured digital invoicing networks and CTCs is accelerating globally, keeping this trend at Breakthrough with high velocity.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -153,14 +130,17 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
-          "https://e-invoicing.org/singapore",
-          "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
-          "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-          "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework"
+          "https://tax.thomsonreuters.com/blog/what-is-e-invoicing",
+          "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html",
+          "https://www.sap.com/resources/what-is-e-invoicing"
         ],
         "dropped_sources": [
-          "https://grokipedia.com/page/Invoicing_Software",
-          "https://taxsummaries.pwc.com/india/corporate/other-taxes"
+          "https://e-invoicing.org/singapore",
+          "https://en.wikipedia.org/wiki/E-invoicing",
+          "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
+          "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html",
+          "https://www.cleartax.com/sg/en/e-invoicing-singapore",
+          "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework"
         ],
         "summary_changed": true
       }
@@ -226,14 +206,9 @@
         "previous_stage": "Peak Hype",
         "velocity_delta": 0,
         "previous_velocity": "Medium",
-        "new_sources": [
-          "https://www.ey.com/en_gl/technical/tax-guides/worldwide-corporate-tax-guide",
-          "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026"
-        ],
-        "dropped_sources": [
-          "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026"
-        ],
-        "summary_changed": true
+        "new_sources": [],
+        "dropped_sources": [],
+        "summary_changed": false
       }
     },
     {
@@ -245,13 +220,13 @@
       "summary": "Heightened bilateral trade frictions and targeted sectoral tariff adjustments on critical goods are reshaping cross-border customs strategies and international supply chain cost structures.",
       "evidence": [
         "USITC and WTO trade tracking tools record active updates to sectoral customs tariffs.",
-        "S&P Global and Reuters monitoring reports highlight ongoing bilateral trade recalibrations impacting MNE supply chain planning."
+        "Reuters and market intelligence monitoring reports highlight ongoing bilateral trade recalibrations impacting MNE supply chain planning."
       ],
       "source_links": [
         "https://www.reuters.com/business/tariffs",
         "https://ttd.wto.org/en",
         "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
-        "https://www.spglobal.com/market-intelligence/en/news-insights/topics/international-trade-tariffs-news"
+        "https://usacustomsclearance.com/import-tariffs-updates"
       ],
       "source_details": [
         {
@@ -273,8 +248,8 @@
           "published_date": null
         },
         {
-          "url": "https://www.spglobal.com/market-intelligence/en/news-insights/topics/international-trade-tariffs-news",
-          "domain": "spglobal.com",
+          "url": "https://usacustomsclearance.com/import-tariffs-updates",
+          "domain": "usacustomsclearance.com",
           "type": "secondary",
           "published_date": null
         }
@@ -297,18 +272,20 @@
         "previous_stage": "Incubation",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [],
-        "dropped_sources": [
+        "new_sources": [
           "https://usacustomsclearance.com/import-tariffs-updates"
         ],
-        "summary_changed": true
+        "dropped_sources": [
+          "https://www.spglobal.com/market-intelligence/en/news-insights/topics/international-trade-tariffs-news"
+        ],
+        "summary_changed": false
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.6-flash",
+    "agent": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-10-28T04:01:22.725172Z",
+    "timestamp": "2026-10-28T10:01:20.343522Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -317,20 +294,20 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.6-flash",
+      "model": "gemini-3.5-flash-lite",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-10-28T04:01:22.725172Z",
-      "search_result_count": 32,
+      "timestamp": "2026-10-28T10:01:20.343522Z",
+      "search_result_count": 35,
       "validation_error_count": 0,
       "validation_failures": []
     }
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.6-flash",
+    "model": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-10-28T04:01:22.725172Z",
-    "search_result_count": 32,
+    "timestamp": "2026-10-28T10:01:20.343522Z",
+    "search_result_count": 35,
     "validation_error_count": 0,
     "validation_failures": []
   }
