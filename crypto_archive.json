@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-28T16:01:20.807786Z",
+  "last_updated": "2026-10-28T22:01:18.970539Z",
   "archived_trends": [
     {
       "name": "Cross-Chain Liquidity Solutions",
@@ -30408,6 +30408,85 @@
         "summary_changed": false
       },
       "archived_at": "2026-10-28T16:01:20.807786Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "ethereum-base-layer-settlement-maturity",
+      "name": "Ethereum Base Layer Settlement Maturity",
+      "stage": "Fatigue",
+      "velocity": "Low",
+      "category": "Smart Contract Platforms",
+      "summary": "Ethereum solidifies its position as the foundational decentralized settlement layer, utilizing gas mechanics and validator staking to secure execution environments.",
+      "evidence": [
+        "Consistent base-layer transaction settlement and security operations.",
+        "Steady usage of ETH for gas fee payments and network staking."
+      ],
+      "source_links": [
+        "https://coinmarketcap.com/currencies/ethereum",
+        "https://ethereum.org",
+        "https://ethereum.org/what-is-ether",
+        "https://coinmarketcap.com/cmc-ai/ethereum/latest-updates",
+        "https://finance.yahoo.com/quote/ETH-USD?fr=sycsrp_catchall"
+      ],
+      "source_details": [
+        {
+          "url": "https://coinmarketcap.com/currencies/ethereum",
+          "domain": "coinmarketcap.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://ethereum.org",
+          "domain": "ethereum.org",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://ethereum.org/what-is-ether",
+          "domain": "ethereum.org",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://coinmarketcap.com/cmc-ai/ethereum/latest-updates",
+          "domain": "coinmarketcap.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/ETH-USD?fr=sycsrp_catchall",
+          "domain": "finance.yahoo.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 5,
+        "primary_source_count": 2,
+        "secondary_source_count": 3,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.93,
+      "reasoning": "The core network functions remain structurally stable and mature, keeping the trend in a state of operational fatigue with low velocity.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Fatigue",
+        "velocity_delta": 0,
+        "previous_velocity": "Low",
+        "new_sources": [
+          "https://coinmarketcap.com/cmc-ai/ethereum/latest-updates"
+        ],
+        "dropped_sources": [
+          "https://etherscan.io"
+        ],
+        "summary_changed": false
+      },
+      "archived_at": "2026-10-28T22:01:18.970539Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
