@@ -1,3 +1,3 @@
-# Crypto Intelligence Briefing - 2026-10-28 10:01
+# Crypto Intelligence Briefing - 2026-10-28 16:01
 
 In late 2026, the digital asset landscape is characterized by the steady institutional integration of Bitcoin via regulated ETFs holding over $100B in AUM, alongside emerging cross-chain liquidity frameworks connecting Bitcoin and Ethereum ecosystems. Meanwhile, Ethereum maintains its role as the primary decentralized execution and settlement layer. Regulatory friction remains prominent following the recent legislative setbacks regarding market structure bills in the U.S. Senate, keeping compliance and jurisdictional clarity at the forefront of market discourse.
