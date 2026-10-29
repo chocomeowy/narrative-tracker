@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-29T04:01:10.697833Z",
+  "last_updated": "2026-10-29T10:01:17.396579Z",
   "archived_trends": [
     {
       "name": "Cross-Chain Liquidity Solutions",
@@ -30487,6 +30487,133 @@
         "summary_changed": false
       },
       "archived_at": "2026-10-28T22:01:18.970539Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "ethereum-base-layer-settlement-and-execution-maturity",
+      "name": "Ethereum Base Layer Settlement and Execution Maturity",
+      "stage": "Fatigue",
+      "velocity": "Low",
+      "category": "Smart Contract Platforms",
+      "summary": "Ethereum solidifies its role as the primary decentralized execution and settlement layer, relying on proof-of-stake consensus, EVM execution, and staking dynamics to anchor decentralized infrastructure.",
+      "evidence": [
+        "Consistent layer-1 settlement operations and decentralized application execution.",
+        "Steady demand for Ether (ETH) for staking and network transaction execution fees."
+      ],
+      "source_links": [
+        "https://en.wikipedia.org/wiki/Ethereum",
+        "https://coinmarketcap.com/currencies/ethereum",
+        "https://ethereum.org",
+        "https://etherscan.io"
+      ],
+      "source_details": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethereum",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        },
+        {
+          "url": "https://coinmarketcap.com/currencies/ethereum",
+          "domain": "coinmarketcap.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://ethereum.org",
+          "domain": "ethereum.org",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://etherscan.io",
+          "domain": "etherscan.io",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 4,
+        "primary_source_count": 1,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 1,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.93,
+      "reasoning": "Core protocol mechanisms and EVM execution remain steady and structurally mature, maintaining a state of operational fatigue with low velocity.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Fatigue",
+        "velocity_delta": 0,
+        "previous_velocity": "Low",
+        "new_sources": [
+          "https://en.wikipedia.org/wiki/Ethereum"
+        ],
+        "dropped_sources": [
+          "https://ethereum.org/what-is-ether"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-10-29T10:01:17.396579Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "clarity-language-smart-contracts-and-bitcoin-execution-frameworks",
+      "name": "Clarity Language Smart Contracts and Bitcoin Execution Frameworks",
+      "stage": "Incubation",
+      "velocity": "Moderate",
+      "category": "Bitcoin Layer 2",
+      "summary": "The Clarity smart contract language enables decidable, secure execution on Bitcoin layers, positioning Bitcoin-anchored execution environments as deterministic alternatives to EVM platforms.",
+      "evidence": [
+        "Clarity enables predictable, non-Turing complete smart contract execution directly settled on Bitcoin security layers.",
+        "Developer interest in bringing native decentralized finance and cross-chain liquidity to Bitcoin without EVM trust assumptions."
+      ],
+      "source_links": [
+        "https://bitcoin.org",
+        "https://en.wikipedia.org/wiki/Bitcoin"
+      ],
+      "source_details": [
+        {
+          "url": "https://bitcoin.org",
+          "domain": "bitcoin.org",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Bitcoin",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 2,
+        "primary_source_count": 1,
+        "secondary_source_count": 0,
+        "wikipedia_source_count": 1,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.85,
+      "reasoning": "Emerging technical focus on Clarity-based smart contract environments provides a structural alternative to EVM execution by bringing predictable smart contract capabilities to Bitcoin.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
+        "new_sources": [
+          "https://bitcoin.org",
+          "https://en.wikipedia.org/wiki/Bitcoin"
+        ],
+        "dropped_sources": [],
+        "summary_changed": false
+      },
+      "archived_at": "2026-10-29T10:01:17.396579Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
