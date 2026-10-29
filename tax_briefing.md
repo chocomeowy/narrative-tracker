@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-10-28 22:01
+# Tax Intelligence Briefing - 2026-10-29 04:01
 
 Global corporate tax policy in late 2026 is defined by the full operational implementation of OECD Pillar Two rules, forcing a stabilization of statutory corporate income tax rates worldwide and driving regional hubs—particularly across ASEAN—to restructure tax incentives toward substance-based models. In tandem, revenue authorities are accelerating mandatory real-time electronic invoicing and continuous transaction controls (CTCs) to combat indirect tax leakage, while ongoing geopolitical tariff recalibrations necessitate continuous restructuring of multinational supply chains and trade strategies.
