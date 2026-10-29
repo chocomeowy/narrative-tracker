@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-28T22:01:18.970539Z",
-  "executive_briefing": "In late 2026, the digital asset landscape is defined by the institutional consolidation of Bitcoin ETFs maintaining over $100B in AUM, sustained base-layer settlement on Ethereum, and intensified regulatory activity around the U.S. Digital Asset Market CLARITY Act. While spot Bitcoin ETFs and corporate treasuries provide baseline market stability, legislative momentum around the CLARITY Act has emerged as a key focal point following narrow Senate votes aimed at resolving SEC and CFTC jurisdictional scope and establishing clear operational rules for digital asset execution environments.",
+  "last_updated": "2026-10-29T04:01:10.697833Z",
+  "executive_briefing": "In late 2026, the digital asset landscape is defined by institutional consolidation in Bitcoin and Ethereum alongside emerging execution layer paradigms and regulatory developments. While spot Bitcoin ETFs and Ethereum layer-1 settlement provide baseline operational maturity, legislative momentum around the U.S. CLARITY Act continues to establish regulatory scope across federal agencies. Concurrently, technical focus is shifting toward Bitcoin-native smart contract architectures, where deterministic languages like Clarity are expanding smart contract execution and cross-chain liquidity directly anchored to Bitcoin security, offering an alternative to traditional EVM environments.",
   "trends": [
     {
       "id": "institutional-bitcoin-treasury-and-etf-consolidation",
@@ -8,61 +8,47 @@
       "stage": "Fatigue",
       "velocity": "Moderate",
       "category": "Institutional Finance",
-      "summary": "Spot Bitcoin ETFs and corporate balance sheet allocations continue as established financial vehicles, sustaining reliable baseline asset management exceeding $100 billion.",
+      "summary": "Spot Bitcoin ETFs and corporate treasury balance sheet allocations maintain established institutional access rails, sustaining baseline asset management over $100 billion without speculative hype.",
       "evidence": [
         "Spot Bitcoin ETFs function as primary institutional onboarding rails with over $100B in cumulative AUM.",
-        "Corporate balance sheets and treasury funds utilize regulated custody structures for long-term reserves."
+        "Corporate balance sheets and treasury allocations utilize regulated custody structures for long-term reserves."
       ],
       "source_links": [
-        "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
-        "https://www.livebitcoinnews.com/bitcoin-etf-institutional",
-        "https://www.theblock.co/learn/macro/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111",
-        "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
-        "https://bitcoincompleteguide.com/guide/bitcoin-institutional-adoption"
+        "https://en.wikipedia.org/wiki/Bitcoin",
+        "https://coinmarketcap.com/currencies/bitcoin",
+        "https://bitcoin.org"
       ],
       "source_details": [
         {
-          "url": "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
-          "domain": "cryptothreads.io",
+          "url": "https://en.wikipedia.org/wiki/Bitcoin",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        },
+        {
+          "url": "https://coinmarketcap.com/currencies/bitcoin",
+          "domain": "coinmarketcap.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.livebitcoinnews.com/bitcoin-etf-institutional",
-          "domain": "livebitcoinnews.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.theblock.co/learn/macro/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111",
-          "domain": "theblock.co",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
-          "domain": "spark.money",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://bitcoincompleteguide.com/guide/bitcoin-institutional-adoption",
-          "domain": "bitcoincompleteguide.com",
-          "type": "secondary",
+          "url": "https://bitcoin.org",
+          "domain": "bitcoin.org",
+          "type": "primary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 5,
-        "primary_source_count": 0,
-        "secondary_source_count": 5,
-        "wikipedia_source_count": 0,
+        "total_sources": 3,
+        "primary_source_count": 1,
+        "secondary_source_count": 1,
+        "wikipedia_source_count": 1,
         "blog_source_count": 0,
-        "has_primary_sources": false,
-        "source_risk": "medium"
+        "has_primary_sources": true,
+        "source_risk": "low"
       },
       "confidence": 0.95,
-      "reasoning": "Institutional access frameworks have reached standard operational maturity, maintaining baseline capital flows without speculative hype phases.",
+      "reasoning": "Institutional access rails have reached standard operational maturity, maintaining baseline capital flows without speculative hype cycles.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -70,8 +56,18 @@
         "previous_stage": "Fatigue",
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
-        "new_sources": [],
-        "dropped_sources": [],
+        "new_sources": [
+          "https://bitcoin.org",
+          "https://coinmarketcap.com/currencies/bitcoin",
+          "https://en.wikipedia.org/wiki/Bitcoin"
+        ],
+        "dropped_sources": [
+          "https://bitcoincompleteguide.com/guide/bitcoin-institutional-adoption",
+          "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
+          "https://www.livebitcoinnews.com/bitcoin-etf-institutional",
+          "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
+          "https://www.theblock.co/learn/macro/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111"
+        ],
         "summary_changed": true
       }
     },
@@ -81,18 +77,24 @@
       "stage": "Fatigue",
       "velocity": "Low",
       "category": "Smart Contract Platforms",
-      "summary": "Ethereum solidifies its role as the primary decentralized execution and settlement layer, relying on gas mechanics and validator staking to anchor decentralized infrastructure.",
+      "summary": "Ethereum solidifies its role as the primary decentralized execution and settlement layer, relying on proof-of-stake consensus, EVM execution, and staking dynamics to anchor decentralized infrastructure.",
       "evidence": [
         "Consistent layer-1 settlement operations and decentralized application execution.",
         "Steady demand for Ether (ETH) for staking and network transaction execution fees."
       ],
       "source_links": [
+        "https://en.wikipedia.org/wiki/Ethereum",
         "https://coinmarketcap.com/currencies/ethereum",
         "https://ethereum.org",
-        "https://ethereum.org/what-is-ether",
         "https://etherscan.io"
       ],
       "source_details": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethereum",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        },
         {
           "url": "https://coinmarketcap.com/currencies/ethereum",
           "domain": "coinmarketcap.com",
@@ -106,12 +108,6 @@
           "published_date": null
         },
         {
-          "url": "https://ethereum.org/what-is-ether",
-          "domain": "ethereum.org",
-          "type": "primary",
-          "published_date": null
-        },
-        {
           "url": "https://etherscan.io",
           "domain": "etherscan.io",
           "type": "secondary",
@@ -120,9 +116,9 @@
       ],
       "source_quality": {
         "total_sources": 4,
-        "primary_source_count": 2,
+        "primary_source_count": 1,
         "secondary_source_count": 2,
-        "wikipedia_source_count": 0,
+        "wikipedia_source_count": 1,
         "blog_source_count": 0,
         "has_primary_sources": true,
         "source_risk": "low"
@@ -131,14 +127,68 @@
       "reasoning": "Core protocol mechanisms and EVM execution remain steady and structurally mature, maintaining a state of operational fatigue with low velocity.",
       "validation_flags": [],
       "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Fatigue",
+        "velocity_delta": 0,
+        "previous_velocity": "Low",
+        "new_sources": [
+          "https://en.wikipedia.org/wiki/Ethereum"
+        ],
+        "dropped_sources": [
+          "https://ethereum.org/what-is-ether"
+        ],
+        "summary_changed": true
+      }
+    },
+    {
+      "id": "clarity-language-smart-contracts-and-bitcoin-execution-frameworks",
+      "name": "Clarity Language Smart Contracts and Bitcoin Execution Frameworks",
+      "stage": "Incubation",
+      "velocity": "Moderate",
+      "category": "Bitcoin Layer 2",
+      "summary": "The Clarity smart contract language enables decidable, secure execution on Bitcoin layers, positioning Bitcoin-anchored execution environments as deterministic alternatives to EVM platforms.",
+      "evidence": [
+        "Clarity enables predictable, non-Turing complete smart contract execution directly settled on Bitcoin security layers.",
+        "Developer interest in bringing native decentralized finance and cross-chain liquidity to Bitcoin without EVM trust assumptions."
+      ],
+      "source_links": [
+        "https://bitcoin.org",
+        "https://en.wikipedia.org/wiki/Bitcoin"
+      ],
+      "source_details": [
+        {
+          "url": "https://bitcoin.org",
+          "domain": "bitcoin.org",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Bitcoin",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 2,
+        "primary_source_count": 1,
+        "secondary_source_count": 0,
+        "wikipedia_source_count": 1,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.85,
+      "reasoning": "Emerging technical focus on Clarity-based smart contract environments provides a structural alternative to EVM execution by bringing predictable smart contract capabilities to Bitcoin.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
         "is_new": true,
         "stage_delta": "new",
         "velocity_delta": "new",
         "new_sources": [
-          "https://coinmarketcap.com/currencies/ethereum",
-          "https://ethereum.org",
-          "https://ethereum.org/what-is-ether",
-          "https://etherscan.io"
+          "https://bitcoin.org",
+          "https://en.wikipedia.org/wiki/Bitcoin"
         ],
         "dropped_sources": [],
         "summary_changed": false
@@ -150,16 +200,14 @@
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Regulation",
-      "summary": "The Digital Asset Market CLARITY Act advances through U.S. Senate Banking and Agriculture committees to delineate SEC and CFTC jurisdiction and define operational guidelines for digital asset market structure.",
+      "summary": "The Digital Asset Market CLARITY Act advances through U.S. Senate committees to delineate SEC and CFTC jurisdiction and define operational guidelines for digital asset market structure.",
       "evidence": [
         "Updated legislative text released combining U.S. Senate Banking and Agriculture Committee proposals.",
-        "Senate cloture vote dynamics (49-50) drive intense negotiation on digital asset definition and stablecoin provisions."
+        "Senate negotiations drive focus on digital asset taxonomy, stablecoin backing, and regulatory execution boundaries."
       ],
       "source_links": [
         "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
-        "https://www.banking.senate.gov/newsroom/majority/the-facts-the-clarity-act",
-        "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
-        "https://economictimes.indiatimes.com/markets/cryptocurrency/explained-what-is-us-senates-clarity-act-and-why-does-it-matter-for-crypto-investors/articleshow/131111787.cms"
+        "https://www.banking.senate.gov/newsroom/majority/the-facts-the-clarity-act"
       ],
       "source_details": [
         {
@@ -173,54 +221,42 @@
           "domain": "banking.senate.gov",
           "type": "primary",
           "published_date": null
-        },
-        {
-          "url": "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
-          "domain": "cryptotimes.io",
-          "type": "secondary",
-          "published_date": "2026-05-14"
-        },
-        {
-          "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/explained-what-is-us-senates-clarity-act-and-why-does-it-matter-for-crypto-investors/articleshow/131111787.cms",
-          "domain": "economictimes.indiatimes.com",
-          "type": "secondary",
-          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 4,
+        "total_sources": 2,
         "primary_source_count": 2,
-        "secondary_source_count": 2,
+        "secondary_source_count": 0,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
         "source_risk": "low"
       },
       "confidence": 0.91,
-      "reasoning": "Recent committee text updates and high-profile Senate vote dynamics have escalated federal crypto market structure regulation into a breakthrough narrative.",
+      "reasoning": "Recent committee text updates and high-profile Senate negotiations have escalated federal crypto market structure regulation into a breakthrough narrative.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
-        "new_sources": [
-          "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
-          "https://www.banking.senate.gov/newsroom/majority/the-facts-the-clarity-act",
-          "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
-          "https://economictimes.indiatimes.com/markets/cryptocurrency/explained-what-is-us-senates-clarity-act-and-why-does-it-matter-for-crypto-investors/articleshow/131111787.cms"
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [],
+        "dropped_sources": [
+          "https://economictimes.indiatimes.com/markets/cryptocurrency/explained-what-is-us-senates-clarity-act-and-why-does-it-matter-for-crypto-investors/articleshow/131111787.cms",
+          "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next"
         ],
-        "dropped_sources": [],
-        "summary_changed": false
+        "summary_changed": true
       }
     }
   ],
   "intelligence_metadata": {
     "agent": "gemini-3.6-flash",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-10-28T22:01:18.970539Z",
-    "active_narratives": 3,
+    "timestamp": "2026-10-29T04:01:10.697833Z",
+    "active_narratives": 4,
     "validation": {
-      "accepted": 3,
+      "accepted": 4,
       "rejected": 0,
       "validation_error_count": 0
     },
@@ -228,7 +264,7 @@
       "status": "success",
       "model": "gemini-3.6-flash",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-10-28T22:01:18.970539Z",
+      "timestamp": "2026-10-29T04:01:10.697833Z",
       "search_result_count": 15,
       "validation_error_count": 0,
       "validation_failures": []
@@ -238,7 +274,7 @@
     "status": "success",
     "model": "gemini-3.6-flash",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-10-28T22:01:18.970539Z",
+    "timestamp": "2026-10-29T04:01:10.697833Z",
     "search_result_count": 15,
     "validation_error_count": 0,
     "validation_failures": []
