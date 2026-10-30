@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-10-30 10:01
+# Tax Intelligence Briefing - 2026-10-30 16:01
 
-In late 2026, multinational tax strategy is driven by the steady enforcement of OECD Pillar Two global minimum tax rules alongside an expansion of real-time e-invoicing mandates globally. Meanwhile, statutory corporate tax rates have largely stabilized, pushing jurisdictions toward qualified non-rate incentives. Concurrently, heightened trade protectionism and shifting tariff regimes are requiring corporate tax and supply chain leaders to dynamically adjust international customs and trade risk strategies.
+In late 2026, corporate tax and international trade strategies are heavily shaped by the ongoing operationalization of the OECD Pillar Two global minimum tax, stabilizing statutory corporate income tax rates, and rising trade protectionism manifesting through active tariff updates. Concurrently, tax authorities globally continue to accelerate digital transformation through automated reporting frameworks and continuous transaction controls.
