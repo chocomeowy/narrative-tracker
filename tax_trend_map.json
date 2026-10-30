@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-30T16:01:22.277469Z",
-  "executive_briefing": "In late 2026, corporate tax and international trade strategies are heavily shaped by the ongoing operationalization of the OECD Pillar Two global minimum tax, stabilizing statutory corporate income tax rates, and rising trade protectionism manifesting through active tariff updates. Concurrently, tax authorities globally continue to accelerate digital transformation through automated reporting frameworks and continuous transaction controls.",
+  "last_updated": "2026-10-30T22:01:41.273305Z",
+  "executive_briefing": "In late 2026, corporate tax and international trade strategies continue to be heavily influenced by the global operationalization of the OECD Pillar Two 15% minimum tax framework, robust stabilization of corporate tax rates alongside targeted incentive restructuring, and active tariff updates across major global economies. Furthermore, regional tax administrations such as Singapore are aggressively scaling digital compliance infrastructure like mandatory e-invoicing networks.",
   "trends": [
     {
       "id": "oecd-pillar-two-and-global-minimum-tax-operationalization",
@@ -55,7 +55,7 @@
         "source_risk": "low"
       },
       "confidence": 0.99,
-      "reasoning": "Pillar Two compliance is fully operational worldwide, supported by concrete legislative updates and ongoing multi-jurisdictional reporting frameworks.",
+      "reasoning": "Pillar Two compliance remains fully operational worldwide, backed by extensive multi-jurisdictional reporting frameworks and updated tracking data.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -63,17 +63,9 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [
-          "https://whtcalculator.com/beps-pillar-two",
-          "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
-          "https://www.pwc.com/gx/en/services/tax/pillar-two-readiness/country-tracker.html"
-        ],
-        "dropped_sources": [
-          "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html",
-          "https://taxrate.org/corporate-tax-rates",
-          "https://www.ey.com/en_gl/technical/tax-guides/worldwide-corporate-tax-guide"
-        ],
-        "summary_changed": true
+        "new_sources": [],
+        "dropped_sources": [],
+        "summary_changed": false
       }
     },
     {
@@ -137,17 +129,9 @@
         "previous_stage": "Peak Hype",
         "velocity_delta": 0,
         "previous_velocity": "Medium",
-        "new_sources": [
-          "https://taxrate.org/corporate-tax-rates",
-          "https://www.novaledgeadvisory.com/insights/global-corporate-tax-rates-2026",
-          "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en.html"
-        ],
-        "dropped_sources": [
-          "https://pathmakerid.com/blog/corporate-tax-rates-in-asia-2026-a-9-country-asean-comparison",
-          "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026",
-          "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en/full-report/statutory-corporate-income-tax-rates_ce84abb9.html"
-        ],
-        "summary_changed": true
+        "new_sources": [],
+        "dropped_sources": [],
+        "summary_changed": false
       }
     },
     {
@@ -158,22 +142,16 @@
       "category": "International Trade",
       "summary": "Escalating trade protectionism and frequent adjustments to import tariffs and customs policies require corporate tax and supply chain leaders to dynamically recalibrate international operations.",
       "evidence": [
-        "Continuous reporting of shifting trade dynamics and tariff measures across major economies by Reuters and global trade monitors.",
+        "Continuous reporting of shifting trade dynamics and tariff measures across major economies by international trade monitors and global databases.",
         "Regular announcements and tracking updates from international trade commissions and customs clearance platforms."
       ],
       "source_links": [
-        "https://www.reuters.com/business/tariffs",
         "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
         "https://usacustomsclearance.com/import-tariffs-updates",
-        "https://ttd.wto.org/en"
+        "https://ttd.wto.org/en",
+        "https://tariffcheck.org/updates"
       ],
       "source_details": [
-        {
-          "url": "https://www.reuters.com/business/tariffs",
-          "domain": "reuters.com",
-          "type": "secondary",
-          "published_date": null
-        },
         {
           "url": "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
           "domain": "usitc.gov",
@@ -190,6 +168,12 @@
           "url": "https://ttd.wto.org/en",
           "domain": "ttd.wto.org",
           "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://tariffcheck.org/updates",
+          "domain": "tariffcheck.org",
+          "type": "secondary",
           "published_date": null
         }
       ],
@@ -212,19 +196,19 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
-          "https://ttd.wto.org/en"
+          "https://tariffcheck.org/updates"
         ],
         "dropped_sources": [
-          "https://www.spglobal.com/market-intelligence/en/news-insights/topics/international-trade-tariffs-news"
+          "https://www.reuters.com/business/tariffs"
         ],
-        "summary_changed": true
+        "summary_changed": false
       }
     }
   ],
   "intelligence_metadata": {
     "agent": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-10-30T16:01:22.277469Z",
+    "timestamp": "2026-10-30T22:01:41.273305Z",
     "active_narratives": 3,
     "validation": {
       "accepted": 3,
@@ -235,8 +219,8 @@
       "status": "success",
       "model": "gemini-3.5-flash-lite",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-10-30T16:01:22.277469Z",
-      "search_result_count": 16,
+      "timestamp": "2026-10-30T22:01:41.273305Z",
+      "search_result_count": 31,
       "validation_error_count": 0,
       "validation_failures": []
     }
@@ -245,8 +229,8 @@
     "status": "success",
     "model": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-10-30T16:01:22.277469Z",
-    "search_result_count": 16,
+    "timestamp": "2026-10-30T22:01:41.273305Z",
+    "search_result_count": 31,
     "validation_error_count": 0,
     "validation_failures": []
   }

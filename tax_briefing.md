@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-10-30 16:01
+# Tax Intelligence Briefing - 2026-10-30 22:01
 
-In late 2026, corporate tax and international trade strategies are heavily shaped by the ongoing operationalization of the OECD Pillar Two global minimum tax, stabilizing statutory corporate income tax rates, and rising trade protectionism manifesting through active tariff updates. Concurrently, tax authorities globally continue to accelerate digital transformation through automated reporting frameworks and continuous transaction controls.
+In late 2026, corporate tax and international trade strategies continue to be heavily influenced by the global operationalization of the OECD Pillar Two 15% minimum tax framework, robust stabilization of corporate tax rates alongside targeted incentive restructuring, and active tariff updates across major global economies. Furthermore, regional tax administrations such as Singapore are aggressively scaling digital compliance infrastructure like mandatory e-invoicing networks.
