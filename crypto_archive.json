@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-30T04:01:10.454784Z",
+  "last_updated": "2026-10-30T10:01:23.342593Z",
   "archived_trends": [
     {
       "name": "Cross-Chain Liquidity Solutions",
@@ -30874,6 +30874,118 @@
         "summary_changed": false
       },
       "archived_at": "2026-10-29T22:01:04.400235Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "ethereum-enterprise-execution-maturity",
+      "name": "Ethereum Enterprise Execution Maturity",
+      "stage": "Fatigue",
+      "velocity": "Low",
+      "category": "Smart Contract Platforms",
+      "summary": "Ethereum remains the foundational settlement layer for enterprise DeFi and smart contract frameworks, maintaining predictable execution utility.",
+      "evidence": [
+        "Stable smart contract usage across ERC-standardized financial tools.",
+        "Consolidated layer-1 staking and deterministic gas execution models."
+      ],
+      "source_links": [
+        "https://ethereum.org",
+        "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance"
+      ],
+      "source_details": [
+        {
+          "url": "https://ethereum.org",
+          "domain": "ethereum.org",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 2,
+        "primary_source_count": 1,
+        "secondary_source_count": 0,
+        "wikipedia_source_count": 1,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.92,
+      "reasoning": "Ethereum network usage shows stable, mature operational patterns with low growth velocity compared to emerging L2 and Bitcoin execution layers.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Fatigue",
+        "velocity_delta": 0,
+        "previous_velocity": "Low",
+        "new_sources": [],
+        "dropped_sources": [
+          "https://ethereum.org/what-is-ether"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-10-30T10:01:23.342593Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "cross-chain-liquidity-and-interoperability",
+      "name": "Cross-Chain Liquidity and Interoperability",
+      "stage": "Incubation",
+      "velocity": "Moderate",
+      "category": "DeFi",
+      "summary": "Trust-minimized cross-chain architectures facilitate direct liquidity transfers and native atomic swaps between BTC and ETH ecosystems without centralized wrappers.",
+      "evidence": [
+        "Deployment of trust-minimized protocols for direct swap mechanisms between Bitcoin and Ethereum.",
+        "Decreasing reliance on centralized wrapped asset bridges."
+      ],
+      "source_links": [
+        "https://across-bridge.app",
+        "https://trustwallet.com/blog/academy/cross-chain-swaps-explained"
+      ],
+      "source_details": [
+        {
+          "url": "https://across-bridge.app",
+          "domain": "across-bridge.app",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
+          "domain": "trustwallet.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 2,
+        "primary_source_count": 0,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.83,
+      "reasoning": "Technical bridge iterations are actively evolving toward trust-minimized interoperability across major Layer 1 ecosystems.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Incubation",
+        "velocity_delta": 0,
+        "previous_velocity": "Moderate",
+        "new_sources": [],
+        "dropped_sources": [
+          "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-10-30T10:01:23.342593Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
