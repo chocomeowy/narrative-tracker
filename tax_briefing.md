@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-10-31 04:01
+# Tax Intelligence Briefing - 2026-10-31 10:01
 
-In late 2026, corporate tax and international trade strategies continue to be heavily influenced by the global operationalization of the OECD Pillar Two 15% minimum tax framework, robust stabilization of corporate tax rates alongside targeted incentive restructuring, and active tariff updates across major global economies. Furthermore, regional tax administrations such as Singapore are aggressively scaling digital compliance infrastructure like mandatory e-invoicing networks.
+In late 2026, corporate tax and international trade strategies are heavily anchored by the operationalization of the OECD Pillar Two 15% minimum tax framework, stable statutory corporate tax rates paired with targeted incentive realignments, and continuous trade tariff modifications. Simultaneously, regional digital compliance continues to accelerate, evidenced by Singapore's phased rollout of mandatory e-invoicing through the InvoiceNow network.
