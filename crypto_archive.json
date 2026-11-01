@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-01T16:01:15.026408Z",
+  "last_updated": "2026-11-01T22:01:13.054642Z",
   "archived_trends": [
     {
       "name": "Cross-Chain Liquidity Solutions",
@@ -30986,6 +30986,184 @@
         "summary_changed": true
       },
       "archived_at": "2026-10-30T10:01:23.342593Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "trust-minimized-btc-eth-native-interoperability",
+      "name": "Trust-Minimized BTC-ETH Native Interoperability",
+      "stage": "Breakthrough",
+      "velocity": "High",
+      "category": "DeFi",
+      "summary": "Decentralized liquidity protocols enable native cross-chain swaps and asset transfers between Bitcoin and Ethereum without wrapped token custodial risks.",
+      "evidence": [
+        "THORChain and Zeus Network support direct swaps between native BTC and ETH via decentralized liquidity pools.",
+        "Cross-chain swap interfaces streamline trust-minimized asset transfers without centralized exchange reliance."
+      ],
+      "source_links": [
+        "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
+        "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps",
+        "https://chainspot.io/portal/bridges-by-chains/ethereum-to-bitcoin"
+      ],
+      "source_details": [
+        {
+          "url": "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
+          "domain": "bitunix.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps",
+          "domain": "gate.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://chainspot.io/portal/bridges-by-chains/ethereum-to-bitcoin",
+          "domain": "chainspot.io",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 3,
+        "primary_source_count": 0,
+        "secondary_source_count": 3,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.94,
+      "reasoning": "Direct asset swaps bypassing wrapped asset centralization demonstrate sustained growth and technical adoption.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [
+          "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
+          "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps"
+        ],
+        "dropped_sources": [
+          "https://ethereum.org/bridges"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-11-01T22:01:13.054642Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "clarity-smart-contracts-and-bitcoin-execution",
+      "name": "Clarity Smart Contracts and Bitcoin Execution",
+      "stage": "Incubation",
+      "velocity": "Moderate",
+      "category": "Bitcoin Layer 2",
+      "summary": "Deterministic Clarity language execution brings non-Turing complete logic and reentrancy protection to Bitcoin L2s, offering a security-focused alternative to EVM paradigms.",
+      "evidence": [
+        "Clarity provides predictable, auditable smart contract execution on Bitcoin layers to avoid EVM-style reentrancy flaws.",
+        "Developers leverage deterministic execution models to build secure decentralized applications directly anchored to Bitcoin."
+      ],
+      "source_links": [
+        "https://ethereum.org",
+        "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi"
+      ],
+      "source_details": [
+        {
+          "url": "https://ethereum.org",
+          "domain": "ethereum.org",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
+          "domain": "bitunix.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 2,
+        "primary_source_count": 1,
+        "secondary_source_count": 1,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.89,
+      "reasoning": "Technical adoption of Clarity for Bitcoin execution remains in incubation as alternative execution layers expand relative to standard EVM setups.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Incubation",
+        "velocity_delta": 0,
+        "previous_velocity": "Moderate",
+        "new_sources": [],
+        "dropped_sources": [],
+        "summary_changed": true
+      },
+      "archived_at": "2026-11-01T22:01:13.054642Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "ethereum-enterprise-settlement-maturity",
+      "name": "Ethereum Enterprise Settlement Maturity",
+      "stage": "Fatigue",
+      "velocity": "Low",
+      "category": "Smart Contract Platforms",
+      "summary": "Ethereum functions primarily as a high-security base layer for settlement and L2 rollups, while execution activity increasingly shifts to specialized execution environments.",
+      "evidence": [
+        "Post-Merge Proof-of-Stake consensus secures vast decentralized finance TVL and tokenized enterprise assets.",
+        "Execution scales outward to Layer 2 infrastructure, cementing mainnet as an economic settlement layer."
+      ],
+      "source_links": [
+        "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+        "https://ethereum.org/what-is-ether"
+      ],
+      "source_details": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        },
+        {
+          "url": "https://ethereum.org/what-is-ether",
+          "domain": "ethereum.org",
+          "type": "primary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 2,
+        "primary_source_count": 1,
+        "secondary_source_count": 0,
+        "wikipedia_source_count": 1,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.93,
+      "reasoning": "Mainnet role as an enterprise settlement layer is fully mature, maintaining a low-velocity Fatigue stage.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Fatigue",
+        "velocity_delta": 0,
+        "previous_velocity": "Low",
+        "new_sources": [
+          "https://ethereum.org/what-is-ether"
+        ],
+        "dropped_sources": [
+          "https://ethereum.org"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-11-01T22:01:13.054642Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
