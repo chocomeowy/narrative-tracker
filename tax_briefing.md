@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-11-01 10:01
+# Tax Intelligence Briefing - 2026-11-01 16:01
 
 In late 2026, global corporate tax policy and international trade regulation are defined by the active implementation of the OECD Pillar Two 15% minimum tax framework alongside shifting tariff barriers and protectionist trade measures. While headline corporate income tax rates remain stable in primary jurisdictions, governments are refocusing revenue policy on substance-backed incentives, intellectual property regimes, and aggressive digital enforcement through mandatory real-time e-invoicing frameworks like Singapore's InvoiceNow network.
