@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-02T04:01:08.377450Z",
-  "executive_briefing": "Late 2026 intelligence highlights a dual shift in digital asset market structure: mature institutional consolidation around Bitcoin spot ETFs and corporate treasuries, and expanding cross-chain liquidity channels integrating BTC directly into Ethereum DeFi. Institutional BTC holdings have surpassed $100 billion across regulated ETF vehicles and treasury strategies, locking BTC in as a core macro asset. Concurrently, Ethereum maintains its foundational role for smart contract settlement, while advanced bridge protocol architectures and native swap mechanisms (such as THORChain and decentralized bridging protocols) are increasingly bridging Bitcoin capital directly into EVM-compatible financial applications.",
+  "last_updated": "2026-11-02T10:01:18.211867Z",
+  "executive_briefing": "Late 2026 intelligence highlights an established dual-pillar market architecture: mature institutional integration of Bitcoin through regulated ETF vehicles and corporate treasuries, alongside Ethereum's consolidated position as the core settlement layer for smart contracts. Concurrently, high-velocity developments in cross-chain liquidity protocols, multi-chain bridges, and wrapped asset standards (such as WBTC and tBTC) are continuously bridging Bitcoin capital directly into EVM-compatible decentralized finance, driving cross-chain interoperability and financial utility across ecosystems.",
   "trends": [
     {
       "id": "institutional-bitcoin-treasury-and-etf-consolidation",
@@ -8,17 +8,17 @@
       "stage": "Fatigue",
       "velocity": "Moderate",
       "category": "Institutional Finance",
-      "summary": "Regulated spot Bitcoin ETFs and corporate treasury allocations have fully integrated BTC as a standard macroeconomic asset across institutional portfolios.",
+      "summary": "Regulated spot Bitcoin ETFs and corporate treasury allocations have fully normalized BTC as a standard macroeconomic asset across institutional portfolios.",
       "evidence": [
-        "Institutional BTC exposure through spot ETFs surpassed $100 billion, driven by BlackRock, Fidelity, and pension funds.",
-        "Corporate treasuries and institutional funds continuously utilize regulated ETF structures for direct exposure."
+        "Spot Bitcoin ETFs serve as the primary gateway for institutional capital, pension funds, and asset managers seeking BTC exposure.",
+        "Corporate treasuries and institutional funds continuously utilize regulated ETF structures for direct macro allocation and portfolio diversification."
       ],
       "source_links": [
         "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
         "https://www.theblock.co/learn/macro/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111",
         "https://www.livebitcoinnews.com/bitcoin-etf-institutional",
-        "https://www.blockchain-council.org/bitcoin/bitcoin-etf-inflows-btc-price",
-        "https://amifs.org/institutional-crypto-adoption-and-bitcoin-etf-approvals-how-regulation-is-reshaping-finance"
+        "https://amifs.org/institutional-crypto-adoption-and-bitcoin-etf-approvals-how-regulation-is-reshaping-finance",
+        "https://www.blockchain-council.org/bitcoin/bitcoin-etf-inflows-btc-price"
       ],
       "source_details": [
         {
@@ -40,14 +40,14 @@
           "published_date": null
         },
         {
-          "url": "https://www.blockchain-council.org/bitcoin/bitcoin-etf-inflows-btc-price",
-          "domain": "blockchain-council.org",
+          "url": "https://amifs.org/institutional-crypto-adoption-and-bitcoin-etf-approvals-how-regulation-is-reshaping-finance",
+          "domain": "amifs.org",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://amifs.org/institutional-crypto-adoption-and-bitcoin-etf-approvals-how-regulation-is-reshaping-finance",
-          "domain": "amifs.org",
+          "url": "https://www.blockchain-council.org/bitcoin/bitcoin-etf-inflows-btc-price",
+          "domain": "blockchain-council.org",
           "type": "secondary",
           "published_date": null
         }
@@ -72,26 +72,22 @@
         "previous_velocity": "Moderate",
         "new_sources": [],
         "dropped_sources": [],
-        "summary_changed": false
+        "summary_changed": true
       }
     },
     {
-      "id": "ethereum-enterprise-settlement-and-base-layer-utility",
-      "name": "Ethereum Enterprise Settlement and Base Layer Utility",
+      "id": "ethereum-base-layer-settlement-and-enterprise-utility",
+      "name": "Ethereum Base Layer Settlement and Enterprise Utility",
       "stage": "Fatigue",
       "velocity": "Low",
       "category": "Smart Contract Platforms",
-      "summary": "Ethereum continues to function as the premier base-layer settlement layer for decentralized finance, smart contract execution, and tokenized asset liquidity.",
+      "summary": "Ethereum maintains its foundational role as the premier base-layer settlement layer for decentralized finance, smart contract execution, and tokenized asset liquidity.",
       "evidence": [
-        "ETH functions as the core staking asset and fee utility securing decentralized applications and settlement layers.",
-        "Mainnet remains the primary liquidity hub for smart contract deployment and cross-chain bridging hubs."
+        "Ethereum operates as the primary smart contract layer facilitating decentralized application hosting and enterprise tokenization.",
+        "Proof-of-Stake consensus and core EVM standards provide persistent security and liquidity infrastructure for decentralized finance."
       ],
       "source_links": [
-        "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
-        "https://coinmarketcap.com/currencies/ethereum",
-        "https://etherscan.io",
-        "https://ethereum.org",
-        "https://ethereum.org/what-is-ether"
+        "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance"
       ],
       "source_details": [
         {
@@ -99,76 +95,51 @@
           "domain": "en.wikipedia.org",
           "type": "wikipedia",
           "published_date": null
-        },
-        {
-          "url": "https://coinmarketcap.com/currencies/ethereum",
-          "domain": "coinmarketcap.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://etherscan.io",
-          "domain": "etherscan.io",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://ethereum.org",
-          "domain": "ethereum.org",
-          "type": "primary",
-          "published_date": null
-        },
-        {
-          "url": "https://ethereum.org/what-is-ether",
-          "domain": "ethereum.org",
-          "type": "primary",
-          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 5,
-        "primary_source_count": 2,
-        "secondary_source_count": 2,
+        "total_sources": 1,
+        "primary_source_count": 0,
+        "secondary_source_count": 0,
         "wikipedia_source_count": 1,
         "blog_source_count": 0,
-        "has_primary_sources": true,
-        "source_risk": "low"
+        "has_primary_sources": false,
+        "source_risk": "high"
       },
       "confidence": 0.92,
       "reasoning": "Base-layer utility and staking security are fully established with steady, low-velocity structural adoption.",
-      "validation_flags": [],
+      "validation_flags": [
+        "weak_source_support",
+        "wikipedia_only"
+      ],
       "changed_since_previous_run": {
         "is_new": true,
         "stage_delta": "new",
         "velocity_delta": "new",
         "new_sources": [
-          "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
-          "https://coinmarketcap.com/currencies/ethereum",
-          "https://etherscan.io",
-          "https://ethereum.org",
-          "https://ethereum.org/what-is-ether"
+          "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance"
         ],
         "dropped_sources": [],
         "summary_changed": false
       }
     },
     {
-      "id": "cross-chain-liquidity-and-native-interoperability-between-bitcoin-and-ethereum",
-      "name": "Cross-Chain Liquidity and Native Interoperability Between Bitcoin and Ethereum",
+      "id": "cross-chain-liquidity-and-bitcoin-to-ethereum-interoperability",
+      "name": "Cross-Chain Liquidity and Bitcoin-to-Ethereum Interoperability",
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Cross-Chain Infrastructure",
-      "summary": "Cross-chain swap protocols, wrapped representations (WBTC, tBTC), and native liquidity pools are enabling seamless capital movement from Bitcoin into Ethereum DeFi applications.",
+      "summary": "Advanced cross-chain liquidity bridges, non-custodial swaps, and wrapped representations enable frictionless capital movement from Bitcoin into EVM DeFi applications.",
       "evidence": [
-        "THORChain and non-custodial cross-chain protocols facilitate native BTC-to-ETH swaps without centralized intermediaries.",
-        "Cross-chain bridges actively link Bitcoin capital with Ethereum smart contract applications and decentralized lending markets."
+        "Modern liquidity pool bridges (such as Across Protocol, Stargate, and Synapse) enable fast cross-chain transfers between networks.",
+        "Wrapped representations (WBTC, tBTC) and multi-chain swap protocols actively facilitate direct BTC integration into Ethereum smart contracts and lending pools."
       ],
       "source_links": [
         "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
-        "https://ethereum.org/bridges",
-        "https://godex.io/blog/cross-chain-crypto-swaps-best-exchanges-for-multi-blockchain-trading",
-        "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
-        "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps"
+        "https://dailycoin.com/best-cross-chain-bridges-in-crypto",
+        "https://chainspot.io/portal/bridges-by-chains/ethereum-to-bitcoin",
+        "https://blocklr.com/guides/how-to-bridge-crypto",
+        "https://trustwallet.com/blog/academy/cross-chain-swaps-explained"
       ],
       "source_details": [
         {
@@ -178,14 +149,20 @@
           "published_date": null
         },
         {
-          "url": "https://ethereum.org/bridges",
-          "domain": "ethereum.org",
-          "type": "primary",
+          "url": "https://dailycoin.com/best-cross-chain-bridges-in-crypto",
+          "domain": "dailycoin.com",
+          "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://godex.io/blog/cross-chain-crypto-swaps-best-exchanges-for-multi-blockchain-trading",
-          "domain": "godex.io",
+          "url": "https://chainspot.io/portal/bridges-by-chains/ethereum-to-bitcoin",
+          "domain": "chainspot.io",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://blocklr.com/guides/how-to-bridge-crypto",
+          "domain": "blocklr.com",
           "type": "secondary",
           "published_date": null
         },
@@ -194,25 +171,19 @@
           "domain": "trustwallet.com",
           "type": "secondary",
           "published_date": null
-        },
-        {
-          "url": "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps",
-          "domain": "gate.com",
-          "type": "secondary",
-          "published_date": null
         }
       ],
       "source_quality": {
         "total_sources": 5,
-        "primary_source_count": 1,
-        "secondary_source_count": 4,
+        "primary_source_count": 0,
+        "secondary_source_count": 5,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
-        "has_primary_sources": true,
-        "source_risk": "low"
+        "has_primary_sources": false,
+        "source_risk": "medium"
       },
-      "confidence": 0.91,
-      "reasoning": "Accelerating demand for native BTC liquidity in EVM DeFi ecosystems drives high-velocity adoption of non-custodial cross-chain bridges and swap protocols.",
+      "confidence": 0.93,
+      "reasoning": "Accelerating demand for bringing native BTC liquidity into EVM DeFi ecosystems drives high-velocity adoption of non-custodial cross-chain bridges and swap protocols.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": true,
@@ -220,10 +191,10 @@
         "velocity_delta": "new",
         "new_sources": [
           "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
-          "https://ethereum.org/bridges",
-          "https://godex.io/blog/cross-chain-crypto-swaps-best-exchanges-for-multi-blockchain-trading",
-          "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
-          "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps"
+          "https://dailycoin.com/best-cross-chain-bridges-in-crypto",
+          "https://chainspot.io/portal/bridges-by-chains/ethereum-to-bitcoin",
+          "https://blocklr.com/guides/how-to-bridge-crypto",
+          "https://trustwallet.com/blog/academy/cross-chain-swaps-explained"
         ],
         "dropped_sources": [],
         "summary_changed": false
@@ -231,9 +202,9 @@
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.6-flash",
+    "agent": "gemini-3.5-flash",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-11-02T04:01:08.377450Z",
+    "timestamp": "2026-11-02T10:01:18.211867Z",
     "active_narratives": 3,
     "validation": {
       "accepted": 3,
@@ -242,20 +213,20 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.6-flash",
+      "model": "gemini-3.5-flash",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-11-02T04:01:08.377450Z",
-      "search_result_count": 15,
+      "timestamp": "2026-11-02T10:01:18.211867Z",
+      "search_result_count": 11,
       "validation_error_count": 0,
       "validation_failures": []
     }
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.6-flash",
+    "model": "gemini-3.5-flash",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-11-02T04:01:08.377450Z",
-    "search_result_count": 15,
+    "timestamp": "2026-11-02T10:01:18.211867Z",
+    "search_result_count": 11,
     "validation_error_count": 0,
     "validation_failures": []
   }
