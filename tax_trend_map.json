@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-02T04:01:22.351837Z",
-  "executive_briefing": "In late 2026, global corporate tax policy is defined by the full operationalization of the OECD Pillar Two 15% global minimum tax framework, structural stabilization of statutory corporate income tax rates, and the rapid expansion of mandatory real-time e-invoicing networks such as Singapore's GST InvoiceNow initiative. As statutory tax cuts plateau, revenue authorities across major economic corridors and the ASEAN region are pivoting toward substance-based incentive realignment, base erosion monitoring, and automated transaction-level digital tax reporting.",
+  "last_updated": "2026-11-02T10:01:58.305656Z",
+  "executive_briefing": "Global corporate tax policy in late 2026 continues to be anchored by the institutionalization of the OECD Pillar Two 15% global minimum tax framework and the stabilization of statutory corporate income tax rates. As nominal rates arrest their historical downward trend, revenue authorities worldwide are shifting their primary policy instruments toward substance-based incentive realignments, enhanced R&D credits, and rigorous base erosion monitoring. Concurrently, major economic hubs and ASEAN jurisdictions are scaling mandatory real-time electronic invoicing networks to eliminate tax leakage and automate transaction-level compliance.",
   "trends": [
     {
       "id": "oecd-pillar-two-and-global-minimum-tax-operationalization",
@@ -15,8 +15,7 @@
       ],
       "source_links": [
         "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en/full-report.html",
-        "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html",
-        "https://taxrate.org/corporate-tax-rates"
+        "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html"
       ],
       "source_details": [
         {
@@ -30,18 +29,12 @@
           "domain": "kpmg.com",
           "type": "secondary",
           "published_date": "2026-07-01"
-        },
-        {
-          "url": "https://taxrate.org/corporate-tax-rates",
-          "domain": "taxrate.org",
-          "type": "secondary",
-          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 3,
+        "total_sources": 2,
         "primary_source_count": 1,
-        "secondary_source_count": 2,
+        "secondary_source_count": 1,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
@@ -57,7 +50,9 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [],
-        "dropped_sources": [],
+        "dropped_sources": [
+          "https://taxrate.org/corporate-tax-rates"
+        ],
         "summary_changed": false
       }
     },
@@ -67,15 +62,14 @@
       "stage": "Peak Hype",
       "velocity": "Medium",
       "category": "Corporate Tax",
-      "summary": "Statutory corporate income tax rates have plateaued globally, driving tax policy toward substance-based incentives, R&D credits, and regional tax harmonization in ASEAN and financial hubs.",
+      "summary": "Statutory corporate income tax rates have plateaued globally between 2020 and 2026, driving tax policy toward substance-based incentives, R&D credits, and regional tax harmonization in ASEAN and financial hubs.",
       "evidence": [
         "EY Worldwide Corporate Tax Guide 2026-27 documents rapid tax code reforms focused on tax base preservation rather than nominal rate reductions.",
-        "Grant Thornton ASEAN 6 Tax Guide and Deloitte analysis highlight corporate tax harmonizations, energy cost impact assessments, and regional tax treatment across Southeast Asia."
+        "OECD Corporate Tax Statistics 2026 notes statutory corporate income tax rates remained stable, arresting the downward trend of the prior two decades."
       ],
       "source_links": [
         "https://www.ey.com/en_gl/technical/tax-guides/worldwide-corporate-tax-guide",
-        "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026",
-        "https://www.deloitte.com/southeast-asia/en/services/international-specialist-services/services/csg-2026-guide-to-taxation-in-sea.html",
+        "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en.html",
         "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income"
       ],
       "source_details": [
@@ -86,15 +80,9 @@
           "published_date": null
         },
         {
-          "url": "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026",
-          "domain": "grantthornton.co.th",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.deloitte.com/southeast-asia/en/services/international-specialist-services/services/csg-2026-guide-to-taxation-in-sea.html",
-          "domain": "deloitte.com",
-          "type": "secondary",
+          "url": "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en.html",
+          "domain": "oecd.org",
+          "type": "primary",
           "published_date": null
         },
         {
@@ -105,13 +93,13 @@
         }
       ],
       "source_quality": {
-        "total_sources": 4,
-        "primary_source_count": 0,
-        "secondary_source_count": 4,
+        "total_sources": 3,
+        "primary_source_count": 1,
+        "secondary_source_count": 2,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
-        "has_primary_sources": false,
-        "source_risk": "medium"
+        "has_primary_sources": true,
+        "source_risk": "low"
       },
       "confidence": 0.96,
       "reasoning": "Statutory corporate tax rates remain stable across major economies while governments actively restructure domestic tax bases and substance requirements.",
@@ -123,11 +111,11 @@
         "velocity_delta": 0,
         "previous_velocity": "Medium",
         "new_sources": [
-          "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
-          "https://www.deloitte.com/southeast-asia/en/services/international-specialist-services/services/csg-2026-guide-to-taxation-in-sea.html"
+          "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en.html"
         ],
         "dropped_sources": [
-          "https://www.novaledgeadvisory.com/insights/global-corporate-tax-rates-2026"
+          "https://www.deloitte.com/southeast-asia/en/services/international-specialist-services/services/csg-2026-guide-to-taxation-in-sea.html",
+          "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026"
         ],
         "summary_changed": true
       }
@@ -138,54 +126,40 @@
       "stage": "Breakthrough",
       "velocity": "Fast",
       "category": "Digital Compliance",
-      "summary": "Tax authorities are accelerating mandatory real-time electronic invoicing and transaction reporting over interoperable Peppol networks, exemplified by Singapore's phased GST InvoiceNow mandate extending through 2031.",
+      "summary": "Tax authorities are accelerating mandatory real-time electronic invoicing and transaction reporting over interoperable networks, exemplified by Singapore's phased GST InvoiceNow mandate extending through 2031.",
       "evidence": [
         "Singapore's phased rollout of mandatory GST InvoiceNow data transmission via Peppol commencing in late 2025 and expanding to all GST-registered entities by 2031.",
-        "Widespread enterprise adoption of PINT SG specifications and direct IRAS tax authority endpoints to automate tax compliance and real-time transaction tracking."
+        "IRAS and regional guidelines outline structured digital format compliance mandates to automate transaction-level corporate tax and GST auditing."
       ],
       "source_links": [
-        "https://e-invoicing.org/singapore",
-        "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-        "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
-        "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
-        "https://www.e-invoice.app/guides/singapore-e-invoicing"
+        "https://www.iras.gov.sg/taxes/corporate-income-tax",
+        "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
+        "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html"
       ],
       "source_details": [
         {
-          "url": "https://e-invoicing.org/singapore",
-          "domain": "e-invoicing.org",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-          "domain": "cleartax.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
-          "domain": "imda.gov.sg",
+          "url": "https://www.iras.gov.sg/taxes/corporate-income-tax",
+          "domain": "iras.gov.sg",
           "type": "primary",
           "published_date": null
         },
         {
-          "url": "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
-          "domain": "avalara.com",
+          "url": "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
+          "domain": "taxsummaries.pwc.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.e-invoice.app/guides/singapore-e-invoicing",
-          "domain": "e-invoice.app",
+          "url": "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html",
+          "domain": "avalara.com",
           "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 5,
+        "total_sources": 3,
         "primary_source_count": 1,
-        "secondary_source_count": 4,
+        "secondary_source_count": 2,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
@@ -200,16 +174,26 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [],
-        "dropped_sources": [],
+        "new_sources": [
+          "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
+          "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html",
+          "https://www.iras.gov.sg/taxes/corporate-income-tax"
+        ],
+        "dropped_sources": [
+          "https://e-invoicing.org/singapore",
+          "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
+          "https://www.cleartax.com/sg/en/e-invoicing-singapore",
+          "https://www.e-invoice.app/guides/singapore-e-invoicing",
+          "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework"
+        ],
         "summary_changed": true
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.6-flash",
+    "agent": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-11-02T04:01:22.351837Z",
+    "timestamp": "2026-11-02T10:01:58.305656Z",
     "active_narratives": 3,
     "validation": {
       "accepted": 3,
@@ -218,9 +202,9 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.6-flash",
+      "model": "gemini-3.5-flash-lite",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-11-02T04:01:22.351837Z",
+      "timestamp": "2026-11-02T10:01:58.305656Z",
       "search_result_count": 25,
       "validation_error_count": 0,
       "validation_failures": []
@@ -228,9 +212,9 @@
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.6-flash",
+    "model": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-11-02T04:01:22.351837Z",
+    "timestamp": "2026-11-02T10:01:58.305656Z",
     "search_result_count": 25,
     "validation_error_count": 0,
     "validation_failures": []
