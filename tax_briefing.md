@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-11-04 04:01
+# Tax Intelligence Briefing - 2026-11-04 10:01
 
 As of late 2026, global corporate tax regimes and international trade compliance are defined by statutory rate stabilization, OECD Pillar Two implementation, and escalating tariff volatility. Global corporate income tax rates have plateaued following two decades of decline, prompting tax authorities to pivot toward substance-based R&D incentives and real-time digital compliance like mandatory e-invoicing frameworks. Concurrently, international trade policy faces heightened friction driven by unilateral duty suspensions, legal challenges around forced-labor trade bans, and dynamic tariff enforcement across global supply chains.

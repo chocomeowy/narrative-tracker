@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-04T04:01:19.843675Z",
+  "last_updated": "2026-11-04T10:01:15.662648Z",
   "executive_briefing": "As of late 2026, global corporate tax regimes and international trade compliance are defined by statutory rate stabilization, OECD Pillar Two implementation, and escalating tariff volatility. Global corporate income tax rates have plateaued following two decades of decline, prompting tax authorities to pivot toward substance-based R&D incentives and real-time digital compliance like mandatory e-invoicing frameworks. Concurrently, international trade policy faces heightened friction driven by unilateral duty suspensions, legal challenges around forced-labor trade bans, and dynamic tariff enforcement across global supply chains.",
   "trends": [
     {
@@ -57,15 +57,9 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [
-          "https://taxrate.org/corporate-tax-rates"
-        ],
-        "dropped_sources": [
-          "https://journals.law.harvard.edu/ilj/wp-content/uploads/sites/84/Vol.-67.1_Gomes_The-Global-Minimum-Tax-Pillar-Two.pdf",
-          "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
-          "https://www.pwc.com/gx/en/services/tax/pillar-two-readiness/country-tracker.html"
-        ],
-        "summary_changed": true
+        "new_sources": [],
+        "dropped_sources": [],
+        "summary_changed": false
       }
     },
     {
@@ -81,13 +75,14 @@
         "NovaLedge Advisory 7-market analysis shows stable headline corporate tax rates across key economies paired with restructured payroll and incentive structures."
       ],
       "source_links": [
-        "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en.html",
+        "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en/full-report.html",
         "https://taxrate.org/corporate-tax-rates",
-        "https://www.novaledgeadvisory.com/insights/global-corporate-tax-rates-2026"
+        "https://www.novaledgeadvisory.com/insights/global-corporate-tax-rates-2026",
+        "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026"
       ],
       "source_details": [
         {
-          "url": "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en.html",
+          "url": "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en/full-report.html",
           "domain": "oecd.org",
           "type": "primary",
           "published_date": null
@@ -103,12 +98,18 @@
           "domain": "novaledgeadvisory.com",
           "type": "secondary",
           "published_date": null
+        },
+        {
+          "url": "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
+          "domain": "bdo.global",
+          "type": "secondary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 3,
+        "total_sources": 4,
         "primary_source_count": 1,
-        "secondary_source_count": 2,
+        "secondary_source_count": 3,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
@@ -123,9 +124,14 @@
         "previous_stage": "Peak Hype",
         "velocity_delta": 0,
         "previous_velocity": "Medium",
-        "new_sources": [],
-        "dropped_sources": [],
-        "summary_changed": true
+        "new_sources": [
+          "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026",
+          "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en/full-report.html"
+        ],
+        "dropped_sources": [
+          "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en.html"
+        ],
+        "summary_changed": false
       }
     },
     {
@@ -141,24 +147,12 @@
         "Canada Revenue Agency and Indian GST portals update compliance protocols for corporate transactional filings."
       ],
       "source_links": [
-        "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
-        "https://grokipedia.com/page/Invoicing_Software",
         "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html",
-        "https://taxsummaries.pwc.com/india/corporate/other-taxes"
+        "https://taxsummaries.pwc.com/india/corporate/other-taxes",
+        "https://grokipedia.com/page/Invoicing_Software",
+        "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html"
       ],
       "source_details": [
-        {
-          "url": "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
-          "domain": "imda.gov.sg",
-          "type": "primary",
-          "published_date": null
-        },
-        {
-          "url": "https://grokipedia.com/page/Invoicing_Software",
-          "domain": "grokipedia.com",
-          "type": "secondary",
-          "published_date": null
-        },
         {
           "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html",
           "domain": "canada.ca",
@@ -170,16 +164,28 @@
           "domain": "taxsummaries.pwc.com",
           "type": "secondary",
           "published_date": null
+        },
+        {
+          "url": "https://grokipedia.com/page/Invoicing_Software",
+          "domain": "grokipedia.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html",
+          "domain": "avalara.com",
+          "type": "secondary",
+          "published_date": null
         }
       ],
       "source_quality": {
         "total_sources": 4,
-        "primary_source_count": 1,
-        "secondary_source_count": 3,
+        "primary_source_count": 0,
+        "secondary_source_count": 4,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
-        "has_primary_sources": true,
-        "source_risk": "low"
+        "has_primary_sources": false,
+        "source_risk": "medium"
       },
       "confidence": 0.97,
       "reasoning": "Digital compliance maintains Breakthrough status as e-invoicing becomes an operational prerequisite for corporate tax compliance worldwide.",
@@ -191,17 +197,12 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
-          "https://grokipedia.com/page/Invoicing_Software",
-          "https://taxsummaries.pwc.com/india/corporate/other-taxes",
-          "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html"
+          "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html"
         ],
         "dropped_sources": [
-          "https://e-invoicing.org/singapore",
-          "https://learn.microsoft.com/en-us/dynamics365/finance/localizations/singapore/apac-singapore-electronic-invoices",
-          "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
-          "https://www.cleartax.com/sg/en/e-invoicing-singapore"
+          "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework"
         ],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
@@ -212,16 +213,16 @@
       "category": "Tariffs",
       "summary": "Geopolitical tensions and trade policy realignments are accelerating unilateral duty adjustments, trade court litigation, and dynamic tariff changes across international supply chains.",
       "evidence": [
-        "Reuters reports recent US tariff suspensions targeting South Africa and Rwanda alongside proposed tariffs on imports from Vietnam.",
-        "CNBC reports ongoing trade court litigation challenging executive trade tariffs premised on forced labor enforcement.",
-        "WTO Tariff & Trade Data and USITC HTS updates document frequent updates to applied duties and dispute adjudications."
+        "Reuters reports recent executive import tariffs throwing global trade into uncertainty.",
+        "USITC Harmonized Tariff Information announcements reflect active administrative adjustments.",
+        "WTO Tariff & Trade Data and TariffCheck.org document dynamic duty changes across over 170 economies."
       ],
       "source_links": [
         "https://www.reuters.com/business/tariffs",
-        "https://www.cnbc.com/2026/09/30/trump-tariffs-trade-lawsuit.html",
         "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
+        "https://usacustomsclearance.com/import-tariffs-updates",
         "https://ttd.wto.org/en",
-        "https://usacustomsclearance.com/import-tariffs-updates"
+        "https://tariffcheck.org/updates"
       ],
       "source_details": [
         {
@@ -231,15 +232,15 @@
           "published_date": null
         },
         {
-          "url": "https://www.cnbc.com/2026/09/30/trump-tariffs-trade-lawsuit.html",
-          "domain": "cnbc.com",
-          "type": "secondary",
-          "published_date": "2026-09-30"
-        },
-        {
           "url": "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
           "domain": "usitc.gov",
           "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://usacustomsclearance.com/import-tariffs-updates",
+          "domain": "usacustomsclearance.com",
+          "type": "secondary",
           "published_date": null
         },
         {
@@ -249,8 +250,8 @@
           "published_date": null
         },
         {
-          "url": "https://usacustomsclearance.com/import-tariffs-updates",
-          "domain": "usacustomsclearance.com",
+          "url": "https://tariffcheck.org/updates",
+          "domain": "tariffcheck.org",
           "type": "secondary",
           "published_date": null
         }
@@ -274,11 +275,12 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
-          "https://www.cnbc.com/2026/09/30/trump-tariffs-trade-lawsuit.html",
-          "https://www.reuters.com/business/tariffs"
+          "https://tariffcheck.org/updates"
         ],
-        "dropped_sources": [],
-        "summary_changed": true
+        "dropped_sources": [
+          "https://www.cnbc.com/2026/09/30/trump-tariffs-trade-lawsuit.html"
+        ],
+        "summary_changed": false
       }
     },
     {
@@ -336,20 +338,16 @@
         "previous_stage": "Incubation",
         "velocity_delta": 0,
         "previous_velocity": "Medium",
-        "new_sources": [
-          "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates"
-        ],
-        "dropped_sources": [
-          "https://www.eria.org/uploads/Global-Minimum-Tax-Policy-Impact-on-Investment-Promotion-and-Incentive-in-AMS.pdf"
-        ],
-        "summary_changed": true
+        "new_sources": [],
+        "dropped_sources": [],
+        "summary_changed": false
       }
     }
   ],
   "intelligence_metadata": {
     "agent": "gemini-3.6-flash",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-11-04T04:01:19.843675Z",
+    "timestamp": "2026-11-04T10:01:15.662648Z",
     "active_narratives": 5,
     "validation": {
       "accepted": 5,
@@ -360,8 +358,8 @@
       "status": "success",
       "model": "gemini-3.6-flash",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-11-04T04:01:19.843675Z",
-      "search_result_count": 26,
+      "timestamp": "2026-11-04T10:01:15.662648Z",
+      "search_result_count": 30,
       "validation_error_count": 0,
       "validation_failures": []
     }
@@ -370,8 +368,8 @@
     "status": "success",
     "model": "gemini-3.6-flash",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-11-04T04:01:19.843675Z",
-    "search_result_count": 26,
+    "timestamp": "2026-11-04T10:01:15.662648Z",
+    "search_result_count": 30,
     "validation_error_count": 0,
     "validation_failures": []
   }
