@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-11-04 22:01
+# Tax Intelligence Briefing - 2026-11-05 04:01
 
-As of late 2026, the international tax and trade environment is dominated by the full operationalization of the OECD's Pillar Two minimum tax, sustained statutory corporate tax stability paired with targeted innovation incentives, and rapid implementation of digital compliance frameworks like e-invoicing. Concurrently, international trade policy continues to face heightened tariff volatility and structural realignments driven by shifting geopolitical strategies and dynamic trade adjustments across major economies.
+As of late 2026, the global tax landscape is anchored by the comprehensive operationalization of the OECD Pillar Two global minimum tax and the plateauing of statutory corporate rates. Meanwhile, regional tax frameworks in areas like ASEAN are adapting to these global rules while safeguarding regional competitiveness, and digital compliance mandates such as real-time e-invoicing continue to expand rapidly.
