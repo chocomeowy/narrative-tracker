@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-11-05 04:01
+# Tax Intelligence Briefing - 2026-11-05 10:01
 
-As of late 2026, the global tax landscape is anchored by the comprehensive operationalization of the OECD Pillar Two global minimum tax and the plateauing of statutory corporate rates. Meanwhile, regional tax frameworks in areas like ASEAN are adapting to these global rules while safeguarding regional competitiveness, and digital compliance mandates such as real-time e-invoicing continue to expand rapidly.
+In late 2026, global tax policy is dominated by the consolidation of the OECD Pillar Two global minimum tax, which has shifted from an implementation phase to one of active operational auditing and compliance. Statutory corporate tax rates globally remain largely stagnant, signaling an end to the 'race to the bottom,' as nations pivot toward base preservation. Significant geopolitical friction is manifesting in volatile tariff adjustments, while digital tax compliance via structured e-invoicing is becoming a baseline requirement for international trade, particularly in the ASEAN region.
