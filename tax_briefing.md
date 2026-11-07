@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-11-07 04:01
+# Tax Intelligence Briefing - 2026-11-07 10:01
 
-Global corporate tax strategy in late 2026 is driven by the operational enforcement of OECD Pillar Two minimum tax standards alongside active dynamic import tariff recalibrations and mandatory digital e-invoicing expansions. Statutory corporate income tax rates remain largely stabilized globally, prompting financial hubs like Singapore and regional ASEAN economies to refine domestic corporate tax incentives and real-time transaction reporting networks to preserve investment competitiveness and tax transparency.
+Global corporate tax policy in late 2026 is dominated by the operational enforcement of OECD Pillar Two 15% global minimum tax rules, mandatory real-time digital transaction reporting such as Singapore's GST InvoiceNow network, and active recalibration of international import tariffs. As statutory corporate income tax rates remain stabilized globally, tax authorities are prioritizing base protection, indirect tax electronic compliance enforcement, and strategic domestic incentive frameworks.
