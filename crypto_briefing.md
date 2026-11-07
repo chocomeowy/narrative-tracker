@@ -1,3 +1,3 @@
-# Crypto Intelligence Briefing - 2026-11-07 16:01
+# Crypto Intelligence Briefing - 2026-11-07 22:01
 
 The digital asset landscape in late 2026 is defined by structural adaptation following the failure of the US Senate to pass the CLARITY Act in a 49-50 cloture vote. This legislative deadlock has catalyzed a developer pivot toward protocol sovereignty, driving the deployment of native smart contract execution environments on Bitcoin designed to compete directly with Ethereum's EVM architecture without relying on federal regulatory clarity. Simultaneously, spot Bitcoin ETFs have consolidated into mature macro treasury vehicles hovering near the $100 billion AUM threshold, while decentralized cross-chain swap primitives continue to advance trust-minimized, unwrapped BTC-to-ETH liquidity interoperability.
