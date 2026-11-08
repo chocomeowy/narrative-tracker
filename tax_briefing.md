@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-11-07 22:01
+# Tax Intelligence Briefing - 2026-11-08 04:01
 
-Late 2026 corporate tax policy is defined by the operational enforcement of the OECD Pillar Two 15% global minimum tax across major jurisdictions, aggressive recalibration of international import tariffs affecting cross-border supply chains, and widespread adoption of digital compliance frameworks like mandatory structured e-invoicing. With global statutory corporate tax rates remaining largely plateaued, sovereign tax authorities are prioritizing revenue defense through continuous transaction reporting, targeted incentive structures, and enforcement of base protection mechanisms.
+Late 2026 corporate tax policy remains dominated by the global operationalization of the OECD Pillar Two 15% minimum tax framework across more than 50 jurisdictions, alongside accelerating mandates for digital Continuous Transaction Controls (CTC) and structured e-invoicing. With statutory corporate tax rates remaining largely stable globally, tax administrations are prioritizing real-time compliance automation, cross-border tariff adjustments, and robust base-protection enforcement.

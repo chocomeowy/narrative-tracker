@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-07T22:01:19.211984Z",
-  "executive_briefing": "Late 2026 corporate tax policy is defined by the operational enforcement of the OECD Pillar Two 15% global minimum tax across major jurisdictions, aggressive recalibration of international import tariffs affecting cross-border supply chains, and widespread adoption of digital compliance frameworks like mandatory structured e-invoicing. With global statutory corporate tax rates remaining largely plateaued, sovereign tax authorities are prioritizing revenue defense through continuous transaction reporting, targeted incentive structures, and enforcement of base protection mechanisms.",
+  "last_updated": "2026-11-08T04:01:14.950743Z",
+  "executive_briefing": "Late 2026 corporate tax policy remains dominated by the global operationalization of the OECD Pillar Two 15% minimum tax framework across more than 50 jurisdictions, alongside accelerating mandates for digital Continuous Transaction Controls (CTC) and structured e-invoicing. With statutory corporate tax rates remaining largely stable globally, tax administrations are prioritizing real-time compliance automation, cross-border tariff adjustments, and robust base-protection enforcement.",
   "trends": [
     {
       "id": "oecd-pillar-two-and-global-minimum-tax-operationalization",
@@ -8,14 +8,15 @@
       "stage": "Breakthrough",
       "velocity": "Fast",
       "category": "Corporate Tax",
-      "summary": "The 15% global minimum tax under OECD GloBE rules continues widespread international enforcement across over 50 jurisdictions, fundamentally altering multinational enterprise tax planning and reporting.",
+      "summary": "The OECD GloBE 15% global minimum tax framework continues global enforcement across more than 50 jurisdictions via IIR, UTPR, and QDMTT mechanisms, driving extensive tax compliance adjustments for MNE groups with revenues exceeding 750 million euros.",
       "evidence": [
-        "PwC country tracker and Taxopilot guide confirm active global enactment of GloBE 15% minimum tax rules including IIR, UTPR, and QDMTT mechanisms.",
-        "Moody's and OECD reports emphasize complex effective tax rate (ETR) calculations and compliance alignment for MNE groups exceeding the 750M euro revenue threshold."
+        "PwC Country Tracker confirms ongoing global enactment of GloBE 15% minimum tax rules, including recent adoptions such as North Macedonia's Law on Minimum Global Corporate Income Tax.",
+        "Moody's insights highlight significant operational and systems compliance alignment requirements for MNEs calculating effective tax rates (ETR) under GloBE rules."
       ],
       "source_links": [
         "https://www.pwc.com/gx/en/services/tax/pillar-two-readiness/country-tracker.html",
         "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
+        "https://en.m.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
         "https://whtcalculator.com/blog-beps-pillar-two-guide",
         "https://taxopilot.com/guides/pillar-two-global-minimum-tax"
       ],
@@ -33,6 +34,12 @@
           "published_date": null
         },
         {
+          "url": "https://en.m.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
+          "domain": "en.m.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        },
+        {
           "url": "https://whtcalculator.com/blog-beps-pillar-two-guide",
           "domain": "whtcalculator.com",
           "type": "secondary",
@@ -46,16 +53,16 @@
         }
       ],
       "source_quality": {
-        "total_sources": 4,
+        "total_sources": 5,
         "primary_source_count": 0,
         "secondary_source_count": 4,
-        "wikipedia_source_count": 0,
+        "wikipedia_source_count": 1,
         "blog_source_count": 0,
         "has_primary_sources": false,
         "source_risk": "medium"
       },
       "confidence": 0.99,
-      "reasoning": "Pillar Two enforcement remains in Breakthrough as tax authorities mandate 15% minimum ETR calculations and standardized GloBE data reporting globally.",
+      "reasoning": "Pillar Two remains firmly in Breakthrough as jurisdictions worldwide continue translating GloBE model rules into enacted local minimum tax legislation.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -64,10 +71,79 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
-          "https://taxopilot.com/guides/pillar-two-global-minimum-tax"
+          "https://en.m.wikipedia.org/wiki/Global_minimum_corporate_tax_rate"
+        ],
+        "dropped_sources": [],
+        "summary_changed": true
+      }
+    },
+    {
+      "id": "global-digital-tax-compliance-and-e-invoicing-expansion",
+      "name": "Global Digital Tax Compliance and E-Invoicing Expansion",
+      "stage": "Breakthrough",
+      "velocity": "Fast",
+      "category": "Digital Compliance",
+      "summary": "Tax authorities globally are enforcing mandatory structured e-invoicing protocols and real-time continuous transaction reporting to mitigate VAT/GST revenue leakage and streamline digital audit capability.",
+      "evidence": [
+        "Thomson Reuters and Stripe highlight global momentum toward structured data standards in digital invoicing to facilitate real-time tax validation and reduce reporting errors.",
+        "SAP and Wikipedia documentation underscore structural enterprise transitions to continuous invoice matching against purchase orders and tax compliance frameworks."
+      ],
+      "source_links": [
+        "https://tax.thomsonreuters.com/blog/what-is-e-invoicing",
+        "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
+        "https://www.sap.com/resources/what-is-e-invoicing",
+        "https://en.wikipedia.org/wiki/Electronic_invoicing"
+      ],
+      "source_details": [
+        {
+          "url": "https://tax.thomsonreuters.com/blog/what-is-e-invoicing",
+          "domain": "tax.thomsonreuters.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
+          "domain": "stripe.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.sap.com/resources/what-is-e-invoicing",
+          "domain": "sap.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Electronic_invoicing",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 4,
+        "primary_source_count": 0,
+        "secondary_source_count": 3,
+        "wikipedia_source_count": 1,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.98,
+      "reasoning": "E-invoicing implementation remains in Breakthrough due to continuous legislative mandates requiring real-time tax validation across international jurisdictions.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "Fast",
+        "new_sources": [
+          "https://en.wikipedia.org/wiki/Electronic_invoicing",
+          "https://www.sap.com/resources/what-is-e-invoicing"
         ],
         "dropped_sources": [
-          "https://www.oecd.org/en/topics/sub-issues/global-minimum-tax/global-anti-base-erosion-model-rules-pillar-two.html"
+          "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html"
         ],
         "summary_changed": true
       }
@@ -78,10 +154,10 @@
       "stage": "Breakthrough",
       "velocity": "Fast",
       "category": "Tariffs",
-      "summary": "Governments and major trade blocs actively adjust unilateral duties and trade policy schedules, forcing global business supply chains to continuously adapt to fluctuating cross-border tariff structures.",
+      "summary": "Major trading partners and trade blocs dynamically adjust unilateral duty rates and customs tariff schedules, creating supply chain friction and requiring active trade duty monitoring.",
       "evidence": [
-        "Reuters and TariffCheck.org report ongoing updates to US import tariffs and trade dispute adjudications affecting international corridors.",
-        "WTO Tariff & Trade Data and USITC announcements document continuous real-time changes to applied tariffs and bound duty schedules."
+        "USITC and WTO Tariff & Trade Data document real-time schedule alterations and administrative updates affecting cross-border supply chain corridors.",
+        "Customs announcements continue to reflect active trade policy adjustments and tariff recalibrations globally."
       ],
       "source_links": [
         "https://www.reuters.com/business/tariffs",
@@ -132,7 +208,7 @@
         "source_risk": "low"
       },
       "confidence": 0.97,
-      "reasoning": "International tariffs remain in Breakthrough due to continuous supply chain friction and dynamic trade policy recalibrations.",
+      "reasoning": "International tariffs remain in Breakthrough as global trade policy shifts generate continuous compliance adjustments for cross-border operations.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -140,79 +216,8 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [
-          "https://tariffcheck.org/updates"
-        ],
-        "dropped_sources": [
-          "https://www.bloomberg.com/latest/trump-tariffs"
-        ],
-        "summary_changed": true
-      }
-    },
-    {
-      "id": "global-digital-tax-compliance-and-e-invoicing-expansion",
-      "name": "Global Digital Tax Compliance and E-Invoicing Expansion",
-      "stage": "Breakthrough",
-      "velocity": "Fast",
-      "category": "Digital Compliance",
-      "summary": "Tax authorities worldwide are expanding Continuous Transaction Controls (CTC) and structured electronic invoicing standards to automate tax audits and minimize VAT/GST leakages.",
-      "evidence": [
-        "Avalara and Thomson Reuters report rapid global expansion of mandatory structured e-invoicing networks.",
-        "Stripe and national tax guides highlight transitions toward real-time invoice generation, validation, and automated tax reporting."
-      ],
-      "source_links": [
-        "https://tax.thomsonreuters.com/blog/what-is-e-invoicing",
-        "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
-        "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html"
-      ],
-      "source_details": [
-        {
-          "url": "https://tax.thomsonreuters.com/blog/what-is-e-invoicing",
-          "domain": "tax.thomsonreuters.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
-          "domain": "stripe.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html",
-          "domain": "avalara.com",
-          "type": "secondary",
-          "published_date": null
-        }
-      ],
-      "source_quality": {
-        "total_sources": 3,
-        "primary_source_count": 0,
-        "secondary_source_count": 3,
-        "wikipedia_source_count": 0,
-        "blog_source_count": 0,
-        "has_primary_sources": false,
-        "source_risk": "medium"
-      },
-      "confidence": 0.98,
-      "reasoning": "E-invoicing implementation remains in Breakthrough as jurisdictions implement real-time continuous transaction controls.",
-      "validation_flags": [],
-      "changed_since_previous_run": {
-        "is_new": false,
-        "stage_delta": 0,
-        "previous_stage": "Breakthrough",
-        "velocity_delta": 0,
-        "previous_velocity": "Fast",
-        "new_sources": [
-          "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
-          "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html"
-        ],
-        "dropped_sources": [
-          "https://e-invoicing.org/singapore",
-          "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
-          "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-          "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework"
-        ],
+        "new_sources": [],
+        "dropped_sources": [],
         "summary_changed": true
       }
     },
@@ -222,17 +227,15 @@
       "stage": "Peak Hype",
       "velocity": "Medium",
       "category": "Corporate Tax",
-      "summary": "Headline statutory corporate tax rates remain plateaued globally, with legislative focus shifting toward incentive structures, withholding taxes, and regional integration frameworks.",
+      "summary": "Headline statutory corporate tax rates remain plateaued globally, with sovereign tax policy prioritizing targeted incentive regimes, withholding taxes, and base-defense rules over statutory rate changes.",
       "evidence": [
-        "OECD Corporate Tax Statistics 2026 and KPMG TaxNewsFlash confirm plateaued statutory corporate income tax rates across major economies.",
-        "EY Worldwide Corporate Tax Guide 2026-27 and Grant Thornton ASEAN 6 Tax Guide 2026 highlight legislative focus on base erosion, tax treaties, and incentive regimes over headline rate adjustments."
+        "OECD Corporate Tax Statistics and KPMG reports indicate statutory corporate income tax rates remain stable across major economies.",
+        "EY Worldwide Corporate Tax Guide documents legislative focus shifting toward transfer pricing, treaty application, and top-up minimum taxes."
       ],
       "source_links": [
         "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en/full-report.html",
         "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html",
-        "https://taxrate.org/corporate-tax-rates",
-        "https://www.ey.com/en_gl/technical/tax-guides/worldwide-corporate-tax-guide",
-        "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026"
+        "https://www.ey.com/en_gl/technical/tax-guides/worldwide-corporate-tax-guide"
       ],
       "source_details": [
         {
@@ -248,35 +251,23 @@
           "published_date": "2026-07-01"
         },
         {
-          "url": "https://taxrate.org/corporate-tax-rates",
-          "domain": "taxrate.org",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
           "url": "https://www.ey.com/en_gl/technical/tax-guides/worldwide-corporate-tax-guide",
           "domain": "ey.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026",
-          "domain": "grantthornton.co.th",
           "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 5,
+        "total_sources": 3,
         "primary_source_count": 1,
-        "secondary_source_count": 4,
+        "secondary_source_count": 2,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
         "source_risk": "low"
       },
       "confidence": 0.95,
-      "reasoning": "Headline statutory rates remain stable as legislative focus pivots to Pillar Two top-up rules, transfer pricing, and digital enforcement.",
+      "reasoning": "Headline tax rates remain in Peak Hype/Stabilization as governments prioritize non-rate policy mechanisms like Pillar Two QDMTTs and digital tax compliance.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -284,20 +275,19 @@
         "previous_stage": "Peak Hype",
         "velocity_delta": 0,
         "previous_velocity": "Medium",
-        "new_sources": [
-          "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026"
-        ],
+        "new_sources": [],
         "dropped_sources": [
-          "https://www.bdo.global/en-gb/insights/tax/world-wide-tax/international-corporate-and-withholding-tax-changes-for-2026"
+          "https://taxrate.org/corporate-tax-rates",
+          "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026"
         ],
         "summary_changed": true
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.5-flash",
+    "agent": "gemini-3.6-flash",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-11-07T22:01:19.211984Z",
+    "timestamp": "2026-11-08T04:01:14.950743Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -306,20 +296,20 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.5-flash",
+      "model": "gemini-3.6-flash",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-11-07T22:01:19.211984Z",
-      "search_result_count": 25,
+      "timestamp": "2026-11-08T04:01:14.950743Z",
+      "search_result_count": 20,
       "validation_error_count": 0,
       "validation_failures": []
     }
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.5-flash",
+    "model": "gemini-3.6-flash",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-11-07T22:01:19.211984Z",
-    "search_result_count": 25,
+    "timestamp": "2026-11-08T04:01:14.950743Z",
+    "search_result_count": 20,
     "validation_error_count": 0,
     "validation_failures": []
   }
