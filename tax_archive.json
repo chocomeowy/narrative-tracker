@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-08T04:01:14.950743Z",
+  "last_updated": "2026-11-08T10:01:52.512063Z",
   "archived_trends": [
     {
       "id": "strategic-corporate-tax-reforms-in-competitive-hubs",
@@ -8288,6 +8288,79 @@
         "summary_changed": true
       },
       "archived_at": "2026-11-07T04:01:45.544475Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "global-digital-tax-compliance-and-e-invoicing-expansion",
+      "name": "Global Digital Tax Compliance and E-Invoicing Expansion",
+      "stage": "Breakthrough",
+      "velocity": "Fast",
+      "category": "Digital Compliance",
+      "summary": "Tax authorities globally are enforcing mandatory structured e-invoicing protocols and real-time continuous transaction reporting to mitigate VAT/GST revenue leakage and streamline digital audit capability.",
+      "evidence": [
+        "Thomson Reuters and Stripe highlight global momentum toward structured data standards in digital invoicing to facilitate real-time tax validation and reduce reporting errors.",
+        "SAP and Wikipedia documentation underscore structural enterprise transitions to continuous invoice matching against purchase orders and tax compliance frameworks."
+      ],
+      "source_links": [
+        "https://tax.thomsonreuters.com/blog/what-is-e-invoicing",
+        "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
+        "https://www.sap.com/resources/what-is-e-invoicing",
+        "https://en.wikipedia.org/wiki/Electronic_invoicing"
+      ],
+      "source_details": [
+        {
+          "url": "https://tax.thomsonreuters.com/blog/what-is-e-invoicing",
+          "domain": "tax.thomsonreuters.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
+          "domain": "stripe.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.sap.com/resources/what-is-e-invoicing",
+          "domain": "sap.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Electronic_invoicing",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 4,
+        "primary_source_count": 0,
+        "secondary_source_count": 3,
+        "wikipedia_source_count": 1,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.98,
+      "reasoning": "E-invoicing implementation remains in Breakthrough due to continuous legislative mandates requiring real-time tax validation across international jurisdictions.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "Fast",
+        "new_sources": [
+          "https://en.wikipedia.org/wiki/Electronic_invoicing",
+          "https://www.sap.com/resources/what-is-e-invoicing"
+        ],
+        "dropped_sources": [
+          "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-11-08T10:01:52.512063Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]

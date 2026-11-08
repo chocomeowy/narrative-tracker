@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-11-08 04:01
+# Tax Intelligence Briefing - 2026-11-08 10:01
 
-Late 2026 corporate tax policy remains dominated by the global operationalization of the OECD Pillar Two 15% minimum tax framework across more than 50 jurisdictions, alongside accelerating mandates for digital Continuous Transaction Controls (CTC) and structured e-invoicing. With statutory corporate tax rates remaining largely stable globally, tax administrations are prioritizing real-time compliance automation, cross-border tariff adjustments, and robust base-protection enforcement.
+Late 2026 corporate tax policy is characterized by the ongoing operationalization of the OECD Pillar Two 15% global minimum tax, paired with accelerating mandates for continuous transaction controls and structured e-invoicing such as Singapore's multi-year GST InvoiceNow rollout. With headline statutory corporate income tax rates remaining plateaued globally, governments are heavily focusing on real-time indirect tax compliance, digital audit readiness, and strategic tariff recalibrations to secure tax bases amidst evolving trade dynamics.
