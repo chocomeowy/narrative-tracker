@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-08T10:02:19.876792Z",
-  "executive_briefing": "The late 2026 digital asset landscape reflects a structural fork between institutional integration and developer-led decentralization. Following the US Senate's 49-50 cloture vote failure on the CLARITY Act, developer effort has shifted heavily toward native Bitcoin smart contract environments, seeking protocol sovereignty outside US regulatory frameworks to directly rival Ethereum's EVM. Meanwhile, spot Bitcoin ETFs have stabilized institutional BTC treasury exposure beyond the $100B AUM milestone, solidifying BTC as a mature macro asset while cross-chain swap primitives continue to bridge trust-minimized liquidity directly between Bitcoin and Ethereum.",
+  "last_updated": "2026-11-08T16:01:14.781030Z",
+  "executive_briefing": "The late 2026 digital asset landscape reflects a structural fork between institutional integration and developer-led decentralization. Following the US Senate's 49-50 cloture vote failure on the CLARITY Act, developer effort has shifted heavily toward native Bitcoin smart contract environments, seeking protocol sovereignty outside US regulatory frameworks to directly rival Ethereum's EVM. Meanwhile, spot Bitcoin ETFs have stabilized institutional BTC treasury exposure beyond the $100B AUM milestone, solidifying BTC as a mature macro asset while trust-minimized cross-chain swap primitives continue to bridge liquidity directly between Bitcoin and Ethereum.",
   "trends": [
     {
       "id": "institutional-bitcoin-treasury-and-etf-consolidation",
@@ -8,9 +8,9 @@
       "stage": "Fatigue",
       "velocity": "Moderate",
       "category": "Institutional Finance",
-      "summary": "Spot Bitcoin ETFs and institutional custody products have stabilized beyond the $100 billion AUM mark, cementing Bitcoin as a standardized macro asset and portfolio asset across traditional financial institutions.",
+      "summary": "Spot Bitcoin ETFs and institutional treasury holdings have stabilized beyond the $100 billion AUM mark, cementing Bitcoin as a standardized macro portfolio asset across traditional financial institutions.",
       "evidence": [
-        "Spot Bitcoin ETFs led by BlackRock and Fidelity pushed institutional BTC exposure past $100 billion AUM across banks, pensions, and insurers.",
+        "Spot Bitcoin ETFs led by major asset managers maintain institutional BTC exposure past $100 billion AUM across banks, pensions, and insurers.",
         "Corporate treasuries and asset managers maintain standardized institutional access via regulated custody and ETF allocation workflows."
       ],
       "source_links": [
@@ -63,13 +63,9 @@
         "previous_stage": "Fatigue",
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
-        "new_sources": [
-          "https://www.livebitcoinnews.com/bitcoin-etf-institutional"
-        ],
-        "dropped_sources": [
-          "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis"
-        ],
-        "summary_changed": false
+        "new_sources": [],
+        "dropped_sources": [],
+        "summary_changed": true
       }
     },
     {
@@ -133,31 +129,27 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "High",
-        "new_sources": [
-          "https://blockchainreporter.net/what-is-the-clarity-act-the-crypto-bill-that-could-reshape-us-regulation-explained"
-        ],
-        "dropped_sources": [
-          "https://www.banking.senate.gov/newsroom/majority/the-facts-the-clarity-act"
-        ],
+        "new_sources": [],
+        "dropped_sources": [],
         "summary_changed": false
       }
     },
     {
       "id": "bitcoin-to-ethereum-native-liquidity-interoperability",
       "name": "Bitcoin-to-Ethereum Native Liquidity Interoperability",
-      "stage": "Incubation",
+      "stage": "Breakthrough",
       "velocity": "High",
       "category": "DeFi / Interoperability",
       "summary": "Decentralized cross-chain swap primitives and trust-minimized bridge architectures enable direct, unwrapped BTC-to-ETH liquidity transfers without relying on centralized wrapped token proxies.",
       "evidence": [
-        "Cross-chain swap protocols and liquidity pool bridges facilitate single-transaction asset transfers between isolated blockchains like Bitcoin and Ethereum.",
-        "Trust-minimized bridge primitives connect native BTC capital directly into Ethereum smart contract applications."
+        "Cross-chain swap protocols and liquidity pool bridges facilitate single-transaction asset transfers and smart contract calls between isolated blockchains like Bitcoin and Ethereum.",
+        "Trust-minimized bridge primitives connect native BTC capital directly into Ethereum smart contract applications, offering sub-5 minute execution via liquidity pool architectures."
       ],
       "source_links": [
         "https://ethereum.org/bridges",
         "https://dailycoin.com/best-cross-chain-bridges-in-crypto",
         "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
-        "https://trustwallet.com/blog/academy/cross-chain-swaps-explained"
+        "https://godex.io/blog/cross-chain-crypto-swaps-best-exchanges-for-multi-blockchain-trading"
       ],
       "source_details": [
         {
@@ -179,8 +171,8 @@
           "published_date": null
         },
         {
-          "url": "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
-          "domain": "trustwallet.com",
+          "url": "https://godex.io/blog/cross-chain-crypto-swaps-best-exchanges-for-multi-blockchain-trading",
+          "domain": "godex.io",
           "type": "secondary",
           "published_date": null
         }
@@ -194,29 +186,29 @@
         "has_primary_sources": true,
         "source_risk": "low"
       },
-      "confidence": 0.94,
-      "reasoning": "Direct trust-minimized cross-chain swap mechanisms remain in the Incubation stage while experiencing High technical velocity as cross-chain message passing and liquidity routing improve.",
+      "confidence": 0.95,
+      "reasoning": "New market data indicates rapid adoption of trust-minimized bridge solutions and liquidity pool routing, advancing this narrative from Incubation into Breakthrough.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
-        "stage_delta": 0,
+        "stage_delta": 1,
         "previous_stage": "Incubation",
         "velocity_delta": 0,
         "previous_velocity": "High",
         "new_sources": [
-          "https://trustwallet.com/blog/academy/cross-chain-swaps-explained"
+          "https://godex.io/blog/cross-chain-crypto-swaps-best-exchanges-for-multi-blockchain-trading"
         ],
         "dropped_sources": [
-          "https://godex.io/blog/cross-chain-crypto-swaps-best-exchanges-for-multi-blockchain-trading"
+          "https://trustwallet.com/blog/academy/cross-chain-swaps-explained"
         ],
         "summary_changed": false
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.5-flash-lite",
+    "agent": "gemini-3.6-flash",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-11-08T10:02:19.876792Z",
+    "timestamp": "2026-11-08T16:01:14.781030Z",
     "active_narratives": 3,
     "validation": {
       "accepted": 3,
@@ -225,20 +217,20 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.5-flash-lite",
+      "model": "gemini-3.6-flash",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-11-08T10:02:19.876792Z",
-      "search_result_count": 20,
+      "timestamp": "2026-11-08T16:01:14.781030Z",
+      "search_result_count": 6,
       "validation_error_count": 0,
       "validation_failures": []
     }
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.5-flash-lite",
+    "model": "gemini-3.6-flash",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-11-08T10:02:19.876792Z",
-    "search_result_count": 20,
+    "timestamp": "2026-11-08T16:01:14.781030Z",
+    "search_result_count": 6,
     "validation_error_count": 0,
     "validation_failures": []
   }
