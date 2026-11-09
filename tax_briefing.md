@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-11-09 10:01
+# Tax Intelligence Briefing - 2026-11-09 16:01
 
-International corporate tax policy in late 2026 is defined by the continued global integration of the OECD Pillar Two minimum tax, volatile unilateral adjustments to import tariffs, and accelerated digital compliance mandates such as automated e-invoicing. Corporations face complex operational landscapes where statutory rate changes take a backseat to digital transformation and cross-border compliance harmonization.
+International corporate tax policy in mid-2026 is defined by the global integration of the OECD Pillar Two minimum tax, volatile unilateral adjustments to import tariffs, and accelerated digital compliance mandates such as automated e-invoicing. Corporations face complex operational landscapes where statutory rate changes take a backseat to digital transformation and cross-border compliance harmonization.
