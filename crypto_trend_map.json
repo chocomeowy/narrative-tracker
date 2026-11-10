@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-10T04:01:13.387975Z",
-  "executive_briefing": "The late 2026 digital asset landscape reflects a structural pivot toward native Bitcoin execution layers and trust-minimized interoperability following the Senate's rejection of the CLARITY Act. Stalled U.S. market structure legislation has driven engineering capital toward sovereign smart contract primitives designed to operate independently of centralized regulatory bottlenecks while competing with EVM execution. Concurrently, institutional spot Bitcoin ETFs maintain baseline holding patterns near the $100 billion AUM benchmark, while cross-chain liquidity architectures continue establishing trust-minimized native BTC-to-ETH settlement mechanisms across decentralized finance ecosystems.",
+  "last_updated": "2026-11-10T10:01:25.750151Z",
+  "executive_briefing": "The digital asset ecosystem in late 2026 is defined by institutional consolidation in Bitcoin and structural execution resilience on Ethereum, underpinned by advancing trust-minimized cross-chain architectures. Following regulatory developments such as the Senate's posture on the CLARITY Act, engineering capital continues prioritizing sovereign, trust-minimized smart contract execution and interoperability primitives over centralized bottlenecks. Institutional Bitcoin spot ETFs and balance sheet allocations have matured into routine macro portfolio management around the $100 billion AUM mark, while cross-chain liquidity networks are actively replacing wrapped tokens with direct native BTC-to-ETH liquidity settlement.",
   "trends": [
     {
       "id": "institutional-bitcoin-treasury-and-etf-consolidation",
@@ -10,20 +10,25 @@
       "category": "Institutional Finance",
       "summary": "Spot Bitcoin ETFs and corporate treasuries maintain stable structural holdings near the $100 billion AUM benchmark, shifting from rapid market expansion into routine portfolio rebalancing and asset management.",
       "evidence": [
-        "Spot Bitcoin ETFs maintain institutional exposure around the $100 billion AUM threshold across major asset managers.",
-        "Corporate treasury adoption and custodial workflows have fully integrated into standard institutional portfolio management frameworks."
+        "Spot Bitcoin ETFs hold nearly $100 billion in assets as corporate BTC holdings expand across traditional finance.",
+        "Institutional investors actively treat Bitcoin as a macro asset and portfolio diversifier through regulated vehicles like BlackRock's IBIT."
       ],
       "source_links": [
         "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
+        "https://www.livebitcoinnews.com/bitcoin-etf-institutional",
         "https://amifs.org/institutional-crypto-adoption-and-bitcoin-etf-approvals-how-regulation-is-reshaping-finance",
-        "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
-        "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/why-institutional-investors-are-becoming-more-important-to-bitcoin-adoption",
-        "https://www.livebitcoinnews.com/bitcoin-etf-institutional"
+        "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/why-institutional-investors-are-becoming-more-important-to-bitcoin-adoption"
       ],
       "source_details": [
         {
           "url": "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
           "domain": "cryptothreads.io",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.livebitcoinnews.com/bitcoin-etf-institutional",
+          "domain": "livebitcoinnews.com",
           "type": "secondary",
           "published_date": null
         },
@@ -34,28 +39,16 @@
           "published_date": null
         },
         {
-          "url": "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
-          "domain": "spark.money",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
           "url": "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/why-institutional-investors-are-becoming-more-important-to-bitcoin-adoption",
           "domain": "analyticsinsight.net",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.livebitcoinnews.com/bitcoin-etf-institutional",
-          "domain": "livebitcoinnews.com",
           "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 5,
+        "total_sources": 4,
         "primary_source_count": 0,
-        "secondary_source_count": 5,
+        "secondary_source_count": 4,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": false,
@@ -70,10 +63,10 @@
         "previous_stage": "Fatigue",
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
-        "new_sources": [
-          "https://amifs.org/institutional-crypto-adoption-and-bitcoin-etf-approvals-how-regulation-is-reshaping-finance"
+        "new_sources": [],
+        "dropped_sources": [
+          "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis"
         ],
-        "dropped_sources": [],
         "summary_changed": false
       }
     },
@@ -85,7 +78,7 @@
       "category": "Layer 1 / DeFi",
       "summary": "Ethereum continues to serve as the dominant decentralized smart contract and settlement layer, leveraging robust native staking primitives and high throughput execution without central intermediaries.",
       "evidence": [
-        "Ether (ETH) powers core transaction execution, network security via native staking, and trustless decentralized applications.",
+        "Ether (ETH) powers core transaction execution, network security via native consensus staking, and trustless decentralized applications.",
         "On-chain economic activity scales resiliently, establishing Ethereum as the baseline settlement tier for multi-chain liquidity."
       ],
       "source_links": [
@@ -126,13 +119,80 @@
       "reasoning": "Continued expansion of native staking and robust transaction throughput validate Ethereum's solid footing in the Breakthrough phase.",
       "validation_flags": [],
       "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [],
+        "dropped_sources": [],
+        "summary_changed": false
+      }
+    },
+    {
+      "id": "decentralized-native-btc-to-eth-cross-chain-liquidity",
+      "name": "Decentralized Native BTC-to-ETH Cross-Chain Liquidity",
+      "stage": "Breakthrough",
+      "velocity": "High",
+      "category": "Interoperability / DeFi",
+      "summary": "Native cross-chain liquidity networks and interoperability protocols bypass wrapped asset risks to enable direct, trust-minimized swaps between native Bitcoin and Ethereum environments.",
+      "evidence": [
+        "Decentralized protocols like THORChain enable direct native BTC for native ETH swaps via Automated Market Maker pools without wrapped ERC-20 variants.",
+        "Interoperability layers like Zeus Network bridge native Bitcoin liquidity into EVM execution environments seamlessly."
+      ],
+      "source_links": [
+        "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
+        "https://ethereum.org/bridges",
+        "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
+        "https://dailycoin.com/best-cross-chain-bridges-in-crypto"
+      ],
+      "source_details": [
+        {
+          "url": "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
+          "domain": "bitunix.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://ethereum.org/bridges",
+          "domain": "ethereum.org",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
+          "domain": "trustwallet.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://dailycoin.com/best-cross-chain-bridges-in-crypto",
+          "domain": "dailycoin.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 4,
+        "primary_source_count": 1,
+        "secondary_source_count": 3,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.92,
+      "reasoning": "Rapid adoption of trustless native asset swaps over legacy wrapped tokens marks a clear Breakthrough phase for cross-chain liquidity.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
         "is_new": true,
         "stage_delta": "new",
         "velocity_delta": "new",
         "new_sources": [
-          "https://ethereum.org",
-          "https://ethereum.org/what-is-ether",
-          "https://etherscan.io"
+          "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
+          "https://ethereum.org/bridges",
+          "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
+          "https://dailycoin.com/best-cross-chain-bridges-in-crypto"
         ],
         "dropped_sources": [],
         "summary_changed": false
@@ -140,31 +200,31 @@
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.5-flash-lite",
+    "agent": "gemini-3.5-flash",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-11-10T04:01:13.387975Z",
-    "active_narratives": 2,
+    "timestamp": "2026-11-10T10:01:25.750151Z",
+    "active_narratives": 3,
     "validation": {
-      "accepted": 2,
+      "accepted": 3,
       "rejected": 0,
       "validation_error_count": 0
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.5-flash-lite",
+      "model": "gemini-3.5-flash",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-11-10T04:01:13.387975Z",
-      "search_result_count": 10,
+      "timestamp": "2026-11-10T10:01:25.750151Z",
+      "search_result_count": 15,
       "validation_error_count": 0,
       "validation_failures": []
     }
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.5-flash-lite",
+    "model": "gemini-3.5-flash",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-11-10T04:01:13.387975Z",
-    "search_result_count": 10,
+    "timestamp": "2026-11-10T10:01:25.750151Z",
+    "search_result_count": 15,
     "validation_error_count": 0,
     "validation_failures": []
   }
