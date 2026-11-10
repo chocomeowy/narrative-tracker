@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-11-09 22:01
+# Tax Intelligence Briefing - 2026-11-10 04:01
 
-International corporate tax policy in mid-2026 is anchored by the ongoing operationalization of the OECD Pillar Two 15% minimum tax and the stabilization of headline statutory rates. Meanwhile, aggressive trade tariff adjustments and the rapid enforcement of real-time digital e-invoicing mandates—led by platforms like Singapore's InvoiceNow—continue to drive complex cross-border compliance demands.
+Global tax policy in late 2026 is marked by the dual pressures of structural direct tax reforms and volatile trade tariffs. While OECD Pillar Two implementation continues to establish a 15% global minimum effective tax floor, standard headline corporate tax rates remain stabilized across major economies. Concurrently, aggressive new import tariff slates and expanded real-time e-invoicing and GST compliance mandates across regions like North America, India, and ASEAN are forcing multinational enterprises to re-examine global supply chain architectures and digital tax compliance capabilities.
