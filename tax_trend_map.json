@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-10T16:01:20.142719Z",
-  "executive_briefing": "Global corporate tax policy as of late 2026 remains dominated by the stabilization of statutory income tax rates and the aggressive operationalization of the OECD Pillar Two framework. Multinational enterprises are navigating a dual pressure environment: the shift toward real-time digital tax administration (e-invoicing) and the increasing complexity of international trade tariffs. Policy focus has pivoted from rate-based competition toward base protection through advanced compliance automation and targeted regional fiscal incentives in hubs like ASEAN.",
+  "last_updated": "2026-11-10T22:01:26.081370Z",
+  "executive_briefing": "Global corporate tax policy in late 2026 is characterized by the convergence of OECD Pillar Two minimum tax implementation, statutory rate stabilization, and aggressive transition toward real-time digital tax administration. Tax authorities across key economic corridors, particularly within ASEAN, are replacing traditional headline rate competition with targeted structural incentives and mandatory real-time electronic invoicing\u2014such as Singapore's GST InvoiceNow Peppol network mandate and Canada's digital GST/HST filing rules\u2014to prevent tax base leakage and manage supply chain duties amid evolving trade tariffs.",
   "trends": [
     {
       "id": "escalating-global-trade-tariffs-and-import-duties",
@@ -57,11 +57,8 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [],
-        "dropped_sources": [
-          "https://ttd.wto.org/en",
-          "https://www.usitc.gov/harmonized_tariff_information/announcement_archive"
-        ],
-        "summary_changed": true
+        "dropped_sources": [],
+        "summary_changed": false
       }
     },
     {
@@ -70,7 +67,7 @@
       "stage": "Breakthrough",
       "velocity": "Fast",
       "category": "Corporate Tax",
-      "summary": "The implementation of the 15% global minimum tax is now moving from legislative enactment to operational execution, necessitating robust ETR modeling and top-up tax reporting.",
+      "summary": "The implementation of the 15% global minimum tax is moving from legislative enactment to operational execution, necessitating robust ETR modeling and top-up tax reporting.",
       "evidence": [
         "Widening jurisdictional adoption of Pillar Two model rules.",
         "Increased focus on standardized administrative procedures for IIR and UTPR mechanisms."
@@ -112,11 +109,7 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [],
-        "dropped_sources": [
-          "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html",
-          "https://whtcalculator.com/beps-pillar-two",
-          "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html"
-        ],
+        "dropped_sources": [],
         "summary_changed": true
       }
     },
@@ -126,14 +119,15 @@
       "stage": "Peak Hype",
       "velocity": "Medium",
       "category": "Corporate Tax",
-      "summary": "The multi-decade trend of declining statutory corporate rates has reached a plateau as governments shift focus to tax base broadening and anti-avoidance measures.",
+      "summary": "The multi-decade trend of declining statutory corporate rates has plateaued globally as governments shift focus to tax base broadening, structural incentives, and compliance enforcement.",
       "evidence": [
-        "Data confirm global statutory rates have largely stabilized across major economies.",
-        "Shift in policy debate toward targeted incentives rather than headline rate reductions."
+        "Global statutory rates have stabilized across major economies, with regional spreads in ASEAN ranging from 17% in Singapore to 30% in the Philippines against a regional baseline around 23%.",
+        "Shift in policy debate toward targeted deductions, R&D credits, and startup exemptions rather than statutory headline reductions."
       ],
       "source_links": [
         "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en.html",
-        "https://www.ey.com/en_gl/technical/tax-guides/worldwide-corporate-tax-guide"
+        "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
+        "https://pathmakerid.com/blog/corporate-tax-rates-in-asia-2026-a-9-country-asean-comparison"
       ],
       "source_details": [
         {
@@ -143,136 +137,15 @@
           "published_date": null
         },
         {
-          "url": "https://www.ey.com/en_gl/technical/tax-guides/worldwide-corporate-tax-guide",
-          "domain": "ey.com",
-          "type": "secondary",
-          "published_date": null
-        }
-      ],
-      "source_quality": {
-        "total_sources": 2,
-        "primary_source_count": 1,
-        "secondary_source_count": 1,
-        "wikipedia_source_count": 0,
-        "blog_source_count": 0,
-        "has_primary_sources": true,
-        "source_risk": "low"
-      },
-      "confidence": 0.97,
-      "reasoning": "Empirical evidence from OECD and major accounting firm tax guides confirms the conclusion of the downward rate competition cycle.",
-      "validation_flags": [],
-      "changed_since_previous_run": {
-        "is_new": false,
-        "stage_delta": 0,
-        "previous_stage": "Peak Hype",
-        "velocity_delta": 0,
-        "previous_velocity": "Medium",
-        "new_sources": [],
-        "dropped_sources": [
-          "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html",
-          "https://taxrate.org/corporate-tax-rates"
-        ],
-        "summary_changed": true
-      }
-    },
-    {
-      "id": "digital-tax-transformation-and-e-invoicing-mandates",
-      "name": "Digital Tax Transformation and E-Invoicing Mandates",
-      "stage": "Breakthrough",
-      "velocity": "Fast",
-      "category": "International",
-      "summary": "Tax authorities are mandating structured digital reporting, including real-time e-invoicing and automated ledger reconciliation, to improve VAT/GST compliance and combat revenue leakage.",
-      "evidence": [
-        "Widespread adoption of digital invoicing standards in Singapore and other major jurisdictions.",
-        "Integration of automated tax reporting within ERP systems becoming a regulatory necessity."
-      ],
-      "source_links": [
-        "https://www.sap.com/resources/what-is-e-invoicing",
-        "https://grokipedia.com/page/Invoicing_Software",
-        "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html"
-      ],
-      "source_details": [
-        {
-          "url": "https://www.sap.com/resources/what-is-e-invoicing",
-          "domain": "sap.com",
+          "url": "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
+          "domain": "taxsummaries.pwc.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://grokipedia.com/page/Invoicing_Software",
-          "domain": "grokipedia.com",
+          "url": "https://pathmakerid.com/blog/corporate-tax-rates-in-asia-2026-a-9-country-asean-comparison",
+          "domain": "pathmakerid.com",
           "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html",
-          "domain": "canada.ca",
-          "type": "secondary",
-          "published_date": null
-        }
-      ],
-      "source_quality": {
-        "total_sources": 3,
-        "primary_source_count": 0,
-        "secondary_source_count": 3,
-        "wikipedia_source_count": 0,
-        "blog_source_count": 0,
-        "has_primary_sources": false,
-        "source_risk": "medium"
-      },
-      "confidence": 0.96,
-      "reasoning": "Rapid adoption of technical e-invoicing standards as a baseline for business compliance supports a fast-moving breakthrough trend.",
-      "validation_flags": [],
-      "changed_since_previous_run": {
-        "is_new": false,
-        "stage_delta": 0,
-        "previous_stage": "Breakthrough",
-        "velocity_delta": 0,
-        "previous_velocity": "Fast",
-        "new_sources": [
-          "https://grokipedia.com/page/Invoicing_Software"
-        ],
-        "dropped_sources": [
-          "https://stratrich.com/insights/business-tax-in-india",
-          "https://taxsummaries.pwc.com/india/corporate/other-taxes",
-          "https://www.stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses"
-        ],
-        "summary_changed": true
-      }
-    },
-    {
-      "id": "asean-regional-tax-alignment-and-fdi-strategies",
-      "name": "ASEAN Regional Tax Alignment and FDI Strategies",
-      "stage": "Incubation",
-      "velocity": "Medium",
-      "category": "Corporate Tax",
-      "summary": "ASEAN member states are actively refining their tax regimes to balance fiscal stability with the need for competitive incentives to attract strategic foreign direct investment.",
-      "evidence": [
-        "Recent regional guides confirm the use of targeted tax holidays and technology-sector deductions in Southeast Asian states.",
-        "Increased policy differentiation among ASEAN members to attract specialized industries."
-      ],
-      "source_links": [
-        "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026",
-        "https://asean.org/about-asean",
-        "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates"
-      ],
-      "source_details": [
-        {
-          "url": "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026",
-          "domain": "grantthornton.co.th",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://asean.org/about-asean",
-          "domain": "asean.org",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates",
-          "domain": "iras.gov.sg",
-          "type": "primary",
           "published_date": null
         }
       ],
@@ -285,8 +158,133 @@
         "has_primary_sources": true,
         "source_risk": "low"
       },
-      "confidence": 0.94,
-      "reasoning": "Policy shifts are currently in the developmental phase as nations adjust to the global minimum tax environment while maintaining regional competitiveness.",
+      "confidence": 0.97,
+      "reasoning": "Empirical evidence from global tax guides confirms statutory corporate tax rate stabilization, shifting competition to targeted tax reliefs.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Peak Hype",
+        "velocity_delta": 0,
+        "previous_velocity": "Medium",
+        "new_sources": [
+          "https://pathmakerid.com/blog/corporate-tax-rates-in-asia-2026-a-9-country-asean-comparison",
+          "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income"
+        ],
+        "dropped_sources": [
+          "https://www.ey.com/en_gl/technical/tax-guides/worldwide-corporate-tax-guide"
+        ],
+        "summary_changed": true
+      }
+    },
+    {
+      "id": "digital-tax-transformation-and-mandatory-real-time-e-invoicing",
+      "name": "Digital Tax Transformation and Mandatory Real-Time E-Invoicing",
+      "stage": "Breakthrough",
+      "velocity": "Fast",
+      "category": "International",
+      "summary": "Tax authorities worldwide are enforcing mandatory structured digital reporting and real-time e-invoicing networks (such as Peppol) to improve indirect tax compliance and eliminate revenue leakage.",
+      "evidence": [
+        "Inland Revenue Authority of Singapore (IRAS) mandating GST invoice data transmission via the GST InvoiceNow Peppol framework.",
+        "Canada Revenue Agency enforcing strict electronic return filing requirements and penalties for GST/HST registrants."
+      ],
+      "source_links": [
+        "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/basics-of-gst/invoicing-price-display-and-record-keeping/invoicing-customers",
+        "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
+        "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html"
+      ],
+      "source_details": [
+        {
+          "url": "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/basics-of-gst/invoicing-price-display-and-record-keeping/invoicing-customers",
+          "domain": "iras.gov.sg",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
+          "domain": "avalara.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html",
+          "domain": "canada.ca",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 3,
+        "primary_source_count": 1,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.98,
+      "reasoning": "Rapid adoption of mandatory technical e-invoicing networks across major administrative regions establishes this as a critical operational priority.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
+        "new_sources": [
+          "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/basics-of-gst/invoicing-price-display-and-record-keeping/invoicing-customers",
+          "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
+          "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html"
+        ],
+        "dropped_sources": [],
+        "summary_changed": false
+      }
+    },
+    {
+      "id": "asean-regional-tax-incentives-and-foreign-direct-investment-alignment",
+      "name": "ASEAN Regional Tax Incentives and Foreign Direct Investment Alignment",
+      "stage": "Incubation",
+      "velocity": "Medium",
+      "category": "Corporate Tax",
+      "summary": "ASEAN member states are actively refining tax holiday structures, M&A schemes, and tech-sector deductions to maintain foreign investment appeal while adapting to global minimum tax boundaries.",
+      "evidence": [
+        "Grant Thornton ASEAN 6 Tax Guide details enhanced tax deductions and specialized corporate income tax holidays for technology and export-oriented sectors.",
+        "Singapore Ministry of Finance maintaining targeted CIT relief schemes such as Double Tax Deduction for Internationalisation (DTDi) and M&A allowances."
+      ],
+      "source_links": [
+        "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026",
+        "https://www.mof.gov.sg/policies/taxes/corporate-income-tax",
+        "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates"
+      ],
+      "source_details": [
+        {
+          "url": "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026",
+          "domain": "grantthornton.co.th",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.mof.gov.sg/policies/taxes/corporate-income-tax",
+          "domain": "mof.gov.sg",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates",
+          "domain": "iras.gov.sg",
+          "type": "primary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 3,
+        "primary_source_count": 2,
+        "secondary_source_count": 1,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.95,
+      "reasoning": "Policy frameworks in ASEAN continue to adapt rapidly to preserve investment competitiveness in a post-Pillar Two environment.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": true,
@@ -294,7 +292,7 @@
         "velocity_delta": "new",
         "new_sources": [
           "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026",
-          "https://asean.org/about-asean",
+          "https://www.mof.gov.sg/policies/taxes/corporate-income-tax",
           "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates"
         ],
         "dropped_sources": [],
@@ -303,9 +301,9 @@
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.1-flash-lite",
+    "agent": "gemini-3.5-flash",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-11-10T16:01:20.142719Z",
+    "timestamp": "2026-11-10T22:01:26.081370Z",
     "active_narratives": 5,
     "validation": {
       "accepted": 5,
@@ -314,20 +312,20 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.1-flash-lite",
+      "model": "gemini-3.5-flash",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-11-10T16:01:20.142719Z",
-      "search_result_count": 31,
+      "timestamp": "2026-11-10T22:01:26.081370Z",
+      "search_result_count": 25,
       "validation_error_count": 0,
       "validation_failures": []
     }
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.1-flash-lite",
+    "model": "gemini-3.5-flash",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-11-10T16:01:20.142719Z",
-    "search_result_count": 31,
+    "timestamp": "2026-11-10T22:01:26.081370Z",
+    "search_result_count": 25,
     "validation_error_count": 0,
     "validation_failures": []
   }
