@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-10T22:01:26.081370Z",
-  "executive_briefing": "Global corporate tax policy in late 2026 is characterized by the convergence of OECD Pillar Two minimum tax implementation, statutory rate stabilization, and aggressive transition toward real-time digital tax administration. Tax authorities across key economic corridors, particularly within ASEAN, are replacing traditional headline rate competition with targeted structural incentives and mandatory real-time electronic invoicing\u2014such as Singapore's GST InvoiceNow Peppol network mandate and Canada's digital GST/HST filing rules\u2014to prevent tax base leakage and manage supply chain duties amid evolving trade tariffs.",
+  "last_updated": "2026-11-11T04:01:18.812279Z",
+  "executive_briefing": "Global corporate tax policy in late 2026 remains heavily influenced by the operationalization of the OECD Pillar Two minimum tax, localized tax incentive adjustments within ASEAN, and the aggressive implementation of real-time electronic invoicing networks. Concurrently, escalating unilateral and multilateral trade tariffs and import duties continue to disrupt cross-border supply chains, forcing enterprises to adapt their international trade compliance and tax structures dynamically.",
   "trends": [
     {
       "id": "escalating-global-trade-tariffs-and-import-duties",
@@ -10,19 +10,27 @@
       "category": "Tariffs",
       "summary": "Unilateral and multilateral tariff adjustments are actively altering cross-border trade costs and supply chain logistics, forcing firms to re-evaluate their international trade compliance strategies.",
       "evidence": [
-        "Ongoing global shift in trade policy monitoring and import duty schedules reported by international trade bodies.",
-        "Increased volatility in cross-border logistics driven by shifting unilateral tariff announcements."
+        "President Trump has ordered a slate of import tariffs, throwing the global economy into a state of uncertainty.",
+        "Recent HTS announcements and ongoing global trade policy monitoring track shifting import duty schedules."
       ],
       "source_links": [
         "https://www.reuters.com/business/tariffs",
+        "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
         "https://usacustomsclearance.com/import-tariffs-updates",
-        "https://www.bloomberg.com/latest/trump-tariffs"
+        "https://www.bloomberg.com/latest/trump-tariffs",
+        "https://ttd.wto.org/en"
       ],
       "source_details": [
         {
           "url": "https://www.reuters.com/business/tariffs",
           "domain": "reuters.com",
           "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
+          "domain": "usitc.gov",
+          "type": "primary",
           "published_date": null
         },
         {
@@ -36,19 +44,25 @@
           "domain": "bloomberg.com",
           "type": "secondary",
           "published_date": null
+        },
+        {
+          "url": "https://ttd.wto.org/en",
+          "domain": "ttd.wto.org",
+          "type": "primary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 3,
-        "primary_source_count": 0,
+        "total_sources": 5,
+        "primary_source_count": 2,
         "secondary_source_count": 3,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
-        "has_primary_sources": false,
-        "source_risk": "medium"
+        "has_primary_sources": true,
+        "source_risk": "low"
       },
-      "confidence": 0.98,
-      "reasoning": "Active enforcement of national tariff schedules maintains a high velocity and breakthrough stage as trade barriers remain a primary geopolitical tool.",
+      "confidence": 0.99,
+      "reasoning": "Active tariff announcements and heightened trade enforcement by major global economies keep this trend at a rapid velocity in the breakthrough stage.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -56,7 +70,10 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [],
+        "new_sources": [
+          "https://ttd.wto.org/en",
+          "https://www.usitc.gov/harmonized_tariff_information/announcement_archive"
+        ],
         "dropped_sources": [],
         "summary_changed": false
       }
@@ -100,7 +117,7 @@
         "source_risk": "low"
       },
       "confidence": 0.99,
-      "reasoning": "Continued global regulatory convergence toward Pillar Two protocols sustains high momentum in the implementation phase.",
+      "reasoning": "Global regulatory convergence and operational execution sustain the high momentum of Pillar Two protocols.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -110,7 +127,7 @@
         "previous_velocity": "Fast",
         "new_sources": [],
         "dropped_sources": [],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
@@ -121,7 +138,7 @@
       "category": "Corporate Tax",
       "summary": "The multi-decade trend of declining statutory corporate rates has plateaued globally as governments shift focus to tax base broadening, structural incentives, and compliance enforcement.",
       "evidence": [
-        "Global statutory rates have stabilized across major economies, with regional spreads in ASEAN ranging from 17% in Singapore to 30% in the Philippines against a regional baseline around 23%.",
+        "Global statutory rates have stabilized across major economies, with regional spreads in ASEAN ranging from 17% to 30%.",
         "Shift in policy debate toward targeted deductions, R&D credits, and startup exemptions rather than statutory headline reductions."
       ],
       "source_links": [
@@ -159,7 +176,7 @@
         "source_risk": "low"
       },
       "confidence": 0.97,
-      "reasoning": "Empirical evidence from global tax guides confirms statutory corporate tax rate stabilization, shifting competition to targeted tax reliefs.",
+      "reasoning": "Empirical updates confirm statutory corporate tax rate stabilization, shifting competition to targeted tax reliefs.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -167,14 +184,9 @@
         "previous_stage": "Peak Hype",
         "velocity_delta": 0,
         "previous_velocity": "Medium",
-        "new_sources": [
-          "https://pathmakerid.com/blog/corporate-tax-rates-in-asia-2026-a-9-country-asean-comparison",
-          "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income"
-        ],
-        "dropped_sources": [
-          "https://www.ey.com/en_gl/technical/tax-guides/worldwide-corporate-tax-guide"
-        ],
-        "summary_changed": true
+        "new_sources": [],
+        "dropped_sources": [],
+        "summary_changed": false
       }
     },
     {
@@ -186,7 +198,7 @@
       "summary": "Tax authorities worldwide are enforcing mandatory structured digital reporting and real-time e-invoicing networks (such as Peppol) to improve indirect tax compliance and eliminate revenue leakage.",
       "evidence": [
         "Inland Revenue Authority of Singapore (IRAS) mandating GST invoice data transmission via the GST InvoiceNow Peppol framework.",
-        "Canada Revenue Agency enforcing strict electronic return filing requirements and penalties for GST/HST registrants."
+        "Global adoption of electronic invoicing technologies to streamline financial operations and verify transactional compliance."
       ],
       "source_links": [
         "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/basics-of-gst/invoicing-price-display-and-record-keeping/invoicing-customers",
@@ -223,17 +235,15 @@
         "source_risk": "low"
       },
       "confidence": 0.98,
-      "reasoning": "Rapid adoption of mandatory technical e-invoicing networks across major administrative regions establishes this as a critical operational priority.",
+      "reasoning": "Rapid expansion of structured digital reporting mandates across multiple tax jurisdictions solidifies this trend's breakthrough trajectory.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
-        "new_sources": [
-          "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/basics-of-gst/invoicing-price-display-and-record-keeping/invoicing-customers",
-          "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
-          "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html"
-        ],
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "Fast",
+        "new_sources": [],
         "dropped_sources": [],
         "summary_changed": false
       }
@@ -284,26 +294,24 @@
         "source_risk": "low"
       },
       "confidence": 0.95,
-      "reasoning": "Policy frameworks in ASEAN continue to adapt rapidly to preserve investment competitiveness in a post-Pillar Two environment.",
+      "reasoning": "Regional policy frameworks continue to evolve toward specialized structural reliefs while adjusting to post-Pillar Two realities.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
-        "new_sources": [
-          "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026",
-          "https://www.mof.gov.sg/policies/taxes/corporate-income-tax",
-          "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates"
-        ],
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Incubation",
+        "velocity_delta": 0,
+        "previous_velocity": "Medium",
+        "new_sources": [],
         "dropped_sources": [],
         "summary_changed": false
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.5-flash",
+    "agent": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-11-10T22:01:26.081370Z",
+    "timestamp": "2026-11-11T04:01:18.812279Z",
     "active_narratives": 5,
     "validation": {
       "accepted": 5,
@@ -312,20 +320,20 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.5-flash",
+      "model": "gemini-3.5-flash-lite",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-11-10T22:01:26.081370Z",
-      "search_result_count": 25,
+      "timestamp": "2026-11-11T04:01:18.812279Z",
+      "search_result_count": 7,
       "validation_error_count": 0,
       "validation_failures": []
     }
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.5-flash",
+    "model": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-11-10T22:01:26.081370Z",
-    "search_result_count": 25,
+    "timestamp": "2026-11-11T04:01:18.812279Z",
+    "search_result_count": 7,
     "validation_error_count": 0,
     "validation_failures": []
   }
