@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-11-11 04:01
+# Tax Intelligence Briefing - 2026-11-11 10:01
 
-Global corporate tax policy in late 2026 remains heavily influenced by the operationalization of the OECD Pillar Two minimum tax, localized tax incentive adjustments within ASEAN, and the aggressive implementation of real-time electronic invoicing networks. Concurrently, escalating unilateral and multilateral trade tariffs and import duties continue to disrupt cross-border supply chains, forcing enterprises to adapt their international trade compliance and tax structures dynamically.
+Global corporate tax and trade policy in late 2026 is defined by two major pressures: aggressive trade tariff enforcement by key economies alongside the global operationalization of OECD Pillar Two minimum taxation, and the rapid adoption of digital tax compliance mechanisms such as mandatory e-invoicing. Concurrently, statutory corporate income tax rates remain stabilized across major markets, prompting governments to pivot toward refined targeted incentives and real-time indirect tax enforcement to secure revenue while preserving competitiveness.
