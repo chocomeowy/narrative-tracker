@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-11-12 04:01
+# Tax Intelligence Briefing - 2026-11-12 10:01
 
-Global corporate tax policy in late 2026 remains heavily influenced by the widespread operationalization of the OECD Pillar Two 15% global minimum tax and structural trade volatilities, including aggressive cross-border tariff modifications. Tax authorities are systematically advancing real-time digital compliance infrastructures, such as Singapore's progressive GST InvoiceNow mandate, driving heightened operational transparency and reshaping international compliance workflows.
+Global corporate tax policy in late 2026 is defined by the operational enforcement of the OECD Pillar Two 15% global minimum tax alongside structural trade volatility fueled by new US import tariff orders. Simultaneously, tax authorities worldwide are accelerating digital tax administration through mandatory real-time e-invoicing networks like Singapore's InvoiceNow initiative, while statutory corporate tax rates remain stabilized across key jurisdictions.
