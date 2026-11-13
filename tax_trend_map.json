@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-13T10:01:24.296384Z",
-  "executive_briefing": "Global corporate tax policy and trade regulatory dynamics in late 2026 remain anchored by aggressive multi-jurisdictional compliance mandates and escalating trade tariffs. The implementation of OECD Pillar Two global minimum tax (15% GloBE) continues to reshape cross-border enterprise tax structures and corporate investment strategy. Meanwhile, statutory corporate income tax rates have largely stabilized globally, prompting tax authorities in regions like ASEAN to shift from headline rate competition to targeted FDI incentives and incentive recalibrations. Simultaneously, unilateral tariff escalations and presidential executive actions continue to disrupt international supply chains, while tax enforcement across major economies heavily leverages mandatory real-time digital e-invoicing and e-administration frameworks to capture indirect tax revenues.",
+  "last_updated": "2026-11-13T16:01:11.669010Z",
+  "executive_briefing": "Global corporate tax policy and trade regulatory dynamics in late 2026 continue to be dominated by aggressive multi-jurisdictional compliance mandates, escalating trade tariffs, and the operationalization of the OECD Pillar Two global minimum tax. With statutory rates stabilizing globally, authorities are focusing heavily on targeted incentives, FDI alignment in regions like ASEAN, and mandatory real-time digital e-invoicing frameworks to secure tax revenues.",
   "trends": [
     {
       "id": "escalating-global-trade-tariffs-and-import-duties",
@@ -8,16 +8,16 @@
       "stage": "Breakthrough",
       "velocity": "Fast",
       "category": "Tariffs",
-      "summary": "Unilateral tariff actions, executive orders, and shifting tariff rates across major trading partners are generating economic volatility and requiring dynamic import compliance strategy.",
+      "summary": "Unilateral tariff actions, executive orders, and shifting tariff rates across major trading partners continue to generate economic volatility and require dynamic import compliance strategies.",
       "evidence": [
-        "Executive orders on import tariffs driving macroeconomic trade uncertainty",
-        "Continuous 2026 tariff schedule updates tracked by customs clearance platforms and international trade bodies"
+        "Presidential executive orders on import tariffs driving macroeconomic trade uncertainty",
+        "Continuous tariff schedule updates tracked by customs clearance platforms and international trade bodies like the WTO"
       ],
       "source_links": [
         "https://www.reuters.com/business/tariffs",
         "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
+        "https://ttd.wto.org/en",
         "https://usacustomsclearance.com/import-tariffs-updates",
-        "https://www.oiaglobal.com/tariff-updates",
         "https://www.spglobal.com/market-intelligence/en/news-insights/topics/international-trade-tariffs-news"
       ],
       "source_details": [
@@ -34,14 +34,14 @@
           "published_date": null
         },
         {
-          "url": "https://usacustomsclearance.com/import-tariffs-updates",
-          "domain": "usacustomsclearance.com",
-          "type": "secondary",
+          "url": "https://ttd.wto.org/en",
+          "domain": "ttd.wto.org",
+          "type": "primary",
           "published_date": null
         },
         {
-          "url": "https://www.oiaglobal.com/tariff-updates",
-          "domain": "oiaglobal.com",
+          "url": "https://usacustomsclearance.com/import-tariffs-updates",
+          "domain": "usacustomsclearance.com",
           "type": "secondary",
           "published_date": null
         },
@@ -54,8 +54,8 @@
       ],
       "source_quality": {
         "total_sources": 5,
-        "primary_source_count": 1,
-        "secondary_source_count": 4,
+        "primary_source_count": 2,
+        "secondary_source_count": 3,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
@@ -70,8 +70,12 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [],
-        "dropped_sources": [],
+        "new_sources": [
+          "https://ttd.wto.org/en"
+        ],
+        "dropped_sources": [
+          "https://www.oiaglobal.com/tariff-updates"
+        ],
         "summary_changed": true
       }
     },
@@ -81,33 +85,34 @@
       "stage": "Breakthrough",
       "velocity": "Fast",
       "category": "Corporate Tax",
-      "summary": "Enforcement of the 15% GloBE global minimum tax under OECD Pillar Two rules is compelling MNEs to continuously calculate and adjust Effective Tax Rates (ETRs) globally.",
+      "summary": "Enforcement of the 15% GloBE global minimum tax under OECD Pillar Two rules is compelling multinational enterprises to continuously calculate and adjust Effective Tax Rates globally.",
       "evidence": [
-        "Multi-jurisdictional statutory adoption of Pillar Two rules incorporated into 2026 global corporate tax guides",
+        "Multi-jurisdictional statutory adoption of Pillar Two rules incorporated into global corporate tax guides",
         "OECD reporting guidelines actively reshaping corporate structure and cross-border investment strategies"
       ],
       "source_links": [
-        "https://taxrate.org/corporate-tax-rates",
-        "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html",
-        "https://www.ey.com/en_gl/technical/tax-guides/worldwide-corporate-tax-guide",
-        "https://journals.law.harvard.edu/ilj/wp-content/uploads/sites/84/Vol.-67.1_Gomes_The-Global-Minimum-Tax-Pillar-Two.pdf"
+        "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
+        "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
+        "https://www.pwc.com/gx/en/services/tax/pillar-two-readiness/country-tracker.html",
+        "https://journals.law.harvard.edu/ilj/wp-content/uploads/sites/84/Vol.-67.1_Gomes_The-Global-Minimum-Tax-Pillar-Two.pdf",
+        "https://www.oecd.org/en/publications/tax-incentives-and-the-global-minimum-corporate-tax_25d30b96-en.html"
       ],
       "source_details": [
         {
-          "url": "https://taxrate.org/corporate-tax-rates",
-          "domain": "taxrate.org",
+          "url": "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        },
+        {
+          "url": "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
+          "domain": "moodys.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html",
-          "domain": "kpmg.com",
-          "type": "secondary",
-          "published_date": "2026-07-01"
-        },
-        {
-          "url": "https://www.ey.com/en_gl/technical/tax-guides/worldwide-corporate-tax-guide",
-          "domain": "ey.com",
+          "url": "https://www.pwc.com/gx/en/services/tax/pillar-two-readiness/country-tracker.html",
+          "domain": "pwc.com",
           "type": "secondary",
           "published_date": null
         },
@@ -116,19 +121,25 @@
           "domain": "journals.law.harvard.edu",
           "type": "primary",
           "published_date": null
+        },
+        {
+          "url": "https://www.oecd.org/en/publications/tax-incentives-and-the-global-minimum-corporate-tax_25d30b96-en.html",
+          "domain": "oecd.org",
+          "type": "primary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 4,
-        "primary_source_count": 1,
-        "secondary_source_count": 3,
-        "wikipedia_source_count": 0,
+        "total_sources": 5,
+        "primary_source_count": 2,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 1,
         "blog_source_count": 0,
         "has_primary_sources": true,
         "source_risk": "low"
       },
       "confidence": 0.99,
-      "reasoning": "Strong evidence across top-tier accounting and tax sources confirms widespread statutory implementation and high operational velocity.",
+      "reasoning": "Strong evidence across top-tier regulatory and academic sources confirms widespread statutory implementation and high operational velocity.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -137,15 +148,15 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
-          "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html",
-          "https://taxrate.org/corporate-tax-rates",
-          "https://www.ey.com/en_gl/technical/tax-guides/worldwide-corporate-tax-guide"
-        ],
-        "dropped_sources": [
           "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
           "https://www.moodys.com/web/en/us/insights/public-sector/understanding-pillar-two-the-global-minimum-tax-policy.html",
           "https://www.oecd.org/en/publications/tax-incentives-and-the-global-minimum-corporate-tax_25d30b96-en.html",
           "https://www.pwc.com/gx/en/services/tax/pillar-two-readiness/country-tracker.html"
+        ],
+        "dropped_sources": [
+          "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html",
+          "https://taxrate.org/corporate-tax-rates",
+          "https://www.ey.com/en_gl/technical/tax-guides/worldwide-corporate-tax-guide"
         ],
         "summary_changed": true
       }
@@ -164,8 +175,8 @@
       "source_links": [
         "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
         "https://tax.thomsonreuters.com/blog/what-is-e-invoicing",
-        "https://www.sap.com/resources/what-is-e-invoicing",
-        "https://www.iras.gov.sg/digital-services/gst"
+        "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html",
+        "https://www.sap.com/resources/what-is-e-invoicing"
       ],
       "source_details": [
         {
@@ -181,26 +192,26 @@
           "published_date": null
         },
         {
-          "url": "https://www.sap.com/resources/what-is-e-invoicing",
-          "domain": "sap.com",
+          "url": "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html",
+          "domain": "avalara.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.iras.gov.sg/digital-services/gst",
-          "domain": "iras.gov.sg",
-          "type": "primary",
+          "url": "https://www.sap.com/resources/what-is-e-invoicing",
+          "domain": "sap.com",
+          "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
         "total_sources": 4,
-        "primary_source_count": 1,
-        "secondary_source_count": 3,
+        "primary_source_count": 0,
+        "secondary_source_count": 4,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
-        "has_primary_sources": true,
-        "source_risk": "low"
+        "has_primary_sources": false,
+        "source_risk": "medium"
       },
       "confidence": 0.98,
       "reasoning": "Real-time structured invoice mandates and tax software adoption continue to expand rapidly worldwide.",
@@ -212,13 +223,12 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
-          "https://www.sap.com/resources/what-is-e-invoicing"
-        ],
-        "dropped_sources": [
-          "https://en.wikipedia.org/wiki/E-invoicing",
           "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html"
         ],
-        "summary_changed": true
+        "dropped_sources": [
+          "https://www.iras.gov.sg/digital-services/gst"
+        ],
+        "summary_changed": false
       }
     },
     {
@@ -229,56 +239,35 @@
       "category": "Corporate Tax",
       "summary": "Headline statutory corporate tax rates have plateaued across major markets in 2026, shifting tax competition away from base rates toward targeted incentives and anti-base erosion measures.",
       "evidence": [
-        "Global tax guides covering over 150 jurisdictions confirm stable baseline statutory corporate rates",
-        "KPMG and OECD corporate tax statistics reflect a halt in the decades-long drop in baseline corporate rates"
+        "Global tax guides covering major jurisdictions confirm stable baseline statutory corporate rates",
+        "Corporate tax statistics reflect a halt in the decades-long drop in baseline corporate rates"
       ],
       "source_links": [
-        "https://www.ey.com/en_gl/technical/tax-guides/worldwide-corporate-tax-guide",
-        "https://chambers.com/practice-guides/guides/corporate-tax-2026",
-        "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html",
-        "https://www.novaledgeadvisory.com/insights/global-corporate-tax-rates-2026",
-        "https://taxrate.org/corporate-tax-rates"
+        "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
+        "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates"
       ],
       "source_details": [
         {
-          "url": "https://www.ey.com/en_gl/technical/tax-guides/worldwide-corporate-tax-guide",
-          "domain": "ey.com",
+          "url": "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
+          "domain": "taxsummaries.pwc.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://chambers.com/practice-guides/guides/corporate-tax-2026",
-          "domain": "chambers.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html",
-          "domain": "kpmg.com",
-          "type": "secondary",
-          "published_date": "2026-07-01"
-        },
-        {
-          "url": "https://www.novaledgeadvisory.com/insights/global-corporate-tax-rates-2026",
-          "domain": "novaledgeadvisory.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://taxrate.org/corporate-tax-rates",
-          "domain": "taxrate.org",
-          "type": "secondary",
+          "url": "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates",
+          "domain": "iras.gov.sg",
+          "type": "primary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 5,
-        "primary_source_count": 0,
-        "secondary_source_count": 5,
+        "total_sources": 2,
+        "primary_source_count": 1,
+        "secondary_source_count": 1,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
-        "has_primary_sources": false,
-        "source_risk": "medium"
+        "has_primary_sources": true,
+        "source_risk": "low"
       },
       "confidence": 0.96,
       "reasoning": "Comprehensive global tax surveys validate that headline rates remain flat, keeping this narrative at peak analytical coverage.",
@@ -289,9 +278,18 @@
         "previous_stage": "Peak Hype",
         "velocity_delta": 0,
         "previous_velocity": "Medium",
-        "new_sources": [],
-        "dropped_sources": [],
-        "summary_changed": true
+        "new_sources": [
+          "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
+          "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates"
+        ],
+        "dropped_sources": [
+          "https://chambers.com/practice-guides/guides/corporate-tax-2026",
+          "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html",
+          "https://taxrate.org/corporate-tax-rates",
+          "https://www.ey.com/en_gl/technical/tax-guides/worldwide-corporate-tax-guide",
+          "https://www.novaledgeadvisory.com/insights/global-corporate-tax-rates-2026"
+        ],
+        "summary_changed": false
       }
     },
     {
@@ -303,21 +301,13 @@
       "summary": "Southeast Asian nations are restructuring tax holidays, enhanced deductions, and regional incentives to attract high-tech foreign direct investment while maintaining GloBE compliance.",
       "evidence": [
         "ASEAN tax guides detail updated tax incentives and special corporate rates for priority tech sectors",
-        "Significant ETR rate variances between regional economies like Singapore and the Philippines driving strategic policy refinements"
+        "Significant ETR rate variances between regional economies driving strategic policy refinements"
       ],
       "source_links": [
-        "https://www.grantthornton.com.ph/contentassets/ebaf23a7a55f406a8030049deedfe85d/asean-tax-guide-2026.pdf",
         "https://pathmakerid.com/blog/corporate-tax-rates-in-asia-2026-a-9-country-asean-comparison",
-        "https://assets.kpmg.com/content/dam/kpmg/pdf/2013/12/asean-tax-guide-v2.pdf",
-        "https://www.aseanbriefing.com/news/comparing-tax-rates-across-asean"
+        "https://www.grantthornton.com.ph/contentassets/ebaf23a7a55f406a8030049deedfe85d/asean-tax-guide-2026.pdf"
       ],
       "source_details": [
-        {
-          "url": "https://www.grantthornton.com.ph/contentassets/ebaf23a7a55f406a8030049deedfe85d/asean-tax-guide-2026.pdf",
-          "domain": "grantthornton.com.ph",
-          "type": "secondary",
-          "published_date": null
-        },
         {
           "url": "https://pathmakerid.com/blog/corporate-tax-rates-in-asia-2026-a-9-country-asean-comparison",
           "domain": "pathmakerid.com",
@@ -325,22 +315,16 @@
           "published_date": null
         },
         {
-          "url": "https://assets.kpmg.com/content/dam/kpmg/pdf/2013/12/asean-tax-guide-v2.pdf",
-          "domain": "assets.kpmg.com",
-          "type": "secondary",
-          "published_date": "2013-12-01"
-        },
-        {
-          "url": "https://www.aseanbriefing.com/news/comparing-tax-rates-across-asean",
-          "domain": "aseanbriefing.com",
+          "url": "https://www.grantthornton.com.ph/contentassets/ebaf23a7a55f406a8030049deedfe85d/asean-tax-guide-2026.pdf",
+          "domain": "grantthornton.com.ph",
           "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 4,
+        "total_sources": 2,
         "primary_source_count": 0,
-        "secondary_source_count": 4,
+        "secondary_source_count": 2,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": false,
@@ -356,15 +340,18 @@
         "velocity_delta": 0,
         "previous_velocity": "Medium",
         "new_sources": [],
-        "dropped_sources": [],
-        "summary_changed": true
+        "dropped_sources": [
+          "https://assets.kpmg.com/content/dam/kpmg/pdf/2013/12/asean-tax-guide-v2.pdf",
+          "https://www.aseanbriefing.com/news/comparing-tax-rates-across-asean"
+        ],
+        "summary_changed": false
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.5-flash",
+    "agent": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-11-13T10:01:24.296384Z",
+    "timestamp": "2026-11-13T16:01:11.669010Z",
     "active_narratives": 5,
     "validation": {
       "accepted": 5,
@@ -373,9 +360,9 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.5-flash",
+      "model": "gemini-3.5-flash-lite",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-11-13T10:01:24.296384Z",
+      "timestamp": "2026-11-13T16:01:11.669010Z",
       "search_result_count": 30,
       "validation_error_count": 0,
       "validation_failures": []
@@ -383,9 +370,9 @@
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.5-flash",
+    "model": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-11-13T10:01:24.296384Z",
+    "timestamp": "2026-11-13T16:01:11.669010Z",
     "search_result_count": 30,
     "validation_error_count": 0,
     "validation_failures": []
