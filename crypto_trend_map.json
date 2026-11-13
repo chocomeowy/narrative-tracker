@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-12T22:01:40.343515Z",
-  "executive_briefing": "The digital asset landscape in late 2026 continues to experience structural evolution, characterized by the institutional maturity of Bitcoin and Ethereum's entrenched execution dominance, contrasted with regulatory setbacks in the United States. While spot Bitcoin ETFs and corporate treasuries have driven BTC holdings past the $100 billion threshold, technical initiatives like Clarity and trust-minimized cross-chain swapping are successfully unlocking native Bitcoin liquidity for decentralized finance. Meanwhile, the regulatory environment faces severe friction following the Senate's 49-50 cloture vote failure regarding the Digital Asset Market Clarity Act (CLARITY Act), postponing definitive SEC-CFTC market structure clarity.",
+  "last_updated": "2026-11-13T04:01:11.340596Z",
+  "executive_briefing": "The late 2026 digital asset landscape is defined by the architectural competition between Ethereum's established EVM execution dominance and Bitcoin's emerging smart contract capabilities driven by Clarity and cross-chain liquidity mechanisms. As institutional Bitcoin holdings via ETFs sit firmly above $100 billion, structural evolution focuses on unlocking native BTC liquidity for decentralized finance through non-custodial swaps and decidable smart contracts. Simultaneously, legislative progress in the US remains constrained by the Senate's 49-50 cloture vote failure on the Digital Asset Market Clarity Act, maintaining regulatory ambiguity for SEC and CFTC oversight while market participants deepen cross-chain interoperation.",
   "trends": [
     {
       "id": "institutional-bitcoin-treasury-and-etf-consolidation",
@@ -45,12 +45,7 @@
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
         "new_sources": [],
-        "dropped_sources": [
-          "https://bitcoincompleteguide.com/guide/bitcoin-institutional-adoption",
-          "https://www.blockchain-council.org/bitcoin/bitcoin-etf-inflows-btc-price",
-          "https://www.theblock.co/learn/macro/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111",
-          "https://www.theblock.co/learn/markets/how-bitcoin-etfs-changed-institutional-adoption-408156"
-        ],
+        "dropped_sources": [],
         "summary_changed": false
       }
     },
@@ -116,9 +111,7 @@
         "velocity_delta": 0,
         "previous_velocity": "High",
         "new_sources": [],
-        "dropped_sources": [
-          "https://blockchainreporter.net/what-is-the-clarity-act-the-crypto-bill-that-could-reshape-us-regulation-explained"
-        ],
+        "dropped_sources": [],
         "summary_changed": false
       }
     },
@@ -165,12 +158,7 @@
         "velocity_delta": 0,
         "previous_velocity": "High",
         "new_sources": [],
-        "dropped_sources": [
-          "https://ethereum.org/bridges",
-          "https://symbiosis.finance",
-          "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
-          "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps"
-        ],
+        "dropped_sources": [],
         "summary_changed": false
       }
     },
@@ -186,9 +174,37 @@
         "Proof-of-Stake validator consensus maintains network security while reducing operational energy expenditure by over 99%."
       ],
       "source_links": [
+        "https://en.wikipedia.org/wiki/Ethereum",
+        "https://ethereum.org",
+        "https://coinmarketcap.com/currencies/ethereum",
+        "https://etherscan.io",
         "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance"
       ],
       "source_details": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethereum",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        },
+        {
+          "url": "https://ethereum.org",
+          "domain": "ethereum.org",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://coinmarketcap.com/currencies/ethereum",
+          "domain": "coinmarketcap.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://etherscan.io",
+          "domain": "etherscan.io",
+          "type": "secondary",
+          "published_date": null
+        },
         {
           "url": "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
           "domain": "en.wikipedia.org",
@@ -197,40 +213,38 @@
         }
       ],
       "source_quality": {
-        "total_sources": 1,
-        "primary_source_count": 0,
-        "secondary_source_count": 0,
-        "wikipedia_source_count": 1,
+        "total_sources": 5,
+        "primary_source_count": 1,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 2,
         "blog_source_count": 0,
-        "has_primary_sources": false,
-        "source_risk": "high"
+        "has_primary_sources": true,
+        "source_risk": "low"
       },
       "confidence": 0.96,
       "reasoning": "Ethereum retains high developer activity, liquidity density, and validator participation, maintaining stable high velocity.",
-      "validation_flags": [
-        "weak_source_support",
-        "wikipedia_only"
-      ],
+      "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
         "stage_delta": 0,
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "High",
-        "new_sources": [],
-        "dropped_sources": [
+        "new_sources": [
+          "https://coinmarketcap.com/currencies/ethereum",
           "https://en.wikipedia.org/wiki/Ethereum",
           "https://ethereum.org",
-          "https://ethereum.org/what-is-ether"
+          "https://etherscan.io"
         ],
+        "dropped_sources": [],
         "summary_changed": false
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.5-flash-lite",
+    "agent": "gemini-3.6-flash",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-11-12T22:01:40.343515Z",
+    "timestamp": "2026-11-13T04:01:11.340596Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -239,20 +253,20 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.5-flash-lite",
+      "model": "gemini-3.6-flash",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-11-12T22:01:40.343515Z",
-      "search_result_count": 6,
+      "timestamp": "2026-11-13T04:01:11.340596Z",
+      "search_result_count": 5,
       "validation_error_count": 0,
       "validation_failures": []
     }
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.5-flash-lite",
+    "model": "gemini-3.6-flash",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-11-12T22:01:40.343515Z",
-    "search_result_count": 6,
+    "timestamp": "2026-11-13T04:01:11.340596Z",
+    "search_result_count": 5,
     "validation_error_count": 0,
     "validation_failures": []
   }
