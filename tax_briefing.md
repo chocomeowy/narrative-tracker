@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-11-13 16:01
+# Tax Intelligence Briefing - 2026-11-13 22:01
 
-Global corporate tax policy and trade regulatory dynamics in late 2026 continue to be dominated by aggressive multi-jurisdictional compliance mandates, escalating trade tariffs, and the operationalization of the OECD Pillar Two global minimum tax. With statutory rates stabilizing globally, authorities are focusing heavily on targeted incentives, FDI alignment in regions like ASEAN, and mandatory real-time digital e-invoicing frameworks to secure tax revenues.
+Global tax policy and trade regulatory dynamics in late 2026 continue to center around aggressive multi-jurisdictional compliance mandates, escalating trade tariffs, and the operationalization of the OECD Pillar Two global minimum tax. As headline corporate tax rates stabilize globally, authorities are shifting focus toward targeted incentives, FDI alignment in regions like ASEAN, and mandatory real-time digital e-invoicing frameworks like Singapore's InvoiceNow initiative to safeguard tax and VAT revenues.
