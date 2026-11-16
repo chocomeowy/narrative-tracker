@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-11-16 16:01
+# Tax Intelligence Briefing - 2026-11-16 22:01
 
-Tax policy in late 2026 is defined by the rigid operationalization of Pillar Two and a volatile resurgence in protectionist trade duties. While corporate income tax rates have hit a structural floor, tax administrations are pivoting to 'transactional transparency' through real-time e-invoicing mandates. ASEAN economies are leading the shift in incentive design, moving away from tax holidays toward Pillar Two-compliant credits, while North American trade relations are increasingly dictated by tariff threats and unilateral duty escalations.
+Tax policy in late 2026 remains dominated by the operationalization of the OECD Pillar Two global minimum tax, structural stabilization of corporate tax rates, and a strong push toward real-time digital tax administration such as Singapore's e-invoicing mandates. Simultaneously, global trade policies are characterized by escalating protectionist tariffs and regional incentive recalibrations across ASEAN economies.
