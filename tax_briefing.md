@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-11-16 04:01
+# Tax Intelligence Briefing - 2026-11-16 10:01
 
 As of late 2026, the international tax architecture is heavily anchored by the operationalization of the OECD Pillar Two global minimum tax, bringing an end to decades of corporate rate slashing. Governments are increasingly turning to strategic import tariffs, continuous transaction controls, and e-invoicing mandates as primary pillars of fiscal and trade protectionism. Simultaneously, regions like ASEAN are aggressively overhauling their investment incentive programs to ensure GloBE alignment.
