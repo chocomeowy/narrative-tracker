@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-16T16:02:00.733060Z",
+  "last_updated": "2026-11-16T22:01:44.682052Z",
   "archived_trends": [
     {
       "name": "Cross-Chain Liquidity Solutions",
@@ -34080,6 +34080,66 @@
         "summary_changed": false
       },
       "archived_at": "2026-11-16T16:02:00.733060Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "ethereum-settlement-layer-dominance",
+      "name": "Ethereum Settlement Layer Dominance",
+      "stage": "Breakthrough",
+      "velocity": "High",
+      "category": "Layer 1",
+      "summary": "Ethereum has solidified its position as the premier L1 settlement layer, underpinning the security for a vast network of L2 rollups and decentralized financial protocols.",
+      "evidence": [
+        "Ethereum serves as the foundational security layer for multi-chain DeFi ecosystems.",
+        "Transition to PoS has reduced energy usage by 99% while maintaining second-largest market cap status.",
+        "Ethereum bridges and developers are increasingly focused on cross-chain messaging standards."
+      ],
+      "source_links": [
+        "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+        "https://ethereum.org/developers/docs/bridges"
+      ],
+      "source_details": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        },
+        {
+          "url": "https://ethereum.org/developers/docs/bridges",
+          "domain": "ethereum.org",
+          "type": "primary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 2,
+        "primary_source_count": 1,
+        "secondary_source_count": 0,
+        "wikipedia_source_count": 1,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.95,
+      "reasoning": "Ethereum remains the dominant execution environment for smart contracts and the primary target for BTC liquidity integration.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [
+          "https://ethereum.org/developers/docs/bridges"
+        ],
+        "dropped_sources": [
+          "https://coinmarketcap.com/currencies/ethereum",
+          "https://ethereum.org"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-11-16T22:01:44.682052Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
