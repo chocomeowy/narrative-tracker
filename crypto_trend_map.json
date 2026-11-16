@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-16T04:01:29.231556Z",
-  "executive_briefing": "Late 2026 digital asset intelligence reflects structural maturity in core protocol primitives alongside regulatory friction in Washington. Following a failed Senate procedural vote on the Digital Asset Market Clarity Act, U.S. market structure legislation remains stalled. Meanwhile, institutional Bitcoin deployment and cross-chain capital efficiency remain robust, alongside decentralized smart contract execution.",
+  "last_updated": "2026-11-16T10:01:45.114635Z",
+  "executive_briefing": "Late 2026 digital asset intelligence reflects structural maturity in core protocol primitives alongside regulatory friction in Washington. Following a failed Senate procedural vote and subsequent midterm shifts, the Digital Asset Market Clarity Act remains stalled. Meanwhile, institutional Bitcoin deployment, spot ETF integration, cross-chain capital efficiency, and decentralized smart contract execution via decidable languages continue to advance.",
   "trends": [
     {
       "id": "institutional-bitcoin-treasury-and-etf-consolidation",
@@ -14,7 +14,9 @@
         "Corporate treasuries and regulated asset managers maintain standardized BTC baseline allocations."
       ],
       "source_links": [
-        "https://cryptothreads.io/learn/bitcoin-institutional-adoption"
+        "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
+        "https://bitcoincompleteguide.com/guide/bitcoin-institutional-adoption",
+        "https://www.blockchain-council.org/bitcoin/bitcoin-etf-inflows-btc-price"
       ],
       "source_details": [
         {
@@ -22,35 +24,43 @@
           "domain": "cryptothreads.io",
           "type": "secondary",
           "published_date": null
+        },
+        {
+          "url": "https://bitcoincompleteguide.com/guide/bitcoin-institutional-adoption",
+          "domain": "bitcoincompleteguide.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.blockchain-council.org/bitcoin/bitcoin-etf-inflows-btc-price",
+          "domain": "blockchain-council.org",
+          "type": "secondary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 1,
+        "total_sources": 3,
         "primary_source_count": 0,
-        "secondary_source_count": 1,
+        "secondary_source_count": 3,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": false,
-        "source_risk": "high"
+        "source_risk": "medium"
       },
       "confidence": 0.98,
       "reasoning": "Institutional ETF inflows and treasury integration remain established operational baselines without immediate macro catalysts for stage changes.",
-      "validation_flags": [
-        "weak_source_support"
-      ],
+      "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
         "stage_delta": 0,
         "previous_stage": "Fatigue",
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
-        "new_sources": [],
-        "dropped_sources": [
+        "new_sources": [
           "https://bitcoincompleteguide.com/guide/bitcoin-institutional-adoption",
-          "https://www.blockchain-council.org/bitcoin/bitcoin-etf-inflows-btc-price",
-          "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption",
-          "https://www.theblock.co/learn/macro/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111"
+          "https://www.blockchain-council.org/bitcoin/bitcoin-etf-inflows-btc-price"
         ],
+        "dropped_sources": [],
         "summary_changed": false
       }
     },
@@ -60,33 +70,47 @@
       "stage": "Fatigue",
       "velocity": "Low",
       "category": "Regulation",
-      "summary": "Comprehensive US digital asset market structure legislation remains blocked in the Senate following procedural vote failures driven by disagreements over stablecoin yield provisions.",
+      "summary": "Comprehensive US digital asset market structure legislation remains blocked in the Senate following procedural vote failures and narrowing political paths after midterms.",
       "evidence": [
         "The Senate failed to advance the CLARITY Act following procedural motion votes.",
-        "Key legislative sticking points center on stablecoin yield balance permissions and regulatory jurisdiction."
+        "The legislative path faces a narrowing window following the recent political shifts."
       ],
       "source_links": [
-        "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text"
+        "https://blockchainreporter.net/what-is-the-clarity-act-the-crypto-bill-that-could-reshape-us-regulation-explained",
+        "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act",
+        "https://www.forbes.com/sites/digital-assets/2026/11/11/the-clarity-act-is-effectively-tabled-until-january-after-a-49-50-senate-defeat-and-a-democratic-midterm-sweep"
       ],
       "source_details": [
         {
-          "url": "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
-          "domain": "lummis.senate.gov",
-          "type": "primary",
+          "url": "https://blockchainreporter.net/what-is-the-clarity-act-the-crypto-bill-that-could-reshape-us-regulation-explained",
+          "domain": "blockchainreporter.net",
+          "type": "secondary",
           "published_date": null
+        },
+        {
+          "url": "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act",
+          "domain": "dlapiper.com",
+          "type": "secondary",
+          "published_date": "2026-09-01"
+        },
+        {
+          "url": "https://www.forbes.com/sites/digital-assets/2026/11/11/the-clarity-act-is-effectively-tabled-until-january-after-a-49-50-senate-defeat-and-a-democratic-midterm-sweep",
+          "domain": "forbes.com",
+          "type": "secondary",
+          "published_date": "2026-11-11"
         }
       ],
       "source_quality": {
-        "total_sources": 1,
-        "primary_source_count": 1,
-        "secondary_source_count": 0,
+        "total_sources": 3,
+        "primary_source_count": 0,
+        "secondary_source_count": 3,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
-        "has_primary_sources": true,
-        "source_risk": "low"
+        "has_primary_sources": false,
+        "source_risk": "medium"
       },
       "confidence": 0.96,
-      "reasoning": "Procedural friction and partisan disagreements over stablecoin yield provisions continue to stall broader regulatory market structure momentum.",
+      "reasoning": "Procedural friction and partisan disagreements continue to stall broader regulatory market structure momentum.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -94,12 +118,13 @@
         "previous_stage": "Fatigue",
         "velocity_delta": 0,
         "previous_velocity": "Low",
-        "new_sources": [],
-        "dropped_sources": [
+        "new_sources": [
           "https://blockchainreporter.net/what-is-the-clarity-act-the-crypto-bill-that-could-reshape-us-regulation-explained",
-          "https://tech-insider.org/clarity-act-crypto-regulation-senate-stablecoin-2026",
-          "https://www.banking.senate.gov/newsroom/majority/the-facts-the-clarity-act",
-          "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act"
+          "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act",
+          "https://www.forbes.com/sites/digital-assets/2026/11/11/the-clarity-act-is-effectively-tabled-until-january-after-a-49-50-senate-defeat-and-a-democratic-midterm-sweep"
+        ],
+        "dropped_sources": [
+          "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text"
         ],
         "summary_changed": true
       }
@@ -145,9 +170,7 @@
         "velocity_delta": 0,
         "previous_velocity": "High",
         "new_sources": [],
-        "dropped_sources": [
-          "https://cryptothreads.io/learn/bitcoin-institutional-adoption"
-        ],
+        "dropped_sources": [],
         "summary_changed": false
       }
     },
@@ -198,12 +221,8 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "High",
-        "new_sources": [
-          "https://ethereum.org"
-        ],
-        "dropped_sources": [
-          "https://www.theblock.co/learn/macro/institutional-bitcoin-adoption-explained-how-blackrock-fidelity-and-others-embraced-btc-407111"
-        ],
+        "new_sources": [],
+        "dropped_sources": [],
         "summary_changed": false
       }
     },
@@ -261,14 +280,8 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "High",
-        "new_sources": [
-          "https://coinmarketcap.com/currencies/ethereum",
-          "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
-          "https://ethereum.org"
-        ],
-        "dropped_sources": [
-          "https://cryptothreads.io/learn/bitcoin-institutional-adoption"
-        ],
+        "new_sources": [],
+        "dropped_sources": [],
         "summary_changed": false
       }
     }
@@ -276,7 +289,7 @@
   "intelligence_metadata": {
     "agent": "gemini-3.5-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-11-16T04:01:29.231556Z",
+    "timestamp": "2026-11-16T10:01:45.114635Z",
     "active_narratives": 5,
     "validation": {
       "accepted": 5,
@@ -287,8 +300,8 @@
       "status": "success",
       "model": "gemini-3.5-flash-lite",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-11-16T04:01:29.231556Z",
-      "search_result_count": 5,
+      "timestamp": "2026-11-16T10:01:45.114635Z",
+      "search_result_count": 10,
       "validation_error_count": 0,
       "validation_failures": []
     }
@@ -297,8 +310,8 @@
     "status": "success",
     "model": "gemini-3.5-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-11-16T04:01:29.231556Z",
-    "search_result_count": 5,
+    "timestamp": "2026-11-16T10:01:45.114635Z",
+    "search_result_count": 10,
     "validation_error_count": 0,
     "validation_failures": []
   }
