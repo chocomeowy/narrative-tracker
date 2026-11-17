@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-17T10:01:37.839121Z",
+  "last_updated": "2026-11-17T16:01:46.418996Z",
   "executive_briefing": "As of late 2026, the crypto-asset market has shifted toward institutional stabilization and technical maturation. Following the Senate's rejection of the CLARITY Act, the legislative landscape is now characterized by prolonged regulatory stagnation, forcing firms to adapt to current agency enforcement frameworks. Consequently, the focus has moved from speculative growth to building robust, trust-minimized infrastructure. Bitcoin-native development\u2014specifically leveraging languages like Clarity for deterministic smart contracts\u2014is gaining significant ground over traditional EVM-wrapper approaches, addressing institutional demand for safety. Simultaneously, the ecosystem is moving away from legacy cross-chain bridges toward native liquidity networks, representing a fundamental upgrade in how cross-chain capital efficiency and security are maintained.",
   "trends": [
     {
@@ -16,7 +16,7 @@
       "source_links": [
         "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
         "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption",
-        "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis"
+        "https://bitcoincompleteguide.com/guide/bitcoin-institutional-adoption"
       ],
       "source_details": [
         {
@@ -32,8 +32,8 @@
           "published_date": null
         },
         {
-          "url": "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis",
-          "domain": "spark.money",
+          "url": "https://bitcoincompleteguide.com/guide/bitcoin-institutional-adoption",
+          "domain": "bitcoincompleteguide.com",
           "type": "secondary",
           "published_date": null
         }
@@ -57,13 +57,12 @@
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
         "new_sources": [
-          "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption",
-          "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis"
+          "https://bitcoincompleteguide.com/guide/bitcoin-institutional-adoption"
         ],
         "dropped_sources": [
-          "https://en.m.wikipedia.org/wiki/Bitcoin"
+          "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis"
         ],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
@@ -115,14 +114,12 @@
       "reasoning": "Legislative stagnation is confirmed by multiple failed procedural votes, firmly rooting the trend in the Fatigue stage.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
-        "new_sources": [
-          "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act",
-          "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
-          "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text"
-        ],
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Fatigue",
+        "velocity_delta": 0,
+        "previous_velocity": "Low",
+        "new_sources": [],
         "dropped_sources": [],
         "summary_changed": false
       }
@@ -169,7 +166,7 @@
         "previous_velocity": "High",
         "new_sources": [],
         "dropped_sources": [],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
@@ -185,7 +182,9 @@
       ],
       "source_links": [
         "https://ethereum.org",
-        "https://etherscan.io"
+        "https://etherscan.io",
+        "https://symbiosis.finance/bridge-btc-to-eth",
+        "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps"
       ],
       "source_details": [
         {
@@ -199,12 +198,24 @@
           "domain": "etherscan.io",
           "type": "secondary",
           "published_date": null
+        },
+        {
+          "url": "https://symbiosis.finance/bridge-btc-to-eth",
+          "domain": "symbiosis.finance",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps",
+          "domain": "gate.com",
+          "type": "secondary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 2,
+        "total_sources": 4,
         "primary_source_count": 1,
-        "secondary_source_count": 1,
+        "secondary_source_count": 3,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
@@ -220,21 +231,18 @@
         "velocity_delta": 0,
         "previous_velocity": "High",
         "new_sources": [
-          "https://ethereum.org",
-          "https://etherscan.io"
+          "https://symbiosis.finance/bridge-btc-to-eth",
+          "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps"
         ],
-        "dropped_sources": [
-          "https://docs.thorchain.org/native-cross-chain-swaps",
-          "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance"
-        ],
-        "summary_changed": true
+        "dropped_sources": [],
+        "summary_changed": false
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.1-flash-lite",
+    "agent": "gemini-3.5-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-11-17T10:01:37.839121Z",
+    "timestamp": "2026-11-17T16:01:46.418996Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -243,20 +251,20 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.1-flash-lite",
+      "model": "gemini-3.5-flash-lite",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-11-17T10:01:37.839121Z",
-      "search_result_count": 15,
+      "timestamp": "2026-11-17T16:01:46.418996Z",
+      "search_result_count": 20,
       "validation_error_count": 0,
       "validation_failures": []
     }
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.1-flash-lite",
+    "model": "gemini-3.5-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-11-17T10:01:37.839121Z",
-    "search_result_count": 15,
+    "timestamp": "2026-11-17T16:01:46.418996Z",
+    "search_result_count": 20,
     "validation_error_count": 0,
     "validation_failures": []
   }
