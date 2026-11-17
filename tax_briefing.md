@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-11-16 22:01
+# Tax Intelligence Briefing - 2026-11-17 04:01
 
-Tax policy in late 2026 remains dominated by the operationalization of the OECD Pillar Two global minimum tax, structural stabilization of corporate tax rates, and a strong push toward real-time digital tax administration such as Singapore's e-invoicing mandates. Simultaneously, global trade policies are characterized by escalating protectionist tariffs and regional incentive recalibrations across ASEAN economies.
+Tax policy in late 2026 remains centered on the ongoing operationalization of the OECD Pillar Two global minimum tax framework, structural stabilization of statutory corporate income tax rates, and an accelerated transition toward real-time digital tax administration, such as Singapore's Peppol-based e-invoicing mandates. Simultaneously, global trade and tax landscapes are heavily influenced by rising protectionist tariff adjustments, shifting international trade policy measures, and regional incentive realignments across ASEAN and global jurisdictions.
