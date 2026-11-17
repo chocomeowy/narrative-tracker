@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-17T16:01:46.418996Z",
-  "executive_briefing": "As of late 2026, the crypto-asset market has shifted toward institutional stabilization and technical maturation. Following the Senate's rejection of the CLARITY Act, the legislative landscape is now characterized by prolonged regulatory stagnation, forcing firms to adapt to current agency enforcement frameworks. Consequently, the focus has moved from speculative growth to building robust, trust-minimized infrastructure. Bitcoin-native development\u2014specifically leveraging languages like Clarity for deterministic smart contracts\u2014is gaining significant ground over traditional EVM-wrapper approaches, addressing institutional demand for safety. Simultaneously, the ecosystem is moving away from legacy cross-chain bridges toward native liquidity networks, representing a fundamental upgrade in how cross-chain capital efficiency and security are maintained.",
+  "last_updated": "2026-11-17T22:01:26.960674Z",
+  "executive_briefing": "As of late 2026, the legislative stagnation surrounding the CLARITY Act following its 49-50 Senate defeat has forced the digital asset market to adapt permanently to existing enforcement frameworks rather than anticipating federal structural reform. Consequently, market focus has pivoted aggressively toward technical maturation, institutional treasury optimization, and trust-minimized architecture. Bitcoin-native infrastructure development continues to accelerate, with deterministic smart contract execution environments gaining ground over traditional EVM-wrapper dependencies to satisfy strict institutional risk parameters. Simultaneously, the ecosystem is rapidly abandoning legacy wrapped cross-chain bridges in favor of native-asset liquidity protocols, establishing a secure baseline for interoperability between Bitcoin and Ethereum.",
   "trends": [
     {
       "id": "institutional-bitcoin-treasury-and-etf-consolidation",
@@ -56,12 +56,8 @@
         "previous_stage": "Fatigue",
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
-        "new_sources": [
-          "https://bitcoincompleteguide.com/guide/bitcoin-institutional-adoption"
-        ],
-        "dropped_sources": [
-          "https://www.spark.money/research/bitcoin-etf-institutional-adoption-analysis"
-        ],
+        "new_sources": [],
+        "dropped_sources": [],
         "summary_changed": false
       }
     },
@@ -73,20 +69,22 @@
       "category": "Regulation",
       "summary": "Federal market structure reform remains stalled following consistent Senate procedural failures, compelling market participants to operate under existing agency enforcement precedence.",
       "evidence": [
-        "Senate procedural defeat of the CLARITY Act has effectively paused legislative momentum.",
+        "Senate procedural defeat of the CLARITY Act at 49 to 50 has effectively paused legislative momentum.",
         "Market participants are aligning compliance frameworks with current agency oversight."
       ],
       "source_links": [
-        "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act",
+        "https://blockchainreporter.net/what-is-the-clarity-act-the-crypto-bill-that-could-reshape-us-regulation-explained",
         "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
-        "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text"
+        "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act",
+        "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
+        "https://cryptoinfrastructure.io/clarity-act"
       ],
       "source_details": [
         {
-          "url": "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act",
-          "domain": "dlapiper.com",
+          "url": "https://blockchainreporter.net/what-is-the-clarity-act-the-crypto-bill-that-could-reshape-us-regulation-explained",
+          "domain": "blockchainreporter.net",
           "type": "secondary",
-          "published_date": "2026-09-01"
+          "published_date": null
         },
         {
           "url": "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
@@ -95,23 +93,35 @@
           "published_date": "2026-05-14"
         },
         {
+          "url": "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act",
+          "domain": "dlapiper.com",
+          "type": "secondary",
+          "published_date": "2026-09-01"
+        },
+        {
           "url": "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
           "domain": "lummis.senate.gov",
           "type": "primary",
           "published_date": null
+        },
+        {
+          "url": "https://cryptoinfrastructure.io/clarity-act",
+          "domain": "cryptoinfrastructure.io",
+          "type": "secondary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 3,
+        "total_sources": 5,
         "primary_source_count": 1,
-        "secondary_source_count": 2,
+        "secondary_source_count": 4,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
         "source_risk": "low"
       },
-      "confidence": 0.96,
-      "reasoning": "Legislative stagnation is confirmed by multiple failed procedural votes, firmly rooting the trend in the Fatigue stage.",
+      "confidence": 0.97,
+      "reasoning": "New intel confirms multiple procedural failures in the Senate, cementing this trend firmly in the Fatigue stage due to prolonged regulatory stagnation.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -119,7 +129,10 @@
         "previous_stage": "Fatigue",
         "velocity_delta": 0,
         "previous_velocity": "Low",
-        "new_sources": [],
+        "new_sources": [
+          "https://blockchainreporter.net/what-is-the-clarity-act-the-crypto-bill-that-could-reshape-us-regulation-explained",
+          "https://cryptoinfrastructure.io/clarity-act"
+        ],
         "dropped_sources": [],
         "summary_changed": false
       }
@@ -230,10 +243,7 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "High",
-        "new_sources": [
-          "https://symbiosis.finance/bridge-btc-to-eth",
-          "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps"
-        ],
+        "new_sources": [],
         "dropped_sources": [],
         "summary_changed": false
       }
@@ -242,7 +252,7 @@
   "intelligence_metadata": {
     "agent": "gemini-3.5-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-11-17T16:01:46.418996Z",
+    "timestamp": "2026-11-17T22:01:26.960674Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -253,8 +263,8 @@
       "status": "success",
       "model": "gemini-3.5-flash-lite",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-11-17T16:01:46.418996Z",
-      "search_result_count": 20,
+      "timestamp": "2026-11-17T22:01:26.960674Z",
+      "search_result_count": 5,
       "validation_error_count": 0,
       "validation_failures": []
     }
@@ -263,8 +273,8 @@
     "status": "success",
     "model": "gemini-3.5-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-11-17T16:01:46.418996Z",
-    "search_result_count": 20,
+    "timestamp": "2026-11-17T22:01:26.960674Z",
+    "search_result_count": 5,
     "validation_error_count": 0,
     "validation_failures": []
   }
