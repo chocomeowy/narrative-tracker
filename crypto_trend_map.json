@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-18T16:01:33.553073Z",
-  "executive_briefing": "As of late 2026, legislative stagnation surrounding the CLARITY Act has deepened following midterm election outcomes and prior Senate procedural defeats. This has cemented an operational environment where digital asset participants rely on existing enforcement paradigms rather than structural reform. Concurrently, institutional Bitcoin adoption has consolidated into core ETF and treasury allocations, while technical focus pivots toward trust-minimized, native cross-chain interoperability between Bitcoin and Ethereum, alongside deterministic execution paradigms like Clarity for smart contracts.",
+  "last_updated": "2026-11-18T22:01:48.224687Z",
+  "executive_briefing": "As of late 2026, legislative stagnation surrounding the CLARITY Act remains firmly entrenched following Senate procedural hurdles and midterm outcomes, cementing an operating model where digital asset participants rely entirely on existing enforcement frameworks. Concurrently, institutional Bitcoin allocation has matured into routine long-term reserve management via spot ETFs, while technical developments focus on trust-minimized, native cross-chain interoperability between Bitcoin and Ethereum and deterministic execution models like Clarity for secure smart contracts.",
   "trends": [
     {
       "id": "institutional-bitcoin-treasury-and-etf-consolidation",
@@ -50,12 +50,8 @@
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
         "new_sources": [],
-        "dropped_sources": [
-          "https://www.blockchain-council.org/bitcoin/bitcoin-etf-inflows-btc-price",
-          "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption",
-          "https://www.livebitcoinnews.com/bitcoin-etf-institutional"
-        ],
-        "summary_changed": true
+        "dropped_sources": [],
+        "summary_changed": false
       }
     },
     {
@@ -72,7 +68,7 @@
       "source_links": [
         "https://blockchainreporter.net/what-is-the-clarity-act-the-crypto-bill-that-could-reshape-us-regulation-explained",
         "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act",
-        "https://www.forbes.com/sites/digital-assets/2026/11/11/the-clarity-act-is-effectively-tabled-until-january-after-a-49-50-senate-defeat-and-a-democratic-midterm-sweep"
+        "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next"
       ],
       "source_details": [
         {
@@ -88,10 +84,10 @@
           "published_date": "2026-09-01"
         },
         {
-          "url": "https://www.forbes.com/sites/digital-assets/2026/11/11/the-clarity-act-is-effectively-tabled-until-january-after-a-49-50-senate-defeat-and-a-democratic-midterm-sweep",
-          "domain": "forbes.com",
+          "url": "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
+          "domain": "cryptotimes.io",
           "type": "secondary",
-          "published_date": "2026-11-11"
+          "published_date": "2026-05-14"
         }
       ],
       "source_quality": {
@@ -113,14 +109,12 @@
         "velocity_delta": 0,
         "previous_velocity": "Low",
         "new_sources": [
-          "https://www.forbes.com/sites/digital-assets/2026/11/11/the-clarity-act-is-effectively-tabled-until-january-after-a-49-50-senate-defeat-and-a-democratic-midterm-sweep"
+          "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next"
         ],
         "dropped_sources": [
-          "https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-new-text-of-the-clarity-act",
-          "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
-          "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text"
+          "https://www.forbes.com/sites/digital-assets/2026/11/11/the-clarity-act-is-effectively-tabled-until-january-after-a-49-50-senate-defeat-and-a-democratic-midterm-sweep"
         ],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
@@ -165,7 +159,7 @@
         "previous_velocity": "High",
         "new_sources": [],
         "dropped_sources": [],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
@@ -181,7 +175,9 @@
       ],
       "source_links": [
         "https://en.wikipedia.org/wiki/Ethereum",
-        "https://ethereum.org"
+        "https://ethereum.org",
+        "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps",
+        "https://symbiosis.finance/bridge-btc-to-eth"
       ],
       "source_details": [
         {
@@ -195,12 +191,24 @@
           "domain": "ethereum.org",
           "type": "primary",
           "published_date": null
+        },
+        {
+          "url": "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps",
+          "domain": "gate.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://symbiosis.finance/bridge-btc-to-eth",
+          "domain": "symbiosis.finance",
+          "type": "secondary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 2,
+        "total_sources": 4,
         "primary_source_count": 1,
-        "secondary_source_count": 0,
+        "secondary_source_count": 2,
         "wikipedia_source_count": 1,
         "blog_source_count": 0,
         "has_primary_sources": true,
@@ -216,19 +224,18 @@
         "velocity_delta": 0,
         "previous_velocity": "High",
         "new_sources": [
-          "https://en.wikipedia.org/wiki/Ethereum"
+          "https://symbiosis.finance/bridge-btc-to-eth",
+          "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps"
         ],
-        "dropped_sources": [
-          "https://ethereum.org/what-is-ether"
-        ],
-        "summary_changed": true
+        "dropped_sources": [],
+        "summary_changed": false
       }
     }
   ],
   "intelligence_metadata": {
     "agent": "gemini-3.5-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-11-18T16:01:33.553073Z",
+    "timestamp": "2026-11-18T22:01:48.224687Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -239,8 +246,8 @@
       "status": "success",
       "model": "gemini-3.5-flash-lite",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-11-18T16:01:33.553073Z",
-      "search_result_count": 10,
+      "timestamp": "2026-11-18T22:01:48.224687Z",
+      "search_result_count": 15,
       "validation_error_count": 0,
       "validation_failures": []
     }
@@ -249,8 +256,8 @@
     "status": "success",
     "model": "gemini-3.5-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-11-18T16:01:33.553073Z",
-    "search_result_count": 10,
+    "timestamp": "2026-11-18T22:01:48.224687Z",
+    "search_result_count": 15,
     "validation_error_count": 0,
     "validation_failures": []
   }
