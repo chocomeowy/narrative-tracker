@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-18T22:01:48.224687Z",
-  "executive_briefing": "As of late 2026, legislative stagnation surrounding the CLARITY Act remains firmly entrenched following Senate procedural hurdles and midterm outcomes, cementing an operating model where digital asset participants rely entirely on existing enforcement frameworks. Concurrently, institutional Bitcoin allocation has matured into routine long-term reserve management via spot ETFs, while technical developments focus on trust-minimized, native cross-chain interoperability between Bitcoin and Ethereum and deterministic execution models like Clarity for secure smart contracts.",
+  "last_updated": "2026-11-19T04:01:22.453579Z",
+  "executive_briefing": "In late 2026, the digital asset landscape is characterized by the steady institutional integration of Bitcoin through structured treasury frameworks and spot ETFs approaching $100 billion in assets under management. Meanwhile, regulatory stagnation surrounding the CLARITY Act continues to force market participants to rely on existing enforcement mechanisms. Technically, the ecosystem is shifting away from traditional, vulnerable wrapped-asset bridges toward native, trust-minimized cross-chain liquidity between Bitcoin and Ethereum, alongside a rising preference for decidable, deterministic execution models like Clarity for highly secure smart contracts.",
   "trends": [
     {
       "id": "institutional-bitcoin-treasury-and-etf-consolidation",
@@ -10,17 +10,24 @@
       "category": "Institutional Finance",
       "summary": "Institutional Bitcoin exposure has matured into standard corporate treasury models and regulated spot ETF holdings, transitioning from speculative price discovery to long-term reserve management.",
       "evidence": [
-        "Consolidation of assets under management within regulated spot Bitcoin ETFs reaching high scale as foundational portfolio allocations.",
-        "Corporate adoption strategies increasingly prioritizing BTC as a resilient long-term balance sheet reserve."
+        "Spot Bitcoin ETFs reaching nearly USD 100 billion in assets as foundational portfolio allocations.",
+        "Corporate adoption strategies increasingly prioritizing BTC as a resilient long-term balance sheet reserve rather than a short-term trade."
       ],
       "source_links": [
         "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
+        "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/why-institutional-investors-are-more-important-to-bitcoin-adoption",
         "https://valueaddvc.com/blog/bitcoin-etf-approval-and-institutional-adoption-what-actually-changed"
       ],
       "source_details": [
         {
           "url": "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
           "domain": "cryptothreads.io",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/why-institutional-investors-are-more-important-to-bitcoin-adoption",
+          "domain": "analyticsinsight.net",
           "type": "secondary",
           "published_date": null
         },
@@ -32,9 +39,9 @@
         }
       ],
       "source_quality": {
-        "total_sources": 2,
+        "total_sources": 3,
         "primary_source_count": 0,
-        "secondary_source_count": 2,
+        "secondary_source_count": 3,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": false,
@@ -49,7 +56,9 @@
         "previous_stage": "Fatigue",
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
-        "new_sources": [],
+        "new_sources": [
+          "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/why-institutional-investors-are-more-important-to-bitcoin-adoption"
+        ],
         "dropped_sources": [],
         "summary_changed": false
       }
@@ -60,9 +69,9 @@
       "stage": "Fatigue",
       "velocity": "Low",
       "category": "Regulation",
-      "summary": "Federal market structure reform remains indefinitely stalled following Senate cloture defeats on the CLARITY Act and subsequent midterm shifts, requiring firms to align with agency enforcement precedence.",
+      "summary": "Federal market structure reform remains indefinitely stalled following Senate cloture defeats on the CLARITY Act and subsequent political shifts, requiring firms to align with agency enforcement precedence.",
       "evidence": [
-        "Senate procedural defeat of the CLARITY Act at 49 to 50 combined with midterm shifts narrowing the pathway for near-term revival.",
+        "Senate procedural defeat of the CLARITY Act combining with broader political shifts to narrow the pathway for near-term legislative revival.",
         "Market participants continuously adjusting compliance mechanisms to align directly with existing regulatory agency frameworks."
       ],
       "source_links": [
@@ -100,7 +109,7 @@
         "source_risk": "medium"
       },
       "confidence": 0.97,
-      "reasoning": "Continued procedural failures and political shifts keep this trend firmly in Fatigue due to prolonged regulatory inaction.",
+      "reasoning": "Continued procedural failures and political realities keep this trend firmly in Fatigue due to prolonged regulatory inaction.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -108,13 +117,9 @@
         "previous_stage": "Fatigue",
         "velocity_delta": 0,
         "previous_velocity": "Low",
-        "new_sources": [
-          "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next"
-        ],
-        "dropped_sources": [
-          "https://www.forbes.com/sites/digital-assets/2026/11/11/the-clarity-act-is-effectively-tabled-until-january-after-a-49-50-senate-defeat-and-a-democratic-midterm-sweep"
-        ],
-        "summary_changed": false
+        "new_sources": [],
+        "dropped_sources": [],
+        "summary_changed": true
       }
     },
     {
@@ -176,6 +181,7 @@
       "source_links": [
         "https://en.wikipedia.org/wiki/Ethereum",
         "https://ethereum.org",
+        "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
         "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps",
         "https://symbiosis.finance/bridge-btc-to-eth"
       ],
@@ -193,6 +199,12 @@
           "published_date": null
         },
         {
+          "url": "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
+          "domain": "bitunix.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
           "url": "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps",
           "domain": "gate.com",
           "type": "secondary",
@@ -206,9 +218,9 @@
         }
       ],
       "source_quality": {
-        "total_sources": 4,
+        "total_sources": 5,
         "primary_source_count": 1,
-        "secondary_source_count": 2,
+        "secondary_source_count": 3,
         "wikipedia_source_count": 1,
         "blog_source_count": 0,
         "has_primary_sources": true,
@@ -224,8 +236,7 @@
         "velocity_delta": 0,
         "previous_velocity": "High",
         "new_sources": [
-          "https://symbiosis.finance/bridge-btc-to-eth",
-          "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps"
+          "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi"
         ],
         "dropped_sources": [],
         "summary_changed": false
@@ -235,7 +246,7 @@
   "intelligence_metadata": {
     "agent": "gemini-3.5-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-11-18T22:01:48.224687Z",
+    "timestamp": "2026-11-19T04:01:22.453579Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -246,7 +257,7 @@
       "status": "success",
       "model": "gemini-3.5-flash-lite",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-11-18T22:01:48.224687Z",
+      "timestamp": "2026-11-19T04:01:22.453579Z",
       "search_result_count": 15,
       "validation_error_count": 0,
       "validation_failures": []
@@ -256,7 +267,7 @@
     "status": "success",
     "model": "gemini-3.5-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-11-18T22:01:48.224687Z",
+    "timestamp": "2026-11-19T04:01:22.453579Z",
     "search_result_count": 15,
     "validation_error_count": 0,
     "validation_failures": []
