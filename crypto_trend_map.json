@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-19T10:01:22.835301Z",
-  "executive_briefing": "In late 2026, the digital asset ecosystem is characterized by institutional maturity in Bitcoin spot ETFs approaching $100 billion in AUM, alongside Ethereum's established position as the primary decentralized execution layer. Simultaneously, structural technology shifts are accelerating toward native cross-chain BTC-ETH liquidity and deterministic, decidable smart contract execution models like Clarity on Bitcoin to mitigate EVM security risks.",
+  "last_updated": "2026-11-19T16:02:06.539438Z",
+  "executive_briefing": "In late 2026, the digital asset ecosystem continues to see Bitcoin spot ETFs solidify their position as a mature institutional asset, approaching $100 billion in AUM and cementing BTC's role in corporate treasuries. Ethereum maintains its established dominance as the primary decentralized execution layer for smart contracts. Concurrently, significant architectural shifts are accelerating towards more secure, native cross-chain BTC-ETH liquidity protocols and the adoption of deterministic smart contract execution models like Clarity on Bitcoin, specifically to mitigate the security risks inherent in EVM-based solutions.",
   "trends": [
     {
       "id": "institutional-bitcoin-treasury-and-etf-consolidation",
@@ -8,22 +8,29 @@
       "stage": "Fatigue",
       "velocity": "Moderate",
       "category": "Institutional Finance",
-      "summary": "Institutional Bitcoin exposure has matured into standard corporate treasury models and regulated spot ETF holdings, transitioning from speculative price discovery to long-term reserve management.",
+      "summary": "Institutional Bitcoin exposure has matured into standard corporate treasury models and regulated spot ETF holdings, transitioning from speculative price discovery to long-term reserve management, with ETFs now managing nearly $100 billion in assets.",
       "evidence": [
-        "Spot Bitcoin ETFs approaching nearly $100 billion in assets under management across major issuers.",
-        "Corporate adoption strategies increasingly prioritizing BTC as a macro asset and balance sheet reserve."
+        "Spot Bitcoin ETFs now hold close to $100 billion in assets under management.",
+        "Corporate balance sheets show over 1.26 million BTC holdings, indicating increased adoption as a macro asset.",
+        "Bitcoin is increasingly viewed by institutional investors as a portfolio diversifier and long-term reserve."
       ],
       "source_links": [
         "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
+        "https://www.blockchain-council.org/bitcoin/bitcoin-etf-inflows-btc-price",
         "https://valueaddvc.com/blog/bitcoin-etf-approval-and-institutional-adoption-what-actually-changed",
-        "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/why-institutional-investors-are-becoming-more-important-to-bitcoin-adoption",
         "https://www.livebitcoinnews.com/bitcoin-etf-institutional",
-        "https://www.blockchain-council.org/bitcoin/bitcoin-etf-inflows-btc-price"
+        "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/why-institutional-investors-are-becoming-more-important-to-bitcoin-adoption"
       ],
       "source_details": [
         {
           "url": "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
           "domain": "cryptothreads.io",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.blockchain-council.org/bitcoin/bitcoin-etf-inflows-btc-price",
+          "domain": "blockchain-council.org",
           "type": "secondary",
           "published_date": null
         },
@@ -34,20 +41,14 @@
           "published_date": null
         },
         {
-          "url": "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/why-institutional-investors-are-becoming-more-important-to-bitcoin-adoption",
-          "domain": "analyticsinsight.net",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
           "url": "https://www.livebitcoinnews.com/bitcoin-etf-institutional",
           "domain": "livebitcoinnews.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.blockchain-council.org/bitcoin/bitcoin-etf-inflows-btc-price",
-          "domain": "blockchain-council.org",
+          "url": "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/why-institutional-investors-are-becoming-more-important-to-bitcoin-adoption",
+          "domain": "analyticsinsight.net",
           "type": "secondary",
           "published_date": null
         }
@@ -62,7 +63,7 @@
         "source_risk": "medium"
       },
       "confidence": 0.98,
-      "reasoning": "ETF inflows and treasury management have normalized into mainstream financial workflows, stabilizing narrative velocity into structural institutional routine.",
+      "reasoning": "Continued high AUM for Bitcoin ETFs and their integration into corporate treasury models confirms the trend's established, non-speculative nature, aligning with a Fatigue stage as it becomes a routine financial instrument.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -70,15 +71,9 @@
         "previous_stage": "Fatigue",
         "velocity_delta": 0,
         "previous_velocity": "Moderate",
-        "new_sources": [
-          "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/why-institutional-investors-are-becoming-more-important-to-bitcoin-adoption",
-          "https://www.blockchain-council.org/bitcoin/bitcoin-etf-inflows-btc-price",
-          "https://www.livebitcoinnews.com/bitcoin-etf-institutional"
-        ],
-        "dropped_sources": [
-          "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/why-institutional-investors-are-more-important-to-bitcoin-adoption"
-        ],
-        "summary_changed": false
+        "new_sources": [],
+        "dropped_sources": [],
+        "summary_changed": true
       }
     },
     {
@@ -134,18 +129,15 @@
         "source_risk": "low"
       },
       "confidence": 0.96,
-      "reasoning": "Ethereum's foundational layer status is highly established, exhibiting low speculative hype but steady core utility across decentralized applications.",
+      "reasoning": "Ethereum's role as a foundational layer is well-established, with no new developments suggesting a shift in its stage or velocity, consistent with its established position highlighted in the executive briefing.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
-        "new_sources": [
-          "https://en.wikipedia.org/wiki/Ethereum",
-          "https://ethereum.org",
-          "https://etherscan.io",
-          "https://coinmarketcap.com/currencies/ethereum"
-        ],
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Fatigue",
+        "velocity_delta": 0,
+        "previous_velocity": "Moderate",
+        "new_sources": [],
         "dropped_sources": [],
         "summary_changed": false
       }
@@ -156,7 +148,7 @@
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Bitcoin Infrastructure",
-      "summary": "Developer and institutional interest accelerates toward decidable, deterministic execution frameworks like Clarity, bypassing the security and reentrancy vulnerabilities common in EVM wrappers.",
+      "summary": "Developer and institutional interest accelerates toward decidable, deterministic execution frameworks like Clarity, bypassing the security and reentrancy vulnerabilities common in EVM wrappers for native Bitcoin DeFi.",
       "evidence": [
         "Rising preference for non-Turing complete, decidable programming languages to ensure maximum protocol security.",
         "Institutional demand for mathematically verifiable execution environments for native Bitcoin DeFi architectures."
@@ -182,7 +174,7 @@
         "source_risk": "low"
       },
       "confidence": 0.93,
-      "reasoning": "Maintains a Breakthrough stage as technical focus remains strong on deterministic execution over EVM-based smart contract wrappers for Bitcoin.",
+      "reasoning": "The executive briefing emphasizes Clarity's ongoing importance in mitigating EVM risks, indicating continued strong technical focus and momentum in this area, sustaining its Breakthrough stage.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -192,7 +184,7 @@
         "previous_velocity": "High",
         "new_sources": [],
         "dropped_sources": [],
-        "summary_changed": false
+        "summary_changed": true
       }
     },
     {
@@ -201,33 +193,35 @@
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Interoperability",
-      "summary": "The broader ecosystem is aggressively moving away from custodial or vulnerable wrapped-asset cross-chain bridges in favor of trust-minimized, native-asset liquidity pools connecting Bitcoin and Ethereum.",
+      "summary": "The broader ecosystem is aggressively moving away from custodial or vulnerable wrapped-asset cross-chain bridges in favor of trust-minimized, native-asset liquidity pools connecting Bitcoin and Ethereum, exemplified by projects like THORChain and Zeus Network.",
       "evidence": [
-        "Ecosystem-wide migration from wrapped ERC-20 token models to decentralized native liquidity swap mechanisms.",
-        "Intensified emphasis on rapid settlement times and decentralized vault security between Ethereum and Bitcoin networks."
+        "Ecosystem-wide migration from wrapped ERC-20 token models to decentralized native liquidity swap mechanisms like THORChain.",
+        "Intensified emphasis on rapid settlement times and decentralized vault security between Ethereum and Bitcoin networks for direct asset swaps.",
+        "New solutions like Zeus Network are bridging native Bitcoin liquidity into EVM environments without locking funds into wrapped variants."
       ],
       "source_links": [
-        "https://ethereum.org",
-        "https://en.wikipedia.org/wiki/Ethereum",
         "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
-        "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps"
+        "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
+        "https://symbiosis.finance/bridge-btc-to-eth",
+        "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps",
+        "https://dailycoin.com/best-cross-chain-bridges-in-crypto"
       ],
       "source_details": [
         {
-          "url": "https://ethereum.org",
-          "domain": "ethereum.org",
-          "type": "primary",
-          "published_date": null
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Ethereum",
-          "domain": "en.wikipedia.org",
-          "type": "wikipedia",
-          "published_date": null
-        },
-        {
           "url": "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
           "domain": "bitunix.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
+          "domain": "trustwallet.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://symbiosis.finance/bridge-btc-to-eth",
+          "domain": "symbiosis.finance",
           "type": "secondary",
           "published_date": null
         },
@@ -236,19 +230,25 @@
           "domain": "gate.com",
           "type": "secondary",
           "published_date": null
+        },
+        {
+          "url": "https://dailycoin.com/best-cross-chain-bridges-in-crypto",
+          "domain": "dailycoin.com",
+          "type": "secondary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 4,
-        "primary_source_count": 1,
-        "secondary_source_count": 2,
-        "wikipedia_source_count": 1,
+        "total_sources": 5,
+        "primary_source_count": 0,
+        "secondary_source_count": 5,
+        "wikipedia_source_count": 0,
         "blog_source_count": 0,
-        "has_primary_sources": true,
-        "source_risk": "low"
+        "has_primary_sources": false,
+        "source_risk": "medium"
       },
       "confidence": 0.95,
-      "reasoning": "High technical velocity persists as developers prioritize direct, trust-minimized asset interoperability over bridge-centric models.",
+      "reasoning": "The new intel reinforces the ongoing shift from wrapped assets to native, trust-minimized solutions like THORChain and Zeus Network for BTC-ETH swaps, confirming high development velocity in this critical interoperability area, thus maintaining its Breakthrough stage.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -256,18 +256,23 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "High",
-        "new_sources": [],
-        "dropped_sources": [
-          "https://symbiosis.finance/bridge-btc-to-eth"
+        "new_sources": [
+          "https://dailycoin.com/best-cross-chain-bridges-in-crypto",
+          "https://symbiosis.finance/bridge-btc-to-eth",
+          "https://trustwallet.com/blog/academy/cross-chain-swaps-explained"
         ],
-        "summary_changed": false
+        "dropped_sources": [
+          "https://en.wikipedia.org/wiki/Ethereum",
+          "https://ethereum.org"
+        ],
+        "summary_changed": true
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.6-flash",
+    "agent": "gemini-2.5-flash",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-11-19T10:01:22.835301Z",
+    "timestamp": "2026-11-19T16:02:06.539438Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -276,9 +281,9 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.6-flash",
+      "model": "gemini-2.5-flash",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-11-19T10:01:22.835301Z",
+      "timestamp": "2026-11-19T16:02:06.539438Z",
       "search_result_count": 10,
       "validation_error_count": 0,
       "validation_failures": []
@@ -286,9 +291,9 @@
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.6-flash",
+    "model": "gemini-2.5-flash",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-11-19T10:01:22.835301Z",
+    "timestamp": "2026-11-19T16:02:06.539438Z",
     "search_result_count": 10,
     "validation_error_count": 0,
     "validation_failures": []
