@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-20T04:01:16.461104Z",
+  "last_updated": "2026-11-20T10:01:30.655900Z",
   "archived_trends": [
     {
       "name": "Cross-Chain Liquidity Solutions",
@@ -34253,6 +34253,191 @@
         "summary_changed": true
       },
       "archived_at": "2026-11-19T10:01:22.835301Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "institutional-bitcoin-treasury-and-etf-consolidation",
+      "name": "Institutional Bitcoin Treasury and ETF Consolidation",
+      "stage": "Fatigue",
+      "velocity": "Moderate",
+      "category": "Institutional Finance",
+      "summary": "Institutional Bitcoin exposure has matured into standard corporate treasury models and regulated spot ETF holdings, transitioning from speculative price discovery to long-term reserve management.",
+      "evidence": [
+        "Spot Bitcoin ETFs manage near $100 billion in assets under management as mature financial instruments.",
+        "Corporate treasuries hold over 1.26 million BTC for long-term reserve management."
+      ],
+      "source_links": [
+        "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
+        "https://valueaddvc.com/blog/bitcoin-etf-approval-and-institutional-adoption-what-actually-changed"
+      ],
+      "source_details": [
+        {
+          "url": "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
+          "domain": "cryptothreads.io",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://valueaddvc.com/blog/bitcoin-etf-approval-and-institutional-adoption-what-actually-changed",
+          "domain": "valueaddvc.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 2,
+        "primary_source_count": 0,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.98,
+      "reasoning": "Institutional adoption via spot ETFs and treasuries remains fully consolidated into traditional financial workflows, confirming its mature Fatigue stage status.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Fatigue",
+        "velocity_delta": 0,
+        "previous_velocity": "Moderate",
+        "new_sources": [],
+        "dropped_sources": [
+          "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/why-institutional-investors-are-becoming-more-important-to-bitcoin-adoption",
+          "https://www.blockchain-council.org/bitcoin/bitcoin-etf-inflows-btc-price",
+          "https://www.livebitcoinnews.com/bitcoin-etf-institutional"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-11-20T10:01:30.655900Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "bitcoin-smart-contracts-via-clarity-vs-evm-execution",
+      "name": "Bitcoin Smart Contracts via Clarity vs EVM Execution",
+      "stage": "Breakthrough",
+      "velocity": "High",
+      "category": "Bitcoin Infrastructure",
+      "summary": "Developer and institutional focus continues to expand toward decidable, deterministic execution environments like Clarity to enable native Bitcoin smart contracts without EVM reentrancy vulnerabilities.",
+      "evidence": [
+        "Sustained preference for non-Turing complete, mathematically verifiable smart contract languages for secure Bitcoin DeFi.",
+        "Ongoing legislative and technical focus surrounding clarity frameworks to protect institutional smart contract interactions."
+      ],
+      "source_links": [
+        "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text"
+      ],
+      "source_details": [
+        {
+          "url": "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
+          "domain": "lummis.senate.gov",
+          "type": "primary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 1,
+        "primary_source_count": 1,
+        "secondary_source_count": 0,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.93,
+      "reasoning": "Strategic focus on non-EVM, decidable contract languages like Clarity on Bitcoin remains high as institutional interest demands verifiable security.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [],
+        "dropped_sources": [],
+        "summary_changed": true
+      },
+      "archived_at": "2026-11-20T10:01:30.655900Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "native-cross-chain-btc-eth-liquidity-protocols",
+      "name": "Native Cross-Chain BTC-ETH Liquidity Protocols",
+      "stage": "Breakthrough",
+      "velocity": "High",
+      "category": "Interoperability",
+      "summary": "The ecosystem is rapidly shifting away from custodial bridges and wrapped ERC-20 tokens toward native asset swaps between Bitcoin and Ethereum powered by automated market maker pools and interoperability layers like THORChain, Symbiosis, and Zeus Network.",
+      "evidence": [
+        "THORChain and Symbiosis enable direct, native BTC-to-ETH swaps without locking funds into wrapped ERC-20 tokens.",
+        "Zeus Network bridges native Bitcoin liquidity directly into EVM environments through high-performance cross-chain layers.",
+        "Cross-chain swap platforms execute native swaps seamlessly in single-transaction workflows under 2 minutes."
+      ],
+      "source_links": [
+        "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
+        "https://symbiosis.finance/bridge-btc-to-eth",
+        "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps",
+        "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
+        "https://chainspot.io/portal/bridges-by-chains/ethereum-to-bitcoin"
+      ],
+      "source_details": [
+        {
+          "url": "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
+          "domain": "bitunix.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://symbiosis.finance/bridge-btc-to-eth",
+          "domain": "symbiosis.finance",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps",
+          "domain": "gate.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
+          "domain": "trustwallet.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://chainspot.io/portal/bridges-by-chains/ethereum-to-bitcoin",
+          "domain": "chainspot.io",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 5,
+        "primary_source_count": 0,
+        "secondary_source_count": 5,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.96,
+      "reasoning": "New intelligence highlights significant user and protocol adoption of trust-minimized, direct BTC-to-ETH swapping architectures, confirming high velocity in its Breakthrough stage.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "High",
+        "new_sources": [
+          "https://chainspot.io/portal/bridges-by-chains/ethereum-to-bitcoin"
+        ],
+        "dropped_sources": [
+          "https://dailycoin.com/best-cross-chain-bridges-in-crypto"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-11-20T10:01:30.655900Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
