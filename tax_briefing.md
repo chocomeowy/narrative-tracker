@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-11-20 10:01
+# Tax Intelligence Briefing - 2026-11-20 22:01
 
-As of late 2026, global corporate and international tax policy is driven by a dual shift: the operationalization of OECD Pillar Two 15% global minimum tax rules alongside a swift resurgence in trade tariffs and import protectionism. Concurrently, revenue authorities are pressing forward with real-time digital tax administration and Peppol-based e-invoicing mandates, while statutory corporate tax rates remain stabilized globally, forcing regional hubs like ASEAN to recalibrate targeted incentives within international compliance boundaries.
+As of late 2026, global corporate and international tax policy continues to be heavily shaped by the ongoing operationalization of the OECD Pillar Two 15% global minimum tax rules and comprehensive updates to global corporate tax frameworks. Concurrently, tax authorities worldwide are aggressively integrating real-time digital tax administration, Peppol-based e-invoicing networks, and navigating regional investment incentive calibrations.
