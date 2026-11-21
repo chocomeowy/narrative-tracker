@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-20T15:00:40.862896Z",
+  "last_updated": "2026-11-21T15:00:41.741002Z",
   "archived_trends": [
     {
       "id": "agentic-mesh-protocols",
@@ -9035,6 +9035,78 @@
         "summary_changed": true
       },
       "archived_at": "2026-11-20T15:00:40.862896Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "llm-benchmarking-multi-model-evaluation-and-self-hosted-hardware-sizing",
+      "name": "LLM Benchmarking, Multi-Model Evaluation, and Self-Hosted Hardware Sizing",
+      "stage": "Peak Hype",
+      "velocity": "High",
+      "category": "Model Infrastructure",
+      "summary": "Proliferation of specialized sub-10B models has driven widespread adoption of side-by-side benchmarking playgrounds and granular GPU memory profiling for local deployments.",
+      "evidence": [
+        "Expanded adoption of comparative arenas like OpenRouter and Arena AI",
+        "Detailed VRAM and hardware profiling guides for self-hosting local LLMs",
+        "High developer interest in performant sub-10B parameter model libraries like Ollama"
+      ],
+      "source_links": [
+        "https://openrouter.ai/chat",
+        "https://arena.ai/text/side-by-side",
+        "https://enzu.com/ai-model-tutorials.php",
+        "https://ollama.com/library"
+      ],
+      "source_details": [
+        {
+          "url": "https://openrouter.ai/chat",
+          "domain": "openrouter.ai",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://arena.ai/text/side-by-side",
+          "domain": "arena.ai",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://enzu.com/ai-model-tutorials.php",
+          "domain": "enzu.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://ollama.com/library",
+          "domain": "ollama.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 4,
+        "primary_source_count": 0,
+        "secondary_source_count": 4,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.92,
+      "reasoning": "Evaluation side-by-side platforms and local deployment guides have reached widespread developer usage, maintaining Peak Hype status with high velocity.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
+        "new_sources": [
+          "https://openrouter.ai/chat",
+          "https://arena.ai/text/side-by-side",
+          "https://enzu.com/ai-model-tutorials.php",
+          "https://ollama.com/library"
+        ],
+        "dropped_sources": [],
+        "summary_changed": false
+      },
+      "archived_at": "2026-11-21T15:00:41.741002Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
