@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-21T10:01:45.825883Z",
+  "last_updated": "2026-11-21T16:01:56.420483Z",
   "archived_trends": [
     {
       "name": "Cross-Chain Liquidity Solutions",
@@ -34899,6 +34899,129 @@
         "summary_changed": false
       },
       "archived_at": "2026-11-21T10:01:45.825883Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "clarity-act-stagnation-regulatory-uncertainty",
+      "name": "CLARITY Act Stagnation & Regulatory Uncertainty",
+      "stage": "Fatigue",
+      "velocity": "Medium",
+      "category": "Regulation",
+      "summary": "The failure of the Digital Asset Market Clarity Act to advance through the Senate has curtailed near-term expectations for federal crypto legislation, forcing firms to navigate existing regulatory ambiguity.",
+      "evidence": [
+        "The CLARITY Act failed a key Senate cloture vote in September 2026.",
+        "Legislative efforts to define digital assets and resolve SEC-CFTC jurisdictional overlaps have stalled indefinitely.",
+        "Market participants are recalibrating strategy away from federal legislative reliance."
+      ],
+      "source_links": [
+        "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act",
+        "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
+        "https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text",
+        "https://economictimes.indiatimes.com/markets/cryptocurrency/explained-what-is-us-senates-clarity-act-and-why-does-it-matter-for-crypto-investors/articleshow/131111787.cms"
+      ],
+      "source_details": [
+        {
+          "url": "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act",
+          "domain": "dlapiper.com",
+          "type": "secondary",
+          "published_date": "2026-09-01"
+        },
+        {
+          "url": "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
+          "domain": "cryptotimes.io",
+          "type": "secondary",
+          "published_date": "2026-05-14"
+        },
+        {
+          "url": "https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text",
+          "domain": "lummis.senate.gov",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/explained-what-is-us-senates-clarity-act-and-why-does-it-matter-for-crypto-investors/articleshow/131111787.cms",
+          "domain": "economictimes.indiatimes.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 4,
+        "primary_source_count": 1,
+        "secondary_source_count": 3,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.95,
+      "reasoning": "Legislative momentum has shifted from active negotiation to failure, leading to a state of fatigue as the industry moves to accept a non-legislative environment.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
+        "new_sources": [
+          "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act",
+          "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
+          "https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text",
+          "https://economictimes.indiatimes.com/markets/cryptocurrency/explained-what-is-us-senates-clarity-act-and-why-does-it-matter-for-crypto-investors/articleshow/131111787.cms"
+        ],
+        "dropped_sources": [],
+        "summary_changed": false
+      },
+      "archived_at": "2026-11-21T16:01:56.420483Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "ethereum-smart-contract-dominance",
+      "name": "Ethereum Smart Contract Dominance",
+      "stage": "Breakthrough",
+      "velocity": "Medium",
+      "category": "DeFi & Smart Contracts",
+      "summary": "Ethereum continues to act as the primary settlement and execution layer for decentralized applications, largely unaffected by the stalled US federal legislative efforts.",
+      "evidence": [
+        "Ethereum maintains the highest developer activity for non-intermediated lending and tokenized assets.",
+        "Smart contract architecture on Ethereum continues to serve as the industry standard for decentralized financial protocols.",
+        "Post-CLARITY stagnation, the focus has returned to organic protocol development."
+      ],
+      "source_links": [
+        "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance"
+      ],
+      "source_details": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 1,
+        "primary_source_count": 0,
+        "secondary_source_count": 0,
+        "wikipedia_source_count": 1,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "high"
+      },
+      "confidence": 0.85,
+      "reasoning": "Ethereum remains the foundational infrastructure. It is classified as Breakthrough as it continuously scales execution while avoiding the legislative volatility impacting newer, regulation-sensitive projects.",
+      "validation_flags": [
+        "weak_source_support",
+        "wikipedia_only"
+      ],
+      "changed_since_previous_run": {
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
+        "new_sources": [
+          "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance"
+        ],
+        "dropped_sources": [],
+        "summary_changed": false
+      },
+      "archived_at": "2026-11-21T16:01:56.420483Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
