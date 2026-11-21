@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T04:01:18.441647Z",
-  "executive_briefing": "As of late 2026, global corporate tax policy is defined by dual pressures: domestic adoption of real-time digital tax enforcement and rising international trade policy volatility. The operationalization of OECD Pillar Two global minimum tax rules continues to reshape multinational planning, while tax administrations, particularly across ASEAN, are aggressively mandating Peppol-based real-time e-invoicing networks (such as Singapore's InvoiceNow GST mandate). Simultaneously, a resurgence in unilateral import tariff policies and trade protectionism is introducing substantial compliance and supply chain complexities for cross-border operations.",
+  "last_updated": "2026-11-21T10:01:16.336561Z",
+  "executive_briefing": "As of late 2026, global corporate tax policy continues to be defined by dual structural pressures: real-time digital tax enforcement and persistent international trade tariff volatility. The operationalization of OECD Pillar Two global minimum tax rules continues to reshape multinational structuring, while tax administrations globally are embedding mandatory Peppol-based e-invoicing networks into corporate financial flows. Concurrently, major economies continue using protective tariffs and targeted tax incentives across regional hubs like ASEAN to balance competitiveness with revenue collection.",
   "trends": [
     {
       "id": "oecd-pillar-two-and-global-minimum-tax-operationalization",
@@ -57,10 +57,8 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [],
-        "dropped_sources": [
-          "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate"
-        ],
-        "summary_changed": true
+        "dropped_sources": [],
+        "summary_changed": false
       }
     },
     {
@@ -69,16 +67,17 @@
       "stage": "Breakthrough",
       "velocity": "Fast",
       "category": "International",
-      "summary": "Tax authorities globally are enforcing Peppol-based structured electronic invoicing (such as Singapore's InvoiceNow mandate) to transmit real-time transactional data and reduce tax leakage.",
+      "summary": "Tax authorities globally are enforcing structured electronic invoicing frameworks and automated billing software to transmit real-time transactional data, verify trade terms, and reduce tax leakage.",
       "evidence": [
         "Singapore phasing in mandatory GST invoice data transmission via InvoiceNow network based on global Peppol standards.",
-        "Detailed implementation guidelines for Peppol PINT formats and validation layers established through 2026."
+        "Standardized adoption of e-invoicing umbrella frameworks to present and monitor transactional documents real-time between trade partners."
       ],
       "source_links": [
         "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
         "https://e-invoicing.org/singapore",
-        "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-        "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html"
+        "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
+        "https://en.wikipedia.org/wiki/E-invoicing",
+        "https://grokipedia.com/page/Invoicing_Software"
       ],
       "source_details": [
         {
@@ -94,29 +93,35 @@
           "published_date": null
         },
         {
-          "url": "https://www.cleartax.com/sg/en/e-invoicing-singapore",
-          "domain": "cleartax.com",
+          "url": "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
+          "domain": "avalara.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
-          "domain": "avalara.com",
+          "url": "https://en.wikipedia.org/wiki/E-invoicing",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
+        },
+        {
+          "url": "https://grokipedia.com/page/Invoicing_Software",
+          "domain": "grokipedia.com",
           "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 4,
+        "total_sources": 5,
         "primary_source_count": 1,
         "secondary_source_count": 3,
-        "wikipedia_source_count": 0,
+        "wikipedia_source_count": 1,
         "blog_source_count": 0,
         "has_primary_sources": true,
         "source_risk": "low"
       },
       "confidence": 0.98,
-      "reasoning": "Global expansion of phased GST e-invoicing mandates confirms sustained fast velocity in the Breakthrough stage.",
+      "reasoning": "Global adoption of structured real-time e-invoicing software standards and phased statutory mandates maintains fast momentum in Breakthrough stage.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -125,13 +130,11 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
-          "https://e-invoicing.org/singapore",
-          "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
-          "https://www.cleartax.com/sg/en/e-invoicing-singapore"
+          "https://en.wikipedia.org/wiki/E-invoicing",
+          "https://grokipedia.com/page/Invoicing_Software"
         ],
         "dropped_sources": [
-          "https://tax.thomsonreuters.com/blog/what-is-e-invoicing",
-          "https://www.sap.com/resources/what-is-e-invoicing"
+          "https://www.cleartax.com/sg/en/e-invoicing-singapore"
         ],
         "summary_changed": true
       }
@@ -189,18 +192,15 @@
         "source_risk": "low"
       },
       "confidence": 0.95,
-      "reasoning": "Fresh executive trade orders and dynamic tariff updates push cross-border trade policy into the Breakthrough stage.",
+      "reasoning": "Dynamic executive tariff actions and duty updates keep international trade friction in the Breakthrough stage with high velocity.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
-        "new_sources": [
-          "https://ttd.wto.org/en",
-          "https://www.reuters.com/business/tariffs",
-          "https://www.wto.org/english/res_e/publications_e/world-tariff-profiles-2026_e.htm",
-          "https://www.usitc.gov/harmonized_tariff_information/announcement_archive"
-        ],
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "Fast",
+        "new_sources": [],
         "dropped_sources": [],
         "summary_changed": false
       }
@@ -261,15 +261,12 @@
       "reasoning": "Developing regional policy calibrations across ASEAN represent an incubating trend toward structured tax governance.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
-        "new_sources": [
-          "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026",
-          "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates",
-          "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
-          "https://pathmakerid.com/blog/corporate-tax-rates-in-asia-2026-a-9-country-asean-comparison"
-        ],
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Incubation",
+        "velocity_delta": 0,
+        "previous_velocity": "Medium",
+        "new_sources": [],
         "dropped_sources": [],
         "summary_changed": false
       }
@@ -278,7 +275,7 @@
   "intelligence_metadata": {
     "agent": "gemini-3.6-flash",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-11-21T04:01:18.441647Z",
+    "timestamp": "2026-11-21T10:01:16.336561Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -289,8 +286,8 @@
       "status": "success",
       "model": "gemini-3.6-flash",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-11-21T04:01:18.441647Z",
-      "search_result_count": 27,
+      "timestamp": "2026-11-21T10:01:16.336561Z",
+      "search_result_count": 2,
       "validation_error_count": 0,
       "validation_failures": []
     }
@@ -299,8 +296,8 @@
     "status": "success",
     "model": "gemini-3.6-flash",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-11-21T04:01:18.441647Z",
-    "search_result_count": 27,
+    "timestamp": "2026-11-21T10:01:16.336561Z",
+    "search_result_count": 2,
     "validation_error_count": 0,
     "validation_failures": []
   }
