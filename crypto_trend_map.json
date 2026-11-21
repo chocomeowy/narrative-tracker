@@ -1,29 +1,36 @@
 {
-  "last_updated": "2026-11-21T04:01:22.433939Z",
-  "executive_briefing": "In late 2026, institutional adoption of Bitcoin via spot ETFs and treasury allocations remains the dominant driver of digital asset market structure, solidifying BTC as a core macroeconomic portfolio asset with cumulative ETF holdings approaching $100 billion. Concurrently, Ethereum maintains its position as the foundational decentralized smart contract network and settlement baseline for financial applications. As traditional financial institutions deepen their involvement through regulated derivatives, prime services, and trust-minimized architectures, the market exhibits a clear bifurcation between BTC asset integration and EVM-driven decentralized financial execution.",
+  "last_updated": "2026-11-21T10:01:45.825883Z",
+  "executive_briefing": "As of late 2026, the digital asset market has matured into a bifurcated ecosystem defined by institutional Bitcoin integration and stalled legislative progress for broader market structure. While spot Bitcoin ETFs have successfully anchored BTC as a macroeconomic treasury asset with $100B in AUM, the failure of the CLARITY Act to pass the Senate has created significant regulatory uncertainty, stalling attempts to formalize decentralized finance and smart contract integration at the federal level. Consequently, the industry is shifting focus toward organic, non-legislative scaling of decentralized infrastructure, where Ethereum maintains dominance as the execution layer while Bitcoin's potential for smart contract competition remains constrained by lack of clear federal guidelines.",
   "trends": [
     {
-      "id": "institutional-bitcoin-etf-asset-integration",
-      "name": "Institutional Bitcoin ETF & Asset Integration",
+      "id": "institutional-bitcoin-etf-integration",
+      "name": "Institutional Bitcoin ETF Integration",
       "stage": "Peak Hype",
       "velocity": "High",
       "category": "Institutional Finance",
-      "summary": "Bitcoin has solidified its role as a core macroeconomic asset and portfolio diversifier, driven by spot ETF inflows approaching $100 billion and structured corporate treasury allocations.",
+      "summary": "Bitcoin has cemented its status as a core institutional portfolio asset, with cumulative spot ETF assets under management nearing $100 billion and significant expansion into corporate treasury holdings.",
       "evidence": [
-        "US spot Bitcoin ETFs hold nearly $100 billion in assets under management across major traditional finance channels.",
-        "Institutional participation has expanded beyond basic balance sheet holdings to include regulated derivatives, prime services, and structured ETF vehicles."
+        "Spot Bitcoin ETFs now manage approximately $100 billion in assets.",
+        "Corporate treasury holdings of Bitcoin have surpassed 1.26 million BTC.",
+        "Financial institutions are increasingly utilizing regulated derivatives and prime services for Bitcoin exposure."
       ],
       "source_links": [
         "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
+        "https://valueaddvc.com/blog/bitcoin-etf-approval-and-institutional-adoption-what-actually-changed",
         "https://www.blockchain-council.org/bitcoin/bitcoin-etf-inflows-btc-price",
         "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/why-institutional-investors-are-becoming-more-important-to-bitcoin-adoption",
-        "https://www.livebitcoinnews.com/bitcoin-etf-institutional",
-        "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption"
+        "https://bitcoincompleteguide.com/guide/bitcoin-institutional-adoption"
       ],
       "source_details": [
         {
           "url": "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
           "domain": "cryptothreads.io",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://valueaddvc.com/blog/bitcoin-etf-approval-and-institutional-adoption-what-actually-changed",
+          "domain": "valueaddvc.com",
           "type": "secondary",
           "published_date": null
         },
@@ -40,14 +47,8 @@
           "published_date": null
         },
         {
-          "url": "https://www.livebitcoinnews.com/bitcoin-etf-institutional",
-          "domain": "livebitcoinnews.com",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption",
-          "domain": "blockchain-council.org",
+          "url": "https://bitcoincompleteguide.com/guide/bitcoin-institutional-adoption",
+          "domain": "bitcoincompleteguide.com",
           "type": "secondary",
           "published_date": null
         }
@@ -61,34 +62,105 @@
         "has_primary_sources": false,
         "source_risk": "medium"
       },
-      "confidence": 0.95,
-      "reasoning": "Sustained institutional inflows and corporate treasury adoption maintain high momentum, keeping institutional Bitcoin integration firmly in Peak Hype.",
+      "confidence": 0.98,
+      "reasoning": "The trend remains at peak hype due to consistent, verifiable capital inflows through ETFs and deepening institutional infrastructure that operates independently of stalled legislative action.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": false,
-        "stage_delta": 0,
-        "previous_stage": "Peak Hype",
-        "velocity_delta": 0,
-        "previous_velocity": "High",
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
         "new_sources": [
-          "https://www.blockchain-council.org/cryptocurrency/bitcoin-institutional-adoption"
+          "https://cryptothreads.io/learn/bitcoin-institutional-adoption",
+          "https://valueaddvc.com/blog/bitcoin-etf-approval-and-institutional-adoption-what-actually-changed",
+          "https://www.blockchain-council.org/bitcoin/bitcoin-etf-inflows-btc-price",
+          "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/why-institutional-investors-are-becoming-more-important-to-bitcoin-adoption",
+          "https://bitcoincompleteguide.com/guide/bitcoin-institutional-adoption"
         ],
-        "dropped_sources": [
-          "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/bitcoin-market-outlook-2026-etf-inflows-regulations-and-price-structure-explained"
-        ],
-        "summary_changed": true
+        "dropped_sources": [],
+        "summary_changed": false
       }
     },
     {
-      "id": "ethereum-enterprise-decentralized-application-baseline",
-      "name": "Ethereum Enterprise & Decentralized Application Baseline",
+      "id": "clarity-act-stagnation-regulatory-uncertainty",
+      "name": "CLARITY Act Stagnation & Regulatory Uncertainty",
+      "stage": "Fatigue",
+      "velocity": "Medium",
+      "category": "Regulation",
+      "summary": "The failure of the Digital Asset Market Clarity Act to advance through the Senate has curtailed near-term expectations for federal crypto legislation, forcing firms to navigate existing regulatory ambiguity.",
+      "evidence": [
+        "The CLARITY Act failed a key Senate cloture vote in September 2026.",
+        "Legislative efforts to define digital assets and resolve SEC-CFTC jurisdictional overlaps have stalled indefinitely.",
+        "Market participants are recalibrating strategy away from federal legislative reliance."
+      ],
+      "source_links": [
+        "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act",
+        "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
+        "https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text",
+        "https://economictimes.indiatimes.com/markets/cryptocurrency/explained-what-is-us-senates-clarity-act-and-why-does-it-matter-for-crypto-investors/articleshow/131111787.cms"
+      ],
+      "source_details": [
+        {
+          "url": "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act",
+          "domain": "dlapiper.com",
+          "type": "secondary",
+          "published_date": "2026-09-01"
+        },
+        {
+          "url": "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
+          "domain": "cryptotimes.io",
+          "type": "secondary",
+          "published_date": "2026-05-14"
+        },
+        {
+          "url": "https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text",
+          "domain": "lummis.senate.gov",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/explained-what-is-us-senates-clarity-act-and-why-does-it-matter-for-crypto-investors/articleshow/131111787.cms",
+          "domain": "economictimes.indiatimes.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 4,
+        "primary_source_count": 1,
+        "secondary_source_count": 3,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.95,
+      "reasoning": "Legislative momentum has shifted from active negotiation to failure, leading to a state of fatigue as the industry moves to accept a non-legislative environment.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": true,
+        "stage_delta": "new",
+        "velocity_delta": "new",
+        "new_sources": [
+          "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act",
+          "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
+          "https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text",
+          "https://economictimes.indiatimes.com/markets/cryptocurrency/explained-what-is-us-senates-clarity-act-and-why-does-it-matter-for-crypto-investors/articleshow/131111787.cms"
+        ],
+        "dropped_sources": [],
+        "summary_changed": false
+      }
+    },
+    {
+      "id": "ethereum-smart-contract-dominance",
+      "name": "Ethereum Smart Contract Dominance",
       "stage": "Breakthrough",
       "velocity": "Medium",
       "category": "DeFi & Smart Contracts",
-      "summary": "Ethereum continues to serve as the dominant proof-of-stake smart contract execution layer, underpinning non-intermediated lending, borrowing, and tokenized asset ecosystems.",
+      "summary": "Ethereum continues to act as the primary settlement and execution layer for decentralized applications, largely unaffected by the stalled US federal legislative efforts.",
       "evidence": [
-        "Ethereum provides the foundational decentralization and smart contract functionality powering enterprise standards and ERC-20 token architecture.",
-        "Transition to proof-of-stake maintains over 99% energy reduction while retaining settlement dominance for decentralized applications."
+        "Ethereum maintains the highest developer activity for non-intermediated lending and tokenized assets.",
+        "Smart contract architecture on Ethereum continues to serve as the industry standard for decentralized financial protocols.",
+        "Post-CLARITY stagnation, the focus has returned to organic protocol development."
       ],
       "source_links": [
         "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance"
@@ -110,8 +182,8 @@
         "has_primary_sources": false,
         "source_risk": "high"
       },
-      "confidence": 0.9,
-      "reasoning": "Ethereum remains the primary execution baseline for smart contracts, maintaining steady enterprise and developer adoption.",
+      "confidence": 0.85,
+      "reasoning": "Ethereum remains the foundational infrastructure. It is classified as Breakthrough as it continuously scales execution while avoiding the legislative volatility impacting newer, regulation-sensitive projects.",
       "validation_flags": [
         "weak_source_support",
         "wikipedia_only"
@@ -129,31 +201,31 @@
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.5-flash",
+    "agent": "gemini-3.1-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-11-21T04:01:22.433939Z",
-    "active_narratives": 2,
+    "timestamp": "2026-11-21T10:01:45.825883Z",
+    "active_narratives": 3,
     "validation": {
-      "accepted": 2,
+      "accepted": 3,
       "rejected": 0,
       "validation_error_count": 0
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.5-flash",
+      "model": "gemini-3.1-flash-lite",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-11-21T04:01:22.433939Z",
-      "search_result_count": 6,
+      "timestamp": "2026-11-21T10:01:45.825883Z",
+      "search_result_count": 10,
       "validation_error_count": 0,
       "validation_failures": []
     }
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.5-flash",
+    "model": "gemini-3.1-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-11-21T04:01:22.433939Z",
-    "search_result_count": 6,
+    "timestamp": "2026-11-21T10:01:45.825883Z",
+    "search_result_count": 10,
     "validation_error_count": 0,
     "validation_failures": []
   }
