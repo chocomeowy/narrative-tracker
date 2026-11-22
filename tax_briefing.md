@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-11-21 22:01
+# Tax Intelligence Briefing - 2026-11-22 04:01
 
-As of late 2026, global corporate tax policy is defined by the full operationalization of OECD Pillar Two minimum tax standards alongside the accelerated global adoption of real-time digital tax reporting and Peppol-based e-invoicing frameworks like Singapore's InvoiceNow mandate. Concurrently, heightened trade volatility and aggressive tariff enforcement require continuous global cost model reassessments, while ASEAN economies strategically calibrate statutory incentives to maintain regional FDI appeal under global tax convergence rules.
+Global corporate tax policy is currently defined by the maturity and integration of the OECD Pillar Two 15% minimum tax framework alongside aggressive global expansions in real-time e-invoicing mandates, such as Singapore's InvoiceNow initiative. Concurrently, heightened trade volatility and executive tariff updates require ongoing cost model reassessments for multinational enterprises, while ASEAN economies strategically calibrate statutory incentives to preserve regional FDI attractiveness.

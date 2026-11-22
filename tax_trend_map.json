@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T22:01:22.571148Z",
-  "executive_briefing": "As of late 2026, global corporate tax policy is defined by the full operationalization of OECD Pillar Two minimum tax standards alongside the accelerated global adoption of real-time digital tax reporting and Peppol-based e-invoicing frameworks like Singapore's InvoiceNow mandate. Concurrently, heightened trade volatility and aggressive tariff enforcement require continuous global cost model reassessments, while ASEAN economies strategically calibrate statutory incentives to maintain regional FDI appeal under global tax convergence rules.",
+  "last_updated": "2026-11-22T04:01:45.075056Z",
+  "executive_briefing": "Global corporate tax policy is currently defined by the maturity and integration of the OECD Pillar Two 15% minimum tax framework alongside aggressive global expansions in real-time e-invoicing mandates, such as Singapore's InvoiceNow initiative. Concurrently, heightened trade volatility and executive tariff updates require ongoing cost model reassessments for multinational enterprises, while ASEAN economies strategically calibrate statutory incentives to preserve regional FDI attractiveness.",
   "trends": [
     {
       "id": "oecd-pillar-two-and-global-minimum-tax-operationalization",
@@ -10,7 +10,7 @@
       "category": "Corporate Tax",
       "summary": "The 15% global minimum tax framework is fully operationalized, with standard reporting and BEPS-aligned compliance mechanisms enforced across nearly 150 jurisdictions.",
       "evidence": [
-        "OECD 2026 corporate tax statistics confirm global integration of Pillar Two effective tax rate (ETR) standards.",
+        "OECD corporate tax statistics confirm global integration of Pillar Two effective tax rate standards.",
         "Multinational entities have established standard operational reporting for global minimum tax compliance."
       ],
       "source_links": [
@@ -58,7 +58,7 @@
         "previous_velocity": "Fast",
         "new_sources": [],
         "dropped_sources": [],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
@@ -77,7 +77,7 @@
         "https://www.cleartax.com/sg/en/e-invoicing-singapore",
         "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
         "https://e-invoicing.org/singapore",
-        "https://dddinvoices.com/learn/e-invoicing-in-singapore"
+        "https://einvoicelab.com/sg/en"
       ],
       "source_details": [
         {
@@ -105,8 +105,8 @@
           "published_date": null
         },
         {
-          "url": "https://dddinvoices.com/learn/e-invoicing-in-singapore",
-          "domain": "dddinvoices.com",
+          "url": "https://einvoicelab.com/sg/en",
+          "domain": "einvoicelab.com",
           "type": "secondary",
           "published_date": null
         }
@@ -121,7 +121,7 @@
         "source_risk": "low"
       },
       "confidence": 0.98,
-      "reasoning": "New 2026 operational updates confirm phased e-invoicing mandates expanding across key trading hubs like Singapore, keeping velocity high.",
+      "reasoning": "Operational updates confirm phased e-invoicing mandates expanding across key trading hubs like Singapore, keeping velocity high.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -130,15 +130,12 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
-          "https://dddinvoices.com/learn/e-invoicing-in-singapore",
-          "https://e-invoicing.org/singapore",
-          "https://www.cleartax.com/sg/en/e-invoicing-singapore"
+          "https://einvoicelab.com/sg/en"
         ],
         "dropped_sources": [
-          "https://einvoicelab.com/sg/en",
-          "https://en.wikipedia.org/wiki/E-invoicing"
+          "https://dddinvoices.com/learn/e-invoicing-in-singapore"
         ],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
@@ -156,7 +153,8 @@
         "https://www.reuters.com/business/tariffs",
         "https://usacustomsclearance.com/import-tariffs-updates",
         "https://ttd.wto.org/en",
-        "https://www.usitc.gov/harmonized_tariff_information/announcement_archive"
+        "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
+        "https://www.oiaglobal.com/tariff-updates"
       ],
       "source_details": [
         {
@@ -182,12 +180,18 @@
           "domain": "usitc.gov",
           "type": "primary",
           "published_date": null
+        },
+        {
+          "url": "https://www.oiaglobal.com/tariff-updates",
+          "domain": "oiaglobal.com",
+          "type": "secondary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 4,
+        "total_sources": 5,
         "primary_source_count": 2,
-        "secondary_source_count": 2,
+        "secondary_source_count": 3,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
@@ -202,9 +206,11 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [],
+        "new_sources": [
+          "https://www.oiaglobal.com/tariff-updates"
+        ],
         "dropped_sources": [],
-        "summary_changed": true
+        "summary_changed": false
       }
     },
     {
@@ -221,7 +227,8 @@
       "source_links": [
         "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026",
         "https://www.iras.gov.sg/quick-links/tax-rates/corporate-income-tax-rates",
-        "https://pathmakerid.com/blog/corporate-tax-rates-in-asia-2026-a-9-country-asean-comparison"
+        "https://pathmakerid.com/blog/corporate-tax-rates-in-asia-2026-a-9-country-asean-comparison",
+        "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income"
       ],
       "source_details": [
         {
@@ -241,19 +248,25 @@
           "domain": "pathmakerid.com",
           "type": "secondary",
           "published_date": null
+        },
+        {
+          "url": "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income",
+          "domain": "taxsummaries.pwc.com",
+          "type": "secondary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 3,
+        "total_sources": 4,
         "primary_source_count": 1,
-        "secondary_source_count": 2,
+        "secondary_source_count": 3,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
         "source_risk": "low"
       },
       "confidence": 0.93,
-      "reasoning": "ASEAN states are undergoing steady policy recalibration, maintaining a medium velocity incubation status.",
+      "reasoning": "ASEAN states are undergoing steady policy recalibration, maintaining a medium velocity incubation status supported by new 2026 tax summaries.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -261,16 +274,18 @@
         "previous_stage": "Incubation",
         "velocity_delta": 0,
         "previous_velocity": "Medium",
-        "new_sources": [],
+        "new_sources": [
+          "https://taxsummaries.pwc.com/singapore/corporate/taxes-on-corporate-income"
+        ],
         "dropped_sources": [],
-        "summary_changed": true
+        "summary_changed": false
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.6-flash",
+    "agent": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-11-21T22:01:22.571148Z",
+    "timestamp": "2026-11-22T04:01:45.075056Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -279,20 +294,20 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.6-flash",
+      "model": "gemini-3.5-flash-lite",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-11-21T22:01:22.571148Z",
-      "search_result_count": 30,
+      "timestamp": "2026-11-22T04:01:45.075056Z",
+      "search_result_count": 26,
       "validation_error_count": 0,
       "validation_failures": []
     }
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.6-flash",
+    "model": "gemini-3.5-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-11-21T22:01:22.571148Z",
-    "search_result_count": 30,
+    "timestamp": "2026-11-22T04:01:45.075056Z",
+    "search_result_count": 26,
     "validation_error_count": 0,
     "validation_failures": []
   }
