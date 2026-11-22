@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-11-22 10:01
+# Tax Intelligence Briefing - 2026-11-22 16:01
 
-Global tax policy in late 2026 continues to be shaped by the global operationalization of the OECD Pillar Two 15% minimum tax framework, alongside targeted regional corporate tax incentive restructuring in ASEAN to preserve competitiveness. Simultaneously, real-time e-invoicing and digital tax compliance mandates are accelerating worldwide, while persistent executive tariff policy updates drive supply chain cost recalculations.
+Global tax policy continues to undergo significant institutional evolution, anchored by the widespread operationalization of the OECD Pillar Two 15% minimum tax framework and regional corporate tax calibrations across ASEAN. Meanwhile, the enforcement of mandatory real-time e-invoicing networks such as Singapore's InvoiceNow initiative and ongoing global tariff adjustments are reshaping digital tax compliance and multinational supply chain economics.
