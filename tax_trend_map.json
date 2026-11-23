@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-22T22:01:49.586371Z",
-  "executive_briefing": "Global tax policy is currently defined by the maturity of the OECD Pillar Two framework and an intensified focus on digital tax administration. The operationalization of the 15% minimum tax is now systemic, while regional tax authorities in ASEAN and beyond are aggressively digitizing compliance via mandatory real-time e-invoicing networks like Singapore's InvoiceNow. Simultaneously, the global trade landscape is experiencing significant volatility, with a marked resurgence in protectionist tariff policies, compelling multinational corporations to adopt more sophisticated and agile tax and supply chain management strategies.",
+  "last_updated": "2026-11-23T04:01:10.564908Z",
+  "executive_briefing": "Global corporate tax policy remains dominated by the operationalization of the OECD Pillar Two 15% global minimum tax alongside mandatory real-time digital tax administration and e-invoicing networks. Tax authorities are increasingly turning to automated compliance frameworks to safeguard revenues, while regional blocs such as ASEAN recalibrate local incentive structures to stay competitive under international constraints. Simultaneously, volatile tariff policies and protectionist trade measures continue to force strategic realignments in global corporate supply chains.",
   "trends": [
     {
       "id": "oecd-pillar-two-and-global-minimum-tax-operationalization",
@@ -10,8 +10,8 @@
       "category": "Corporate Tax",
       "summary": "The 15% global minimum tax framework under GloBE rules has achieved widespread international enactment, becoming a standard component of global corporate tax compliance and strategy.",
       "evidence": [
-        "PwC and OECD maintain ongoing documentation of legislative enactments like North Macedonia's.",
-        "EY's 2026 handbook confirms the structural shift aimed at ending tax competition.",
+        "PwC and OECD maintain ongoing documentation of legislative enactments worldwide.",
+        "EY 2026 tax guidance confirms the structural operational shift aimed at eliminating jurisdictional tax competition.",
         "Moody's analysis validates the impact of GloBE rules on multinational effective tax rates."
       ],
       "source_links": [
@@ -56,7 +56,7 @@
         "source_risk": "low"
       },
       "confidence": 1.0,
-      "reasoning": "The framework has moved from policy discourse to operational reality, supported by consistent global reporting and implementation trackers.",
+      "reasoning": "The framework remains firmly in the Breakthrough stage as legislation moves from enactment to full active operational compliance globally.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -64,16 +64,9 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [
-          "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-gl/technical/tax-alerts/documents/minimum-tax-implementation-handbook-pillar-two.pdf",
-          "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en/full-report.html"
-        ],
-        "dropped_sources": [
-          "https://en.wikipedia.org/wiki/Global_minimum_corporate_tax_rate",
-          "https://journals.law.harvard.edu/ilj/wp-content/uploads/sites/84/Vol.-67.1_Gomes_The-Global-Minimum-Tax-Pillar-Two.pdf",
-          "https://www.oecd.org/en/publications/tax-incentives-and-the-global-minimum-corporate-tax_25d30b96-en.html"
-        ],
-        "summary_changed": true
+        "new_sources": [],
+        "dropped_sources": [],
+        "summary_changed": false
       }
     },
     {
@@ -84,8 +77,8 @@
       "category": "Corporate Tax",
       "summary": "Southeast Asian jurisdictions are systematically reviewing statutory rates and incentive structures to ensure competitiveness while remaining compliant with international Pillar Two constraints.",
       "evidence": [
-        "EY 2026 Global Corporate Tax guide reports widespread adjustments in tax legislation.",
-        "Regional advisory firms note active calibration of incentive regimes."
+        "EY 2026 Global Corporate Tax guide reports widespread adjustments in tax legislation across Southeast Asian economies.",
+        "Regional advisory firms note active calibration of incentive regimes to balance foreign investment attraction with minimum tax rules."
       ],
       "source_links": [
         "https://www.ey.com/en_gl/technical/tax-guides/worldwide-corporate-tax-guide",
@@ -115,16 +108,15 @@
         "source_risk": "medium"
       },
       "confidence": 0.9,
-      "reasoning": "Nations are in a state of ongoing adaptation; progress is steady as governments balance fiscal needs with global minimum tax standards.",
+      "reasoning": "Sustained in Incubation as ASEAN member states continue multi-year policy evaluations to redesign tax incentives under global GloBE constraints.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
-        "new_sources": [
-          "https://www.ey.com/en_gl/technical/tax-guides/worldwide-corporate-tax-guide",
-          "https://www.novaledgeadvisory.com/insights/global-corporate-tax-rates-2026"
-        ],
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Incubation",
+        "velocity_delta": 0,
+        "previous_velocity": "Medium",
+        "new_sources": [],
         "dropped_sources": [],
         "summary_changed": false
       }
@@ -135,16 +127,16 @@
       "stage": "Breakthrough",
       "velocity": "Fast",
       "category": "International",
-      "summary": "Authorities are mandating real-time digital invoice transmission, notably through the Peppol-based InvoiceNow framework, to automate tax enforcement and reduce revenue leakage.",
+      "summary": "Tax authorities worldwide are mandating real-time digital invoice transmission and standardized electronic billing frameworks to automate tax enforcement and combat revenue leakage.",
       "evidence": [
-        "Singapore's phased mandate for InvoiceNow is supported by official IMDA and IRAS guidance.",
-        "The adoption of PINT-SG standards signifies a maturity phase in administrative digitization."
+        "Singapore's phased mandate for InvoiceNow is backed by IMDA and IRAS administrative compliance directives.",
+        "Global software and tax service providers confirm rapid enterprise adoption of standardized e-invoicing formats across international corridors."
       ],
       "source_links": [
         "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
         "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement",
-        "https://e-invoicing.org/singapore",
-        "https://einvoicelab.com/sg/en"
+        "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
+        "https://tax.thomsonreuters.com/blog/what-is-e-invoicing"
       ],
       "source_details": [
         {
@@ -160,14 +152,14 @@
           "published_date": null
         },
         {
-          "url": "https://e-invoicing.org/singapore",
-          "domain": "e-invoicing.org",
+          "url": "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
+          "domain": "stripe.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://einvoicelab.com/sg/en",
-          "domain": "einvoicelab.com",
+          "url": "https://tax.thomsonreuters.com/blog/what-is-e-invoicing",
+          "domain": "tax.thomsonreuters.com",
           "type": "secondary",
           "published_date": null
         }
@@ -182,7 +174,7 @@
         "source_risk": "low"
       },
       "confidence": 0.98,
-      "reasoning": "Standardized digital infrastructure is rapidly becoming a non-negotiable requirement for regional compliance, driven by concrete government mandates.",
+      "reasoning": "Maintained in Breakthrough stage due to expanding government mandates globally, making digital transactional reporting a fundamental requirement for cross-border operations.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -190,9 +182,13 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [],
+        "new_sources": [
+          "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
+          "https://tax.thomsonreuters.com/blog/what-is-e-invoicing"
+        ],
         "dropped_sources": [
-          "https://www.cleartax.com/sg/en/e-invoicing-singapore"
+          "https://e-invoicing.org/singapore",
+          "https://einvoicelab.com/sg/en"
         ],
         "summary_changed": true
       }
@@ -203,10 +199,10 @@
       "stage": "Breakthrough",
       "velocity": "Fast",
       "category": "Tariffs",
-      "summary": "Heightened protectionism and new import tariff slates are creating extreme volatility for international trade, forcing a rethink of global supply chain economics.",
+      "summary": "Heightened protectionism and new import tariff schedules create significant ongoing volatility for international trade, compelling multinationals to continually adjust supply chain strategies.",
       "evidence": [
-        "Recent policy reports from the WTO and USITC highlight active adjustments in tariff schedules.",
-        "Major trade developments reported by international news indicate active shifts in import taxation."
+        "WTO policy updates and World Tariff Profiles document widespread tariff adjustments across major global markets.",
+        "USITC and global commercial news report active updates to import duties and trade enforcement actions."
       ],
       "source_links": [
         "https://ttd.wto.org/en",
@@ -250,7 +246,7 @@
         "source_risk": "low"
       },
       "confidence": 0.95,
-      "reasoning": "Frequent, large-scale changes in tariff policies are currently driving global market uncertainty and requiring rapid corporate response.",
+      "reasoning": "Stays in Breakthrough phase as nations continuously modify import duties and trade measures, generating high policy uncertainty.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -258,22 +254,16 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [
-          "https://usacustomsclearance.com/import-tariffs-updates",
-          "https://www.reuters.com/business/tariffs",
-          "https://www.wto.org/english/res_e/publications_e/world-tariff-profiles-2026_e.htm"
-        ],
-        "dropped_sources": [
-          "https://www.usitc.gov/harmonized_tariff_information/announcement_archive"
-        ],
+        "new_sources": [],
+        "dropped_sources": [],
         "summary_changed": true
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.1-flash-lite",
+    "agent": "gemini-3.6-flash",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-11-22T22:01:49.586371Z",
+    "timestamp": "2026-11-23T04:01:10.564908Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -282,20 +272,20 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.1-flash-lite",
+      "model": "gemini-3.6-flash",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-11-22T22:01:49.586371Z",
-      "search_result_count": 22,
+      "timestamp": "2026-11-23T04:01:10.564908Z",
+      "search_result_count": 35,
       "validation_error_count": 0,
       "validation_failures": []
     }
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.1-flash-lite",
+    "model": "gemini-3.6-flash",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-11-22T22:01:49.586371Z",
-    "search_result_count": 22,
+    "timestamp": "2026-11-23T04:01:10.564908Z",
+    "search_result_count": 35,
     "validation_error_count": 0,
     "validation_failures": []
   }
