@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-23T16:01:50.334192Z",
-  "executive_briefing": "Global tax policy is rapidly evolving with the operationalization of OECD Pillar Two, driving a 15% global minimum corporate tax for multinationals. Simultaneously, tax authorities are accelerating digital enforcement through real-time e-invoicing, while trade protectionism is leading to increased tariff volatility and disputes. ASEAN nations are actively recalibrating their tax structures to balance competitiveness with international compliance.",
+  "last_updated": "2026-11-23T22:02:48.380401Z",
+  "executive_briefing": "Global tax policy continues its rapid evolution, prominently marked by the widespread operationalization of OECD Pillar Two, establishing a 15% global minimum corporate tax for multinationals. Tax authorities are intensifying digital enforcement through mandatory real-time e-invoicing, while persistent trade protectionism leads to high volatility in tariffs and ongoing disputes. Concurrently, ASEAN nations are systematically recalibrating their tax structures to balance regional competitiveness with international compliance.",
   "trends": [
     {
       "id": "oecd-pillar-two-and-global-minimum-tax-operationalization",
@@ -56,7 +56,7 @@
         "source_risk": "low"
       },
       "confidence": 1.0,
-      "reasoning": "The trend remains in Breakthrough as the framework has moved from initial adoption into active, daily global enforcement, with new intel reinforcing its widespread implementation and ongoing compliance aspects.",
+      "reasoning": "The trend remains in Breakthrough as the framework has moved from initial adoption into active, daily global enforcement, with no new intel indicating a shift from its widespread operationalization.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -65,10 +65,8 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [],
-        "dropped_sources": [
-          "https://www.learnsignal.com/blog/oecd-pillar-two-global-minimum-tax-explained"
-        ],
-        "summary_changed": true
+        "dropped_sources": [],
+        "summary_changed": false
       }
     },
     {
@@ -77,18 +75,21 @@
       "stage": "Breakthrough",
       "velocity": "Fast",
       "category": "Tariffs",
-      "summary": "Increased protectionism and frequent adjustments to import duty schedules across major economies are creating significant volatility in international supply chain costs and investment planning.",
+      "summary": "Increased protectionism and frequent adjustments to import duty schedules across major economies are creating persistent volatility in international supply chain costs and investment planning.",
       "evidence": [
         "WTO and USITC are reporting high volumes of tariff-related policy updates and trade enforcement actions.",
         "Global trade advisory services highlight significant operational impacts on manufacturers due to changing import duties.",
-        "Active monitoring of trade dispute resolution forums is essential for multinational logistics strategy."
+        "Active monitoring of trade dispute resolution forums is essential for multinational logistics strategy.",
+        "S&P Global provides insights on the economic impacts of tariffs and import-export trends."
       ],
       "source_links": [
         "https://www.wto.org/english/res_e/publications_e/world-tariff-profiles-2026_e.htm",
         "https://www.reuters.com/business/tariffs",
         "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
         "https://usacustomsclearance.com/import-tariffs-updates",
-        "https://www.oiaglobal.com/tariff-updates"
+        "https://www.oiaglobal.com/tariff-updates",
+        "https://www.spglobal.com/market-intelligence/en/news-insights/topics/international-trade-tariffs-news",
+        "https://www.usitc.gov/harmonized_tariff_information"
       ],
       "source_details": [
         {
@@ -120,19 +121,31 @@
           "domain": "oiaglobal.com",
           "type": "secondary",
           "published_date": null
+        },
+        {
+          "url": "https://www.spglobal.com/market-intelligence/en/news-insights/topics/international-trade-tariffs-news",
+          "domain": "spglobal.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.usitc.gov/harmonized_tariff_information",
+          "domain": "usitc.gov",
+          "type": "primary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 5,
-        "primary_source_count": 2,
-        "secondary_source_count": 3,
+        "total_sources": 7,
+        "primary_source_count": 3,
+        "secondary_source_count": 4,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
         "source_risk": "low"
       },
       "confidence": 0.95,
-      "reasoning": "The trend remains in Breakthrough due to the persistent high volume of tariff policy updates and trade disputes, with new intelligence from Reuters, USITC, and others underscoring the ongoing volatility.",
+      "reasoning": "New intelligence from multiple reputable sources consistently highlights ongoing tariff policy updates, trade enforcement actions, and significant economic impacts, confirming the sustained high velocity and breakthrough nature of this trend.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -140,7 +153,10 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Fast",
-        "new_sources": [],
+        "new_sources": [
+          "https://www.spglobal.com/market-intelligence/en/news-insights/topics/international-trade-tariffs-news",
+          "https://www.usitc.gov/harmonized_tariff_information"
+        ],
         "dropped_sources": [],
         "summary_changed": true
       }
@@ -155,13 +171,15 @@
       "evidence": [
         "Singapore has integrated e-invoicing as a standard requirement for businesses via the InvoiceNow network.",
         "Widespread enterprise adoption of digital invoicing software to meet new government reporting mandates.",
-        "E-invoicing is becoming a primary tool for tax administrations to match data against contractual and financial records."
+        "E-invoicing is becoming a primary tool for tax administrations to match data against contractual and financial records.",
+        "General information on e-invoicing concepts supports the overall trend."
       ],
       "source_links": [
         "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
         "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
         "https://einvoicelab.com/sg/en",
-        "https://e-invoicing.org/singapore"
+        "https://e-invoicing.org/singapore",
+        "https://en.wikipedia.org/wiki/E-invoicing"
       ],
       "source_details": [
         {
@@ -187,19 +205,25 @@
           "domain": "e-invoicing.org",
           "type": "secondary",
           "published_date": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/E-invoicing",
+          "domain": "en.wikipedia.org",
+          "type": "wikipedia",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 4,
+        "total_sources": 5,
         "primary_source_count": 1,
         "secondary_source_count": 3,
-        "wikipedia_source_count": 0,
+        "wikipedia_source_count": 1,
         "blog_source_count": 0,
         "has_primary_sources": true,
         "source_risk": "low"
       },
       "confidence": 0.95,
-      "reasoning": "The trend remains in Breakthrough due to the continued push for mandatory e-invoicing by tax authorities globally, with specific evidence for Singapore's implementation reinforcing its current stage and velocity.",
+      "reasoning": "The trend of mandatory digital tax administration continues its rapid global expansion, with new general intel reinforcing the widespread adoption of e-invoicing concepts, complementing existing specific examples like Singapore.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -208,16 +232,10 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
-          "https://e-invoicing.org/singapore",
-          "https://einvoicelab.com/sg/en",
-          "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html"
+          "https://en.wikipedia.org/wiki/E-invoicing"
         ],
-        "dropped_sources": [
-          "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
-          "https://www.avalara.com/us/en/learn/guides/what-is-electronic-invoicing-e-invoicing.html",
-          "https://www.sap.com/resources/what-is-e-invoicing"
-        ],
-        "summary_changed": true
+        "dropped_sources": [],
+        "summary_changed": false
       }
     },
     {
@@ -267,7 +285,7 @@
         "source_risk": "medium"
       },
       "confidence": 0.9,
-      "reasoning": "This trend remains in the Incubation stage as ASEAN countries are in the process of local policy redesign to accommodate global tax standards, with new intel from Grant Thornton and PathmakerID supporting this ongoing evaluation.",
+      "reasoning": "ASEAN nations are still in the preliminary stages of re-evaluating their tax structures to align with global standards and maintain competitiveness, with no new intel indicating a shift in this incubation phase or providing specific evidence of regional alignment efforts.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -282,9 +300,9 @@
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-2.5-flash-lite",
+    "agent": "gemini-2.5-flash",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-11-23T16:01:50.334192Z",
+    "timestamp": "2026-11-23T22:02:48.380401Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -293,20 +311,20 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-2.5-flash-lite",
+      "model": "gemini-2.5-flash",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-11-23T16:01:50.334192Z",
-      "search_result_count": 23,
+      "timestamp": "2026-11-23T22:02:48.380401Z",
+      "search_result_count": 13,
       "validation_error_count": 0,
       "validation_failures": []
     }
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-2.5-flash-lite",
+    "model": "gemini-2.5-flash",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-11-23T16:01:50.334192Z",
-    "search_result_count": 23,
+    "timestamp": "2026-11-23T22:02:48.380401Z",
+    "search_result_count": 13,
     "validation_error_count": 0,
     "validation_failures": []
   }
