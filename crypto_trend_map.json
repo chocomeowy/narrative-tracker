@@ -1,78 +1,17 @@
 {
-  "last_updated": "2026-11-23T04:01:07.512750Z",
-  "executive_briefing": "The market structure landscape shows a bifurcation between regulatory hurdles and cross-chain execution evolution. Legislative efforts around the CLARITY Act have faced critical friction in the Senate, failing to advance key cloture votes and stalling comprehensive digital asset market structure. Consequently, capital and development are leaning heavily into trust-minimized interoperability mechanisms. Native cross-chain protocols like THORChain and Zeus Network are replacing wrapped assets to route native Bitcoin into Ethereum's EVM DeFi ecosystem, while Ethereum maintains its foundational dominance over smart contract settlement and liquidity.",
+  "last_updated": "2026-11-23T10:01:34.238181Z",
+  "executive_briefing": "The crypto intelligence landscape demonstrates a structural division between US legislative gridlock and cross-chain execution innovations. While legislative progress on the Senate CLARITY Act has stalled into procedural fatigue, developer attention and capital deployment are concentrating on trust-minimized interoperability and layer-1 smart contract paradigms. Ethereum maintains foundational settlement dominance across decentralized finance and asset issuance following its PoS transition, while non-custodial cross-chain liquidity architectures like THORChain and Zeus Network are actively bridging native Bitcoin liquidity into the EVM ecosystem without relying on centralized wrapped tokens.",
   "trends": [
-    {
-      "id": "regulatory-stagnation-clarity-act-senate-delays",
-      "name": "Regulatory Stagnation & CLARITY Act Senate Delays",
-      "stage": "Fatigue",
-      "velocity": "Low",
-      "category": "Regulation",
-      "summary": "Legislative momentum behind the Digital Asset Market CLARITY Act stalled after failing critical Senate votes, dampening near-term regulatory certainty for US market structure.",
-      "evidence": [
-        "The CLARITY Act stalled in the Senate after failing to advance a key motion to proceed and cloture vote.",
-        "Updated text released by sponsor Senator Lummis failed to gather sufficient consensus for passage."
-      ],
-      "source_links": [
-        "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act",
-        "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
-        "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text"
-      ],
-      "source_details": [
-        {
-          "url": "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act",
-          "domain": "dlapiper.com",
-          "type": "secondary",
-          "published_date": "2026-09-01"
-        },
-        {
-          "url": "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
-          "domain": "cryptotimes.io",
-          "type": "secondary",
-          "published_date": "2026-05-14"
-        },
-        {
-          "url": "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
-          "domain": "lummis.senate.gov",
-          "type": "primary",
-          "published_date": null
-        }
-      ],
-      "source_quality": {
-        "total_sources": 3,
-        "primary_source_count": 1,
-        "secondary_source_count": 2,
-        "wikipedia_source_count": 0,
-        "blog_source_count": 0,
-        "has_primary_sources": true,
-        "source_risk": "low"
-      },
-      "confidence": 0.92,
-      "reasoning": "Repeated procedural failures in the Senate have pushed comprehensive federal crypto legislation into a phase of regulatory fatigue.",
-      "validation_flags": [],
-      "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
-        "new_sources": [
-          "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act",
-          "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
-          "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text"
-        ],
-        "dropped_sources": [],
-        "summary_changed": false
-      }
-    },
     {
       "id": "ethereum-evm-smart-contract-dominance",
       "name": "Ethereum EVM & Smart Contract Dominance",
       "stage": "Peak Hype",
       "velocity": "High",
       "category": "Layer 1",
-      "summary": "Ethereum maintains its position as the primary settlement layer for decentralized financial infrastructure, ERC-20 assets, and dApp execution following its proof-of-stake transition.",
+      "summary": "Ethereum remains the primary smart contract settlement layer for decentralized finance, ERC-20 assets, and dApp execution following its transition to Proof-of-Stake.",
       "evidence": [
-        "Ethereum operates as the primary platform for dApp deployment and token issuance.",
-        "The post-Merge PoS mechanism drastically reduced network energy footprint while maintaining validator security."
+        "Ethereum operates as the core platform for decentralized applications and token issuance after its Merge transition reduced energy usage by over 99%.",
+        "ERC-20 standard and EVM compatibility maintain the largest developer ecosystem and liquidity pool in digital assets."
       ],
       "source_links": [
         "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
@@ -109,7 +48,7 @@
         "source_risk": "low"
       },
       "confidence": 0.96,
-      "reasoning": "Ethereum's deep liquidity pools and developer mindshare keep its smart contract layer at peak market dominance.",
+      "reasoning": "Deep developer ecosystem, high lockup value, and established standard protocols keep Ethereum smart contract settlement at peak market share.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -117,9 +56,66 @@
         "previous_stage": "Peak Hype",
         "velocity_delta": 0,
         "previous_velocity": "High",
-        "new_sources": [
-          "https://etherscan.io"
-        ],
+        "new_sources": [],
+        "dropped_sources": [],
+        "summary_changed": true
+      }
+    },
+    {
+      "id": "regulatory-stagnation-clarity-act-senate-delays",
+      "name": "Regulatory Stagnation & CLARITY Act Senate Delays",
+      "stage": "Fatigue",
+      "velocity": "Low",
+      "category": "Regulation",
+      "summary": "US market structure legislation under the CLARITY Act remains stalled in the Senate, creating prolonged regulatory uncertainty for digital asset institutions.",
+      "evidence": [
+        "The CLARITY Act failed to pass key Senate cloture votes necessary to advance to a full floor vote.",
+        "Revised legislative drafts failed to secure sufficient bipartisan consensus."
+      ],
+      "source_links": [
+        "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act",
+        "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
+        "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text"
+      ],
+      "source_details": [
+        {
+          "url": "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act",
+          "domain": "dlapiper.com",
+          "type": "secondary",
+          "published_date": "2026-09-01"
+        },
+        {
+          "url": "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
+          "domain": "cryptotimes.io",
+          "type": "secondary",
+          "published_date": "2026-05-14"
+        },
+        {
+          "url": "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
+          "domain": "lummis.senate.gov",
+          "type": "primary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 3,
+        "primary_source_count": 1,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.92,
+      "reasoning": "Repeated procedural obstacles and congressional inertia have pushed comprehensive US market structure reform into narrative fatigue.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Fatigue",
+        "velocity_delta": 0,
+        "previous_velocity": "Low",
+        "new_sources": [],
         "dropped_sources": [],
         "summary_changed": true
       }
@@ -130,10 +126,10 @@
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Interoperability",
-      "summary": "Decentralized AMMs and interoperability layers enable direct native Bitcoin swaps to Ethereum without relying on centralized bridge custodians or wrapped synthetic assets.",
+      "summary": "Decentralized AMM protocols and bridging mechanisms are enabling direct, non-custodial native Bitcoin swaps into Ethereum DeFi applications without wrapped intermediaries.",
       "evidence": [
-        "THORChain utilizes RUNE liquidity pools to facilitate trustless, direct trades between native BTC and native ETH.",
-        "Zeus Network bridges native Bitcoin liquidity into EVM environments without collateralizing custodian wrapped tokens."
+        "THORChain utilizes RUNE liquidity pools to facilitate direct native BTC to ETH swaps.",
+        "Zeus Network routes native Bitcoin liquidity directly into EVM smart contract execution environments."
       ],
       "source_links": [
         "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
@@ -170,7 +166,7 @@
         "source_risk": "medium"
       },
       "confidence": 0.91,
-      "reasoning": "Decentralized cross-chain liquidity mechanisms are demonstrating clear technical maturity and gaining rapid adoption among users avoiding centralized wrapped assets.",
+      "reasoning": "Increasing user rejection of centralized bridge custodians is accelerating adoption of trust-minimized cross-chain liquidity mechanisms.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -178,23 +174,16 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "High",
-        "new_sources": [
-          "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
-          "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
-          "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps"
-        ],
-        "dropped_sources": [
-          "https://en.wikipedia.org/wiki/Cross",
-          "https://rulings.cbp.gov/home"
-        ],
+        "new_sources": [],
+        "dropped_sources": [],
         "summary_changed": true
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.6-flash",
+    "agent": "gemini-3.5-flash",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-11-23T04:01:07.512750Z",
+    "timestamp": "2026-11-23T10:01:34.238181Z",
     "active_narratives": 3,
     "validation": {
       "accepted": 3,
@@ -203,20 +192,20 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.6-flash",
+      "model": "gemini-3.5-flash",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-11-23T04:01:07.512750Z",
-      "search_result_count": 15,
+      "timestamp": "2026-11-23T10:01:34.238181Z",
+      "search_result_count": 1,
       "validation_error_count": 0,
       "validation_failures": []
     }
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.6-flash",
+    "model": "gemini-3.5-flash",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-11-23T04:01:07.512750Z",
-    "search_result_count": 15,
+    "timestamp": "2026-11-23T10:01:34.238181Z",
+    "search_result_count": 1,
     "validation_error_count": 0,
     "validation_failures": []
   }
