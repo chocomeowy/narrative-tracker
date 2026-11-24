@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-11-23 22:02
+# Tax Intelligence Briefing - 2026-11-24 04:01
 
-Global tax policy continues its rapid evolution, prominently marked by the widespread operationalization of OECD Pillar Two, establishing a 15% global minimum corporate tax for multinationals. Tax authorities are intensifying digital enforcement through mandatory real-time e-invoicing, while persistent trade protectionism leads to high volatility in tariffs and ongoing disputes. Concurrently, ASEAN nations are systematically recalibrating their tax structures to balance regional competitiveness with international compliance.
+Global tax policy continues to undergo rapid transformation, driven by the broad operationalization of the OECD Pillar Two 15% global minimum tax, ongoing trade volatility and tariff adjustments across major jurisdictions, and the rapid worldwide adoption of real-time e-invoicing for digital tax administration. Concurrently, ASEAN nations are actively recalibrating their corporate tax structures and legacy incentives to maintain foreign direct investment competitiveness while complying with evolving international standards.
