@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-23T22:01:19.820592Z",
-  "executive_briefing": "The crypto intelligence landscape continues to be shaped by a stark contrast: persistent US regulatory inertia, exemplified by the stalled CLARITY Act, and robust technical innovation. While the CLARITY Act's failure to progress leaves a vacuum of regulatory clarity, it also means there's no immediate legislative framework enabling smart contracts on Bitcoin or directly positioning it against the EVM. Instead, the focus for market participants is shifting towards direct interoperability. Ethereum solidifies its 'Peak Hype' status as the preeminent smart contract platform. Concurrently, native cross-chain liquidity solutions are undergoing a 'Breakthrough,' enabling trust-minimized Bitcoin integration into the Ethereum ecosystem. This technical advancement facilitates direct BTC swaps into EVM environments without reliance on wrapped assets, effectively bridging Bitcoin's liquidity with Ethereum's programmable functionality, and driving a form of organic competition/integration in the absence of top-down regulatory influence.",
+  "last_updated": "2026-11-24T04:01:08.884660Z",
+  "executive_briefing": "The current digital asset landscape remains characterized by regulatory friction in the US alongside sustained technical dominance by established platforms. Legislative efforts surrounding the CLARITY Act continue to face Senate delays, prolonging institutional uncertainty and keeping crypto market structure reform in a state of regulatory fatigue. In contrast, Ethereum maintains its foundational role as the prime smart contract execution environment, driving decentralized applications and liquidity. Meanwhile, cross-chain infrastructure enabling trust-minimized, direct swaps between native Bitcoin and Ethereum smart contract environments continues its breakthrough trajectory, offering functional interoperability and bridging liquidity across major networks without relying on centralized or wrapped custody solutions.",
   "trends": [
     {
       "id": "ethereum-evm-smart-contract-dominance",
@@ -8,19 +8,20 @@
       "stage": "Peak Hype",
       "velocity": "High",
       "category": "Layer 1",
-      "summary": "Ethereum remains the primary smart contract settlement layer for decentralized finance, ERC-20 assets, and dApp execution following its transition to Proof-of-Stake.",
+      "summary": "Ethereum maintains its position as the leading decentralized smart contract platform, hosting the primary EVM developer ecosystem and digital asset liquidity.",
       "evidence": [
-        "Ethereum operates as the core platform for decentralized applications and token issuance after its Merge transition reduced energy usage by over 99%.",
-        "ERC-20 standard and EVM compatibility maintain the largest developer ecosystem and liquidity pool in digital assets."
+        "Ethereum continues to serve as the dominant open-source platform for decentralized applications, resilient infrastructure, and ERC-20 token execution.",
+        "Ether remains the second-largest cryptocurrency by market capitalization and powers network transactions, gas payments, and consensus staking."
       ],
       "source_links": [
-        "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+        "https://en.wikipedia.org/wiki/Ethereum",
         "https://ethereum.org",
-        "https://etherscan.io"
+        "https://etherscan.io",
+        "https://ethereum.org/what-is-ether"
       ],
       "source_details": [
         {
-          "url": "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance",
+          "url": "https://en.wikipedia.org/wiki/Ethereum",
           "domain": "en.wikipedia.org",
           "type": "wikipedia",
           "published_date": null
@@ -36,11 +37,17 @@
           "domain": "etherscan.io",
           "type": "secondary",
           "published_date": null
+        },
+        {
+          "url": "https://ethereum.org/what-is-ether",
+          "domain": "ethereum.org",
+          "type": "primary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 3,
-        "primary_source_count": 1,
+        "total_sources": 4,
+        "primary_source_count": 2,
         "secondary_source_count": 1,
         "wikipedia_source_count": 1,
         "blog_source_count": 0,
@@ -48,7 +55,7 @@
         "source_risk": "low"
       },
       "confidence": 0.96,
-      "reasoning": "Ethereum's established developer ecosystem, significant total value locked, and widespread adoption of its standards continue to place it at the forefront of smart contract execution, maintaining its 'Peak Hype' stage. No new intel to suggest a change.",
+      "reasoning": "New intelligence confirms Ethereum's fundamental market position as the preeminent EVM execution layer and liquidity hub, keeping it stable at Peak Hype with High velocity.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -56,9 +63,14 @@
         "previous_stage": "Peak Hype",
         "velocity_delta": 0,
         "previous_velocity": "High",
-        "new_sources": [],
-        "dropped_sources": [],
-        "summary_changed": false
+        "new_sources": [
+          "https://en.wikipedia.org/wiki/Ethereum",
+          "https://ethereum.org/what-is-ether"
+        ],
+        "dropped_sources": [
+          "https://en.wikipedia.org/wiki/Ethereum_Enterprise_Alliance"
+        ],
+        "summary_changed": true
       }
     },
     {
@@ -67,15 +79,15 @@
       "stage": "Fatigue",
       "velocity": "Low",
       "category": "Regulation",
-      "summary": "US market structure legislation under the CLARITY Act remains stalled in the Senate, creating prolonged regulatory uncertainty for digital asset institutions.",
+      "summary": "Comprehensive US digital asset market structure reform under the CLARITY Act remains stalled following procedural obstacles and failed motions to proceed in the Senate.",
       "evidence": [
-        "The CLARITY Act failed to pass key Senate cloture votes necessary to advance to a full floor vote.",
-        "Revised legislative drafts failed to secure sufficient bipartisan consensus."
+        "The CLARITY Act failed to advance past procedural Senate votes following a stalled motion to proceed.",
+        "Despite updated drafts released by Senator Lummis and committee markups, bipartisan consensus remains insufficient to enact market structure legislation."
       ],
       "source_links": [
         "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act",
-        "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
-        "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text"
+        "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
+        "https://www.banking.senate.gov/newsroom/majority/myth-vs-fact-the-clarity-act"
       ],
       "source_details": [
         {
@@ -85,29 +97,29 @@
           "published_date": "2026-09-01"
         },
         {
-          "url": "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next",
-          "domain": "cryptotimes.io",
-          "type": "secondary",
-          "published_date": "2026-05-14"
-        },
-        {
           "url": "https://www.lummis.senate.gov/press-releases/lummis-releases-updated-clarity-act-text",
           "domain": "lummis.senate.gov",
+          "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.banking.senate.gov/newsroom/majority/myth-vs-fact-the-clarity-act",
+          "domain": "banking.senate.gov",
           "type": "primary",
           "published_date": null
         }
       ],
       "source_quality": {
         "total_sources": 3,
-        "primary_source_count": 1,
-        "secondary_source_count": 2,
+        "primary_source_count": 2,
+        "secondary_source_count": 1,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
         "source_risk": "low"
       },
-      "confidence": 0.92,
-      "reasoning": "Repeated procedural obstacles and congressional inertia, as evidenced by the failure to advance the CLARITY Act, have pushed comprehensive US market structure reform into a state of 'Fatigue' with low 'Velocity'. No new intel indicates a change in status.",
+      "confidence": 0.94,
+      "reasoning": "Recent reports confirm that the CLARITY Act stalled after failing its motion to proceed in the Senate, reinforcing the ongoing legislative stagnation and maintaining the Fatigue stage with Low velocity.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -115,9 +127,13 @@
         "previous_stage": "Fatigue",
         "velocity_delta": 0,
         "previous_velocity": "Low",
-        "new_sources": [],
-        "dropped_sources": [],
-        "summary_changed": false
+        "new_sources": [
+          "https://www.banking.senate.gov/newsroom/majority/myth-vs-fact-the-clarity-act"
+        ],
+        "dropped_sources": [
+          "https://www.cryptotimes.io/2026/05/14/clarity-act-vote-timeline-what-happens-next"
+        ],
+        "summary_changed": true
       }
     },
     {
@@ -126,15 +142,14 @@
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Interoperability",
-      "summary": "Decentralized AMM protocols and bridging mechanisms are enabling direct, non-custodial native Bitcoin swaps into Ethereum DeFi applications without wrapped intermediaries.",
+      "summary": "Decentralized liquidity protocols and cross-chain routing systems enable direct, non-custodial swaps between native Bitcoin and Ethereum execution environments.",
       "evidence": [
-        "THORChain utilizes RUNE liquidity pools to facilitate direct native BTC to ETH swaps.",
-        "Zeus Network routes native Bitcoin liquidity directly into EVM smart contract execution environments."
+        "Cross-chain AMMs facilitate direct native BTC to ETH swaps without centralized wrapped token intermediaries.",
+        "Infrastructure solutions like THORChain and Zeus Network route native BTC liquidity into EVM-compatible smart contract protocols."
       ],
       "source_links": [
         "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
-        "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps",
-        "https://trustwallet.com/blog/academy/cross-chain-swaps-explained"
+        "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps"
       ],
       "source_details": [
         {
@@ -148,25 +163,19 @@
           "domain": "gate.com",
           "type": "secondary",
           "published_date": null
-        },
-        {
-          "url": "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
-          "domain": "trustwallet.com",
-          "type": "secondary",
-          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 3,
+        "total_sources": 2,
         "primary_source_count": 0,
-        "secondary_source_count": 3,
+        "secondary_source_count": 2,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": false,
         "source_risk": "medium"
       },
       "confidence": 0.91,
-      "reasoning": "The development and adoption of trust-minimized solutions like THORChain and Zeus Network, which enable direct native BTC liquidity into EVM, represent a significant 'Breakthrough' in interoperability with high 'Velocity'. No new intel to suggest a change.",
+      "reasoning": "Decentralized cross-chain liquidity mechanisms enabling native BTC integration into EVM ecosystem represent a key architectural breakthrough, maintaining high velocity and active adoption.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -175,15 +184,17 @@
         "velocity_delta": 0,
         "previous_velocity": "High",
         "new_sources": [],
-        "dropped_sources": [],
-        "summary_changed": false
+        "dropped_sources": [
+          "https://trustwallet.com/blog/academy/cross-chain-swaps-explained"
+        ],
+        "summary_changed": true
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-2.5-flash",
+    "agent": "gemini-3.6-flash",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-11-23T22:01:19.820592Z",
+    "timestamp": "2026-11-24T04:01:08.884660Z",
     "active_narratives": 3,
     "validation": {
       "accepted": 3,
@@ -192,20 +203,20 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-2.5-flash",
+      "model": "gemini-3.6-flash",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-11-23T22:01:19.820592Z",
-      "search_result_count": 0,
+      "timestamp": "2026-11-24T04:01:08.884660Z",
+      "search_result_count": 10,
       "validation_error_count": 0,
       "validation_failures": []
     }
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-2.5-flash",
+    "model": "gemini-3.6-flash",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-11-23T22:01:19.820592Z",
-    "search_result_count": 0,
+    "timestamp": "2026-11-24T04:01:08.884660Z",
+    "search_result_count": 10,
     "validation_error_count": 0,
     "validation_failures": []
   }
