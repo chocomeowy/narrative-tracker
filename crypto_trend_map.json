@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-24T10:01:36.897755Z",
-  "executive_briefing": "The digital asset landscape is currently defined by a significant legislative impasse in the United States, as the CLARITY Act has failed to advance, signaling a period of prolonged regulatory stasis. Despite these political headwinds, the technical integration between Bitcoin and Ethereum continues to accelerate. Decentralized, trust-minimized cross-chain infrastructure is successfully bridging the gap between Bitcoin's security and Ethereum's smart contract utility. Ethereum maintains its position as the primary engine for DeFi and EVM-compatible development, while market participants are increasingly pivoting toward native, non-custodial cross-chain interoperability to move liquidity without reliance on legacy wrapped assets.",
+  "last_updated": "2026-11-24T16:01:53.365634Z",
+  "executive_briefing": "The U.S. legislative environment for digital assets remains stagnant following the failure of the CLARITY Act, leading to a 'Fatigue' stage in regulatory development. Conversely, the technical integration between Bitcoin and Ethereum is experiencing a 'Breakthrough' phase, with native cross-chain liquidity and swap solutions rapidly maturing. Ethereum continues its dominance in smart contract execution and DeFi, holding firm at 'Peak Hype'. The primary narrative shift involves the acceleration of trust-minimized interoperability, enabling Bitcoin's vast liquidity to interact more seamlessly with Ethereum's robust smart contract ecosystem, independent of wrapped assets.",
   "trends": [
     {
       "id": "ethereum-evm-smart-contract-dominance",
@@ -8,14 +8,16 @@
       "stage": "Peak Hype",
       "velocity": "High",
       "category": "Layer 1",
-      "summary": "Ethereum persists as the dominant hub for decentralized finance and EVM-based smart contract execution, maintaining its structural lead in developer activity and liquidity.",
+      "summary": "Ethereum maintains its position as the leading platform for decentralized finance and EVM-compatible smart contract development, driven by its established network effects and developer ecosystem.",
       "evidence": [
         "Ethereum remains the primary network for decentralized applications and ERC-20 token standards.",
         "Ether continues to function as the core asset for network security and gas utility in the decentralized economy."
       ],
       "source_links": [
         "https://en.wikipedia.org/wiki/Ethereum",
-        "https://ethereum.org"
+        "https://ethereum.org",
+        "https://coinmarketcap.com/currencies/ethereum",
+        "https://ethereum.org/what-is-ether"
       ],
       "source_details": [
         {
@@ -29,19 +31,31 @@
           "domain": "ethereum.org",
           "type": "primary",
           "published_date": null
+        },
+        {
+          "url": "https://coinmarketcap.com/currencies/ethereum",
+          "domain": "coinmarketcap.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://ethereum.org/what-is-ether",
+          "domain": "ethereum.org",
+          "type": "primary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 2,
-        "primary_source_count": 1,
-        "secondary_source_count": 0,
+        "total_sources": 4,
+        "primary_source_count": 2,
+        "secondary_source_count": 1,
         "wikipedia_source_count": 1,
         "blog_source_count": 0,
         "has_primary_sources": true,
         "source_risk": "low"
       },
       "confidence": 0.96,
-      "reasoning": "Ethereum's foundational role remains unchallenged despite regulatory shifts, justifying its stable position at Peak Hype.",
+      "reasoning": "Ethereum's foundational role in DeFi and smart contracts remains unchallenged, supported by its extensive ecosystem and ongoing development, justifying its continued 'Peak Hype' stage and 'High' velocity.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -49,73 +63,12 @@
         "previous_stage": "Peak Hype",
         "velocity_delta": 0,
         "previous_velocity": "High",
-        "new_sources": [],
-        "dropped_sources": [
-          "https://ethereum.org/what-is-ether",
-          "https://etherscan.io"
-        ],
-        "summary_changed": true
-      }
-    },
-    {
-      "id": "regulatory-stagnation-clarity-act-failure",
-      "name": "Regulatory Stagnation & CLARITY Act Failure",
-      "stage": "Fatigue",
-      "velocity": "Low",
-      "category": "Regulation",
-      "summary": "The legislative prospects for a comprehensive digital asset market structure in the U.S. have diminished following the CLARITY Act's failure to advance in the Senate.",
-      "evidence": [
-        "A 49-50 Senate vote effectively blocked the CLARITY Act from becoming law in 2026.",
-        "The Senate Banking Committee's efforts have transitioned from active legislative pursuit to a state of stasis following the procedural failure in September."
-      ],
-      "source_links": [
-        "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act",
-        "https://cryptoinfrastructure.io/clarity-act",
-        "https://www.banking.senate.gov/newsroom/majority/the-facts-the-clarity-act"
-      ],
-      "source_details": [
-        {
-          "url": "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act",
-          "domain": "dlapiper.com",
-          "type": "secondary",
-          "published_date": "2026-09-01"
-        },
-        {
-          "url": "https://cryptoinfrastructure.io/clarity-act",
-          "domain": "cryptoinfrastructure.io",
-          "type": "secondary",
-          "published_date": null
-        },
-        {
-          "url": "https://www.banking.senate.gov/newsroom/majority/the-facts-the-clarity-act",
-          "domain": "banking.senate.gov",
-          "type": "primary",
-          "published_date": null
-        }
-      ],
-      "source_quality": {
-        "total_sources": 3,
-        "primary_source_count": 1,
-        "secondary_source_count": 2,
-        "wikipedia_source_count": 0,
-        "blog_source_count": 0,
-        "has_primary_sources": true,
-        "source_risk": "low"
-      },
-      "confidence": 0.98,
-      "reasoning": "The definitive failure of the Senate vote validates the 'Fatigue' stage classification, as the primary legislative vehicle has reached a dead end.",
-      "validation_flags": [],
-      "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
         "new_sources": [
-          "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act",
-          "https://cryptoinfrastructure.io/clarity-act",
-          "https://www.banking.senate.gov/newsroom/majority/the-facts-the-clarity-act"
+          "https://coinmarketcap.com/currencies/ethereum",
+          "https://ethereum.org/what-is-ether"
         ],
         "dropped_sources": [],
-        "summary_changed": false
+        "summary_changed": true
       }
     },
     {
@@ -124,14 +77,18 @@
       "stage": "Breakthrough",
       "velocity": "High",
       "category": "Interoperability",
-      "summary": "Technological advancements in decentralized routing are enabling direct, trust-minimized swaps between native Bitcoin and Ethereum environments, bypassing centralized custodians.",
+      "summary": "Advancements in decentralized routing and trust-minimized bridge solutions are enabling direct, non-custodial swaps between native Bitcoin and Ethereum, facilitating seamless liquidity movement and unlocking Bitcoin's utility within the Ethereum ecosystem.",
       "evidence": [
         "Growth in cross-chain AMM protocols allows native BTC utilization within EVM smart contracts.",
-        "Infrastructure providers are actively deploying trust-minimized bridge solutions to unify BTC liquidity with DeFi protocols."
+        "Infrastructure providers are actively deploying trust-minimized bridge solutions to unify BTC liquidity with DeFi protocols.",
+        "THORChain enables native cross-chain swaps between BTC and ETH through RUNE liquidity pools, without requiring wrapped assets or centralized exchanges.",
+        "Cross-chain swaps allow trading of a token on one blockchain for a token on another\u2014like BTC for ETH\u2014in a single transaction, with bridging handled behind the scenes."
       ],
       "source_links": [
         "https://www.bitunix.com/hub/blog/bitcoin/bitcoin-to-ethereum-bridges-defi",
-        "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps"
+        "https://www.gate.com/learn/articles/how-thorchain-enables-btc-to-eth-cross-chain-swaps",
+        "https://hackread.com/swap-bitcoin-ethereum-decentralized-exchange",
+        "https://trustwallet.com/blog/academy/cross-chain-swaps-explained"
       ],
       "source_details": [
         {
@@ -145,19 +102,31 @@
           "domain": "gate.com",
           "type": "secondary",
           "published_date": null
+        },
+        {
+          "url": "https://hackread.com/swap-bitcoin-ethereum-decentralized-exchange",
+          "domain": "hackread.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://trustwallet.com/blog/academy/cross-chain-swaps-explained",
+          "domain": "trustwallet.com",
+          "type": "secondary",
+          "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 2,
+        "total_sources": 4,
         "primary_source_count": 0,
-        "secondary_source_count": 2,
+        "secondary_source_count": 4,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": false,
         "source_risk": "medium"
       },
       "confidence": 0.92,
-      "reasoning": "This sector continues to see high velocity as developers prioritize non-custodial solutions to integrate Bitcoin capital into the Ethereum-based DeFi ecosystem.",
+      "reasoning": "The development and increasing adoption of native, trust-minimized cross-chain swap solutions mark a significant technological advancement, moving this trend from 'Incubation' to 'Breakthrough' with sustained 'High' velocity.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -165,16 +134,73 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "High",
-        "new_sources": [],
+        "new_sources": [
+          "https://hackread.com/swap-bitcoin-ethereum-decentralized-exchange",
+          "https://trustwallet.com/blog/academy/cross-chain-swaps-explained"
+        ],
         "dropped_sources": [],
+        "summary_changed": true
+      }
+    },
+    {
+      "id": "regulatory-stagnation-clarity-act-failure",
+      "name": "Regulatory Stagnation & CLARITY Act Failure",
+      "stage": "Fatigue",
+      "velocity": "Low",
+      "category": "Regulation",
+      "summary": "The failure of the CLARITY Act in the U.S. Senate signifies a period of prolonged regulatory uncertainty and a lack of clear legislative direction for the digital asset market, leading to diminished momentum in this area.",
+      "evidence": [
+        "A 49-50 Senate vote effectively blocked the CLARITY Act from becoming law in 2026.",
+        "The Senate Banking Committee's efforts have transitioned from active legislative pursuit to a state of stasis following the procedural failure in September."
+      ],
+      "source_links": [
+        "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act",
+        "https://www.banking.senate.gov/newsroom/majority/the-facts-the-clarity-act"
+      ],
+      "source_details": [
+        {
+          "url": "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act",
+          "domain": "dlapiper.com",
+          "type": "secondary",
+          "published_date": "2026-09-01"
+        },
+        {
+          "url": "https://www.banking.senate.gov/newsroom/majority/the-facts-the-clarity-act",
+          "domain": "banking.senate.gov",
+          "type": "primary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 2,
+        "primary_source_count": 1,
+        "secondary_source_count": 1,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.98,
+      "reasoning": "The definitive failure of a major legislative proposal like the CLARITY Act indicates a lack of progress and waning enthusiasm, classifying this trend as 'Fatigue' with 'Low' velocity.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Fatigue",
+        "velocity_delta": 0,
+        "previous_velocity": "Low",
+        "new_sources": [],
+        "dropped_sources": [
+          "https://cryptoinfrastructure.io/clarity-act"
+        ],
         "summary_changed": true
       }
     }
   ],
   "intelligence_metadata": {
-    "agent": "gemini-3.1-flash-lite",
+    "agent": "gemini-2.5-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-11-24T10:01:36.897755Z",
+    "timestamp": "2026-11-24T16:01:53.365634Z",
     "active_narratives": 3,
     "validation": {
       "accepted": 3,
@@ -183,20 +209,20 @@
     },
     "run_health": {
       "status": "success",
-      "model": "gemini-3.1-flash-lite",
+      "model": "gemini-2.5-flash-lite",
       "focus": "BTC / ETH / Clarity",
-      "timestamp": "2026-11-24T10:01:36.897755Z",
-      "search_result_count": 5,
+      "timestamp": "2026-11-24T16:01:53.365634Z",
+      "search_result_count": 10,
       "validation_error_count": 0,
       "validation_failures": []
     }
   },
   "run_health": {
     "status": "success",
-    "model": "gemini-3.1-flash-lite",
+    "model": "gemini-2.5-flash-lite",
     "focus": "BTC / ETH / Clarity",
-    "timestamp": "2026-11-24T10:01:36.897755Z",
-    "search_result_count": 5,
+    "timestamp": "2026-11-24T16:01:53.365634Z",
+    "search_result_count": 10,
     "validation_error_count": 0,
     "validation_failures": []
   }
