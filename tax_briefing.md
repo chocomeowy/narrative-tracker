@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-11-24 04:01
+# Tax Intelligence Briefing - 2026-11-24 10:01
 
-Global tax policy continues to undergo rapid transformation, driven by the broad operationalization of the OECD Pillar Two 15% global minimum tax, ongoing trade volatility and tariff adjustments across major jurisdictions, and the rapid worldwide adoption of real-time e-invoicing for digital tax administration. Concurrently, ASEAN nations are actively recalibrating their corporate tax structures and legacy incentives to maintain foreign direct investment competitiveness while complying with evolving international standards.
+Global tax policy continues to undergo rapid transformation in 2026, driven by the broad operationalization of the OECD Pillar Two 15% global minimum tax, ongoing trade volatility and tariff adjustments across major jurisdictions, and the rapid worldwide adoption of real-time e-invoicing for digital tax administration. Concurrently, ASEAN nations are actively recalibrating their corporate tax structures and legacy incentives to maintain foreign direct investment competitiveness while complying with evolving international standards.
