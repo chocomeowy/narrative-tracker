@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-26T10:01:37.913856Z",
-  "executive_briefing": "The global tax landscape in late 2026 is characterized by intense fragmentation and aggressive administrative modernization. While international frameworks like Pillar Two face significant headwinds due to shifting U.S. policy stances, the broader momentum toward digital tax enforcement\u2014specifically real-time e-invoicing and structured data reporting\u2014continues to accelerate. Meanwhile, the global trade environment has shifted into a volatile phase, with intensified tariff deployments becoming the primary mechanism for geopolitical leverage, necessitating a more dynamic approach to multinational tax risk management.",
+  "last_updated": "2026-11-26T16:01:45.112428Z",
+  "executive_briefing": "The global tax landscape in late 2026 remains dominated by the intersection of geopolitical protectionism and aggressive administrative digitalization. While the OECD's Pillar Two framework faces mounting political resistance and uncertainty, particularly from the U.S., tax authorities worldwide are doubling down on structural compliance through mandated, real-time data transmission (e-invoicing). Simultaneously, tariffs have been elevated to a primary instrument of geopolitical statecraft, significantly increasing supply chain cost volatility and forcing multinational firms to integrate trade policy monitoring directly into their fiscal risk management strategies. The ASEAN region continues to balance these pressures by maintaining competitive, relatively stable corporate tax frameworks.",
   "trends": [
     {
       "id": "global-minimum-corporate-tax-and-pillar-two-volatility",
@@ -8,11 +8,10 @@
       "stage": "Peak Hype",
       "velocity": "Fast",
       "category": "Corporate Tax",
-      "summary": "Pillar Two implementation is experiencing friction as the U.S. reconsider its commitments, leading to uncertainty in global tax alignment and potential retaliatory tariff measures.",
+      "summary": "Implementation of Pillar Two is encountering significant friction as key jurisdictions reconsider commitments, leading to widespread uncertainty in global tax alignment and potential retaliatory measures.",
       "evidence": [
-        "Chambers and Partners reports volatile shifts including U.S. withdrawal from OECD agreements.",
-        "EY Worldwide Corporate Tax Guide 2026 highlights a historically rapid rate of tax code reform worldwide.",
-        "KPMG 2026 data continues to track BEPS actions and effective tax rates amid changing political landscapes."
+        "Ongoing U.S. policy shifts regarding OECD tax agreements continue to drive global uncertainty.",
+        "Increased tracking of BEPS actions and effective tax rates by major advisory firms in light of shifting political landscapes."
       ],
       "source_links": [
         "https://chambers.com/practice-guides/guides/corporate-tax-2026",
@@ -49,19 +48,17 @@
         "source_risk": "medium"
       },
       "confidence": 0.95,
-      "reasoning": "The shift from steady implementation to policy volatility reflects the recent U.S. withdrawal, pushing this from a stable breakthrough to a period of peak regulatory hype and uncertainty.",
+      "reasoning": "The trend remains in the 'Peak Hype' phase due to the high volatility surrounding the U.S. stance and the resulting legislative standstill across multiple OECD signatories.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
-        "new_sources": [
-          "https://chambers.com/practice-guides/guides/corporate-tax-2026",
-          "https://www.ey.com/en_gl/technical/tax-guides/worldwide-corporate-tax-guide",
-          "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html"
-        ],
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Peak Hype",
+        "velocity_delta": 0,
+        "previous_velocity": "Fast",
+        "new_sources": [],
         "dropped_sources": [],
-        "summary_changed": false
+        "summary_changed": true
       }
     },
     {
@@ -70,17 +67,16 @@
       "stage": "Breakthrough",
       "velocity": "Fast",
       "category": "International",
-      "summary": "Mandatory real-time e-invoicing and structured data reporting (e.g., Singapore's InvoiceNow) are becoming standard, fundamentally altering corporate auditing and VAT compliance.",
+      "summary": "Mandatory real-time e-invoicing and structured data reporting are becoming the global gold standard, with Singapore's InvoiceNow acting as a primary blueprint for other nations to modernize VAT/GST compliance.",
       "evidence": [
-        "Singapore's InvoiceNow mandate is progressively rolling out through 2031, serving as a model for global digital tax transformation.",
-        "SAP and Stripe resources confirm the integration of e-invoicing as the primary method for reducing audit exceptions.",
-        "IRAS and Avalara confirm that structured data transmission is now a mandatory standard for GST-registered businesses."
+        "Singapore's phased rollout of InvoiceNow (Peppol-based) confirms the shift toward mandatory system-to-system invoice transmission.",
+        "Global administrative convergence toward structured data transmission to reduce audit exceptions."
       ],
       "source_links": [
         "https://e-invoicing.org/singapore",
         "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement",
-        "https://www.sap.com/resources/what-is-e-invoicing",
-        "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses"
+        "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
+        "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework"
       ],
       "source_details": [
         {
@@ -96,42 +92,45 @@
           "published_date": null
         },
         {
-          "url": "https://www.sap.com/resources/what-is-e-invoicing",
-          "domain": "sap.com",
+          "url": "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
+          "domain": "avalara.com",
           "type": "secondary",
           "published_date": null
         },
         {
-          "url": "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
-          "domain": "stripe.com",
-          "type": "secondary",
+          "url": "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
+          "domain": "imda.gov.sg",
+          "type": "primary",
           "published_date": null
         }
       ],
       "source_quality": {
         "total_sources": 4,
-        "primary_source_count": 1,
-        "secondary_source_count": 3,
+        "primary_source_count": 2,
+        "secondary_source_count": 2,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
         "source_risk": "low"
       },
       "confidence": 0.98,
-      "reasoning": "The velocity remains high as countries rapidly transition from pilot programs to mandatory, system-to-system invoice data transmission.",
+      "reasoning": "Continued transition from pilot/voluntary phases to mandatory, high-velocity enforcement regimes sustains the 'Breakthrough' status.",
       "validation_flags": [],
       "changed_since_previous_run": {
-        "is_new": true,
-        "stage_delta": "new",
-        "velocity_delta": "new",
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "Fast",
         "new_sources": [
-          "https://e-invoicing.org/singapore",
-          "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement",
-          "https://www.sap.com/resources/what-is-e-invoicing",
-          "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses"
+          "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
+          "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework"
         ],
-        "dropped_sources": [],
-        "summary_changed": false
+        "dropped_sources": [
+          "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
+          "https://www.sap.com/resources/what-is-e-invoicing"
+        ],
+        "summary_changed": true
       }
     },
     {
@@ -140,29 +139,29 @@
       "stage": "Breakthrough",
       "velocity": "Fast",
       "category": "Tariffs",
-      "summary": "Tariffs have moved beyond standard trade policy into a primary tool for geopolitical maneuvering, creating immediate supply chain cost volatility for multinationals.",
+      "summary": "Tariffs have evolved into a primary tool for geopolitical maneuvering, causing immediate and ongoing supply chain cost volatility that necessitates agile, real-time fiscal planning.",
       "evidence": [
-        "Reuters reports recent U.S. tariff hikes targeting major trade partners.",
-        "USITC and USA Customs Clearance confirm continuous updates to international trade schedules.",
-        "OIA Global reports significant impacts on cost of goods due to new U.S. trade policies."
+        "Continuous U.S. tariff hikes and updates to Harmonized Tariff Schedules targeting major trade partners.",
+        "S&P Global and OIA Global report rising economic impacts on global trade flows and import-export costs."
       ],
       "source_links": [
-        "https://www.reuters.com/business/tariffs",
         "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
+        "https://www.oiaglobal.com/tariff-updates",
         "https://usacustomsclearance.com/import-tariffs-updates",
-        "https://www.oiaglobal.com/tariff-updates"
+        "https://www.spglobal.com/market-intelligence/en/news-insights/topics/international-trade-tariffs-news",
+        "https://tariffcheck.org/updates"
       ],
       "source_details": [
-        {
-          "url": "https://www.reuters.com/business/tariffs",
-          "domain": "reuters.com",
-          "type": "secondary",
-          "published_date": null
-        },
         {
           "url": "https://www.usitc.gov/harmonized_tariff_information/announcement_archive",
           "domain": "usitc.gov",
           "type": "primary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.oiaglobal.com/tariff-updates",
+          "domain": "oiaglobal.com",
+          "type": "secondary",
           "published_date": null
         },
         {
@@ -172,23 +171,29 @@
           "published_date": null
         },
         {
-          "url": "https://www.oiaglobal.com/tariff-updates",
-          "domain": "oiaglobal.com",
+          "url": "https://www.spglobal.com/market-intelligence/en/news-insights/topics/international-trade-tariffs-news",
+          "domain": "spglobal.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://tariffcheck.org/updates",
+          "domain": "tariffcheck.org",
           "type": "secondary",
           "published_date": null
         }
       ],
       "source_quality": {
-        "total_sources": 4,
+        "total_sources": 5,
         "primary_source_count": 1,
-        "secondary_source_count": 3,
+        "secondary_source_count": 4,
         "wikipedia_source_count": 0,
         "blog_source_count": 0,
         "has_primary_sources": true,
         "source_risk": "low"
       },
       "confidence": 0.96,
-      "reasoning": "The trend remains in breakthrough as tariff activity frequency has escalated significantly in late 2026, causing direct, measurable impacts on corporate fiscal strategies.",
+      "reasoning": "High-velocity policy shifts and the increased frequency of updates maintain the 'Breakthrough' stage as trade protectionism becomes a staple of current corporate fiscal risk.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -197,9 +202,12 @@
         "velocity_delta": 0,
         "previous_velocity": "Fast",
         "new_sources": [
-          "https://www.oiaglobal.com/tariff-updates"
+          "https://tariffcheck.org/updates",
+          "https://www.spglobal.com/market-intelligence/en/news-insights/topics/international-trade-tariffs-news"
         ],
-        "dropped_sources": [],
+        "dropped_sources": [
+          "https://www.reuters.com/business/tariffs"
+        ],
         "summary_changed": true
       }
     },
@@ -209,20 +217,19 @@
       "stage": "Breakthrough",
       "velocity": "Steady",
       "category": "International",
-      "summary": "ASEAN member states continue to balance FDI attractiveness with regional tax transparency, utilizing standardized guides for cross-border tax compliance.",
+      "summary": "ASEAN member states continue to prioritize investment-friendly tax environments by maintaining competitive corporate tax rates, often diverging from broader global tax pressure points.",
       "evidence": [
-        "Grant Thornton's ASEAN 6 Tax Guide 2026 provides comprehensive coverage of compliance and tax developments.",
-        "Pathmaker's comparison highlights how member states maintain competitive landscapes despite global minimum tax pressures.",
-        "Singapore's tax administration framework continues to align with broader regional digitization efforts."
+        "Comparison of 9-country ASEAN corporate tax rates shows relative stability compared to OECD-led initiatives.",
+        "Grant Thornton's ASEAN 6 Tax Guide confirms a focus on specialized incentives for technology and priority sector investments."
       ],
       "source_links": [
-        "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026",
+        "https://www.grantthornton.th/insights/asean-6-tax-guide-2026",
         "https://pathmakerid.com/blog/corporate-tax-rates-in-asia-2026-a-9-country-asean-comparison"
       ],
       "source_details": [
         {
-          "url": "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026",
-          "domain": "grantthornton.co.th",
+          "url": "https://www.grantthornton.th/insights/asean-6-tax-guide-2026",
+          "domain": "grantthornton.th",
           "type": "secondary",
           "published_date": null
         },
@@ -243,7 +250,7 @@
         "source_risk": "medium"
       },
       "confidence": 0.92,
-      "reasoning": "ASEAN remains committed to a structured, steady pace of harmonization to maintain regional competitiveness, showing consistent progress without extreme volatility.",
+      "reasoning": "The region is maintaining a steady 'Breakthrough' pace by focusing on internal attractiveness and tax stability despite international pressures.",
       "validation_flags": [],
       "changed_since_previous_run": {
         "is_new": false,
@@ -251,8 +258,12 @@
         "previous_stage": "Breakthrough",
         "velocity_delta": 0,
         "previous_velocity": "Steady",
-        "new_sources": [],
-        "dropped_sources": [],
+        "new_sources": [
+          "https://www.grantthornton.th/insights/asean-6-tax-guide-2026"
+        ],
+        "dropped_sources": [
+          "https://www.grantthornton.co.th/insights/asean-6-tax-guide-2026"
+        ],
         "summary_changed": true
       }
     }
@@ -260,7 +271,7 @@
   "intelligence_metadata": {
     "agent": "gemini-3.1-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-11-26T10:01:37.913856Z",
+    "timestamp": "2026-11-26T16:01:45.112428Z",
     "active_narratives": 4,
     "validation": {
       "accepted": 4,
@@ -271,8 +282,8 @@
       "status": "success",
       "model": "gemini-3.1-flash-lite",
       "focus": "Corporate Tax / Tariffs",
-      "timestamp": "2026-11-26T10:01:37.913856Z",
-      "search_result_count": 31,
+      "timestamp": "2026-11-26T16:01:45.112428Z",
+      "search_result_count": 21,
       "validation_error_count": 0,
       "validation_failures": []
     }
@@ -281,8 +292,8 @@
     "status": "success",
     "model": "gemini-3.1-flash-lite",
     "focus": "Corporate Tax / Tariffs",
-    "timestamp": "2026-11-26T10:01:37.913856Z",
-    "search_result_count": 31,
+    "timestamp": "2026-11-26T16:01:45.112428Z",
+    "search_result_count": 21,
     "validation_error_count": 0,
     "validation_failures": []
   }
