@@ -1,3 +1,3 @@
-# Crypto Intelligence Briefing - 2026-11-26 16:01
+# Crypto Intelligence Briefing - 2026-11-26 22:01
 
-The cryptocurrency ecosystem is advancing rapidly around institutional Bitcoin adoption, anchored by multi-billion dollar ETF inflows, alongside ongoing developments in Ethereum's decentralized application dominance. Concurrently, technical and regulatory dialogues regarding Bitcoin programmability, legislative frameworks like the CLARITY Act, and cross-chain liquidity solutions such as native cross-chain swaps are reshaping structural interactions between Bitcoin and Ethereum EVM architectures.
+The cryptocurrency ecosystem is currently navigating a period of structural tension between mainstream institutional adoption of Bitcoin via ETFs and regulatory setbacks regarding comprehensive market structure bills like the CLARITY Act. While Ethereum maintains its deep-rooted smart contract dominance and cross-chain solutions push for native BTC-to-ETH interoperability, the failure of the Senate to advance the CLARITY Act highlights the ongoing friction in establishing unified digital asset frameworks in the United States.
