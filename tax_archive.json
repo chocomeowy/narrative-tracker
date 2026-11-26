@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-26T04:01:47.849377Z",
+  "last_updated": "2026-11-26T10:01:37.913856Z",
   "archived_trends": [
     {
       "id": "strategic-corporate-tax-reforms-in-competitive-hubs",
@@ -10211,6 +10211,137 @@
         "summary_changed": true
       },
       "archived_at": "2026-11-25T22:01:38.228434Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "oecd-pillar-two-and-global-corporate-tax-framework-enforcement",
+      "name": "OECD Pillar Two and Global Corporate Tax Framework Enforcement",
+      "stage": "Breakthrough",
+      "velocity": "Fast",
+      "category": "Corporate Tax",
+      "summary": "Pillar Two has fully transitioned to active operational enforcement across major economies, standardizing effective tax rate reporting and keeping baseline corporate tax frameworks steady.",
+      "evidence": [
+        "KPMG 2026 data confirms alignment of national tax codes with OECD Pillar Two standards.",
+        "TaxRate.org reports a baseline federal corporate tax rate of 21% alongside ongoing Pillar Two tracking.",
+        "OECD Corporate Tax Statistics 2026 details comprehensive effective tax rates and BEPS metrics."
+      ],
+      "source_links": [
+        "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html",
+        "https://taxrate.org/corporate-tax-rates",
+        "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en/full-report/corporate-effective-tax-rates_1ef65f9a.html"
+      ],
+      "source_details": [
+        {
+          "url": "https://kpmg.com/us/en/taxnewsflash/news/2026/07/oecd-corporate-tax-statistics-2026.html",
+          "domain": "kpmg.com",
+          "type": "secondary",
+          "published_date": "2026-07-01"
+        },
+        {
+          "url": "https://taxrate.org/corporate-tax-rates",
+          "domain": "taxrate.org",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en/full-report/corporate-effective-tax-rates_1ef65f9a.html",
+          "domain": "oecd.org",
+          "type": "primary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 3,
+        "primary_source_count": 1,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": true,
+        "source_risk": "low"
+      },
+      "confidence": 0.98,
+      "reasoning": "Enforcement remains steady and universal, backed by comprehensive institutional reporting from the OECD and major advisory firms.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "Fast",
+        "new_sources": [
+          "https://taxrate.org/corporate-tax-rates",
+          "https://www.oecd.org/en/publications/corporate-tax-statistics-2026_73af6222-en/full-report/corporate-effective-tax-rates_1ef65f9a.html"
+        ],
+        "dropped_sources": [
+          "https://journals.law.harvard.edu/ilj/wp-content/uploads/sites/84/Vol.-67.1_Gomes_The-Global-Minimum-Tax-Pillar-Two.pdf",
+          "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-gl/technical/tax-alerts/documents/minimum-tax-implementation-handbook-pillar-two.pdf",
+          "https://www.pwc.com/gx/en/services/tax/pillar-two-readiness/country-tracker.html"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-11-26T10:01:37.913856Z",
+      "archive_reason": "not_returned_by_latest_agent_run"
+    },
+    {
+      "id": "digital-tax-administration-and-e-invoicing-mandates",
+      "name": "Digital Tax Administration and E-Invoicing Mandates",
+      "stage": "Breakthrough",
+      "velocity": "Fast",
+      "category": "International",
+      "summary": "Tax authorities are rapidly accelerating real-time compliance frameworks, mandating structured e-invoicing data to transform corporate auditing for VAT and GST.",
+      "evidence": [
+        "Stripe and SAP 2026 resources detail the integration of e-invoicing to reduce compliance exceptions and automate document auditing.",
+        "Regional implementations like InvoiceNow set expectations for global rollouts."
+      ],
+      "source_links": [
+        "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
+        "https://www.sap.com/resources/what-is-e-invoicing"
+      ],
+      "source_details": [
+        {
+          "url": "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
+          "domain": "stripe.com",
+          "type": "secondary",
+          "published_date": null
+        },
+        {
+          "url": "https://www.sap.com/resources/what-is-e-invoicing",
+          "domain": "sap.com",
+          "type": "secondary",
+          "published_date": null
+        }
+      ],
+      "source_quality": {
+        "total_sources": 2,
+        "primary_source_count": 0,
+        "secondary_source_count": 2,
+        "wikipedia_source_count": 0,
+        "blog_source_count": 0,
+        "has_primary_sources": false,
+        "source_risk": "medium"
+      },
+      "confidence": 0.95,
+      "reasoning": "E-invoicing adoption velocity has accelerated as automated auditing becomes the global administrative standard.",
+      "validation_flags": [],
+      "changed_since_previous_run": {
+        "is_new": false,
+        "stage_delta": 0,
+        "previous_stage": "Breakthrough",
+        "velocity_delta": 0,
+        "previous_velocity": "Fast",
+        "new_sources": [
+          "https://stripe.com/resources/more/electronic-invoicing-101-a-quick-guide-for-businesses",
+          "https://www.sap.com/resources/what-is-e-invoicing"
+        ],
+        "dropped_sources": [
+          "https://e-invoicing.org/singapore",
+          "https://www.avalara.com/us/en/blog/singapore-e-invoicing-invoicenow-gst-invoicenow-mandate-2026-2031.html",
+          "https://www.imda.gov.sg/how-we-can-help/nationwide-e-invoicing-framework",
+          "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement"
+        ],
+        "summary_changed": true
+      },
+      "archived_at": "2026-11-26T10:01:37.913856Z",
       "archive_reason": "not_returned_by_latest_agent_run"
     }
   ]
