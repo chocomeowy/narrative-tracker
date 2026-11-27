@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-11-27 10:01
+# Tax Intelligence Briefing - 2026-11-27 16:01
 
-As of late 2026, global corporate tax governance and international trade policy are undergoing widespread structural transformations. Multinational enterprises face increasing operational complexity driven by the international implementation of OECD Pillar Two 15% global minimum tax rules (GloBE), expanding nationwide mandates for real-time structured digital e-invoicing systems like Singapore's InvoiceNow Peppol framework, and persistent trade tariff adjustments. Additionally, ASEAN economies and global jurisdictions continue balancing revenue protection with targeted corporate tax incentives and competitive rate structures.
+Global tax governance and trade policies in 2026 are heavily dominated by the active enforcement of the OECD Pillar Two 15% global minimum tax, ongoing statutory updates across worldwide jurisdictions, and heightened volatility from aggressive international trade tariff actions. Governments are balancing revenue protection through digital e-invoicing mandates and targeted corporate tax structures while managing cross-border supply chain shifts.
