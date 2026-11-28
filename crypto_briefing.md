@@ -1,3 +1,3 @@
-# Crypto Intelligence Briefing - 2026-11-28 10:01
+# Crypto Intelligence Briefing - 2026-11-28 16:01
 
 The technical and financial boundaries separating Bitcoin and Ethereum continue to evolve rapidly. Institutional participation in Bitcoin via spot ETFs has firmly established BTC as a macro treasury asset, bypassing legacy regulatory hurdles. Concurrently, trust-minimized cross-chain infrastructure like THORChain and Zeus Network is replacing wrapped tokens with native liquidity routing. Meanwhile, legislative gridlock regarding the Clarity Act in the US Senate has reinforced developer adoption of decidable programming languages like Clarity, providing robust competition to EVM-based smart contract complexity by tying deterministic logic directly to Bitcoin's security model.
