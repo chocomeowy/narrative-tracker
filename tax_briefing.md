@@ -1,3 +1,3 @@
-# Tax Intelligence Briefing - 2026-11-28 10:01
+# Tax Intelligence Briefing - 2026-11-28 16:01
 
-Global tax policy in late 2026 is defined by the full-scale operationalization of OECD Pillar Two global minimum tax rules, stabilizing corporate statutory tax rates to protect regional competitiveness, escalating tariff-based trade protectionism, and accelerated mandates for continuous transaction controls through Peppol-based e-invoicing networks.
+Global tax policy continues to experience structural transformations driven by the worldwide operationalization of OECD Pillar Two rules, increasing geopolitical tariff protections, and accelerated continuous transaction controls through digital e-invoicing frameworks like Singapore's GST InvoiceNow mandate. Jurisdictions are actively balancing regional economic competitiveness with stringent international transparency standards.
